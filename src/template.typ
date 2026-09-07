@@ -874,16 +874,15 @@
 // --- front matter -----------------------------------------------------------
 
 // What the site needs to know about a book and cannot read off its pages:
-// where it files, what it is called, and whether it is Eliasson's or ours.
-// `..named` rather than a parameter list, so an unknown key is an error and
-// `align` never shadows Typst's own function inside this scope.
+// where it files and what it is called. `..named` rather than a parameter list,
+// so an unknown key is an error and `align` never shadows Typst's own function
+// inside this scope.
 #let BOOK_META_REQUIRED = ("slug", "army", "version", "layout")
-#let BOOK_META_OPTIONAL = ("cover", "align", "shelf", "authored",
-                          "id", "base", "edition")
+#let BOOK_META_OPTIONAL = ("cover", "align")
 
 // An extracted book takes its allegiance from the rulebook's Alliance &
 // Alignment lists at import time; anything absent here simply has none.
-#let BOOK_META_DEFAULTS = (shelf: "base", authored: false)
+#let BOOK_META_DEFAULTS = (:)
 
 #let book-meta(..named) = {
   assert(named.pos().len() == 0,
@@ -899,9 +898,9 @@
   assert(m.layout in ("army", "rules"),
     message: "book-meta: layout must be \"army\" or \"rules\", not \"" + m.layout + "\"")
   // Built by walking the known keys rather than listing them a second time.
-  // Naming them twice once meant `id`, `base` and `edition` were accepted here
-  // and then silently dropped from what a reader could query - the assert
-  // passed and the data vanished.
+  // Naming them twice once meant a key was accepted by the assert above and
+  // then silently dropped from what a reader could query - the assert passed
+  // and the data vanished.
   let out = (:)
   for key in known {
     out.insert(key, m.at(key, default: BOOK_META_DEFAULTS.at(key, default: none)))

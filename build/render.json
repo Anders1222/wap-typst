@@ -104,16 +104,8 @@
   "cover": "covers/rulebook.png"
  },
  {
-  "id": "ordo-draconis",
-  "cover": null
- },
- {
   "id": "tomb-kings",
   "cover": "covers/tomb-kings.png"
- },
- {
-  "id": "tyranids",
-  "cover": null
  },
  {
   "id": "vampire-counts",
@@ -130,49 +122,5 @@
  {
   "id": "zombie-pirates",
   "cover": "covers/zombie-pirates.png"
- },
- {
-  "id": "albion-house",
-  "cover": ""
- },
- {
-  "id": "beastmen-house",
-  "cover": ""
- },
- {
-  "id": "daemons-of-chaos-house",
-  "cover": ""
- },
- {
-  "id": "dwarfs-house",
-  "cover": ""
- },
- {
-  "id": "empire-house",
-  "cover": ""
- },
- {
-  "id": "lizardmen-house",
-  "cover": ""
- },
- {
-  "id": "lizardmen-proposal",
-  "cover": ""
- },
- {
-  "id": "orcs-goblins-proposal",
-  "cover": ""
- },
- {
-  "id": "rulebook-house",
-  "cover": ""
- },
- {
-  "id": "rulebook-proposal",
-  "cover": ""
- },
- {
-  "id": "skaven-house",
-  "cover": ""
  }
 ]

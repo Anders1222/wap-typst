@@ -37,11 +37,6 @@ python extract/to_records.py src/lizardmen.typ
 python extract/coverage.py "path/to/book.pdf" build/lizardmen.json   # words lost
 python extract/welds.py build/lizardmen.json                         # words welded
 python extract/roundtrip.py lizardmen --source "path/to/book.pdf"    # rendered PDF vs source
-
-# Edition promises, checked against rendered PDFs (compile both first).
-python extract/check_editions.py out/lizardmen-house.pdf out/lizardmen.pdf
-python extract/check_editions.py out/rulebook-proposal.pdf out/rulebook-house.pdf \
-  --identical-body --chapter PROPOSALS
 ```
 
 `batch.py` skips a book whose JSON is newer than its PDF; `--force` re-extracts.
@@ -60,8 +55,8 @@ Three things read *out* of that, none write back into it:
   book's `<book-meta>` and counting its own headings, and writes
   `site/index.html` and `build/render.json`. `site/index.html` is **generated
   output** — edit `emit.py` and `site/style.css` (which it inlines), never the
-  HTML. Books declare their own allegiance and shelf, so emit fails loudly on a
-  book with no `align:` or an unknown `shelf:` rather than silently hiding it.
+  HTML. Books declare their own allegiance, so emit fails loudly on a book with
+  no `align:` rather than silently filing it nowhere.
 - **`.github/workflows/publish.yml`** walks `build/render.json` on push to
   `main` and compiles each id with the same two flags as above. It has only the
   Typst compiler — no Python, and never the source PDFs — so anything Python
@@ -75,20 +70,11 @@ the PDFs, `batch.py` orchestrates extract → coverage → welds into `build/`, 
 `to_book.py` is the separate deliberate step that writes Typst, escaping the PDF
 prose as it goes.
 
-**Editions** are forks kept in git: `src/lizardmen-house.typ` beside
-`src/lizardmen.typ`, so a change is a `git diff` and an upstream release is a
-three-way merge. `editions/<slug>/edition.toml` holds the edition's identity and
-colophon; `editions/<slug>/<book>.toml` records each change and why. The changed
-rules are deliberately **not marked in the body** — the changelog chapter at the
-back is the only place a reader learns the body was altered, which is exactly
-what `check_editions.py` enforces.
-
 ## Invariants worth not breaking
 
 - **IMPORTANT: never run `to_book.py` against a slug that already has a file in
   `src/`.** It overwrites, and a book is hand-owned from the moment it is
-  imported, so re-importing silently throws away every edit since — including
-  the edition forks derived from it.
+  imported, so re-importing silently throws away every edit since.
 - **Smart quotes stay off** (`set smartquote(enabled: false)` in `book()`), and
   hyphens before digits are handled at import. Typst would otherwise curl every
   apostrophe and turn `-1` into a minus sign in text the colophon promises is
@@ -109,12 +95,10 @@ There is no test suite, so verification is per-change and must be run, not
 assumed:
 
 - Changed a book or `template.typ` → compile the affected book(s) with the two
-  flags above and confirm exit 0. A template change affects all 44 books, so
+  flags above and confirm exit 0. A template change affects all 31 books, so
   compile more than one.
 - Changed `#book-meta`, or added/removed/renamed a book → `python emit.py`, and
   commit the resulting `site/index.html` and `build/render.json`.
-- Changed an edition's body → recompile it and its parent, then run
-  `check_editions.py` on the two PDFs.
 - Changed anything under `extract/` → the gates need the source PDFs, which are
   not in the repo. If you don't have them, say so rather than reporting the
   change as verified.

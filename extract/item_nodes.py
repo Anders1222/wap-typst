@@ -120,7 +120,7 @@ def main():
     books = {}
     for p in sorted(glob.glob(os.path.join(SRC, "*.typ"))):
         b = os.path.basename(p)[:-4]
-        if b.endswith(("-house", "-proposal")) or b in ("rulebook", "template"):
+        if b in ("rulebook", "template"):
             continue
         found = parse_items(p)
         if found:
