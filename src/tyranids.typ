@@ -261,19 +261,20 @@ The model gains a shooting attack: range 4/8", Strength 4, March & Shoot. In add
 
 = CHARACTERS
 
-#entry("HIVE TYRANT", first: true)
-
+#unit("HIVE TYRANT",
+  first: true,
+  before: [
 #note[A Hive Tyrant is the Hive Mind made flesh: a towering synapse-beast grown to command, its will lashing the broods around it into perfect, silent obedience. Where it strides, the swarm does not merely fight — it thinks.]
 
 #profile(
   (name: "Hive Tyrant", m: 7, ws: 7, bs: 3, s: 6, t: 6, w: 5, i: 6, a: 5, ld: 10, points: 280),
 )
-#field("TROOP TYPE", "Monster (Character, Tyranid)")
-#field("BASE SIZE", "50x50 or 50x100")
-#field("EQUIPMENT", "Scything talons")
-#field("SPECIAL RULES", "Tyranid, Synapse (Hatred), Synaptic Relay, Terror, Natural Armour (4+), Stomp (D6)")
-#field("OPTIONS", "")
-
+  ],
+  troop-type: "Monster (Character, Tyranid)",
+  base-size: "50x50 or 50x100",
+  equipment: "Scything talons",
+  special-rules: "Tyranid, Synapse (Hatred), Synaptic Relay, Terror, Natural Armour (4+), Stomp (D6)",
+  options: [
 - May replace scything talons with a bonesword & lash whip +25 points
 - May take a venom cannon +30 points
 - May take membranous wings (Fly (8)) +40 points
@@ -283,9 +284,8 @@ The model gains a shooting attack: range 4/8", Strength 4, March & Shoot. In add
   - Regenerative tissues +35 points
   - Toxin sacs +15 points
   - Adrenal glands +10 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Hive Tyrant is a Lord choice.
 - May select Biomorphs up to a total of 100 points.
 
@@ -302,55 +302,57 @@ Close combat attacks made with the bonesword have the Killing Blow special rule.
 #namecost("HIVE COMMANDER", "")
 
 The Tyrant directs the infiltration itself. When you write your army roster, one Core unit of Infantry in the army gains the Ambushers special rule.
+  ],
+)
 
-#entry("TYRANID PRIME")
-
+#unit("TYRANID PRIME",
+  before: [
 #note[Grown in the same birthing-vats as the Warriors it shepherds, the Prime is the alpha organism of the melee — the Hive Mind's blade sunk into the centre of the line.]
 
 #profile(
   (name: "Tyranid Prime", m: 5, ws: 6, bs: 3, s: 5, t: 5, w: 3, i: 5, a: 4, ld: 9, points: 130),
 )
-#field("TROOP TYPE", "Monstrous Infantry (Character, Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Scything talons")
-#field("SPECIAL RULES", "Tyranid, Synapse (Precision), Alpha Warrior, Natural Armour (5+)")
-#field("OPTIONS", "")
-
+  ],
+  troop-type: "Monstrous Infantry (Character, Tyranid)",
+  base-size: "40x40",
+  equipment: "Scything talons",
+  special-rules: "Tyranid, Synapse (Precision), Alpha Warrior, Natural Armour (5+)",
+  options: [
 - May replace scything talons with a bonesword & lash whip (see Hive Tyrant) +20 points
 - May take a deathspitter +10 points
 - May take broodline upgrades:
   - Regenerative tissues +30 points
   - Toxin sacs +15 points
   - Adrenal glands +10 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Tyranid Prime is a Hero choice.
 - May select Biomorphs up to a total of 50 points.
 
 #namecost("ALPHA WARRIOR", "")
 
 A unit of Tyranid Warriors joined by the Tyranid Prime gains +1 Weapon Skill.
+  ],
+)
 
-#entry("BROODLORD")
-
+#unit("BROODLORD",
+  before: [
 #note[The patriarch of the hidden broods comes to battle last, after its children have been among the prey for a season — beneath the granaries, under the temples, wearing the dark like a cloak.]
 
 #profile(
   (name: "Broodlord", m: 6, ws: 7, bs: 0, s: 5, t: 5, w: 3, i: 7, a: 4, ld: 9, points: 155),
 )
-#field("TROOP TYPE", "Monstrous Infantry (Character, Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Synapse (Communion), Ambushers, Rending Claws, Natural Armour (5+)")
-#field("OPTIONS", "")
-
+  ],
+  troop-type: "Monstrous Infantry (Character, Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Synapse (Communion), Ambushers, Rending Claws, Natural Armour (5+)",
+  options: [
 - May take broodline upgrades:
   - Regenerative tissues +30 points
   - Toxin sacs +15 points
   - Adrenal glands +10 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Broodlord is a Hero choice.
 - May select Biomorphs up to a total of 50 points.
 
@@ -361,49 +363,53 @@ The Broodlord may join a unit of Genestealers during deployment and enter play w
 #namecost("HYPNOTIC GAZE", "")
 
 At the start of each round of close combat, one enemy model in base contact with the Broodlord — the challenger, if the Broodlord is in a challenge — must pass a Leadership test or be transfixed: it has the Always Strikes Last special rule and suffers \-1 Weapon Skill until the end of the round.
+  ],
+)
 
-#entry("NEUROTYRANT")
-
+#unit("NEUROTYRANT",
+  before: [
 #note[Little more than a vast brain borne up by wasted limbs and naked will, the Neurotyrant pours the Hive Mind's static across the battlefield until wizards choke on their own half-formed spells.]
 
 #profile(
   (name: "Neurotyrant", m: 5, ws: 3, bs: 0, s: 4, t: 5, w: 3, i: 3, a: 2, ld: 10, points: 150),
 )
-#field("TROOP TYPE", "Monstrous Infantry (Character, Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Synapse (Dread), Synaptic Relay (see Hive Tyrant), Magic Resistance (2), Natural Armour (5+)")
-#field("OPTIONS", "")
-
+  ],
+  troop-type: "Monstrous Infantry (Character, Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Synapse (Dread), Synaptic Relay (see Hive Tyrant), Magic Resistance (2), Natural Armour (5+)",
+  options: [
 - May take broodline upgrades:
   - Regenerative tissues +30 points
   - Toxin sacs +15 points
   - Adrenal glands +10 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Neurotyrant is a Hero choice.
 - May select Biomorphs up to a total of 50 points.
 
 #namecost("NEURAL AMPLIFIER", "")
 
 While the Neurotyrant is on the battlefield, the casting penalty from Shadow in the Warp is \-2 rather than \-1.
+  ],
+)
 
 = CORE UNITS
 
-#entry("TERMAGANTS", first: true)
-
+#unit("TERMAGANTS",
+  first: true,
+  before: [
 #note[The chittering tide. Each termagant is a quick, spiteful rifle-beast, its fleshborer spitting burrowing grubs that chew through mail and bone with equal enthusiasm.]
 
 #profile(
   (name: "Termagant", m: 5, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 5, points: 7),
 )
-#field("UNIT SIZE", "10-40")
-#field("TROOP TYPE", "Infantry (Tyranid)")
-#field("BASE SIZE", "25x25")
-#field("EQUIPMENT", "Fleshborer")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (6+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "10-40",
+  troop-type: "Infantry (Tyranid)",
+  base-size: "25x25",
+  equipment: "Fleshborer",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (6+)",
+  options: [
 - May take toxin sacs +1 point/model
 - May replace fleshborers with devourers +2 points/model
 
@@ -415,131 +421,146 @@ While the Neurotyrant is on the battlefield, the casting penalty from Shadow in 
 // never trigger. Statlines across the gaunt line were beefed and minimum
 // brood sizes halved on purpose - the swarm is played smaller than the lore
 // implies because someone has to paint it.
-#entry("HORMAGAUNTS")
+  ],
+)
 
+#unit("HORMAGAUNTS",
+  before: [
 #note[Bred for the leap and the lunge, hormagaunts come on in scything waves and strike home before the prey has finished forming ranks.]
 
 #profile(
   (name: "Hormagaunt", m: 6, ws: 4, bs: 0, s: 3, t: 3, w: 1, i: 5, a: 2, ld: 5, points: 9),
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Tyranid)")
-#field("BASE SIZE", "25x25")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Bounding Leap, Armour Piercing (1), Natural Armour (6+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "10-30",
+  troop-type: "Infantry (Tyranid)",
+  base-size: "25x25",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Bounding Leap, Armour Piercing (1), Natural Armour (6+)",
+  options: [
 - May take toxin sacs +1 point/model
 - May take adrenal glands +1 point/model
 
 #namecost("BOUNDING LEAP", "")
 
 Models with this rule have the Swiftstride special rule.
+  ],
+)
 
-#entry("GARGOYLES")
-
+#unit("GARGOYLES",
+  before: [
 #note[The swarm's shadow cast across the sky. Gargoyles wheel and dive on membranous wings, washing the ranks below with fleshborer fire in the last breath before the charge lands.]
 
 #profile(
   (name: "Gargoyle", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 2, ld: 5, points: 15),
 )
-#field("UNIT SIZE", "6-18")
-#field("TROOP TYPE", "Infantry (Tyranid)")
-#field("BASE SIZE", "25x25")
-#field("EQUIPMENT", "Fleshborer")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Fly (10), Natural Armour (6+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "6-18",
+  troop-type: "Infantry (Tyranid)",
+  base-size: "25x25",
+  equipment: "Fleshborer",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Fly (10), Natural Armour (6+)",
+  options: [
 - May take toxin sacs +1 point/model
+  ],
+)
 
-#entry("NEUROGAUNTS")
-
+#unit("NEUROGAUNTS",
+  before: [
 #note[Hunched beneath the node-organisms fused to their spines, neurogaunts exist only to carry the Hive Mind's voice a little further — living cable in a web of will.]
 
 #profile(
   (name: "Neurogaunt", m: 5, ws: 2, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: 5),
 )
-#field("UNIT SIZE", "8-24")
-#field("TROOP TYPE", "Infantry (Tyranid)")
-#field("BASE SIZE", "25x25")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (6+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "8-24",
+  troop-type: "Infantry (Tyranid)",
+  base-size: "25x25",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (6+)",
+  options: [
 - May take warp-static cysts +2 points/model
 
 #namecost("SYNAPTIC NODE", "")
 
 While the unit is within 6" of a friendly Synapse creature, friendly Tyranid units within 6" of the unit count as being within range of that Synapse creature, and may use its Leadership as normal. A unit may not count as in range through more than one Synaptic Node at a time, and a Synaptic Node may not relay through another Synaptic Node.
+  ],
+)
 
-#entry("RIPPER SWARMS")
-
+#unit("RIPPER SWARMS",
+  before: [
 #note[Where the swarm has passed, rippers boil out of the earth to strip whatever remains. They are the reclamation made visible: everything that falls is eaten, and everything eaten becomes swarm.]
 
 #profile(
   (name: "Ripper Swarm", m: 5, ws: 2, bs: 0, s: 2, t: 2, w: 6, i: 3, a: 6, ld: 3, points: 40),
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Swarm (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "3-9",
+  troop-type: "Swarm (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed)",
+  options: [
 - May take toxin sacs +3 points/base
 - May take tunnelling claws (Ambushers) +5 points/base
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - Ripper Swarms do not count towards the minimum number of Core units.
+  ],
+)
 
 = SPECIAL UNITS
 
-#entry("TYRANID WARRIORS", first: true)
-
+#unit("TYRANID WARRIORS",
+  first: true,
+  before: [
 #note[The Warriors are the swarm's captains, of a kind — save that no captain of men shares one mind with every soldier under his command, and no company of men fights on after its heart has been told, rather than persuaded, not to break.]
 
 #profile(
   (name: "Tyranid Warrior", m: 5, ws: 4, bs: 3, s: 4, t: 4, w: 3, i: 4, a: 3, ld: 9, points: 45),
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Scything talons")
-#field("SPECIAL RULES", "Tyranid, Synapse (Discipline), Natural Armour (5+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  equipment: "Scything talons",
+  special-rules: "Tyranid, Synapse (Discipline), Natural Armour (5+)",
+  options: [
 - May take deathspitters +6 points/model
 - May take boneswords (Killing Blow) +8 points/model
 - May take toxin sacs +3 points/model
 - May take adrenal glands +3 points/model
+  ],
+)
 
-#entry("GENESTEALER BROOD")
-
+#unit("GENESTEALER BROOD",
+  before: [
 #note[The vanguard organism. Genestealers go before the hive fleet by years, seeding the cellars and sewers of doomed cities, and when the swarm descends at last it finds the gates already open.]
 
 #profile(
   (name: "Genestealer", m: 6, ws: 5, bs: 0, s: 4, t: 4, w: 1, i: 6, a: 3, ld: 7, points: 15),
 )
-#field("UNIT SIZE", "5-20")
-#field("TROOP TYPE", "Infantry (Tyranid)")
-#field("BASE SIZE", "25x25")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Ambushers, Skirmishers, Rending Claws, Natural Armour (6+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "5-20",
+  troop-type: "Infantry (Tyranid)",
+  base-size: "25x25",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Ambushers, Skirmishers, Rending Claws, Natural Armour (6+)",
+  options: [
 - May take toxin sacs +1 point/model
 - May take adrenal glands +1 point/model
+  ],
+)
 
-#entry("LICTOR")
-
+#unit("LICTOR",
+  before: [
 #note[A Lictor is the swarm's held breath — a chameleon-skinned assassin that stands motionless among the trees for days, tasting the air for the scent of wizards.]
 
 #profile(
   (name: "Lictor", m: 6, ws: 6, bs: 0, s: 5, t: 4, w: 3, i: 7, a: 4, ld: 8, points: 90),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Ambushers, Skirmishers, Forest Strider, Natural Armour (5+)")
-#field("NOTES", "")
-
+  ],
+  unit-size: "1",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Ambushers, Skirmishers, Forest Strider, Natural Armour (5+)",
+  notes: [
 - A Lictor never takes Instinctive Behaviour tests — the vanguard organism hunts alone by design.
 
 #namecost("CHAMELEONIC SCALES", "")
@@ -549,122 +570,144 @@ Enemy missile attacks targeting the Lictor suffer an additional \-1 To Hit modif
 #namecost("FEEDER TENDRILS", "")
 
 The Lictor may re-roll failed To Hit rolls in challenges, and against enemy characters and Wizards.
+  ],
+)
 
-#entry("RAVENERS")
-
+#unit("RAVENERS",
+  before: [
 #note[Serpentine burrowers that swim through soil as eels through water, raveners erupt beneath the prey's feet in a spray of earth and scything talons.]
 
 #profile(
   (name: "Ravener", m: 7, ws: 4, bs: 0, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 6, points: 42),
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Beast (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Ambushers, Natural Armour (5+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "3-9",
+  troop-type: "Monstrous Beast (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Ambushers, Natural Armour (5+)",
+  options: [
 - May take toxin sacs +3 points/model
 - May take adrenal glands +3 points/model
+  ],
+)
 
-#entry("ZOANTHROPES")
-
+#unit("ZOANTHROPES",
+  before: [
 #note[Withered bodies beneath swollen skulls, zoanthropes drift above the ground on a cushion of will, drinking the Winds of Magic dry before the enemy's wizards can call on them.]
 
 #profile(
   (name: "Zoanthrope", m: 4, ws: 2, bs: 3, s: 3, t: 4, w: 3, i: 3, a: 1, ld: 9, points: 70),
 )
-#field("UNIT SIZE", "1-3")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Synapse (Communion), Magic Resistance (3), Natural Armour (5+)")
+  ],
+  unit-size: "1-3",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Synapse (Communion), Magic Resistance (3), Natural Armour (5+)",
+  special-rules-body: [
 #namecost("WARP BLAST", "")
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Armour Piercing (2)"))
 #namecost("PSYCHIC DRAIN", "")
 
 At the start of the enemy Magic phase, remove one power die from the enemy power pool for each Zoanthrope unit on the battlefield, to a maximum of two dice per phase.
+  ],
+)
 
-#entry("BIOVORE")
-
+#unit("BIOVORE",
+  before: [
 #note[The biovore waddles at the rear of the swarm, dorsal chambers heavy with living mines, and lobs its squirming children over the lines with a wet, satisfied grunt.]
 
 #profile(
   (name: "Biovore", m: 4, ws: 2, bs: 3, s: 4, t: 4, w: 3, i: 2, a: 2, ld: 6, points: 70),
 )
-#field("UNIT SIZE", "1-3")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (5+)")
+  ],
+  unit-size: "1-3",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (5+)",
+  special-rules-body: [
 #namecost("SPORE MINE LAUNCHER", "")
 
 The Biovore fires as a stone thrower (see Trajectory Weapons in the Warhammer rulebook) with a range of 12"\-36", Strength 3, and Strength 6 with the Armour Piercing (1) and Multiple Wounds (D3) special rules at the centre of the template. On a Misfire, do not roll on the Misfire chart: the Biovore does not shoot this turn and suffers 1 Wound with no saves allowed.
+  ],
+)
 
-#entry("TYRANT GUARD")
-
+#unit("TYRANT GUARD",
+  before: [
 #note[Blind, mute and absolutely devoted, Tyrant Guard exist to die in their master's place — walls of chitin that step into the path of arrow, bolt and cannonball without being asked.]
 
 #profile(
   (name: "Tyrant Guard", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 3, i: 2, a: 2, ld: 7, points: 50),
 )
-#field("UNIT SIZE", "1-3")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (4+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "1-3",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (4+)",
+  options: [
 - May take toxin sacs +5 points/model
 - May take adrenal glands +5 points/model
 
 #namecost("SHIELD OF THE HIVE MIND", "")
 
 While a friendly Hive Tyrant or Neurotyrant is within 3" of the unit, each hit that model suffers from a shooting attack is, on a roll of 2+, resolved against the Tyrant Guard unit instead.
+  ],
+)
 
-#entry("HIVE GUARD")
-
+#unit("HIVE GUARD",
+  before: [
 #note[The impaler cannon has no need to see its prey. Its ammunition hunts by warmth and hate, threading over walls and through smoke to find the marrow.]
 
 #profile(
   (name: "Hive Guard", m: 4, ws: 3, bs: 4, s: 4, t: 5, w: 3, i: 2, a: 2, ld: 6, points: 70),
 )
-#field("UNIT SIZE", "1-3")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Impaler cannon")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (4+)")
+  ],
+  unit-size: "1-3",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  equipment: "Impaler cannon",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (4+)",
+  special-rules-body: [
 #namecost("IMPALER CANNON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Armour Piercing (2), Multiple Shots (2)"))
 
 The impaler cannon may target a unit that is out of sight, provided it is in range, at an additional \-1 To Hit modifier.
+  ],
+)
 
-#entry("VENOMTHROPES")
-
+#unit("VENOMTHROPES",
+  before: [
 #note[Venomthropes drift with the swarm in a haze of their own spores — a walking fog-bank of poison through which the broods advance half-seen.]
 
 #profile(
   (name: "Venomthrope", m: 5, ws: 3, bs: 0, s: 3, t: 4, w: 3, i: 3, a: 2, ld: 6, points: 55),
 )
-#field("UNIT SIZE", "1-3")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Toxin sacs (see Broodline Upgrades), Natural Armour (6+)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "1-3",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Toxin sacs (see Broodline Upgrades), Natural Armour (6+)",
+  options: [
 - May take warp-static cysts +15 points/model
 
 #namecost("SPORE CLOUD", "")
 
 The Venomthropes, and friendly Tyranid units within 6" of them, count as being in soft cover against shooting attacks.
+  ],
+)
 
-#entry("PYROVORE")
-
+#unit("PYROVORE",
+  before: [
 #note[A gut that walks. The pyrovore exists to burn what cannot be eaten and to eat what cannot be burned, and it has never been particular about the order.]
 
 #profile(
   (name: "Pyrovore", m: 4, ws: 3, bs: 0, s: 5, t: 5, w: 3, i: 2, a: 3, ld: 5, points: 65),
 )
-#field("UNIT SIZE", "1-3")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Natural Armour (4+)")
+  ],
+  unit-size: "1-3",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Natural Armour (4+)",
+  special-rules-body: [
 #namecost("FLAME GUT", "")
 
 The Pyrovore has a Breath Weapon, Strength 4, with the Flaming Attacks special rule.
@@ -672,49 +715,57 @@ The Pyrovore has a Breath Weapon, Strength 4, with the Flaming Attacks special r
 #namecost("VOLATILE", "")
 
 If the Pyrovore is slain in close combat, roll a D6. On a 4+, each enemy unit in base contact with it suffers D3 Strength 4 hits with the Flaming Attacks special rule.
+  ],
+)
 
-#entry("BARBGAUNTS")
-
+#unit("BARBGAUNTS",
+  before: [
 #note[The bio-cannon and its bearer are one organism twice enslaved — the parasite gun bonded to the gaunt, and both bonded to the Hive Mind. Its detonating barbs shred legs and shatter shins, and a column so struck stops marching.]
 
 #profile(
   (name: "Barbgaunt", m: 4, ws: 2, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 5, points: 10),
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Tyranid)")
-#field("BASE SIZE", "25x25")
-#field("EQUIPMENT", "Barb-launcher")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (5+)")
+  ],
+  unit-size: "5-15",
+  troop-type: "Infantry (Tyranid)",
+  base-size: "25x25",
+  equipment: "Barb-launcher",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (5+)",
+  special-rules-body: [
 #namecost("BARB-LAUNCHER", "")
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "4", "See below"))
 
 A unit that suffers one or more unsaved Wounds from barb-launchers is slowed by the detonating barbs: it suffers \-2 Movement and may not march until the start of the firing player's next turn.
+  ],
+)
 
-#entry("VON RYAN'S LEAPERS")
-
+#unit("VON RYAN'S LEAPERS",
+  before: [
 #note[Pack-hunters bred from lictor stock, the leapers range ahead of the swarm on coiled limbs and long balancing tails. The first sign of them is the rear rank of the column going quiet.]
 
 #profile(
   (name: "Leaper", m: 7, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 5, a: 2, ld: 6, points: 16),
 )
-#field("UNIT SIZE", "3-12")
-#field("TROOP TYPE", "War Beast (Tyranid)")
-#field("BASE SIZE", "25x25")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Ambushers, Skirmishers, Swiftstride, Forest Strider, Natural Armour (5+)")
+  ],
+  unit-size: "3-12",
+  troop-type: "War Beast (Tyranid)",
+  base-size: "25x25",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Ambushers, Skirmishers, Swiftstride, Forest Strider, Natural Armour (5+)",
+)
 
-#entry("NEUROLICTOR")
-
+#unit("NEUROLICTOR",
+  before: [
 #note[The neurolictor conceals not its body but the very idea of itself. Soldiers who march near it find orders slipping from memory and courage curdling for reasons none of them can name.]
 
 #profile(
   (name: "Neurolictor", m: 6, ws: 5, bs: 0, s: 4, t: 4, w: 3, i: 6, a: 3, ld: 8, points: 90),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monstrous Infantry (Tyranid)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Tyranid, Terror, Ambushers, Skirmishers, Forest Strider, Chameleonic Scales (see Lictor), Natural Armour (5+)")
-#field("NOTES", "")
-
+  ],
+  unit-size: "1",
+  troop-type: "Monstrous Infantry (Tyranid)",
+  base-size: "40x40",
+  special-rules: "Tyranid, Terror, Ambushers, Skirmishers, Forest Strider, Chameleonic Scales (see Lictor), Natural Armour (5+)",
+  notes: [
 - A Neurolictor never takes Instinctive Behaviour tests.
 
 #namecost("COGNITIVE VEIL", "")
@@ -724,43 +775,48 @@ The closer the prey stands, the less of the Neurolictor its mind can hold. Enemy
 #namecost("BRAIN-FOG AURA", "")
 
 Enemy units within 8" of the Neurolictor suffer a \-1 penalty to their Leadership. This penalty is not cumulative with that of other Neurolictors.
+  ],
+)
 
 = RARE UNITS
 
-#entry("CARNIFEX", first: true)
-
+#unit("CARNIFEX",
+  first: true,
+  before: [
 #note[A carnifex is not cunning. It is a battering ram that bleeds, grown to break shieldwalls, gates and city walls in that order, and it does all three the same way — by continuing to walk.]
 
 #profile(
   (name: "Carnifex", m: 6, ws: 3, bs: 0, s: 6, t: 6, w: 5, i: 2, a: 4, ld: 6, points: 200),
 )
-#field("UNIT SIZE", "1-3")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x50 or 50x75")
-#field("EQUIPMENT", "Scything talons")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Natural Armour (3+), Stomp (D6+1), Impact Hits (D3)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "1-3",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x50 or 50x75",
+  equipment: "Scything talons",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Natural Armour (3+), Stomp (D6+1), Impact Hits (D3)",
+  options: [
 - May replace scything talons with crushing claws (+1 Strength) +20 points
 - May take bio-plasma (Breath Weapon, Strength 4, Armour Piercing (1)) +25 points
 - May take broodline upgrades:
   - Regenerative tissues +30 points
   - Toxin sacs +15 points
   - Adrenal glands +10 points
+  ],
+)
 
-#entry("TRYGON")
-
+#unit("TRYGON",
+  before: [
 #note[The trygon swims through the deep earth trailing a wake of crackling bio-lightning, and surfaces precisely where the prey had agreed among themselves that nothing could ever come.]
 
 #profile(
   (name: "Trygon", m: 7, ws: 5, bs: 0, s: 6, t: 6, w: 6, i: 4, a: 6, ld: 8, points: 260),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 100x100")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Subterranean Assault, Natural Armour (4+), Stomp (D3)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 100x100",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Subterranean Assault, Natural Armour (4+), Stomp (D3)",
+  options: [
 - May be upgraded to a Trygon Prime (Synapse (Swiftstride)) +50 points
 - May be upgraded to a Mawloc (Terror from Below) +30 points
 - May take broodline upgrades:
@@ -777,20 +833,22 @@ The Trygon has the Ambushers special rule. However, instead of deploying like no
 A Mawloc has the Terror special rule. In addition, each enemy unit within 6" of the Mawloc when it emerges from Subterranean Assault must pass a Panic test or flee.
 
 A Mawloc never stops hunting from below: at the start of any of your Remaining Moves sub-phases, if it is not engaged in close combat, it may burrow — remove it from the battlefield. It re-enters play at the start of the Remaining Moves sub-phase of your next turn, emerging as per Subterranean Assault.
+  ],
+)
 
-#entry("TERVIGON")
-
+#unit("TERVIGON",
+  before: [
 #note[The broodmother's flanks ripple and split as she walks, spilling fresh termagants into the fight; to slay her is to hear a hundred birth-sacs fall silent at once.]
 
 #profile(
   (name: "Tervigon", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 6, i: 2, a: 3, ld: 9, points: 290),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("SPECIAL RULES", "Tyranid, Synapse (Communion), Natural Armour (4+), Stomp (D6)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  special-rules: "Tyranid, Synapse (Communion), Natural Armour (4+), Stomp (D6)",
+  options: [
 - May take broodline upgrades:
   - Regenerative tissues +35 points
   - Toxin sacs +20 points
@@ -803,51 +861,63 @@ At the start of each friendly turn, the Tervigon may spawn: roll 2D6 and add tha
 #namecost("SYNAPTIC BACKLASH", "")
 
 When the Tervigon is removed as a casualty, each friendly unit of Termagants within 12" immediately suffers D6 Strength 3 hits.
+  ],
+)
 
-#entry("EXOCRINE")
-
+#unit("EXOCRINE",
+  before: [
 #note[The exocrine is a cannon that grew a body. The symbiote-gun owns the beast's every stride, and halts it mid-step when the firing solution ripens.]
 
 #profile(
   (name: "Exocrine", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 5, i: 2, a: 3, ld: 6, points: 240),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("EQUIPMENT", "Bio-plasmic cannon")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (3+), Stomp (D3)")
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  equipment: "Bio-plasmic cannon",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (3+), Stomp (D3)",
+  special-rules-body: [
 #namecost("BIO-PLASMIC CANNON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "6", "Armour Piercing (2), Multiple Shots (3)"))
 #namecost("SYMBIOTIC TARGETING", "")
 
 The Exocrine gains +1 To Hit with its shooting attacks during any turn in which it did not move.
+  ],
+)
 
-#entry("TYRANNOFEX")
-
+#unit("TYRANNOFEX",
+  before: [
 #note[The heaviest gun-beast of the swarm advances like a fortress under sail, and its rupture cannon speaks with a report that unhorses knights a field away.]
 
 #profile(
   (name: "Tyrannofex", m: 6, ws: 3, bs: 3, s: 6, t: 7, w: 6, i: 1, a: 3, ld: 6, points: 300),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("EQUIPMENT", "Rupture cannon")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (3+), Stomp (D3)")
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  equipment: "Rupture cannon",
+  special-rules: "Tyranid, Instinctive Behaviour (Lurk), Natural Armour (3+), Stomp (D3)",
+  special-rules-body: [
 #namecost("RUPTURE CANNON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("18/36\"", "8", "Armour Piercing (3), Multiple Wounds (D3), Multiple Shots (2)"))
+  ],
+)
 
-#entry("HARUSPEX")
-
+#unit("HARUSPEX",
+  before: [
 #note[The haruspex is the swarm's appetite distilled: a grasping tongue, a gullet the size of a hay-wain, and precisely enough brain to keep both working.]
 
 #profile(
   (name: "Haruspex", m: 6, ws: 4, bs: 0, s: 6, t: 6, w: 6, i: 3, a: 5, ld: 6, points: 245),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Natural Armour (4+), Stomp (D6)")
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Natural Armour (4+), Stomp (D6)",
+  special-rules-body: [
 #namecost("GRASPING TONGUE", "")
 
 The Haruspex makes one additional close combat Attack each round, made at Initiative 10 with the Armour Piercing (2) special rule.
@@ -855,48 +925,60 @@ The Haruspex makes one additional close combat Attack each round, made at Initia
 #namecost("FEED ON THE FALLEN", "")
 
 At the end of each close combat phase in which the Haruspex caused one or more unsaved Wounds, roll a D6: on a 4+ it regains one Wound lost earlier in the battle.
+  ],
+)
 
-#entry("TOXICRENE")
-
+#unit("TOXICRENE",
+  before: [
 #note[Every surface of the toxicrene weeps venom. It fights from within a strangling garden of its own lashes, and the prey is drowning in its air before a single tentacle closes.]
 
 #profile(
   (name: "Toxicrene", m: 6, ws: 4, bs: 0, s: 5, t: 6, w: 5, i: 3, a: 6, ld: 6, points: 235),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Toxin sacs (see Broodline Upgrades), Natural Armour (4+), Stomp (D3)")
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Toxin sacs (see Broodline Upgrades), Natural Armour (4+), Stomp (D3)",
+  special-rules-body: [
 #namecost("CHOKING MIASMA", "")
 
 Enemy models in base contact with the Toxicrene suffer a \-1 To Hit penalty in close combat.
+  ],
+)
 
-#entry("HARPY")
-
+#unit("HARPY",
+  before: [
 #note[The harpy rides the night wind on wings the width of a chapel, shrieking as it comes — and the shriek is a mercy, for it means the stranglethorns have not yet fired.]
 
 #profile(
   (name: "Harpy", m: 6, ws: 3, bs: 3, s: 5, t: 5, w: 5, i: 3, a: 3, ld: 6, points: 195),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("EQUIPMENT", "Stranglethorn cannon")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Fly (8), Natural Armour (5+), Stomp (D3)")
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  equipment: "Stranglethorn cannon",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Fly (8), Natural Armour (5+), Stomp (D3)",
+  special-rules-body: [
 #namecost("STRANGLETHORN CANNON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Armour Piercing (1), Multiple Shots (2)"))
+  ],
+)
 
-#entry("HIVE CRONE")
-
+#unit("HIVE CRONE",
+  before: [
 #note[Where the harpy harries the ground, the crone owns the sky — spitting gouts of burning bile, and harvesting whatever else presumes to fly.]
 
 #profile(
   (name: "Hive Crone", m: 6, ws: 4, bs: 3, s: 5, t: 5, w: 5, i: 4, a: 4, ld: 6, points: 220),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Fly (8), Natural Armour (5+), Stomp (D3)")
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Fly (8), Natural Armour (5+), Stomp (D3)",
+  special-rules-body: [
 #namecost("FIERY BILE", "")
 
 The Hive Crone has a Breath Weapon, Strength 4, with the Flaming Attacks special rule.
@@ -904,35 +986,41 @@ The Hive Crone has a Breath Weapon, Strength 4, with the Flaming Attacks special
 #namecost("SKY-HUNTER", "")
 
 The Hive Crone re-rolls failed To Hit rolls in close combat against models with the Fly special rule.
+  ],
+)
 
-#entry("PSYCHOPHAGE")
-
+#unit("PSYCHOPHAGE",
+  before: [
 #note[The psychophage devours warriors whole and vents what remains of them as a glittering, corrosive mist. It holds a marked preference for wizards, whose minds burn like tallow.]
 
 #profile(
   (name: "Psychophage", m: 6, ws: 4, bs: 0, s: 5, t: 6, w: 5, i: 2, a: 4, ld: 6, points: 210),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Magic Resistance (3), Natural Armour (4+), Stomp (D6)")
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x100 or 60x100",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Magic Resistance (3), Natural Armour (4+), Stomp (D6)",
+  special-rules-body: [
 #namecost("PSYCHOPHAGIC HUNGER", "")
 
 The Psychophage has +1 Attack while within 12" of one or more enemy Wizards. If it kills an enemy Wizard in close combat, it immediately regains D3 Wounds lost earlier in the battle.
+  ],
+)
 
-#entry("NORN EMISSARY")
-
+#unit("NORN EMISSARY",
+  before: [
 #note[When the Hive Mind requires a personal touch, it grows an emissary: a towering intelligence of muscle, chitin and borrowed brains, sent into the world to do exactly one thing and constitutionally incapable of being turned from it.]
 
 #profile(
   (name: "Norn Emissary", m: 6, ws: 5, bs: 0, s: 6, t: 7, w: 6, i: 3, a: 5, ld: 10, points: 320),
 )
-#field("UNIT SIZE", "1")
-#field("TROOP TYPE", "Monster (Tyranid)")
-#field("BASE SIZE", "50x50 or 50x100")
-#field("SPECIAL RULES", "Tyranid, Synapse (Purpose), Magic Resistance (2), Natural Armour (3+), Stomp (D6)")
-#field("OPTIONS", "")
-
+  ],
+  unit-size: "1",
+  troop-type: "Monster (Tyranid)",
+  base-size: "50x50 or 50x100",
+  special-rules: "Tyranid, Synapse (Purpose), Magic Resistance (2), Natural Armour (3+), Stomp (D6)",
+  options: [
 - May be upgraded to a Norn Assimilator +10 points
 
 #namecost("SINGULAR PURPOSE", "")
@@ -942,26 +1030,32 @@ After both armies have deployed, nominate one enemy unit. The Norn Emissary has 
 #namecost("NORN ASSIMILATOR", "")
 
 A Norn Assimilator loses the Magic Resistance (2) special rule, and gains toxin sacs (see Broodline Upgrades) and Biomass Assimilation: at the end of each close combat phase in which the Assimilator caused one or more unsaved Wounds, it regains 1 Wound lost earlier in the battle.
+  ],
+)
 
 = SPECIAL CHARACTERS
 
-#entry("THE RED TERROR", first: true)
-
+#unit("THE RED TERROR",
+  solo: true,
+  first: true,
+  before: [
 #note[The deep tunnels have a legend, if hunger can be said to keep legends: a red thing in the dark that swallows knights whole — horse, harness and all — and is always, always still hungry.]
 
 #profile(
   (name: "The Red Terror", m: 7, ws: 5, bs: 0, s: 6, t: 6, w: 5, i: 6, a: 5, ld: 7, points: 225),
 )
-#field("TROOP TYPE", "Monster (Character, Tyranid)")
-#field("BASE SIZE", "50x100 or 100x100")
-#field("SPECIAL RULES", "Tyranid, Instinctive Behaviour (Feed), Ambushers, Natural Armour (5+), Stomp (D3)")
-#field("NOTES", "")
-
+  ],
+  troop-type: "Monster (Character, Tyranid)",
+  base-size: "50x100 or 100x100",
+  special-rules: "Tyranid, Instinctive Behaviour (Feed), Ambushers, Natural Armour (5+), Stomp (D3)",
+  notes: [
 - The Red Terror is a Hero choice. It may not select Biomorphs — it is a unique organism.
 
 #namecost("SWALLOW WHOLE", "")
 
 If the Red Terror directs all of its Attacks at a single enemy model with a Line of Sight value of 2 or less, and all of them hit, the victim is seized in its coils and gulped down: the target must immediately pass an Initiative test or be removed as a casualty regardless of its remaining Wounds, with no saves of any kind allowed. A model removed this way counts as having suffered a number of Wounds equal to its remaining Wounds for combat resolution, and the Red Terror immediately regains D3 Wounds lost earlier in the battle as it digests.
+  ],
+)
 
 = CREDITS
 

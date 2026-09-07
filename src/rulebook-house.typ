@@ -4893,195 +4893,85 @@ A unit with this standard gains the Magic Resistance (1) special rule.
 
 One use only. A unit with this standard can re-roll one failed Leadership test.
 
-= THE LORE OF FIRE
+#lore("THE LORE OF FIRE")[
 
-#namecost("KINDLEFLAME", "")
-#namecost("Lore Attribute", "")
+#spell("KINDLEFLAME", "Lore Attribute")[All of the spells in the Lore of Fire are Flaming Attacks. In addition, if a spell from the Lore of Fire inflicts hits on an enemy unit that has already been hit by a spell from the Lore of Fire in the same Magic phase (even if the spell was cast by a different Wizard) the spell inflicts an additional D3 Strength 4 hits on the unit.]
 
-All of the spells in the Lore of Fire are Flaming Attacks. In addition, if a spell from the Lore of Fire inflicts hits on an enemy unit that has already been hit by a spell from the Lore of Fire in the same Magic phase (even if the spell was cast by a different Wizard) the spell inflicts an additional D3 Strength 4 hits on the unit.
+#spell("FIREBALL", "Signature Spell", cast: "6+")[_Fireball_ is a *magic missile* with a range of 30" that causes D6 Strength 4 hits.]
 
-#namecost("FIREBALL", "")
-#namecost("Signature Spell Cast on 6+", "")
+#spell("CASCADING FIRE-CLOAK", 1, cast: "5+")[Remains in play. _Cascading Fire-Cloak_ is an *augment* spell with a range of 18". Each enemy unit in base contact with the target unit suffers 2D6 Strength 4 hits at the end of each Magic phase.]
 
-_Fireball_ is a *magic missile* with a range of 30" that causes D6 Strength 4 hits.
+#spell("BREATHE FIRE", 1, cast: "6+")[_Breathe Fire_ is a *direct damage* spell. The caster makes a Breath Weapon attack. This may be cast in close combat, following the normal rules for Breath Weapons. All models Hit suffer a Strength 4 hit.]
 
-#namecost("CASCADING FIRE-CLOAK", "")
-#namecost("Level 1 Cast on 5+", "")
+#spell("FLAMING SWORD OF RHUIN", 1, cast: "6+")[_Flaming Sword of Rhuin_ is an *augment* spell with a range of 18". The target unit (except mounts) has a +1 bonus when rolling To Wound with all shooting and close combat attacks until the start of the caster's next Magic phase. The target unit also counts as having both the Magical Attacks and Flaming Attacks special rules.]
 
-Remains in play. _Cascading Fire-Cloak_ is an *augment* spell with a range of 18". Each enemy unit in base contact with the target unit suffers 2D6 Strength 4 hits at the end of each Magic phase.
+#spell("FIRES OF U'ZHUL", 2, cast: "6+")[_Fires of U'Zhul_ is a *magic missile* with a range of 18" and causes D6 Strength 5 hits.]
 
-#namecost("BREATHE FIRE", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("SWELTERING HEAT", 2, cast: "7+")[Remains in play. _Sweltering Heat_ is a *hex* spell with a range of 24". Whenever the target charges, pursues or flees, it rolls an extra D6 and discards the highest result. While the spell is active, it suffers D6 Strength 3 hits at the end of each Magic phase.]
 
-_Breathe Fire_ is a *direct damage* spell. The caster makes a Breath Weapon attack. This may be cast in close combat, following the normal rules for Breath Weapons. All models Hit suffer a Strength 4 hit.
+#spell("THE BURNING HEAD", 2, cast: "9+")[_The Burning Head_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster's front arc. Each model in the way suffers a Strength 4 hit. A unit that suffers one or more casualties from the spell must take a Panic test.]
 
-#namecost("FLAMING SWORD OF RHUIN", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("FIERY BLAST", 3, cast: "9+")[_Fiery Blast_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template suffer a Strength 4 hit.]
 
-_Flaming Sword of Rhuin_ is an *augment* spell with a range of 18". The target unit (except mounts) has a +1 bonus when rolling To Wound with all shooting and close combat attacks until the start of the caster's next Magic phase. The target unit also counts as having both the Magical Attacks and Flaming Attacks special rules.
+#spell("PIERCING BOLTS OF BURNING", 3, cast: "10+")[_Piercing Bolts of Burning_ is a *magic missile* with a range of 30" and causes D3 Strength 5 hits. Each hit pierces ranks in the same way as a Bolt Thrower.]
 
-#namecost("FIRES OF U'ZHUL", "")
-#namecost("Level 2 Cast on 6+", "")
+#spell("FULMINATING FLAME CAGE", 3, cast: "11+")[_Fulminating Flame Cage_ is a *hex* spell with a range of 24". The target unit immediately suffers D6 Strength 4 hits. In addition, if the target unit moves during the Movement phase, flees or pursues, every model in the unit suffers an immediate Strength 4 hit and the spell ends. If the unit does not move during the Movement phase, flees or pursues, Fulminating Flame Cage automatically ceases at the start of the caster's next Magic phase.]
 
-_Fires of U'Zhul_ is a *magic missile* with a range of 18" and causes D6 Strength 5 hits.
+#spell("CONFLAGRATION OF DOOM", 4, cast: "12+")[_Conflagration of Doom_ is a *direct damage* spell with a range of 30" that causes D6 Strength 4 hits. Roll a D6, on a 2+ the unit suffers an additional D6 hits and you may roll a D6 again. Every time you roll an additional D6 the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on (a 6 always succeed). Proceed to keep rolling a D6 until you fail, and then resolve all the Hits suffered.]
 
-#namecost("SWELTERING HEAT", "")
-#namecost("Level 2 Cast on 7+", "")
+#spell("FLAME STORM", 4, cast: "13+")[_Flame Storm_ is a *direct damage area* spell with a range of 18" that uses the small round template. Once placed, the template moves D6" in a random direction determined by the scatter dice. All models touched by the template from its starting point to its end point suffer a Strength 4 hit.]
 
-Remains in play. _Sweltering Heat_ is a *hex* spell with a range of 24". Whenever the target charges, pursues or flees, it rolls an extra D6 and discards the highest result. While the spell is active, it suffers D6 Strength 3 hits at the end of each Magic phase.
+#spell("MAGMA STORM", 4, cast: "15+")[Remains in play. _Magma Storm_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move suffers a Strength 5 hit with the Multiple Wounds (D3) special rule.]
+]
+#lore("THE LORE OF METAL")[
 
-#namecost("THE BURNING HEAD", "")
-#namecost("Level 2 Cast on 9+", "")
+#spell("METALLIC ATTRACTION", "Lore Attribute")[A Wizard casting a spell from the Lore of Metal gains +1 to cast if the majority of the models in the target unit have a close combat armour save of 4+ or better (excluding Natural Armour). Roll a D6 in case of a tie.]
 
-_The Burning Head_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster's front arc. Each model in the way suffers a Strength 4 hit. A unit that suffers one or more casualties from the spell must take a Panic test.
+#spell("GLITTERING ROBE", "Signature Spell", cast: "5+")[_Glittering Robe_ is an *augment* spell with a range of 18". The target unit gains a 6+ armour save until the start of the caster's next Magic phase.]
 
-#namecost("FIERY BLAST", "")
-#namecost("Level 3 Cast on 9+", "")
+#spell("SEARING DOOM", 1, cast: "5+")[_Searing Doom_ is a *magic missile* with a range of 24" that causes D3 hits with the Ignores Armour Saves and Flaming Attacks special rules. The To Wound score is equal to the unmodified close combat armour save of the target (excluding Natural Armour). Models without an armour save cannot be wounded.]
 
-_Fiery Blast_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template suffer a Strength 4 hit.
+#spell("LAW OF GOLD", 1, cast: "6+")[_Law of Gold_ is a *hex* with a range of 24". The opposing player must reveal all Magic Items in the unit (if any). The casting player may then nominate one of these. Roll a D6; on 1\-4 that Magic Item cannot be used until the start of the caster's next Magic phase. On a 5+ that Magic Item cannot be used for the remainder of the game and will counts as a mundane item of its type.]
 
-#namecost("PIERCING BOLTS OF BURNING", "")
-#namecost("Level 3 Cast on 10+", "")
+#spell("PLAGUE OF RUST", 1, cast: "6+")[_Plague of Rust_ is a *hex* with a range of 24". The target's armour save (excluding Natural Armour) is lowered by one point for the rest of the game. Plague of Rust can be repeatedly cast on the same target, reducing its armour save by a further \-1 each time.]
 
-_Piercing Bolts of Burning_ is a *magic missile* with a range of 30" and causes D3 Strength 5 hits. Each hit pierces ranks in the same way as a Bolt Thrower.
+#spell("COMMANDMENT OF BRASS", 2, cast: "7+")[_Commandment of Brass_ is a *hex* with a range of 24". If the target is a War Machine or a Chariot, they cannot move (unless it fails a break test) until the start of the caster's next Magic phase. If the target has an artillery weapon it cannot use this until the start of the caster's next Magic phase.]
 
-#namecost("FULMINATING FLAME CAGE", "")
-#namecost("Level 3 Cast on 11+", "")
+#spell("SILVER ARROWS OF ARHA", 2, cast: "7+")[_Silver Arrows of Arha_ is a *magic missile* with a range of 24" and causes 2D6 Strength 3 hits with the Armour Piercing (1) special rule.]
 
-_Fulminating Flame Cage_ is a *hex* spell with a range of 24". The target unit immediately suffers D6 Strength 4 hits. In addition, if the target unit moves during the Movement phase, flees or pursues, every model in the unit suffers an immediate Strength 4 hit and the spell ends. If the unit does not move during the Movement phase, flees or pursues, Fulminating Flame Cage automatically ceases at the start of the caster's next Magic phase.
+#spell("ENCHANTED BLADES OF AIBAN", 2, cast: "8+")[_Enchanted Blades of Aiban_ is an *augment* spell with a range of 18". The target unit (except mounts) gains +1 To Hit, Armour Piercing (1) and the Magical Attacks special rules with all shooting and close combat attacks until the start of the caster's next Magic phase.]
 
-#namecost("CONFLAGRATION OF DOOM", "")
-#namecost("Level 4 Cast on 12+", "")
+#spell("GEHENNA'S GOLDEN HOUNDS", 3, cast: "8+")[_Gehenna's Golden Hounds_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers D6 Strength 4 hits.]
 
-_Conflagration of Doom_ is a *direct damage* spell with a range of 30" that causes D6 Strength 4 hits. Roll a D6, on a 2+ the unit suffers an additional D6 hits and you may roll a D6 again. Every time you roll an additional D6 the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on (a 6 always succeed). Proceed to keep rolling a D6 until you fail, and then resolve all the Hits suffered.
+#spell("TRANSMUTATION OF LEAD", 3, cast: "9+")[_Transmutation of Lead_ is a *hex* with a range of 24". The target suffers \-1 To Hit in close combat and with missile weapons, \-1 Movement and \-1 Initiative until the start of the caster's next Magic phase.]
 
-#namecost("FLAME STORM", "")
-#namecost("Level 4 Cast on 13+", "")
+#spell("THE GILDED CAGE", 3, cast: "11+")[_The Gilded Cage_ is a *hex* with a range of 24" that can be cast on an unengaged unit. Until the start of the caster's next Magic phase, the target gains the Unbreakable special rule, cannot move and is treated as impassable terrain for the purpose of movement.]
 
-_Flame Storm_ is a *direct damage area* spell with a range of 18" that uses the small round template. Once placed, the template moves D6" in a random direction determined by the scatter dice. All models touched by the template from its starting point to its end point suffer a Strength 4 hit.
+#spell("METEORIC IRONCLAD", 4, cast: "13+")[_Meteoric Ironclad_ is an *augment* spell with a range of 18". The target unit gains the Magical Ward (4+) special rule until the start of the caster's next Magic phase.]
 
-#namecost("MAGMA STORM", "")
-#namecost("Level 4 Cast on 15+", "")
+#spell("QUICKSILVER SWORDS", 4, cast: "13+")[_Quicksilver Swords_ is an *augment* spell with a range of 18". The target unit gains the Ignores Armour Saves and Magical Attacks special rules until the start of the caster's next Magic phase.]
 
-Remains in play. _Magma Storm_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move suffers a Strength 5 hit with the Multiple Wounds (D3) special rule.
+#spell("FINAL TRANSMUTATION", 4, cast: "15+")[_Final Transmutation_ is a *direct damage* spell with a range of 18". All models in the unit must roll a D6 per Wound on their profile – for each roll of a 5+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
+]
+#lore("THE LORE OF LIFE")[
 
-= THE LORE OF METAL
+#spell("LIFEBLOOM", "Lore Attribute")[When a spell from the Lore of Life is successfully cast, the Wizard (or another friendly model within 6") instantly recovers a single Wound lost earlier in the battle.]
 
-#namecost("METALLIC ATTRACTION", "")
-#namecost("Lore Attribute", "")
+#spell("EARTH BLOOD", "Signature Spell", cast: "5+")[_Earth Blood_ is an *augment* spell with a range of 18". The target gains the Regeneration (6+) special rule until the start of the caster's next Magic phase.]
 
-A Wizard casting a spell from the Lore of Metal gains +1 to cast if the majority of the models in the target unit have a close combat armour save of 4+ or better (excluding Natural Armour). Roll a D6 in case of a tie.
+#spell("SHIELD OF THORNS", 1, cast: "5+")[Remains in play. _Shield of Thorns_ is an *augment* spell with a range of 18". While the spell is in effect, any enemy model who attempts to strike the target in close combat suffers a Strength 3 hit whenever they fail To Hit. Any Wounds caused count towards Combat Resolution.]
 
-#namecost("GLITTERING ROBE", "")
-#namecost("Signature Spell Cast on 5+", "")
+#spell("AWAKENING OF THE WOOD", 1, cast: "6+")[_Awakening of the Wood_ is a *direct damage* spell with a range of 24" and causes D6 Strength 4 hits. If the target is within 6" of a forest, the number of hits is increased to 2D6.]
 
-_Glittering Robe_ is an *augment* spell with a range of 18". The target unit gains a 6+ armour save until the start of the caster's next Magic phase.
+#spell("THE CLOAK OF DAIN", 1, cast: "7+")[_The Cloak of Dain_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the first D3 hits that the target suffers each Shooting and Close Combat phase are ignored. Roll to determine how many hits are ignored once the target suffers any hit that phase.]
 
-#namecost("SEARING DOOM", "")
-#namecost("Level 1 Cast on 5+", "")
+#spell("FLESH TO STONE", 2, cast: "7+")[_Flesh to Stone_ is an *augment* spell with a range of 18". The target gains +1 to its Toughness value until the start of the caster's next Magic phase.]
 
-_Searing Doom_ is a *magic missile* with a range of 24" that causes D3 hits with the Ignores Armour Saves and Flaming Attacks special rules. The To Wound score is equal to the unmodified close combat armour save of the target (excluding Natural Armour). Models without an armour save cannot be wounded.
+#spell("LEAF FALL", 2, cast: "7+")[_Leaf Fall_ is an *augment aura* spell with a range of 6". All missile attacks targeting the affected units suffer a \-1 To Hit penalty until the start of the caster's next Magic phase.]
 
-#namecost("LAW OF GOLD", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("GIFT OF LIFE", 2, cast: "8+")[_Gift of Life_ is an *augment* spell with a range of 18" that can be cast on a single model. The target instantly recovers D3 Wounds suffered earlier in the battle.]
 
-_Law of Gold_ is a *hex* with a range of 24". The opposing player must reveal all Magic Items in the unit (if any). The casting player may then nominate one of these. Roll a D6; on 1\-4 that Magic Item cannot be used until the start of the caster's next Magic phase. On a 5+ that Magic Item cannot be used for the remainder of the game and will counts as a mundane item of its type.
-
-#namecost("PLAGUE OF RUST", "")
-#namecost("Level 1 Cast on 6+", "")
-
-_Plague of Rust_ is a *hex* with a range of 24". The target's armour save (excluding Natural Armour) is lowered by one point for the rest of the game. Plague of Rust can be repeatedly cast on the same target, reducing its armour save by a further \-1 each time.
-
-#namecost("COMMANDMENT OF BRASS", "")
-#namecost("Level 2 Cast on 7+", "")
-
-_Commandment of Brass_ is a *hex* with a range of 24". If the target is a War Machine or a Chariot, they cannot move (unless it fails a break test) until the start of the caster's next Magic phase. If the target has an artillery weapon it cannot use this until the start of the caster's next Magic phase.
-
-#namecost("SILVER ARROWS OF ARHA", "")
-#namecost("Level 2 Cast on 7+", "")
-
-_Silver Arrows of Arha_ is a *magic missile* with a range of 24" and causes 2D6 Strength 3 hits with the Armour Piercing (1) special rule.
-
-#namecost("ENCHANTED BLADES OF AIBAN", "")
-#namecost("Level 2 Cast on 8+", "")
-
-_Enchanted Blades of Aiban_ is an *augment* spell with a range of 18". The target unit (except mounts) gains +1 To Hit, Armour Piercing (1) and the Magical Attacks special rules with all shooting and close combat attacks until the start of the caster's next Magic phase.
-
-#namecost("GEHENNA'S GOLDEN HOUNDS", "")
-#namecost("Level 3 Cast on 8+", "")
-
-_Gehenna's Golden Hounds_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers D6 Strength 4 hits.
-
-#namecost("TRANSMUTATION OF LEAD", "")
-#namecost("Level 3 Cast on 9+", "")
-
-_Transmutation of Lead_ is a *hex* with a range of 24". The target suffers \-1 To Hit in close combat and with missile weapons, \-1 Movement and \-1 Initiative until the start of the caster's next Magic phase.
-
-#namecost("THE GILDED CAGE", "")
-#namecost("Level 3 Cast on 11+", "")
-
-_The Gilded Cage_ is a *hex* with a range of 24" that can be cast on an unengaged unit. Until the start of the caster's next Magic phase, the target gains the Unbreakable special rule, cannot move and is treated as impassable terrain for the purpose of movement.
-
-#namecost("METEORIC IRONCLAD", "")
-#namecost("Level 4 Cast on 13+", "")
-
-_Meteoric Ironclad_ is an *augment* spell with a range of 18". The target unit gains the Magical Ward (4+) special rule until the start of the caster's next Magic phase.
-
-#namecost("QUICKSILVER SWORDS", "")
-#namecost("Level 4 Cast on 13+", "")
-
-_Quicksilver Swords_ is an *augment* spell with a range of 18". The target unit gains the Ignores Armour Saves and Magical Attacks special rules until the start of the caster's next Magic phase.
-
-#namecost("FINAL TRANSMUTATION", "")
-#namecost("Level 4 Cast on 15+", "")
-
-_Final Transmutation_ is a *direct damage* spell with a range of 18". All models in the unit must roll a D6 per Wound on their profile – for each roll of a 5+ they suffer a Wound which Ignores Armour Saves and Regeneration.
-
-= THE LORE OF LIFE
-
-#namecost("LIFEBLOOM", "")
-#namecost("Lore Attribute", "")
-
-When a spell from the Lore of Life is successfully cast, the Wizard (or another friendly model within 6") instantly recovers a single Wound lost earlier in the battle.
-
-#namecost("EARTH BLOOD", "")
-#namecost("Signature Spell Cast on 5+", "")
-
-_Earth Blood_ is an *augment* spell with a range of 18". The target gains the Regeneration (6+) special rule until the start of the caster's next Magic phase.
-
-#namecost("SHIELD OF THORNS", "")
-#namecost("Level 1 Cast on 5+", "")
-
-Remains in play. _Shield of Thorns_ is an *augment* spell with a range of 18". While the spell is in effect, any enemy model who attempts to strike the target in close combat suffers a Strength 3 hit whenever they fail To Hit. Any Wounds caused count towards Combat Resolution.
-
-#namecost("AWAKENING OF THE WOOD", "")
-#namecost("Level 1 Cast on 6+", "")
-
-_Awakening of the Wood_ is a *direct damage* spell with a range of 24" and causes D6 Strength 4 hits. If the target is within 6" of a forest, the number of hits is increased to 2D6.
-
-#namecost("THE CLOAK OF DAIN", "")
-#namecost("Level 1 Cast on 7+", "")
-
-_The Cloak of Dain_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the first D3 hits that the target suffers each Shooting and Close Combat phase are ignored. Roll to determine how many hits are ignored once the target suffers any hit that phase.
-
-#namecost("FLESH TO STONE", "")
-#namecost("Level 2 Cast on 7+", "")
-
-_Flesh to Stone_ is an *augment* spell with a range of 18". The target gains +1 to its Toughness value until the start of the caster's next Magic phase.
-
-#namecost("LEAF FALL", "")
-#namecost("Level 2 Cast on 7+", "")
-
-_Leaf Fall_ is an *augment aura* spell with a range of 6". All missile attacks targeting the affected units suffer a \-1 To Hit penalty until the start of the caster's next Magic phase.
-
-#namecost("GIFT OF LIFE", "")
-#namecost("Level 2 Cast on 8+", "")
-
-_Gift of Life_ is an *augment* spell with a range of 18" that can be cast on a single model. The target instantly recovers D3 Wounds suffered earlier in the battle.
-
-#namecost("THRONE OF VINES", "")
-#namecost("Level 3 Cast on 8+", "")
-
+#spell("THRONE OF VINES", 3, cast: "8+")[
 Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. While the spell is in effect, the Wizard's castings of the following spells have the benefits given below instead of their normal values (it does not change the effects of spells that have already been cast):
 
 - Earth Blood grants Regeneration (5+).
@@ -5092,392 +4982,168 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 - Gift of Life restores D3+1 Wounds.
 - Barkskin grants Natural Armour (4+).
 - Regrowth restores 2D6 Wound's worth of models.
+]
 
-#namecost("BARKSKIN", "")
-#namecost("Level 3 Cast on 9+", "")
+#spell("BARKSKIN", 3, cast: "9+")[_Barkskin_ is an *augment* spell with a range of 18". The target gains the Flammable and Natural Armour (5+) special rules until the start of the caster's next Magic phase.]
 
-_Barkskin_ is an *augment* spell with a range of 18". The target gains the Flammable and Natural Armour (5+) special rules until the start of the caster's next Magic phase.
+#spell("MISTRESS OF THE MARSH", 3, cast: "9+")[_Mistress of the Marsh_ is a *hex* with a range of 24". Any movement by the target unit counts as moving through marshland until the start of the caster's next Magic phase.]
 
-#namecost("MISTRESS OF THE MARSH", "")
-#namecost("Level 3 Cast on 9+", "")
+#spell("PARANOTH'S PATHWAY", 4, cast: "10+")[_Paranoth’s Pathway_ is a *conveyance* spell with a range of 18". The target is immediately picked up and may be moved to any point on the battlefield within 12" of its original position, just like a summoning spell.]
 
-_Mistress of the Marsh_ is a *hex* with a range of 24". Any movement by the target unit counts as moving through marshland until the start of the caster's next Magic phase.
+#spell("REGROWTH", 4, cast: "11+")[_Regrowth_ is an *augment* spell with a range of 24". The target unit instantly recovers D6+1 Wounds' worth of models slain earlier in the battle, just like a summoning spell.]
 
-#namecost("PARANOTH'S PATHWAY", "")
-#namecost("Level 4 Cast on 10+", "")
+#spell("THE DWELLERS BELOW", 4, cast: "15+")[_The Dwellers Below_ is a *direct damage area* spell with a range of 18" that uses the large round template. All models under the template must pass a Strength test per Wound on their profile or suffer a Wound which Ignores Armour Saves and Regeneration.]
+]
+#lore("THE LORE OF BEASTS")[
 
-_Paranoth’s Pathway_ is a *conveyance* spell with a range of 18". The target is immediately picked up and may be moved to any point on the battlefield within 12" of its original position, just like a summoning spell.
+#spell("WILDHEART", "Lore Attribute")[A Wizard casting a spell from the Lore of Beasts gains +1 to cast if the target(s) contains one or more War Beast, Cavalry, Monstrous Beast, Monstrous Cavalry, Monstrous Creature, Monster, Chariot (Chariots that are not drawn are not included), Swarm, or Beastman.]
 
-#namecost("REGROWTH", "")
-#namecost("Level 4 Cast on 11+", "")
+#spell("WYSSAN'S WILDFORM", "Signature Spell", cast: "5+")[_Wyssan's Wildform_ is an *augment* spell with a range of 18". The target unit may re-roll failed rolls To Wound in close combat until the start of the caster's next Magic phase.]
 
-_Regrowth_ is an *augment* spell with a range of 24". The target unit instantly recovers D6+1 Wounds' worth of models slain earlier in the battle, just like a summoning spell.
+#spell("THE FLOCK OF DOOM", 1, cast: "5+")[_The Flock of Doom_ is a *magic missile* with a range of 24" that causes 3D6 Strength 2 hits.]
 
-#namecost("THE DWELLERS BELOW", "")
-#namecost("Level 4 Cast on 15+", "")
+#spell("THE OX STANDS", 1, cast: "6+")[_The Ox Stands_ is an *augment* spell with a range of 18". The target gains the Immunity (Psychology) and Stubborn special rules until the start of the caster's next Magic phase.]
 
-_The Dwellers Below_ is a *direct damage area* spell with a range of 18" that uses the large round template. All models under the template must pass a Strength test per Wound on their profile or suffer a Wound which Ignores Armour Saves and Regeneration.
+#spell("PANN'S IMPENETRABLE PELT", 1, cast: "6+")[_Pann's Impenetrable Pelt_ is an *augment* spell with a range of 18". The target gains the Natural Armour (6+) special rule until the start of the caster's next Magic phase. This armour save can never be lowered below 6+ from modifiers while the spell is in effect.]
 
-= THE LORE OF BEASTS
+#spell("THE EAGLE'S CRY", 2, cast: "7+")[_The Eagle's Cry_ is a *hex* spell with a range of 24". The target must take a Panic test. If passed, the unit suffers \-2 to their Movement characteristic until the start of the caster's next Magic phase.]
 
-#namecost("WILDHEART", "")
-#namecost("Lore Attribute", "")
+#spell("HUNTER'S MOONS", 2, cast: "7+")[Hunter's Moons is an *augment aura* spell with a range of 12". All affected units gain the Swiftstride special rule and may re-roll any failed charge or pursuit roll until the start of the caster's next Magic phase.]
 
-A Wizard casting a spell from the Lore of Beasts gains +1 to cast if the target(s) contains one or more War Beast, Cavalry, Monstrous Beast, Monstrous Cavalry, Monstrous Creature, Monster, Chariot (Chariots that are not drawn are not included), Swarm, or Beastman.
+#spell("THE VENGEFUL HOOD", 2, cast: "8+")[_The Vengeful Hood_ is an *augment* spell with a range of 18". The target gains the Magical Ward (6+) special rule in close combat until the start of the caster's next Magic phase. For each successful Magical Ward save roll of 6, the attacking model/unit suffers a Wound themselves which Ignores Armour Saves.]
 
-#namecost("WYSSAN'S WILDFORM", "")
-#namecost("Signature Spell Cast on 5+", "")
+#spell("THE CURSE OF ANRAHEIR", 3, cast: "9+")[_The Curse of Anraheir_ is a *hex* spell with a range of 30". The target unit suffers a \-1 penalty to its To Hit rolls with both missile and close combat attacks until the start of the caster's next Magic phase. In addition, the unit treats all terrain (other than Impassable Terrain) as Dangerous Terrain. Models already in Dangerous Terrain counts it as Deadly Terrain.]
 
-_Wyssan's Wildform_ is an *augment* spell with a range of 18". The target unit may re-roll failed rolls To Wound in close combat until the start of the caster's next Magic phase.
+#spell("THE SAVAGE BEAST OF HORROS", 3, cast: "10+")[_The Savage Beast of Horros_ is an *augment* spell with a range of 18" that is cast on a Character, Monstrous Creature or Monster, which can be the Wizard itself. The target model gains +3 Strength and +3 Attacks until the start of the caster's next Magic phase. If a Character is mounted, you must choose if the rider or the mount is affected by the spell. For other ridden Monsters, the riders are never affected.]
 
-#namecost("THE FLOCK OF DOOM", "")
-#namecost("Level 1 Cast on 5+", "")
+#spell("THE BEAST COWERS", 3, cast: "11+")[_The Beast Cowers_ is a *hex* spell with a range of 24". If the target contains any models mentioned in Wildheart, those models suffer \-1 to their Attack characteristic in close combat (only mounts are affected in the case of ridden models) and cannot voluntarily move until the start of the caster's next Magic phase.]
 
-_The Flock of Doom_ is a *magic missile* with a range of 24" that causes 3D6 Strength 2 hits.
+#spell("THE AMBER SPEAR", 4, cast: "12+")[_The Amber Spear_ is a *magic missile* with a range of 30". It inflicts a single Strength 7 hit with the Ignores Armour Saves and Multiple Wounds (D6) special rules that penetrates ranks in the same manner as a shot from a bolt thrower.]
 
-#namecost("THE OX STANDS", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("THE WOLF HUNTS", 4, cast: "13+")[_The Wolf Hunts_ is a *conveyance* spell with a range of 18". The target immediately moves towards the nearest enemy unit within Line of Sight using the Random Movement (2D6) special rule – if no enemy units are within Line of Sight, they will move directly forward instead.]
 
-_The Ox Stands_ is an *augment* spell with a range of 18". The target gains the Immunity (Psychology) and Stubborn special rules until the start of the caster's next Magic phase.
+#spell("MERCIW'S MONSTROUS REGIMENT", 4, cast: "15+")[_Merciw's Monstrous Regiment_ is an *augment* spell with a range of 18". The target gains +1 Strength, Toughness and Attacks until the start of the caster's next Magic phase.]
+]
+#lore("THE LORE OF HEAVENS")[
 
-#namecost("PANN'S IMPENETRABLE PELT", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("FANTASTIC FORESIGHT", "Lore Attribute")[When a Lore of Heavens spell is successfully cast, roll a D6; on a 4+ the Wizard can re-roll one dice to either change the casting result (including a miscast) or the number of Hits inflicted by a spell when they are casting further spells for the remainder of this Magic phase.]
 
-_Pann's Impenetrable Pelt_ is an *augment* spell with a range of 18". The target gains the Natural Armour (6+) special rule until the start of the caster's next Magic phase. This armour save can never be lowered below 6+ from modifiers while the spell is in effect.
+#spell("HARMONIC CONVERGENCE", "Signature Spell", cast: "6+")[_Harmonic Convergence_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit re-rolls all To Hit, To Wound and armour save rolls of 1.]
 
-#namecost("THE EAGLE'S CRY", "")
-#namecost("Level 2 Cast on 7+", "")
+#spell("AZURE BLADES", 1, cast: "5+")[Remains in play. _Azure Blades_ is an *augment* spell with a range of 18". Any enemy unit in base contact with the target suffers 3D6 Strength 3 hits at the end of each Magic phase.]
 
-_The Eagle's Cry_ is a *hex* spell with a range of 24". The target must take a Panic test. If passed, the unit suffers \-2 to their Movement characteristic until the start of the caster's next Magic phase.
+#spell("STAR TIDES EBB", 1, cast: "5+")[_Star Tides Ebb_ is a *hex area* spell with a range of 24". Until the start of the caster's next magic phase, all spell casting attempts within this range that are not from the Lore of Heavens suffer a \-2 casting penalty.]
 
-#namecost("HUNTER'S MOONS", "")
-#namecost("Level 2 Cast on 7+", "")
+#spell("CERULEAN SHIELD", 1, cast: "6+")[_Cerulean Shield_ is an *augment* spell with a range of 18". The target gains the Magical Ward (4+) special rule against non-magical missile attacks until the start of the caster's next Magic phase.]
 
-Hunter's Moons is an *augment aura* spell with a range of 12". All affected units gain the Swiftstride special rule and may re-roll any failed charge or pursuit roll until the start of the caster's next Magic phase.
+#spell("SIGN OF AMUL", 2, cast: "6+")[_Sign of Amul_ is an *augment* spell that targets the Wizard itself. You may re-roll any one of your dice until the start of the caster's next magic phase. This bonus is lost if the Wizard is slain before the re-roll is used.]
 
-#namecost("THE VENGEFUL HOOD", "")
-#namecost("Level 2 Cast on 8+", "")
+#spell("CRYSTAL PRISON", 2, cast: "8+")[Remains in Play. _Crystal Prison_ is a *hex* spell with a range of 24". Choose a single enemy character, even in a unit. While the spell is in effect, the target cannot be harmed by any means and is Unbreakable. However, they also cannot move, shoot, fight in close combat or cast spells. If they are in a unit, the unit may still break and flee as normal, while the target remains in combat.]
 
-_The Vengeful Hood_ is an *augment* spell with a range of 18". The target gains the Magical Ward (6+) special rule in close combat until the start of the caster's next Magic phase. For each successful Magical Ward save roll of 6, the attacking model/unit suffers a Wound themselves which Ignores Armour Saves.
+#spell("PORTENT OF DOOM", 2, cast: "8+")[_Portent of Doom_ is a *hex* spell with a range of 24". The target must re-roll all 6's when rolling To Hit, To Wound and armour saves until the start of the caster's next Magic phase.]
 
-#namecost("THE CURSE OF ANRAHEIR", "")
-#namecost("Level 3 Cast on 9+", "")
+#spell("THE SAPPHIRE ARCH", 3, cast: "8+")[_The Sapphire Arch_ is a *conveyance* spell with a range of 24". The target is immediately picked up and removed from the battlefield. The unit will then emerge anywhere on the table at the start of your next Magic phase, just like a summoning spell.]
 
-_The Curse of Anraheir_ is a *hex* spell with a range of 30". The target unit suffers a \-1 penalty to its To Hit rolls with both missile and close combat attacks until the start of the caster's next Magic phase. In addition, the unit treats all terrain (other than Impassable Terrain) as Dangerous Terrain. Models already in Dangerous Terrain counts it as Deadly Terrain.
+#spell("STORM OF CRONOS", 3, cast: "9+")[_Storm of Cronos_ is a *direct damage* spell that targets all enemy units within 18" of the Wizard's front arc. Each target suffers D6 Strength 4 hits.]
 
-#namecost("THE SAVAGE BEAST OF HORROS", "")
-#namecost("Level 3 Cast on 10+", "")
+#spell("URANNON'S THUNDERBOLT", 3, cast: "9+")[_Urannon's Thunderbolt_ is a *magic missile* with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule.]
 
-_The Savage Beast of Horros_ is an *augment* spell with a range of 18" that is cast on a Character, Monstrous Creature or Monster, which can be the Wizard itself. The target model gains +3 Strength and +3 Attacks until the start of the caster's next Magic phase. If a Character is mounted, you must choose if the rider or the mount is affected by the spell. For other ridden Monsters, the riders are never affected.
+#spell("COMET OF CASANDORA", 4, cast: "12+")[_Comet of Casandora_ is a *summoning area* spell with a range of 36". Place a suitable marker over the target. Once cast, the comet cannot be dispelled. For as long as the spell lasts, the player rolls a D6 at the start of each player's following Magic phase. On a score of 1\-3 nothing happens, but place another marker on the first. On the score of a 4\-6 the comet strikes the spot. All units from either side that are within 2D6" of the marker take 2D6 Strength 4 Hits. Add the number of markers on the comet to the distance, hits and Strength. After the comet has struck, the markers are removed and the spell ends.]
 
-#namecost("THE BEAST COWERS", "")
-#namecost("Level 3 Cast on 11+", "")
+#spell("CHAIN LIGHTNING", 4, cast: "13+")[_Chain Lightning_ is a *direct damage* spell with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule. Once the damage has been resolved, roll a D6; on a 2+, another enemy unit within 6" of the initial target also suffers D6 hits. Keep rolling for further enemies within 6" of the previous unit. Every time a new unit is struck the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on. Proceed to keep rolling a D6 until you fail (a 6 always succeeds) or there are no more viable targets. A unit can only be the target of Chain Lightning once per Magic phase.]
 
-_The Beast Cowers_ is a *hex* spell with a range of 24". If the target contains any models mentioned in Wildheart, those models suffer \-1 to their Attack characteristic in close combat (only mounts are affected in the case of ridden models) and cannot voluntarily move until the start of the caster's next Magic phase.
+#spell("THORSEN'S THUNDERSTORM", 4, cast: "15+")[Remains in play. _Thorsen's Thunderstorm_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move suffer a Strength 4 hit with the Lightning Attacks special rule.]
+]
+#lore("THE LORE OF LIGHT")[
 
-#namecost("THE AMBER SPEAR", "")
-#namecost("Level 4 Cast on 12+", "")
+#spell("FOCUS ENERGY", "Lore Attribute")[If a Wizard using spells from the Lore of Light is not in close combat and has not moved during this turn, they gain +1 to cast. In addition, any damage caused by spells from this Lore has a +1 bonus To Wound against Daemons, Undead and Vampires.]
 
-_The Amber Spear_ is a *magic missile* with a range of 30". It inflicts a single Strength 7 hit with the Ignores Armour Saves and Multiple Wounds (D6) special rules that penetrates ranks in the same manner as a shot from a bolt thrower.
+#spell("SHEM'S BURNING GAZE", "Signature Spell", cast: "5+")[_Shem's Burning Gaze_ is a *magic missile* with a range of 24" that causes D6 Strength 4 hits with the Flaming Attacks special rule.]
 
-#namecost("THE WOLF HUNTS", "")
-#namecost("Level 4 Cast on 13+", "")
+#spell("DAZZLING BRIGHTNESS", 1, cast: "6+")[_Dazzling Brightness_ is a *hex* spell with a range of 24". Until the start of the caster's next Magic phase, the target's Movement is halved (rounded up), and it suffers \-1 to its Weapon Skill and Ballistic Skill.]
 
-_The Wolf Hunts_ is a *conveyance* spell with a range of 18". The target immediately moves towards the nearest enemy unit within Line of Sight using the Random Movement (2D6) special rule – if no enemy units are within Line of Sight, they will move directly forward instead.
+#spell("HEALING ENERGY", 1, cast: "6+")[_Healing Energy_ is an *augment* spell with a range of 36" that can be cast on a single model. The target instantly recovers 1 Wound suffered earlier in the battle.]
 
-#namecost("MERCIW'S MONSTROUS REGIMENT", "")
-#namecost("Level 4 Cast on 15+", "")
+#spell("PHA'S PROTECTION", 1, cast: "6+")[_Pha's Protection_ is an *augment* spell with a range of 18". All attacks against the target unit (shooting or close combat) suffer a \-1 penalty To Hit until the start of the caster's next Magic phase. Shooting attacks that do not use Ballistic Skill must roll 4+ on a D6 before firing, or the shot(s) is lost.]
 
-_Merciw's Monstrous Regiment_ is an *augment* spell with a range of 18". The target gains +1 Strength, Toughness and Attacks until the start of the caster's next Magic phase.
+#spell("BIRONA'S TIMEWARP", 2, cast: "8+")[_Birona's Timewarp_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, all of the target unit's Movement value is doubled and it gains the Swiftstride special rule. This can take their Movement value above 10.]
 
-= THE LORE OF HEAVENS
+#spell("THE CLAW OF APEK", 2, cast: "8+")[_The Claw of Apek_ is a *direct damage* spell with a range of 18". Choose a single enemy model, even a character in a unit ("Look Out, Sir!" cannot be used). The target suffers D6 Attacks with Weapon Skill 4, Strength 4 and the Ignores Armour Saves special rule. These are resolved like close combat attacks.]
 
-#namecost("FANTASTIC FORESIGHT", "")
-#namecost("Lore Attribute", "")
+#spell("THE SPEED OF LIGHT", 2, cast: "8+")[_The Speed of Light_ is an *augment* spell with a range of 18". The target unit gains the Always Strikes First special rule until the start of the caster's next Magic phase.]
 
-When a Lore of Heavens spell is successfully cast, roll a D6; on a 4+ the Wizard can re-roll one dice to either change the casting result (including a miscast) or the number of Hits inflicted by a spell when they are casting further spells for the remainder of this Magic phase.
+#spell("CLEANSING FLARE", 3, cast: "9+")[_Cleansing Flare_ is a *direct damage* spell that targets all enemy units within 12" of the Wizard's front arc. Each target suffers D6 Strength 5 hits.]
 
-#namecost("HARMONIC CONVERGENCE", "")
-#namecost("Signature Spell Cast on 6+", "")
+#spell("LIGHT OF BATTLE", 3, cast: "9+")[_Light of Battle_ is an *augment* spell with a range of 18". If fleeing, the target unit rallies immediately. Additionally, the target unit will pass all Leadership tests (including Break tests, regardless of modifiers) until the start of the caster's next Magic phase.]
 
-_Harmonic Convergence_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit re-rolls all To Hit, To Wound and armour save rolls of 1.
+#spell("BANISHMENT", 3, cast: "9+")[_Banishment_ is a *magic missile* with a range of 24" that causes 2D6 hits. The Strength of the hits is equal to 4 plus the number of Wizards that know spells from the Lore of Light within 12" of the caster (not counting the caster themself). Each additional Wizard added adds +2 to the casting difficulty.]
 
-#namecost("AZURE BLADES", "")
-#namecost("Level 1 Cast on 5+", "")
+#spell("NET OF AMYNTOK", 4, cast: "10+")[_Net of Amyntok_ is a *hex* spell with a range of 24". Until the start of the caster's next Magic phase, every time the target attempts to move in the Movement phase, shoot or cast one or more spells the target suffers D6 Strength 4 hits and must then pass a Strength test (using the Strength of the majority of models in the unit). If the test is passed, the target acts normally. If the test is failed, the unit is unable to perform the desired action, remaining in place.]
 
-Remains in play. _Azure Blades_ is an *augment* spell with a range of 18". Any enemy unit in base contact with the target suffers 3D6 Strength 3 hits at the end of each Magic phase.
+#spell("TIME AMOK", 4, cast: "14+")[_Time Amok_ is an *augment* spell with a range of 18". The target unit may perform all their shooting attacks or close combat attacks twice this turn. Resolve the first round of attacks completely before performing the second one.]
 
-#namecost("STAR TIDES EBB", "")
-#namecost("Level 1 Cast on 5+", "")
+#spell("PILLAR OF RADIANCE", 4, cast: "15+")[_Pillar of Radiance_ is a *direct damage area* spell with a range of 24" that uses the large round template. All models under the template suffer a Strength 4 hit.]
+]
+#lore("THE LORE OF SHADOW")[
 
-_Star Tides Ebb_ is a *hex area* spell with a range of 24". Until the start of the caster's next magic phase, all spell casting attempts within this range that are not from the Lore of Heavens suffer a \-2 casting penalty.
+#spell("STEED OF SHADOWS", "Lore Attribute")[After a spell from the Lore of Shadow is successfully cast and resolved, the caster can choose to immediately make a normal move using the Fly special rule as if it were the Remaining Moves sub-phase. The Fly move is equal to 10 minus the model's Line of Sight value.]
 
-#namecost("CERULEAN SHIELD", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("MELKOTH'S MYSTIFYING MIASMA", "Signature Spell", cast: "5+")[_Melkoth's Mystifying Miasma_ is a *hex* spell with a range of 24". The target unit's Weapon Skill, Ballistic Skill, Initiative or Movement (you choose which) is reduced by D3 (to a minimum of 1) until the start of the caster's next Magic phase.]
 
-_Cerulean Shield_ is an *augment* spell with a range of 18". The target gains the Magical Ward (4+) special rule against non-magical missile attacks until the start of the caster's next Magic phase.
+#spell("CREEPING DARKNESS", 1, cast: "5+")[_Creeping Darkness_ is a *magic missile* with a range of 24" that causes 2D6 Strength 1 hits with the Ignores Armour Saves special rule.]
 
-#namecost("SIGN OF AMUL", "")
-#namecost("Level 2 Cast on 6+", "")
+#spell("THE ENFEEBLING FOE", 1, cast: "6+")[Remains in play. _The Enfeebling Foe_ is a *hex* spell with a range of 24". While the spell is in effect, all models in the target unit have their Strength reduced by 1 (to a minimum of 1).]
 
-_Sign of Amul_ is an *augment* spell that targets the Wizard itself. You may re-roll any one of your dice until the start of the caster's next magic phase. This bonus is lost if the Wizard is slain before the re-roll is used.
+#spell("CLOAK OF MIDNIGHT", 1, cast: "6+")[_Cloak of Midnight_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, all missile attacks against the target unit can only hit on a natural 6, and any templates that use scatter dice automatically scatter, even if a Hit is rolled.]
 
-#namecost("CRYSTAL PRISON", "")
-#namecost("Level 2 Cast on 8+", "")
+#spell("HORN OF ANDAR", 2, cast: "7+")[_Horn of Andar_ is a *hex aura* spell with a range of 12". Each affected unit suffers a \-1 penalty to its Leadership until the start of the caster's next Magic phase.]
 
-Remains in Play. _Crystal Prison_ is a *hex* spell with a range of 24". Choose a single enemy character, even in a unit. While the spell is in effect, the target cannot be harmed by any means and is Unbreakable. However, they also cannot move, shoot, fight in close combat or cast spells. If they are in a unit, the unit may still break and flee as normal, while the target remains in combat.
+#spell("THE WITHERING", 2, cast: "7+")[Remains in play. _The Withering_ is a *hex* spell with a range of 24". While the spell is in effect, all models in the target unit have their Toughness reduced by 1 (to a minimum of 1).]
 
-#namecost("PORTENT OF DOOM", "")
-#namecost("Level 2 Cast on 8+", "")
+#spell("THE DANCE OF DESPAIR", 2, cast: "8+")[Remains in play. _The Dance of Despair_ is a *hex* spell with a range of 24". While the spell is in effect, the target must move straight forward using the Random Movement (2D6) special rule.]
 
-_Portent of Doom_ is a *hex* spell with a range of 24". The target must re-roll all 6's when rolling To Hit, To Wound and armour saves until the start of the caster's next Magic phase.
+#spell("CROWN OF TAIDRON", 3, cast: "9+")[_Crown of Taidron_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 4 Hits.]
 
-#namecost("THE SAPPHIRE ARCH", "")
-#namecost("Level 3 Cast on 8+", "")
+#spell("UNSEEN LURKER", 3, cast: "10+")[_Unseen Lurker_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, units can only draw Line of Sight to the target if they are within 8", though the unit still blocks Line of Sight as normal.]
 
-_The Sapphire Arch_ is a *conveyance* spell with a range of 24". The target is immediately picked up and removed from the battlefield. The unit will then emerge anywhere on the table at the start of your next Magic phase, just like a summoning spell.
+#spell("BRIDGE OF SHADOWS", 3, cast: "12+")[_Bridge of Shadows_ is a *conveyance* spell with a range of 12". The target is immediately picked up and may be moved to any position on the battlefield within 18" of their original position, just like a summoning spell.]
 
-#namecost("STORM OF CRONOS", "")
-#namecost("Level 3 Cast on 9+", "")
+#spell("OKKAM'S MINDRAZOR", 4, cast: "12+")[_Okkam's Mindrazor_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit (except mounts) gain the Magical Attacks special rule and use their Leadership instead of Strength when rolling To Wound with all close combat attacks (any Strength bonuses from weapons are ignored). Armour saves are taken and modified by the Attack's actual Strength value.]
 
-_Storm of Cronos_ is a *direct damage* spell that targets all enemy units within 18" of the Wizard's front arc. Each target suffers D6 Strength 4 hits.
+#spell("THE PENUMBRAL PENDULUM", 4, cast: "13+")[_The Penumbral Pendulum_ is a *direct damage area* spell that uses the line template. Place it 18" in length, directly away from the caster's front arc. Each model in the way suffers a Strength 10 Hit with the Multiple Wounds (D3) special rule.]
 
-#namecost("URANNON'S THUNDERBOLT", "")
-#namecost("Level 3 Cast on 9+", "")
+#spell("PIT OF SHADES", 4, cast: "15+")[_Pit of Shades_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
+]
+#lore("THE LORE OF DEATH")[
 
-_Urannon's Thunderbolt_ is a *magic missile* with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule.
+#spell("LIFE LEECHING", "Lore Attribute")[When a Lore of Death spell is successfully cast, roll a D6 for each unsaved wound caused by the spell this turn. For each 6+ rolled on these additional dice, the Wizard immediately adds a dice to their army's power pool (to a maximum of +3 dice per spell).]
 
-#namecost("COMET OF CASANDORA", "")
-#namecost("Level 4 Cast on 12+", "")
+#spell("DARK HAND OF DEATH", "Signature Spell", cast: "6+")[_Dark Hand of Death_ is a *magic missile* with a range of 18" that causes D6 Strength 3 hits with the Ignores Armour Saves special rule.]
 
-_Comet of Casandora_ is a *summoning area* spell with a range of 36". Place a suitable marker over the target. Once cast, the comet cannot be dispelled. For as long as the spell lasts, the player rolls a D6 at the start of each player's following Magic phase. On a score of 1\-3 nothing happens, but place another marker on the first. On the score of a 4\-6 the comet strikes the spot. All units from either side that are within 2D6" of the marker take 2D6 Strength 4 Hits. Add the number of markers on the comet to the distance, hits and Strength. After the comet has struck, the markers are removed and the spell ends.
+#spell("DEATH DEALER", 1, cast: "5+")[_Death Dealer_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit gains the Fear special rule. In addition, any model in the target unit that is slain in close combat may immediately make an additional Attack, even if they have already attacked this turn.]
 
-#namecost("CHAIN LIGHTNING", "")
-#namecost("Level 4 Cast on 13+", "")
+#spell("THE CARESS OF LANIPH", 1, cast: "6+")[_The Caress of Laniph_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target must take D6 Strength tests. Each failed Strength test causes a Wound which Ignores Armour Saves.]
 
-_Chain Lightning_ is a *direct damage* spell with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule. Once the damage has been resolved, roll a D6; on a 2+, another enemy unit within 6" of the initial target also suffers D6 hits. Keep rolling for further enemies within 6" of the previous unit. Every time a new unit is struck the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on. Proceed to keep rolling a D6 until you fail (a 6 always succeeds) or there are no more viable targets. A unit can only be the target of Chain Lightning once per Magic phase.
+#spell("SPIRIT LEECH", 1, cast: "7+")[_Spirit Leech_ is a *hex* spell with a range of 18" that targets a single enemy Monstrous Creature, Monster or character (even in a unit). Both caster and target roll a D6 and add their respective Leadership values. For each point the caster scores higher, the target suffers a \-1 penalty to their Strength and Toughness (to a minimum of 1) for the remainder of the battle.]
 
-#namecost("THORSEN'S THUNDERSTORM", "")
-#namecost("Level 4 Cast on 15+", "")
+#spell("THE CHOKING FOE", 2, cast: "8+")[Remains in play. _The Choking Foe_ is a *hex* spell with a range of 24". At the end of each Magic phase, the target must take a Leadership test, suffering a Wound which Ignores Armour Saves for every point by which the test is failed. Each subsequent test has a \-1 penalty which is cumulative, so the third test has a \-2 penalty, and so on.]
 
-Remains in play. _Thorsen's Thunderstorm_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move suffer a Strength 4 hit with the Lightning Attacks special rule.
+#spell("WIND OF DEATH", 2, cast: "8+")[_Wind of Death_ is a *magic missile* with a range of 18" that causes 2D6 Strength 4 hits.]
 
-= THE LORE OF LIGHT
+#spell("DRAIN LIFE", 2, cast: "9+")[_Drain Life_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 2 Hits with the Ignores Armour Saves special rule. For every unsaved To Wound roll of 6, the caster may restore 1 Wound lost earlier during the game.]
 
-#namecost("FOCUS ENERGY", "")
-#namecost("Lore Attribute", "")
+#spell("SCYTHE OF SHYISH", 3, cast: "9+")[_Scythe of Shyish_ is a *direct damage* spell with range of 18". Each model in the unit's front rank suffers a Strength 5 Hit ("Look Out Sir!" may still be used).]
 
-If a Wizard using spells from the Lore of Light is not in close combat and has not moved during this turn, they gain +1 to cast. In addition, any damage caused by spells from this Lore has a +1 bonus To Wound against Daemons, Undead and Vampires.
+#spell("DOOM AND DARKNESS", 3, cast: "10+")[Remains in play. _Doom and Darkness_ is a *hex* spell with a range of 24". The target suffers a \-3 penalty to its Leadership.]
 
-#namecost("SHEM'S BURNING GAZE", "")
-#namecost("Signature Spell Cast on 5+", "")
+#spell("ASHES AND DUST", 3, cast: "11+")[_Ashes and Dust_ is a *direct damage area* spell with a range of 18" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
 
-_Shem's Burning Gaze_ is a *magic missile* with a range of 24" that causes D6 Strength 4 hits with the Flaming Attacks special rule.
+#spell("THE FATE OF BJUNA", 4, cast: "12+")[Remains in Play. _The Fate of Bjuna_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). While the spell is in effect, the target suffers a number of hits equal to the model's current number of Wounds at the end of each of Magic phase. Each hit Wound on a 4+ with the Ignores Armour Saves special rule.]
 
-#namecost("DAZZLING BRIGHTNESS", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("SOULBLIGHT", 4, cast: "12+")[_Soulblight_ is a *hex* spell with a range of 24". The target has \-1 Strength and \-1 Toughness (to a minimum of 1) until the start of the caster's next Magic phase.]
 
-_Dazzling Brightness_ is a *hex* spell with a range of 24". Until the start of the caster's next Magic phase, the target's Movement is halved (rounded up), and it suffers \-1 to its Weapon Skill and Ballistic Skill.
-
-#namecost("HEALING ENERGY", "")
-#namecost("Level 1 Cast on 6+", "")
-
-_Healing Energy_ is an *augment* spell with a range of 36" that can be cast on a single model. The target instantly recovers 1 Wound suffered earlier in the battle.
-
-#namecost("PHA'S PROTECTION", "")
-#namecost("Level 1 Cast on 6+", "")
-
-_Pha's Protection_ is an *augment* spell with a range of 18". All attacks against the target unit (shooting or close combat) suffer a \-1 penalty To Hit until the start of the caster's next Magic phase. Shooting attacks that do not use Ballistic Skill must roll 4+ on a D6 before firing, or the shot(s) is lost.
-
-#namecost("BIRONA'S TIMEWARP", "")
-#namecost("Level 2 Cast on 8+", "")
-
-_Birona's Timewarp_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, all of the target unit's Movement value is doubled and it gains the Swiftstride special rule. This can take their Movement value above 10.
-
-#namecost("THE CLAW OF APEK", "")
-#namecost("Level 2 Cast on 8+", "")
-
-_The Claw of Apek_ is a *direct damage* spell with a range of 18". Choose a single enemy model, even a character in a unit ("Look Out, Sir!" cannot be used). The target suffers D6 Attacks with Weapon Skill 4, Strength 4 and the Ignores Armour Saves special rule. These are resolved like close combat attacks.
-
-#namecost("THE SPEED OF LIGHT", "")
-#namecost("Level 2 Cast on 8+", "")
-
-_The Speed of Light_ is an *augment* spell with a range of 18". The target unit gains the Always Strikes First special rule until the start of the caster's next Magic phase.
-
-#namecost("CLEANSING FLARE", "")
-#namecost("Level 3 Cast on 9+", "")
-
-_Cleansing Flare_ is a *direct damage* spell that targets all enemy units within 12" of the Wizard's front arc. Each target suffers D6 Strength 5 hits.
-
-#namecost("LIGHT OF BATTLE", "")
-#namecost("Level 3 Cast on 9+", "")
-
-_Light of Battle_ is an *augment* spell with a range of 18". If fleeing, the target unit rallies immediately. Additionally, the target unit will pass all Leadership tests (including Break tests, regardless of modifiers) until the start of the caster's next Magic phase.
-
-#namecost("BANISHMENT", "")
-#namecost("Level 3 Cast on 9+", "")
-
-_Banishment_ is a *magic missile* with a range of 24" that causes 2D6 hits. The Strength of the hits is equal to 4 plus the number of Wizards that know spells from the Lore of Light within 12" of the caster (not counting the caster themself). Each additional Wizard added adds +2 to the casting difficulty.
-
-#namecost("NET OF AMYNTOK", "")
-#namecost("Level 4 Cast on 10+", "")
-
-_Net of Amyntok_ is a *hex* spell with a range of 24". Until the start of the caster's next Magic phase, every time the target attempts to move in the Movement phase, shoot or cast one or more spells the target suffers D6 Strength 4 hits and must then pass a Strength test (using the Strength of the majority of models in the unit). If the test is passed, the target acts normally. If the test is failed, the unit is unable to perform the desired action, remaining in place.
-
-#namecost("TIME AMOK", "")
-#namecost("Level 4 Cast on 14+", "")
-
-_Time Amok_ is an *augment* spell with a range of 18". The target unit may perform all their shooting attacks or close combat attacks twice this turn. Resolve the first round of attacks completely before performing the second one.
-
-#namecost("PILLAR OF RADIANCE", "")
-#namecost("Level 4 Cast on 15+", "")
-
-_Pillar of Radiance_ is a *direct damage area* spell with a range of 24" that uses the large round template. All models under the template suffer a Strength 4 hit.
-
-= THE LORE OF SHADOW
-
-#namecost("STEED OF SHADOWS", "")
-#namecost("Lore Attribute", "")
-
-After a spell from the Lore of Shadow is successfully cast and resolved, the caster can choose to immediately make a normal move using the Fly special rule as if it were the Remaining Moves sub-phase. The Fly move is equal to 10 minus the model's Line of Sight value.
-
-#namecost("MELKOTH'S MYSTIFYING MIASMA", "")
-#namecost("Signature Spell Cast on 5+", "")
-
-_Melkoth's Mystifying Miasma_ is a *hex* spell with a range of 24". The target unit's Weapon Skill, Ballistic Skill, Initiative or Movement (you choose which) is reduced by D3 (to a minimum of 1) until the start of the caster's next Magic phase.
-
-#namecost("CREEPING DARKNESS", "")
-#namecost("Level 1 Cast on 5+", "")
-
-_Creeping Darkness_ is a *magic missile* with a range of 24" that causes 2D6 Strength 1 hits with the Ignores Armour Saves special rule.
-
-#namecost("THE ENFEEBLING FOE", "")
-#namecost("Level 1 Cast on 6+", "")
-
-Remains in play. _The Enfeebling Foe_ is a *hex* spell with a range of 24". While the spell is in effect, all models in the target unit have their Strength reduced by 1 (to a minimum of 1).
-
-#namecost("CLOAK OF MIDNIGHT", "")
-#namecost("Level 1 Cast on 6+", "")
-
-_Cloak of Midnight_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, all missile attacks against the target unit can only hit on a natural 6, and any templates that use scatter dice automatically scatter, even if a Hit is rolled.
-
-#namecost("HORN OF ANDAR", "")
-#namecost("Level 2 Cast on 7+", "")
-
-_Horn of Andar_ is a *hex aura* spell with a range of 12". Each affected unit suffers a \-1 penalty to its Leadership until the start of the caster's next Magic phase.
-
-#namecost("THE WITHERING", "")
-#namecost("Level 2 Cast on 7+", "")
-
-Remains in play. _The Withering_ is a *hex* spell with a range of 24". While the spell is in effect, all models in the target unit have their Toughness reduced by 1 (to a minimum of 1).
-
-#namecost("THE DANCE OF DESPAIR", "")
-#namecost("Level 2 Cast on 8+", "")
-
-Remains in play. _The Dance of Despair_ is a *hex* spell with a range of 24". While the spell is in effect, the target must move straight forward using the Random Movement (2D6) special rule.
-
-#namecost("CROWN OF TAIDRON", "")
-#namecost("Level 3 Cast on 9+", "")
-
-_Crown of Taidron_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 4 Hits.
-
-#namecost("UNSEEN LURKER", "")
-#namecost("Level 3 Cast on 10+", "")
-
-_Unseen Lurker_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, units can only draw Line of Sight to the target if they are within 8", though the unit still blocks Line of Sight as normal.
-
-#namecost("BRIDGE OF SHADOWS", "")
-#namecost("Level 3 Cast on 12+", "")
-
-_Bridge of Shadows_ is a *conveyance* spell with a range of 12". The target is immediately picked up and may be moved to any position on the battlefield within 18" of their original position, just like a summoning spell.
-
-#namecost("OKKAM'S MINDRAZOR", "")
-#namecost("Level 4 Cast on 12+", "")
-
-_Okkam's Mindrazor_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit (except mounts) gain the Magical Attacks special rule and use their Leadership instead of Strength when rolling To Wound with all close combat attacks (any Strength bonuses from weapons are ignored). Armour saves are taken and modified by the Attack's actual Strength value.
-
-#namecost("THE PENUMBRAL PENDULUM", "")
-#namecost("Level 4 Cast on 13+", "")
-
-_The Penumbral Pendulum_ is a *direct damage area* spell that uses the line template. Place it 18" in length, directly away from the caster's front arc. Each model in the way suffers a Strength 10 Hit with the Multiple Wounds (D3) special rule.
-
-#namecost("PIT OF SHADES", "")
-#namecost("Level 4 Cast on 15+", "")
-
-_Pit of Shades_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.
-
-= THE LORE OF DEATH
-
-#namecost("LIFE LEECHING", "")
-#namecost("Lore Attribute", "")
-
-When a Lore of Death spell is successfully cast, roll a D6 for each unsaved wound caused by the spell this turn. For each 6+ rolled on these additional dice, the Wizard immediately adds a dice to their army's power pool (to a maximum of +3 dice per spell).
-
-#namecost("DARK HAND OF DEATH", "")
-#namecost("Signature Spell Cast on 6+", "")
-
-_Dark Hand of Death_ is a *magic missile* with a range of 18" that causes D6 Strength 3 hits with the Ignores Armour Saves special rule.
-
-#namecost("DEATH DEALER", "")
-#namecost("Level 1 Cast on 5+", "")
-
-_Death Dealer_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit gains the Fear special rule. In addition, any model in the target unit that is slain in close combat may immediately make an additional Attack, even if they have already attacked this turn.
-
-#namecost("THE CARESS OF LANIPH", "")
-#namecost("Level 1 Cast on 6+", "")
-
-_The Caress of Laniph_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target must take D6 Strength tests. Each failed Strength test causes a Wound which Ignores Armour Saves.
-
-#namecost("SPIRIT LEECH", "")
-#namecost("Level 1 Cast on 7+", "")
-
-_Spirit Leech_ is a *hex* spell with a range of 18" that targets a single enemy Monstrous Creature, Monster or character (even in a unit). Both caster and target roll a D6 and add their respective Leadership values. For each point the caster scores higher, the target suffers a \-1 penalty to their Strength and Toughness (to a minimum of 1) for the remainder of the battle.
-
-#namecost("THE CHOKING FOE", "")
-#namecost("Level 2 Cast on 8+", "")
-
-Remains in play. _The Choking Foe_ is a *hex* spell with a range of 24". At the end of each Magic phase, the target must take a Leadership test, suffering a Wound which Ignores Armour Saves for every point by which the test is failed. Each subsequent test has a \-1 penalty which is cumulative, so the third test has a \-2 penalty, and so on.
-
-#namecost("WIND OF DEATH", "")
-#namecost("Level 2 Cast on 8+", "")
-
-_Wind of Death_ is a *magic missile* with a range of 18" that causes 2D6 Strength 4 hits.
-
-#namecost("DRAIN LIFE", "")
-#namecost("Level 2 Cast on 9+", "")
-
-_Drain Life_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 2 Hits with the Ignores Armour Saves special rule. For every unsaved To Wound roll of 6, the caster may restore 1 Wound lost earlier during the game.
-
-#namecost("SCYTHE OF SHYISH", "")
-#namecost("Level 3 Cast on 9+", "")
-
-_Scythe of Shyish_ is a *direct damage* spell with range of 18". Each model in the unit's front rank suffers a Strength 5 Hit ("Look Out Sir!" may still be used).
-
-#namecost("DOOM AND DARKNESS", "")
-#namecost("Level 3 Cast on 10+", "")
-
-Remains in play. _Doom and Darkness_ is a *hex* spell with a range of 24". The target suffers a \-3 penalty to its Leadership.
-
-#namecost("ASHES AND DUST", "")
-#namecost("Level 3 Cast on 11+", "")
-
-_Ashes and Dust_ is a *direct damage area* spell with a range of 18" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.
-
-#namecost("THE FATE OF BJUNA", "")
-#namecost("Level 4 Cast on 12+", "")
-
-Remains in Play. _The Fate of Bjuna_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). While the spell is in effect, the target suffers a number of hits equal to the model's current number of Wounds at the end of each of Magic phase. Each hit Wound on a 4+ with the Ignores Armour Saves special rule.
-
-#namecost("SOULBLIGHT", "")
-#namecost("Level 4 Cast on 12+", "")
-
-_Soulblight_ is a *hex* spell with a range of 24". The target has \-1 Strength and \-1 Toughness (to a minimum of 1) until the start of the caster's next Magic phase.
-
-#namecost("THE PURPLE SUN OF XEREUS", "")
-#namecost("Level 4 Cast on 15+", "")
-
-Remains in play. _The Purple Sun of Xereus_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move must roll a D6 per Wound on their profile – on a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.
-
+#spell("THE PURPLE SUN OF XEREUS", 4, cast: "15+")[Remains in play. _The Purple Sun of Xereus_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move must roll a D6 per Wound on their profile – on a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
+]
 = OUR CHANGES
 
 This edition is the Warhammer Armies Project text with the changes below applied to it. Everything not listed here is unchanged. Each entry gives the rule as it was written, the rule as it now stands, and why it was changed.

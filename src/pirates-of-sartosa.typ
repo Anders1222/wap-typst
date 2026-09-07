@@ -84,285 +84,155 @@ All models with this special rule may re-roll failed Dangerous Terrain tests.
 #namecost("VOLLEY GUN", "")
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Multiple Shots (D6), Ponderous"))
 
-= THE LORE OF THE DEEP
+#lore("THE LORE OF THE DEEP")[
 
-#columns(2)[
-#namecost("KISS OF THE DEEP", "")
-#namecost("Lore Attribute", "")
+#spell("KISS OF THE DEEP", "Lore Attribute")[Whenever a spell from the Lore of the Deep is cast on an enemy unit, that unit also suffers D6 Strength 1 Hits which Ignores Armour Saves in addition to the effects of the spell.]
 
-Whenever a spell from the Lore of the Deep is cast on an enemy unit, that unit also suffers D6 Strength 1 Hits which Ignores Armour Saves in addition to the effects of the spell.
+#spell("TIDECALL", "Signature Spell", cast: "6+")[_Tidecall_ is a *direct damage* spell. The caster makes a Strength 2 Breath Weapon Attack with the Ignores Armour Saves special rule. This may be cast in close combat, following the normal rules for Breath Weapons.]
 
-#namecost("TIDECALL", "")
-#namecost("Signature Spell Cast on 6+", "")
+#spell("BLOOD IN THE WATER", 1, cast: "5+")[_Blood in the Water_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, all models in the target unit gets to immediately make an additional Attack for every unsaved Wound they cause in Close Combat. These Attacks can generate additional Attacks to a maximum of +2 Attacks per attacking model in the unit.]
 
-_Tidecall_ is a *direct damage* spell. The caster makes a Strength 2 Breath Weapon Attack with the Ignores Armour Saves special rule. This may be cast in close combat, following the normal rules for Breath Weapons.
+#spell("COUNTER-CURRENT", 1, cast: "5+")[Remains in play. _Counter-Current_ is a *hex* spell with a range of 24". While the spell is in effect, the target halves all its movement (rounding up) while moving closer to the caster and while being within their front arc.]
 
-#namecost("BLOOD IN THE WATER", "")
-#namecost("Level 1 Cast on 5+", "")
+#spell("FOG OF THE DAMNED", 1, cast: "6+")[Remains in Play. _Fog of the Damned_ is a *hex* spell with a range of 24". While the spell is in effect, the target cannot gain combat resolution bonuses from Ranks or Outnumber.]
 
-_Blood in the Water_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, all models in the target unit gets to immediately make an additional Attack for every unsaved Wound they cause in Close Combat. These Attacks can generate additional Attacks to a maximum of +2 Attacks per attacking model in the unit.
+#spell("PRESSURE OF THE DEEP", 2, cast: "6+")[_Pressure of the Deep_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target must take D6 Toughness tests. Each failed Toughness test causes a Wound which Ignores Armour Saves.]
 
-#namecost("COUNTER-CURRENT", "")
-#namecost("Level 1 Cast on 5+", "")
+#spell("ABYSSAL DARKNESS", 2, cast: "7+")[_Abyssal Darkness_ is an *augment* spell that is cast on the Wizard itself. Until the start of the caster's next Magic phase all missile attacks targeted at the Wizard and any unit they are with suffer a \-1 To Hit penalty, and enemies need to be within 18" to be able to draw Line of Sight to them.]
 
-Remains in play. _Counter-Current_ is a *hex* spell with a range of 24". While the spell is in effect, the target halves all its movement (rounding up) while moving closer to the caster and while being within their front arc.
+#spell("GAZE INTO THE ABYSS", 2, cast: "7+")[_Gaze Into the Abyss_ is a *hex* spell with a range of 24". The target unit suffers \-1 Weapon Skill, \-1 Initiative and \-2 Leadership until the start of the caster's next Magic Phase.]
 
-#namecost("FOG OF THE DAMNED", "")
-#namecost("Level 1 Cast on 6+", "")
+#spell("STEED OF TIDES", 3, cast: "9+")[_Steed of Tides_ is a *conveyance* spell with a range of 18". The target is immediately picked up and may be moved to any position on the battlefield within 3D6" of their original position (or within any water terrain feature on the battlefield), just like a summoning spell.]
 
-Remains in Play. _Fog of the Damned_ is a *hex* spell with a range of 24". While the spell is in effect, the target cannot gain combat resolution bonuses from Ranks or Outnumber.
+#spell("WATERY GRAVE", 3, cast: "9+")[_Watery Grave_ is a *hex* spell with a range of 24". The target unit counts as moving through dangerous terrain until the start of the caster's next Magic phase. For every 4" the unit moves while the spell is in effect, the chance of them failing the test increases by +1.]
 
-#namecost("PRESSURE OF THE DEEP", "")
-#namecost("Level 2 Cast on 6+", "")
+#spell("ARCANE CORRASION", 3, cast: "10+")[_Arcane Corrasion_ is a *magic missile* that causes a number of Strength 4 Hits depending on the distance to the target. If the target is within less than 12" it suffers D6 Hits. If the target is within 12" to 24" it suffers 2D6 Hits. If the target is within 24" to 36" it suffers 3D6 Hits.]
 
-_Pressure of the Deep_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target must take D6 Toughness tests. Each failed Toughness test causes a Wound which Ignores Armour Saves.
+#spell("DENIZENS OF THE DEEP", 4, cast: "12+")[_Denizens of the Deep_ is a *direct damage* spell with a range of 24" that causes 6D6 Strength 2 Hits.]
 
-#namecost("ABYSSAL DARKNESS", "")
-#namecost("Level 2 Cast on 7+", "")
+#spell("KRAKEN'S PULL", 4, cast: "12+")[Remains in Play. _Kraken's Pull_ is a *magical vortex* that uses the small round template. Any model touched by the template must pass a Strength test or suffer a Wound which Ignores Armour Saves.]
 
-_Abyssal Darkness_ is an *augment* spell that is cast on the Wizard itself. Until the start of the caster's next Magic phase all missile attacks targeted at the Wizard and any unit they are with suffer a \-1 To Hit penalty, and enemies need to be within 18" to be able to draw Line of Sight to them.
+#spell("VORPAL MAELSTROM", 4, cast: "13+")[_Vorpal Maelstrom_ is a *direct damage* spell. Place the large template anywhere within 18" of the Wizard; it then scatters D6". All models under the template suffer a Strength Hit equal to their Unit Strength plus 2. In addition, any surviving models will have their Movement value lowered by half until the start of the caster's next Magic Phase.]
+]
+#magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Pirates of Sartosa. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
-#namecost("GAZE INTO THE ABYSS", "")
-#namecost("Level 2 Cast on 7+", "")
+#magic-item-section("weapon", first: true)[
+#magic-weapon("TIDAL BLADE", 40)[Each successful Hit made with this weapon penetrates ranks like a bolt thrower.]
 
-_Gaze Into the Abyss_ is a *hex* spell with a range of 24". The target unit suffers \-1 Weapon Skill, \-1 Initiative and \-2 Leadership until the start of the caster's next Magic Phase.
+#magic-weapon("STORM TRIDENT", 35, type: "Polearm")[Attacks made with this weapon have the Lightning Attacks special rule. Additionally, all natural To Wound rolls of 6 with the weapon have the Multiple Wounds (D3) special rule.]
 
-#namecost("STEED OF TIDES", "")
-#namecost("Level 3 Cast on 9+", "")
+#magic-weapon("SERPENT CUTLASS", 25)[Attacks made with this weapon are made with +1 Strength and have the Poisoned Attacks special rule.]
 
-_Steed of Tides_ is a *conveyance* spell with a range of 18". The target is immediately picked up and may be moved to any position on the battlefield within 3D6" of their original position (or within any water terrain feature on the battlefield), just like a summoning spell.
+#magic-weapon("SQUALL SABRE", 25)[This weapon grants its wielder a Strength 3 Breath Weapon and Immunity (Flaming Attacks). Enemy units hit by this Breath Weapon lose the Flaming Attacks special rule until the beginning of the wielder’s next turn.]
 
-#namecost("WATERY GRAVE", "")
-#namecost("Level 3 Cast on 9+", "")
+#magic-weapon("WAVECUTTER", 20, type: "Great weapon")[This weapon does not suffer the normal Initiative penalties for being a great weapon. Additionally, the wielder can choose to exchange all of their Attacks to make a special attack. If they do so, all enemy models in base contact with the wielder suffer a single automatic hit. In a challenge, only the model engaged in the challenge count as being in base contact with the wielder.]
 
-_Watery Grave_ is a *hex* spell with a range of 24". The target unit counts as moving through dangerous terrain until the start of the caster's next Magic phase. For every 4" the unit moves while the spell is in effect, the chance of them failing the test increases by +1.
+#magic-weapon("BLOODY BOARDING AXE", 15, only: "Model on foot", type: "Additional hand weapon")[The wielder gains the Mighty Blow (1) special rule. In addition, they suffer no penalties when attacking units that are garrisoned or defending an obstacle.]
 
-#namecost("ARCANE CORRASION", "")
-#namecost("Level 3 Cast on 10+", "")
+#magic-weapon("CROW'S FEET", 15, type: "Throwing weapons")[After resolving a Stand and Shoot charge reaction with this weapon against a non-Flying charging unit, the unit must immediately take 2D6 dangerous terrain tests, up to the number of models in the unit. For each failed test, the enemy unit suffers \-1 to their charge distance roll against the wielder’s unit.]
 
-_Arcane Corrasion_ is a *magic missile* that causes a number of Strength 4 Hits depending on the distance to the target. If the target is within less than 12" it suffers D6 Hits. If the target is within 12" to 24" it suffers 2D6 Hits. If the target is within 24" to 36" it suffers 3D6 Hits.
+#magic-weapon("PISTOLS OF KING DEATH", 15, type: "Brace of pistols")[All failed To Hit and To Wound rolls with missile attacks from these weapons may be re- rolled.]
 
-#namecost("DENIZENS OF THE DEEP", "")
-#namecost("Level 4 Cast on 12+", "")
+#magic-weapon("STROMFEL'S FIN", 15)[Attacks made with this weapon have the Killing Blow special rule, and may reroll failed To Wound rolls when attacking a unit or model containing one or more models that have suffered one or more Wounds (excluding slain models).]
 
-_Denizens of the Deep_ is a *direct damage* spell with a range of 24" that causes 6D6 Strength 2 Hits.
-
-#namecost("KRAKEN'S PULL", "")
-#namecost("Level 4 Cast on 12+", "")
-
-Remains in Play. _Kraken's Pull_ is a *magical vortex* that uses the small round template. Any model touched by the template must pass a Strength test or suffer a Wound which Ignores Armour Saves.
-
-#namecost("VORPAL MAELSTROM", "")
-#namecost("Level 4 Cast on 13+", "")
-
-_Vorpal Maelstrom_ is a *direct damage* spell. Place the large template anywhere within 18" of the Wizard; it then scatters D6". All models under the template suffer a Strength Hit equal to their Unit Strength plus 2. In addition, any surviving models will have their Movement value lowered by half until the start of the caster's next Magic Phase.
+#magic-weapon("EL CADAVO'S HOOK-HAND", 10, type: "Additional hand weapon")[Attacks made with this weapon have the Armour Piercing (1) special rule.]
 ]
 
-= MAGIC ITEMS
+#magic-item-section("armour")[
+#magic-armour("STORMRIDER ARMOUR", 15, type: "Light armour")[The wearer’s armour save can never be reduced to less than 6+, and they have the Immunity (Lightning Attacks) special rule. Additionally, any time the wearer makes a successful armour save in close combat, they inflict a Strength 4 Hit with the Lightning Attacks special rule on the attacker.]
 
-*This section contains the rules for some of the most iconic and powerful magical artefacts used by the Pirates of Sartosa. These may be used in addition to the magic items found in the Warhammer rulebook.*
+#magic-armour("BARNACLE COAT", 15, type: "Light armour")[The wearer gains the Regeneration (6+) special rule.]
 
-#entry("MAGIC WEAPONS")
-#namecost("TIDAL BLADE", "40 points")
+#magic-armour("MEGALADON HELMET", 15)[The wearer gains a 6+ armour save and the Frenzy special rule.]
 
-Each successful Hit made with this weapon penetrates ranks like a bolt thrower.
+#magic-armour("KRAKEN COAT", 15, type: "Light armour")[At the start of each round of close combat, the Kraken Cloak causes one enemy model in base contact of your choosing to suffer a \-1 penalty to their Attack characteristic for the remainder of the close combat phase.]
 
-#namecost("STORM TRIDENT", "35 points")
+#magic-armour("SEA SERPENT SCALES", 15, type: "Light armour")[The wearer has the Immunity (Poisoned Attacks) and Natural Armour (6+) special rules.]
 
-Polearm. Attacks made with this weapon have the Lightning Attacks special rule. Additionally, all natural To Wound rolls of 6 with the weapon have the Multiple Wounds (D3) special rule.
+#magic-armour("BLACK BARNABUS' BUCKLER", 10, type: "Buckler")[The wielder may reroll failed Parry saves.]
+]
 
-#namecost("SERPENT CUTLASS", "25 points")
+#magic-item-section("talisman")[
+#talisman("COIN OF THE BETRAYER", 40)[The bearer gains a 3+ Ward save. However, for every roll of a natural 1 when taking Ward saves, they suffer D3 Wounds instead of 1.]
 
-Attacks made with this weapon are made with +1 Strength and have the Poisoned Attacks special rule.
+#talisman("THE BLACK SPOT", 30)[The bearer of this item gains the Fear special rule. In addition, enemies attacking the bearer in close combat suffer \-1 To Hit.]
 
-#namecost("SQUALL SABRE", "25 points")
+#talisman("WHALEBONE CHARM", 30, one-use: true)[When used, enemies must re-roll successful rolls To Wound against the wearer for the duration of the turn. In addition, whenever the wearer would normally lose their last Wound, this is automatically negated on a 2+.]
 
-This weapon grants its wielder a Strength 3 Breath Weapon and Immunity (Flaming Attacks). Enemy units hit by this Breath Weapon lose the Flaming Attacks special rule until the beginning of the wielder’s next turn.
+#talisman("THE GUNNARSSON KRON", 20)[The bearer of this item gains +1 Toughness.]
 
-#namecost("WAVECUTTER", "20 points")
+#talisman("POLLY THE PARROT", 20)[All enemies attempting to strike the bearer of this item must re-roll 6's To Hit in close combat. In addition, the bearer gains a 3+ Ward save against War Machines.]
 
-Great Weapon. This weapon does not suffer the normal Initiative penalties for being a great weapon. Additionally, the wielder can choose to exchange all of their Attacks to make a special attack. If they do so, all enemy models in base contact with the wielder suffer a single automatic hit. In a challenge, only the model engaged in the challenge count as being in base contact with the wielder.
+#talisman("SHARKTOOTH NECKLACE", 20)[The model has the Immunity (Killing Blow, Multiple Wounds) special rule. Additionally, enemies must reroll To Wound rolls of 6's against them.]
 
-#namecost("BLOODY BOARDING AXE", "15 points")
+#talisman("LUCKY GOLDEN TOOTH", 15)[The bearer of this item may re-roll failed armour and Ward saves.]
 
-Model on foot only. Additional hand weapon. The wielder gains the Mighty Blow (1) special rule. In addition, they suffer no penalties when attacking units that are garrisoned or defending an obstacle.
+#talisman("SWASHBUCKLER'S BOOTS", 10)[The bearer of this item gains the Dodge (6+) special rule. Additionally, they may freely change their position in the front rank of their unit at the beginning of every close combat phase, unless in a challenge.]
+]
 
-#namecost("CROW'S FEET", "15 points")
-
-Throwing weapons. After resolving a Stand and Shoot charge reaction with this weapon against a non-Flying charging unit, the unit must immediately take 2D6 dangerous terrain tests, up to the number of models in the unit. For each failed test, the enemy unit suffers \-1 to their charge distance roll against the wielder’s unit.
-
-#namecost("PISTOLS OF KING DEATH", "15 points")
-
-Brace of Pistols. All failed To Hit and To Wound rolls with missile attacks from these weapons may be re- rolled.
-
-#namecost("STROMFEL'S FIN", "15 points")
-
-Attacks made with this weapon have the Killing Blow special rule, and may reroll failed To Wound rolls when attacking a unit or model containing one or more models that have suffered one or more Wounds (excluding slain models).
-
-#namecost("EL CADAVO'S HOOK-HAND", "10 points")
-
-Additional hand weapon. Attacks made with this weapon have the Armour Piercing (1) special rule.
-
-#entry("MAGIC ARMOUR")
-#namecost("STORMRIDER ARMOUR", "15 points")
-
-Light armour. The wearer’s armour save can never be reduced to less than 6+, and they have the Immunity (Lightning Attacks) special rule. Additionally, any time the wearer makes a successful armour save in close combat, they inflict a Strength 4 Hit with the Lightning Attacks special rule on the attacker.
-
-#namecost("BARNACLE COAT", "15 points")
-
-Light armour. The wearer gains the Regeneration (6+) special rule.
-
-#namecost("MEGALADON HELMET", "15 points")
-
-The wearer gains a 6+ armour save and the Frenzy special rule.
-
-#namecost("KRAKEN COAT", "15 points")
-
-Light armour. At the start of each round of close combat, the Kraken Cloak causes one enemy model in base contact of your choosing to suffer a \-1 penalty to their Attack characteristic for the remainder of the close combat phase.
-
-#namecost("SEA SERPENT SCALES", "15 points")
-
-Light armour. The wearer has the Immunity (Poisoned Attacks) and Natural Armour (6+) special rules.
-
-#namecost("BLACK BARNABUS' BUCKLER", "10 points")
-
-Buckler. The wielder may reroll failed Parry saves.
-
-#entry("TALISMANS")
-#namecost("COIN OF THE BETRAYER", "40 points")
-
-The bearer gains a 3+ Ward save. However, for every roll of a natural 1 when taking Ward saves, they suffer D3 Wounds instead of 1.
-
-#namecost("THE BLACK SPOT", "30 points")
-
-The bearer of this item gains the Fear special rule. In addition, enemies attacking the bearer in close combat suffer \-1 To Hit.
-
-#namecost("WHALEBONE CHARM", "30 points")
-
-One use only. When used, enemies must re-roll successful rolls To Wound against the wearer for the duration of the turn. In addition, whenever the wearer would normally lose their last Wound, this is automatically negated on a 2+.
-
-#namecost("THE GUNNARSSON KRON", "20 points")
-
-The bearer of this item gains +1 Toughness.
-
-#namecost("POLLY THE PARROT", "20 points")
-
-All enemies attempting to strike the bearer of this item must re-roll 6's To Hit in close combat. In addition, the bearer gains a 3+ Ward save against War Machines.
-
-#namecost("SHARKTOOTH NECKLACE", "20 points")
-
-The model has the Immunity (Killing Blow, Multiple Wounds) special rule. Additionally, enemies must reroll To Wound rolls of 6's against them.
-
-#namecost("LUCKY GOLDEN TOOTH", "15 points")
-
-The bearer of this item may re-roll failed armour and Ward saves.
-
-#namecost("SWASHBUCKLER'S BOOTS", "10 points")
-
-The bearer of this item gains the Dodge (6+) special rule. Additionally, they may freely change their position in the front rank of their unit at the beginning of every close combat phase, unless in a challenge.
-
-#entry("ARCANE ITEMS")
-
+#magic-item-section("arcane")[
 #runin[GRAND NAVIGATOR]'#runin[S STAFF 35 points] The bearer gains a +1 casting bonus when casting spells from the Lore of Heavens. Additionally, they may reroll 1's when channelling Power and Dispel dice.
 
-#namecost("ARCANE ASTROLABE", "40 points")
+#arcane-item("ARCANE ASTROLABE", 40, one-use: true)[When used, the model bearing this item may re-roll the result from the Winds of Magic in your turn.]
 
-One use only. When used, the model bearing this item may re-roll the result from the Winds of Magic in your turn.
+#arcane-item("GROUNDING LODESTONE", 20)[Whenever the bearer of this item must roll on the Miscast table, subtract 1 from the result.]
 
-#namecost("GROUNDING LODESTONE", "20 points")
+#arcane-item("AETHYRIC ANCHOR", 20, one-use: true)[The Wizard may ignore their first miscast. If they do so, they cannot voluntarily move until the beginning of their next Magic phase.]
 
-Whenever the bearer of this item must roll on the Miscast table, subtract 1 from the result.
+#arcane-item("DROWNING EFFIGY", 15)[The bearer may reroll failed To Wound rolls caused by the _Kiss of the Deep_ Lore Attribute when casting spells from the Lore of the Deep.]
+]
 
-#namecost("AETHYRIC ANCHOR", "20 points")
+#magic-item-section("enchanted")[
+#enchanted-item("HELLFIRE POWDER", 35)[The bearer of this item, and any unit they join, add +1 Strength to all their missile attacks (except javelins, harpoon launchers and throwing weapons). However, every To Hit roll of 1 with their missile attacks inflicts a Hit from the weapon on the shooter instead.]
 
-One use only. The Wizard may ignore their first miscast. If they do so, they cannot voluntarily move until the beginning of their next Magic phase.
+#enchanted-item("STORM IN A BOTTLE", 35, bound: (power: 6))[This item contains the _Storm of Cronos_ spell from the Lore of Heavens.]
 
-#namecost("DROWNING EFFIGY", "15 points")
+#enchanted-item("REYNO BLOODLOCK'S HAT", 25)[The bearer of this item gains the Inspiring Presence (6) special rule.]
 
-The bearer may reroll failed To Wound rolls caused by the _Kiss of the Deep_ Lore Attribute when casting spells from the Lore of the Deep.
+#enchanted-item("BLACKEYE PEARL", 20)[The Blackeye Pearl gives the model the Sniper special rule. In addition, the bearer may pick one enemy unit within Line of Sight at the start of each of your turns. Your opponent must reveal all Magic Items, Hidden models and the like that unit might have.]
 
-#entry("ENCHANTED ITEMS")
-#namecost("HELLFIRE POWDER", "35 points")
+#enchanted-item("FIREWATER", 20, one-use: true)[The Firewater may be used at the start of any Shooting or Close Combat phase. The model gains a Strength 3 Breath Weapon with the Flaming Attacks special rule for the remainder of the phase.]
 
-The bearer of this item, and any unit they join, add +1 Strength to all their missile attacks (except javelins, harpoon launchers and throwing weapons). However, every To Hit roll of 1 with their missile attacks inflicts a Hit from the weapon on the shooter instead.
+#enchanted-item("CURSED MOONSHINE", 15, one-use: true)[This item can be used at the start of any of your turns. When used, the bearer gains the Frenzy and Terror special rules until the beginning of your next turn.]
 
-#namecost("STORM IN A BOTTLE", "35 points")
+#enchanted-item("SALTY SKIPPER'S PIPE", 15)[The model has the Immunity (Psychology) special rule. In addition, any unit they join may reroll failed Panic tests.]
 
-Bound Spell, power level 6. This item contains the _Storm of Cronos_ spell from the Lore of Heavens.
+#enchanted-item("BLACK BUCKTHORN'S TREASURE MAP", 10)[Black Buckthorn's Treasure Map adds +1 to the dice rolled when determining which side to deploy on.]
 
-#namecost("REYNO BLOODLOCK'S HAT", "25 points")
+#enchanted-item("WILLEM LONGTOOTH'S PEG LEG", 10)[The bearer of this item gains the Stomp (1) special rule.]
 
-The bearer of this item gains the Inspiring Presence (6) special rule.
+#enchanted-item("THE SMUGGLER'S SATCHEL", 10)[The bearer of this item may take an additional Talisman, Arcane Item or Enchanted Item.]
 
-#namecost("BLACKEYE PEARL", "20 points")
+#enchanted-item("MAELSTROM BANNER", 25)[At the beginning of each of your turns, enemy units within 12" of the standard are ‘pulled’ directly towards the unit by D3” (they do not change facing). If the target unit comes into contact with another unit or impassable terrain, it stops 1" away. Additionally, any enemy unit fleeing from combat while in base contact with the unit suffers a -D3 penalty to their Flee distance.]
 
-The Blackeye Pearl gives the model the Sniper special rule. In addition, the bearer may pick one enemy unit within Line of Sight at the start of each of your turns. Your opponent must reveal all Magic Items, Hidden models and the like that unit might have.
+#enchanted-item("BANNER OF BOUNTIFUL TREASURE", 20)[Each enemy standard captured by the unit carrying this standard gives them an addition +1 to their combat resolution score. In addition, any captured standards by this unit are worth twice their normal Victory Points.]
 
-#namecost("FIREWATER", "20 points")
+#enchanted-item("BOATSWAIN'S BURGEES", 20)[The unit carrying this standard gains +1 to their Leadership.]
 
-One use only. The Firewater may be used at the start of any Shooting or Close Combat phase. The model gains a Strength 3 Breath Weapon with the Flaming Attacks special rule for the remainder of the phase.
+#enchanted-item("PRESS-GANGER STANDARD", 15)[The unit carrying this standard may re-roll their Pursuit distance. In addition, they inflict twice the number of casualties when pursuing enemy units than normal.]
+]
 
-#namecost("CURSED MOONSHINE", "15 points")
+#magic-item-section("standard")[
+#magic-standard("SKULL AND CROSSBONES", 35)[The unit carrying this standard gains the Terror and Vanguard special rules.]
 
-One use only. This item can be used at the start of any of your turns. When used, the bearer gains the Frenzy and Terror special rules until the beginning of your next turn.
+#magic-standard("BLOODY JACK'S FLAG", 25)[The unit carrying this standard may re-roll failed To Wound rolls in close combat.]
 
-#namecost("SALTY SKIPPER'S PIPE", "15 points")
-
-The model has the Immunity (Psychology) special rule. In addition, any unit they join may reroll failed Panic tests.
-
-#namecost("BLACK BUCKTHORN'S TREASURE", "")
-#namecost("MAP", "10 points")
-
-Black Buckthorn's Treasure Map adds +1 to the dice rolled when determining which side to deploy on.
-
-#namecost("WILLEM LONGTOOTH'S PEG LEG", "10 points")
-
-The bearer of this item gains the Stomp (1) special rule.
-
-#runin[THE SMUGGLER]'#runin[S SATCHEL 10 points] The bearer of this item may take an additional Talisman, Arcane Item or Enchanted Item.
-
-#namecost("MAELSTROM BANNER", "25 points")
-
-At the beginning of each of your turns, enemy units within 12" of the standard are ‘pulled’ directly towards the unit by D3” (they do not change facing). If the target unit comes into contact with another unit or impassable terrain, it stops 1" away. Additionally, any enemy unit fleeing from combat while in base contact with the unit suffers a -D3 penalty to their Flee distance.
-
-#namecost("BANNER OF BOUNTIFUL TREASURE", "20 points")
-
-Each enemy standard captured by the unit carrying this standard gives them an addition +1 to their combat resolution score. In addition, any captured standards by this unit are worth twice their normal Victory Points.
-
-#namecost("BOATSWAIN'S BURGEES", "20 points")
-
-The unit carrying this standard gains +1 to their Leadership.
-
-#namecost("PRESS-GANGER STANDARD", "15 points")
-
-The unit carrying this standard may re-roll their Pursuit distance. In addition, they inflict twice the number of casualties when pursuing enemy units than normal.
-
-#entry("MAGIC STANDARDS")
-#namecost("SKULL AND CROSSBONES", "35 points")
-
-The unit carrying this standard gains the Terror and Vanguard special rules.
-
-#namecost("BLOODY JACK'S FLAG", "25 points")
-
-The unit carrying this standard may re-roll failed To Wound rolls in close combat.
-
-#namecost("GONFALON O' THE GREEN HANDS", "25 points")
-
-The unit carrying this standard gains +1 To Hit with missile weapons.
+#magic-standard("GONFALON O' THE GREEN HANDS", 25)[The unit carrying this standard gains +1 To Hit with missile weapons.]
+]
 
 = CHARACTERS
 
-#entry("CAPTAINS", first: true)
-#profile(
-  (name: "Pirate Lord", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 90),
-  (name: "Pirate Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 50),
-)
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
-
+#unit("CAPTAINS",
+  first: true,
+  profiles: (
+    (name: "Pirate Lord", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 90),
+    (name: "Pirate Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 50),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May choose one of the following:
   - Buckler +3 points
   - Spear +3 points
@@ -378,45 +248,46 @@ The unit carrying this standard gains +1 To Hit with missile weapons.
 - May take light armour +3 points
 - A Pirate Captain may take Magic Items up to a total of 50 points
 - A Pirate Lord may take Magic Items up to a total of 100 points
-
-#entry("SORCERERS")
-#profile(
-  (name: "Sorcerer Lord", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
-  (name: "Sorcerer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 8, points: 65),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "A Sorcerer is a Level 1 Wizard. A Sorcerer Lord is a Level 3 Wizard. They use one of the following Lores of Magic:")
 
+#unit("SORCERERS",
+  profiles: (
+    (name: "Sorcerer Lord", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
+    (name: "Sorcerer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 8, points: 65),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Sorcerer is a Level 1 Wizard. A Sorcerer Lord is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
 - Death
 - Deep
 - Fire
 - Heavens
 - Metal
 - Shadow
-
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May take an additional Wizard Level +35 points
 - A Sorcerer may take Magic Items up to a total of 50 points
 - A Sorcerer Lord may take Magic Items up to a total of 100 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Sorcerer may not be the Army General.
-
-#entry("QUARTERMASTER")
-#profile(
-  (name: "Quartermaster", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 35),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
 
+#unit("QUARTERMASTER",
+  profiles: (
+    (name: "Quartermaster", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 35),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May choose one of the following:
   - Buckler +3 points
   - Spear +3 points
@@ -432,56 +303,55 @@ The unit carrying this standard gains +1 To Hit with missile weapons.
 - May take light armour +3 points
 - One Quartermaster may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 25 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - You may have one Quartermaster for each Pirate Captain or Pirate Lord in your army.
 - A Quartermaster may not be the Army General.
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
-
-#entry("PRIEST OF STROMFELS")
-#profile(
-  (name: "Priest of Stromfels", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 90),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Magic Resistance (1)")
 
+#unit("PRIEST OF STROMFELS",
+  profiles: (
+    (name: "Priest of Stromfels", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 90),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Magic Resistance (1)",
+  special-rules-body: [
 - *Blessing of Stromfels*: The model and any unit they are currently in have the Aquatic special rule and may re- roll 1's To Wound in close combat.
 - *Prayers of Stromfels:* A model with this special rule knows the three Prayers listed below. They may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the prayer is answered and take immediate effect. A unit can only be under the effect of one Prayer at a time.
   - *Curse of the Harsh Mistress:* Until the start of your next turn, all enemy units in base contact with the Priest suffer \-2 to their Movement, Initiative and Leadership, and roll one dice fewer than normal for their charge, flee and pursuit distance.
   - *Sea Sickness:* All enemy units in base contact with the Priest suffer \-1 to their Weapon Skill until the start of your next turn.
   - *Storm Winds:* All enemy missile attacks targeting the Priest or their unit suffer \-1 To Hit until the start of your next turn.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May choose one of the following:
   - Buckler +3 points
   - Additional hand weapon +5 points
   - Polearm +5 points
 - May take a pistol +4 points
 - May take Magic Items up to a total of 50 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Priest of Stromfels may not be the Army General.
+  ],
+)
 
 = CORE UNITS
 
-#entry("DECKHANDS", first: true)
-
-#profile(
-  (name: "Deckhands", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 3.5),
-)
-
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, buckler")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
-
+#unit("DECKHANDS",
+  first: true,
+  profiles: (
+    (name: "Deckhands", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 3.5),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, buckler",
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May replace bucklers with one of the following:
   - Spears free
   - Additional hand weapons +0.5 point/model
@@ -496,18 +366,19 @@ The unit carrying this standard gains +1 To Hit with missile weapons.
 - May upgrade one Deckhand to a Musician +5 points
 - May upgrade one Deckhand to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("GUNNERS")
-#profile(
-  (name: "Gunner", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 6),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, pistol")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
 
+#unit("GUNNERS",
+  profiles: (
+    (name: "Gunner", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 6),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, pistol",
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May replace pistols with one of the following:
   - Blunderbusses +2 points/model
   - Handguns +2 points/model
@@ -520,78 +391,82 @@ The unit carrying this standard gains +1 To Hit with missile weapons.
 - May upgrade one Gunner to a Musician +5 points
 - May upgrade one Gunner to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("BUCCANEERS")
-#profile(
-  (name: "Buccaneer", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 7, points: 5),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs, Skirmishers")
-#field("OPTIONS", "")
 
+#unit("BUCCANEERS",
+  profiles: (
+    (name: "Buccaneer", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 7, points: 5),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Dirty Fighting, Sea Legs, Skirmishers",
+  options: [
 - May take one of the following:
   - Bucklers +0.5 point/model
   - Additional hand weapons +1 point/model
 - May take throwing weapons +1 point/model
 - May upgrade one Buccaneer to a Leader +5 points
 - May upgrade one Buccaneer to a Musician +5 points
-
-#entry("HARPOONERS")
-#profile(
-  (name: "Harpooner", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 6),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, javelins")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs, Skirmishers")
-#field("OPTIONS", "")
 
+#unit("HARPOONERS",
+  profiles: (
+    (name: "Harpooner", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 6),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, javelins",
+  special-rules: "Dirty Fighting, Sea Legs, Skirmishers",
+  options: [
 - May take bucklers +0.5 point/model
 - May upgrade one Harpooner to a Leader +5 points
   - May replace javelins with a harpoon launcher +10 points
 - May upgrade one Harpooner to a Musician +5 points
-
-#entry("SWABBIES")
-#profile(
-  (name: "Swabbie", m: 4, ws: 2, bs: 2, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 6, points: 2),
-  (name: "Press Ganger", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 2, ld: 7, points: 15),
+  ],
 )
-#field("UNIT SIZE", "20-60")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("HANDLER", "Press Ganger (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Expendable, Mixed Unit")
-#field("OPTIONS", "")
 
+#unit("SWABBIES",
+  profiles: (
+    (name: "Swabbie", m: 4, ws: 2, bs: 2, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 6, points: 2),
+    (name: "Press Ganger", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 2, ld: 7, points: 15),
+  ),
+  unit-size: "20-60",
+  troop-type: "Infantry (Human)",
+  handler: "Press Ganger (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Expendable, Mixed Unit",
+  options: [
 - May take one of the following:
   - Bucklers +0.5 point/model
   - Additional hand weapons +1 point/model
 - May take throwing weapons +0.5 point/model
 - May upgrade one Buccaneer to a Leader +5 points
 - May upgrade one Buccaneer to a Musician +5 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - You must include one Press Ganger for every 20 Swabbies in the unit.
+  ],
+)
 
 = SPECIAL UNITS
 
-#entry("SEADOGS", first: true)
-#profile(
-  (name: "Seadog", m: 4, ws: 4, bs: 4, s: 4, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 7),
-)
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
-
+#unit("SEADOGS",
+  first: true,
+  profiles: (
+    (name: "Seadog", m: 4, ws: 4, bs: 4, s: 4, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 7),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May choose one of the following:
   - Bucklers +0.5 point/model
   - Additional hand weapons +1 point/model
@@ -609,21 +484,22 @@ The unit carrying this standard gains +1 To Hit with missile weapons.
 - May upgrade one Seadog to a Musician +5 points
 - May upgrade one Seadog to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("POWDER MONKEYS")
-#profile(
-  (name: "Powder Monkey", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 10),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, brace of pistols")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
 
-- *Festooned with Pistols:* In close combat, all attacks made by Powder Monkeys are resolved at Strength 4 with the Armour Piercing (1) special rule in the first round of close combat. These attacks do not benefit from any bonuses that normally only affect close combat attacks.
-
-#field("OPTIONS", "")
-
+#unit("POWDER MONKEYS",
+  profiles: (
+    (name: "Powder Monkey", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 10),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, brace of pistols",
+  special-rules: "Dirty Fighting, Sea Legs",
+  special-rules-body: (
+    rule("Festooned with Pistols")[In close combat, all attacks made by Powder Monkeys are resolved at Strength 4 with the Armour Piercing (1) special rule in the first round of close combat. These attacks do not benefit from any bonuses that normally only affect close combat attacks.],
+  ),
+  options: [
 - May upgrade one Powder Monkey to one of the following:
   - Look-Out +5 points
   - Bosun +20 points
@@ -633,44 +509,47 @@ The unit carrying this standard gains +1 To Hit with missile weapons.
 - May upgrade one Powder Monkey to a Musician +5 points
 - May upgrade one Powder Monkey to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("GROG LUBBERS")
-#profile(
-  (name: "Grog Lubber", m: 4, ws: 2, bs: 2, s: 3, t: 3, w: 1, i: 2, a: 1, ld: 7, points: 6),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, grenades")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs, Skirmishers")
 
+#unit("GROG LUBBERS",
+  profiles: (
+    (name: "Grog Lubber", m: 4, ws: 2, bs: 2, s: 3, t: 3, w: 1, i: 2, a: 1, ld: 7, points: 6),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, grenades",
+  special-rules: "Dirty Fighting, Sea Legs, Skirmishers",
+  special-rules-body: [
 - *Combustible Breath:* Grog Lubbers can spit grog as a Stand and Shoot reaction as soon as their enemies come into base contact with them, and in Close Combat after all normal attacks have been resolved. Each attack with Combustible Breath causes an automatic Strength 3 hit with the Flaming Attacks special rule on all models in base contact.
 - *Hard Stuff:* At the start of each of your turns, roll a D6 and consult the table below to see what effect the unit has until the start of your next turn:
 
 #chart((("D6", "Result"), ("1-2", "Three Sheets to the Wind: The Grog Lubbers are subject to Stupidity."), ("3", "Pirate Grog: The Grog Lubbers gain the Immunity (Psychology) special rule."), ("4", "Norse Mead: The Grog Lubbers gain the Frenzy special rule."), ("5", "Dwarf Brew: The Grog Lubbers gain +1 to their Toughness."), ("6", "Lustrian Wine: The Grog Lubbers gain +1 to their Strength.")))
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take one of the following:
   - Bucklers +0.5 point/model
   - Additional hand weapons +1 point/model
 - May upgrade one Grog Lubber to a Leader +5 points
 - May upgrade one Grog Lubber to a Musician +5 points
-
-#entry("DWARF PRIVATEERS")
-#profile(
-  (name: "Dwarf Privateer", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 5),
+  ],
 )
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Hatred (Goblins, Orcs, Skaven)")
 
-- *Relentless:* Units entirely composed of models with this special rule do not need to pass a Leadership test in order to march, regardless of the proximity of enemy units.
-- *Resolute:* When taking Break tests, models with this special rule count as having lost the combat with 1 point fewer than they actually have.
-
-#field("OPTIONS", "")
-
+#unit("DWARF PRIVATEERS",
+  profiles: (
+    (name: "Dwarf Privateer", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 5),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Hatred (Goblins, Orcs, Skaven)",
+  special-rules-body: (
+    rule("Relentless")[Units entirely composed of models with this special rule do not need to pass a Leadership test in order to march, regardless of the proximity of enemy units.],
+    rule("Resolute")[When taking Break tests, models with this special rule count as having lost the combat with 1 point fewer than they actually have.],
+  ),
+  options: [
 - May choose one of the following:
   - Bucklers +0.5 point/model
   - Spears +0.5 point/model
@@ -684,17 +563,18 @@ The unit carrying this standard gains +1 To Hit with missile weapons.
 - May upgrade one Privateer to a Musician +5 points
 - May upgrade one Privateer to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("ORC FREEBOOTERZ")
-#profile(
-  (name: "Orc Freebooter", m: 4, ws: 3, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 7, points: 5),
+  ],
 )
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Common Orc)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "")
 
+#unit("ORC FREEBOOTERZ",
+  profiles: (
+    (name: "Orc Freebooter", m: 4, ws: 3, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 7, points: 5),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Common Orc)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: [
 - *Animosity:* Units with this special rule must test for Animosity in the Charge sub-phase after all normal charges have been declared during each of your turns, unless any of the following applies:
   - The unit has fewer than 5 models.
   - The unit has declared a charge this turn.
@@ -715,8 +595,8 @@ as far as it can, and will then move as far forward as it can while still keepin
 forward arc. After the move is complete the unit must declare a charge against the closest visible
 enemy unit, if it is possible to do so. If the unit cannot declare a charge then it may carry on with the
 rest of its turn normally, as if it had not yet moved this turn.")))
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May choose one of the following:
   - Bucklers +0.5 point/model
   - Spears +0.5 point/model
@@ -728,16 +608,18 @@ rest of its turn normally, as if it had not yet moved this turn.")))
 - May upgrade one Freebooter to a Musician +5 points
 - May upgrade one Freebooter to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("OGRE SCALLYWAGS")
-#profile(
-  (name: "Ogre Scallywag", m: 6, ws: 3, bs: 3, s: 4, t: 4, w: 3, i: 2, a: 3, ld: 7, points: 25),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Ogre)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Hand weapon")
 
+#unit("OGRE SCALLYWAGS",
+  profiles: (
+    (name: "Ogre Scallywag", m: 6, ws: 3, bs: 3, s: 4, t: 4, w: 3, i: 2, a: 3, ld: 7, points: 25),
+  ),
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Ogre)",
+  base-size: "40x40",
+  equipment: "Hand weapon",
+  equipment-body: [
 - *Ogre Pistol:* Ogre pistols use the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Quick Shot"))
@@ -751,12 +633,12 @@ In close combat, an Ogre pistol counts as an additional hand weapon that does no
 - *Leadbelcher Gun:* Leadbelcher guns have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Cumbersome, Multiple Shots (D6), Rapid Fire"))
-#field("SPECIAL RULES", "Natural Armour (6+)")
-
-- *Ogre Charge:* Each model on foot with the Ogre Charge special rule that successfully charges an enemy has the Impact Hits (1) special rule. Models with this special rule that are part of a unit with ranks add their current Rank Bonus to the Strength of the Impact Hits they inflict. In addition, they count as having one more rank than their actual number for the purpose of determining Steadfast in any turn that they charge.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Natural Armour (6+)",
+  special-rules-body: (
+    rule("Ogre Charge")[Each model on foot with the Ogre Charge special rule that successfully charges an enemy has the Impact Hits (1) special rule. Models with this special rule that are part of a unit with ranks add their current Rank Bonus to the Strength of the Impact Hits they inflict. In addition, they count as having one more rank than their actual number for the purpose of determining Steadfast in any turn that they charge.],
+  ),
+  options: [
 - May choose one of the following:
   - Additional hand weapons +3 points/model
   - Bucklers +3 points/model
@@ -768,51 +650,54 @@ In close combat, an Ogre pistol counts as an additional hand weapon that does no
 - May upgrade one Scallywag to a Musician +5 points
 - May upgrade one Scallywag to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("WERESHARKS")
-#profile(
-  (name: "Weresharks", m: 6, ws: 4, bs: 0, s: 5, t: 4, w: 3, i: 3, a: 3, ld: 7, points: 48),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Werecreature)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Aquatic, Killing Blow, Natural Armour (5+)")
 
-- *Bloodlust:* For every successful Wound caused (after saves) by a Wereshark, it may make an additional attack. These additional attacks do not generate any further attacks.
-
-#field("OPTIONS", "")
-
+#unit("WERESHARKS",
+  profiles: (
+    (name: "Weresharks", m: 6, ws: 4, bs: 0, s: 5, t: 4, w: 3, i: 3, a: 3, ld: 7, points: 48),
+  ),
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Werecreature)",
+  base-size: "40x40 or 50x50",
+  equipment: "Hand weapon",
+  special-rules: "Aquatic, Killing Blow, Natural Armour (5+)",
+  special-rules-body: (
+    rule("Bloodlust")[For every successful Wound caused (after saves) by a Wereshark, it may make an additional attack. These additional attacks do not generate any further attacks.],
+  ),
+  options: [
 - May take polearms +6 points/model
 - May upgrade one Wereshark to a Leader +5 points
-
-#entry("DECK GUNNERS")
-#profile(
-  (name: "Deck Gunner", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 15),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x40 or 25x50")
-#field("EQUIPMENT", "Hand weapon, swivel gun")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
 
+#unit("DECK GUNNERS",
+  profiles: (
+    (name: "Deck Gunner", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 15),
+  ),
+  unit-size: "3-9",
+  troop-type: "Infantry (Human)",
+  base-size: "20x40 or 25x50",
+  equipment: "Hand weapon, swivel gun",
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May replace swivel guns with one of the following:
   - Harpoon launchers free
   - Volley guns +3 points/model
-
-#entry("CARRONADE")
-#profile(
-  (name: "Carronade", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 85),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Human)")
-#field("BASE SIZE", "50x75 (Carronade), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, cannon")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("UPGRADES", "")
 
+#unit("CARRONADE",
+  profiles: (
+    (name: "Carronade", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 85),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Human)",
+  base-size: "50x75 (Carronade), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, cannon",
+  special-rules: "Dirty Fighting, Sea Legs",
+  upgrades: [
 - *Chain Shot:* Chain shot has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12-36\"", "6", "Multiple Wounds (D3)"))
@@ -820,214 +705,236 @@ In close combat, an Ogre pistol counts as an additional hand weapon that does no
 When fired upon an enemy unit, the shot strikes the models in D3 files rather than one. This can be used instead of firing normally.
 
 - *Heat Shot:* The cannon gains the Flaming Attacks special rule. However, if a misfire is rolled, add \-1 to the misfire result. This can be used instead of firing normally.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take Chain Shot +10 points
 - May take Heat Shot +5 points
 - May upgrade one Crew to a Master Gunner +5 points
 - May take an additional crew +5 points
-
-#entry("MORTAR")
-#profile(
-  (name: "Mortar", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 100),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Human)")
-#field("BASE SIZE", "50x75 (Mortar), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, mortar")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-#field("OPTIONS", "")
 
+#unit("MORTAR",
+  profiles: (
+    (name: "Mortar", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 100),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Human)",
+  base-size: "50x75 (Mortar), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, mortar",
+  special-rules: "Dirty Fighting, Sea Legs",
+  options: [
 - May upgrade one Crew to a Master Gunner +5 points
 - May take an additional crew +5 points
+  ],
+)
 
 = RARE UNITS
 
-#entry("DARK MAIDENS", first: true)
-#profile(
-  (name: "Dark Maiden", m: 4, ws: 4, bs: 0, s: 4, t: 5, w: 3, i: 2, a: 3, ld: 5, points: 47),
+#unit("DARK MAIDENS",
+  first: true,
+  profiles: (
+    (name: "Dark Maiden", m: 4, ws: 4, bs: 0, s: 4, t: 5, w: 3, i: 2, a: 3, ld: 5, points: 47),
+  ),
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Animated Construct)",
+  base-size: "40x40 or 50x50",
+  equipment: "Two hand weapons",
+  special-rules: "Animated Construct, Aquatic, Flammable, Magical Ward (5+), Natural Armour (5+)",
+  special-rules-body: (
+    rule("Maiden's Chant")[In the Shooting phase, a unit of Dark Maidens may target one enemy unit within 18" and their line of sight. The unit must take a Leadership test with a \-2 modifier. For ever point above their Leadership the test shows, the enemy unit suffer 1 Wound with no save of any kind allowed.],
+  ),
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Animated Construct)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Two hand weapons")
-#field("SPECIAL RULES", "Animated Construct, Aquatic, Flammable, Magical Ward (5+), Natural Armour (5+)")
 
-- *Maiden's Chant:* In the Shooting phase, a unit of Dark Maidens may target one enemy unit within 18" and their line of sight. The unit must take a Leadership test with a \-2 modifier. For ever point above their Leadership the test shows, the enemy unit suffer 1 Wound with no save of any kind allowed.
-
-#entry("AIRSKIFF")
-#profile(
-  (name: "Airskiff", m: "-", ws: "-", bs: "-", s: 4, t: 5, w: 5, i: "-", a: "-", ld: "-", points: 80),
-  (name: "Crew", m: "-", ws: 3, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 7, points: ""),
-)
-#field("TROOP TYPE", "Chariot (Armour Save 4+)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("CREW", "3 Crew (Human)")
-#field("EQUIPMENT", "Hand weapon, swivel guns")
-#field("SPECIAL RULES", "Fly (6), Flammable")
-
-- *Hull-mounted:* An Airskiff is armed with two missile weapons, one on either side. Each weapon can fire within the model's front arc, or within the model's left and right arc, respectively. These weapons are not Ponderous.
-
-#field("OPTIONS", "")
-
+#unit("AIRSKIFF",
+  profiles: (
+    (name: "Airskiff", m: "-", ws: "-", bs: "-", s: 4, t: 5, w: 5, i: "-", a: "-", ld: "-", points: 80),
+    (name: "Crew", m: "-", ws: 3, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "Chariot (Armour Save 4+)",
+  base-size: "50x100 or 60x100",
+  crew: "3 Crew (Human)",
+  equipment: "Hand weapon, swivel guns",
+  special-rules: "Fly (6), Flammable",
+  special-rules-body: (
+    rule("Hull-mounted")[An Airskiff is armed with two missile weapons, one on either side. Each weapon can fire within the model's front arc, or within the model's left and right arc, respectively. These weapons are not Ponderous.],
+  ),
+  options: [
 - May replace swivel guns with one of the following:
   - Harpoon launchers free
   - Volley guns +6 points
-
-#compact-entry("SEA ELEMENTAL")[
-#profile(
-  (name: "Sea Elemental", m: 6, ws: 3, bs: 0, s: 5, t: 5, w: 4, i: 3, a: 4, ld: 7, points: 165),
+  ],
+  order: ("troop-type", "base-size", "crew", "equipment", "special-rules", "options"),
 )
-#field("TROOP TYPE", "Monstrous Creature (Elemental)")
-#field("BASE SIZE", "50x50")
-#field("MAGIC", "A Sea Elemental is a Level 1 Wizard who knows the Tidecall spell from the Lore of the Deep.")
-#field("SPECIAL RULES", "Aquatic, Ethereal, Immunity (Flaming Attacks), Unstable")
-]
 
-#entry("SEA GIANT")
-#profile(
-  (name: "Sea Giant", m: 6, ws: 3, bs: 0, s: 6, t: 6, w: 6, i: 3, a: 5, ld: 10, points: 200),
+#unit("SEA ELEMENTAL",
+  compact: true,
+  profiles: (
+    (name: "Sea Elemental", m: 6, ws: 3, bs: 0, s: 5, t: 5, w: 4, i: 3, a: 4, ld: 7, points: 165),
+  ),
+  troop-type: "Monstrous Creature (Elemental)",
+  base-size: "50x50",
+  magic: "A Sea Elemental is a Level 1 Wizard who knows the Tidecall spell from the Lore of the Deep.",
+  special-rules: "Aquatic, Ethereal, Immunity (Flaming Attacks), Unstable",
 )
-#field("TROOP TYPE", "Monster (Giant)")
-#field("BASE SIZE", "50x50 or 50x75")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Aquatic, Immunity (Psychology), Natural Armour (5+), Stubborn")
 
-- *Anchor Smash:* Rather than attacking normally, a Sea Giant may make a special attack. If this Attack Hits, it is resolved at Strength 10 with the Multiple Wounds (D6) special rule.
-
-#entry("TURTIGON")
-#profile(
-  (name: "Turtigon", m: 5, ws: 3, bs: 0, s: 6, t: 6, w: 6, i: 1, a: 4, ld: 6, points: 310),
-  (name: "Crew", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 7, points: ""),
+#unit("SEA GIANT",
+  profiles: (
+    (name: "Sea Giant", m: 6, ws: 3, bs: 0, s: 6, t: 6, w: 6, i: 3, a: 5, ld: 10, points: 200),
+  ),
+  troop-type: "Monster (Giant)",
+  base-size: "50x50 or 50x75",
+  equipment: "Hand weapon",
+  special-rules: "Aquatic, Immunity (Psychology), Natural Armour (5+), Stubborn",
+  special-rules-body: (
+    rule("Anchor Smash")[Rather than attacking normally, a Sea Giant may make a special attack. If this Attack Hits, it is resolved at Strength 10 with the Multiple Wounds (D6) special rule.],
+  ),
 )
-#field("TROOP TYPE", "Monster (Reptile)")
-#field("BASE SIZE", "50x100, 60x100 or 100x150")
-#field("CREW", "3 Crew (Human)")
-#field("EQUIPMENT", "Hand weapon, cannon")
-#field("SPECIAL RULES", "Aquatic, Armour Piercing (1) (Turtigon only), Killing Blow (Turtigon only), Natural Armour")
 
+#unit("TURTIGON",
+  profiles: (
+    (name: "Turtigon", m: 5, ws: 3, bs: 0, s: 6, t: 6, w: 6, i: 1, a: 4, ld: 6, points: 310),
+    (name: "Crew", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "Monster (Reptile)",
+  base-size: "50x100, 60x100 or 100x150",
+  crew: "3 Crew (Human)",
+  equipment: "Hand weapon, cannon",
+  special-rules: "Aquatic, Armour Piercing (1) (Turtigon only), Killing Blow (Turtigon only), Natural Armour",
+  special-rules-body: [
 *(2+), Stubborn*
 
 - *Cannon Misfire:* In case the cannon rolls a Misfire, the Turtigon suffer D3 Wounds which Ignores Armour Saves.
 - *Fiery Breath:* The Turtigon have a Strength 4 Breath Weapon with the Flaming Attacks special rule.
 - *Loss of Heads:* Once the Turtigon is reduced to 3 Wounds, its number of attacks drops to 2. In addition, the strength of the Turtigon's Breath Weapon is reduced to Strength 2.
-
-#entry("HELL-HAMMER CANNON")
-#profile(
-  (name: "Hell-Hammer", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: 140),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
+  order: ("troop-type", "base-size", "crew", "equipment", "special-rules"),
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "5 Crew (Human)")
-#field("BASE SIZE", "60x100 or 100x150 (Hell-Hammer), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, Hell-Hammer")
 
+#unit("HELL-HAMMER CANNON",
+  profiles: (
+    (name: "Hell-Hammer", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: 140),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "5 Crew (Human)",
+  base-size: "60x100 or 100x150 (Hell-Hammer), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, Hell-Hammer",
+  equipment-body: [
 - *Hell-Hammer:* A Hell-Hammer is a cannon with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12-72\"", "10", "Multiple Wounds (D6+1)"))
 
 Hellhammer Cannons may re-roll the distance bounced by the cannon ball and failed rolls To Wound. If a Misfire is rolled, add \-1 to the result on the Blackpowder Misfire Chart.
-
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-
-#entry("IRONFIST MORTAR")
-#profile(
-  (name: "Ironfist Mortar", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: 150),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
+  special-rules: "Dirty Fighting, Sea Legs",
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "5 Crew (Human)")
-#field("BASE SIZE", "60x100 or 100x150 (Ironfist Mortar), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, Ironfist Mortar")
 
+#unit("IRONFIST MORTAR",
+  profiles: (
+    (name: "Ironfist Mortar", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: 150),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "5 Crew (Human)",
+  base-size: "60x100 or 100x150 (Ironfist Mortar), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, Ironfist Mortar",
+  equipment-body: [
 - *Ironfist Mortar:* An Ironfist Mortar is a mortar that uses the large temple and has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4(8)", "Armour Piercing (1), Multiple Wounds (D3)"))
 
 If a Misfire is rolled, add \-1 to the result on the Blackpowder Misfire Chart.
-
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
+  ],
+  special-rules: "Dirty Fighting, Sea Legs",
+)
 
 = SPECIAL CHARACTERS
 
-#entry("CARMEN SICILIERI", first: true)
-#namecost("The Pirate Princess", "")
-#profile(
-  (name: "Carmen Sicilieri", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 5, ld: 9, points: 275),
+#unit("CARMEN SICILIERI",
+  solo: true,
+  first: true,
+  subtitle: "The Pirate Princess",
+  profiles: (
+    (name: "Carmen Sicilieri", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 5, ld: 9, points: 275),
+  ),
+  troop-type: "Infantry (Special Character, Human, Pirate Lord)",
+  base-size: "20x20 or 25x25",
+  equipment: "Brace of pistols, light armour",
+  magic-items: (
+    rule("Tidebreaker")[Magic Weapon. All attacks from this sword always Wounds on at least a 3+ and have have Ignores Armour Saves special rule.],
+    rule("The Blasted Skull")[Talisman. The skull gives Carmen a 4+ Ward save. In addition, for every 1 rolled on the enemy's To Wound roll against her, they suffer 1 Wound themselves which Ignores Armour Saves.],
+  ),
+  special-rules: "Dirty Fighting, Fear, Sea Legs",
+  special-rules-body: (
+    rule("Pirate Princess")[Carmen has the Inspiring Presence (6) special rule. In addition, all friendly units within her Inspiring Presence range may re-roll failed Panic tests.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human, Pirate Lord)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Brace of pistols, light armour")
-#field("MAGIC ITEMS", "")
 
-- *Tidebreaker:* Magic Weapon. All attacks from this sword always Wounds on at least a 3+ and have have Ignores Armour Saves special rule.
-- *The Blasted Skull:* Talisman. The skull gives Carmen a 4+ Ward save. In addition, for every 1 rolled on the enemy's To Wound roll against her, they suffer 1 Wound themselves which Ignores Armour Saves.
-
-#field("SPECIAL RULES", "Dirty Fighting, Fear, Sea Legs")
-
-- *Pirate Princess:* Carmen has the Inspiring Presence (6) special rule. In addition, all friendly units within her Inspiring Presence range may re-roll failed Panic tests.
-
-#entry("JAEGO ROTH")
-#namecost("Captain of the Heldenhammer", "")
-#profile(
-  (name: "Jaego Roth", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 9, points: 185),
-)
-#field("TROOP TYPE", "Infantry (Special Character, Human, Pirate Lord)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, repeater pistol, light armour")
-
+#unit("JAEGO ROTH",
+  solo: true,
+  subtitle: "Captain of the Heldenhammer",
+  profiles: (
+    (name: "Jaego Roth", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 9, points: 185),
+  ),
+  troop-type: "Infantry (Special Character, Human, Pirate Lord)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, repeater pistol, light armour",
+  equipment-body: [
 - *Repeater Pistol:* A repeater pistol has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12\"", "4", "Armour Piercing (1), Multiple Shots (3), Quick to Fire"))
 
 In close combat, a repeater pistol counts as an additional hand weapon that does not give the model the Parry special rule.
-
-#field("MAGIC ITEMS", "")
-
-- *Arcane Moondial:* Enchanted Item. One use only. When used, this item allows Roth and any unit he is with to move as if they had the Ethereal special rule for the duration of the turn.
-- *Indigo Roth's Sea Chart:* Enchanted Item. This item gives Roth the Pilot special rule.
-- *Arabyan Spy-glass:* Enchanted Item. This item gives Roth the Sniper special rule. In addition, at the start of each of your turns, one enemy unit within line of sight of Roth must reveal all hidden units, special upgrades and Magic Items.
-
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-
-- *Captain of the Heldenhammer:* If Jaego Roth is included your army, you may fire an additional D3 shots when using the Naval Bombardment special rule.
-- *Will of Steel:* Captain Roth and any unit he is with may re-roll any failed Leadership tests. When fighting in challenges, he may re-roll all failed rolls To Hit.
-
-#entry("ARANESSA SALTSPITE")
-#namecost("The Queen of Tides, Captain of the Swordfysh", "")
-#profile(
-  (name: "Aranessa Saltspite", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 230),
+  ],
+  magic-items: (
+    rule("Arcane Moondial")[Enchanted Item. One use only. When used, this item allows Roth and any unit he is with to move as if they had the Ethereal special rule for the duration of the turn.],
+    rule("Indigo Roth's Sea Chart")[Enchanted Item. This item gives Roth the Pilot special rule.],
+    rule("Arabyan Spy-glass")[Enchanted Item. This item gives Roth the Sniper special rule. In addition, at the start of each of your turns, one enemy unit within line of sight of Roth must reveal all hidden units, special upgrades and Magic Items.],
+  ),
+  special-rules: "Dirty Fighting, Sea Legs",
+  special-rules-body: (
+    rule("Captain of the Heldenhammer")[If Jaego Roth is included your army, you may fire an additional D3 shots when using the Naval Bombardment special rule.],
+    rule("Will of Steel")[Captain Roth and any unit he is with may re-roll any failed Leadership tests. When fighting in challenges, he may re-roll all failed rolls To Hit.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human, Pirate Lord)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Pistol")
-#field("MAGIC ITEMS", "")
 
-- *Kraken's Bane:* Magic Weapon. Polearm. Kraken's Bane gives Aranessa +1 Strength, +1 Attack and the Heroic Killing Blow special rule.
-
-#field("SPECIAL RULES", "Dirty Fighting, Hatred (Norsca, Warriors of Chaos), Sea Legs")
-
+#unit("ARANESSA SALTSPITE",
+  solo: true,
+  subtitle: "The Queen of Tides, Captain of the Swordfysh",
+  profiles: (
+    (name: "Aranessa Saltspite", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 230),
+  ),
+  troop-type: "Infantry (Special Character, Human, Pirate Lord)",
+  base-size: "20x20 or 25x25",
+  equipment: "Pistol",
+  magic-items: (
+    rule("Kraken's Bane")[Magic Weapon. Polearm. Kraken's Bane gives Aranessa +1 Strength, +1 Attack and the Heroic Killing Blow special rule.],
+  ),
+  special-rules: "Dirty Fighting, Hatred (Norsca, Warriors of Chaos), Sea Legs",
+  special-rules-body: [
 - *Blessed of Manann:* Aranessa and any unit she is with may re-roll one D6 when charging and pursuing enemies. In addition, Aranessa may re-roll one roll To Hit or To Wound each round of close combat, and has a 5+ Ward save.
 - *Spearfisher's Net:* At the start of each round of close combat, Aranessa may target one enemy model in base contact. Roll to Hit against the target; if successful, that model is ensnared and suffers
   - D3 to its Attacks this round.
-
-#entry("GIACCHINO DE FALCO")
-#namecost("The Crazed Captain", "")
-#profile(
-  (name: "Giacchino de Falco", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 6, points: 100),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human, Pirate Captain)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Pistol")
-#field("MAGIC ITEMS", "")
 
-- *The Caitiff's Cutlass:* Magic Weapon. This cutlass grants Captain Giacchino the Parry (5+) special rule. For each wound suffered, he gains +1 to his Parry save.
-- *Lucky Charms:* Talisman. Giacchino has Magic Resistance (2). In addition, enemies must re-roll successful rolls of 6 To Wound him.
-
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
-
+#unit("GIACCHINO DE FALCO",
+  solo: true,
+  subtitle: "The Crazed Captain",
+  profiles: (
+    (name: "Giacchino de Falco", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 6, points: 100),
+  ),
+  troop-type: "Infantry (Special Character, Human, Pirate Captain)",
+  base-size: "20x20 or 25x25",
+  equipment: "Pistol",
+  magic-items: (
+    rule("The Caitiff's Cutlass")[Magic Weapon. This cutlass grants Captain Giacchino the Parry (5+) special rule. For each wound suffered, he gains +1 to his Parry save.],
+    rule("Lucky Charms")[Talisman. Giacchino has Magic Resistance (2). In addition, enemies must re-roll successful rolls of 6 To Wound him.],
+  ),
+  special-rules: "Dirty Fighting, Sea Legs",
+  special-rules-body: [
 - *Dead Men Tell No Tales:* Giacchino and any unit he is with have the Swiftstride special rule when fleeing.
 - *Son of a Biscuit Eater:* Before the start of the game, choose one enemy character on the table. Once during the game, Giacchino may make a special shot with the Sniper special rule against the chosen model. This shot is resolved with the Killing Blow special rule.
 - *Strange and Confused:* At the start of your Movement phase, roll a D6 and consult the table below:
@@ -1041,82 +948,94 @@ next turn."), ("5", "Batten Down the Hatches! Giacchino and any unit he is with 
 start of your next turn."), ("6", "Send 'em to Stromfels! Giacchino and any unit he is with must immediately declare a charge against
 the nearest enemy unit if possible. In addition, they may re-roll their charge distance and gain the
 Devastating Charge special rule until the start of your next turn.")))
-
-#entry("WILHELM SCHWARZ")
-#namecost("Quartermaster of Great Renown", "")
-#profile(
-  (name: "Wilhelm Schwarz", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 75),
-  (name: "Lizzy", m: "-", ws: 2, bs: 3, s: 2, t: "-", w: "-", i: 2, a: 1, ld: "-", points: ""),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human, Quartermaster)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Two hand weapons, handgun, blunderbuss, pistol")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
 
+#unit("WILHELM SCHWARZ",
+  solo: true,
+  subtitle: "Quartermaster of Great Renown",
+  profiles: (
+    (name: "Wilhelm Schwarz", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 75),
+    (name: "Lizzy", m: "-", ws: 2, bs: 3, s: 2, t: "-", w: "-", i: 2, a: 1, ld: "-", points: ""),
+  ),
+  troop-type: "Infantry (Special Character, Human, Quartermaster)",
+  base-size: "20x20 or 25x25",
+  equipment: "Two hand weapons, handgun, blunderbuss, pistol",
+  special-rules: "Dirty Fighting, Sea Legs",
+  special-rules-body: [
 - *Lizzy, the Salamander:* Lizzy has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12\"", "2", "Quick to Fire, Flaming Attacks"))
 
 - *Armed and Ready:* One Human Infantry unit in the army may choose between being equipped with Light Armour or gain the Armour Piercing (1) special rule.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take Magic Items up to a total of 50 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - Wilhelm Schwarz may not be the Army General.
-
-#entry("FLEUR AND ESTELLA")
-#namecost("Flint & Steel", "")
-#profile(
-  (name: "Estella", m: 4, ws: 6, bs: 4, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 60),
-  (name: "Fleur", m: 4, ws: 4, bs: 5, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 7, points: 60),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Two hand weapons (Estella), brace of pistols (Fleur)")
-#field("SPECIAL RULES", "Dirty Fighting, Sea Legs")
 
+#unit("FLEUR AND ESTELLA",
+  solo: true,
+  subtitle: "Flint & Steel",
+  profiles: (
+    (name: "Estella", m: 4, ws: 6, bs: 4, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 60),
+    (name: "Fleur", m: 4, ws: 4, bs: 5, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 7, points: 60),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Two hand weapons (Estella), brace of pistols (Fleur)",
+  special-rules: "Dirty Fighting, Sea Legs",
+  special-rules-body: [
 - *Pistolier Extraordinaire*: Fleur has the Festooned with Pistols (see Powder Monkeys) and Rapid Fire special rules.
 - *Princess of Parries*: Estella has the Parry (6+) special rule. If Estella has a higher Weapon Skill than her attacker, she gains +1 to her Parry rolls.
 - *Protective:* Fleur & Estella must deploy together and fight as a single unit, though they may join other units as normal. If Fleur is killed, Estella will be subject to Hatred and Frenzy for the remainder of the game.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - Estella may take Magic Items up to a total of 25 points
 - Fleur may take Magic Items up to a total of 25 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - Fleur & Estella may not be the Army General.
-
-#entry("KRUSHER THE ANCHORMAN")
-#profile(
-  (name: "Krusher the Anchorman", m: 4, ws: 5, bs: 4, s: 5, t: 5, w: 4, i: 3, a: 4, ld: 8, points: 150),
-  (name: "Giant Parrot", m: "-", ws: 2, bs: "-", s: 2, t: "-", w: "-", i: 2, a: 1, ld: "-", points: ""),
+  ],
 )
-#field("TROOP TYPE", "Monstrous Infantry (Special Character, Ogre)")
-#field("BASE SIZE", "40x40")
-#field("MAGIC ITEMS", "")
 
-- *Lucky Smasher:* Magic Weapon. Great weapon. All attacks with this weapon have the Multiple Wounds (D3) special rule. In addition, Krusher may re-roll 1's when rolling To Hit.
-
-#field("SPECIAL RULES", "Immunity (Psychology), Natural Armour (6+), Ogre Charge (see Ogre Scallywags), Stubborn")
-#field("OPTIONS", "")
-
+#unit("KRUSHER THE ANCHORMAN",
+  solo: true,
+  profiles: (
+    (name: "Krusher the Anchorman", m: 4, ws: 5, bs: 4, s: 5, t: 5, w: 4, i: 3, a: 4, ld: 8, points: 150),
+    (name: "Giant Parrot", m: "-", ws: 2, bs: "-", s: 2, t: "-", w: "-", i: 2, a: 1, ld: "-", points: ""),
+  ),
+  troop-type: "Monstrous Infantry (Special Character, Ogre)",
+  base-size: "40x40",
+  magic-items: (
+    rule("Lucky Smasher")[Magic Weapon. Great weapon. All attacks with this weapon have the Multiple Wounds (D3) special rule. In addition, Krusher may re-roll 1's when rolling To Hit.],
+  ),
+  special-rules: "Immunity (Psychology), Natural Armour (6+), Ogre Charge (see Ogre Scallywags), Stubborn",
+  options: [
 - May choose one of the following:
   - Ogre pistol +7 points
   - Brace of Ogre pistols +10 points
 - May take Magic Items up to a total of 25 points
+  ],
+)
 
 = CREDITS
 
-#entry("Written & Edited by:", first: true)
-#namecost("Mathias Eliasson", "")
+#unit("Written & Edited by:",
+  first: true,
+  subtitle: "Mathias Eliasson",
+  before: [
 #namecost("Based on Warhammer Fantasy by Games-Workshop", "")
+  ],
+)
 
-#entry("Additional Material:")
-#namecost("Antti Sinivuori", "")
+#unit("Additional Material:",
+  subtitle: "Antti Sinivuori",
+  before: [
 #namecost("Stefan Wolf", "")
 #namecost("Special thanks to all the people that have contributed with feedback and ideas", "")
+  ],
+)

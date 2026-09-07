@@ -122,191 +122,116 @@ War Machines only. War Machines with this Clan Mon may re-roll one failed To Hit
 
 Ashigaru only. Models with this Mon gain +1 to their Leadership.
 
-= MAGIC ITEMS
+#magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Nipponese. These may be used in addition to the magic items found in the Warhammer rulebook. Any magic weapon that counts as a hand weapon follow the rules for katanas.])
 
-*This section contains the rules for some of the most iconic and powerful magical artefacts used by the Nipponese. These may be used in addition to the magic items found in the Warhammer rulebook. Any magic weapon that counts as a hand weapon follow the rules for katanas.*
+#magic-item-section("weapon", first: true)[
+#magic-weapon("GRASS-CUTTING SWORD", 60, type: "Great weapon")[Instead of attacking normally, this weapon may automatically inflict a single Hit on all enemy models in the front rank of any unit the wielder is in base contact with.]
 
-#entry("MAGIC WEAPONS")
-#namecost("GRASS-CUTTING SWORD", "60 points")
+#magic-weapon("DRAGON CLAW KATANA", 45, type: "Katana")[The wielder gains one additional Attack for every point of unmodified Leadership that exceeds that of any one enemy model in base contact. In addition, when fighting in challenges, the wielder gains the Killing Blow special rule and may re-roll all failed rolls To Hit and To Wound.]
 
-Great weapon. Instead of attacking normally, this weapon may automatically inflict a single Hit on all enemy models in the front rank of any unit the wielder is in base contact with.
+#magic-weapon("DIVINE SLASHING BLADE", 20, type: "Katana")[All hits with this weapon automatically Wound. Armour saves are taken as normal.]
 
-#namecost("DRAGON CLAW KATANA", "45 points")
+#magic-weapon("CRESENT MOON BLADE", 35, type: "Katana")[The wielder always counts their Strength characteristic at least one higher than that of any enemy models in base contact. In addition, they have the Multiple Wounds (D3) special rule.]
 
-Katana. The wielder gains one additional Attack for every point of unmodified Leadership that exceeds that of any one enemy model in base contact. In addition, when fighting in challenges, the wielder gains the Killing Blow special rule and may re-roll all failed rolls To Hit and To Wound.
+#magic-weapon("HEAVENLY NAGINATA", 35, type: "Polearm")[This weapon gives the wielder +1 to Hit in close combat and Flaming Attacks. In addition, on a To Hit roll of a 6, that attack is multiplied into D3 hits.]
 
-#namecost("DIVINE SLASHING BLADE", "20 points")
+#magic-weapon("MASAMUNE'S WAKIZASHI", 35, type: "Additional hand weapon")[The wielder gains the Always Strike First special rule. In addition, they may re-roll failed Parry saves.]
 
-Katana. All hits with this weapon automatically Wound. Armour saves are taken as normal.
+#magic-weapon("AUTUMN RAIN", 20, type: "Longbow")[The wielder may fire as many shots as they have Attacks on their profile and ignore all shooting modifiers.]
 
-#namecost("CRESENT MOON BLADE", "35 points")
+#magic-weapon("DAEMON CUTTER", 20, type: "Katana")[No Magical Ward saves can be taken against attacks made by this weapon.]
 
-Katana. The wielder always counts their Strength characteristic at least one higher than that of any enemy models in base contact. In addition, they have the Multiple Wounds (D3) special rule.
+#magic-weapon("YARI OF RIGHTEOUSNESS", 15, type: "Light lance/spear")[Only one enemy model in base contact may attack the wielder in Close Combat. The attacking player chooses which model may attack. In addition, no enemy unit can claim the Outnumber bonus against the wearer and any unit they are with.]
+]
 
-#namecost("HEAVENLY NAGINATA", "35 points")
+#magic-item-section("armour")[
+#magic-armour("YORITOMO'S ARMOUR", 55, type: "Heavy armour")[The wearer gains a Magical Ward (5+). In addition, if there are one or more friendly characters within 12" of the wearer, the wearer also gains +1 Strength.]
 
-Polearm. This weapon gives the wielder +1 to Hit in close combat and Flaming Attacks. In addition, on a To Hit roll of a 6, that attack is multiplied into D3 hits.
+#magic-armour("ARMOUR OF IMPERIAL RULE", 40, type: "Heavy armour")[Enemies must re-roll 6’s when rolling To Wound against the wearer. Enemies who fail their rolls To Wound suffer a Strength 4 hit.]
 
-#namecost("MASAMUNE'S WAKIZASHI", "35 points")
+#magic-armour("ARMOUR OF OSANO-WO", 25, type: "Medium armour")[The wearer is completely immune to all effects from spells.]
 
-Additional hand weapon. The wielder gains the Always Strike First special rule. In addition, they may re-roll failed Parry saves.
+#magic-armour("IKOMA'S WARFAN", 25, type: "Buckler")[All enemies attacking the wielder in close combat suffer a \-1 To Hit penalty.]
 
-#namecost("AUTUMN RAIN", "20 points")
+#magic-armour("MEMPO OF HONOUR", 20)[This item gives the wearer a 6+ armour save. Enemies attacking the wearer in close combat must re-roll successful rolls To Hit. However, if the wearer flees for any reason, they are immediately removed as a casualty after making their flee move.]
 
-Longbow. The wielder may fire as many shots as they have Attacks on their profile and ignore all shooting modifiers.
+#magic-armour("ISAWA'S HELM", 15)[This item gives the wearer a 6+ armour save. In addition, the wearer may re-roll 1's when taking armour saves.]
+]
 
-#namecost("DAEMON CUTTER", "20 points")
+#magic-item-section("talisman")[
+#talisman("BRONZE TOKEN", 35)[The wearer gains a 4+ invulnerable save against Magical Attacks. In addition, the wearer may re-roll one failed armour save each turn.]
 
-Katana. No Magical Ward saves can be taken against attacks made by this weapon.
+#talisman("HAKAMA OF THE IDE FAMILY", 25)[Enemies attempting to strike the bearer in Close Combat must first pass a Leadership test. If failed, they may not attack this turn.]
 
-#namecost("YARI OF RIGHTEOUSNESS", "15 points")
+#talisman("THE RAINBOW CLOAK", 25)[Enemies shooting at the bearer or any unit they are with suffer \-1 to hit.]
 
-Light lance/spear. Only one enemy model in base contact may attack the wielder in Close Combat. The attacking player chooses which model may attack. In addition, no enemy unit can claim the Outnumber bonus against the wearer and any unit they are with.
+#talisman("HENSHIN'S AMULET", 20)[This item gives the wearer a Magical Ward (6+). In addition, they may re-roll one dice to Hit, to Wound or a failed armour save each turn.]
+]
 
-#entry("MAGIC ARMOUR")
-#namecost("YORITOMO'S ARMOUR", "55 points")
-
-Heavy armour. The wearer gains a Magical Ward (5+). In addition, if there are one or more friendly characters within 12" of the wearer, the wearer also gains +1 Strength.
-
-#namecost("ARMOUR OF IMPERIAL RULE", "40 points")
-
-Heavy armour. Enemies must re-roll 6’s when rolling To Wound against the wearer. Enemies who fail their rolls To Wound suffer a Strength 4 hit.
-
-#namecost("ARMOUR OF OSANO-WO", "25 points")
-
-Medium armour. The wearer is completely immune to all effects from spells.
-
-#namecost("IKOMA'S WARFAN", "25 points")
-
-Buckler. All enemies attacking the wielder in close combat suffer a \-1 To Hit penalty.
-
-#namecost("MEMPO OF HONOUR", "20 points")
-
-This item gives the wearer a 6+ armour save. Enemies attacking the wearer in close combat must re-roll successful rolls To Hit. However, if the wearer flees for any reason, they are immediately removed as a casualty after making their flee move.
-
-#namecost("ISAWA'S HELM", "15 points")
-
-This item gives the wearer a 6+ armour save. In addition, the wearer may re-roll 1's when taking armour saves.
-
-#entry("TALISMANS")
-#namecost("BRONZE TOKEN", "35 points")
-
-The wearer gains a 4+ invulnerable save against Magical Attacks. In addition, the wearer may re-roll one failed armour save each turn.
-
-#namecost("HAKAMA OF THE IDE FAMILY", "25 points")
-
-Enemies attempting to strike the bearer in Close Combat must first pass a Leadership test. If failed, they may not attack this turn.
-
-#namecost("THE RAINBOW CLOAK", "25 points")
-
-Enemies shooting at the bearer or any unit they are with suffer \-1 to hit.
-
-#namecost("HENSHIN'S AMULET", "20 points")
-
-This item gives the wearer a Magical Ward (6+). In addition, they may re-roll one dice to Hit, to Wound or a failed armour save each turn.
-
-#entry("ARCANE ITEMS")
-#namecost("CANDLE OF THE VOID", "30 points")
-
-The Candle of the Void may be placed within 12" of the caster at the start of the game (use a small marker on a round 25mm base), but it may not be moved during the game and counts as impassable terrain.
+#magic-item-section("arcane")[
+#arcane-item("CANDLE OF THE VOID", 30)[The Candle of the Void may be placed within 12" of the caster at the start of the game (use a small marker on a round 25mm base), but it may not be moved during the game and counts as impassable terrain.
 
 The caster can choose to cast any spell through the candle rather than themselves. If they do so, measure the spell's range from the candle. The candle can draw Line of Sight in any direction and has a Line of Sight value of 1. The caster can use this to cast any spell type even if they are engaged in close combat. If a spell cast through the candle is miscast, the result of the miscast is applied to the caster as normal.
+]
 
-#namecost("INCENSE OF CONCENTRATION", "25 points")
+#arcane-item("INCENSE OF CONCENTRATION", 25)[The model carrying this item may adjust the dice roll of one power dice by 1 (either up or down) when casting spells once per turn.]
 
-The model carrying this item may adjust the dice roll of one power dice by 1 (either up or down) when casting spells once per turn.
+#arcane-item("CHIME OF HARMONY", 25)[The bearer of this item may re-roll failed casting rolls, as long as they are not in Close Combat or have not moved earlier in that turn.]
 
-#namecost("CHIME OF HARMONY", "25 points")
+#arcane-item("SACRED MAGATAMA", 15)[This item allows the bearer to attempt to cast the same spell twice in a single turn if the first attempt fails or is dispelled.]
+]
 
-The bearer of this item may re-roll failed casting rolls, as long as they are not in Close Combat or have not moved earlier in that turn.
+#magic-item-section("enchanted")[
+#enchanted-item("CURSE OF THE MIDNIGHT FLIES", 35, one-use: true)[The character may use the Curse of the Midnight Flies in the Shooting phase. It has a range of 24" and causes 3D6 automatic Strength 3 hits.]
 
-#namecost("SACRED MAGATAMA", "15 points")
+#enchanted-item("FAN OF COMMAND", 35, only: "Daimyo or Taisho")[Once per game, the bearer and any unit they are with may make a free reform in the beginning of the Movement phase. In addition, they automatically pass any test to reform, march and restrain from pursuit.]
 
-This item allows the bearer to attempt to cast the same spell twice in a single turn if the first attempt fails or is dispelled.
+#enchanted-item("DRAGON PEARL", 25)[At the start of the close combat phase, the bearer may transform this item into an exact copy of any enemy magic item in base contact, retaining all of its abilities for as long as it stays in base contact.]
 
-#entry("ENCHANTED ITEMS")
-#namecost("CURSE OF THE MIDNIGHT FLIES", "35 points")
+#enchanted-item("DRUM OF WATER", 25)[The bearer and any unit they are with gains the Devastating Charge special rule.]
 
-One use only. The character may use the Curse of the Midnight Flies in the Shooting phase. It has a range of 24" and causes 3D6 automatic Strength 3 hits.
+#enchanted-item("SERENITY LANTERNS", 25)[The bearer and any unit in base contact with them gains the Immunity (Psychology) special rule. In addition, they lose any Hatred or Frenzy special rule they might have while they remain in base contact.]
 
-#namecost("FAN OF COMMAND", "35 points")
+#enchanted-item("JADE MIRROR", 20)[The bearer gains the Inspiring Presence (6) special rule. However, if they flee for any reason, other friendly units may not use their Leadership at all for the remainder of the game.]
 
-Daimyo or Taisho only. Once per game, the bearer and any unit they are with may make a free reform in the beginning of the Movement phase. In addition, they automatically pass any test to reform, march and restrain from pursuit.
+#enchanted-item("MANTLE OF FIRE", 20)[The wearer gains +1 To Wound with their Close Combat attacks.]
 
-#namecost("DRAGON PEARL", "25 points")
+#enchanted-item("MEISHODO AMULET", 20)[At the start of each of your turns, the bearer of this item may increase one characteristic of their choosing by +1 by passing a Leadership test. This bonus lasts until the start of your next turn.]
 
-At the start of the close combat phase, the bearer may transform this item into an exact copy of any enemy magic item in base contact, retaining all of its abilities for as long as it stays in base contact.
+#enchanted-item("BONSAI PINE OF IUCHI RAMATSU", 10)[This item may be used at the start of any of your turns. When activated, the bearer and any unit they are with halve their Line of Sight value (rounded down, to a minimum of 1). They may return to their normal Line of Sight value at the start of any of your turns.]
 
-#namecost("DRUM OF WATER", "25 points")
+#enchanted-item("BRASS GONG OF OTAKU MASERO", 10)[All friendly units within 12" of the bearer gain +1 to their Leadership when taking Rally tests.]
+]
 
-The bearer and any unit they are with gains the Devastating Charge special rule.
+#magic-item-section("standard")[
+#magic-standard("IMPERIAL STANDARD", 55)[The bearer gains the Hold Your Ground (6) special rule. In addition, the unit carrying it gains +D3 to their combat resolution.]
 
-#namecost("SERENITY LANTERNS", "25 points")
+#magic-standard("MIRUMOTO'S BATTLE STANDARD", 50)[The unit carrying this standard adds +1 To Hit and To Wound in the first round of close combat.]
 
-The bearer and any unit in base contact with them gains the Immunity (Psychology) special rule. In addition, they lose any Hatred or Frenzy special rule they might have while they remain in base contact.
+#magic-standard("ANCESTRAL WAR STANDARD", 40)[All combats with at least one friendly unit involved within 6" of the unit carrying the banner receive +1 to their combat resolution bonus.]
 
-#namecost("JADE MIRROR", "20 points")
+#magic-standard("BANNER OF AMATERASU", 35)[The unit carrying this standard take all Break tests using a single D6. This cannot be combined with Death Before Dishonour.]
 
-The bearer gains the Inspiring Presence (6) special rule. However, if they flee for any reason, other friendly units may not use their Leadership at all for the remainder of the game.
+#magic-standard("STANDARD OF THE VERMILLION BIRD", 30)[All friendly Wizards within 12" of this standard gain +1 to cast spells.]
 
-#namecost("MANTLE OF FIRE", "20 points")
+#magic-standard("STANDARD OF THE IRON CRANE", 30)[The unit carrying this standard gains the Dodge (6+) special rule.]
 
-The wearer gains +1 To Wound with their Close Combat attacks.
-
-#namecost("MEISHODO AMULET", "20 points")
-
-At the start of each of your turns, the bearer of this item may increase one characteristic of their choosing by +1 by passing a Leadership test. This bonus lasts until the start of your next turn.
-
-#namecost("BONSAI PINE OF IUCHI RAMATSU", "10 points")
-
-This item may be used at the start of any of your turns. When activated, the bearer and any unit they are with halve their Line of Sight value (rounded down, to a minimum of 1). They may return to their normal Line of Sight value at the start of any of your turns.
-
-#namecost("BRASS GONG OF OTAKU MASERO", "10 points")
-
-All friendly units within 12" of the bearer gain +1 to their Leadership when taking Rally tests.
-
-#entry("MAGIC STANDARDS")
-#namecost("IMPERIAL STANDARD", "55 points")
-
-The bearer gains the Hold Your Ground (6) special rule. In addition, the unit carrying it gains +D3 to their combat resolution.
-
-#namecost("MIRUMOTO'S BATTLE STANDARD", "50 points")
-
-The unit carrying this standard adds +1 To Hit and To Wound in the first round of close combat.
-
-#namecost("ANCESTRAL WAR STANDARD", "40 points")
-
-All combats with at least one friendly unit involved within 6" of the unit carrying the banner receive +1 to their combat resolution bonus.
-
-#namecost("BANNER OF AMATERASU", "35 points")
-
-The unit carrying this standard take all Break tests using a single D6. This cannot be combined with Death Before Dishonour.
-
-#namecost("STANDARD OF THE VERMILLION BIRD", "30 points")
-
-All friendly Wizards within 12" of this standard gain +1 to cast spells.
-
-#namecost("STANDARD OF THE IRON CRANE", "30 points")
-
-The unit carrying this standard gains the Dodge (6+) special rule.
-
-#namecost("BANNER OF THE ROARING TEMPEST", "15 points")
-
-The unit carrying this standard counts as having one more rank than normal for the purposes of rank bonus. Note that the unit must have at least one complete rank.
+#magic-standard("BANNER OF THE ROARING TEMPEST", 15)[The unit carrying this standard counts as having one more rank than normal for the purposes of rank bonus. Note that the unit must have at least one complete rank.]
+]
 
 = CHARACTERS
 
-#entry("COMMANDERS", first: true)
-#profile(
-  (name: "Daimyo", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 95),
-  (name: "Taisho", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 55),
-)
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana, medium armour")
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
-#field("OPTIONS", "")
-
+#unit("COMMANDERS",
+  first: true,
+  profiles: (
+    (name: "Daimyo", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 95),
+    (name: "Taisho", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 55),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana, medium armour",
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  options: [
 - May replace katana with one of the following:
   - Two hand weapons free
   - Buckler free
@@ -329,17 +254,19 @@ The unit carrying this standard counts as having one more rank than normal for t
   - Mizuchi (Daimyo only) +300 points
 - A Taisho may take one Clan Mon and/or Magic Items up to a total of 50 points
 - A Daimyo may take one Clan Mon and/or Magic Items up to a total of 100 points
-
-#entry("ONMYOJI")
-#profile(
-  (name: "Master Onmyoji", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
-  (name: "Onmyoji", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "An Onmyoji is a Level 1 Wizard. A Master Onmyoji is a Level 3 Wizard. They use one of the following")
 
+#unit("ONMYOJI",
+  profiles: (
+    (name: "Master Onmyoji", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
+    (name: "Onmyoji", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "An Onmyoji is a Level 1 Wizard. A Master Onmyoji is a Level 3 Wizard. They use one of the following",
+  magic-body: [
 Lores of Magic:
 
 - Beasts
@@ -350,33 +277,32 @@ Lores of Magic:
 - Light
 - Metal
 - Shadow
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take an additional Wizard Level +35 points
 - May be mounted on one of the following
   - Warhorse +15 points
   - Kirin +40 points
 - A Onmyoji may take Magic Items up to a total of 50 points
 - A Master Onmyoji may take Magic Items up to a total of 100 points
-
-#entry("HATAMOTO")
-#profile(
-  (name: "Hatamoto", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 40),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana")
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
 
-- *Sworn Bodyguard:* If you have any Characters with the Way of the Warrior special rule (that are not Hatamoto) in your army, you may nominate one of them for the Hatamoto to protect at the start of the game. The same character may not be nominated by several Hatamoto. Whenever the nominated character suffers a Wound (before saves are taken) and the Hatamoto is in the same unit as them, roll a D6. On a 1, the Wound is resolved as normal, but on a 2+ the Wound is intercepted, and re-allocated to the Hatamoto. No more than one Wound can be re-allocated to each Hatamoto in each phase. Wounds in a challenge cannot be re-allocated.
-
-#field("UPGRADES", "")
-
-- *Battle Standard:* The Battle Standard Bearer can have a magic banner with no points limit. However, a model carrying a magic standard can only carry other magic items up to a total of 25 points.
-
-#field("OPTIONS", "")
-
+#unit("HATAMOTO",
+  profiles: (
+    (name: "Hatamoto", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 40),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana",
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  special-rules-body: (
+    rule("Sworn Bodyguard")[If you have any Characters with the Way of the Warrior special rule (that are not Hatamoto) in your army, you may nominate one of them for the Hatamoto to protect at the start of the game. The same character may not be nominated by several Hatamoto. Whenever the nominated character suffers a Wound (before saves are taken) and the Hatamoto is in the same unit as them, roll a D6. On a 1, the Wound is resolved as normal, but on a 2+ the Wound is intercepted, and re-allocated to the Hatamoto. No more than one Wound can be re-allocated to each Hatamoto in each phase. Wounds in a challenge cannot be re-allocated.],
+  ),
+  upgrades: (
+    rule("Battle Standard")[The Battle Standard Bearer can have a magic banner with no points limit. However, a model carrying a magic standard can only carry other magic items up to a total of 25 points.],
+  ),
+  options: [
 - One Hatamoto may carry the Battle Standard +25 points
 - May replace katana with one of the following:
   - Two hand weapons free
@@ -397,52 +323,52 @@ Lores of Magic:
   - Komainu +25 points
 - One Hatamoto may carry the Battle Standard +25 points
 - May take one Clan Mon and/or Magic Items up to a total of 50 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
-
-#entry("KENSAI")
-#profile(
-  (name: "Kensai", m: 4, ws: 7, bs: 5, s: 4, t: 4, w: 2, i: 7, a: 3, ld: 8, points: 120),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana")
-#field("SPECIAL RULES", "Death Before Dishonour, Killing Blow, Parry (5+), Way of the Warrior")
 
+#unit("KENSAI",
+  profiles: (
+    (name: "Kensai", m: 4, ws: 7, bs: 5, s: 4, t: 4, w: 2, i: 7, a: 3, ld: 8, points: 120),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana",
+  special-rules: "Death Before Dishonour, Killing Blow, Parry (5+), Way of the Warrior",
+  special-rules-body: [
 - *Art of the Blade:* A Kensai must always issue and accept challenges if possible. At the start of each round of close combat, he may choose to utilize one of the following duelling techniques. He may not use the same technique two rounds in a row.
   - *Drawing the Void:* The Kensai gains +1 To Hit and To Wound.
   - *A Single Moment:* The Kensai gains the Always Strikes First Special rule.
   - *Ritual of Steel:* The Kensai gains +D3 Attacks.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May replace katana with two hand weapons free
 - May take one Clan Mon and/or Magic Items up to a total of 50 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Kensai may never be the Army General.
-
-#entry("YAMABUSHI")
-#profile(
-  (name: "Yamabushi", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 100),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana")
-#field("SPECIAL RULES", "Immunity (Psychology), Magical Attacks, Magic Resistance (1)")
 
+#unit("YAMABUSHI",
+  profiles: (
+    (name: "Yamabushi", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 100),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana",
+  special-rules: "Immunity (Psychology), Magical Attacks, Magic Resistance (1)",
+  special-rules-body: [
 - *Light of the Sun Goddess:* Enemy units in base contact with the model suffer \-1 to their Weapon Skill.
 - *Prayers of the Kami:* A model with this special rule know the four Prayers listed below. They may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the prayer is answered and take immediate effect. A unit can only be under the effect of one Prayer at a time.
   - *Be the Mountain:* The model and any unit they are with gain the Stubborn special rule until the start of your next turn.
   - *Strike of the Flowing Waters:* The model and any unit they are with gain the Always Strikes First special rule until the start of your next turn.
   - *Fiery Wrath:* Every enemy unit in base contact with the model suffers 2D6 Strength 4 hits with the Flaming Attacks special rule.
   - *Borne on the Wind:* The model and any unit they are with gain the Fly (6) special rule until the start of your next turn.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May choose one of the following:
   - Longbow +5 points
   - Polearm +5 points
@@ -453,24 +379,24 @@ Lores of Magic:
   - Medium armour +9 points
 - May be mounted on a Warhorse +15 points
 - May take one Clan Mon and/or Magic Items up to a total of 50 points
-
-#entry("SHINOBI")
-#profile(
-  (name: "Shinobi", m: 5, ws: 6, bs: 6, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 95),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Two hand weapons, throwing weapons")
-#field("SPECIAL RULES", "Dodge (5+), Hidden, Independent, Poisoned Attacks, Scouts")
-#field("UPGRADES", "")
 
-- *Fauntei Shi:* A model wounded (after saves) by Fauntei Shi must pass a Toughness test or lose all remaining wounds.
-- *Night Milk:* Any To Hit roll of 6 made by a model with their weapon coated in Night Milk automatically Wounds.
-- *Snake Venom:* A model that takes a wound (after saves) from snake venom will lose one Attack and gains the Always Strikes Last special rule for the remainder of the game.
-- *Spider Venom:* Single unit models and characters wounded (after saves) by spider venom must pass a Toughness at the start of their turns for the rest of the game, or lose 1 Wound with no saves allowed.
-
-#field("OPTIONS", "")
-
+#unit("SHINOBI",
+  profiles: (
+    (name: "Shinobi", m: 5, ws: 6, bs: 6, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 95),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Two hand weapons, throwing weapons",
+  special-rules: "Dodge (5+), Hidden, Independent, Poisoned Attacks, Scouts",
+  upgrades: (
+    rule("Fauntei Shi")[A model wounded (after saves) by Fauntei Shi must pass a Toughness test or lose all remaining wounds.],
+    rule("Night Milk")[Any To Hit roll of 6 made by a model with their weapon coated in Night Milk automatically Wounds.],
+    rule("Snake Venom")[A model that takes a wound (after saves) from snake venom will lose one Attack and gains the Always Strikes Last special rule for the remainder of the game.],
+    rule("Spider Venom")[Single unit models and characters wounded (after saves) by spider venom must pass a Toughness at the start of their turns for the rest of the game, or lose 1 Wound with no saves allowed.],
+  ),
+  options: [
 - May choose any of the following:
   - Caltrops +5 points
   - Grappling hook +5 points
@@ -482,54 +408,61 @@ Lores of Magic:
   - Spider Venom +20 points
   - Fauntei Shi +30 points
 - May take one Clan Mon and/or Magic Items up to a total of 50 points
+  ],
+)
 
 = CHARACTER MOUNTS
 
-#entry("WARHORSE", first: true)
-#profile(
-  (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: "-"),
-)
-#field("TROOP TYPE", "War Beast (Equine)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("OPTIONS", "")
-
+#unit("WARHORSE",
+  first: true,
+  profiles: (
+    (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: "-"),
+  ),
+  troop-type: "War Beast (Equine)",
+  base-size: "25x50 or 30x60",
+  options: [
 - May take barding +5 points
-
-#entry("KOMAINU")
-#profile(
-  (name: "Komainu", m: 7, ws: 4, bs: 0, s: 4, t: 5, w: 2, i: 3, a: 2, ld: 7, points: "-"),
+  ],
 )
-#field("TROOP TYPE", "War Beast (Chimeric)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("OPTIONS", "")
 
+#unit("KOMAINU",
+  profiles: (
+    (name: "Komainu", m: 7, ws: 4, bs: 0, s: 4, t: 5, w: 2, i: 3, a: 2, ld: 7, points: "-"),
+  ),
+  troop-type: "War Beast (Chimeric)",
+  base-size: "25x50 or 30x60",
+  options: [
 - May take barding +5 points
-
-#field("SPECIAL RULES", "Fear, Magic Resistance (1)")
-
-#entry("KIRIN")
-#profile(
-  (name: "Kirin", m: 8, ws: 4, bs: 0, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 7, points: "-"),
+  ],
+  special-rules: "Fear, Magic Resistance (1)",
+  order: ("troop-type", "base-size", "options", "special-rules"),
 )
-#field("TROOP TYPE", "War Beast (Chimeric)")
-#field("BASE SIZE", "25x50, 30x60, 40x40, 40x60")
-#field("SPECIAL RULES", "Fear, Fly (9), Magical Attacks, Natural Armour (6+)")
 
-- *Impale:* A Kirin gains the Mighty Blow (1) special rule in any turn that it charges.
+#unit("KIRIN",
+  profiles: (
+    (name: "Kirin", m: 8, ws: 4, bs: 0, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 7, points: "-"),
+  ),
+  troop-type: "War Beast (Chimeric)",
+  base-size: "25x50, 30x60, 40x40, 40x60",
+  special-rules: "Fear, Fly (9), Magical Attacks, Natural Armour (6+)",
+  special-rules-body: (
+    rule("Impale")[A Kirin gains the Mighty Blow (1) special rule in any turn that it charges.],
+  ),
+)
 
 = CORE UNITS
 
-#entry("SAMURAI WARRIORS", first: true)
-#profile(
-  (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 8),
-)
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana, medium armour")
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
-#field("OPTIONS", "")
-
+#unit("SAMURAI WARRIORS",
+  first: true,
+  profiles: (
+    (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 8),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana, medium armour",
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  options: [
 - May replace katanas with one of the following:
   - Spears free
   - Polearms +1 point/model
@@ -540,18 +473,19 @@ Lores of Magic:
 - May upgrade one Samurai to a Musician +5 points
 - May upgrade one Samurai to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("SAMURAI ARCHERS")
-#profile(
-  (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 13),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana, longbow, medium armour")
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
-#field("OPTIONS", "")
 
+#unit("SAMURAI ARCHERS",
+  profiles: (
+    (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 13),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana, longbow, medium armour",
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  options: [
 - May replace longbows with handguns +1 point/model
 - May choose one of the following:
   - Heavy armour +1.5 points/model
@@ -561,20 +495,21 @@ Lores of Magic:
 - May upgrade one Samurai to a Musician +5 points
 - May upgrade one Samurai to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("SAMURAI CAVALRY")
-#profile(
-  (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 15),
-  (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Human)")
-#field("MOUNT", "Warhorse (Equine)")
-#field("BASE SIZE", "25x50")
-#field("EQUIPMENT", "Katana, medium armour")
-#field("SPECIAL RULES", "Death Before Dishonour, Fast Cavalry, Way of the Warrior")
-#field("OPTIONS", "")
 
+#unit("SAMURAI CAVALRY",
+  profiles: (
+    (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 15),
+    (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Human)",
+  mount: "Warhorse (Equine)",
+  base-size: "25x50",
+  equipment: "Katana, medium armour",
+  special-rules: "Death Before Dishonour, Fast Cavalry, Way of the Warrior",
+  options: [
 - May choose one of the following:
   - Light lances +1 point/model
   - Polearms +2 points/model
@@ -586,19 +521,18 @@ Lores of Magic:
 - May upgrade one Samurai to a Musician +5 points
 - May upgrade one Samurai to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("ASHIGARU SPEARMEN")
-
-#profile(
-  (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 3.5),
+  ],
 )
 
-#field("UNIT SIZE", "20-60")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Spear, light armour")
-#field("OPTIONS", "")
-
+#unit("ASHIGARU SPEARMEN",
+  profiles: (
+    (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 3.5),
+  ),
+  unit-size: "20-60",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Spear, light armour",
+  options: [
 - May replace spears with one of the following:
   - Pikes +1.5 point/model
   - Polearms +1.5 point/model
@@ -608,17 +542,18 @@ Lores of Magic:
 - May upgrade one Ashigaru to a Musician +5 points
 - May upgrade one Ashigaru to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("ASHIGARU ARCHERS")
-#profile(
-  (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 8),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana, longbow, light armour")
-#field("OPTIONS", "")
 
+#unit("ASHIGARU ARCHERS",
+  profiles: (
+    (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 8),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana, longbow, light armour",
+  options: [
 - May replace longbows with handguns +1 point/model
 - May choose one of the following:
   - Medium armour +1 point/model
@@ -628,49 +563,53 @@ Lores of Magic:
 - May upgrade one Ashigaru to a Musician +5 points
 - May upgrade one Ashigaru to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("ASHIGARU SLINGERS")
-#profile(
-  (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 7),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana, sling, light armour")
-#field("SPECIAL RULES", "Skirmishers")
-#field("OPTIONS", "")
 
+#unit("ASHIGARU SLINGERS",
+  profiles: (
+    (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 7),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana, sling, light armour",
+  special-rules: "Skirmishers",
+  options: [
 - May take a Clan Mon +1 point/model
 - May upgrade one Ashigaru to a Leader +5 points
 - May upgrade one Ashigaru to a Musician +5 points
-
-#entry("PEASANT LEVY")
-#profile(
-  (name: "Peasant", m: 4, ws: 2, bs: 2, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: 2),
+  ],
 )
-#field("UNIT SIZE", "20-60")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Expendable")
-#field("OPTIONS", "")
 
+#unit("PEASANT LEVY",
+  profiles: (
+    (name: "Peasant", m: 4, ws: 2, bs: 2, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: 2),
+  ),
+  unit-size: "20-60",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Expendable",
+  options: [
 - May take spears +0.5 point/model
 - May upgrade one Peasant to a Leader +5 points
+  ],
+)
 
 = SPECIAL UNITS
 
-#entry("WARRIOR MONKS", first: true)
-#profile(
-  (name: "Warrior Monk", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 9),
-)
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Polearm, light armour")
-#field("SPECIAL RULES", "Immunity (Psychology), Magical Attacks, Magic Resistance (1)")
-#field("OPTIONS", "")
-
+#unit("WARRIOR MONKS",
+  first: true,
+  profiles: (
+    (name: "Warrior Monk", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 9),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Polearm, light armour",
+  special-rules: "Immunity (Psychology), Magical Attacks, Magic Resistance (1)",
+  options: [
 - May replace polearms with katanas and one of the following:
   - Longbows +4 points/model
   - Handguns +5 points/model
@@ -680,20 +619,21 @@ Lores of Magic:
 - May upgrade one Warrior Monk to a Musician +5 points
 - May upgrade one Warrior Monk to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("WARRIOR MONK CAVALRY")
-#profile(
-  (name: "Warrior Monk", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 17),
-  (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Human)")
-#field("MOUNT", "Warhorse (Equine)")
-#field("BASE SIZE", "25x50")
-#field("EQUIPMENT", "Polearm, light armour")
-#field("SPECIAL RULES", "Fast Cavalry, Immunity (Psychology), Magical Attacks, Magic Resistance (1)")
-#field("OPTIONS", "")
 
+#unit("WARRIOR MONK CAVALRY",
+  profiles: (
+    (name: "Warrior Monk", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 17),
+    (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Human)",
+  mount: "Warhorse (Equine)",
+  base-size: "25x50",
+  equipment: "Polearm, light armour",
+  special-rules: "Fast Cavalry, Immunity (Psychology), Magical Attacks, Magic Resistance (1)",
+  options: [
 - May replace polearms with katanas and one of the following:
   - Longbows +2 points/model
   - Handguns +2 points/model
@@ -703,39 +643,41 @@ Lores of Magic:
 - May upgrade one Warrior Monk to a Musician +5 points
 - May upgrade one Warrior Monk to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("SUMO WARRIORS")
-#profile(
-  (name: "Sumo Warrior", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 3, a: 1, ld: 8, points: 12),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("EQUIPMENT", "Great weapon, light armour")
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
-#field("OPTIONS", "")
 
+#unit("SUMO WARRIORS",
+  profiles: (
+    (name: "Sumo Warrior", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 3, a: 1, ld: 8, points: 12),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "25x25 or 30x30",
+  equipment: "Great weapon, light armour",
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  options: [
 - May take medium armour +1 point/model
 - May take a Clan Mon +1 point/model
 - May upgrade one Warrior Monk to a Leader +5 points
 - May upgrade one Warrior Monk to a Musician +5 points
 - May upgrade one Warrior Monk to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("ONNA BUSHI")
-#profile(
-  (name: "Onna Bushi", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 9),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Polearm")
-#field("SPECIAL RULES", "Death Before Dishonour, Stubborn, Way of the Warrior")
 
-- *Stalwart Defence:* If the majority of models in the unit has this special rule and are garrisoning a building or fighting behind a defended obstacle, they gain the Stubborn special rule again.
-
-#field("OPTIONS", "")
-
+#unit("ONNA BUSHI",
+  profiles: (
+    (name: "Onna Bushi", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 9),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Polearm",
+  special-rules: "Death Before Dishonour, Stubborn, Way of the Warrior",
+  special-rules-body: (
+    rule("Stalwart Defence")[If the majority of models in the unit has this special rule and are garrisoning a building or fighting behind a defended obstacle, they gain the Stubborn special rule again.],
+  ),
+  options: [
 - May replace polearms with katanas & longbows +4 points/model
 - May choose one of the following:
   - Light armour +0.5 point/model
@@ -746,58 +688,61 @@ Lores of Magic:
 - May upgrade one Onna Bushi to a Musician +5 points
 - May upgrade one Onna Bushi to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("RONIN")
-#profile(
-  (name: "Ronin", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 7),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana")
-#field("SPECIAL RULES", "Independent, Stubborn, Skirmishers, Way of the Warrior")
-#field("OPTIONS", "")
 
+#unit("RONIN",
+  profiles: (
+    (name: "Ronin", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 7),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana",
+  special-rules: "Independent, Stubborn, Skirmishers, Way of the Warrior",
+  options: [
 - May replace katanas with additional hand weapons free
 - May take longbows +4 points/model
 - May take light armour +0.5 point/model
 - May upgrade one Ronin to a Leader +5 points
-
-#entry("YABUSAME")
-#profile(
-  (name: "Yabusame", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 17),
-  (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Human)")
-#field("MOUNT", "Warhorse (Equine)")
-#field("BASE SIZE", "25x50")
-#field("EQUIPMENT", "Katana, longbow")
-#field("SPECIAL RULES", "Death Before Dishonour, Fast Cavalry, Way of the Warrior")
 
-- *Way of the Bow:* Yabusame do not suffer penalties to Hit for moving and shooting and can fire Multiple Shots even when moving that turn. In addition, when firing from within 6", all their missile attacks have the Armour Piercing (1) special rule.
-
-#field("OPTIONS", "")
-
+#unit("YABUSAME",
+  profiles: (
+    (name: "Yabusame", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 17),
+    (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Human)",
+  mount: "Warhorse (Equine)",
+  base-size: "25x50",
+  equipment: "Katana, longbow",
+  special-rules: "Death Before Dishonour, Fast Cavalry, Way of the Warrior",
+  special-rules-body: (
+    rule("Way of the Bow")[Yabusame do not suffer penalties to Hit for moving and shooting and can fire Multiple Shots even when moving that turn. In addition, when firing from within 6", all their missile attacks have the Armour Piercing (1) special rule.],
+  ),
+  options: [
 - May take a Clan Mon +1 point/model
 - May upgrade one Yabusame to a Leader +5 points
 - May upgrade one Yabusame to a Musician +5 points
 - May upgrade one Yabusame to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("KOMAINU RIDERS")
-#profile(
-  (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 34),
-  (name: "Komainu", m: 7, ws: 4, bs: 0, s: 4, t: 5, w: 2, i: 3, a: 2, ld: 7, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Human)")
-#field("MOUNT", "Komainu (Chimeric)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("EQUIPMENT", "Katana, medium armour")
-#field("SPECIAL RULES", "Death Before Dishonour, Fear, Magic Resistance (1), Way of the Warrior")
-#field("OPTIONS", "")
 
+#unit("KOMAINU RIDERS",
+  profiles: (
+    (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 34),
+    (name: "Komainu", m: 7, ws: 4, bs: 0, s: 4, t: 5, w: 2, i: 3, a: 2, ld: 7, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Human)",
+  mount: "Komainu (Chimeric)",
+  base-size: "25x50 or 30x60",
+  equipment: "Katana, medium armour",
+  special-rules: "Death Before Dishonour, Fear, Magic Resistance (1), Way of the Warrior",
+  options: [
 - May choose one of the following:
   - Light lances free
   - Polearms +1 point/model
@@ -809,55 +754,59 @@ Lores of Magic:
 - May upgrade one Samurai to a Musician +5 points
 - May upgrade one Samurai to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("FIRE ROCKETS")
-#profile(
-  (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 15),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana, fire rocket, medium armour")
 
+#unit("FIRE ROCKETS",
+  profiles: (
+    (name: "Samurai", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 15),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana, fire rocket, medium armour",
+  equipment-body: [
 - *Fire Rocket:* Fire rockets have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "4", "Flaming Attacks, Ponderous"))
 
 Each Hit from a fire rocket is multiplied into D3 Hits.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Skirmishers, Way of the Warrior")
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Death Before Dishonour, Skirmishers, Way of the Warrior",
+  options: [
 - May take heavy armour +1.5 points/model
-
-#entry("OZUTSU ASHIGARU")
-#profile(
-  (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 11),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana, ozutsu, light armour")
 
+#unit("OZUTSU ASHIGARU",
+  profiles: (
+    (name: "Ashigaru", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 11),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana, ozutsu, light armour",
+  equipment-body: [
 - *Ozutsu:* Ozutsu have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "6", "Ponderous"))
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a Clan Mon +1 point/model
 - May take mantlets +1.5 point/model
-
-#entry("WAKO PIRATES")
-#profile(
-  (name: "Wako Pirate", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 7, points: 4),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana")
-#field("SPECIAL RULES", "Ambushers, Independent")
-#field("OPTIONS", "")
 
+#unit("WAKO PIRATES",
+  profiles: (
+    (name: "Wako Pirate", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 7, points: 4),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana",
+  special-rules: "Ambushers, Independent",
+  options: [
 - May choose one of the following:
   - Spears free
   - Longbows +3 point/model
@@ -866,40 +815,42 @@ Each Hit from a fire rocket is multiplied into D3 Hits.
 - May upgrade one Wako Pirate to a Leader +5 points
 - May upgrade one Wako Pirate to a Musician +5 points
 - May upgrade one Wako Pirate to a Standard Bearer +10 points
-
-#entry("KABUKI DOLLS")
-#profile(
-  (name: "Kabuki Doll", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 5, a: 1, ld: 7, points: 11),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, war fan")
 
-- *War Fan:* A war fan may be used in two ways: it can either be used as an additional hand weapon with the Jidaimono style or as a buckler in close combat with the Sewamono style.
-
-#field("SPECIAL RULES", "Independent, Poisoned Attacks, Skirmishers")
-
+#unit("KABUKI DOLLS",
+  profiles: (
+    (name: "Kabuki Doll", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 5, a: 1, ld: 7, points: 11),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, war fan",
+  equipment-body: (
+    rule("War Fan")[A war fan may be used in two ways: it can either be used as an additional hand weapon with the Jidaimono style or as a buckler in close combat with the Sewamono style.],
+  ),
+  special-rules: "Independent, Poisoned Attacks, Skirmishers",
+  special-rules-body: [
 - *Kabuki Dance:* You must choose one of the two dances for the kabuki Dolls to perform at the start of each close combat phase. Each effect lasts for the duration of the close combat round.
   - *Crimson Finale:* The Kabuki Dolls have the Always Strikes First special rule.
   - *Form of Falling Petals:* The Kabuki Dolls have the Dodge (5+) special rule.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a Clan Mon +1 point/model
 - May upgrade one Kabuki Doll to a Leader +5 points
-
-#entry("NINJA")
-#profile(
-  (name: "Ninja", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 5, a: 1, ld: 8, points: 10),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Two hand weapons, throwing weapons")
-#field("SPECIAL RULES", "Dodge (6+), Loner, Scouts, Skirmishers")
-#field("OPTIONS", "")
 
+#unit("NINJA",
+  profiles: (
+    (name: "Ninja", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 1, i: 5, a: 1, ld: 8, points: 10),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Two hand weapons, throwing weapons",
+  special-rules: "Dodge (6+), Loner, Scouts, Skirmishers",
+  options: [
 - May choose any of the following:
   - Grappling hooks +1 point/model
   - Blowpipe +2 points/model
@@ -908,59 +859,62 @@ Each Hit from a fire rocket is multiplied into D3 Hits.
   - Smoke bombs +2 points/model
 - May take a Clan Mon +1 point/model
 - May upgrade one Ninja to a Leader +5 points
-
-#entry("TENGU")
-#profile(
-  (name: "Tengu", m: 5, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 5, a: 1, ld: 8, points: 12),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Beastman)")
-#field("BASE SIZE", "25x25")
-#field("EQUIPMENT", "Katana")
-#field("SPECIAL RULES", "Fly (10), Loner")
-#field("OPTIONS", "")
 
+#unit("TENGU",
+  profiles: (
+    (name: "Tengu", m: 5, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 5, a: 1, ld: 8, points: 12),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Beastman)",
+  base-size: "25x25",
+  equipment: "Katana",
+  special-rules: "Fly (10), Loner",
+  options: [
 - May take polearms +1 point/model
 - May take light armour +0.5 point/model
-
-#entry("ONI")
-#profile(
-  (name: "Oni", m: 6, ws: 5, bs: 3, s: 5, t: 4, w: 3, i: 5, a: 3, ld: 7, points: 52),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Daemon)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "")
 
-- *Daemonic:* Models with this special rule have the Magical Attacks and Magical Ward (5+) special rules.
-
-#field("OPTIONS", "")
-
+#unit("ONI",
+  profiles: (
+    (name: "Oni", m: 6, ws: 5, bs: 3, s: 5, t: 4, w: 3, i: 5, a: 3, ld: 7, points: 52),
+  ),
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Daemon)",
+  base-size: "40x40",
+  equipment: "Hand weapon",
+  special-rules: (
+    rule("Daemonic")[Models with this special rule have the Magical Attacks and Magical Ward (5+) special rules.],
+  ),
+  options: [
 - May choose any of the following:
   - Additional hand weapons +3 points/model
   - Great weapons +6 points/model
 - May take light armour +1.5 points/model
 - May upgrade one Oni to a Leader +5 points
+  ],
+)
 
 = RARE UNITS
 
-#entry("GREAT GUARD", first: true)
-#profile(
-  (name: "Great Guard", m: 4, ws: 5, bs: 4, s: 4, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 40),
-  (name: "Kirin", m: 9, ws: 4, bs: 0, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 7, points: ""),
-)
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Cavalry (Human)")
-#field("MOUNT", "Kirin (Chimeric)")
-#field("BASE SIZE", "25x50, 30x60, 40x40, 40x60")
-#field("EQUIPMENT", "Katana, medium armour")
-#field("SPECIAL RULES", "Death Before Dishonour, Devastating Charge, Fear, Fly (9), Impale (see Kirin), Magical")
-
+#unit("GREAT GUARD",
+  first: true,
+  profiles: (
+    (name: "Great Guard", m: 4, ws: 5, bs: 4, s: 4, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 40),
+    (name: "Kirin", m: 9, ws: 4, bs: 0, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 7, points: ""),
+  ),
+  unit-size: "3-9",
+  troop-type: "Cavalry (Human)",
+  mount: "Kirin (Chimeric)",
+  base-size: "25x50, 30x60, 40x40, 40x60",
+  equipment: "Katana, medium armour",
+  special-rules: "Death Before Dishonour, Devastating Charge, Fear, Fly (9), Impale (see Kirin), Magical",
+  special-rules-body: [
 *Attacks* (Kirin only)*, Natural Armour (6+), Stubborn, Way of the Warrior*
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May choose one of the following:
   - Light lances free
   - Polearms +1 point/model
@@ -971,16 +925,18 @@ Each Hit from a fire rocket is multiplied into D3 Hits.
 - May upgrade one Great Guard to a Musician +5 points
 - May upgrade one Great Guard to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("MIKOSHI SHRINE")
-#profile(
-  (name: "Mikoshi Shrine", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 6, i: 4, a: 4, ld: 8, points: 120),
+  ],
 )
-#field("TROOP TYPE", "Shrine (Human)")
-#field("BASE SIZE", "40x60 or 50x75 or 50x100 or 60x100")
-#field("EQUIPMENT", "Polearm, light armour")
-#field("SPECIAL RULES", "Immunity (Psychology), Magical Ward (4+), Magic Resistance (1)")
 
+#unit("MIKOSHI SHRINE",
+  profiles: (
+    (name: "Mikoshi Shrine", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 6, i: 4, a: 4, ld: 8, points: 120),
+  ),
+  troop-type: "Shrine (Human)",
+  base-size: "40x60 or 50x75 or 50x100 or 60x100",
+  equipment: "Polearm, light armour",
+  special-rules: "Immunity (Psychology), Magical Ward (4+), Magic Resistance (1)",
+  special-rules-body: [
 - *Holy Relic:* A Mikoshi Shrine and any unit of Warrior Monks joined by it has the Stubborn special rule. Unlike other Shrines, it does not need to be in the front rank of the unit.
 - *Blessings of the Kami:* Enchanted Item. Bound spell (Level 1, cast on 6+). All Blessings are *augment* spells with a range of 12" that lasts until the start of your next Magic phase. You may attempt to cast one spell in each Magic phase.
   - *Blessing of Strength:* The unit may re-roll all failed To Wound rolls in close combat.
@@ -988,362 +944,394 @@ Each Hit from a fire rocket is multiplied into D3 Hits.
   - *Blessing of Swiftness:* The unit may re-roll the distance moved when charging and pursuing.
 
 However, if a unit with an active Blessing flees for any reason, they immediately lose the Blessing and suffer D6 Strength 4 hits.
-
-#entry("TAIKO DRUM")
-#profile(
-  (name: "Taiko Drum", m: "-", ws: "-", bs: "-", s: "-", t: 5, w: "-", i: "-", a: "-", ld: "-", points: 50),
-  (name: "Drummer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "1 Drummer (Human)")
-#field("BASE SIZE", "40x40 or 50x50 (Taiko Drum) 20x20 or 25x25 (Drummer)")
-#field("EQUIPMENT", "Hand weapon, light armour")
-#field("SPECIAL RULES", "")
 
+#unit("TAIKO DRUM",
+  profiles: (
+    (name: "Taiko Drum", m: "-", ws: "-", bs: "-", s: "-", t: 5, w: "-", i: "-", a: "-", ld: "-", points: 50),
+    (name: "Drummer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "1 Drummer (Human)",
+  base-size: "40x40 or 50x50 (Taiko Drum) 20x20 or 25x25 (Drummer)",
+  equipment: "Hand weapon, light armour",
+  special-rules: [
 - *Vigour Rhythms:* At the start of any of your Movement phases, you may choose to have your Taiko Drum give out one of the following abilities to all friendly units within 18" which lasts until the start of your next Movement phase:
   - *Bravery and Courage:* The units gain the Cold-blooded special rule.
   - *Strategy and Discipline:* The units gain the Disciplined special rule.
   - *Charge!* The units may re-roll one of the dice that determines their charge distance.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take an additional Drummer +7 points
-
-#entry("MANGONEL")
-#profile(
-  (name: "Mangonel", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 90),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Human)")
-#field("BASE SIZE", "50x75 (Mangonel), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, stone thrower, light armour")
-#field("SPECIAL RULES", "")
 
-- *Flaming Ammunition:* All shots from a Mangonel have the Flaming Attacks special rule.
-
-#field("OPTIONS", "")
-
+#unit("MANGONEL",
+  profiles: (
+    (name: "Mangonel", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 90),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Human)",
+  base-size: "50x75 (Mangonel), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, stone thrower, light armour",
+  special-rules: (
+    rule("Flaming Ammunition")[All shots from a Mangonel have the Flaming Attacks special rule.],
+  ),
+  options: [
 - May take a Clan Mon +15 points
-
-#entry("CANNON")
-#profile(
-  (name: "Cannon", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 85),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine (Cannon)")
-#field("CREW", "3 Crew (Human)")
-#field("BASE SIZE", "50x75 (Cannon), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, cannon, light armour")
-#field("OPTIONS", "")
 
+#unit("CANNON",
+  profiles: (
+    (name: "Cannon", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 85),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine (Cannon)",
+  crew: "3 Crew (Human)",
+  base-size: "50x75 (Cannon), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, cannon, light armour",
+  options: [
 - May take a Clan Mon +15 points
-
-#entry("FLAMING ARROW")
-#profile(
-  (name: "Flaming Arrow", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 65),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Human)")
-#field("BASE SIZE", "50x75 (Flaming Arrow), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, flaming arrow, light armour")
 
+#unit("FLAMING ARROW",
+  profiles: (
+    (name: "Flaming Arrow", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 65),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Human)",
+  base-size: "50x75 (Flaming Arrow), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, flaming arrow, light armour",
+  equipment-body: [
 - *Flaming Arrows:* Flaming Arrows are bolt throwers using the following profile. If you roll a 1 To Hit, roll a D6 and consult the Black Powder Misfire chart in the Warhammer rulebook.
 
 #minitable(("Range", "Strength", "Special Rules"), ("30/60\"", "8", "Flaming Attacks, Multiple Wounds (D3)"))
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a Clan Mon +15 points
-
-#compact-entry("KITSUNE")[
-#profile(
-  (name: "Kitsune", m: 9, ws: 5, bs: 0, s: 4, t: 4, w: 2, i: 6, a: 2, ld: 9, points: 80),
+  ],
 )
-#field("TROOP TYPE", "War Beast (Spirit)")
-#field("BASE SIZE", "25x25 or 25x50 or 40x40")
-#field("MAGIC", "A Kitsune is Level 1 Wizard that uses spells from the Lore of Shadow.")
-#field("SPECIAL RULES", "Forest Strider, Magical Attacks, Magical Ward (5+), Scouts")
-]
 
-#entry("MIZUCHI")
-#profile(
-  (name: "Mizuchi", m: 6, ws: 6, bs: 0, s: 6, t: 6, w: 6, i: 3, a: 5, ld: 8, points: 300),
+#unit("KITSUNE",
+  compact: true,
+  profiles: (
+    (name: "Kitsune", m: 9, ws: 5, bs: 0, s: 4, t: 4, w: 2, i: 6, a: 2, ld: 9, points: 80),
+  ),
+  troop-type: "War Beast (Spirit)",
+  base-size: "25x25 or 25x50 or 40x40",
+  magic: "A Kitsune is Level 1 Wizard that uses spells from the Lore of Shadow.",
+  special-rules: "Forest Strider, Magical Attacks, Magical Ward (5+), Scouts",
 )
-#field("TROOP TYPE", "Monster (Draconid)")
-#field("BASE SIZE", "50x75 or 50x100")
-#field("SPECIAL RULES", "Aquatic, Fly (7), Natural Armour (3+)")
 
-- *Poison Breath:* This is a Strength 3 Breath Weapon with the Poisoned Attacks special rule.
+#unit("MIZUCHI",
+  profiles: (
+    (name: "Mizuchi", m: 6, ws: 6, bs: 0, s: 6, t: 6, w: 6, i: 3, a: 5, ld: 8, points: 300),
+  ),
+  troop-type: "Monster (Draconid)",
+  base-size: "50x75 or 50x100",
+  special-rules: "Aquatic, Fly (7), Natural Armour (3+)",
+  special-rules-body: (
+    rule("Poison Breath")[This is a Strength 3 Breath Weapon with the Poisoned Attacks special rule.],
+  ),
+)
 
 = SPECIAL CHARACTERS
 
-#entry("TOKUDAIRA IEYASU", first: true)
-#namecost("Shogun of Nippon", "")
-#profile(
-  (name: "Tokudaira Ieyasu", m: 4, ws: 7, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 5, ld: 10, points: 280),
-)
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
-
-- *Blade of the Silver Moon:* Magic Weapon. Katana. All attacks that Hit will Wound automatically and have the Multiple Wounds (D3) special rule*.*
-- *Armour of Iron Resolve:* Magic Armour. Heavy armour. The wearer gains +1 Toughness and a Magical Ward (5+).
-
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
-
-- *Great Guard:* One unit of Samurai Warriors in an army led by Tokudaira Ieyasu may be upgraded to Great Guard on foot for a cost of 4 points per model. Great Guard have +1 Weapon Skill and Strength as well as the Devastating Charge and Stubborn special rules. This unit counts as a Special choice.
-- *Shogun:* Tokudaira Ieyasu must be the Army General. He has the Inspiring Presence (6) special rule. An army led by the Shogun ignores the restriction on not allowing multiple Clan Mons in the army.
-
-#field("OPTIONS", "")
-
+#unit("TOKUDAIRA IEYASU",
+  solo: true,
+  first: true,
+  subtitle: "Shogun of Nippon",
+  profiles: (
+    (name: "Tokudaira Ieyasu", m: 4, ws: 7, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 5, ld: 10, points: 280),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Blade of the Silver Moon")[Magic Weapon. Katana. All attacks that Hit will Wound automatically and have the Multiple Wounds (D3) special rule*.*],
+    rule("Armour of Iron Resolve")[Magic Armour. Heavy armour. The wearer gains +1 Toughness and a Magical Ward (5+).],
+  ),
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  special-rules-body: (
+    rule("Great Guard")[One unit of Samurai Warriors in an army led by Tokudaira Ieyasu may be upgraded to Great Guard on foot for a cost of 4 points per model. Great Guard have +1 Weapon Skill and Strength as well as the Devastating Charge and Stubborn special rules. This unit counts as a Special choice.],
+    rule("Shogun")[Tokudaira Ieyasu must be the Army General. He has the Inspiring Presence (6) special rule. An army led by the Shogun ignores the restriction on not allowing multiple Clan Mons in the army.],
+  ),
+  options: [
 - May be mounted on one of the following
   - Warhorse +15 points
   - Komainu +25 points
   - Kirin +40 points
   - Mizuchi +300 points
-
-#entry("ODARI NOBUHIDE")
-#namecost("The Daemon King, Daimyo of the Odari Clan", "")
-#profile(
-  (name: "Odari Nobuhide", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 200),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Guard Breaker:* Magic Weapon. Katana. Attacks made with Guard Breaker have the Ignores Armour saves special rule, and no Parry saves may be taken against it.
-- *Achala's Ward:* Magic Armour. Heavy armour. Achala’s Ward grants the wearer a Magical Ward (4+) and the Immunity (Killing Blow) special rule.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
-
-- *Daemon King:* Friendly Ashigaru units that uses Odari Nobuhide's Inspiring Presence special rule have the Cold-blooded special rule.
-- *Daimyo of the Odari Clan:* Ashigaru units in an army led by Odari Nobuhide must take the Odari Clan Mon.
-
-#field("OPTIONS", "")
-
+#unit("ODARI NOBUHIDE",
+  solo: true,
+  subtitle: "The Daemon King, Daimyo of the Odari Clan",
+  profiles: (
+    (name: "Odari Nobuhide", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 200),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Guard Breaker")[Magic Weapon. Katana. Attacks made with Guard Breaker have the Ignores Armour saves special rule, and no Parry saves may be taken against it.],
+    rule("Achala's Ward")[Magic Armour. Heavy armour. Achala’s Ward grants the wearer a Magical Ward (4+) and the Immunity (Killing Blow) special rule.],
+  ),
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  special-rules-body: (
+    rule("Daemon King")[Friendly Ashigaru units that uses Odari Nobuhide's Inspiring Presence special rule have the Cold-blooded special rule.],
+    rule("Daimyo of the Odari Clan")[Ashigaru units in an army led by Odari Nobuhide must take the Odari Clan Mon.],
+  ),
+  options: [
 - May be mounted on one of the following
   - Warhorse +15 points
   - Komainu +25 points
   - Kirin +40 points
   - Mizuchi +300 points
-
-#entry("TAKAI KATSUYORI")
-#namecost("The Red Tiger, Daimyo of the Takai Clan", "")
-#profile(
-  (name: "Takai Katsuyori", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 225),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Katana")
-#field("MAGIC ITEMS", "")
 
-- *Sunset Defender:* Magic Armour. Heavy armour. Sunset Defender gives the wearer +1 Toughness. In addition, for every successful Armour save the wearer makes in Close Combat, they gain +1 to their Combat Resolution that round.
-- *Takai War Fan:* Magic Armour. Buckler. The Takai War Fan gives the bearer the Inspiring Presence (6) special rule. In addition, units using their Leadership may re-roll failed Leadership tests.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Mon of the Takai Clan, Way of the Warrior")
-
+#unit("TAKAI KATSUYORI",
+  solo: true,
+  subtitle: "The Red Tiger, Daimyo of the Takai Clan",
+  profiles: (
+    (name: "Takai Katsuyori", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 225),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Katana",
+  magic-items: (
+    rule("Sunset Defender")[Magic Armour. Heavy armour. Sunset Defender gives the wearer +1 Toughness. In addition, for every successful Armour save the wearer makes in Close Combat, they gain +1 to their Combat Resolution that round.],
+    rule("Takai War Fan")[Magic Armour. Buckler. The Takai War Fan gives the bearer the Inspiring Presence (6) special rule. In addition, units using their Leadership may re-roll failed Leadership tests.],
+  ),
+  special-rules: "Death Before Dishonour, Mon of the Takai Clan, Way of the Warrior",
+  special-rules-body: [
 - *Brilliant Tactician:* Once per turn, Takai Katsuyori may attempt to issue one of the following commands to a friendly unit within 12" that is not fleeing or in combat. This unit must take a Leadership test; if failed, the command has no effect this turn. If passed, the command works as intended.
   - *Brace Yourselves!* Issue as a Charge Reaction. Enemies charging the unit to its front lose all charging bonuses.
   - *Fall back!* Issue as a Charge Reaction. The unit may use Feigned Flight like Fast Cavalry/Skirmishers.
   - *Reform!* Issue in the Remaining Moves phase. The unit may make a normal Reform and still move this turn.
 - *Daimyo of the Takai Clan:* Cavalry models in an army led by Takai Katsuyori must take the Takai Clan Mon.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May be mounted on one of the following
   - Warhorse +15 points
   - Komainu +25 points
   - Kirin +40 points
   - Mizuchi +300 points
-
-#entry("DAWATE TADAMUNE")
-#namecost("The One-Eyed Dragon, Daimyo of the Dawate Clan", "")
-#profile(
-  (name: "Dawate Tadamune", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 180),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Saddle-Cutter:* Magic Weapon. Great weapon. Saddle-cutter gives the wielder the Killing Blow special rule against Cavalry or Monstrous Cavalry which applies on the roll of a 5+ rather than 6+.
-- *Armour of the Night Ocean:* Magic Armour. Medium armour. The Armour of the Night Ocean grants the wearer the Natural armour (4+) special rule. In addition, enemy models suffer \-1 to Hit against them in close combat.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Mon of the Dawate Clan, Way of the Warrior")
-
-- *Daimyo of the Dawate Clan:* Models with great weapons in an army led by Dawate Tadamune must take the Dawate Clan Mon.
-- *Reckless Abandon:* Dawate Tadamune has the Devastating Charge special rule. In addition, for every successful Wound caused on a turn he charges he gains an additional attack. These additional attacks do not generate any further attacks.
-
-#field("OPTIONS", "")
-
+#unit("DAWATE TADAMUNE",
+  solo: true,
+  subtitle: "The One-Eyed Dragon, Daimyo of the Dawate Clan",
+  profiles: (
+    (name: "Dawate Tadamune", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 180),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Saddle-Cutter")[Magic Weapon. Great weapon. Saddle-cutter gives the wielder the Killing Blow special rule against Cavalry or Monstrous Cavalry which applies on the roll of a 5+ rather than 6+.],
+    rule("Armour of the Night Ocean")[Magic Armour. Medium armour. The Armour of the Night Ocean grants the wearer the Natural armour (4+) special rule. In addition, enemy models suffer \-1 to Hit against them in close combat.],
+  ),
+  special-rules: "Death Before Dishonour, Mon of the Dawate Clan, Way of the Warrior",
+  special-rules-body: (
+    rule("Daimyo of the Dawate Clan")[Models with great weapons in an army led by Dawate Tadamune must take the Dawate Clan Mon.],
+    rule("Reckless Abandon")[Dawate Tadamune has the Devastating Charge special rule. In addition, for every successful Wound caused on a turn he charges he gains an additional attack. These additional attacks do not generate any further attacks.],
+  ),
+  options: [
 - May be mounted on one of the following
   - Warhorse +15 points
   - Komainu +25 points
   - Kirin +40 points
   - Mizuchi +300 points
-
-#entry("UESIGO NORIMASA")
-#namecost("Avatar of Bishamonten, Daimyo of the Uesigo Clan", "")
-#profile(
-  (name: "Uesigo Norimasa", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 170),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Medium armour")
-#field("MAGIC ITEMS", "")
 
-- *Bishamonten's Might:* Magic Weapon. Polearm. Attacks made with this weapon gain +1 To Hit. In addition, for every Hit inflicted with it, an enemy model of your choice in base contact loses an Attack.
-- *Chalice of Bishamonten:* Enchanted Item. One use only. The Chalice of Bishamonten can be used at the start of any round of close combat. When used, Uesigo Norimasa gains +1 to his Weapon Skill, Strength, Toughness, Initiative and Attacks as well as a Magical Ward (5+) for the remainder of the turn
-
-#field("SPECIAL RULES", "Death Before Dishonour, Immunity (Psychology), Magic Resistance (2), Stubborn, Way of the Warrior")
-
-- *Daimyo of the Uesigo Clan:* Units of Warrior Monks, Shugenja and Yamabushi in an army led by Uesigo Norimasa must take the Uesigo Clan Mon. Warrior Monks count as a Core choice. However, no Wako Pirates, Ninjas or Shinobis may be taken.
-
-#field("OPTIONS", "")
-
+#unit("UESIGO NORIMASA",
+  solo: true,
+  subtitle: "Avatar of Bishamonten, Daimyo of the Uesigo Clan",
+  profiles: (
+    (name: "Uesigo Norimasa", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 170),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Medium armour",
+  magic-items: (
+    rule("Bishamonten's Might")[Magic Weapon. Polearm. Attacks made with this weapon gain +1 To Hit. In addition, for every Hit inflicted with it, an enemy model of your choice in base contact loses an Attack.],
+    rule("Chalice of Bishamonten")[Enchanted Item. One use only. The Chalice of Bishamonten can be used at the start of any round of close combat. When used, Uesigo Norimasa gains +1 to his Weapon Skill, Strength, Toughness, Initiative and Attacks as well as a Magical Ward (5+) for the remainder of the turn],
+  ),
+  special-rules: "Death Before Dishonour, Immunity (Psychology), Magic Resistance (2), Stubborn, Way of the Warrior",
+  special-rules-body: (
+    rule("Daimyo of the Uesigo Clan")[Units of Warrior Monks, Shugenja and Yamabushi in an army led by Uesigo Norimasa must take the Uesigo Clan Mon. Warrior Monks count as a Core choice. However, no Wako Pirates, Ninjas or Shinobis may be taken.],
+  ),
+  options: [
 - May be mounted on one of the following
   - Warhorse +15 points
   - Komainu +25 points
   - Kirin +40 points
   - Mizuchi +300 points
-
-#entry("SANADA NAOMASA")
-#namecost("The Red Oni, Leader of the Red Devils", "")
-#profile(
-  (name: "Sanada Naomasa", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 185),
-  (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Cavalry (Special Character, Human)")
-#field("MOUNT", "Warhorse (Equine)")
-#field("BASE SIZE", "25x50")
-#field("MAGIC ITEMS", "")
 
-- *Divine Wind:* Magic Weapon. Light lance. Divine Wind gives the wielder +1 Strength and the Devastating Charge special rule.
-- *Red Daemon Armour:* Magic Armour. Medium armour. The Red Daemon Armour gives Sanada Naomasa a Magical Ward (5+) and the Fear special rule. In addition, only one enemy in base contact (chosen by Naomasa) can choose to allocate their attacks against him in close combat.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Frenzy, Way of the Warrior")
-
-- *The Red Devils:* The Red Devils are a unit of Samurai Cavalry with an additional +1 Strength and the Frenzy special rule. Naomasa must deploy in this unit and may not leave it.
-
-#entry("HITOMI GOZEN")
-#namecost("Lady of War, the First Onna Bushi", "")
-#profile(
-  (name: "Hitomi Gozen", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 90),
+#unit("SANADA NAOMASA",
+  solo: true,
+  subtitle: "The Red Oni, Leader of the Red Devils",
+  profiles: (
+    (name: "Sanada Naomasa", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 185),
+    (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Cavalry (Special Character, Human)",
+  mount: "Warhorse (Equine)",
+  base-size: "25x50",
+  magic-items: (
+    rule("Divine Wind")[Magic Weapon. Light lance. Divine Wind gives the wielder +1 Strength and the Devastating Charge special rule.],
+    rule("Red Daemon Armour")[Magic Armour. Medium armour. The Red Daemon Armour gives Sanada Naomasa a Magical Ward (5+) and the Fear special rule. In addition, only one enemy in base contact (chosen by Naomasa) can choose to allocate their attacks against him in close combat.],
+  ),
+  special-rules: "Death Before Dishonour, Frenzy, Way of the Warrior",
+  special-rules-body: (
+    rule("The Red Devils")[The Red Devils are a unit of Samurai Cavalry with an additional +1 Strength and the Frenzy special rule. Naomasa must deploy in this unit and may not leave it.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Medium armour, longbow")
-#field("MAGIC ITEMS", "")
 
-- *The Thundering Blade:* Magic Weapon. Polearm. All attacks with this weapon have the Lightning Attacks special rule.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Stalwart Defence, Stubborn, Way of the Warrior")
-
-- *Onna Bushi Commander:* If Hitomi Gozen is included in your army, one unit of Onna Bushi may be taken as a Core Unit instead of a Special Unit.
-
-#field("OPTIONS", "")
-
+#unit("HITOMI GOZEN",
+  solo: true,
+  subtitle: "Lady of War, the First Onna Bushi",
+  profiles: (
+    (name: "Hitomi Gozen", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 90),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Medium armour, longbow",
+  magic-items: (
+    rule("The Thundering Blade")[Magic Weapon. Polearm. All attacks with this weapon have the Lightning Attacks special rule.],
+  ),
+  special-rules: "Death Before Dishonour, Stalwart Defence, Stubborn, Way of the Warrior",
+  special-rules-body: (
+    rule("Onna Bushi Commander")[If Hitomi Gozen is included in your army, one unit of Onna Bushi may be taken as a Core Unit instead of a Special Unit.],
+  ),
+  options: [
 - May be mounted on a Warhorse +12 points
-
-#entry("EMPRESS HIMIKO")
-#namecost("Daughter of Amaterasu", "")
-#profile(
-  (name: "Empress Himiko", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 1, ld: 9, points: 370),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC", "Empress Himiko is a Level 4 Wizard who can use spells from the Lore of Heavens or Light.")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC ITEMS", "")
 
-- *Sacred Jewel of Eight:* Talisman. The Sacred Jewel of Eight causes enemy units in base contact with the bearer to suffer \-1 To Hit.
-- *Eight Span Mirror:* Arcane Item. If an enemy spell targets Empress Himiko or the unit she is with and is subsequently dispelled by her, she may immediately cast the spell back at the enemy caster just like a Bound Spell, using the same casting value as the enemy Wizard.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Way of the Warrior")
-
-- *Empress of Nippon:* Any unit with the Way of the Warrior special rule joined by Empress Himiko becomes Unbreakable as long as she is in it. In addition, she benefits from a 3+ "Look Out, Sir!" roll in close combat.
-- *Supreme Onmyoji:* Himiko may re-roll failed channelling rolls. In addition, she may re-roll one dice when casting and dispelling each turn.
-
-#entry("AKASHI SHO")
-#namecost("Pillar of Tradition, Grand Yokozuna of Nippon", "")
-#profile(
-  (name: "Akashi Sho", m: 4, ws: 6, bs: 5, s: 5, t: 5, w: 3, i: 5, a: 3, ld: 8, points: 200),
+#unit("EMPRESS HIMIKO",
+  solo: true,
+  subtitle: "Daughter of Amaterasu",
+  profiles: (
+    (name: "Empress Himiko", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 1, ld: 9, points: 370),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic: "Empress Himiko is a Level 4 Wizard who can use spells from the Lore of Heavens or Light.",
+  equipment: "Hand weapon",
+  magic-items: (
+    rule("Sacred Jewel of Eight")[Talisman. The Sacred Jewel of Eight causes enemy units in base contact with the bearer to suffer \-1 To Hit.],
+    rule("Eight Span Mirror")[Arcane Item. If an enemy spell targets Empress Himiko or the unit she is with and is subsequently dispelled by her, she may immediately cast the spell back at the enemy caster just like a Bound Spell, using the same casting value as the enemy Wizard.],
+  ),
+  special-rules: "Death Before Dishonour, Way of the Warrior",
+  special-rules-body: (
+    rule("Empress of Nippon")[Any unit with the Way of the Warrior special rule joined by Empress Himiko becomes Unbreakable as long as she is in it. In addition, she benefits from a 3+ "Look Out, Sir!" roll in close combat.],
+    rule("Supreme Onmyoji")[Himiko may re-roll failed channelling rolls. In addition, she may re-roll one dice when casting and dispelling each turn.],
+  ),
+  order: ("troop-type", "base-size", "magic", "equipment", "magic-items", "special-rules"),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Medium armour")
-#field("MAGIC ITEMS", "")
 
-- *Oni-Kanabo:* Magic Weapon. Great weapon. The Oni-Kanabo gives the wielder the Multiple Wounds (D3) special rule.
-- *Tsuna Belt:* Talisman. The Tsuna Belt grants Akashi Sho a Magical Ward (5+) and the Magic Resistance (1) special rule.
-- *Purifying Salt:* Enchanted Item. The Purifying Salt may be used whenever Akashi Sho issues or accepts a challenge. For the duration of the challenge, he may re-roll 1's To Hit, To Wound and when taking armour and Ward saves.
-
-#field("SPECIAL RULES", "Death Before Dishonour, Sworn Bodyguard (see Hatamoto), Way of the Warrior")
-
-#entry("MINAMOTO KENSHIN")
-#namecost("Wandering Kensai, Legendary Ronin", "")
-#profile(
-  (name: "Minamoto Kenshin", m: 4, ws: 8, bs: 5, s: 4, t: 4, w: 2, i: 7, a: 3, ld: 8, points: 210),
+#unit("AKASHI SHO",
+  solo: true,
+  subtitle: "Pillar of Tradition, Grand Yokozuna of Nippon",
+  profiles: (
+    (name: "Akashi Sho", m: 4, ws: 6, bs: 5, s: 5, t: 5, w: 3, i: 5, a: 3, ld: 8, points: 200),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Medium armour",
+  magic-items: (
+    rule("Oni-Kanabo")[Magic Weapon. Great weapon. The Oni-Kanabo gives the wielder the Multiple Wounds (D3) special rule.],
+    rule("Tsuna Belt")[Talisman. The Tsuna Belt grants Akashi Sho a Magical Ward (5+) and the Magic Resistance (1) special rule.],
+    rule("Purifying Salt")[Enchanted Item. The Purifying Salt may be used whenever Akashi Sho issues or accepts a challenge. For the duration of the challenge, he may re-roll 1's To Hit, To Wound and when taking armour and Ward saves.],
+  ),
+  special-rules: "Death Before Dishonour, Sworn Bodyguard (see Hatamoto), Way of the Warrior",
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *The Nameless Blades:* Magic Weapon. Two hand weapons. The wielder may re-roll all failed To Hit rolls. In addition, any successful Parry or Dodge saves must be re-rolled.
-- *Headband of the Second Sun:* Talisman. The Headband of the Second Sun allows Minamoto Kenshin to re- roll Parry saves while fighting in challenges.
-
-#field("SPECIAL RULES", "Iaijutsu, Killing Blow, Parry (5+), Way of the Warrior")
-
-- *Uncouth Challenger:* When Minamoto Kenshin issues a challenge, the opponent cannot choose to refuse it. Furthermore, the Nippon player nominates which enemy character will accept the challenge.
-- *Path of the Blade:* For each successful Parry save made, Minamoto Kenshin immediately gets to make an additional attack back against the enemy that struck the blow.
-
-#field("NOTES", "")
-
+#unit("MINAMOTO KENSHIN",
+  solo: true,
+  subtitle: "Wandering Kensai, Legendary Ronin",
+  profiles: (
+    (name: "Minamoto Kenshin", m: 4, ws: 8, bs: 5, s: 4, t: 4, w: 2, i: 7, a: 3, ld: 8, points: 210),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("The Nameless Blades")[Magic Weapon. Two hand weapons. The wielder may re-roll all failed To Hit rolls. In addition, any successful Parry or Dodge saves must be re-rolled.],
+    rule("Headband of the Second Sun")[Talisman. The Headband of the Second Sun allows Minamoto Kenshin to re- roll Parry saves while fighting in challenges.],
+  ),
+  special-rules: "Iaijutsu, Killing Blow, Parry (5+), Way of the Warrior",
+  special-rules-body: (
+    rule("Uncouth Challenger")[When Minamoto Kenshin issues a challenge, the opponent cannot choose to refuse it. Furthermore, the Nippon player nominates which enemy character will accept the challenge.],
+    rule("Path of the Blade")[For each successful Parry save made, Minamoto Kenshin immediately gets to make an additional attack back against the enemy that struck the blow.],
+  ),
+  notes: [
 - Minamoto Kenshin may never be the Army General.
-
-#entry("SARUTORI HANZO")
-#namecost("Shinobi Assassin", "")
-#profile(
-  (name: "Sarutori Hanzo", m: 5, ws: 8, bs: 6, s: 4, t: 4, w: 2, i: 8, a: 3, ld: 9, points: 200),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Biting Wind:* Magic Weapon. The wielder causes an automatic Strength 4 hit on all models in base contact in addition to his normal attacks. In addition, any model wounded, but not killed, loses all their attacks for the duration of the turn.
-- *Kage Mask:* Enchanted Item. This item gives Sarutori Hanzo the Fear special rule. In addition, it contains a Bound Spell (Level 1, cast on 3+). This is an *augment* spell that Sarutori Hanzo can cast on himself. He may immediately make a Fly move up 10", even if engaged in close combat, as if it were the Remaining Moves sub-phase.
-
-#field("SPECIAL RULES", "Dodge (4+), Fauntei Shi (see Shinobi), Hidden, Independent, Poisoned Attacks, Scouts, Mon")
-
+#unit("SARUTORI HANZO",
+  solo: true,
+  subtitle: "Shinobi Assassin",
+  profiles: (
+    (name: "Sarutori Hanzo", m: 5, ws: 8, bs: 6, s: 4, t: 4, w: 2, i: 8, a: 3, ld: 9, points: 200),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Biting Wind")[Magic Weapon. The wielder causes an automatic Strength 4 hit on all models in base contact in addition to his normal attacks. In addition, any model wounded, but not killed, loses all their attacks for the duration of the turn.],
+    rule("Kage Mask")[Enchanted Item. This item gives Sarutori Hanzo the Fear special rule. In addition, it contains a Bound Spell (Level 1, cast on 3+). This is an *augment* spell that Sarutori Hanzo can cast on himself. He may immediately make a Fly move up 10", even if engaged in close combat, as if it were the Remaining Moves sub-phase.],
+  ),
+  special-rules: "Dodge (4+), Fauntei Shi (see Shinobi), Hidden, Independent, Poisoned Attacks, Scouts, Mon",
+  special-rules-body: [
 *of the Hattiga Clan*
-
-#entry("O-SAYUMI")
-#namecost("Legendary Geisha", "")
-#profile(
-  (name: "O-Sayumi", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 2, i: 4, a: 2, ld: 7, points: 140),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, war fan")
-#field("MAGIC ITEMS", "")
 
-- *Karyukai Tea Set:* Enchanted Item. One use only. O-Sayumi may use this item at the start of any of your turns. O-Sayumi and any unit she is with becomes Unbreakable until the start of your next turn.
-- *Samisen of Oracular Vision:* Enchanted Item. O-Sayumi may use this item at the start of any of your turns. Target one friendly unit within 12". That unit gains +1 To Hit in close combat until the start of your next turn.
-
-#field("SPECIAL RULES", "Poisoned Attacks, Kabuki Dance (see Kabuki Dolls)")
-
-- *Legendary Geisha:* Any friendly unit joined by O-Sayumi may re-roll all failed Leadership tests. Against enemy characters, O-Sayumi may re-roll failed rolls To Wound and has the Killing Blow special rule.
-
-#field("NOTES", "")
-
+#unit("O-SAYUMI",
+  solo: true,
+  subtitle: "Legendary Geisha",
+  profiles: (
+    (name: "O-Sayumi", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 2, i: 4, a: 2, ld: 7, points: 140),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, war fan",
+  magic-items: (
+    rule("Karyukai Tea Set")[Enchanted Item. One use only. O-Sayumi may use this item at the start of any of your turns. O-Sayumi and any unit she is with becomes Unbreakable until the start of your next turn.],
+    rule("Samisen of Oracular Vision")[Enchanted Item. O-Sayumi may use this item at the start of any of your turns. Target one friendly unit within 12". That unit gains +1 To Hit in close combat until the start of your next turn.],
+  ),
+  special-rules: "Poisoned Attacks, Kabuki Dance (see Kabuki Dolls)",
+  special-rules-body: (
+    rule("Legendary Geisha")[Any friendly unit joined by O-Sayumi may re-roll all failed Leadership tests. Against enemy characters, O-Sayumi may re-roll failed rolls To Wound and has the Killing Blow special rule.],
+  ),
+  notes: [
 - O-Sayumi may never be the Army General.
+  ],
+)
 
 = CREDITS
 
-#entry("Written & Edited by:", first: true)
-#namecost("Mathias Eliasson", "")
+#unit("Written & Edited by:",
+  first: true,
+  subtitle: "Mathias Eliasson",
+  before: [
 #namecost("Based on Warhammer Fantasy by Games-Workshop", "")
+  ],
+)
 
-#entry("Additional Material:")
-#namecost("Stefan Wolf", "")
+#unit("Additional Material:",
+  subtitle: "Stefan Wolf",
+  before: [
 #namecost("Special thanks to all the people that have contributed with feedback and ideas", "")
+  ],
+)

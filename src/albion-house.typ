@@ -239,17 +239,17 @@ The unit may re-roll failed rolls to Wound in the first round of Close Combat.
 
 = CHARACTERS
 
-#entry("WARLEADERS", first: true)
-#profile(
-  (name: "Chieftain", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 95),
-  (name: "Champion", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 8, points: 55),
-)
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Battle Cry, War Fury")
-#field("OPTIONS", "")
-
+#unit("WARLEADERS",
+  first: true,
+  profiles: (
+    (name: "Chieftain", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 95),
+    (name: "Champion", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 8, points: 55),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Battle Cry, War Fury",
+  options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Spear +5 points
@@ -271,21 +271,22 @@ The unit may re-roll failed rolls to Wound in the first round of Close Combat.
 - One Champion may carry the Battle Standard +25 points
 - A Champion may take Magic Items up to a total of 50 points
 - A Chieftain may take Magic Items up to a total of 100 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
-
-#entry("DRUID ELDERS")
-#profile(
-  (name: "Truthsayer", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 2, ld: 8, points: 170),
-  (name: "Wyrd Druid", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 75),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "A Wyrd Druid is a Level 1 Wizard. A Truthsayer is a Level 3 Wizard. They use one of the following Lores of Magic:")
 
+#unit("DRUID ELDERS",
+  profiles: (
+    (name: "Truthsayer", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 2, ld: 8, points: 170),
+    (name: "Wyrd Druid", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 75),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Wyrd Druid is a Level 1 Wizard. A Truthsayer is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
 - Beasts
 - Heavens
 - Life
@@ -294,10 +295,9 @@ The unit may re-roll failed rolls to Wound in the first round of Close Combat.
 In addition, they know the following spell:
 
 - *Elemental Power:* Level 1, cast on 5+. _Elemental Power_ is an *augment/conveyance* spell with a range of 24" that targets Fenbeasts, Fenhulks and Viridian Lords. The target immediately regains D3 Wounds worth of models lost earlier during the battle up to their starting value. Alternatively, the target may choose to make a normal move as if it were the Remaining Moves sub-phase.
-
-#field("SPECIAL RULES", "Magical Ward (6+), War Fury")
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Magical Ward (6+), War Fury",
+  options: [
 - May take an additional Wizard Level +35 points
 - May choose one of the following:
   - Additional hand weapon +3 points
@@ -308,49 +308,55 @@ In addition, they know the following spell:
   - Chariot (replacing one of the crew) +50 points
 - A Wyrd Druid may take Magic Items up to a total of 50 points
 - A Truthsayer may take Magic Items up to a total of 100 points
+  ],
+)
 
 = CHARACTER MOUNTS
 
-#entry("SHIELDBEARERS", first: true)
-#profile(
-  (name: "Shieldbearers", m: 4, ws: 4, bs: 3, s: 4, t: "-", w: "-", i: 4, a: 2, ld: "-", points: "-"),
-)
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x40, 25x50, 40x40 or 50x50")
-#field("SPECIAL RULES", "Inspiring Presence (6), War Fury")
-#field("NOTES", "")
-
+#unit("SHIELDBEARERS",
+  first: true,
+  profiles: (
+    (name: "Shieldbearers", m: 4, ws: 4, bs: 3, s: 4, t: "-", w: "-", i: 4, a: 2, ld: "-", points: "-"),
+  ),
+  troop-type: "Infantry (Human)",
+  base-size: "20x40, 25x50, 40x40 or 50x50",
+  special-rules: "Inspiring Presence (6), War Fury",
+  notes: [
 - Shieldbearers have a Unit Strength and Line of Sight value of 2.
-
-#compact-entry("WARHORSE")[
-#profile(
-  (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: "-"),
+  ],
 )
-#field("TROOP TYPE", "War Beast (Equine)")
-#field("BASE SIZE", "25x50 or 30x60")
-]
 
-#compact-entry("ELK")[
-#profile(
-  (name: "Elk", m: 8, ws: 3, bs: 0, s: 4, t: 3, w: 1, i: 3, a: 1, ld: 5, points: "-"),
+#unit("WARHORSE",
+  compact: true,
+  profiles: (
+    (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: "-"),
+  ),
+  troop-type: "War Beast (Equine)",
+  base-size: "25x50 or 30x60",
 )
-#field("TROOP TYPE", "War Beast (Cervine)")
-#field("BASE SIZE", "25x50 or 30x60")
-]
+
+#unit("ELK",
+  compact: true,
+  profiles: (
+    (name: "Elk", m: 8, ws: 3, bs: 0, s: 4, t: 3, w: 1, i: 3, a: 1, ld: 5, points: "-"),
+  ),
+  troop-type: "War Beast (Cervine)",
+  base-size: "25x50 or 30x60",
+)
 
 = CORE UNITS
 
-#entry("WARRIORS", first: true)
-#profile(
-  (name: "Warrior", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 4),
-)
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "War Fury")
-#field("OPTIONS", "")
-
+#unit("WARRIORS",
+  first: true,
+  profiles: (
+    (name: "Warrior", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 4),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, shield",
+  special-rules: "War Fury",
+  options: [
 - May take one Tribal Affiliation +1 point/model
 - May choose one of the following:
   - Spears +0.5 point/model
@@ -361,18 +367,19 @@ In addition, they know the following spell:
 - May upgrade one Warrior to a Musician +5 points
 - May upgrade one Warrior to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("WOAD RAIDERS")
-#profile(
-  (name: "Woad Raider", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 6),
+  ],
 )
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "Frenzy, Magical Ward (6+), War Fury")
-#field("OPTIONS", "")
 
+#unit("WOAD RAIDERS",
+  profiles: (
+    (name: "Woad Raider", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 6),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, shield",
+  special-rules: "Frenzy, Magical Ward (6+), War Fury",
+  options: [
 - May choose one of the following:
   - Replace shields with additional hand weapons free
   - Spears +0.5 point/model
@@ -382,55 +389,58 @@ In addition, they know the following spell:
 - May upgrade one Woad Raider to a Musician +5 points
 - May upgrade one Woad Raider to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("YOUNGBLOODS")
-#profile(
-  (name: "Youngblood", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 6, points: 5),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, javelins")
-#field("SPECIAL RULES", "Skirmishers, War Fury")
-#field("OPTIONS", "")
 
+#unit("YOUNGBLOODS",
+  profiles: (
+    (name: "Youngblood", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 6, points: 5),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, javelins",
+  special-rules: "Skirmishers, War Fury",
+  options: [
 - May replace javelins with slings +1 point/model
 - May take shields +1 point/model
 - May take one Tribal Affiliation +1 point/model
 - May upgrade one Youngblood to a Leader +5 points
 - May upgrade one Youngblood to a Musician +5 points
-
-#entry("WAR HOUNDS")
-#profile(
-  (name: "War Hound", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: 5),
-  (name: "Handler", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 10),
+  ],
 )
-#field("UNIT SIZE", "10-30")
 
+#unit("WAR HOUNDS",
+  profiles: (
+    (name: "War Hound", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: 5),
+    (name: "Handler", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 10),
+  ),
+  unit-size: "10-30",
+  unit-size-body: [
 v
-
-#field("TROOP TYPE", "War Beast (Dog)")
-#field("HANDLER", "1 Handler (Human)")
-#field("BASE SIZE", "25x25 or 25x50")
-#field("EQUIPMENT", "Hand weapon (Handler only)")
-#field("SPECIAL RULES", "Mixed Unit, War Fury (Handler only)")
-#field("NOTES", "")
-
+  ],
+  troop-type: "War Beast (Dog)",
+  handler: "1 Handler (Human)",
+  base-size: "25x25 or 25x50",
+  equipment: "Hand weapon (Handler only)",
+  special-rules: "Mixed Unit, War Fury (Handler only)",
+  notes: [
 - One Handler must be included for every 5 War Hounds in the unit.
-
-#entry("AONBARR HORSE WARRIORS")
-#profile(
-  (name: "Aonbarr Horse Warrior", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 8, points: 13),
-  (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Human)")
-#field("MOUNT", "Warhorse (Equine)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "Fast Cavalry, War Fury")
-#field("OPTIONS", "")
 
+#unit("AONBARR HORSE WARRIORS",
+  profiles: (
+    (name: "Aonbarr Horse Warrior", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 8, points: 13),
+    (name: "Warhorse", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Human)",
+  mount: "Warhorse (Equine)",
+  base-size: "25x50 or 30x60",
+  equipment: "Hand weapon, shield",
+  special-rules: "Fast Cavalry, War Fury",
+  options: [
 - May take light lances +1 point/model
 - May take javelins +2 points/model
 - May take light armour +1 point/model
@@ -440,22 +450,23 @@ v
 - May upgrade one Aonbarr Horse Warrior to a Musician +5 points
 - May upgrade one Aonbarr Horse Warrior to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("CHARIOTS")
-#profile(
-  (name: "Chariot", m: 7, ws: "-", bs: "-", s: 4, t: 4, w: 4, i: "-", a: "-", ld: "-", points: 55),
-  (name: "Charioteer", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 8, points: ""),
-  (name: "Warhorse", m: "-", ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("UNIT SIZE", "3-6")
-#field("TROOP TYPE", "Chariot (Armour Save 6+)")
-#field("CREW", "2 Charioteers (Human)")
-#field("DRAWN BY", "2 Warhorses (Equine)")
-#field("BASE SIZE", "50x100")
-#field("EQUIPMENT", "Light lance, javelins")
-#field("SPECIAL RULES", "War Fury")
-#field("OPTIONS", "")
 
+#unit("CHARIOTS",
+  profiles: (
+    (name: "Chariot", m: 7, ws: "-", bs: "-", s: 4, t: 4, w: 4, i: "-", a: "-", ld: "-", points: 55),
+    (name: "Charioteer", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 8, points: ""),
+    (name: "Warhorse", m: "-", ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 5, points: ""),
+  ),
+  unit-size: "3-6",
+  troop-type: "Chariot (Armour Save 6+)",
+  crew: "2 Charioteers (Human)",
+  drawn-by: "2 Warhorses (Equine)",
+  base-size: "50x100",
+  equipment: "Light lance, javelins",
+  special-rules: "War Fury",
+  options: [
 - May take light armour +4 points/model
 - May take shields +4 points/model
 - May take scythes +5 points/model
@@ -465,20 +476,22 @@ v
 - May upgrade one Chariot to a Musician +5 points
 - May upgrade one Chariot to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
+  ],
+)
 
 = SPECIAL UNITS
 
-#entry("HEARTHGUARD", first: true)
-#profile(
-  (name: "Hearthguard", m: 4, ws: 4, bs: 3, s: 4, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 10),
-)
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, light armour, shield")
-#field("SPECIAL RULES", "Stubborn, War Fury")
-#field("OPTIONS", "")
-
+#unit("HEARTHGUARD",
+  first: true,
+  profiles: (
+    (name: "Hearthguard", m: 4, ws: 4, bs: 3, s: 4, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 10),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, light armour, shield",
+  special-rules: "Stubborn, War Fury",
+  options: [
 - May replace shields with great weapons +2 points/model
 - May take javelins +2 points/model
 - May have a Magical Ward (6+) +1 point/model
@@ -487,112 +500,116 @@ v
 - May upgrade one Hearthguard to a Musician +5 points
 - May upgrade one Hearthguard to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("SWORDMAIDENS")
-#profile(
-  (name: "Swordmaiden", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 9),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Great weapon")
-#field("SPECIAL RULES", "Devastating Charge, Magical Ward (6+), War Fury")
-#field("OPTIONS", "")
 
+#unit("SWORDMAIDENS",
+  profiles: (
+    (name: "Swordmaiden", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 8, points: 9),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Great weapon",
+  special-rules: "Devastating Charge, Magical Ward (6+), War Fury",
+  options: [
 - May take one Tribal Affiliation +1 point/model
 - May upgrade one Swordmaiden to a Leader +5 points
 - May upgrade one Swordmaiden to a Musician +5 points
 - May upgrade one Swordmaiden to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("HUNTERS")
-#profile(
-  (name: "Hunter", m: 4, ws: 3, bs: 4, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 8),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, javelin")
-#field("SPECIAL RULES", "Scouts, Skirmishers, War Fury")
-#field("UPGRADES", "")
 
+#unit("HUNTERS",
+  profiles: (
+    (name: "Hunter", m: 4, ws: 3, bs: 4, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 8),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, javelin",
+  special-rules: "Scouts, Skirmishers, War Fury",
+  upgrades: [
 ● *War Hawks:* Models with this upgrade may use their War Hawk in addition to another missile weapon during the Shooting phase. War hawks use the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("24\"", "3", "-"))
 
 Rather than rolling to Hit using Ballistic Skill, the target must pass a Weapon Skill test to avoid being Hit.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May replace javelins with shortbows free
 - May take War Hawks +1 point/model
 - May have a Magical Ward (6+) +1 point/model
 - May take one Tribal Affiliation +1 point/model
 - May upgrade one Hunter to a Leader +5 points
 - May upgrade one Hunter to a Musician +5 points
-
-#entry("WARRIORS OF DANU")
-#profile(
-  (name: "Warrior of Danu", m: 4, ws: 4, bs: 3, s: 5, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 22),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("EQUIPMENT", "Great weapon")
-#field("SPECIAL RULES", "Frenzy, Magical Ward (6+), Skirmishers, War Fury")
-#field("OPTIONS", "")
 
+#unit("WARRIORS OF DANU",
+  profiles: (
+    (name: "Warrior of Danu", m: 4, ws: 4, bs: 3, s: 5, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 22),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Human)",
+  base-size: "25x25 or 30x30",
+  equipment: "Great weapon",
+  special-rules: "Frenzy, Magical Ward (6+), Skirmishers, War Fury",
+  options: [
 - May take one Tribal Affiliation +1 point/model
 - May upgrade one Warrior of Danu to a Leader +5 points
-
-#entry("VIRIDIAN LORDS")
-#profile(
-  (name: "Viridian Lord", m: 4, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 4, a: 2, ld: 9, points: 17),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Animated Construct)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Two hand weapons")
-#field("SPECIAL RULES", "Flammable, Regeneration (4+), Skirmishers, Unstable, War Fury")
-#field("OPTIONS", "")
 
+#unit("VIRIDIAN LORDS",
+  profiles: (
+    (name: "Viridian Lord", m: 4, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 4, a: 2, ld: 9, points: 17),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Animated Construct)",
+  base-size: "20x20 or 25x25",
+  equipment: "Two hand weapons",
+  special-rules: "Flammable, Regeneration (4+), Skirmishers, Unstable, War Fury",
+  options: [
 - May replace hand weapons with great weapons +2 points/model
 - May upgrade one Viridian Lord to a Leader +5 points
-
-#entry("FENBEASTS")
-#profile(
-  (name: "Fenbeast", m: 5, ws: 3, bs: 0, s: 5, t: 5, w: 4, i: 1, a: 3, ld: 8, points: 38),
+  ],
 )
-#field("UNIT SIZE", "1-6")
-#field("TROOP TYPE", "Monstrous Infantry (Animated Construct)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("SPECIAL RULES", "Animated Construct, Marsh Strider, Regeneration (4+), Stupidity, Unstable")
-#field("UPGRADES", "")
 
-- *Born of Bloodmarsh:* The model gains +1 Attack.
-- *Fly-Infested Rotweed:* All enemy units in base contact with the model suffer \-1 to their Weapon Skill.
-- *Leechloam:* During any turn in which one or more spells from the Lore of Life is successfully cast within 12", the model gains +1 Strength.
-- *Lifebloom Silt:* The model may re-roll failed Regeneration results of 1.
-
-#field("OPTIONS", "")
-
+#unit("FENBEASTS",
+  profiles: (
+    (name: "Fenbeast", m: 5, ws: 3, bs: 0, s: 5, t: 5, w: 4, i: 1, a: 3, ld: 8, points: 38),
+  ),
+  unit-size: "1-6",
+  troop-type: "Monstrous Infantry (Animated Construct)",
+  base-size: "40x40 or 50x50",
+  special-rules: "Animated Construct, Marsh Strider, Regeneration (4+), Stupidity, Unstable",
+  upgrades: (
+    rule("Born of Bloodmarsh")[The model gains +1 Attack.],
+    rule("Fly-Infested Rotweed")[All enemy units in base contact with the model suffer \-1 to their Weapon Skill.],
+    rule("Leechloam")[During any turn in which one or more spells from the Lore of Life is successfully cast within 12", the model gains +1 Strength.],
+    rule("Lifebloom Silt")[The model may re-roll failed Regeneration results of 1.],
+  ),
+  options: [
 - May choose one of the following:
   - Born of Bloodmarsh +3 points/model
   - Leechloam +3 points/model
   - Lifebloom Silt +3 points/model
   - Fly-Infested Rotweed +3 points/model
-
-#entry("CENTAURS")
-#profile(
-  (name: "Centaur", m: 8, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 4, a: 2, ld: 8, points: 19),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Centaur)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "Fast Cavalry, Independent, War Fury")
-#field("OPTIONS", "")
 
+#unit("CENTAURS",
+  profiles: (
+    (name: "Centaur", m: 8, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 4, a: 2, ld: 8, points: 19),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Centaur)",
+  base-size: "25x50 or 30x60",
+  equipment: "Hand weapon, shield",
+  special-rules: "Fast Cavalry, Independent, War Fury",
+  options: [
 - May take one Tribal Affiliation +1 point/model
 - May choose one of the following:
   - Replace shields with additional hand weapon free
@@ -608,18 +625,19 @@ Rather than rolling to Hit using Ballistic Skill, the target must pass a Weapon 
 - May upgrade one Centaur to a Musician +5 points
 - May upgrade one Centaur to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("HALF GIANTS")
-#profile(
-  (name: "Half Giant", m: 6, ws: 3, bs: 2, s: 5, t: 5, w: 3, i: 3, a: 3, ld: 7, points: 35),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Half Giant)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Independent, War Fury")
-#field("OPTIONS", "")
 
+#unit("HALF GIANTS",
+  profiles: (
+    (name: "Half Giant", m: 6, ws: 3, bs: 2, s: 5, t: 5, w: 3, i: 3, a: 3, ld: 7, points: 35),
+  ),
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Half Giant)",
+  base-size: "40x40 or 50x50",
+  equipment: "Hand weapon",
+  special-rules: "Independent, War Fury",
+  options: [
 - May choose one of the following:
   - Additional hand weapons +3 points/model
   - Shields +3 points/model
@@ -632,112 +650,123 @@ Rather than rolling to Hit using Ballistic Skill, the target must pass a Weapon 
 - May upgrade one Half Giant to a Musician +5 points
 - May upgrade one Half Giant to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("PIXIE SWARMS")
-#profile(
-  (name: "Pixie Swarm", m: 1, ws: 3, bs: 3, s: 1, t: 1, w: 8, i: 5, a: 10, ld: 8, points: 40),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Swarm (Forest Spirit)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Fear, Fly (6), Forest Strider, Immunity (Psychology), Magical Attacks, Magical Ward (5+)")
 
-- *Befuddling Glamour:* All enemy units within 12" and with line of sight to one or more units of Pixie Swarms at the start of their turn must take a Psychology test. If failed, the unit must move straight towards them, following all the rules for Stupidity.
+#unit("PIXIE SWARMS",
+  profiles: (
+    (name: "Pixie Swarm", m: 1, ws: 3, bs: 3, s: 1, t: 1, w: 8, i: 5, a: 10, ld: 8, points: 40),
+  ),
+  unit-size: "3-9",
+  troop-type: "Swarm (Forest Spirit)",
+  base-size: "40x40",
+  special-rules: "Fear, Fly (6), Forest Strider, Immunity (Psychology), Magical Attacks, Magical Ward (5+)",
+  special-rules-body: (
+    rule("Befuddling Glamour")[All enemy units within 12" and with line of sight to one or more units of Pixie Swarms at the start of their turn must take a Psychology test. If failed, the unit must move straight towards them, following all the rules for Stupidity.],
+  ),
+)
 
 = RARE UNITS
 
-#entry("DRUID NEOPHYTES", first: true)
-#profile(
-  (name: "Druid Neophyte", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 9),
-)
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "A unit of Druid Neophytes is a Level 1 Wizard that uses one of the following Lores of Magic:")
-
+#unit("DRUID NEOPHYTES",
+  first: true,
+  profiles: (
+    (name: "Druid Neophyte", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: 9),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A unit of Druid Neophytes is a Level 1 Wizard that uses one of the following Lores of Magic:",
+  magic-body: [
 - Beasts
 - Life
-
-#field("SPECIAL RULES", "Skirmishers, War Fury")
-
-- *Druid Circle:* The unit receives an additional +1 casting bonus for every 5 five models in the unit with this special rule. Each time the unit casts a spell (or is targeted by a special rule that affects a Wizard), you must nominate one Druid Neophyte as the caster (or target) for the purposes of line of sight, range, etc. In the event of a Druid Neophyte unit rolling a miscast, do not roll on the Miscast table. Instead, the unit suffers D3 Wounds with no saves of any kind allowed.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Skirmishers, War Fury",
+  special-rules-body: (
+    rule("Druid Circle")[The unit receives an additional +1 casting bonus for every 5 five models in the unit with this special rule. Each time the unit casts a spell (or is targeted by a special rule that affects a Wizard), you must nominate one Druid Neophyte as the caster (or target) for the purposes of line of sight, range, etc. In the event of a Druid Neophyte unit rolling a miscast, do not roll on the Miscast table. Instead, the unit suffers D3 Wounds with no saves of any kind allowed.],
+  ),
+  options: [
 - May choose one of the following:
   - Additional hand weapons +1 point/model
   - Polearms +2 points/model
 - May have a Magical Ward (6+) +1 point/model
 - May upgrade one Druid Neophyte to a Leader +5 points
-
-#entry("STONE THROWER")
-#profile(
-  (name: "Stone Thrower", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 85),
-  (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine (Stone Thrower)")
-#field("CREW", "3 Crew (Human)")
-#field("BASE SIZE", "20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "War Fury")
-#field("UPGRADE", "")
 
+#unit("STONE THROWER",
+  profiles: (
+    (name: "Stone Thrower", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: "-", i: "-", a: "-", ld: "-", points: 85),
+    (name: "Crew", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "War Machine (Stone Thrower)",
+  crew: "3 Crew (Human)",
+  base-size: "20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon",
+  special-rules: "War Fury",
+  upgrades: [
 - *Fire Pots:* A Stone Thrower with Fire Pots may choose to use the large round template with the following profile (this replaces their normal profile):
 
 #minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "3(6)", "Flaming Attacks, Multiple Wounds (D3)"))
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take Fire Pots +10 points
-
-#entry("MASTODON")
-#profile(
-  (name: "Mastodon", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 6, i: 1, a: 4, ld: 6, points: 200),
-  (name: "Crew", m: "-", ws: 3, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 7, points: ""),
+  ],
+  labels: (upgrades: "UPGRADE"),
 )
-#field("TROOP TYPE", "Monster (Mastodon)")
-#field("CREW", "3 Crew (Human)")
-#field("BASE SIZE", "50x100 or 100x150")
-#field("EQUIPMENT", "Light lance, javelins (Crew only)")
-#field("SPECIAL RULES", "Immunity (Psychology), Impact Hits (D6+1), Natural Armour (4+), Stubborn, War Fury")
 
+#unit("MASTODON",
+  profiles: (
+    (name: "Mastodon", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 6, i: 1, a: 4, ld: 6, points: 200),
+    (name: "Crew", m: "-", ws: 3, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 7, points: ""),
+  ),
+  troop-type: "Monster (Mastodon)",
+  crew: "3 Crew (Human)",
+  base-size: "50x100 or 100x150",
+  equipment: "Light lance, javelins (Crew only)",
+  special-rules: "Immunity (Psychology), Impact Hits (D6+1), Natural Armour (4+), Stubborn, War Fury",
+  special-rules-body: [
 (Crew only)
-
-#entry("FENHULK")
-#profile(
-  (name: "Fenhulk", m: 5, ws: 3, bs: 0, s: 6, t: 6, w: 6, i: 1, a: 5, ld: 8, points: 250),
+  ],
 )
-#field("TROOP TYPE", "Monster (Animated Construct)")
-#field("BASE SIZE", "50x50 or 100x100")
-#field("SPECIAL RULES", "Animated Construct, Magic Resistance (1), Marsh Strider, Regeneration (4+), Stupidity, Unstable")
 
-- *Conduit of Power:* Friendly Wizards within 6" receive a +1 modifier to their channelling rolls.
-- *Embodiment of Albion:* Every model in base contact with a Fenhulk must take a Dangerous Terrain test as if they are moving through Marsh Terrain at the start of the first round of close combat, before Impact Hits are resolved.
-
-#field("UPGRADES", "")
-
-- *Born of Bloodmarsh:* The model gains +1 Attack.
-- *Fly-Infested Rotweed:* All enemy units in base contact with the model suffer \-1 to their Weapon Skill.
-- *Leechloam:* During any turn in which one or more spells from the Lore of Life is successfully cast within 12", the model gains +1 Strength.
-- *Lifebloom Silt:* The model may re-roll failed Regeneration results of 1.
-
-#field("OPTIONS", "")
-
+#unit("FENHULK",
+  profiles: (
+    (name: "Fenhulk", m: 5, ws: 3, bs: 0, s: 6, t: 6, w: 6, i: 1, a: 5, ld: 8, points: 250),
+  ),
+  troop-type: "Monster (Animated Construct)",
+  base-size: "50x50 or 100x100",
+  special-rules: "Animated Construct, Magic Resistance (1), Marsh Strider, Regeneration (4+), Stupidity, Unstable",
+  special-rules-body: (
+    rule("Conduit of Power")[Friendly Wizards within 6" receive a +1 modifier to their channelling rolls.],
+    rule("Embodiment of Albion")[Every model in base contact with a Fenhulk must take a Dangerous Terrain test as if they are moving through Marsh Terrain at the start of the first round of close combat, before Impact Hits are resolved.],
+  ),
+  upgrades: (
+    rule("Born of Bloodmarsh")[The model gains +1 Attack.],
+    rule("Fly-Infested Rotweed")[All enemy units in base contact with the model suffer \-1 to their Weapon Skill.],
+    rule("Leechloam")[During any turn in which one or more spells from the Lore of Life is successfully cast within 12", the model gains +1 Strength.],
+    rule("Lifebloom Silt")[The model may re-roll failed Regeneration results of 1.],
+  ),
+  options: [
 - May choose one of the following:
   - Lifebloom Silt +10 points
   - Born of Bloodmarsh +15 points
   - Leechloam +15 points
   - Fly-Infested Rotweed +15 points
-
-#entry("GIANT")
-#profile(
-  (name: "Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 180),
+  ],
 )
-#field("TROOP TYPE", "Monster (Giant)")
-#field("BASE SIZE", "50x50 or 50x75")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Immunity (Psychology), Natural Armour (6+), Stubborn")
 
+#unit("GIANT",
+  breakable: true,
+  profiles: (
+    (name: "Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 180),
+  ),
+  troop-type: "Monster (Giant)",
+  base-size: "50x50 or 50x75",
+  equipment: "Hand weapon",
+  special-rules: "Immunity (Psychology), Natural Armour (6+), Stubborn",
+  special-rules-body: [
 - *Fall Over:* A Giant must test to see whether it falls over if any of the following apply:
   - If it is beaten in close combat. Test once results are established but before taking a Break test.
   - If it is fleeing at the start of the Movement phase.
@@ -769,29 +798,31 @@ which. The victim is removed as a casualty, and the unit takes D6 Strength 3 hit
 Wounds from these hits count towards the Giant's combat result. If no enemy units are in range,
 treat this as a Throw Back into Combat result instead."), ("4-5", "Squash or Eat: The model is removed as a casualty."), ("6", "Pick Another: Treat the attack as if the Giant had rolled the Stuff into Bag result, above, and
 then choose another victim. Roll again on this table to see what the Giant does with it.")))
-#field("UPGRADES", "")
-
+  ],
+  upgrades: [
 *Throw Rocks:* A Giant with this upgrade gains a stone thrower with the following profile. If a misfire is rolled, the Giant suffers 1 Wound which Ignores Armour Saves.
 
 #minitable(("Range", "Strength", "Special Rules"), ("6-18\"", "4(8)", "Cumbersome, Multiple Wounds (D3)"))
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May have a Magical Ward (6+) +20 points
 - May be upgraded to Throw Rocks +30 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - You may take 1\-2 Giants as a single Rare choice.
-
-#entry("BONEGRINDER GIANT")
-#profile(
-  (name: "Bonegrinder Giant", m: 10, ws: 3, bs: 3, s: 8, t: 8, w: 10, i: 1, a: "*", ld: 10, points: 380),
+  ],
 )
-#field("TROOP TYPE", "Monster (Giant)")
-#field("BASE SIZE", "50x100, 60x100 or 100x150")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Immunity (Psychology), Natural Armour (6+), Stubborn")
 
+#unit("BONEGRINDER GIANT",
+  breakable: true,
+  profiles: (
+    (name: "Bonegrinder Giant", m: 10, ws: 3, bs: 3, s: 8, t: 8, w: 10, i: 1, a: "*", ld: 10, points: 380),
+  ),
+  troop-type: "Monster (Giant)",
+  base-size: "50x100, 60x100 or 100x150",
+  equipment: "Hand weapon",
+  special-rules: "Immunity (Psychology), Natural Armour (6+), Stubborn",
+  special-rules-body: [
 - *Fall Over:* A Bonegrinder Giant must test to see whether it falls over if any of the following apply:
   - If it is beaten in close combat. Test once results are established but before taking a Break test.
   - If it is fleeing at the start of the Movement phase.
@@ -834,35 +865,36 @@ Unsaved Wounds from these hits count towards the Bonegrinder Giant's combat resu
 enemy units are in range, treat this as a Throw Back into Combat result instead."), ("4-5", "Squash or Eat: The model is removed as a casualty."), ("6", "Pick Another: Treat the attack as if the Bonegrinder Giant had rolled the Stuff into Bag result,
 above, and then choose another victim. Roll again on this table to see what the Giant does with
 it.")))
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May have a Magical Ward (6+) +35 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Bonegrinder Giant has a Line of Sight value of 10.
+  ],
+)
 
 = SPECIAL CHARACTERS
 
-#entry("GWENLAEN", first: true)
-#namecost("The Warrior Queen", "")
-#profile(
-  (name: "Gwenlaen", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 5, ld: 9, points: 250),
-)
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
-
-- *Blade of Ogma:* Magic Weapon. The Blade of Ogma gives Gwenlaen +1 Strength as well as the Mighty Blow (1) and Devastating Charge special rules.
-- *The Black Shield:* Magic Armour. Shield. Enemies must re-roll all successful rolls To Hit against the wearer (both shooting and close combat).
-- *Torc of Protection:* Talisman. One use only. Declare if you want to use the Torc at the start of any phase. When used, the wearer cannot be harmed by any Spell, Missile or Close Combat attack for the duration of the turn.
-
-#field("SPECIAL RULES", "Magical Ward (6+), Sessair, War Fury")
-
-- *Warrior Queen:* Gwenlaen, and all friendly units within 12" of her, may re-roll failed Psychology tests, automatically pass Rally tests and may add D3" to their charge distance. In addition, the restriction on Tribal Affiliation is lifted – you may field units from any of the four tribes in the same army if you wish.
-
-#field("OPTIONS", "")
-
+#unit("GWENLAEN",
+  solo: true,
+  first: true,
+  subtitle: "The Warrior Queen",
+  profiles: (
+    (name: "Gwenlaen", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 5, ld: 9, points: 250),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Blade of Ogma")[Magic Weapon. The Blade of Ogma gives Gwenlaen +1 Strength as well as the Mighty Blow (1) and Devastating Charge special rules.],
+    rule("The Black Shield")[Magic Armour. Shield. Enemies must re-roll all successful rolls To Hit against the wearer (both shooting and close combat).],
+    rule("Torc of Protection")[Talisman. One use only. Declare if you want to use the Torc at the start of any phase. When used, the wearer cannot be harmed by any Spell, Missile or Close Combat attack for the duration of the turn.],
+  ),
+  special-rules: "Magical Ward (6+), Sessair, War Fury",
+  special-rules-body: (
+    rule("Warrior Queen")[Gwenlaen, and all friendly units within 12" of her, may re-roll failed Psychology tests, automatically pass Rally tests and may add D3" to their charge distance. In addition, the restriction on Tribal Affiliation is lifted – you may field units from any of the four tribes in the same army if you wish.],
+  ),
+  options: [
 - May take javelins +6 points
 - May take light armour +3 points
 - May be mounted on one of the following:
@@ -870,99 +902,113 @@ it.")))
   - Elk +20 points
   - Shieldbearers +25 points
   - Chariot (replacing one of the crew) +50 points
-
-#entry("CORMAC CHATH")
-#namecost("Hero of Albion", "")
-#profile(
-  (name: "Cormac Chath", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 150),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Light armour")
-#field("MAGIC ITEMS", "")
 
-- *Caladbolg Claymore:* Magic Weapon. Great Weapon. All hits with this sword are multiplied by D3.
-- *Seal of Chath:* Talisman. Enemies suffer \-1 on all To Wound rolls against Cormac Chath.
-
-#field("SPECIAL RULES", "Battle Cry, Fir Domain, Magical Ward (6+), War Fury")
-
-- *Hero of Albion:* For every unsaved wound caused by Cormac Chath in Close Combat, all friendly units in combat within 6" receive +1 to their combat resolution bonus (to a maximum of +3).
-
-#entry("CONOR MAC FEUD")
-#namecost("The Highlander", "")
-#profile(
-  (name: "Conor Mac Feud", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 175),
+#unit("CORMAC CHATH",
+  solo: true,
+  subtitle: "Hero of Albion",
+  profiles: (
+    (name: "Cormac Chath", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 150),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Light armour",
+  magic-items: (
+    rule("Caladbolg Claymore")[Magic Weapon. Great Weapon. All hits with this sword are multiplied by D3.],
+    rule("Seal of Chath")[Talisman. Enemies suffer \-1 on all To Wound rolls against Cormac Chath.],
+  ),
+  special-rules: "Battle Cry, Fir Domain, Magical Ward (6+), War Fury",
+  special-rules-body: (
+    rule("Hero of Albion")[For every unsaved wound caused by Cormac Chath in Close Combat, all friendly units in combat within 6" receive +1 to their combat resolution bonus (to a maximum of +3).],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Great Fury:* Magic Weapon. This sword allows Conor to re-roll all failed rolls To Hit and To Wound.
-
-#field("SPECIAL RULES", "Battle Cry, Finian, Hatred (Fimir), War Fury")
-
+#unit("CONOR MAC FEUD",
+  solo: true,
+  subtitle: "The Highlander",
+  profiles: (
+    (name: "Conor Mac Feud", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 175),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Great Fury")[Magic Weapon. This sword allows Conor to re-roll all failed rolls To Hit and To Wound.],
+  ),
+  special-rules: "Battle Cry, Finian, Hatred (Fimir), War Fury",
+  special-rules-body: [
 - *Fateful Destiny:* Conor has the Ward save (3+) special rule against all attacks except successful Killing Blows.
 - *'There Can Be Only One!'* Conor must always issue and accept challenges when possible. In addition, he may nominate one enemy character. If Conor slays this character in a challenge, you receive +100 Victory Points. While in a challenge, Conor has the Heroic Killing Blow special rule.
-
-#entry("ROTH MAC LYR")
-#namecost("Champion of Danu", "")
-#profile(
-  (name: "Roth Mac Lyr", m: 4, ws: 6, bs: 5, s: 5, t: 4, w: 3, i: 6, a: 4, ld: 8, points: 185),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("MAGIC ITEMS", "")
 
-- *Brainbiter:* Magic Weapon. Great weapon. All Attacks made with this weapon have the Ignores Armour Saves and Killing Blow special rule.
-- *Pelt of Chogor:* Magic Armour. The pelt grants Roth the Natural Armour (4+) special rule. In addition, enemy units within 6" of him must re-roll successful Psychology tests.
-- *Vambraces of Danu:* Talisman. The Vambraces of Danu give Roth Regeneration (6+).
-
-#field("SPECIAL RULES", "Frenzy, Magical Ward (6+), Sessair, War Fury")
-
-#entry("AMANTHAS")
-#namecost("The Huntress", "")
-#profile(
-  (name: "Amanthas", m: 4, ws: 4, bs: 6, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 8, points: 115),
+#unit("ROTH MAC LYR",
+  solo: true,
+  subtitle: "Champion of Danu",
+  profiles: (
+    (name: "Roth Mac Lyr", m: 4, ws: 6, bs: 5, s: 5, t: 4, w: 3, i: 6, a: 4, ld: 8, points: 185),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "25x25 or 30x30",
+  magic-items: (
+    rule("Brainbiter")[Magic Weapon. Great weapon. All Attacks made with this weapon have the Ignores Armour Saves and Killing Blow special rule.],
+    rule("Pelt of Chogor")[Magic Armour. The pelt grants Roth the Natural Armour (4+) special rule. In addition, enemy units within 6" of him must re-roll successful Psychology tests.],
+    rule("Vambraces of Danu")[Talisman. The Vambraces of Danu give Roth Regeneration (6+).],
+  ),
+  special-rules: "Frenzy, Magical Ward (6+), Sessair, War Fury",
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC ITEMS", "")
 
+#unit("AMANTHAS",
+  solo: true,
+  subtitle: "The Huntress",
+  profiles: (
+    (name: "Amanthas", m: 4, ws: 4, bs: 6, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 8, points: 115),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic-items: [
 - *Bow of the Sidhe:* Magic Weapon. The Bow of the Sidhe is a missile weapon with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("20/30\"", "5", "Killing Blow, Multiple Shots (2)"))
-#field("SPECIAL RULES", "Falian, Hatred (Dark Elves), Magical Ward (6+), Scouts, Sniper, War Fury")
-
-- *Master of the Hunt:* Amanthas may deploy within 6" of the enemy instead of the normal 12" and is at an additional \-1 to hit with missile weapons when in Forests.
-
-#entry("AMANTHAS")
-#namecost("The Huntress", "")
-#profile(
-  (name: "Amanthas", m: 4, ws: 4, bs: 6, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 8, points: 115),
+  ],
+  special-rules: "Falian, Hatred (Dark Elves), Magical Ward (6+), Scouts, Sniper, War Fury",
+  special-rules-body: (
+    rule("Master of the Hunt")[Amanthas may deploy within 6" of the enemy instead of the normal 12" and is at an additional \-1 to hit with missile weapons when in Forests.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC ITEMS", "")
 
+#unit("AMANTHAS",
+  solo: true,
+  subtitle: "The Huntress",
+  profiles: (
+    (name: "Amanthas", m: 4, ws: 4, bs: 6, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 8, points: 115),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic-items: [
 - *Bow of the Sidhe:* Magic Weapon. The Bow of the Sidhe is a missile weapon with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("30\"", "5", "Killing Blow, Multiple Shots (2)"))
-#field("SPECIAL RULES", "Falian, Hatred (Dark Elves), Magical Ward (6+), Scouts, Sniper, War Fury")
-
-- *Master of the Hunt:* Amanthas may deploy within 6" of the enemy instead of the normal 12" and is at an additional \-1 to hit with missile weapons when in Forests.
-
-#entry("DURAL DURAK")
-#namecost("Leader of the Council of Druids", "")
-#profile(
-  (name: "Dural Durak", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 1, ld: 9, points: 285),
+  ],
+  special-rules: "Falian, Hatred (Dark Elves), Magical Ward (6+), Scouts, Sniper, War Fury",
+  special-rules-body: (
+    rule("Master of the Hunt")[Amanthas may deploy within 6" of the enemy instead of the normal 12" and is at an additional \-1 to hit with missile weapons when in Forests.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "Dural Durak is a Level 4 Wizard who uses one of the following Lores of Magic:")
 
+#unit("DURAL DURAK",
+  solo: true,
+  subtitle: "Leader of the Council of Druids",
+  profiles: (
+    (name: "Dural Durak", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 1, ld: 9, points: 285),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "Dural Durak is a Level 4 Wizard who uses one of the following Lores of Magic:",
+  magic-body: [
 - Beasts
 - Heavens
 - Life
@@ -971,67 +1017,80 @@ it.")))
 In addition, he knows the _Elemental Power_ spell (see Druid Elders) and the following spell:
 
 - *Voice of Command:* Level 4, cast on 12+. _Voice of Command_ is a *hex* spell with a range of 24". The target cannot voluntarily move in its next Movement phase or shoot in its next Shooting phase.
-
-#field("MAGIC ITEMS", "")
-
-- *The Heartwood Staff:* Arcane Item. The Heartwood Staff gives Dural Durak +1 casting bonus, which is increased to +2 if he is within 6" of a forest.
-
-#field("SPECIAL RULES", "Magical Ward (6+), War Fury")
-
-- *High Druid:* Dural Durak may reroll all Power Dice when casting a spell once per turn, as long as it was not a Miscast result. This is done after resolving any Unlimited Power rolls.
-
-#field("OPTIONS", "")
-
+  ],
+  magic-items: (
+    rule("The Heartwood Staff")[Arcane Item. The Heartwood Staff gives Dural Durak +1 casting bonus, which is increased to +2 if he is within 6" of a forest.],
+  ),
+  special-rules: "Magical Ward (6+), War Fury",
+  special-rules-body: (
+    rule("High Druid")[Dural Durak may reroll all Power Dice when casting a spell once per turn, as long as it was not a Miscast result. This is done after resolving any Unlimited Power rolls.],
+  ),
+  options: [
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Elk +20 points
   - Chariot (replacing one of the crew) +50 points
 - May take Magic Items up to a total of 50 points
-
-#entry("MORRIGAN")
-#namecost("The Phantom Queen", "")
-#profile(
-  (name: "Morrigan", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 9, points: 295),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Human)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "Morrigan is a Level 3 Wizard who uses one of the following Lores of Magic:")
 
+#unit("MORRIGAN",
+  solo: true,
+  subtitle: "The Phantom Queen",
+  profiles: (
+    (name: "Morrigan", m: 4, ws: 4, bs: 4, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 9, points: 295),
+  ),
+  troop-type: "Infantry (Special Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "Morrigan is a Level 3 Wizard who uses one of the following Lores of Magic:",
+  magic-body: [
 - Beasts
 - Death
 - Shadows
 
 She always knows _The Flock of Doom_ spell from the Lore of Beasts in addition to her other spells.
-
-#field("SPECIAL RULES", "Fear, Fly (10), Independent")
-
-- *Murder of Crows:* Morrigan causes 2D6 Strength 2 Impact Hits with the Magical Attacks special rule whenever she makes a successful charge.
-- *Omen of War:* All friendly units with the War Fury special rule within 8" of Morrigan gain +1 To Hit in Close Combat, and enemy units suffer \-1 to their Leadership. However, Morrigan may never be the army's General.
-- *The Phantom Queen:* Morrigan has a Magical Ward (4+).
-
-#entry("AGUM THE WATCHER")
-#namecost("Guardian of the Coast", "")
-#profile(
-  (name: "Agum the Watcher", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 250),
+  ],
+  special-rules: "Fear, Fly (10), Independent",
+  special-rules-body: (
+    rule("Murder of Crows")[Morrigan causes 2D6 Strength 2 Impact Hits with the Magical Attacks special rule whenever she makes a successful charge.],
+    rule("Omen of War")[All friendly units with the War Fury special rule within 8" of Morrigan gain +1 To Hit in Close Combat, and enemy units suffer \-1 to their Leadership. However, Morrigan may never be the army's General.],
+    rule("The Phantom Queen")[Morrigan has a Magical Ward (4+).],
+  ),
 )
-#field("TROOP TYPE", "Monster (Special Character, Giant)")
-#field("BASE SIZE", "50x50 or 50x75")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Fall Over (see Giants), Giant Special Attacks (see Giants), Immunity (Psychology), Loner, Natural Armour (6+), Stubborn")
 
-- *Guardian of the Coast:* Agum has the Throw Rocks upgrade (see Giants). In addition, Agum's may re-roll the scatter dice.
-- *Thick Skull:* Agum's 'Eadbutt attack has the Multiple Wounds (D6) special rule.
+#unit("AGUM THE WATCHER",
+  solo: true,
+  subtitle: "Guardian of the Coast",
+  profiles: (
+    (name: "Agum the Watcher", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 250),
+  ),
+  troop-type: "Monster (Special Character, Giant)",
+  base-size: "50x50 or 50x75",
+  equipment: "Hand weapon",
+  special-rules: "Fall Over (see Giants), Giant Special Attacks (see Giants), Immunity (Psychology), Loner, Natural Armour (6+), Stubborn",
+  special-rules-body: (
+    rule("Guardian of the Coast")[Agum has the Throw Rocks upgrade (see Giants). In addition, Agum's may re-roll the scatter dice.],
+    rule("Thick Skull")[Agum's 'Eadbutt attack has the Multiple Wounds (D6) special rule.],
+  ),
+)
 
 = CREDITS
 
-#entry("Written & Edited by:", first: true)
-#namecost("Mathias Eliasson", "")
+#unit("Written & Edited by:",
+  first: true,
+  subtitle: "Mathias Eliasson",
+  before: [
 #namecost("Based on Warhammer Fantasy by Games-Workshop", "")
+  ],
+)
 
-#entry("Additional Material:")
-#namecost("Stefan Wolf", "")
+#unit("Additional Material:",
+  subtitle: "Stefan Wolf",
+  before: [
 #namecost("Special thanks to all the people that have contributed with feedback and ideas", "")
+  ],
+)
 
 = OUR CHANGES
 

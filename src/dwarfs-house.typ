@@ -176,7 +176,6 @@ Runic items are effectively magic items tailored to your own requirements by com
 It is important to remember that a runic item is no different from a magic item, and all the usual rules for magic items still apply. All the rules that apply to the possession and use of magic items also apply to runic items.
 
 #entry("CREATING A RUNIC ITEM")
-
 Unless otherwise noted, runes can be inscribed onto the following things: weapons, armour, talismans, standards, and war machines. Each of these has its own types of runes.
 
 If a model is permitted to take a Magic Weapon, they may choose Weapon Runes and apply them to their hand weapon.
@@ -192,7 +191,6 @@ Dwarf war machines can be inscribed with engineering runes.
 Characters with the Slayer special rule may take Runic Tattoos.
 
 #entry("RULES OF THE RUNES")
-
 You may inscribe up to three runes onto an item, which will henceforth be considered magical. Runic magic items are subject to the following restrictions:
 
 1) No single item can have more than three runes.
@@ -616,20 +614,20 @@ A model with this runic tattoo gains +1 Toughness.
 
 = CHARACTERS
 
-#entry("LORDS", first: true)
-#profile(
-  (name: "King", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 125),
-  (name: "Thane", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 3, a: 3, ld: 9, points: 65),
-)
-#field("TROOP TYPE", "Infantry (Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute")
-
-- *Royal Clansmen:* You may upgrade one unit of Dwarf Warriors with heavy armour for +1.5 points/model for each King in your army.
-
-#field("OPTIONS", "")
-
+#unit("LORDS",
+  first: true,
+  profiles: (
+    (name: "King", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 125),
+    (name: "Thane", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 3, a: 3, ld: 9, points: 65),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: (
+    rule("Royal Clansmen")[You may upgrade one unit of Dwarf Warriors with heavy armour for +1.5 points/model for each King in your army.],
+  ),
+  options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Great weapon +15 points
@@ -647,24 +645,25 @@ A model with this runic tattoo gains +1 Toughness.
 - One Thane may carry the Battle Standard +25 points
 - A Thane may take Magic Items and/or Runic Items up to a total of 50 points
 - A King may take Magic Items and/or Runic Items up to a total of 100 points
-
-#entry("RUNESMITHS")
-#profile(
-  (name: "Runelord", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 3, i: 3, a: 3, ld: 9, points: 150),
-  (name: "Runesmith", m: 3, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 90),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Magic Resistance (2), Relentless, Resolute")
 
+#unit("RUNESMITHS",
+  profiles: (
+    (name: "Runelord", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 3, i: 3, a: 3, ld: 9, points: 150),
+    (name: "Runesmith", m: 3, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 90),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (2), Relentless, Resolute",
+  special-rules-body: [
 - *Forgefire*: Models with this special rule and any unit they join gain the Armour Piercing (1) special rule.
 - *Rune Lore:* Runelords follow the rules for Level 4 Wizards for the purposes of channelling dispel dice and dispelling. Runesmiths follow the rules for Level 2 Wizards for the purposes of channelling dispel dice and dispelling.
 
 In addition, a model with this special rule has the four Runes listed below. Unless fleeing, they may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the Rune is struck and takes immediate effect. A unit can only be under the effect of one Rune at a time. - *Rune of Haste & Urgency:* The model and their unit gain +1 Movement and the Swiftstride special rule until the start of your next turn. - *Rune of Hearth & Hold:* The model and their unit gain the Stubborn special rule until the start of your next turn. - *Rune of Stone & Steel:* The model and their unit gain a 6+ armour until the start of your next turn. - *Rune of Wrath & Ruin:* All enemy units in base contact with the model suffer 2D6 Strength 4 hits.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a great weapon +10 points
 - May choose one of the following:
   - Light armour +9 points
@@ -674,28 +673,28 @@ In addition, a model with this special rule has the four Runes listed below. Unl
 - May be mounted on an Anvil of Doom (Runelord only) +120 points
 - A Runesmith may take Magic Items and/or Runic Items up to a total of 50 points
 - A Runelord may take Magic Items and/or Runic Items up to a total of 100 points
-
-#entry("SLAYERS OF LEGEND")
-#profile(
-  (name: "Daemon Slayer", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 5, a: 4, ld: 10, points: 140),
-  (name: "Dragon Slayer", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 10, points: 70),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Daemon Slayer (Daemon Slayer only), Deathblow, Dragon Slayer, Magic")
 
+#unit("SLAYERS OF LEGEND",
+  profiles: (
+    (name: "Daemon Slayer", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 5, a: 4, ld: 10, points: 140),
+    (name: "Dragon Slayer", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 10, points: 70),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Daemon Slayer (Daemon Slayer only), Deathblow, Dragon Slayer, Magic",
+  special-rules-body: [
 *Resistance (1), Relentless, Unbreakable*
-
-#field("UPGRADES", "")
-
-- *Beast Slayer:* Each wound inflicted by the model counts double towards that round's Combat Resolution (excluding Wounds from Overkill in a challenge).
-- *Killing Blow:* The model gains the Killing Blow special rule.
-- *Skaven Slayer:* The model gains a number of Attacks equal to the number of enemy models in base contact with him.
-- *Vampire Slayer:* The model may re-roll failed rolls To Wound against enemies with Toughness 5 or higher.
-
-#field("OPTIONS", "")
-
+  ],
+  upgrades: (
+    rule("Beast Slayer")[Each wound inflicted by the model counts double towards that round's Combat Resolution (excluding Wounds from Overkill in a challenge).],
+    rule("Killing Blow")[The model gains the Killing Blow special rule.],
+    rule("Skaven Slayer")[The model gains a number of Attacks equal to the number of enemy models in base contact with him.],
+    rule("Vampire Slayer")[The model may re-roll failed rolls To Wound against enemies with Toughness 5 or higher.],
+  ),
+  options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Great weapon +15 points
@@ -707,49 +706,50 @@ In addition, a model with this special rule has the four Runes listed below. Unl
 - May have Wards of Grimnir +20 points
 - A Dragon Slayer may take Magic Items and/or Runic Items up to a total of 50 points
 - A Daemon Slayer may take Magic Items and/or Runic Items up to a total of 100 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - For each Daemon Slayer in your army, you may take one unit of Troll Slayers as a Core Unit.
-
-#entry("BREWMASTER")
-#profile(
-  (name: "Brewmaster", m: 3, ws: 4, bs: 4, s: 4, t: 5, w: 2, i: 1, a: 2, ld: 9, points: 70),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute")
 
+#unit("BREWMASTER",
+  profiles: (
+    (name: "Brewmaster", m: 3, ws: 4, bs: 4, s: 4, t: 5, w: 2, i: 1, a: 2, ld: 9, points: 70),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: [
 - *Beer Casks:* At the start of each of your turns, the Brewmaster can bestow one of the following beers to himself and the unit they are with. Roll a D6; on a 1, the Brewmaster and their unit suffer \-1 to their Weapon Skill, Ballistic Skill and Initiative in addition to the effect of the chosen beer. Each beer effect lasts until the start of your next turn. A unit can only be under the effect of one beer type at a time.
   - *Bugman's XXXXXX:* The unit gains the Mighty Blow (1) special rule.
   - *Dwarf Special Reserve:* The unit gains the Immunity (Psychology) special rule.
   - *Troll Brew:* The unit gains the Regeneration (6+) special rule.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a great weapon +10 points
 - May choose one of the following:
   - Light armour +3 points
   - Medium armour +9 points
 - May be mounted on a Beer Cart +25 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
-
-#entry("MASTER ENGINEER")
-#profile(
-  (name: "Master Engineer", m: 3, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 60),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute")
 
+#unit("MASTER ENGINEER",
+  profiles: (
+    (name: "Master Engineer", m: 3, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 60),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: [
 - *Artillery Master:* One war machine that is within 3" of a Master Engineer can use his Ballistic Skill or re-roll one artillery dice or scatter dice during each Shooting phase. This cannot be the artillery dice that determines the distance a cannonball bounces. You must nominate which weapon, if any, will be using this special rule at the start of each Shooting phase, before any such weapons within 3" of the Master Engineer are fired.
 - *Entrenchment:* Up to one unit with the troop type war machine can be entrenched for each Master Engineer in the army. An entrenched war machine is treated as being in hard cover when shot at and any charging models suffer a \-1 To Hit modifier in close combat. An entrenched war machine can be pivoted to fire, but if it moves in any other way, the entrenchment is lost. If the war machine is destroyed, the entrenchment is considered destroyed as well. A war machine can only be entrenched once.
 - *"Stand Back Sir!":* A model with this special rule that is within 3" of a war machine is allowed to take a "Look Out Sir!" roll just as if he was within 3" of a unit of five or more models of the same troop type as himself. If the roll is successful, the hit is resolved instead against the nearest friendly war machine.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a great weapon +10 points
 - May choose any of the following:
   - Dwarfen pistol +5 points
@@ -759,48 +759,53 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   - Light armour +3 points
   - Medium armour +9 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
+  ],
+)
 
 = CHARACTER MOUNTS
 
-#entry("SHIELDBEARERS", first: true)
-#profile(
-  (name: "Shieldbearers", m: 3, ws: 5, bs: 3, s: 4, t: "-", w: "-", i: 2, a: 2, ld: 9, points: "-"),
-)
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x40, 25x50, 40x40 or 50x50")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Inspiring Presence (6), Relentless, Resolute")
-#field("OPTIONS", "")
-
+#unit("SHIELDBEARERS",
+  first: true,
+  profiles: (
+    (name: "Shieldbearers", m: 3, ws: 5, bs: 3, s: 4, t: "-", w: "-", i: 2, a: 2, ld: 9, points: "-"),
+  ),
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x40, 25x50, 40x40 or 50x50",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Inspiring Presence (6), Relentless, Resolute",
+  options: [
 - May take an additional shieldbearer +3 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - Shieldbearers have a Unit Strength and Line of Sight value of 2. An additional shieldbearer adds +1 Attack and +1 Unit Strength.
-
-#entry("BEER CART")
-#profile(
-  (name: "Beer Cart", m: 6, ws: "-", bs: "-", s: 4, t: 4, w: 3, i: "-", a: "-", ld: "-", points: "-"),
-  (name: "Draft Pony", m: "-", ws: 3, bs: 0, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Chariot (Dwarf)")
-#field("DRAWN BY", "Draft Pony (Equine)")
-#field("BASE SIZE", "40x60 or 50x75")
-#field("SPECIAL RULES", "Relentless, Resolute")
 
-- *Beer Cart:* A Beer Cart allows the Brewmaster's Beer Casks special rule to affect all friendly units within 6".
-
-#entry("ANVIL OF DOOM")
-#profile(
-  (name: "Anvil of Doom", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: "-"),
-  (name: "Anvil Guard", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+#unit("BEER CART",
+  profiles: (
+    (name: "Beer Cart", m: 6, ws: "-", bs: "-", s: 4, t: 4, w: 3, i: "-", a: "-", ld: "-", points: "-"),
+    (name: "Draft Pony", m: "-", ws: 3, bs: 0, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Chariot (Dwarf)",
+  drawn-by: "Draft Pony (Equine)",
+  base-size: "40x60 or 50x75",
+  special-rules: "Relentless, Resolute",
+  special-rules-body: (
+    rule("Beer Cart")[A Beer Cart allows the Brewmaster's Beer Casks special rule to affect all friendly units within 6".],
+  ),
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "2 Anvil Guards (Dwarf)")
-#field("BASE SIZE", "75x75 (Anvil of Doom) 20x20 or 25x25 (Anvil Guard)")
-#field("EQUIPMENT", "Hand weapon, heavy armour, shield")
-#field("SPECIAL RULES", "Ancestral Grudge, Relentless, Resolute")
 
+#unit("ANVIL OF DOOM",
+  profiles: (
+    (name: "Anvil of Doom", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: "-"),
+    (name: "Anvil Guard", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "2 Anvil Guards (Dwarf)",
+  base-size: "75x75 (Anvil of Doom) 20x20 or 25x25 (Anvil Guard)",
+  equipment: "Hand weapon, heavy armour, shield",
+  special-rules: "Ancestral Grudge, Relentless, Resolute",
+  special-rules-body: [
 - *Anvil of Doom:* A Runelord with an Anvil of Doom gains the Magical Ward (4+) and Unbreakable special rules. In addition, his troop type changes to War Machine and he counts as being part of the crew. The Runelord can never choose to leave the Anvil during the game. If the Runelord is killed, the whole Anvil is also removed as a casualty.
 - *Locus of Power:* For each friendly Anvil of Doom on the battlefield at the start of any Magic phase, add one dice to your dispel pool.
 - *Strike the Runes:* Instead of using the Runes from their Rune Lore special rule, a model mounted on an Anvil of Doom can use the following Ancestor Runes once each at the start of each of your turns:
@@ -813,20 +818,22 @@ Choose which rune you wish the model to strike. Then the model needs to take a L
 #chartlabel("FAILED RUNE TABLE")
 #chart((("D6", "Result"), ("1", "Remove the Anvil of Doom, the Runelord and the Anvil Guards as casualties immediately."), ("2-3", "The rune does not take effect and the Anvil of Doom may not attempt to strike any further runes this
 turn."), ("4-6", "The rune does not take effect.")))
+  ],
+)
 
 = CORE UNITS
 
-#entry("WARRIORS", first: true)
-#profile(
-  (name: "Warrior", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 7),
-)
-#field("UNIT SIZE", "15-45")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, medium armour")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute")
-#field("OPTIONS", "")
-
+#unit("WARRIORS",
+  first: true,
+  profiles: (
+    (name: "Warrior", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 7),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, medium armour",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute",
+  options: [
 - Must choose at least one of the following:
   - Shields +1 point/model
   - Great weapons +3 points/model
@@ -834,18 +841,19 @@ turn."), ("4-6", "The rune does not take effect.")))
 - May upgrade one Warrior to a Musician +5 points
 - May upgrade one Warrior to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("QUARRELLERS")
-#profile(
-  (name: "Quarreller", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 12),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, Dwarfen crossbow, light armour")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute")
-#field("OPTIONS", "")
 
+#unit("QUARRELLERS",
+  profiles: (
+    (name: "Quarreller", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 12),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, Dwarfen crossbow, light armour",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute",
+  options: [
 - May take great weapons +3 points/model
 - May choose one of the following:
   - Bucklers +0.5 point/model
@@ -855,18 +863,19 @@ turn."), ("4-6", "The rune does not take effect.")))
 - May upgrade one Quarreller to a Musician +5 points
 - May upgrade one Quarreller to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("THUNDERERS")
-#profile(
-  (name: "Thunderer", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 12),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, Dwarfen handgun, light armour")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute")
-#field("OPTIONS", "")
 
+#unit("THUNDERERS",
+  profiles: (
+    (name: "Thunderer", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 12),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, Dwarfen handgun, light armour",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute",
+  options: [
 - May choose one of the following:
   - Bucklers +0.5 point/model
   - Shields +1 point/model
@@ -876,26 +885,29 @@ turn."), ("4-6", "The rune does not take effect.")))
 - May upgrade one Thunderer to a Musician +5 points
 - May upgrade one Thunderer to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("MINERS")
-#profile(
-  (name: "Miner", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 11),
-  (name: "Miner's Cart", m: 6, ws: "-", bs: "-", s: 4, t: 4, w: 3, i: "-", a: "-", ld: "-", points: ""),
-  (name: "Draft Pony", m: "-", ws: 3, bs: 0, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25 (Miner), 40x60 or 50x75 (Miner's Cart)")
-#field("EQUIPMENT", "Great weapon, medium armour")
 
+#unit("MINERS",
+  breakable: true,
+  profiles: (
+    (name: "Miner", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 11),
+    (name: "Miner's Cart", m: 6, ws: "-", bs: "-", s: 4, t: 4, w: 3, i: "-", a: "-", ld: "-", points: ""),
+    (name: "Draft Pony", m: "-", ws: 3, bs: 0, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 5, points: ""),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25 (Miner), 40x60 or 50x75 (Miner's Cart)",
+  equipment: "Great weapon, medium armour",
+  equipment-body: [
 - *Blasting Charges:* One use only. Blasting charges have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "4", "Armour Piercing (1), Flaming Attacks, Quick Shot"))
 
 - *Steam Drill:* Great weapon. Steam drills add +1 Strength. A Miner unit equipped with a steam drill can re-roll a failed arrival for its Ambushers special rule.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute")
-
+  ],
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: [
 - *Underground Advance:* Miners have the Ambushers special rule, with the following exceptions.
 
 When they enter the battle in the Remaining Moves sub-phase, they do not move onto the board as reinforcements in the normal way. Instead, when a unit of Miners enters the battle, place a small marker (no more than 1" in diameter) anywhere on the battlefield, but not in impassable terrain or within 1" of a deployed unit.
@@ -915,12 +927,11 @@ models emerge into close combat they have the Always Strikes Last special rule f
 the turn."), ("6", "Should Have Taken That Left Turn. Your opponent places the marker anywhere within 18\" of the
 original position on the table and this is where the Miners emerge. They cannot move or charge on
 the turn they emerge.")))
-#field("UPGRADES", "")
-
-- *Miner's Cart:* A Miner's Cart is a Shrine drawn by a Draft Pony. It may not choose to leave the unit. A unit with a Miner's Cart can use Blasting Charges every turn rather than just once. However, if the Miner's Cart is destroyed from a close combat or missile attack, place the centre of the large round template on top of it before removing it. All models under the template suffer a Strength 4 Hit with the Armour Piercing (1) and Flaming Attacks special rules.
-
-#field("OPTIONS", "")
-
+  ],
+  upgrades: (
+    rule("Miner's Cart")[A Miner's Cart is a Shrine drawn by a Draft Pony. It may not choose to leave the unit. A unit with a Miner's Cart can use Blasting Charges every turn rather than just once. However, if the Miner's Cart is destroyed from a close combat or missile attack, place the centre of the large round template on top of it before removing it. All models under the template suffer a Strength 4 Hit with the Armour Piercing (1) and Flaming Attacks special rules.],
+  ),
+  options: [
 - May take blasting charges +15 points
   - May take a Miner's Cart +20 points
 - May upgrade one Miner to a Leader +5 points
@@ -928,23 +939,25 @@ the turn they emerge.")))
 - May upgrade one Miner to a Musician +5 points
 - May upgrade one Miner to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
+  ],
+)
 
 = SPECIAL UNITS
 
-#entry("LONGBEARDS", first: true)
-#profile(
-  (name: "Longbeard", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 14),
-)
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, heavy armour")
-#field("SPECIAL RULES", "Ancestral Grudge, Hatred, Magic Resistance (1), Relentless, Resolute")
-
-- *Old Grumblers:* Longbeards have the Immunity (Panic) special rule. In addition, any friendly Dwarf units within 6'' of a unit of Longbeards can re-roll failed Panic tests.
-
-#field("OPTIONS", "")
-
+#unit("LONGBEARDS",
+  first: true,
+  profiles: (
+    (name: "Longbeard", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 14),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, heavy armour",
+  special-rules: "Ancestral Grudge, Hatred, Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: (
+    rule("Old Grumblers")[Longbeards have the Immunity (Panic) special rule. In addition, any friendly Dwarf units within 6'' of a unit of Longbeards can re-roll failed Panic tests.],
+  ),
+  options: [
 - Must choose at least one of the following:
   - Shields +1.5 point/model
   - Great weapons +3 points/model
@@ -952,45 +965,47 @@ the turn they emerge.")))
 - May upgrade one Longbeard to a Musician +5 points
 - May upgrade one Longbeard to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("IRONBREAKERS")
-#profile(
-  (name: "Ironbreaker", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 14),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, heavy armour, shield")
 
+#unit("IRONBREAKERS",
+  profiles: (
+    (name: "Ironbreaker", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 14),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, heavy armour, shield",
+  equipment-body: [
 - *Cinderblast bombs:* Cinderblast bombs have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "5", "Armour Piercing (1), Multiple Wounds (D3), Quick Shot"))
 
 Each Hit from a cinderblast bomb is multiplied into D3 Hits.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute")
-
-- *Shieldwall:* Models with this special rule may re-roll failed Parry saves.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: (
+    rule("Shieldwall")[Models with this special rule may re-roll failed Parry saves.],
+  ),
+  options: [
 - May upgrade one Ironbreaker to a Leader +5 points
   - May take cinderblast bombs +5 points
 - May upgrade one Ironbreaker to a Musician +5 points
 - May upgrade one Ironbreaker to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("TROLL SLAYERS")
-#profile(
-  (name: "Troll Slayer", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 3, a: 1, ld: 10, points: 8),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Deathblow, Slayer, Magic Resistance (1), Relentless, Unbreakable, Vanguard")
-#field("OPTIONS", "")
 
+#unit("TROLL SLAYERS",
+  profiles: (
+    (name: "Troll Slayer", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 3, a: 1, ld: 10, points: 8),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Deathblow, Slayer, Magic Resistance (1), Relentless, Unbreakable, Vanguard",
+  options: [
 - May choose any of the following:
   - Additional hand weapons +1 point/model
   - Great weapons +3 points/model
@@ -999,18 +1014,19 @@ Each Hit from a cinderblast bomb is multiplied into D3 Hits.
 - May upgrade one Troll Slayer to a Musician +5 points
 - May upgrade one Troll Slayer to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("RANGERS")
-#profile(
-  (name: "Ranger", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 7),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, light armour")
-#field("SPECIAL RULES", "Ancestral Grudge, Hill Strider, Magic Resistance (1), Relentless, Resolute, Scouts")
-#field("OPTIONS", "")
 
+#unit("RANGERS",
+  profiles: (
+    (name: "Ranger", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 7),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, light armour",
+  special-rules: "Ancestral Grudge, Hill Strider, Magic Resistance (1), Relentless, Resolute, Scouts",
+  options: [
 - May choose any of the following:
   - Throwing axes +2 points/model
   - Dwarfen crossbows +3 points/model
@@ -1022,18 +1038,20 @@ Each Hit from a cinderblast bomb is multiplied into D3 Hits.
 - May upgrade one Ranger to a Musician +5 points
 - May upgrade one Ranger to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("DEATHROLLER")
-#profile(
-  (name: "Deathroller", m: "*", ws: "-", bs: "-", s: 5, t: 4, w: 3, i: "-", a: "-", ld: "-", points: 80),
-  (name: "Driver", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Chariot (Armour Save 5+)")
-#field("CREW", "1 Driver (Dwarf)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Random Movement (2D6), Resolute")
 
+#unit("DEATHROLLER",
+  profiles: (
+    (name: "Deathroller", m: "*", ws: "-", bs: "-", s: 5, t: 4, w: 3, i: "-", a: "-", ld: "-", points: 80),
+    (name: "Driver", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "Chariot (Armour Save 5+)",
+  crew: "1 Driver (Dwarf)",
+  base-size: "40x40 or 50x50",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Random Movement (2D6), Resolute",
+  special-rules-body: [
 - *The Best Defence:* The Deathroller has an armour save of 3+ against all models attacking from the front.
 - *Grinding Attack:* A Deathroller is moved during combat to crush the enemies trying to dodge the heavy machine. In addition to its normal Impact Hits when charging, the Deathroller inflicts D6 Impact Hits at the start of each close combat round. If you roll a 6 when determining the number of Impact Hits, the driver has pushed the boiler beyond his limits. Roll a D6 and consult the Boiler Incident Table.
 - *Over-Pressured Boiler:* If two or more l's are rolled when rolling for its movement, you need to roll another D6 and consult the Boiler Incident Table. The driver can take the risk and increase the pressure of the steam boiler before choosing to move the Deathroller. This gives the Deathroller the Random Movement (3D6) special rule for the rest of this turn.
@@ -1043,78 +1061,83 @@ Each Hit from a cinderblast bomb is multiplied into D3 Hits.
 Strength 4 Hits with the Armour Piercing special rule."), ("2-4", "The Deathroller may not move this turn or use its Grinding Attack. If it breaks from combat this
 round, it is automatically destroyed."), ("5-6", "The Deathroller may only roll one D6 for each of its Movements this turn (including fleeing and
 pursuit).")))
-
-#entry("FIRE THROWER")
-#profile(
-  (name: "Fire Thrower", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 45),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x40 or 25x50")
-#field("EQUIPMENT", "Hand weapon, fire thrower, light armour")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute, Weapon Team")
-#field("OPTIONS", "")
 
+#unit("FIRE THROWER",
+  profiles: (
+    (name: "Fire Thrower", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 45),
+  ),
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x40 or 25x50",
+  equipment: "Hand weapon, fire thrower, light armour",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless, Resolute, Weapon Team",
+  options: [
 - May take medium armour +2 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - Firethrowers have a Unit Strength of 2.
-
-#entry("BOLT THROWER")
-#profile(
-  (name: "Bolt Thrower", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 45),
-  (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Dwarf)")
-#field("BASE SIZE", "50x50 (Bolt Thrower), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, bolt thrower")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Resolute")
-#field("OPTIONS", "")
 
+#unit("BOLT THROWER",
+  profiles: (
+    (name: "Bolt Thrower", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 45),
+    (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Dwarf)",
+  base-size: "50x50 (Bolt Thrower), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, bolt thrower",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Resolute",
+  options: [
 - May take light armour +1 point/crew
 - May take engineering runes up to 50 points
-
-#entry("GRUDGE THROWER")
-#profile(
-  (name: "Grudge Thrower", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 90),
-  (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Dwarf)")
-#field("BASE SIZE", "50x75 (Grudge Thrower), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, stone thrower")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Resolute")
-#field("OPTIONS", "")
 
+#unit("GRUDGE THROWER",
+  profiles: (
+    (name: "Grudge Thrower", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 90),
+    (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Dwarf)",
+  base-size: "50x75 (Grudge Thrower), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, stone thrower",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Resolute",
+  options: [
 - May take light armour +1 point/crew
 - May take engineering runes up to 50 points
-
-#entry("CANNON")
-#profile(
-  (name: "Cannon", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 90),
-  (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Dwarf)")
-#field("BASE SIZE", "50x50 (Cannon), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, cannon")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Resolute")
-#field("OPTIONS", "")
 
+#unit("CANNON",
+  profiles: (
+    (name: "Cannon", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 90),
+    (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Dwarf)",
+  base-size: "50x50 (Cannon), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, cannon",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Resolute",
+  options: [
 - May take light armour +1 point/crew
 - May take engineering runes up to 50 points
-
-#entry("GYROCOPTER")
-#profile(
-  (name: "Gyrocopter", m: "-", ws: "-", bs: "-", s: 4, t: 5, w: 3, i: "-", a: "-", ld: "-", points: 85),
-  (name: "Pilot", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Chariot (Armour Save 4+)")
-#field("CREW", "1 Pilot (Dwarf)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Hand weapon, steam gun")
 
+#unit("GYROCOPTER",
+  profiles: (
+    (name: "Gyrocopter", m: "-", ws: "-", bs: "-", s: 4, t: 5, w: 3, i: "-", a: "-", ld: "-", points: 85),
+    (name: "Pilot", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "Chariot (Armour Save 4+)",
+  crew: "1 Pilot (Dwarf)",
+  base-size: "40x40 or 50x50",
+  equipment: "Hand weapon, steam gun",
+  equipment-body: [
 - *Steam Gun:* Steam guns are Breath Weapon attacks with Strength 2 and the Armour Piercing (1) special rule. It cannot be used in close combat, but it can always be used in the shooting phase.
 - *Brimstone Gun:* Brimstone guns have the following profile. These are non-physical attacks.
 
@@ -1123,8 +1146,9 @@ pursuit).")))
 - *Clattergun:* Clatterguns have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "4", "March & Shoot, Multiple Shots (5), Quick Shot, Rapid Fire"))
-#field("SPECIAL RULES", "Ancestral Grudge, Fly (9), Magic Resistance (1), Relentless, Resolute")
-
+  ],
+  special-rules: "Ancestral Grudge, Fly (9), Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: [
 - *Dive Bomb:* Once per game, during the Remaining Moves sub-phase, models with this special rule may drop bombs unless they are fleeing.
 
 To Dive Bomb, select one unengaged enemy unit that the Gyrocopter moved over in that turn. To determine the damage caused by the bombs, roll an artillery dice; this is the number of hits inflicted as missile attacks from the rear. If a misfire is rolled, the Gyrocopter takes a single Wound with no armour save allowed. The Gyrocopter's bombs have the following profile:
@@ -1134,44 +1158,47 @@ To Dive Bomb, select one unengaged enemy unit that the Gyrocopter moved over in 
 If a Gyrocopter Dive Bombs, it cannot make any other shooting attacks in that turn.
 
 - *Quick Turn:* A model with this special rule may pivot on the spot like a Lone Model despite being a chariot.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May replace steam gun with one of the following:
   - Brimstone gun free
   - Clattergun free
+  ],
+)
 
 = RARE UNITS
 
-#entry("HAMMERERS", first: true)
-#profile(
-  (name: "Hammerer", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 9, points: 18),
-)
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Great weapon, heavy armour")
-#field("SPECIAL RULES", "Ancestral Grudge, Armour Piercing (1), Magic Resistance (1), Relentless, Resolute, Stubborn")
-
-- *King's Guard:* If the unit is joined by the Army General, it gains the Immunity (Fear/Terror) special rule.
-
-#field("OPTIONS", "")
-
+#unit("HAMMERERS",
+  first: true,
+  profiles: (
+    (name: "Hammerer", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 9, points: 18),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Great weapon, heavy armour",
+  special-rules: "Ancestral Grudge, Armour Piercing (1), Magic Resistance (1), Relentless, Resolute, Stubborn",
+  special-rules-body: (
+    rule("King's Guard")[If the unit is joined by the Army General, it gains the Immunity (Fear/Terror) special rule.],
+  ),
+  options: [
 - May take shields +1.5 points/model
 - May upgrade one Hammerer to a Leader +5 points
 - May upgrade one Hammerer to a Musician +5 points
 - May upgrade one Hammerer to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 75 points
-
-#entry("IRONDRAKES")
-#profile(
-  (name: "Irondrake", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 15),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, drakegun, heavy armour")
 
+#unit("IRONDRAKES",
+  profiles: (
+    (name: "Irondrake", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 15),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, drakegun, heavy armour",
+  equipment-body: [
 - *Drakegun:* Drakeguns have the following profile. These are non-physical attacks.
 
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Armour Piercing (1), Flaming Attacks, Multiple Shots (2), Quick Shot"))
@@ -1183,9 +1210,9 @@ If a Gyrocopter Dive Bombs, it cannot make any other shooting attacks in that tu
 - *Trollhammer Torpedo:* Trollhammer Torpedoes have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "8", "Cumbersome, Flaming Attacks, Multiple Wounds (D3)"))
-#field("SPECIAL RULES", "Ancestral Grudge, Immunity (Flaming Attacks), Gromril Armour, Magic Resistance (1), Relentless, Resolute")
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Ancestral Grudge, Immunity (Flaming Attacks), Gromril Armour, Magic Resistance (1), Relentless, Resolute",
+  options: [
 - May upgrade one Irondrake to a Leader +5 points
   - May take cinderblast bombs (see Ironbreakers) +5 points
   - May replace drakegun with one of the following:
@@ -1194,18 +1221,19 @@ If a Gyrocopter Dive Bombs, it cannot make any other shooting attacks in that tu
 - May upgrade one Irondrake to a Musician +5 points
 - May upgrade one Irondrake to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("GIANT SLAYERS")
-#profile(
-  (name: "Giant Slayer", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 3, a: 2, ld: 10, points: 13),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Ancestral Grudge, Deathblow, Giant Slayer, Magic Resistance (1), Relentless, Unbreakable, Vanguard")
-#field("OPTIONS", "")
 
+#unit("GIANT SLAYERS",
+  profiles: (
+    (name: "Giant Slayer", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 3, a: 2, ld: 10, points: 13),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Deathblow, Giant Slayer, Magic Resistance (1), Relentless, Unbreakable, Vanguard",
+  options: [
 - May choose any of the following:
   - Additional hand weapons +1 point/model
   - Great weapons +3 points/model
@@ -1214,43 +1242,44 @@ If a Gyrocopter Dive Bombs, it cannot make any other shooting attacks in that tu
 - May upgrade one Giant Slayer to a Musician +5 points
 - May upgrade one Giant Slayer to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("DOOMSEEKERS")
-#profile(
-  (name: "Doomseeker", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 2, i: 3, a: "*", ld: 10, points: 35),
+  ],
 )
-#field("UNIT SIZE", "3-6")
-#field("TROOP TYPE", "Infantry (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Doomseeker axes")
 
+#unit("DOOMSEEKERS",
+  profiles: (
+    (name: "Doomseeker", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 2, i: 3, a: "*", ld: 10, points: 35),
+  ),
+  unit-size: "3-6",
+  troop-type: "Infantry (Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Doomseeker axes",
+  equipment-body: [
 - *Doomseeker axes:* Doomseeker axes have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Impact Hits (D6)"))
 
 Doomseeker axes inflicts Impact Hits (D6) at the start of each round of close combat, not just when charging. In addition, any close combat attacks directed against a Doomseeker suffer \-1 To Hit.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Deathblow, Magic Resistance (1), Slayer, Relentless, Skirmishers, Unbreakable, Wards of Grimnir")
-
-#entry("RUNE GUARDIANS")
-#profile(
-  (name: "Rune Guardian", m: 6, ws: 3, bs: 0, s: 5, t: 5, w: 3, i: 1, a: 3, ld: 10, points: 50),
+  ],
+  special-rules: "Ancestral Grudge, Deathblow, Magic Resistance (1), Slayer, Relentless, Skirmishers, Unbreakable, Wards of Grimnir",
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Animated Construct)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Hand weapon, heavy armour")
-#field("SPECIAL RULES", "Animated Construct, Immunity (Poisoned Attacks)")
-#field("UPGRADES", "")
 
-- *Rune of Cleaving:* The Rune Guardian gains the Armour Piercing (1) and Magical Attacks special rule.
-- *Rune of Fury:* The Rune Guardian gains +1 Attack and the Magical Attacks special rule.
-- *Rune of Striking:* The Rune Guardian gains +1 Weapon Skill and the Magical Attacks special rule.
-- *Rune of Stone:* The Rune Guardian gains +1 to its armour save.
-- *Rune of Warding:* The Rune Guardian gains the Magical Ward (6+) special rule.
-
-#field("OPTIONS", "")
-
+#unit("RUNE GUARDIANS",
+  profiles: (
+    (name: "Rune Guardian", m: 6, ws: 3, bs: 0, s: 5, t: 5, w: 3, i: 1, a: 3, ld: 10, points: 50),
+  ),
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Animated Construct)",
+  base-size: "40x40",
+  equipment: "Hand weapon, heavy armour",
+  special-rules: "Animated Construct, Immunity (Poisoned Attacks)",
+  upgrades: (
+    rule("Rune of Cleaving")[The Rune Guardian gains the Armour Piercing (1) and Magical Attacks special rule.],
+    rule("Rune of Fury")[The Rune Guardian gains +1 Attack and the Magical Attacks special rule.],
+    rule("Rune of Striking")[The Rune Guardian gains +1 Weapon Skill and the Magical Attacks special rule.],
+    rule("Rune of Stone")[The Rune Guardian gains +1 to its armour save.],
+    rule("Rune of Warding")[The Rune Guardian gains the Magical Ward (6+) special rule.],
+  ),
+  options: [
 - Must choose one of the following:
   - Additional hand weapons +3 points/model
   - Great weapons +9 points/model
@@ -1260,52 +1289,57 @@ Doomseeker axes inflicts Impact Hits (D6) at the start of each round of close co
   - Rune of Fury +5 points/model
   - Rune of Striking +5 points/model
   - Rune of Stone +6 points/model
-
-#entry("ORGAN GUN")
-#profile(
-  (name: "Organ Gun", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 100),
-  (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Dwarf)")
-#field("BASE SIZE", "50x50 (Organ Gun), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, organ gun")
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Resolute")
-#field("OPTIONS", "")
 
+#unit("ORGAN GUN",
+  profiles: (
+    (name: "Organ Gun", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 100),
+    (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Dwarf)",
+  base-size: "50x50 (Organ Gun), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, organ gun",
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Resolute",
+  options: [
 - May take light armour +1 point/crew
 - May take engineering runes up to 50 points
-
-#entry("FLAME CANNON")
-#profile(
-  (name: "Flame Cannon", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 100),
-  (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine")
-#field("CREW", "3 Crew (Dwarf)")
-#field("BASE SIZE", "50x75 (Flame Cannon), 20x20 or 25x25 (Crew)")
-#field("EQUIPMENT", "Hand weapon, flame cannon")
 
+#unit("FLAME CANNON",
+  profiles: (
+    (name: "Flame Cannon", m: "-", ws: "-", bs: "-", s: "-", t: 7, w: 3, i: "-", a: "-", ld: "-", points: 100),
+    (name: "Crew", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "War Machine",
+  crew: "3 Crew (Dwarf)",
+  base-size: "50x75 (Flame Cannon), 20x20 or 25x25 (Crew)",
+  equipment: "Hand weapon, flame cannon",
+  equipment-body: [
 - *Flame Cannon:* Flame Cannons are fire throwers that uses the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("6\"", "5", "Flaming Attacks, Multiple Wounds (D3)"))
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Resolute")
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Resolute",
+  options: [
 - May take light armour +1 point/crew
 - May take engineering runes up to 50 points
-
-#entry("GYROBOMBER")
-#profile(
-  (name: "Gyrocopter", m: "-", ws: "-", bs: "-", s: 4, t: 5, w: 3, i: "-", a: "-", ld: "-", points: 140),
-  (name: "Pilot", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Chariot (Armour Save 4+)")
-#field("CREW", "1 Pilot (Dwarf)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Hand weapon, steam gun (see Gyrocopters)")
-#field("SPECIAL RULES", "Ancestral Grudge, Fly (9), Magic Resistance (1), Relentless, Resolute")
 
+#unit("GYROBOMBER",
+  profiles: (
+    (name: "Gyrocopter", m: "-", ws: "-", bs: "-", s: 4, t: 5, w: 3, i: "-", a: "-", ld: "-", points: 140),
+    (name: "Pilot", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "Chariot (Armour Save 4+)",
+  crew: "1 Pilot (Dwarf)",
+  base-size: "40x40 or 50x50",
+  equipment: "Hand weapon, steam gun (see Gyrocopters)",
+  special-rules: "Ancestral Grudge, Fly (9), Magic Resistance (1), Relentless, Resolute",
+  special-rules-body: [
 - *Bombing Run:* During the Remaining Moves sub-phase, models with this special rule may drop a bomb unless they are fleeing or have declared a charge that turn. To make a Bombing Run, select one unengaged enemy unit that the Gyrobomber moved over in that turn and place the large 5" template anywhere over the target unit (but note that it cannot cover friendly models) and roll for scatter and damage as for a stone thrower from the Warhammer rulebook. If a misfire is rolled, use the Bomb Misfire chart below. Grudgebuster bombs have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("n/a", "3(6)", "Armour Piercing (1), Multiple Wounds (D3)"))
@@ -1318,39 +1352,41 @@ special rule."), ("2-3", "Jammed Release: Centre the 3\" template over the Gyrob
 damage as normal. This bomb does not bounce."), ("4-6", "Dud: Only the model under the template's central hole is hit, suffering a single Strength 4 hit.")))
 
 - *Quick Turn:* A model with this special rule may pivot on the spot like a Lone Model despite being a chariot.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May replace steam gun with one of the following:
   - Brimstone gun (see Gyrocopters) free
   - Clattergun (see Gyrocopters) free
-
-#entry("THUNDERBARGE")
-#profile(
-  (name: "Thunderbarge", m: "-", ws: "-", bs: "-", s: 6, t: 6, w: 8, i: "-", a: "-", ld: "-", points: 275),
-  (name: "Crew", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Chariot (Armour Save 4+)")
-#field("CREW", "6 Crew (Dwarf)")
-#field("BASE SIZE", "50x100, 60x100 or 100x150")
-#field("EQUIPMENT", "Hand weapon, Dwarfen handgun")
-#field("SPECIAL RULES", "Ancestral Grudge, Bombing Run (see Gyrobombers), Fly (6), Magic Resistance (1), Unbreakable")
 
+#unit("THUNDERBARGE",
+  profiles: (
+    (name: "Thunderbarge", m: "-", ws: "-", bs: "-", s: 6, t: 6, w: 8, i: "-", a: "-", ld: "-", points: 275),
+    (name: "Crew", m: "-", ws: 4, bs: 3, s: 3, t: "-", w: "-", i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "Chariot (Armour Save 4+)",
+  crew: "6 Crew (Dwarf)",
+  base-size: "50x100, 60x100 or 100x150",
+  equipment: "Hand weapon, Dwarfen handgun",
+  special-rules: "Ancestral Grudge, Bombing Run (see Gyrobombers), Fly (6), Magic Resistance (1), Unbreakable",
+  special-rules-body: [
 - *Disaster!* If the Thunderbarge is destroyed it scatters 3D6" in a random direction and then crashes to the ground. Place the large template with the hole under its final position. Any model touched by the template suffers a Strength 6 hit.
 - *Thunderbarge Cannon:* The Thunderbarge is armed with a cannon, which cannot fire grapeshot. The cannon can be fired even if the Thunderbarge marches. If the cannon misfires and rolls a "Destroyed!" result, then the Thunderbarge suffers D3 Wounds with no saves allowed, and the weapon may no longer be used for the remainder of the game. Other misfires are resolved as normal.
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Thunderbarge has a Line of Sight value of 5.
-
-#entry("GRUDGEBREAKER")
-#profile(
-  (name: "Grudgebreaker", m: "*", ws: 3, bs: 0, s: 6, t: 7, w: 8, i: 1, a: "*", ld: 10, points: 200),
+  ],
 )
-#field("TROOP TYPE", "Chariot (Armour Save 2+)")
-#field("BASE SIZE", "50x50, 50x75 or 50x100")
-#field("SPECIAL RULES", "Animated Construct, Immunity (Poisoned Attacks), Magic Resistance (1), Terror")
 
+#unit("GRUDGEBREAKER",
+  profiles: (
+    (name: "Grudgebreaker", m: "*", ws: 3, bs: 0, s: 6, t: 7, w: 8, i: 1, a: "*", ld: 10, points: 200),
+  ),
+  troop-type: "Chariot (Armour Save 2+)",
+  base-size: "50x50, 50x75 or 50x100",
+  special-rules: "Animated Construct, Immunity (Poisoned Attacks), Magic Resistance (1), Terror",
+  special-rules-body: [
 - *Steam-pressured Engine:* The Grudgebreaker follows the rules for Random Movement and Random Attacks. In order to determine the Movement and Attacks value of the Grudgebreaker, roll an Artillery dice rather than a set of D6's (roll separately for Movement and Attacks). Whenever you attempt to move or attack with the Grudgebreaker you may re-roll the Artillery dice if it didn't score a Misfire. If a Misfire is rolled, roll a D6 and consult the Grudgebreaker Incident Table. If a Misfire results on the re-roll it automatically causes a Clunk result.
 
 #chartlabel("GRUDGEBREAKER INCIDENT TABLE")
@@ -1358,255 +1394,283 @@ damage as normal. This bomb does not bounce."), ("4-6", "Dud: Only the model und
 saves allowed."), ("2-3", "Malfunction: The Grudgebreaker does not Move or Attack this turn."), ("4-5", "Clunk: The Grudgebreaker counts as having rolled a 1 for its Movement or Attacks value this turn."), ("6", "Overdrive: The Grudgebreaker counts as having rolled a 10 for its Movement or Attack value this
 turn. However, the Grudgebreaker also suffers D3 Wounds with no saves allowed after it has
 performed its Movement or Attacks.")))
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Grudgebreaker has a Line of Sight value of 5.
+  ],
+)
 
 = SPECIAL CHARACTERS
 
-#entry("THORGRIM GRUDGEBEARER", first: true)
-#namecost("High King of Karaz-a-Karak", "")
-#profile(
-  (name: "Thorgrim", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 7, i: 4, a: 4, ld: 10, points: 500),
-  (name: "Thronebearers", m: 3, ws: 5, bs: 3, s: 4, t: "-", w: "-", i: 3, a: 4, ld: "-", points: ""),
-)
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("MOUNT", "Thronebearers")
-#field("BASE SIZE", "40x60 or 50x75")
-#field("MAGIC ITEMS", "")
-
-- *The Axe of Grimnir:* Magic Weapon. The Axe of Grimnir is inscribed with the Master Rune of Skalf Blackhammer and the Master Rune of Alaric the Mad. In addition, Wounds caused by the Axe of Grimnir have the Multiple Wounds (D6) special rule against Monsters.
-- *The Armour of Skaldour:* Magic Armour. Heavy armour. The Armour of Skaldour is inscribed with the Master Rune of Skaldour which gives Thorgrim the Magical Ward (4+) special rule, a Rune of Preservation and a Rune of Stone.
-- *The Dragon Crown of Karaz:* Talisman. The Dragon Crown of Karaz is inscribed with the Master Rune of Kingship.
-- *The Great Book of Grudges:* Enchanted Item. Thorgrim and any unit he joins gain the Hatred special rule.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute, Royal")
-
+#unit("THORGRIM GRUDGEBEARER",
+  solo: true,
+  first: true,
+  subtitle: "High King of Karaz-a-Karak",
+  profiles: (
+    (name: "Thorgrim", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 7, i: 4, a: 4, ld: 10, points: 500),
+    (name: "Thronebearers", m: 3, ws: 5, bs: 3, s: 4, t: "-", w: "-", i: 3, a: 4, ld: "-", points: ""),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  mount: "Thronebearers",
+  base-size: "40x60 or 50x75",
+  magic-items: (
+    rule("The Axe of Grimnir")[Magic Weapon. The Axe of Grimnir is inscribed with the Master Rune of Skalf Blackhammer and the Master Rune of Alaric the Mad. In addition, Wounds caused by the Axe of Grimnir have the Multiple Wounds (D6) special rule against Monsters.],
+    rule("The Armour of Skaldour")[Magic Armour. Heavy armour. The Armour of Skaldour is inscribed with the Master Rune of Skaldour which gives Thorgrim the Magical Ward (4+) special rule, a Rune of Preservation and a Rune of Stone.],
+    rule("The Dragon Crown of Karaz")[Talisman. The Dragon Crown of Karaz is inscribed with the Master Rune of Kingship.],
+    rule("The Great Book of Grudges")[Enchanted Item. Thorgrim and any unit he joins gain the Hatred special rule.],
+  ),
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute, Royal",
+  special-rules-body: [
 *Clansmen* (see Kings)
 
 - *High King:* Thorgrim must be the Army General. If he is slain, all friendly Dwarf models immediately gain the Frenzy special rule. In addition, one unit of Hammerers may be taken as a Special Unit instead of a Rare Unit.
 - *The Throne of Power:* The Throne of Power adds +4 to Thorgrim's Wounds (included in his profile), gives him Unit Strength 5 and Line of Sight 2. In addition, the Throne gives Thorgrim the Inspiring Presence (6) special rule. However, if Thorgrim joins a unit, he does not benefit from the "Look Out Sir!" rule.
-
-#entry("ALRIK RANULFSSON")
-#namecost("King of Karak Hirn", "")
-#profile(
-  (name: "Alrik Ranulfsson", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 345),
-  (name: "Shieldbearers", m: 3, ws: 5, bs: 3, s: 4, t: "-", w: "-", i: 2, a: 2, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("MOUNT", "Shieldbearers")
-#field("BASE SIZE", "20x40 or 25x50")
-#field("MAGIC ITEMS", "")
 
-- *Axe of Retribution:* Magic Weapon. Great weapon. The Axe of Retribution is inscribed with a Master Rune of Breaking and a Grudge Rune.
-- *Hrappi-klad:* Magic Armour. Heavy armour. Hrappi-klad is inscribed with a Rune of Shielding.
-- *Kurgaz's Shield:* Talisman. Kurgaz's Shield is inscribed with two Runes of Warding.
-- *Helm of Eagles:* Enchanted Item. At the start of each of your turns, Alrik may gaze at one enemy unit within his Line of Sight. Your opponent must reveal any hidden troops within the unit (such as Assassins or Night Goblin Fanatics) as well as all magic items carried by models within the unit.
-- *Karak-Hirn's Book of Grudges:* Enchanted Item. This book gives Alrik the Hold Your Ground (12) special rule.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Inspiring Presence (6), Magic Resistance (1), Resolute, Relentless, Royal Clansmen (see Kings)")
-
-- *Lord of the Hold:* If Alrik is included in your army, he must be your Army General.
-- *Traditional army:* If Alrik is in your army, then Thunderers counts as Special Units, Firethrowers and Gyrocopters counts as Rare Units, and Irondrakes, Flame Cannons, Organ Guns, Thunderbarges and Grudgebreakers counts as 2 units for the purpose of duplicate choices that are allowed.
-
-#entry("KAZADOR THUNDERHORN")
-#namecost("King of Karak Azul", "")
-#profile(
-  (name: "Kazador", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 280),
+#unit("ALRIK RANULFSSON",
+  solo: true,
+  subtitle: "King of Karak Hirn",
+  profiles: (
+    (name: "Alrik Ranulfsson", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 345),
+    (name: "Shieldbearers", m: 3, ws: 5, bs: 3, s: 4, t: "-", w: "-", i: 2, a: 2, ld: 9, points: ""),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  mount: "Shieldbearers",
+  base-size: "20x40 or 25x50",
+  magic-items: (
+    rule("Axe of Retribution")[Magic Weapon. Great weapon. The Axe of Retribution is inscribed with a Master Rune of Breaking and a Grudge Rune.],
+    rule("Hrappi-klad")[Magic Armour. Heavy armour. Hrappi-klad is inscribed with a Rune of Shielding.],
+    rule("Kurgaz's Shield")[Talisman. Kurgaz's Shield is inscribed with two Runes of Warding.],
+    rule("Helm of Eagles")[Enchanted Item. At the start of each of your turns, Alrik may gaze at one enemy unit within his Line of Sight. Your opponent must reveal any hidden troops within the unit (such as Assassins or Night Goblin Fanatics) as well as all magic items carried by models within the unit.],
+    rule("Karak-Hirn's Book of Grudges")[Enchanted Item. This book gives Alrik the Hold Your Ground (12) special rule.],
+  ),
+  special-rules: "Ancestral Grudge, Gromril Armour, Inspiring Presence (6), Magic Resistance (1), Resolute, Relentless, Royal Clansmen (see Kings)",
+  special-rules-body: (
+    rule("Lord of the Hold")[If Alrik is included in your army, he must be your Army General.],
+    rule("Traditional army")[If Alrik is in your army, then Thunderers counts as Special Units, Firethrowers and Gyrocopters counts as Rare Units, and Irondrakes, Flame Cannons, Organ Guns, Thunderbarges and Grudgebreakers counts as 2 units for the purpose of duplicate choices that are allowed.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *The Hammer of Karak Azul:* Magic Weapon. The Hammer of Karak Azul is inscribed with the Master Rune of Death and two Runes of Cleaving.
-- *The Armour of the King of Karak Azul:* Magic Armour. Medium armour. The Armour of the King of Karak Azul is inscribed with one Rune of Fortitude and a Rune of Resistance.
-- *The Thunderhorn:* Enchanted Item. One use only. The Horn may be blown at the start of any enemy turn. All enemy units within 24" of Kazador must pass a Leadership test to able to declare charges this turn.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Resolute, Relentless, Royal")
-
+#unit("KAZADOR THUNDERHORN",
+  solo: true,
+  subtitle: "King of Karak Azul",
+  profiles: (
+    (name: "Kazador", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 280),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("The Hammer of Karak Azul")[Magic Weapon. The Hammer of Karak Azul is inscribed with the Master Rune of Death and two Runes of Cleaving.],
+    rule("The Armour of the King of Karak Azul")[Magic Armour. Medium armour. The Armour of the King of Karak Azul is inscribed with one Rune of Fortitude and a Rune of Resistance.],
+    rule("The Thunderhorn")[Enchanted Item. One use only. The Horn may be blown at the start of any enemy turn. All enemy units within 24" of Kazador must pass a Leadership test to able to declare charges this turn.],
+  ),
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Resolute, Relentless, Royal",
+  special-rules-body: [
 *Clansmen* (see Kings)
-
-#entry("BELEGAR IRONHAMMER")
-#namecost("True King of the Eight Peaks", "")
-#profile(
-  (name: "Belegar Ironhammer", m: 3, ws: 8, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 290),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Heavy armour")
-#field("MAGIC ITEMS", "")
 
-- *The Hammer of Angrund:* Magic Weapon. The Hammer of Angrund is inscribed with the Master Rune of Swiftness, and Attacks made with it receive a +1 bonus To Wound.
-- *Shield of Defiance:* Magic Armour. Shield. The Shield of Defiance is inscribed with three Runes of Warding and a Rune of Preservation.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Royal Clansmen (see")
-
+#unit("BELEGAR IRONHAMMER",
+  solo: true,
+  subtitle: "True King of the Eight Peaks",
+  profiles: (
+    (name: "Belegar Ironhammer", m: 3, ws: 8, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 290),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Heavy armour",
+  magic-items: (
+    rule("The Hammer of Angrund")[Magic Weapon. The Hammer of Angrund is inscribed with the Master Rune of Swiftness, and Attacks made with it receive a +1 bonus To Wound.],
+    rule("Shield of Defiance")[Magic Armour. Shield. The Shield of Defiance is inscribed with three Runes of Warding and a Rune of Preservation.],
+  ),
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Royal Clansmen (see",
+  special-rules-body: [
 Kings)*, Stubborn*
 
 - *Revenge Incarnate:* Once per game, at the start of any Close Combat phase, Belegar can double his Attacks characteristic for the remainder of the turn.
-
-#entry("THOREK IRONBROW")
-#namecost("Master Runelord of Karak Azul", "")
-#profile(
-  (name: "Thorek Ironbrow", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 3, i: 3, a: 3, ld: 10, points: 310),
-  (name: "Anvil of Doom", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: ""),
-  (name: "Anvil Guard", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
-  (name: "Kraggi", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Machine (Special Character)")
-#field("MOUNT", "Anvil of Doom")
-#field("CREW", "Thorek Ironbrow, 2 Anvil Guards, Kraggi (Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Klad Brakak:* Magic Weapon. Attacks made with this weapon have the Ignores Armour saves special rule. Additionally, if the victim suffers one or more unsaved Wounds, any Magic Armour they were equipped with are destroyed and cannot be used for the remainder of the game.
-- *Thorek's Rune Armour:* Magic Armour. Heavy armour. Thorek’s Rune Armour is inscribed with the Master Rune of Gromril.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Anvil of Doom (see Anvil of Doom), Forgefire (see Runelords), Locus of Power (see Anvil of Doom), Magic Resistance (2), Rune Lore (see Runelords), Strike the Runes (see Anvil of Doom)")
-
+#unit("THOREK IRONBROW",
+  solo: true,
+  subtitle: "Master Runelord of Karak Azul",
+  profiles: (
+    (name: "Thorek Ironbrow", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 3, i: 3, a: 3, ld: 10, points: 310),
+    (name: "Anvil of Doom", m: "-", ws: "-", bs: "-", s: "-", t: 10, w: "-", i: "-", a: "-", ld: "-", points: ""),
+    (name: "Anvil Guard", m: 3, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+    (name: "Kraggi", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: ""),
+  ),
+  troop-type: "War Machine (Special Character)",
+  mount: "Anvil of Doom",
+  crew: "Thorek Ironbrow, 2 Anvil Guards, Kraggi (Dwarf)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Klad Brakak")[Magic Weapon. Attacks made with this weapon have the Ignores Armour saves special rule. Additionally, if the victim suffers one or more unsaved Wounds, any Magic Armour they were equipped with are destroyed and cannot be used for the remainder of the game.],
+    rule("Thorek's Rune Armour")[Magic Armour. Heavy armour. Thorek’s Rune Armour is inscribed with the Master Rune of Gromril.],
+  ),
+  special-rules: "Ancestral Grudge, Anvil of Doom (see Anvil of Doom), Forgefire (see Runelords), Locus of Power (see Anvil of Doom), Magic Resistance (2), Rune Lore (see Runelords), Strike the Runes (see Anvil of Doom)",
+  special-rules-body: [
 - *Kraggi, Assistant at the Forge:* Kraggi's forge is represented on the tabletop by a separate miniature that always remains as close as possible to Thorek’s Anvil of Doom. The forge itself plays no part in the game; if it gets in the way, simply move it to one side.
 
 Thorek can re-roll a single dice on a failed attempt to Strike the Runes. If this re-rolled dice rolls a 1, Kraggi has done something wrong and Thorek takes a Strength 10 hit. Kraggi is then removed from play and the Kraggi, Assistant at the Forge special rule cannot be used again for the rest of the game.
 
 - *Master of Ancient Lore:* Thorek may roll an additional dice for his Leadership tests when attempting to Strike the Runes and discard the highest result. In addition, he knows the following Rune:
   - *Rune of Doom:* Until the start of the next friendly Magic phase, all friendly Dwarf units within 18" gain the Fear special rule.
-
-#entry("GROMBRINDAL")
-#namecost("The White Dwarf", "")
-#profile(
-  (name: "Grombrindal", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 450),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Rune Axe of Grimnir:* Magic Weapon. This weapon gives Grombrindal +2 Strength and allows him to re-roll any failed rolls To Hit and any failed rolls To Wound. In addition, models wounded by the Rune Axe of Grimnir must re-roll any successful armour saves.
-- *Armour of Glimril Scales:* Magic Armour. The Armour of Glimril Scales gives the White Dwarf a 2+ armour save and the Magical Ward (4+) special rule.
-- *Rune Cloak of Valaya:* Talisman. The Rune Cloak gives the White Dwarf the Magic Resistance (3) special rule.
-- *Rune Helm of Zhufbar:* Enchanted Item. Any friendly fleeing unit of Dwarfs will pass Rally tests automatically if they are attempting to rally within 12" of Grombrindal.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Magic Resistance (1), Relentless")
-
-- *Disguised:* The White Dwarf has the Hidden special rule. However, if the unit he is Hidden in is wiped out or flees then the White Dwarf will be revealed, and will stand his ground even though the rest of the unit may be fleeing or slain. Place the model in the middle of the front rank of the unit, then move/remove the rest of the unit as normal. The White Dwarf will then operate as a lone character as normal. The White Dwarf may never be the army's General, but units he joins may still use his Leadership once he is no longer Hidden.
-- *Grombrindal has no Fear!:* Grombrindal is Unbreakable. If his unit flees for any reason he will always stand his ground. If the unit was engaged in combat, he will continue to fight while his unit flees, denying the foe the chance to pursue. Grombrindal can even join a unit that does not have the Unbreakable special rule – this is an exception to the normal Unbreakable rules.
-
-#entry("UNGRIM IRONFIST")
-#namecost("Last Slayer King of Karak Kadrin", "")
-#profile(
-  (name: "Ungrim Ironfist", m: 3, ws: 8, bs: 4, s: 4, t: 5, w: 3, i: 5, a: 4, ld: 10, points: 325),
+#unit("GROMBRINDAL",
+  solo: true,
+  subtitle: "The White Dwarf",
+  profiles: (
+    (name: "Grombrindal", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 450),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Rune Axe of Grimnir")[Magic Weapon. This weapon gives Grombrindal +2 Strength and allows him to re-roll any failed rolls To Hit and any failed rolls To Wound. In addition, models wounded by the Rune Axe of Grimnir must re-roll any successful armour saves.],
+    rule("Armour of Glimril Scales")[Magic Armour. The Armour of Glimril Scales gives the White Dwarf a 2+ armour save and the Magical Ward (4+) special rule.],
+    rule("Rune Cloak of Valaya")[Talisman. The Rune Cloak gives the White Dwarf the Magic Resistance (3) special rule.],
+    rule("Rune Helm of Zhufbar")[Enchanted Item. Any friendly fleeing unit of Dwarfs will pass Rally tests automatically if they are attempting to rally within 12" of Grombrindal.],
+  ),
+  special-rules: "Ancestral Grudge, Magic Resistance (1), Relentless",
+  special-rules-body: (
+    rule("Disguised")[The White Dwarf has the Hidden special rule. However, if the unit he is Hidden in is wiped out or flees then the White Dwarf will be revealed, and will stand his ground even though the rest of the unit may be fleeing or slain. Place the model in the middle of the front rank of the unit, then move/remove the rest of the unit as normal. The White Dwarf will then operate as a lone character as normal. The White Dwarf may never be the army's General, but units he joins may still use his Leadership once he is no longer Hidden.],
+    rule("Grombrindal has no Fear!")[Grombrindal is Unbreakable. If his unit flees for any reason he will always stand his ground. If the unit was engaged in combat, he will continue to fight while his unit flees, denying the foe the chance to pursue. Grombrindal can even join a unit that does not have the Unbreakable special rule – this is an exception to the normal Unbreakable rules.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Medium armour")
-#field("MAGIC ITEMS", "")
 
-- *Axe of Dargo:* Magic Weapon. Great weapon. The Axe of Dargo is inscribed with the Master Rune of Smiting.
-- *The Slayer Crown:* Magic Armour. The Slayer Crown is inscribed with a Rune of Fortitude and a Rune of Stone.
-- *Dragon Cloak of Fyrskar:* Talisman. The Dragon Cloak of Fyrskar is inscribed with three Runes of Warding and a Rune of the Furnace.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Daemon Slayer, Deathblow, Gromril Armour, Magic Resistance (1), Relentless, Unbreakable")
-
-- *Slayer King:* If Ungrim is the Army General, Troll Slayers are taken as Core units rather than Special units, and Giant Slayers are taken as Special units rather than Rare units.
-- *Brotherhood of Grimnir:* If Ungrim is included in your army, one unit of Troll Slayers or Giant Slayers may be upgraded to the Brotherhood of Grimnir for +1 point per model. These Slayers have the Wards of Grimnir special rule.
-
-#entry("GARAGRIM IRONFIST")
-#namecost("War-mourner of Karak Kadrin", "")
-#profile(
-  (name: "Garagrim Ironfist", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 10, points: 185),
+#unit("UNGRIM IRONFIST",
+  solo: true,
+  subtitle: "Last Slayer King of Karak Kadrin",
+  profiles: (
+    (name: "Ungrim Ironfist", m: 3, ws: 8, bs: 4, s: 4, t: 5, w: 3, i: 5, a: 4, ld: 10, points: 325),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Medium armour",
+  magic-items: (
+    rule("Axe of Dargo")[Magic Weapon. Great weapon. The Axe of Dargo is inscribed with the Master Rune of Smiting.],
+    rule("The Slayer Crown")[Magic Armour. The Slayer Crown is inscribed with a Rune of Fortitude and a Rune of Stone.],
+    rule("Dragon Cloak of Fyrskar")[Talisman. The Dragon Cloak of Fyrskar is inscribed with three Runes of Warding and a Rune of the Furnace.],
+  ),
+  special-rules: "Ancestral Grudge, Daemon Slayer, Deathblow, Gromril Armour, Magic Resistance (1), Relentless, Unbreakable",
+  special-rules-body: (
+    rule("Slayer King")[If Ungrim is the Army General, Troll Slayers are taken as Core units rather than Special units, and Giant Slayers are taken as Special units rather than Rare units.],
+    rule("Brotherhood of Grimnir")[If Ungrim is included in your army, one unit of Troll Slayers or Giant Slayers may be upgraded to the Brotherhood of Grimnir for +1 point per model. These Slayers have the Wards of Grimnir special rule.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Axes of Kadrin:* Magic Weapon. Two hand weapons. The Axes of Kadrin are inscribed with the Master Rune of Skalf Blackhammer and a Grudge Rune. In addition, when Garagrim charges, he causes an Impact Hit on every model in base contact with him. These Impact Hits follow all the rules for his normal attacks.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Deathblow, Dragon Slayer, Magic Resistance (1), Relentless, Unbreakable")
-
-- *The War-mourner:* Each Wound inflicted by Garagrim counts double towards that round's Combat Resolution. Against enemies with Toughness 5 or higher, Garagrim has the Multiple Wounds (D6) special rule. However, Garagrim may never be the Army General.
-
-#entry("JOSEF BUGMAN")
-#namecost("Mysterious Master Brewer", "")
-#profile(
-  (name: "Josef Bugman", m: 3, ws: 6, bs: 5, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 9, points: 185),
+#unit("GARAGRIM IRONFIST",
+  solo: true,
+  subtitle: "War-mourner of Karak Kadrin",
+  profiles: (
+    (name: "Garagrim Ironfist", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 10, points: 185),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Axes of Kadrin")[Magic Weapon. Two hand weapons. The Axes of Kadrin are inscribed with the Master Rune of Skalf Blackhammer and a Grudge Rune. In addition, when Garagrim charges, he causes an Impact Hit on every model in base contact with him. These Impact Hits follow all the rules for his normal attacks.],
+  ),
+  special-rules: "Ancestral Grudge, Deathblow, Dragon Slayer, Magic Resistance (1), Relentless, Unbreakable",
+  special-rules-body: (
+    rule("The War-mourner")[Each Wound inflicted by Garagrim counts double towards that round's Combat Resolution. Against enemies with Toughness 5 or higher, Garagrim has the Multiple Wounds (D6) special rule. However, Garagrim may never be the Army General.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Medium armour")
-#field("MAGIC ITEMS", "")
 
-- *Ol' Trustworthy:* Magic Weapon. Ol' Trustworthy is inscribed with two Runes of Cleaving and a Rune of Fury.
-- *Bugman's Tankard:* Enchanted Item. Josef Bugman, or a single model in the same unit, can drink from Bugman’s Tankard at the start of any friendly turn. The imbiber immediately recovers 1 Wound lost previously during the battle.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute, Scouts")
-
+#unit("JOSEF BUGMAN",
+  solo: true,
+  subtitle: "Mysterious Master Brewer",
+  profiles: (
+    (name: "Josef Bugman", m: 3, ws: 6, bs: 5, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 9, points: 185),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Medium armour",
+  magic-items: (
+    rule("Ol' Trustworthy")[Magic Weapon. Ol' Trustworthy is inscribed with two Runes of Cleaving and a Rune of Fury.],
+    rule("Bugman's Tankard")[Enchanted Item. Josef Bugman, or a single model in the same unit, can drink from Bugman’s Tankard at the start of any friendly turn. The imbiber immediately recovers 1 Wound lost previously during the battle.],
+  ),
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute, Scouts",
+  special-rules-body: [
 - *Bugman's Rangers:* Josef Bugman must be accompanied by a unit of Rangers chosen from the army list at a cost of 17 points per model. This unit has Strength 4 and are equipped with great weapons, Dwarfen crossbows, medium armour and shields. Josef Bugman may never choose to leave this unit.
 - *Liquid Fortification:* As long as Bugman is alive, roll a D6 at the start of each of your turns and consult the following chart to see what effects his draughts have upon himself and any unit he has currently joined:
 
 #chart((("D6", "Result"), ("1", "Bad Brew: The unit gains the Flammable special rule until the start of the next friendly turn."), ("2-4", "Belligerent: The unit gains the Stubborn special rule until the start of the next friendly turn."), ("5-6", "Leathered: Each member of the unit gains +1 Toughness until the start of the next friendly turn.")))
 
 - *Stout Courage:* Bugman and any unit he joins have the Immunity (Fear/Terror) special rule as long as he remains with the unit.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a Dwarfen crossbow +7 points
-
-#entry("BURLOK DAMMINSON")
-#namecost("Engineer Guildmaster", "")
-#profile(
-  (name: "Burlok Damminson", m: 3, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 120),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("MAGIC ITEMS", "")
 
-- *Furnace Hammer:* Magic weapon. Burlok's Hammer is inscribed with the Master Rune of Swiftness and a Rune of Fire.
-- *Burlok's Armour:* Magic Armour. Medium armour. Burlok’s armour is inscribed with a Rune of Warding.
-
-#field("UPGRADES", "")
-
+#unit("BURLOK DAMMINSON",
+  solo: true,
+  subtitle: "Engineer Guildmaster",
+  profiles: (
+    (name: "Burlok Damminson", m: 3, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 120),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  magic-items: (
+    rule("Furnace Hammer")[Magic weapon. Burlok's Hammer is inscribed with the Master Rune of Swiftness and a Rune of Fire.],
+    rule("Burlok's Armour")[Magic Armour. Medium armour. Burlok’s armour is inscribed with a Rune of Warding.],
+  ),
+  upgrades: [
 - *Burlok's Ingenious Offensive New-matic Integrated Constrictor Arm*: Burlok's artificial arm gives him +1 Attack with Strength 6 in close combat.
 - *Range Finding Optics:* Burlok gains the Sniper special rule.
 - *Rivet Gun:* The rivet gun has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("9/12\"", "5", "Dwarf-crafted, Quick Shot, Multiple Shots (3), Rapid Fire"))
-#field("SPECIAL RULES", "Ancestral Grudge, Artillery Master (see Master Engineers), Entrenchment (see Master")
-
+  ],
+  special-rules: "Ancestral Grudge, Artillery Master (see Master Engineers), Entrenchment (see Master",
+  special-rules-body: [
 Engineers)*, Magic Resistance (1), Relentless, Resolute, "Stand Back Sir!"* (see Master Engineers)
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - Must take one of the following:
   - Burlok's Ingenious Offensive New-matic Integrated Constrictor Arm free
   - Range Finding Optics & Rivet Gun +5 points
-
-#entry("GRIMM BURLOKSSON")
-#namecost("Upstart Master Engineer", "")
-#profile(
-  (name: "Grimm Burloksson", m: 3, ws: 4, bs: 5, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 95),
+  ],
+  order: ("troop-type", "base-size", "magic-items", "upgrades", "special-rules", "options"),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Dwarf)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "")
 
+#unit("GRIMM BURLOKSSON",
+  solo: true,
+  subtitle: "Upstart Master Engineer",
+  profiles: (
+    (name: "Grimm Burloksson", m: 3, ws: 4, bs: 5, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 95),
+  ),
+  troop-type: "Infantry (Special Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: [
 - *Grudge-raker:* The Grudge-raker has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("15/30\"", "5", "Armour Piercing (1), Dwarf-crafted, Multiple Shots (2D3)"))
 
 - *Cog Axe:* Hand weapon. This weapon has the Armour Piercing (1) special rule. If Grimm scores one or more hits in close combat against a model using a magic weapon, roll a D6; on a 5+, that weapon is immediately destroyed and cannot be used further in this game.
-
-#field("SPECIAL RULES", "Ancestral Grudge, Entrenchment (see Master Engineers), Magic Resistance (1), Relentless, Resolute, \"Stand Back Sir!\" (see Master Engineers)")
-
+  ],
+  special-rules: "Ancestral Grudge, Entrenchment (see Master Engineers), Magic Resistance (1), Relentless, Resolute, \"Stand Back Sir!\" (see Master Engineers)",
+  special-rules-body: [
 - *Master of Accuracy:* At the start of each friendly Shooting phase, Grimm can bestow one of the following rules on a single friendly unit within 3" for the duration of that Shooting phase, though he does not gain any bonuses for it himself.
   - *Artillery Adjustment:* A war machine can use Grimm’s Ballistic Skill or re-roll one artillery dice. This can be the dice that determines the distance a cannonball bounces or a Flame Cannon’s burst of flame moves.
   - *Increased Range:* The unit’s crossbows and handguns increase their maximum range by 6".
   - *Superior Volley:* Models in the unit get +1 to Hit.
+  ],
+)
 
 = CREDITS
 
-#entry("Written & Edited by:", first: true)
-#namecost("Mathias Eliasson", "")
+#unit("Written & Edited by:",
+  first: true,
+  subtitle: "Mathias Eliasson",
+  before: [
 #namecost("Based on Warhammer Fantasy by Games-Workshop", "")
 #namecost("Special thanks to all the people that have contributed with feedback and ideas", "")
+  ],
+)
 
 = OUR CHANGES
 

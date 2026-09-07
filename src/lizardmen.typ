@@ -72,80 +72,36 @@ In addition, a unit that contains one or more models with this special rule that
 
 #note[_A model with war gauntlets gains +1 Attack._]
 
-= THE LORE OF GEOMANCY
+#lore("THE LORE OF GEOMANCY")[
 
-#columns(2)[
-#namecost("EARTH TREMORS", "")
-#namecost("Lore Attribute", "")
+#spell("EARTH TREMORS", "Lore Attribute")[Every time a spell from the Lore of Geomancy is successfully cast on an enemy unit or a unit suffers one or more unsaved Wounds from it, that unit suffers \-1 to its Movement value until the start of the caster's next Magic phase. This has no effect on models with the Fly or Strider special rules.]
 
-Every time a spell from the Lore of Geomancy is successfully cast on an enemy unit or a unit suffers one or more unsaved Wounds from it, that unit suffers \-1 to its Movement value until the start of the caster's next Magic phase. This has no effect on models with the Fly or Strider special rules.
+#spell("EARTH LINE", "Signature Spell", cast: "8+")[_Earth Line_ is a direct damage area spell that uses the line template. Place it from one of the battlefield corners directly to the caster. Each model (friend and foe) in the way must pass a Toughness test or suffer a Wound with the Ignores Armour Saves special rule.]
 
-#namecost("EARTH LINE", "")
-#namecost("Signature Spell Cast on 8+", "")
+#spell("EMPOWERED OBSINITE", 1, cast: "8+")[_Empowered Obsinite_ is an *augment* spell with a range of 18". The target unit gains the Armour Piercing (2) special rule until the start of the caster's next Magic phase.]
 
-_Earth Line_ is a direct damage area spell that uses the line template. Place it from one of the battlefield corners directly to the caster. Each model (friend and foe) in the way must pass a Toughness test or suffer a Wound with the Ignores Armour Saves special rule.
+#spell("TECTONIC SHIFT", 1, cast: "8+")[_Tectonic Shift_ is a special type of spell. Choose one piece of terrain within 24". You may move the target up to 2D3" in any direction while still retaining its original facing, stopping within 1" of any other terrain. Unless it is in combat, any unit in that terrain piece is moved with it, stopping within 1" of other units. In addition, the unit is subject to Earth Tremors.]
 
-#namecost("EMPOWERED OBSINITE", "")
-#namecost("Level 1 Cast on 8+", "")
+#spell("EARTHEN RAMPARTS", 1, cast: "9+")[Remains in play. _Earthen Ramparts_ is an *augment* spell with a range of 18". While the spell is in effect, the target counts as being behind a wall (a defended obstacle that gives hard cover and a \-1 To Hit modifier to charging models in base contact with them) on all sides. The spell is immediately dispelled if the unit moves for any reason.]
 
-_Empowered Obsinite_ is an *augment* spell with a range of 18". The target unit gains the Armour Piercing (2) special rule until the start of the caster's next Magic phase.
+#spell("ENTOMB", 2, cast: "9+")[Remains in play. _Entomb_ is a *hex* with a range of 24" that can be cast on an unengaged unit. While the spell is in effect, the target cannot move, use missile attacks or be damaged in any way (except by the Lore of Geomancy) and is treated as impassable terrain for all purposes.]
 
-#namecost("TECTONIC SHIFT", "")
-#namecost("Level 1 Cast on 8+", "")
+#spell("UPROOT THE MOUNTAINS", 2, cast: "9+")[_Uproot the Mountains_ is a *summoning* spell with a range of 18" that summons a hill with one level, no more than 6" in diameter. Alternatively, the caster can target an existing hill within 18" and remove it from play. Any unit on or under the hill when the spell is cast are subject to Earth Tremors.]
 
-_Tectonic Shift_ is a special type of spell. Choose one piece of terrain within 24". You may move the target up to 2D3" in any direction while still retaining its original facing, stopping within 1" of any other terrain. Unless it is in combat, any unit in that terrain piece is moved with it, stopping within 1" of other units. In addition, the unit is subject to Earth Tremors.
+#spell("CAVERNOUS CREVASSE", 2, cast: "10+")[_Cavernous Crevasse_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster. Each model in the way must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
 
-#namecost("EARTHEN RAMPARTS", "")
-#namecost("Level 1 Cast on 9+", "")
+#spell("SEISMIC UPHEAVAL", 3, cast: "10+")[_Seismic Upheaval_ is a *hex* with a range of 24". All models in the unit must take a Dangerous Terrain test and suffer a \-1 To Hit penalty in close combat and with missile weapons until the start of the caster's next Magic phase.]
 
-Remains in play. _Earthen Ramparts_ is an *augment* spell with a range of 18". While the spell is in effect, the target counts as being behind a wall (a defended obstacle that gives hard cover and a \-1 To Hit modifier to charging models in base contact with them) on all sides. The spell is immediately dispelled if the unit moves for any reason.
+#spell("TELEPATHIC SUMMONS", 3, cast: "10+")[_Telepathic Summons_ is a *conveyance* spell that targets a friendly unit within 24". The target is immediately picked up and may be moved to any position on the battlefield within 12" of the caster, just like a summoning spell.]
 
-#namecost("ENTOMB", "")
-#namecost("Level 2 Cast on 9+", "")
+#spell("ASSAULT OF STONE", 3, cast: "12+")[_Assault of Stone_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template suffer a Strength 5 hit.]
 
-Remains in play. _Entomb_ is a *hex* with a range of 24" that can be cast on an unengaged unit. While the spell is in effect, the target cannot move, use missile attacks or be damaged in any way (except by the Lore of Geomancy) and is treated as impassable terrain for all purposes.
+#spell("GRAVITIC REDIRECTION", 4, cast: "12+")[_Gravitic Redirection_ is a *direct damage* spell with a range of 12". Roll a D6 for each model in the target unit; for each result of 4+, they suffer a Wound which Ignores Armour Saves.]
 
-#namecost("UPROOT THE MOUNTAINS", "")
-#namecost("Level 2 Cast on 9+", "")
+#spell("RUINATION OF CITIES", 4, cast: "13+")[_Ruination of Cities_ is a *direct damage* spell with a range of 18". The target unit suffers 2D6 Strength 5 hits. A unit that suffers any wounds from this spell will have all its movement halved (rounding up) in its next Movement phase. Units inside a building take 3D6 Strength 5 hits.]
 
-_Uproot the Mountains_ is a *summoning* spell with a range of 18" that summons a hill with one level, no more than 6" in diameter. Alternatively, the caster can target an existing hill within 18" and remove it from play. Any unit on or under the hill when the spell is cast are subject to Earth Tremors.
-
-#namecost("CAVERNOUS CREVASSE", "")
-#namecost("Level 2 Cast on 10+", "")
-
-_Cavernous Crevasse_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster. Each model in the way must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.
-
-#namecost("SEISMIC UPHEAVAL", "")
-#namecost("Level 3 Cast on 10+", "")
-
-_Seismic Upheaval_ is a *hex* with a range of 24". All models in the unit must take a Dangerous Terrain test and suffer a \-1 To Hit penalty in close combat and with missile weapons until the start of the caster's next Magic phase.
-
-#namecost("TELEPATHIC SUMMONS", "")
-#namecost("Level 3 Cast on 10+", "")
-
-_Telepathic Summons_ is a *conveyance* spell that targets a friendly unit within 24". The target is immediately picked up and may be moved to any position on the battlefield within 12" of the caster, just like a summoning spell.
-
-#namecost("ASSAULT OF STONE", "")
-#namecost("Level 3 Cast on 12+", "")
-
-_Assault of Stone_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template suffer a Strength 5 hit.
-
-#namecost("GRAVITIC REDIRECTION", "")
-#namecost("Level 4 Cast on 12+", "")
-
-_Gravitic Redirection_ is a *direct damage* spell with a range of 12". Roll a D6 for each model in the target unit; for each result of 4+, they suffer a Wound which Ignores Armour Saves.
-
-#namecost("RUINATION OF CITIES", "")
-#namecost("Level 4 Cast on 13+", "")
-
-_Ruination of Cities_ is a *direct damage* spell with a range of 18". The target unit suffers 2D6 Strength 5 hits. A unit that suffers any wounds from this spell will have all its movement halved (rounding up) in its next Movement phase. Units inside a building take 3D6 Strength 5 hits.
-
-#namecost("THE GREAT LEVELLER", "")
-#namecost("Level 4 Cast on 15+", "")
-
-_The Great Leveller_ is a *direct damage aura* spell with a range of 12". All units (friend and foe, except the caster) within range (even if they are engaged in close combat) suffer 3D6 Strength 5 Hits.
+#spell("THE GREAT LEVELLER", 4, cast: "15+")[_The Great Leveller_ is a *direct damage aura* spell with a range of 12". All units (friend and foe, except the caster) within range (even if they are engaged in close combat) suffer 3D6 Strength 5 Hits.]
 ]
-
 = BLESSED SPAWNINGS
 
 *Characters and units that can take Blessed Spawnings are detailed in the army list. The cost below only applies to characters. Lords may take up to 3 Blessed Spawnings. Heroes, Core and Special units may take up to 2 Sacred Spawnings. Core units that take more than one Blessed Spawning count as Special units, and Special units counts as Rare units.*
@@ -244,273 +200,165 @@ Roll a D3 at the start of each enemy Magic phase; the Slann Mage-Priest has the 
 The Slann Mage-Priest can choose one additional spell.
 ]
 
-= MAGIC ITEMS
+#magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Lizardmen. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
-*This section contains the rules for some of the most iconic and powerful magical artefacts used by the Lizardmen. These may be used in addition to the magic items found in the Warhammer rulebook.*
+#magic-item-section("weapon", first: true)[
+#magic-weapon("SCIMITAR OF THE SUN RESPLENDENT", 45)[This weapon gives the wielder +2 Attacks and the Hatred special rule.]
 
-#entry("MAGIC WEAPONS")
-#namecost("SCIMITAR OF THE SUN RESPLENDENT", "45 points")
+#magic-weapon("BLADE OF REALITIES", 40)[No armour or Magical Ward saves can be taken against Wounds caused by this weapon.]
 
-This weapon gives the wielder +2 Attacks and the Hatred special rule.
+#magic-weapon("BLADE OF REVERED TZUNKI", 35)[This weapon gives the wielder +1 Strength and the Ignores Armour Saves special rule.]
 
-#namecost("BLADE OF REALITIES", "40 points")
+#magic-weapon("STEGADON WAR-SPEAR", 35, only: "Skink High Chief on Stegadon", type: "Light lance")[This weapon gives the bearer's mount the Impact Hits (2D6+1) special rule.]
 
-No armour or Magical Ward saves can be taken against Wounds caused by this weapon.
+#magic-weapon("THE LASH OF ITZAOTYL", 30)[This weapon gives the wielder the Always Strikes First special rule. In addition, any Monster successfully Hit by this weapon one or more times in a single round must pass a Leadership test. If failed, it cannot Attack this close combat phase.]
 
-#namecost("BLADE OF REVERED TZUNKI", "35 points")
+#magic-weapon("SWORD OF THE HORNET", 25)[This weapon allows the wielder to re-roll 1's To Hit, and enemies must re-roll 6's To Hit against them.]
 
-This weapon gives the wielder +1 Strength and the Ignores Armour Saves special rule.
+#magic-weapon("THE PIRANHA BLADE", 20)[The wielder has the Multiple Wounds (D3) and Armour Piercing special rules (1).]
 
-#namecost("STEGADON WAR-SPEAR", "35 points")
+#magic-weapon("DAGGER OF SOTEK", 15, only: "Skink")[This weapon gives the wielder the Killing Blow special rule. In addition, all models from _Warhammer: Skaven_ treat the model as having the Fear special rule.]
 
-Skink High Chief on Stegadon only. Light lance. This weapon gives the bearer's mount the Impact Hits (2D6+1) special rule.
-
-#namecost("THE LASH OF ITZAOTYL", "30 points")
-
-This weapon gives the wielder the Always Strikes First special rule. In addition, any Monster successfully Hit by this weapon one or more times in a single round must pass a Leadership test. If failed, it cannot Attack this close combat phase.
-
-#namecost("SWORD OF THE HORNET", "25 points")
-
-This weapon allows the wielder to re-roll 1's To Hit, and enemies must re-roll 6's To Hit against them.
-
-#namecost("THE PIRANHA BLADE", "20 points")
-
-The wielder has the Multiple Wounds (D3) and Armour Piercing special rules (1).
-
-#namecost("DAGGER OF SOTEK", "15 points")
-
-Skink Only. This weapon gives the wielder the Killing Blow special rule. In addition, all models from _Warhammer: Skaven_ treat the model as having the Fear special rule.
-
-#namecost("BURNING BLADE OF CHOTEC", "15 points")
-
-This weapon gives the wielder the Armour Piercing (2) and Flaming Attacks special rules.
+#magic-weapon("BURNING BLADE OF CHOTEC", 15)[This weapon gives the wielder the Armour Piercing (2) and Flaming Attacks special rules.]
 
 #namecost("SACRIFICIAL HEART", "")
-#namecost("CLOTH OF CHOTEC", "15 points")
 
-Sling. All shots from this weapon have +1 Strength.
+#magic-weapon("CLOTH OF CHOTEC", 15, type: "Sling")[All shots from this weapon have +1 Strength.]
 
-#namecost("STAFF OF THE LOST SUN", "15 points")
-
-Skink Priest or Skink High Priest only. This weapon uses the following profile:
+#magic-weapon("STAFF OF THE LOST SUN", 15, only: "Skink Priest or Skink High Priest")[This weapon uses the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("18\"", "5", "Multiple Shots (3)"))
-#namecost("STAFF OF SOTEK", "10 points")
+]
 
-Skink Priest or Skink High Priest only. This weapon has the following profile:
+#magic-weapon("STAFF OF SOTEK", 10, only: "Skink Priest or Skink High Priest")[This weapon has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12\"", "6", "Multiple Wounds (D3), Poisoned Attacks"))
+]
+]
 
-#entry("MAGIC ARMOUR")
-#namecost("SACRED STEGADON HELM OF ITZA", "40 points")
+#magic-item-section("armour")[
+#magic-armour("SACRED STEGADON HELM OF ITZA", 40)[This armour gives the wearer a 6+ armour save. In addition, they gain +1 Toughness and the Impact Hits (D3) special rule.]
 
-This armour gives the wearer a 6+ armour save. In addition, they gain +1 Toughness and the Impact Hits (D3) special rule.
+#magic-armour("HIDE OF THE COLD ONES", 40, only: "Oldblood or Scar-veteran on foot")[The wearer of this armour gains +1 Toughness as well as the Fear, Natural Armour (5+) and Stupidity special rules.]
 
-#namecost("HIDE OF THE COLD ONES", "40 points")
+#magic-armour("SHIELD OF CHAQUA", 30, type: "Shield")[All missile attacks targeting the bearer of this shield or any unit they are with suffer \-1 To Wound.]
 
-Oldblood or Scar-veteran on foot only. The wearer of this armour gains +1 Toughness as well as the Fear, Natural Armour (5+) and Stupidity special rules.
+#magic-armour("THE MAIMING SHIELD", 20, type: "Shield")[This armour gives the bearer +1 Attack and the Magical Attacks special rule.]
 
-#namecost("SHIELD OF CHAQUA", "30 points")
+#magic-armour("SHIELD OF THE MIRRORED POOL", 20, type: "Shield")[Any magic missile that strikes the bearer of this armour or any unit they are with is reflected on the roll of 2+ on a D6. If the spell is reflected, the results of the magic missile are resolved against the caster of the spell and any unit they are with.]
 
-Shield. All missile attacks targeting the bearer of this shield or any unit they are with suffer \-1 To Wound.
+#magic-armour("CORONAL SHIELD", 25, type: "Shield")[All close combat attacks directed against the bearer of this shield must re-roll successful rolls To Hit.]
+]
 
-#namecost("THE MAIMING SHIELD", "20 points")
+#magic-item-section("talisman")[
+#talisman("AURA OF QUETZL", 25)[This talisman gives the wearer the Magical Ward (4+) special rule against attacks with Strength 5 or more.]
 
-Shield. This armour gives the bearer +1 Attack and the Magical Attacks special rule.
+#talisman("DIVINE PLAQUE OF PROTECTION", 25, only: "Slann Mage-Priest")[This talisman gives the wearer and any unit they are with the Magical Ward (5+) special rule against missile attacks.]
 
-#namecost("SHIELD OF THE MIRRORED POOL", "20 points")
+#talisman("GLYPH NECKLACE", 20)[All close combat attacks directed against the bearer of this talisman suffer \-1 To Hit.]
 
-Shield. Any magic missile that strikes the bearer of this armour or any unit they are with is reflected on the roll of 2+ on a D6. If the spell is reflected, the results of the magic missile are resolved against the caster of the spell and any unit they are with.
+#talisman("AMULET OF ITZL", 20, one-use: true)[This talisman automatically ignores the first unsaved Wound suffered.]
 
-#namecost("CORONAL SHIELD", "25 points")
+#talisman("ZOETIC DIAL", 20)[The bearer of this item may re-roll 1's when taking armour saves.]
 
-Shield. All close combat attacks directed against the bearer of this shield must re-roll successful rolls To Hit.
+#talisman("INCANDESCENT RECTRICES", 10, one-use: true)[If this model would be removed as a casualty, immediately roll a D6. On a 3+, the model remains with 1 Wound, and any additional Wounds suffered are ignored.]
+]
 
-#entry("TALISMANS")
-#namecost("AURA OF QUETZL", "25 points")
+#magic-item-section("arcane")[
+#arcane-item("CRYSTALLINE SKULL", 60, type: "Relic")[Each time the bearer of this item successfully casts a spell, add +1 Power Dice to the pool (to a maximum of 3 per Magic Phase). In addition, once per battle the bearer may choose to destroy this item at the end of any of your Magic phases. If they do so, pick one enemy unit within 12". Roll a number of dice equal to the number of Power dice in the pool. For each roll of a 3+, that unit suffer a Wound that Ignores Armour Saves.]
 
-This talisman gives the wearer the Magical Ward (4+) special rule against attacks with Strength 5 or more.
+#arcane-item("CUPPED HANDS OF THE OLD ONES", 45, only: "Slann Mage-Priest", type: "Charm", one-use: true)[If the bearer of this item miscasts, roll a D6. On a roll of 1 the bearer suffers the results of the miscast as normal. On 2+ the miscast is ignored. In addition, any enemy Wizards within line of sight of the Slann Mage-Priest will count as having rolled a 7 on the Miscast table.]
 
-#namecost("DIVINE PLAQUE OF PROTECTION", "25 points")
+#arcane-item("PLAQUE OF DOMINION", 35, type: "Relic", bound: (level: 2, cast: "8+"))[This item contains a *hex aura* spell with a range of 18". All enemy Wizards within range have the Stupidity special rule until the start of the caster's next Magic phase.]
 
-Slann Mage-Priest only. This talisman gives the wearer and any unit they are with the Magical Ward (5+) special rule against missile attacks.
+#arcane-item("ROD OF THE STORM", 35, type: "Staff", bound: true)[This item contains the _Urannon's Thunderbolt_ spell from the Lore of Heavens.]
 
-#namecost("GLYPH NECKLACE", "20 points")
+#arcane-item("THE TETRAGON OF TECTONIC DISPLACEMENT", 35, type: "Relic", bound: true)[The Tetragon of Tectonic Displacement contains the _Tectonic Shift_ spell from the Lore of Geomancy.]
 
-All close combat attacks directed against the bearer of this talisman suffer \-1 To Hit.
+#arcane-item("CUBE OF DARKNESS", 30, type: "Charm", one-use: true)[When an enemy spell has been cast, a Wizard with this item can use it instead of attempting to dispel the spell using dispel dice. If he does so, roll a D6; on the roll of a 2+ the spell is automatically dispelled – otherwise the spell is resolved as normal. In either case, roll a separate D6 for every Remains in Play spell currently in effect; on a 2+ that spell automatically ends.]
 
-#namecost("AMULET OF ITZL", "20 points")
+#arcane-item("PLAQUE OF XOLOC", 30, type: "Charm")[Once use only. This item may be used before attempting to cast any spell with a casting value of 10 maximum. Once used, the spell is cast automatically without using any Power dice. It may be dispelled as normal on its minimum casting value.]
 
-One use only. This talisman automatically ignores the first unsaved Wound suffered.
+#arcane-item("DIADEM OF POWER", 20, type: "Relic")[This item allows you to save up to two unused Power dice at the end of your Magic phase and add them to your side's Dispel dice pool in the next enemy Magic phase.]
 
-#namecost("ZOETIC DIAL", "20 points")
+#arcane-item("PLAQUE OF TEPEE", 15, type: "Relic")[Every time an enemy spell targets the wearer or their unit, roll a D6. On a 5+, the spell is dispelled and has no effect. If the roll is failed, you may attempt to dispel the spell as normal.]
 
-The bearer of this item may re-roll 1's when taking armour saves.
+#arcane-item("PLAQUE OF TEPOK", 10, only: "Slann Mage-Priest", type: "Relic")[The model bearing this item can choose an additional spell from another Lore of Magic than the one they have chosen.]
 
-#namecost("INCANDESCENT RECTRICES", "10 points")
+#arcane-item("COATL FAMILIAR", 5, type: "Charm", one-use: true)[This item can be used at the start of any of your Magic phases. When used, the bearer may attempt to cast any one spell from any Lore of Magic normally available to them.]
+]
 
-One use only. If this model would be removed as a casualty, immediately roll a D6. On a 3+, the model remains with 1 Wound, and any additional Wounds suffered are ignored.
+#magic-item-section("enchanted", columns: 2)[
+#enchanted-item("BLOOD STATUETTE OF SPITE", 35, bound: (level: 2, cast: "7+"))[This item contains a *direct damage* spell with a range of 12" that targets one enemy model, even in a unit. The target model must pass a Toughness test or suffer a Wound which Ignores Armour Saves. If the model takes a Wound from this spell, it must immediately take another Toughness test, losing another Wound if it fails again. This continues until either the model passes a Toughness test or is slain.]
 
-#entry("ARCANE ITEMS")
-#namecost("CRYSTALLINE SKULL", "60 points")
+#enchanted-item("PRISM OF AMYNTOK", 35, only: "Slann", bound: (level: 2, cast: "8+"))[This item contains a *direct damage area* spell that uses the line template. Place it 12" in length, directly away from the caster's front arc. Each model in the way suffers a Strength 6 Hit with the Flaming Attacks special rule. This has a +1 bonus To Wound against Daemons, Undead and Vampires.]
 
-Relic. Each time the bearer of this item successfully casts a spell, add +1 Power Dice to the pool (to a maximum of 3 per Magic Phase). In addition, once per battle the bearer may choose to destroy this item at the end of any of your Magic phases. If they do so, pick one enemy unit within 12". Roll a number of dice equal to the number of Power dice in the pool. For each roll of a 3+, that unit suffer a Wound that Ignores Armour Saves.
+#enchanted-item("THE CLOAK OF FEATHERS", 30, only: "Skink character on foot")[This item gives the wearer the Fly (10) and Magic Resistance (1) special rules.]
 
-#namecost("CUPPED HANDS OF THE OLD ONES", "45 points")
-
-Slann Mage-Priest only. Charm. One use only. If the bearer of this item miscasts, roll a D6. On a roll of 1 the bearer suffers the results of the miscast as normal. On 2+ the miscast is ignored. In addition, any enemy Wizards within line of sight of the Slann Mage-Priest will count as having rolled a 7 on the Miscast table.
-
-#namecost("PLAQUE OF DOMINION", "35 points")
-
-Relic. Bound spell (Level 2, cast on 8+). This item contains a *hex aura* spell with a range of 18". All enemy Wizards within range have the Stupidity special rule until the start of the caster's next Magic phase.
-
-#namecost("ROD OF THE STORM", "35 points")
-
-Staff. Bound Spell. This item contains the _Urannon's Thunderbolt_ spell from the Lore of Heavens.
-
-#namecost("THE TETRAGON OF TECTONIC", "")
-#namecost("DISPLACEMENT", "35 points")
-
-Relic. Bound Spell. The Tetragon of Tectonic Displacement contains the _Tectonic Shift_ spell from the Lore of Geomancy.
-
-#namecost("CUBE OF DARKNESS", "30 points")
-
-Charm. One use only. When an enemy spell has been cast, a Wizard with this item can use it instead of attempting to dispel the spell using dispel dice. If he does so, roll a D6; on the roll of a 2+ the spell is automatically dispelled – otherwise the spell is resolved as normal. In either case, roll a separate D6 for every Remains in Play spell currently in effect; on a 2+ that spell automatically ends.
-
-#namecost("PLAQUE OF XOLOC", "30 points")
-
-Charm. Once use only. This item may be used before attempting to cast any spell with a casting value of 10 maximum. Once used, the spell is cast automatically without using any Power dice. It may be dispelled as normal on its minimum casting value.
-
-#namecost("DIADEM OF POWER", "20 points")
-
-Relic. This item allows you to save up to two unused Power dice at the end of your Magic phase and add them to your side's Dispel dice pool in the next enemy Magic phase.
-
-#namecost("PLAQUE OF TEPEE", "15 points")
-
-Relic. Every time an enemy spell targets the wearer or their unit, roll a D6. On a 5+, the spell is dispelled and has no effect. If the roll is failed, you may attempt to dispel the spell as normal.
-
-#namecost("PLAQUE OF TEPOK", "10 points")
-
-Slann Mage-Priest only. Relic. The model bearing this item can choose an additional spell from another Lore of Magic than the one they have chosen.
-
-#namecost("COATL FAMILIAR", "5 points")
-
-Charm. One use only. This item can be used at the start of any of your Magic phases. When used, the bearer may attempt to cast any one spell from any Lore of Magic normally available to them.
-
-#entry("ENCHANTED ITEMS")
-#columns(2)[
-#namecost("BLOOD STATUETTE OF SPITE", "35 points")
-
-Bound Spell (Level 2, cast on 7+). This item contains a *direct damage* spell with a range of 12" that targets one enemy model, even in a unit. The target model must pass a Toughness test or suffer a Wound which Ignores Armour Saves. If the model takes a Wound from this spell, it must immediately take another Toughness test, losing another Wound if it fails again. This continues until either the model passes a Toughness test or is slain.
-
-#namecost("PRISM OF AMYNTOK", "35 points")
-
-Slann only. Bound spell (Level 2, cast on 8+). This item contains a *direct damage area* spell that uses the line template. Place it 12" in length, directly away from the caster's front arc. Each model in the way suffers a Strength 6 Hit with the Flaming Attacks special rule. This has a +1 bonus To Wound against Daemons, Undead and Vampires.
-
-#namecost("THE CLOAK OF FEATHERS", "30 points")
-
-Skink character on foot only. This item gives the wearer the Fly (10) and Magic Resistance (1) special rules.
-
-#namecost("THE EGG OF QUANGO", "30 points")
-
-One use only. This item can be used at the start of any Close Combat phase. Nominate one enemy unit in base contact with the bearer or his unit, roll a D6 and consult the table below to find out what happens. Any Wounds inflicted count towards combat results.
+#enchanted-item("THE EGG OF QUANGO", 30, one-use: true)[This item can be used at the start of any Close Combat phase. Nominate one enemy unit in base contact with the bearer or his unit, roll a D6 and consult the table below to find out what happens. Any Wounds inflicted count towards combat results.
 
 #chart((("D6", "Result"), ("1", "The enemy unit immediately suffers D6
 Strength 3 hits."), ("2-3", "The enemy unit immediately suffers D6
 Strength 4 hits."), ("4-6", "The enemy unit immediately suffers 2D6
 Strength 5 hits.")))
-#namecost("THE HORN OF KYGOR", "25 points")
-
-One use only. The bearer of this item can sound it at the start of any of his Movement phases. If they do so, all friendly mounts, War Beasts, Monstrous Beasts and Monsters within 12" of the bearer have the Frenzy special rule until the start of their next Movement phase.
-
-#namecost("GLEAMING PENDANT OF CHOTEC", "30 points")
-
-One use only. This item may be used at the start of any close combat phase. For the remainder of the phase, all enemy units in base contact with the wearer or the unit it is with gain the Always Strikes Last special rule.
-
-#namecost("STAR TABLET", "30 points")
-
-Infantry only. Before deployment, the bearer of this item and one unit they must join gains the Scouts special rule.
-
-#namecost("THE INCANTATION OF XETLIPOCUTZL", "25 points")
-
-One use only. The bearer can use this item at the start of any of your Magic phases. All enemy units within 12" must immediately take a Panic test using an additional D6, discarding the lowest result.
-
-#namecost("THRONE OF THE LOST GODS", "20 points")
-
-Slann Mage-Priest only. The model gains +1 Wound and the Fly (8) special rule.
-
-#namecost("CHARM OF THE JAGUAR WARRIOR", "15 points")
-
-Saurus on foot only. This item gives the bearer Movement 8 and the Scouts special rule.
-
-#namecost("CURSE-CHARM OF TEPOK", "15 points")
-
-One use only. When an enemy Wizard rolls on the Miscast table, the bearer of this item may force them to re-roll the result.
-
-#namecost("BANE HEAD", "10 points")
-
-The bearer of this item gains the Multiple Wounds (2) special rule against one enemy model, nominated at the start of the battle.
-
-#namecost("CARNOSAUR PENDANT", "10 points")
-
-Saurus Oldblood or Scar-Veteran. The bearer of this item gains the Blood Frenzy special rule.
-
-#namecost("PLAQUE OF FATE", "10 points")
-
-The bearer of this item may re-roll one roll To Hit, To Wound, armour or invulnerable save per turn.
-
-#namecost("RELOCATION ORB", "10 points")
-
-Slann only. One use only. If the bearer of this item has suffered any unsaved Wounds at the end of any phase, they may be moved anywhere within 12" just like a summoning spell, even if they are in combat.
-
-#runin[SOTEK]'#runin[S GAZE 10 points] Skink only. This item gives the wearer the Fear special rule
-
-#namecost("WAR DRUM OF XAHUTEC", "10 points")
-
-All friendly units within 12" of the bearer of this item do not need to pass a Leadership test in order to march, regardless of the proximity of enemy units. In addition, they gain +1 Leadership when attempting to Rally.
-
-#namecost("DRAGONFLY OF QUICKSILVER", "5 points")
-
-If both players have models with the Scouts special rule, the Lizardmen player adds +1 to their dice roll when rolling to see who deploys their Scouts first.
 ]
 
-#entry("MAGIC STANDARDS")
-#namecost("TOTEM OF PROPHECY", "40 points")
+#enchanted-item("THE HORN OF KYGOR", 25, one-use: true)[The bearer of this item can sound it at the start of any of his Movement phases. If they do so, all friendly mounts, War Beasts, Monstrous Beasts and Monsters within 12" of the bearer have the Frenzy special rule until the start of their next Movement phase.]
 
-All enemy units with Line of Sight to this standard suffer a \-1 penalty to their Leadership. This standard has no effect on models with Immunity (Psychology).
+#enchanted-item("GLEAMING PENDANT OF CHOTEC", 30, one-use: true)[This item may be used at the start of any close combat phase. For the remainder of the phase, all enemy units in base contact with the wearer or the unit it is with gain the Always Strikes Last special rule.]
 
-#namecost("HUANCHI'S BLESSED TOTEM", "35 points")
+#enchanted-item("STAR TABLET", 30, only: "Infantry")[Before deployment, the bearer of this item and one unit they must join gains the Scouts special rule.]
 
-Bound Spell, (Level 3, cast on 9+). This standard contains a *conveyance* spell that targets the unit carrying it. The unit may immediately make a move directly forward using the Random Movement (2D6) special rule.
+#enchanted-item("THE INCANTATION OF XETLIPOCUTZL", 25, one-use: true)[The bearer can use this item at the start of any of your Magic phases. All enemy units within 12" must immediately take a Panic test using an additional D6, discarding the lowest result.]
 
-#namecost("SUN STANDARD OF CHOTEC", "35 points")
+#enchanted-item("THRONE OF THE LOST GODS", 20, only: "Slann Mage-Priest")[The model gains +1 Wound and the Fly (8) special rule.]
 
-All missile attacks targeted at the unit carrying this standard from within 12" suffer \-2 To Hit, or \-1 To Hit if fired from over 12" away.
+#enchanted-item("CHARM OF THE JAGUAR WARRIOR", 15, only: "Saurus on foot")[This item gives the bearer Movement 8 and the Scouts special rule.]
 
-#namecost("SKAVENPELT BANNER", "30 points")
+#enchanted-item("CURSE-CHARM OF TEPOK", 15, one-use: true)[When an enemy Wizard rolls on the Miscast table, the bearer of this item may force them to re-roll the result.]
 
-The unit carrying this standard gains the Frenzy and Hatred (Skaven) special rules. However, all models from _Warhammer: Skaven_ gain the Hatred special rule against the unit carrying the banner.
+#enchanted-item("BANE HEAD", 10)[The bearer of this item gains the Multiple Wounds (2) special rule against one enemy model, nominated at the start of the battle.]
 
-#namecost("THE JAGUAR STANDARD", "25 points")
+#enchanted-item("CARNOSAUR PENDANT", 10)[Saurus Oldblood or Scar-Veteran. The bearer of this item gains the Blood Frenzy special rule.]
 
-The unit carrying this standard adds D3" to their charge or pursue distance.
+#enchanted-item("PLAQUE OF FATE", 10)[The bearer of this item may re-roll one roll To Hit, To Wound, armour or invulnerable save per turn.]
 
-#namecost("SIGN OF SOTEK", "20 points")
+#enchanted-item("RELOCATION ORB", 10, only: "Slann", one-use: true)[If the bearer of this item has suffered any unsaved Wounds at the end of any phase, they may be moved anywhere within 12" just like a summoning spell, even if they are in combat.]
 
-Skinks only. The unit carrying this standard may re-roll failed rolls To Wound on any turn it charges.
+#enchanted-item("SOTEK'S GAZE", 10, only: "Skink")[This item gives the wearer the Fear special rule]
+
+#enchanted-item("WAR DRUM OF XAHUTEC", 10)[All friendly units within 12" of the bearer of this item do not need to pass a Leadership test in order to march, regardless of the proximity of enemy units. In addition, they gain +1 Leadership when attempting to Rally.]
+
+#enchanted-item("DRAGONFLY OF QUICKSILVER", 5)[If both players have models with the Scouts special rule, the Lizardmen player adds +1 to their dice roll when rolling to see who deploys their Scouts first.]
+]
+
+#magic-item-section("standard")[
+#magic-standard("TOTEM OF PROPHECY", 40)[All enemy units with Line of Sight to this standard suffer a \-1 penalty to their Leadership. This standard has no effect on models with Immunity (Psychology).]
+
+#magic-standard("HUANCHI'S BLESSED TOTEM", 35, bound: (level: 3, cast: "9+"))[This standard contains a *conveyance* spell that targets the unit carrying it. The unit may immediately make a move directly forward using the Random Movement (2D6) special rule.]
+
+#magic-standard("SUN STANDARD OF CHOTEC", 35)[All missile attacks targeted at the unit carrying this standard from within 12" suffer \-2 To Hit, or \-1 To Hit if fired from over 12" away.]
+
+#magic-standard("SKAVENPELT BANNER", 30)[The unit carrying this standard gains the Frenzy and Hatred (Skaven) special rules. However, all models from _Warhammer: Skaven_ gain the Hatred special rule against the unit carrying the banner.]
+
+#magic-standard("THE JAGUAR STANDARD", 25)[The unit carrying this standard adds D3" to their charge or pursue distance.]
+
+#magic-standard("SIGN OF SOTEK", 20, only: "Skinks")[The unit carrying this standard may re-roll failed rolls To Wound on any turn it charges.]
+]
 
 = CHARACTERS
 
-#entry("SLANN MAGE-PRIEST", first: true)
-#profile(
-  (name: "Slann Mage-Priest", m: 4, ws: 1, bs: 3, s: 3, t: 4, w: 5, i: 1, a: 0, ld: 9, points: 360),
-  (name: "Skink Attendant", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: "-", points: ""),
-)
-#field("TROOP TYPE", "Monstrous Infantry (Character, Lizardman, Slann)")
-#field("BASE SIZE", "50x50, 60x60 or 75x75")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "A Slann Mage-Priest is a Level 4 Wizard who uses one of the following Lores of Magic:")
-
+#unit("SLANN MAGE-PRIEST",
+  first: true,
+  profiles: (
+    (name: "Slann Mage-Priest", m: 4, ws: 1, bs: 3, s: 3, t: 4, w: 5, i: 1, a: 0, ld: 9, points: 360),
+    (name: "Skink Attendant", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: "-", points: ""),
+  ),
+  troop-type: "Monstrous Infantry (Character, Lizardman, Slann)",
+  base-size: "50x50, 60x60 or 75x75",
+  equipment: "Hand weapon",
+  magic: "A Slann Mage-Priest is a Level 4 Wizard who uses one of the following Lores of Magic:",
+  magic-body: [
 - Beasts
 - Death
 - Heavens
@@ -520,40 +368,38 @@ Skinks only. The unit carrying this standard may re-roll failed rolls To Wound o
 - Life
 - Metal
 - Shadow
-
-#field("SPECIAL RULES", "Cold-Blooded, Magical Ward (4+)")
-
-- *Arcane Might:* The model gain a +1 casting and dispelling bonus.
-- *Mage-Priest Palanquin:* The Palanquin gives the Slann Mage-Priest the Inspiring Presence (6) and Strider special rules. Additionally, while they have the troop type Monstrous Infantry, they are never considered to be ‘models on foot' for the purposes of spells, magic items and special rules.
-- *Telepathic Confabulation:* At the start of each friendly Magic phase, before dice are rolled to determine the strength of the Winds of Magic, you may pick two friendly Wizards with this special rule anywhere on the battlefield and they may exchange a single spell with each other. In subsequent turns, a different pairing of Wizards with this special rule may be chosen.
-
-#field("UPGRADES", "")
-
-- *Skink Attendant:* A Skink Attendant is placed on the same base as the Slann. They increase the Unit Strength of the model by 1.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Cold-Blooded, Magical Ward (4+)",
+  special-rules-body: (
+    rule("Arcane Might")[The model gain a +1 casting and dispelling bonus.],
+    rule("Mage-Priest Palanquin")[The Palanquin gives the Slann Mage-Priest the Inspiring Presence (6) and Strider special rules. Additionally, while they have the troop type Monstrous Infantry, they are never considered to be ‘models on foot' for the purposes of spells, magic items and special rules.],
+    rule("Telepathic Confabulation")[At the start of each friendly Magic phase, before dice are rolled to determine the strength of the Winds of Magic, you may pick two friendly Wizards with this special rule anywhere on the battlefield and they may exchange a single spell with each other. In subsequent turns, a different pairing of Wizards with this special rule may be chosen.],
+  ),
+  upgrades: (
+    rule("Skink Attendant")[A Skink Attendant is placed on the same base as the Slann. They increase the Unit Strength of the model by 1.],
+  ),
+  options: [
 - May choose one of the following:
   - Skink Attendant +3 points
   - Replace Mage-Priest Palanquin with a Temple Guard Palanquin +25 points
 - One Slann Mage-Priest may carry the Battle Standard +25 points
 - May take Magic Items and/or Disciplines of the Old Ones up to a total of 100 points
-
-#field("NOTES", "")
-
-- *Battle Standard:* The Battle Standard Bearer can have a magic banner with no points limit. However, a Slann carrying a magic standard can only take other magic items and/or Disciplines of the Old Ones up to a total of 50 points. A Slann carrying the Battle Standard may still be the Army General.
-
-#entry("SAURUS LEADERS")
-#profile(
-  (name: "Oldblood", m: 4, ws: 6, bs: 0, s: 5, t: 5, w: 3, i: 3, a: 5, ld: 8, points: 140),
-  (name: "Scar-Veteran", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 90),
+  ],
+  notes: (
+    rule("Battle Standard")[The Battle Standard Bearer can have a magic banner with no points limit. However, a Slann carrying a magic standard can only take other magic items and/or Disciplines of the Old Ones up to a total of 50 points. A Slann carrying the Battle Standard may still be the Army General.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Character, Lizardman, Saurus)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Cold-blooded, Predatory Fighter, Natural Armour (5+)")
-#field("OPTIONS", "")
 
+#unit("SAURUS LEADERS",
+  profiles: (
+    (name: "Oldblood", m: 4, ws: 6, bs: 0, s: 5, t: 5, w: 3, i: 3, a: 5, ld: 8, points: 140),
+    (name: "Scar-Veteran", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 90),
+  ),
+  troop-type: "Infantry (Character, Lizardman, Saurus)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: "Cold-blooded, Predatory Fighter, Natural Armour (5+)",
+  options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Spear +5 points
@@ -571,22 +417,22 @@ Skinks only. The unit carrying this standard may re-roll failed rolls To Wound o
 - One Scar-Veteran may carry the Battle Standard +25 points
 - A Scar-Veteran may take Blessed Spawnings and/or Magic Items up to a total of 50 points
 - An Oldblood may take Blessed Spawnings and/or Magic Items up to a total of 100 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
-
-#entry("SKINK CHIEFS")
-#profile(
-  (name: "High Chief", m: 6, ws: 5, bs: 6, s: 4, t: 3, w: 3, i: 7, a: 4, ld: 7, points: 70),
-  (name: "Chief", m: 6, ws: 4, bs: 5, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 6, points: 35),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Lizardman, Skink)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Natural Armour (6+)")
-#field("OPTIONS", "")
 
+#unit("SKINK CHIEFS",
+  profiles: (
+    (name: "High Chief", m: 6, ws: 5, bs: 6, s: 4, t: 3, w: 3, i: 7, a: 4, ld: 7, points: 70),
+    (name: "Chief", m: 6, ws: 4, bs: 5, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 6, points: 35),
+  ),
+  troop-type: "Infantry (Character, Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+)",
+  options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Spear +5 points
@@ -607,33 +453,33 @@ Skinks only. The unit carrying this standard may re-roll failed rolls To Wound o
   - Stegadon (High Chief only, replacing one of the crew) +190 points
 - A Chief may take Blessed Spawnings and/or Magic Items up to a total of 50 points
 - A High Chief may take Blessed Spawnings and/or Magic Items up to a total of 100 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Skink High Chief mounted on a Stegadon loses their Natural Armour special rule.
-
-#entry("SKINK PRIESTS")
-#profile(
-  (name: "High Priest", m: 6, ws: 3, bs: 3, s: 3, t: 2, w: 3, i: 5, a: 2, ld: 6, points: 165),
-  (name: "Priest", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 2, i: 4, a: 1, ld: 5, points: 60),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Lizardman, Skink)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC", "A Priest is a Level 1 Wizard. A High Priest is a Level 3 Wizard. They use one of the following Lores of Magic:")
 
+#unit("SKINK PRIESTS",
+  profiles: (
+    (name: "High Priest", m: 6, ws: 3, bs: 3, s: 3, t: 2, w: 3, i: 5, a: 2, ld: 6, points: 165),
+    (name: "Priest", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 2, i: 4, a: 1, ld: 5, points: 60),
+  ),
+  troop-type: "Infantry (Character, Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Priest is a Level 1 Wizard. A High Priest is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
 - Beasts
 - Heavens
 - Fire
 - Life
 - Light
-
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Natural Armour (6+)")
-
-- *Arcane Vassal:* A Slann Mage-Priest can choose to cast any magical missile or direct damage spell through a model with this special rule within 24". If they do so, measure the spell's range from the Arcane Vassal and use that model's forward arc and line of sight for the purposes of casting the spell. If using an Arcane Vassal, a Slann Mage-Priest can cast magic missiles, even if their own unit is engaged in close combat (provided that the Arcane Vassal's is not). If a spell cast through an Arcane Vassal is miscast, the result of the miscast is applied to the Slann Mage-Priest, but the Arcane Vassal suffers a Strength 3 hit.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+)",
+  special-rules-body: (
+    rule("Arcane Vassal")[A Slann Mage-Priest can choose to cast any magical missile or direct damage spell through a model with this special rule within 24". If they do so, measure the spell's range from the Arcane Vassal and use that model's forward arc and line of sight for the purposes of casting the spell. If using an Arcane Vassal, a Slann Mage-Priest can cast magic missiles, even if their own unit is engaged in close combat (provided that the Arcane Vassal's is not). If a spell cast through an Arcane Vassal is miscast, the result of the miscast is applied to the Slann Mage-Priest, but the Arcane Vassal suffers a Strength 3 hit.],
+  ),
+  options: [
 - A Skink Priest may be upgraded to Level 2 Wizard +35 points
 - May be mounted on one of the following:
   - Terradon +35 points
@@ -642,165 +488,176 @@ Skinks only. The unit carrying this standard may re-roll failed rolls To Wound o
   - Coatl (High Priest only) +270 points
 - A Priest may take Blessed Spawnings and/or Magic Items up to a total of 50 points
 - A High Priest may take Blessed Spawnings and/or Magic Items up to a total of 100 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Skink High Priest mounted on a Stegadon loses their Natural Armour special rule.
-
-#entry("KROXIGOR ANCIENT")
-#profile(
-  (name: "Ancient", m: 6, ws: 5, bs: 0, s: 6, t: 5, w: 4, i: 2, a: 5, ld: 8, points: 170),
+  ],
 )
-#field("TROOP TYPE", "Monstrous Infantry (Character, Lizardman, Kroxigor)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Great weapon")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Predatory Fighter, Natural Armour (3+)")
-#field("OPTIONS", "")
 
+#unit("KROXIGOR ANCIENT",
+  profiles: (
+    (name: "Ancient", m: 6, ws: 5, bs: 0, s: 6, t: 5, w: 4, i: 2, a: 5, ld: 8, points: 170),
+  ),
+  troop-type: "Monstrous Infantry (Character, Lizardman, Kroxigor)",
+  base-size: "40x40 or 50x50",
+  equipment: "Great weapon",
+  special-rules: "Aquatic, Cold-blooded, Predatory Fighter, Natural Armour (3+)",
+  options: [
 - May replace great weapons with war gauntlets free
 - May take light armour +16 points
 - May take Blessed Spawnings and/or Magic Items up to a total of 50 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Kroxigor Ancient may never be the Army General.
-
-#entry("CHAMELEON STALKER")
-#profile(
-  (name: "Stalker", m: 6, ws: 4, bs: 6, s: 4, t: 3, w: 2, i: 6, a: 2, ld: 6, points: 45),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Character, Lizardman, Skink)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, blowpipe")
-#field("SPECIAL RULES", "Aquatic, Chameleon, Cold-blooded, Forest Strider, Natural Armour (6+), Scouts, Sniper")
-#field("OPTIONS", "")
 
+#unit("CHAMELEON STALKER",
+  profiles: (
+    (name: "Stalker", m: 6, ws: 4, bs: 6, s: 4, t: 3, w: 2, i: 6, a: 2, ld: 6, points: 45),
+  ),
+  troop-type: "Infantry (Character, Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, blowpipe",
+  special-rules: "Aquatic, Chameleon, Cold-blooded, Forest Strider, Natural Armour (6+), Scouts, Sniper",
+  options: [
 - May replace blowpipe with one of the following:
   - Sling & shield +1 point
   - Javelins & shield +3 points
 - May take Blessed Spawnings and/or Magic Items up to a total of 50 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - A Chameleon Stalker may never be the Army General.
+  ],
+)
 
 = CHARACTER MOUNTS
 
-#entry("TEMPLE GUARD PALANQUIN", first: true)
-#profile(
-  (name: "Temple Guard", m: 4, ws: 4, bs: 0, s: 4, t: "-", w: "-", i: 2, a: 8, ld: 8, points: "-"),
-)
-#field("TROOP TYPE", "Monstrous Infantry (Lizardman, Saurus)")
-#field("BASE SIZE", "50x75 or 60x90")
-#field("SPECIAL RULES", "Cold-blooded, Inspiring Presence (6), Natural Armour (5+), Predatory Fighter, Stubborn")
-#field("NOTES", "")
-
+#unit("TEMPLE GUARD PALANQUIN",
+  first: true,
+  profiles: (
+    (name: "Temple Guard", m: 4, ws: 4, bs: 0, s: 4, t: "-", w: "-", i: 2, a: 8, ld: 8, points: "-"),
+  ),
+  troop-type: "Monstrous Infantry (Lizardman, Saurus)",
+  base-size: "50x75 or 60x90",
+  special-rules: "Cold-blooded, Inspiring Presence (6), Natural Armour (5+), Predatory Fighter, Stubborn",
+  notes: [
 - A Temple Guard Palanquin adds +4 Unit Strength to the model.
-
-#compact-entry("RAPTADON")[
-#profile(
-  (name: "Raptadon", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 3, points: "-"),
+  ],
 )
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("SPECIAL RULES", "Cold-Blooded")
-]
 
-#compact-entry("COLD ONE")[
-#profile(
-  (name: "Cold One", m: 7, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 3, points: "-"),
+#unit("RAPTADON",
+  compact: true,
+  profiles: (
+    (name: "Raptadon", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 3, points: "-"),
+  ),
+  troop-type: "War Beast (Saurian)",
+  base-size: "25x50 or 30x60",
+  special-rules: "Cold-Blooded",
 )
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("SPECIAL RULES", "Cold-Blooded, Fear, Natural Armour (6+), Stupidity")
-]
 
-#compact-entry("HORNED ONE")[
-#profile(
-  (name: "Horned One", m: 8, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 3, a: 2, ld: 3, points: "-"),
+#unit("COLD ONE",
+  compact: true,
+  profiles: (
+    (name: "Cold One", m: 7, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 3, points: "-"),
+  ),
+  troop-type: "War Beast (Saurian)",
+  base-size: "25x50 or 30x60",
+  special-rules: "Cold-Blooded, Fear, Natural Armour (6+), Stupidity",
 )
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("SPECIAL RULES", "Cold-Blooded, Fear, Natural Armour (6+)")
-]
 
-#compact-entry("TERRADON")[
-#profile(
-  (name: "Terradon", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 2, a: 1, ld: 3, points: "-"),
+#unit("HORNED ONE",
+  compact: true,
+  profiles: (
+    (name: "Horned One", m: 8, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 3, a: 2, ld: 3, points: "-"),
+  ),
+  troop-type: "War Beast (Saurian)",
+  base-size: "25x50 or 30x60",
+  special-rules: "Cold-Blooded, Fear, Natural Armour (6+)",
 )
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Fear, Fly (9), Forest Strider")
-]
 
-#entry("RIPPERDACTYL")
-#profile(
-  (name: "Ripperdactyl", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 3, a: 2, ld: 3, points: "-"),
+#unit("TERRADON",
+  compact: true,
+  profiles: (
+    (name: "Terradon", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 2, a: 1, ld: 3, points: "-"),
+  ),
+  troop-type: "War Beast (Saurian)",
+  base-size: "40x40",
+  special-rules: "Fear, Fly (9), Forest Strider",
 )
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Armour Piercing (1), Fear, Fly (9), Frenzy, Killing Blow, Toad Rage (see Ripperdactyl")
 
+#unit("RIPPERDACTYL",
+  profiles: (
+    (name: "Ripperdactyl", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 3, a: 2, ld: 3, points: "-"),
+  ),
+  troop-type: "War Beast (Saurian)",
+  base-size: "40x40",
+  special-rules: "Armour Piercing (1), Fear, Fly (9), Frenzy, Killing Blow, Toad Rage (see Ripperdactyl",
+  special-rules-body: [
 Riders)
-
-#compact-entry("AGGRADON")[
-#profile(
-  (name: "Aggradon", m: 7, ws: 4, bs: 0, s: 5, t: 4, w: 3, i: 2, a: 3, ld: 3, points: "-"),
+  ],
 )
-#field("TROOP TYPE", "Monstrous Beast (Saurian)")
-#field("BASE SIZE", "50x75")
-#field("SPECIAL RULES", "Blood Frenzy, Cold-Blooded, Natural Armour (5+)")
-]
 
-#entry("CARNOSAUR")
-#profile(
-  (name: "Carnosaur", m: 7, ws: 4, bs: 0, s: 6, t: 5, w: 5, i: 2, a: 4, ld: 5, points: "-"),
+#unit("AGGRADON",
+  compact: true,
+  profiles: (
+    (name: "Aggradon", m: 7, ws: 4, bs: 0, s: 5, t: 4, w: 3, i: 2, a: 3, ld: 3, points: "-"),
+  ),
+  troop-type: "Monstrous Beast (Saurian)",
+  base-size: "50x75",
+  special-rules: "Blood Frenzy, Cold-Blooded, Natural Armour (5+)",
 )
-#field("TROOP TYPE", "Monster (Saurian)")
-#field("BASE SIZE", "50x75 or 50x100")
-#field("SPECIAL RULES", "Blood Frenzy, Cold-Blooded, Multiple Wounds (D3), Natural Armour (4+)")
-#field("UPGRADES", "")
 
-- *Bloodroar:* Enemy units must roll an additional D6, discarding the lowest result, for Leadership tests to resolve Terror effects caused by this beast.
-- *Loping Stride:* A model with this upgrade has +1 Movement.
-
-#field("OPTIONS", "")
-
+#unit("CARNOSAUR",
+  profiles: (
+    (name: "Carnosaur", m: 7, ws: 4, bs: 0, s: 6, t: 5, w: 5, i: 2, a: 4, ld: 5, points: "-"),
+  ),
+  troop-type: "Monster (Saurian)",
+  base-size: "50x75 or 50x100",
+  special-rules: "Blood Frenzy, Cold-Blooded, Multiple Wounds (D3), Natural Armour (4+)",
+  upgrades: (
+    rule("Bloodroar")[Enemy units must roll an additional D6, discarding the lowest result, for Leadership tests to resolve Terror effects caused by this beast.],
+    rule("Loping Stride")[A model with this upgrade has +1 Movement.],
+  ),
+  options: [
 - May choose any of the following:
   - Loping Stride +5 points
   - Bloodroar +15 points
+  ],
+)
 
 = CORE UNITS
 
-#entry("SAURUS WARRIORS", first: true)
-#profile(
-  (name: "Saurus Warrior", m: 4, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 1, a: 2, ld: 8, points: 13),
-)
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Lizardman, Saurus)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "Cold-blooded, Predatory Fighter, Natural Armour (5+)")
-#field("OPTIONS", "")
-
+#unit("SAURUS WARRIORS",
+  first: true,
+  profiles: (
+    (name: "Saurus Warrior", m: 4, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 1, a: 2, ld: 8, points: 13),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Lizardman, Saurus)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon, shield",
+  special-rules: "Cold-blooded, Predatory Fighter, Natural Armour (5+)",
+  options: [
 - May take spears +1 point/model
 - May take a Blessed Spawning +1 point/model
 - May upgrade one Saurus Warrior to a Leader +5 points
 - May upgrade one Saurus Warrior to a Musician +5 points
 - May upgrade one Saurus Warrior to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("SKINK COHORT")
-#profile(
-  (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 3),
+  ],
 )
-#field("UNIT SIZE", "20-60")
-#field("TROOP TYPE", "Infantry (Lizardman, Skink)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Natural Armour (6+), Poisoned Attacks (")
-#field("OPTIONS", "")
 
+#unit("SKINK COHORT",
+  profiles: (
+    (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 3),
+  ),
+  unit-size: "20-60",
+  troop-type: "Infantry (Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, shield",
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+), Poisoned Attacks (",
+  options: [
 - May choose one of the following:
   - Spears +0.5 point/model
   - Replace shields with shortbows +1 point/model
@@ -811,21 +668,22 @@ Riders)
 - May upgrade one Skink to a Musician +5 points
 - May upgrade one Skink to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("SKINK SKIRMISHERS")
-#profile(
-  (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 5),
+  ],
 )
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Lizardman, Skink)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, blowpipe")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Natural Armour (6+), Skirmishers")
 
-- *Skirmish Screen:* Friendly units of Kroxigors can move through friendly units of Skink Skirmishers as if they were Open Terrain (note that they must end their Movement at least 1" apart as normal). If the Kroxigors make a move that would result in it ending on top of a unit of Skink Skirmishers, simply move the Skink Skirmishers aside by the smallest amount possible to make room for the Kroxigors.
-
-#field("OPTIONS", "")
-
+#unit("SKINK SKIRMISHERS",
+  profiles: (
+    (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 5),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, blowpipe",
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+), Skirmishers",
+  special-rules-body: (
+    rule("Skirmish Screen")[Friendly units of Kroxigors can move through friendly units of Skink Skirmishers as if they were Open Terrain (note that they must end their Movement at least 1" apart as normal). If the Kroxigors make a move that would result in it ending on top of a unit of Skink Skirmishers, simply move the Skink Skirmishers aside by the smallest amount possible to make room for the Kroxigors.],
+  ),
+  options: [
 - May replace blowpipes with one of the following:
   - Slings & shields +1 point/model
   - Javelins & shields +1 points/model
@@ -833,20 +691,21 @@ Riders)
 - May take a Blessed Spawning +1 point/model
 - May upgrade one Skink to a Leader +5 points
 - May upgrade one Skink to a Musician +5 points
-
-#entry("RAPTADON RIDERS")
-#profile(
-  (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 12),
-  (name: "Raptadon", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 3, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Lizardman, Skink)")
-#field("MOUNT", "Raptadon (Saurian)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("EQUIPMENT", "Hand weapon, light lance, shield")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Fast Cavalry, Natural Armour (6+)")
-#field("OPTIONS", "")
 
+#unit("RAPTADON RIDERS",
+  profiles: (
+    (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 12),
+    (name: "Raptadon", m: 8, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 3, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Lizardman, Skink)",
+  mount: "Raptadon (Saurian)",
+  base-size: "25x50 or 30x60",
+  equipment: "Hand weapon, light lance, shield",
+  special-rules: "Aquatic, Cold-blooded, Fast Cavalry, Natural Armour (6+)",
+  options: [
 - May replace light lances with javelins +1 point/model
 - May take Firefly Frog Venom +2 points/model
 - May take a Blessed Spawning +1 point/model
@@ -854,145 +713,155 @@ Riders)
 - May upgrade one Raptadon Rider to a Musician +5 points
 - May upgrade one Raptadon Rider to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#compact-entry("JUNGLE SWARMS")[
-#profile(
-  (name: "Jungle Swarm", m: 5, ws: 3, bs: 0, s: 2, t: 2, w: 6, i: 1, a: 6, ld: 3, points: 30),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Swarm (Reptile)")
-#field("BASE SIZE", "40x40")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Poisoned Attacks")
-]
 
-#compact-entry("TERRAWINGS")[
-#profile(
-  (name: "Terrawing", m: 2, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 3, points: 10),
+#unit("JUNGLE SWARMS",
+  compact: true,
+  profiles: (
+    (name: "Jungle Swarm", m: 5, ws: 3, bs: 0, s: 2, t: 2, w: 6, i: 1, a: 6, ld: 3, points: 30),
+  ),
+  unit-size: "3-9",
+  troop-type: "Swarm (Reptile)",
+  base-size: "40x40",
+  special-rules: "Aquatic, Cold-blooded, Poisoned Attacks",
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("SPECIAL RULES", "Cold-blooded, Fly (10), Forest Strider")
-]
+
+#unit("TERRAWINGS",
+  compact: true,
+  profiles: (
+    (name: "Terrawing", m: 2, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 3, points: 10),
+  ),
+  unit-size: "5-15",
+  troop-type: "War Beast (Saurian)",
+  base-size: "25x25 or 30x30",
+  special-rules: "Cold-blooded, Fly (10), Forest Strider",
+)
 
 = SPECIAL UNITS
 
-#entry("TEMPLE GUARD", first: true)
-#profile(
-  (name: "Temple Guard", m: 4, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 8, points: 17),
-)
-#field("UNIT SIZE", "10-30")
-#field("TROOP TYPE", "Infantry (Lizardman, Saurus)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("EQUIPMENT", "Polearm, shield")
-#field("SPECIAL RULES", "Cold-blooded, Predatory Fighter, Natural Armour (5+), Stubborn")
-
+#unit("TEMPLE GUARD",
+  first: true,
+  profiles: (
+    (name: "Temple Guard", m: 4, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 8, points: 17),
+  ),
+  unit-size: "10-30",
+  troop-type: "Infantry (Lizardman, Saurus)",
+  base-size: "25x25 or 30x30",
+  equipment: "Polearm, shield",
+  special-rules: "Cold-blooded, Predatory Fighter, Natural Armour (5+), Stubborn",
+  special-rules-body: [
 - *Guardians:* When a Slann joins a unit whose front rank contains five or more models with the Guardians special rule, it must be placed in the second rank, rather than the first. If the unit's front rank is ever reduced to four or fewer models with the Guardians special rule, the Slann must immediately move to the front rank (displacing rank and file models if necessary).
 
 A Slann who is in base contact with a model with the Guardians special rule is considered to be the same Troop Type as them for the purpose of resolving missile attacks. When casting a direct damage or magical vortex spell that originates from the Slann's base, draw this spell from the base of the model in front of the Slann instead.
 
 - *Sacred Duty:* Whilst they are part of a combined unit that has been joined by a Slann, all Temple Guard models in the combined unit have the Immunity (Psychology) special rules.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take light armour +1 point/model
 - May take a Blessed Spawning +1 point/model
 - May upgrade one Temple Guard to a Leader +5 points
 - May upgrade one Temple Guard to a Musician +5 points
 - May upgrade one Temple Guard to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("COLD ONE RIDERS")
-#profile(
-  (name: "Saurus", m: 4, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 8, points: 24),
-  (name: "Cold One", m: 7, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 3, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Lizardman, Saurus)")
-#field("MOUNT", "Cold One (Saurian)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "Cold-blooded, Fear, Predatory Fighter, Natural Armour (4+), Stupidity")
-#field("OPTIONS", "")
 
+#unit("COLD ONE RIDERS",
+  profiles: (
+    (name: "Saurus", m: 4, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 8, points: 24),
+    (name: "Cold One", m: 7, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 3, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Lizardman, Saurus)",
+  mount: "Cold One (Saurian)",
+  base-size: "25x50 or 30x60",
+  equipment: "Hand weapon, shield",
+  special-rules: "Cold-blooded, Fear, Predatory Fighter, Natural Armour (4+), Stupidity",
+  options: [
 - May take light lances +2 points/model
 - May take a Blessed Spawning +2 points/model
 - May upgrade one Cold One Rider to a Leader +5 points
 - May upgrade one Cold One Rider to a Musician +5 points
 - May upgrade one Cold One Rider to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("KROXIGORS")
-#profile(
-  (name: "Kroxigor", m: 6, ws: 3, bs: 0, s: 5, t: 4, w: 3, i: 1, a: 3, ld: 7, points: 47),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Monstrous Infantry (Lizardman, Kroxigor)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Great weapon")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Natural Armour (4+), Predatory Fighter")
-#field("OPTIONS", "")
 
+#unit("KROXIGORS",
+  profiles: (
+    (name: "Kroxigor", m: 6, ws: 3, bs: 0, s: 5, t: 4, w: 3, i: 1, a: 3, ld: 7, points: 47),
+  ),
+  unit-size: "3-9",
+  troop-type: "Monstrous Infantry (Lizardman, Kroxigor)",
+  base-size: "40x40 or 50x50",
+  equipment: "Great weapon",
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (4+), Predatory Fighter",
+  options: [
 - May replace great weapons with war gauntlets free
 - May take a Blessed Spawning +3 points/model
 - May upgrade one Kroxigor to a Leader +5 points
-
-#entry("CHAMELEON SKINKS")
-#profile(
-  (name: "Chameleon Skink", m: 6, ws: 2, bs: 4, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 8),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Infantry (Lizardman, Skink)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon, blowpipe")
-#field("SPECIAL RULES", "Aquatic, Chameleon, Cold-blooded, Forest Strider, Natural Armour (6+), Scouts, Skirmishers")
-#field("OPTIONS", "")
 
+#unit("CHAMELEON SKINKS",
+  profiles: (
+    (name: "Chameleon Skink", m: 6, ws: 2, bs: 4, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 8),
+  ),
+  unit-size: "5-15",
+  troop-type: "Infantry (Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, blowpipe",
+  special-rules: "Aquatic, Chameleon, Cold-blooded, Forest Strider, Natural Armour (6+), Scouts, Skirmishers",
+  options: [
 - May replace blowpipes with slings & shields +1 point/model
 - May take Firefly Frog Venom +2 points/model
 - May take a Blessed Spawning +1 point/model
 - May upgrade one Chameleon Skink to a Leader +5 points
 - May upgrade one Chameleon Skink to a Musician +5 points
-
-#entry("HORNED ONE RIDERS")
-#profile(
-  (name: "Great Crested Skink", m: 6, ws: 3, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 6, points: 21),
-  (name: "Horned One", m: 8, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 3, a: 2, ld: 3, points: ""),
+  ],
 )
-#field("UNIT SIZE", "5-15")
-#field("TROOP TYPE", "Cavalry (Lizardman, Skink)")
-#field("MOUNT", "Horned One (Saurian)")
-#field("BASE SIZE", "25x50 or 30x60")
-#field("EQUIPMENT", "Light lance, shield")
-#field("SPECIAL RULES", "Cold-blooded, Fast Cavalry, Fear, Natural Armour (5+)")
-#field("OPTIONS", "")
 
+#unit("HORNED ONE RIDERS",
+  profiles: (
+    (name: "Great Crested Skink", m: 6, ws: 3, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 6, points: 21),
+    (name: "Horned One", m: 8, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 3, a: 2, ld: 3, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Lizardman, Skink)",
+  mount: "Horned One (Saurian)",
+  base-size: "25x50 or 30x60",
+  equipment: "Light lance, shield",
+  special-rules: "Cold-blooded, Fast Cavalry, Fear, Natural Armour (5+)",
+  options: [
 - May take a Blessed Spawning +2 points/model
 - May upgrade one Great Crested Skink to a Leader +5 points
 - May upgrade one Great Crested Skink to a Musician +5 points
 - May upgrade one Great Crested Skink to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-
-#entry("TERRADON RIDERS")
-#profile(
-  (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 22),
-  (name: "Terradon", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 2, a: 1, ld: 3, points: ""),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Cavalry (Lizardman, Skink)")
-#field("MOUNT", "Terradon (Saurian)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Hand weapon, light lance")
 
+#unit("TERRADON RIDERS",
+  profiles: (
+    (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: 22),
+    (name: "Terradon", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 2, a: 1, ld: 3, points: ""),
+  ),
+  unit-size: "3-9",
+  troop-type: "Cavalry (Lizardman, Skink)",
+  mount: "Terradon (Saurian)",
+  base-size: "40x40",
+  equipment: "Hand weapon, light lance",
+  equipment-body: [
 - *Fireleech Bolas:* Fireleech bolas have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "4", "Flaming Attacks, Quick Shot"))
-#field("SPECIAL RULES", "Cold-blooded, Fast Cavalry, Fear, Fly (9), Forest Strider, Natural Armour (6+)")
-
-- *Drop Rocks:* Once per game, during the Remaining Moves sub-phase, models with this special rule may drop rocks unless they are fleeing or have declared a charge that turn. All models in a unit must drop rocks at the same time. To drop rocks, select one unengaged enemy unit that the Terradons moved over in that turn. That target immediately suffers D3 Strength 4 hits for each Terradon in the unit, distributed as Hits from shooting.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Cold-blooded, Fast Cavalry, Fear, Fly (9), Forest Strider, Natural Armour (6+)",
+  special-rules-body: (
+    rule("Drop Rocks")[Once per game, during the Remaining Moves sub-phase, models with this special rule may drop rocks unless they are fleeing or have declared a charge that turn. All models in a unit must drop rocks at the same time. To drop rocks, select one unengaged enemy unit that the Terradons moved over in that turn. That target immediately suffers D3 Strength 4 hits for each Terradon in the unit, distributed as Hits from shooting.],
+  ),
+  options: [
 - May replace light lances with one of the following:
   - Shortbows free
   - Javelins +1 point/model
@@ -1002,43 +871,45 @@ A Slann who is in base contact with a model with the Guardians special rule is c
 - May take an additional Skink +5 points/model
 - May take a Blessed Spawning +2 points/model
 - May upgrade one Terradon Rider to a Leader +5 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - Terradon Riders with 2 Skinks have a Unit Strength of 3.
-
-#entry("RIPPERDACTYL RIDERS")
-#profile(
-  (name: "Skink Brave", m: 6, ws: 3, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 6, points: 30),
-  (name: "Ripperdactyl", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 3, a: 2, ld: 3, points: ""),
+  ],
 )
-#field("UNIT SIZE", "3-9")
-#field("TROOP TYPE", "Cavalry (Lizardman, Skink)")
-#field("MOUNT", "Ripperdactyl (Saurian)")
-#field("BASE SIZE", "40x40")
-#field("EQUIPMENT", "Light lance, shield")
-#field("SPECIAL RULES", "Armour Piercing (1) (Ripperdactyl only), Cold-blooded, Fast Cavalry, Fear, Fly (9), Frenzy")
 
+#unit("RIPPERDACTYL RIDERS",
+  profiles: (
+    (name: "Skink Brave", m: 6, ws: 3, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 6, points: 30),
+    (name: "Ripperdactyl", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 3, a: 2, ld: 3, points: ""),
+  ),
+  unit-size: "3-9",
+  troop-type: "Cavalry (Lizardman, Skink)",
+  mount: "Ripperdactyl (Saurian)",
+  base-size: "40x40",
+  equipment: "Light lance, shield",
+  special-rules: "Armour Piercing (1) (Ripperdactyl only), Cold-blooded, Fast Cavalry, Fear, Fly (9), Frenzy",
+  special-rules-body: [
 (Ripperdactyl only)*, Killing Blow* (Ripperdactyl only)*, Natural Armour (6+)*
 
 - *Toad Rage:* Before the game starts, but after Scouts have been deployed, a Lustrian blot toad marker can be placed for each unit of Ripperdactyl Riders in your army. A single blot toad marker can be placed on any enemy unit on the tabletop, this marker remains throughout the battle. When fighting in close combat against a unit with a blot toad marker, Ripperdactyls gain another level of Frenzy and the Hatred special rule.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take a Blessed Spawning +2 points/model
 - May upgrade one Ripperdactyl Rider to a Leader +5 points
-
-#entry("SALAMANDER")
-#profile(
-  (name: "Salamander", m: 6, ws: 3, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 4, points: 70),
-  (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("HANDLER", "3 Skinks (Lizardman, Skink)")
-#field("BASE SIZE", "40x40 or 50x50 (Salamander), 20x20 or 25x25 (Skink)")
-#field("EQUIPMENT", "Spear (Skinks only)")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Salamander only), Natural")
 
+#unit("SALAMANDER",
+  profiles: (
+    (name: "Salamander", m: 6, ws: 3, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 4, points: 70),
+    (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "War Beast (Saurian)",
+  handler: "3 Skinks (Lizardman, Skink)",
+  base-size: "40x40 or 50x50 (Salamander), 20x20 or 25x25 (Skink)",
+  equipment: "Spear (Skinks only)",
+  special-rules: "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Salamander only), Natural",
+  special-rules-body: [
 *Armour (6+)* (Skink Handler only)*, Skirmishers.*
 
 - *Spout Flames:* Spout Flames shoots like a fire thrower with the following profile:
@@ -1046,18 +917,20 @@ A Slann who is in base contact with a model with the Guardians special rule is c
 #minitable(("Range", "Strength", "Special Rules"), ("n/a", "4", "Flaming Attacks, Slow to Fire"))
 
 If the artillery dice result is a misfire, no shots are fired and D3 Skink handlers are removed as casualties. If all Skink handlers are removed, the Salamander is subject to Frenzy for the remainder of the game.
-
-#entry("RAZORDON")
-#profile(
-  (name: "Razordon", m: 6, ws: 3, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 4, points: 50),
-  (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "War Beast (Saurian)")
-#field("HANDLER", "3 Skinks (Lizardman, Skink)")
-#field("BASE SIZE", "40x40 or 50x50 (Razordon), 20x20 or 25x25 (Skink)")
-#field("EQUIPMENT", "Spear (Skinks only)")
-#field("SPECIAL RULES", "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Razordon only), Natural")
 
+#unit("RAZORDON",
+  profiles: (
+    (name: "Razordon", m: 6, ws: 3, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 4, points: 50),
+    (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "War Beast (Saurian)",
+  handler: "3 Skinks (Lizardman, Skink)",
+  base-size: "40x40 or 50x50 (Razordon), 20x20 or 25x25 (Skink)",
+  equipment: "Spear (Skinks only)",
+  special-rules: "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Razordon only), Natural",
+  special-rules-body: [
 *Armour (6+)* (Skink Handler only)*, Skirmishers.*
 
 - *Instinctive Defence:* If charged, a Razordon must Stand and Shoot if it is able to do so. However, when calculating the number of shots fired, the Razordon can re-roll the artillery dice. In addition, it gains the Quick to Fire special rule and does not suffer To Hit penalties for Stand and Shoot.
@@ -1066,40 +939,44 @@ If the artillery dice result is a misfire, no shots are fired and D3 Skink handl
 #minitable(("Range", "Strength", "Special Rules"), ("18\"", "4", "Armour Piercing (1), Rapid Fire"))
 
 If the artillery dice result is a misfire, no shots are fired and D3 Skink Handlers are removed as casualties. If all Skink handlers are removed, the Razordon is subject to Stupidity for the remainder of the game.
+  ],
+)
 
 = RARE UNITS
 
-#entry("AGGRADON RIDERS", first: true)
-#profile(
-  (name: "Saurus", m: 4, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 8, points: 60),
-  (name: "Aggradon", m: 7, ws: 4, bs: 0, s: 5, t: 4, w: 3, i: 2, a: 3, ld: 3, points: ""),
-)
-#field("UNIT SIZE", "3-6")
-#field("TROOP TYPE", "Monstrous Cavalry (Lizardman, Saurus)")
-#field("MOUNT", "Aggradon (Saurian)")
-#field("BASE SIZE", "50x75")
-#field("EQUIPMENT", "Hand weapon, shield")
-#field("SPECIAL RULES", "Blood Frenzy (Aggradon only), Cold-blooded, Predatory Fighter, Natural Armour (3+)")
-#field("OPTIONS", "")
-
+#unit("AGGRADON RIDERS",
+  first: true,
+  profiles: (
+    (name: "Saurus", m: 4, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 8, points: 60),
+    (name: "Aggradon", m: 7, ws: 4, bs: 0, s: 5, t: 4, w: 3, i: 2, a: 3, ld: 3, points: ""),
+  ),
+  unit-size: "3-6",
+  troop-type: "Monstrous Cavalry (Lizardman, Saurus)",
+  mount: "Aggradon (Saurian)",
+  base-size: "50x75",
+  equipment: "Hand weapon, shield",
+  special-rules: "Blood Frenzy (Aggradon only), Cold-blooded, Predatory Fighter, Natural Armour (3+)",
+  options: [
 - May take light lances +2 points/model
 - May take a Blessed Spawning +3 points/model
 - May upgrade one Aggradon Rider to a Leader +5 points
 - May upgrade one Aggradon Rider to a Musician +5 points
 - May upgrade one Aggradon Rider to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
-#entry("ANCIENT SALAMANDER")
-#profile(
-  (name: "Ancient Salamander", m: 6, ws: 3, bs: 3, s: 5, t: 4, w: 3, i: 4, a: 3, ld: 4, points: 110),
-  (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Monstrous Beast (Saurian)")
-#field("HANDLER", "3 Skinks (Lizardman, Skink)")
-#field("BASE SIZE", "50x75 (Ancient Salamander), 20x20 or 25x25 (Skink)")
-#field("EQUIPMENT", "Spear (Skinks only)")
-#field("SPECIAL RULES", "Aquatic, Armour Piercing (1) (Salamander only), Cold-blooded, Mixed Unit, Natural")
 
+#unit("ANCIENT SALAMANDER",
+  profiles: (
+    (name: "Ancient Salamander", m: 6, ws: 3, bs: 3, s: 5, t: 4, w: 3, i: 4, a: 3, ld: 4, points: 110),
+    (name: "Skink", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 1, i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Monstrous Beast (Saurian)",
+  handler: "3 Skinks (Lizardman, Skink)",
+  base-size: "50x75 (Ancient Salamander), 20x20 or 25x25 (Skink)",
+  equipment: "Spear (Skinks only)",
+  special-rules: "Aquatic, Armour Piercing (1) (Salamander only), Cold-blooded, Mixed Unit, Natural",
+  special-rules-body: [
 *Armour (5+)* (Salamander only)*, Natural Armour (6+)* (Skink Handler only)*, Skirmishers.*
 
 - *Stream of Fire:* Stream of Fire is a fire thrower with the following profile:
@@ -1107,17 +984,19 @@ If the artillery dice result is a misfire, no shots are fired and D3 Skink Handl
 #minitable(("Range", "Strength", "Special Rules"), ("6\"", "5", "Flaming Attacks, Slow to Fire"))
 
 If the artillery dice result is a misfire, no shots are fired and D3 Skink Handlers are removed as casualties. If all Skink handlers are removed, the Ancient Salamander is subject to Frenzy for the remainder of the game.
-
-#entry("BASTILADON")
-#profile(
-  (name: "Bastiladon", m: 4, ws: 3, bs: 0, s: 5, t: 6, w: 5, i: 1, a: 3, ld: 6, points: 175),
-  (name: "Skink", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Monster (Saurian)")
-#field("CREW", "3 Skinks (Lizardman, Skink)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("EQUIPMENT", "Ark of Sotek (Bastiladon only), javelins (Skinks only)")
 
+#unit("BASTILADON",
+  profiles: (
+    (name: "Bastiladon", m: 4, ws: 3, bs: 0, s: 5, t: 6, w: 5, i: 1, a: 3, ld: 6, points: 175),
+    (name: "Skink", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Monster (Saurian)",
+  crew: "3 Skinks (Lizardman, Skink)",
+  base-size: "50x100 or 60x100",
+  equipment: "Ark of Sotek (Bastiladon only), javelins (Skinks only)",
+  equipment-body: [
 - *Ark of Sotek:* At the end of each friendly turn, nominate a Jungle Swarm unit within 6" of each Bastiladon with an Ark of Sotek and roll a D6. On a 4+, add one base to the Jungle Swarm unit. This can take the Jungle Swarm unit beyond its starting size. If the base cannot be placed (because there is not enough room, or you don't have sufficient models), it is lost. In addition, the Ark of Sotek has a special shooting attack, with the profile and rules below:
 
 #minitable(("Range", "Strength", "Special Rules"), ("D6\"", "2", "-"))
@@ -1129,29 +1008,31 @@ The Ark of Sotek can be activated in any friendly Shooting phase, even if the Ba
 
 #chart((("D6", "Number of Hits:"), ("1", "D3 Strength 3 hits."), ("2-3", "D6 Strength 4 hits."), ("4-5", "2D6 Strength 5 hits."), ("6", "2D6 Strength 6 hits. In addition, the target suffers a -1 penalty to their Weapon Skill and Ballistic
 Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase.")))
-#field("SPECIAL RULES", "Cold-blooded, Natural Armour (2+), Stubborn")
-
-- *Impervious Defence:* For the purposes of calculating combat result bonuses, a Bastiladon counts as having no flanks or rear.
-- *Thunderous Bludgeon:* Before rolling To Hit, nominate one of the Bastiladon's Attacks as the Thunderous Bludgeon (a different coloured dice works best). This Attack is resolved at Strength 10 and receives a +1 To Hit bonus against models in the creature's rear arc.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Cold-blooded, Natural Armour (2+), Stubborn",
+  special-rules-body: (
+    rule("Impervious Defence")[For the purposes of calculating combat result bonuses, a Bastiladon counts as having no flanks or rear.],
+    rule("Thunderous Bludgeon")[Before rolling To Hit, nominate one of the Bastiladon's Attacks as the Thunderous Bludgeon (a different coloured dice works best). This Attack is resolved at Strength 10 and receives a +1 To Hit bonus against models in the creature's rear arc.],
+  ),
+  options: [
 - May take Firefly Frog Venom +6 points
 - May take an additional Skink +3 points
 - May replace the Ark of Sotek with one of the following:
   - Revivification Crystal +10 points
   - Solar Engine +40 points
-
-#entry("STEGADON")
-#profile(
-  (name: "Stegadon", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 5, i: 2, a: 4, ld: 6, points: 195),
-  (name: "Skink Crew", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Monster (Saurian)")
-#field("CREW", "5 Skinks (Lizardman, Skink)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("EQUIPMENT", "Giant bow, javelins (Skinks only)")
 
+#unit("STEGADON",
+  profiles: (
+    (name: "Stegadon", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 5, i: 2, a: 4, ld: 6, points: 195),
+    (name: "Skink Crew", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Monster (Saurian)",
+  crew: "5 Skinks (Lizardman, Skink)",
+  base-size: "50x100 or 60x100",
+  equipment: "Giant bow, javelins (Skinks only)",
+  equipment-body: [
 - *Giant Bow:* Instead of firing another missile weapon in the Shooting phase, one of the Skink Crew may fire the giant bow. This is a bolt thrower with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("36\"", "5", "Cumbersome, Multiple Wounds (D3)"))
@@ -1164,16 +1045,14 @@ Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase."
   - *Arcane Configuration:* If you have one or more Engines of the Gods on the battlefield at the start of your Magic phase, select one of the eight Lores of Battle Magic from the Warhammer rulebook. Until the start of your next Magic phase, the casting values for all spells from the selected lore are reduced by 1 (to a minimum of 3).
   - *Burning Alignment:* Bound spell (Level 2, cast on 8+). _Burning Alignment_ is a *direct damage aura* spell with a range of 12". Each target suffers D6 Strength 4 hits with the Flaming Attacks special rule.
   - *Portent of Warding:* The model and all friendly units within 6" have a Magical Ward (6+).
-
-#field("SPECIAL RULES", "Cold-blooded, Immunity (Psychology), Impact Hits (D6+1), Natural Armour (4+), Stubborn")
-#field("UPGRADES", "")
-
-- *Ancient:* The Stegadon gains +1 Strength and the Natural Armour (6+) special rule. However, they suffer \-1 Initiative and \-1 Attacks.
-- *Sharpened Horns:* The Stegadon's its Impact Hits gains the Multiple Wounds (D3) special rule.
-- *Unstoppable Stampede:* The Stegadon gains the Devastating Charge special rule.
-
-#field("OPTIONS", "")
-
+  ],
+  special-rules: "Cold-blooded, Immunity (Psychology), Impact Hits (D6+1), Natural Armour (4+), Stubborn",
+  upgrades: (
+    rule("Ancient")[The Stegadon gains +1 Strength and the Natural Armour (6+) special rule. However, they suffer \-1 Initiative and \-1 Attacks.],
+    rule("Sharpened Horns")[The Stegadon's its Impact Hits gains the Multiple Wounds (D3) special rule.],
+    rule("Unstoppable Stampede")[The Stegadon gains the Devastating Charge special rule.],
+  ),
+  options: [
 - May take Firefly Frog Venom +20 points
 - May replace giant bow with one of the following:
   - Giant blowpipes free
@@ -1182,82 +1061,87 @@ Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase."
   - Unstoppable Stampede +10 points
   - Sharpened Horns +20 points
   - Ancient +30 points
-
-#entry("ARCANADON")
-#profile(
-  (name: "Arcanadon", m: 6, ws: 2, bs: 0, s: 5, t: 6, w: 6, i: 1, a: 3, ld: 6, points: 210),
-  (name: "Skink", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Monster (Saurian)")
-#field("CREW", "3 Skinks (Lizardman, Skink)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("EQUIPMENT", "Power of the Ancients (Arcanadon only), javelins (Skinks only)")
 
-- *Power of the Ancients:* Arcane Item. Bound Spell. This item contains the _Fiery Blast_ spell from the Lore of Fire.
-
-#field("SPECIAL RULES", "Cold-blooded, Immunity (Psychology), Impact Hits (D6+1), Jungle Poisons, Natural")
-
+#unit("ARCANADON",
+  profiles: (
+    (name: "Arcanadon", m: 6, ws: 2, bs: 0, s: 5, t: 6, w: 6, i: 1, a: 3, ld: 6, points: 210),
+    (name: "Skink", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Monster (Saurian)",
+  crew: "3 Skinks (Lizardman, Skink)",
+  base-size: "50x100 or 60x100",
+  equipment: "Power of the Ancients (Arcanadon only), javelins (Skinks only)",
+  equipment-body: (
+    rule("Power of the Ancients")[Arcane Item. Bound Spell. This item contains the _Fiery Blast_ spell from the Lore of Fire.],
+  ),
+  special-rules: "Cold-blooded, Immunity (Psychology), Impact Hits (D6+1), Jungle Poisons, Natural",
+  special-rules-body: [
 *Armour (4+), Stubborn*
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take Firefly Frog Venom +6 points
-
-#entry("TROGLODON")
-#profile(
-  (name: "Troglodon", m: 7, ws: 3, bs: 4, s: 5, t: 5, w: 5, i: 2, a: 3, ld: 5, points: 155),
-  (name: "Oracle", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Monster (Saurian)")
-#field("CREW", "1 Oracle (Lizardman, Skink)")
-#field("BASE SIZE", "50x100")
-#field("EQUIPMENT", "Divining Rod (Oracle only)")
 
-- *Divining Rod:* Arcane Item. Staff. The model channels Power and Dispel dice as if they were a Level 1 Wizard.
-
-#field("SPECIAL RULES", "Aquatic, Arcane Vassal (see Skink Priests), Cold-blooded, Jungle Poisons, Poisoned Attacks")
-
+#unit("TROGLODON",
+  profiles: (
+    (name: "Troglodon", m: 7, ws: 3, bs: 4, s: 5, t: 5, w: 5, i: 2, a: 3, ld: 5, points: 155),
+    (name: "Oracle", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Monster (Saurian)",
+  crew: "1 Oracle (Lizardman, Skink)",
+  base-size: "50x100",
+  equipment: "Divining Rod (Oracle only)",
+  equipment-body: (
+    rule("Divining Rod")[Arcane Item. Staff. The model channels Power and Dispel dice as if they were a Level 1 Wizard.],
+  ),
+  special-rules: "Aquatic, Arcane Vassal (see Skink Priests), Cold-blooded, Jungle Poisons, Poisoned Attacks",
+  special-rules-body: [
 (Troglodon only)*, Predatory Fighter* (Troglodon only)*, Natural Armour (4+)*
 
 - *Primeval Roar:* Once per battle, at the start of any friendly Close Combat phase, a Troglodon can unleash its Primeval Roar. This affects all friendly units within 12". All models with the Predatory Fighter special rule gain an additional Attack on any successful To Hit roll of a 5+ until the end of the phase.
 - *Spit Venom:* A Troglodon can spit its venom as a shooting attack with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Multiple Wounds (D3), Poisoned Attacks, Quick Shot"))
-
-#entry("COATL")
-#profile(
-  (name: "Coatl", m: 5, ws: 4, bs: 0, s: 5, t: 5, w: 5, i: 2, a: 4, ld: 8, points: 270),
+  ],
 )
-#field("TROOP TYPE", "Monster (Ophidian)")
-#field("BASE SIZE", "50x100 or 100x100")
-#field("MAGIC", "A Coatl is a Level 2 Wizard that uses spells from the Lore of Heavens. In addition, they know the following")
 
+#unit("COATL",
+  profiles: (
+    (name: "Coatl", m: 5, ws: 4, bs: 0, s: 5, t: 5, w: 5, i: 2, a: 4, ld: 8, points: 270),
+  ),
+  troop-type: "Monster (Ophidian)",
+  base-size: "50x100 or 100x100",
+  magic: "A Coatl is a Level 2 Wizard that uses spells from the Lore of Heavens. In addition, they know the following",
+  magic-body: [
 spell:
 
 - *Guardian of the Sacred Places:* Level 1, cast on 5+. _Guardian of the Sacred Places_ is a special type of spell that targets a single forest within 12" of the caster. The target immediately moves up to 2D3" in a direction of your choice. A forest cannot move to within 1" of other terrain features.
-
-#field("SPECIAL RULES", "Cold-blooded, Fly (8), Magic Resistance (3), Natural Armour (4+)")
-
-- *Magical Storm:* All missile fire directed at a Coatl suffers a \-1 penalty to hit.
-
-#entry("DREAD SAURIAN")
-#profile(
-  (name: "Dread Saurian", m: 7, ws: 4, bs: 0, s: 8, t: 7, w: 10, i: 1, a: 6, ld: 6, points: 365),
+  ],
+  special-rules: "Cold-blooded, Fly (8), Magic Resistance (3), Natural Armour (4+)",
+  special-rules-body: (
+    rule("Magical Storm")[All missile fire directed at a Coatl suffers a \-1 penalty to hit.],
+  ),
 )
-#field("TROOP TYPE", "Monster (Saurian)")
-#field("BASE SIZE", "100x150")
-#field("SPECIAL RULES", "Cold-blooded, Immunity (Psychology), Multiple Wounds (D3), Natural Armour (3+)")
-#field("UPGRADES", "")
 
-- *Howdah:* The Dread Saurian is ridden by 6 Skinks (Lizardmen) who are equipped with blowpipes and have and Natural Armour (6+) special rule.
-- *The Blazing Configuration of Chotec:* The Dread Saurian gains the Flaming Attacks special rule and causes 2D6 Strength 4 Flaming Impact Hits.
-- *The Golden Shroud of Tlazcotl:* All attacks targeting the Dread Saurian suffer a \-1 To Hit modifier.
-- *Quetzl's Flawless Heartstone:* The Dread Saurian gains the Stubborn special rule and reduces its Movement rate to 5, but increases its Toughness to 8.
-- *The Shadow Rebus of Huanchi:* The Dread Saurian gains the Ambushers deployment special rule.
-- *Tepok's Crystalline Eye:* The Dread Saurian gains the Magical Ward (5+) special rule.
-
-#field("OPTIONS", "")
-
+#unit("DREAD SAURIAN",
+  profiles: (
+    (name: "Dread Saurian", m: 7, ws: 4, bs: 0, s: 8, t: 7, w: 10, i: 1, a: 6, ld: 6, points: 365),
+  ),
+  troop-type: "Monster (Saurian)",
+  base-size: "100x150",
+  special-rules: "Cold-blooded, Immunity (Psychology), Multiple Wounds (D3), Natural Armour (3+)",
+  upgrades: (
+    rule("Howdah")[The Dread Saurian is ridden by 6 Skinks (Lizardmen) who are equipped with blowpipes and have and Natural Armour (6+) special rule.],
+    rule("The Blazing Configuration of Chotec")[The Dread Saurian gains the Flaming Attacks special rule and causes 2D6 Strength 4 Flaming Impact Hits.],
+    rule("The Golden Shroud of Tlazcotl")[All attacks targeting the Dread Saurian suffer a \-1 To Hit modifier.],
+    rule("Quetzl's Flawless Heartstone")[The Dread Saurian gains the Stubborn special rule and reduces its Movement rate to 5, but increases its Toughness to 8.],
+    rule("The Shadow Rebus of Huanchi")[The Dread Saurian gains the Ambushers deployment special rule.],
+    rule("Tepok's Crystalline Eye")[The Dread Saurian gains the Magical Ward (5+) special rule.],
+  ),
+  options: [
 - May take a Howdah +50 points
 - May choose one of the following:
   - The Shadow Rebus of Huanchi +25 points
@@ -1265,20 +1149,24 @@ spell:
   - The Blazing Configuration of Chotec +35 points
   - The Golden Shroud of Tlazcotl +35 points
   - Tepok's Crystalline Eye +45 points
+  ],
+)
 
 = SPECIAL CHARACTERS
 
-#entry("LORD MAZDAMUNDI", first: true)
-#namecost("Lord of the Solar-City, He That Rides the Horned Beast", "")
-#profile(
-  (name: "Lord Mazdamundi", m: "-", ws: 2, bs: 3, s: 3, t: 4, w: 5, i: 2, a: 1, ld: 9, points: 730),
-  (name: "Zlaaq (Stegadon)", m: 6, ws: 3, bs: 0, s: 6, t: 6, w: 5, i: 1, a: 3, ld: 6, points: ""),
-)
-#field("TROOP TYPE", "Monster (Special Character, Lizardman, Slann)")
-#field("MOUNT", "Zlaaq (Saurian)")
-#field("BASE SIZE", "50x100 or 60x100")
-#field("MAGIC", "Lord Mazdamundi is a Level 4 Wizard who uses one of the following Lores of Magic:")
-
+#unit("LORD MAZDAMUNDI",
+  solo: true,
+  first: true,
+  subtitle: "Lord of the Solar-City, He That Rides the Horned Beast",
+  profiles: (
+    (name: "Lord Mazdamundi", m: "-", ws: 2, bs: 3, s: 3, t: 4, w: 5, i: 2, a: 1, ld: 9, points: 730),
+    (name: "Zlaaq (Stegadon)", m: 6, ws: 3, bs: 0, s: 6, t: 6, w: 5, i: 1, a: 3, ld: 6, points: ""),
+  ),
+  troop-type: "Monster (Special Character, Lizardman, Slann)",
+  mount: "Zlaaq (Saurian)",
+  base-size: "50x100 or 60x100",
+  magic: "Lord Mazdamundi is a Level 4 Wizard who uses one of the following Lores of Magic:",
+  magic-body: [
 - Beasts
 - Death
 - Heavens
@@ -1288,222 +1176,238 @@ spell:
 - Life
 - Metal
 - Shadow
-
-#field("DISCIPLINES OF THE OLD ONES", "Becalming Cogitation, Focus of Mystery, Harmonic Convergence, Soul of Stone, Transcendent Healing")
-#field("MAGIC ITEMS", "")
-
-- *Cobra Mace of Mazdamundi:* Magic Weapon. Attacks made with the Cobra Mace have the Always Strikes First and Poisoned Attacks special rules. At the start of every Close Combat phase, all enemy models in base contact with Lord Mazdamundi must reveal their magic items. If the wielder scores one or more hits against a model that has any magic items, roll a D6; on a 6, all of that model's magic items are immediately destroyed and cannot be used further in this game.
-- *The Itxi Grubs:* Arcane Item. Charm. One use only. This item can be used at the start of your Magic phase. Once used, the bearer gains +D3 Power dice that phase.
-- *Sunburst Standard of Hexoatl:* Magic Standard. The Sunburst Standard of Hexoatl is a Battle Standard – if your army includes Lord Mazdamundi, he must be your army's Battle Standard Bearer. This does not prevent Lord Mazdamundi from also being your Army General. In addition, once per game, at the beginning of any enemy Shooting phase, Lord Mazdamundi can release the power of the Sunburst Standard. If he does so, enemy models that target Mazdamundi, or any other friendly unit within 12", with a shooting attack, suffer a \-1 To Hit penalty. This effect lasts until the end of the turn.
-
-#field("SPECIAL RULES", "Arcane Might (see Slann-Mage Priests), Cold-blooded, Impact Hits (D6+1) (Zlaaq only), Immunity (Psychology), Natural Armour (3+), Stubborn, Telepathic Confabulation (see Slann-Mage Priests), Shield of the Old Ones (see Slann-Mage Priests)")
-
-- *Mage-Lord of Hexoatl:* Lord Mazdamundi can use one more power dice than normal when casting spells.
-
-#entry("LORD KROAK")
-#namecost("Venerable Relic-Priest, Deliverer of Itza", "")
-#profile(
-  (name: "Lord Kroak", m: 4, ws: 0, bs: 0, s: 3, t: 5, w: 6, i: 0, a: 0, ld: 9, points: 510),
-  (name: "Skink Attendant", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: "-", points: ""),
+  ],
+  disciplines-of-the-old-ones: "Becalming Cogitation, Focus of Mystery, Harmonic Convergence, Soul of Stone, Transcendent Healing",
+  magic-items: (
+    rule("Cobra Mace of Mazdamundi")[Magic Weapon. Attacks made with the Cobra Mace have the Always Strikes First and Poisoned Attacks special rules. At the start of every Close Combat phase, all enemy models in base contact with Lord Mazdamundi must reveal their magic items. If the wielder scores one or more hits against a model that has any magic items, roll a D6; on a 6, all of that model's magic items are immediately destroyed and cannot be used further in this game.],
+    rule("The Itxi Grubs")[Arcane Item. Charm. One use only. This item can be used at the start of your Magic phase. Once used, the bearer gains +D3 Power dice that phase.],
+    rule("Sunburst Standard of Hexoatl")[Magic Standard. The Sunburst Standard of Hexoatl is a Battle Standard – if your army includes Lord Mazdamundi, he must be your army's Battle Standard Bearer. This does not prevent Lord Mazdamundi from also being your Army General. In addition, once per game, at the beginning of any enemy Shooting phase, Lord Mazdamundi can release the power of the Sunburst Standard. If he does so, enemy models that target Mazdamundi, or any other friendly unit within 12", with a shooting attack, suffer a \-1 To Hit penalty. This effect lasts until the end of the turn.],
+  ),
+  special-rules: "Arcane Might (see Slann-Mage Priests), Cold-blooded, Impact Hits (D6+1) (Zlaaq only), Immunity (Psychology), Natural Armour (3+), Stubborn, Telepathic Confabulation (see Slann-Mage Priests), Shield of the Old Ones (see Slann-Mage Priests)",
+  special-rules-body: (
+    rule("Mage-Lord of Hexoatl")[Lord Mazdamundi can use one more power dice than normal when casting spells.],
+  ),
 )
-#field("TROOP TYPE", "Monstrous Infantry (Special Character, Lizardman, Slann)")
-#field("BASE SIZE", "50x50, 60x60 or 75x75")
-#field("MAGIC", "Lord Kroak is a Level 4 Wizard; however, he knows only one spell – The Deliverance of Itza. If this spell is")
 
+#unit("LORD KROAK",
+  solo: true,
+  subtitle: "Venerable Relic-Priest, Deliverer of Itza",
+  profiles: (
+    (name: "Lord Kroak", m: 4, ws: 0, bs: 0, s: 3, t: 5, w: 6, i: 0, a: 0, ld: 9, points: 510),
+    (name: "Skink Attendant", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: "-", points: ""),
+  ),
+  troop-type: "Monstrous Infantry (Special Character, Lizardman, Slann)",
+  base-size: "50x50, 60x60 or 75x75",
+  magic: "Lord Kroak is a Level 4 Wizard; however, he knows only one spell – The Deliverance of Itza. If this spell is",
+  magic-body: [
 lost, forgotten, swapped or stolen by any means, Lord Kroak will immediately remember it again and, if applicable, the Wizard that swapped or stole it will immediately forget it.
 
-#namecost("THE DELIVERANCE OF ITZA", "")
-#namecost("Level 4 Cast on 12+", "")
-
-_The Deliverance of Itza_ is a *direct damage* spell that targets all enemy units within 12" of the caster's front arc. Each target suffers 2D6 Strength 4 hits. If a target has the Daemonic, Undead or Vampiric special rules, it suffers 3D6 hits instead. Lord Kroak can choose to extend the range of this spell to 18"; if he does so, the casting value is increased to 18+. Alternatively, Lord Kroak can choose to extend the range of this spell to 24", in which case the casting value is increased to 24+.
-
-#field("MAGIC ITEMS", "")
-
-- *Ceremonial Mace of Malachite:* Magic Weapon. Magical Weapons count only as mundane weapons of their type when targeting Lord Kroak in close combat.
-- *Golden Death Mask:* Talisman. All shooting or close combat attacks against Lord Kroak or any unit he joins suffer a \-1 To Hit penalty.
-- *Amulet of Itza:* Arcane Item. Relic. The Amulet gives Lord Kroak Magic Resistance (3). In addition, the Amulet of Itza adds one dice to the Lizardmen player's Dispel dice pool each turn.
-- *Glyph of Potec:* Enchanted Item. Against enemy models with the Daemonic, Undead or Vampiric special rules, all hits from the Standard of the Sacred Serpent are resolved at Strength 5.
-- *Standard of the Sacred Serpent:* Magic Standard. All enemy units in base contact with Lord Kroak or his unit takes D6 Strength 3 hits at the start of your Shooting phase. This is the army's Battle Standard.
-
-#field("SPECIAL RULES", "Arcane Might (see Slann-Mage Priests), Cold-blooded, Flammable, Mage-Priest Palanquin, Magical Ward (3+), Unbreakable")
-
-- *Eternity Guardians:* If Lord Kroak joins a unit of Temple Guard, all models in the combined unit gain the Unbreakable special rule.
-- *First Generation Spawning:* Lord Kroak can cast _The Deliverance of Itza_ as many times per turn as he has sufficient power dice, and may use up to 6 Power Dice per casting attempt. If Lord Kroak miscasts, roll a D6; on a 2+ he does not roll on the Miscast table but instead suffers a Strength 6 hit. On a roll of 1, Lord Kroak rolls on the Miscast table as normal. In either case, if the spell was cast through an Arcane Vassal, the Arcane Vassal also suffers a Strength 6 hit.
-- *The Spirit of Lord Kroak:* Lord Kroak's Wizard level can never be reduced from Level 4.
-
-#field("OPTIONS", "")
-
+#spell("THE DELIVERANCE OF ITZA", 4, cast: "12+")[_The Deliverance of Itza_ is a *direct damage* spell that targets all enemy units within 12" of the caster's front arc. Each target suffers 2D6 Strength 4 hits. If a target has the Daemonic, Undead or Vampiric special rules, it suffers 3D6 hits instead. Lord Kroak can choose to extend the range of this spell to 18"; if he does so, the casting value is increased to 18+. Alternatively, Lord Kroak can choose to extend the range of this spell to 24", in which case the casting value is increased to 24+.]
+  ],
+  magic-items: (
+    rule("Ceremonial Mace of Malachite")[Magic Weapon. Magical Weapons count only as mundane weapons of their type when targeting Lord Kroak in close combat.],
+    rule("Golden Death Mask")[Talisman. All shooting or close combat attacks against Lord Kroak or any unit he joins suffer a \-1 To Hit penalty.],
+    rule("Amulet of Itza")[Arcane Item. Relic. The Amulet gives Lord Kroak Magic Resistance (3). In addition, the Amulet of Itza adds one dice to the Lizardmen player's Dispel dice pool each turn.],
+    rule("Glyph of Potec")[Enchanted Item. Against enemy models with the Daemonic, Undead or Vampiric special rules, all hits from the Standard of the Sacred Serpent are resolved at Strength 5.],
+    rule("Standard of the Sacred Serpent")[Magic Standard. All enemy units in base contact with Lord Kroak or his unit takes D6 Strength 3 hits at the start of your Shooting phase. This is the army's Battle Standard.],
+  ),
+  special-rules: "Arcane Might (see Slann-Mage Priests), Cold-blooded, Flammable, Mage-Priest Palanquin, Magical Ward (3+), Unbreakable",
+  special-rules-body: (
+    rule("Eternity Guardians")[If Lord Kroak joins a unit of Temple Guard, all models in the combined unit gain the Unbreakable special rule.],
+    rule("First Generation Spawning")[Lord Kroak can cast _The Deliverance of Itza_ as many times per turn as he has sufficient power dice, and may use up to 6 Power Dice per casting attempt. If Lord Kroak miscasts, roll a D6; on a 2+ he does not roll on the Miscast table but instead suffers a Strength 6 hit. On a roll of 1, Lord Kroak rolls on the Miscast table as normal. In either case, if the spell was cast through an Arcane Vassal, the Arcane Vassal also suffers a Strength 6 hit.],
+    rule("The Spirit of Lord Kroak")[Lord Kroak's Wizard level can never be reduced from Level 4.],
+  ),
+  options: [
 - May have a Skink Attendant +3 points
-
-#entry("KROQ-GAR")
-#namecost("Ancient Scar-Leader, Last Defender of Xhotl", "")
-#profile(
-  (name: "Kroq-Gar", m: 4, ws: 6, bs: 0, s: 5, t: 5, w: 3, i: 3, a: 5, ld: 8, points: 465),
-  (name: "Grymloq (Carnosaur)", m: 7, ws: 4, bs: 0, s: 6, t: 5, w: 5, i: 2, a: 5, ld: 5, points: ""),
+  ],
 )
-#field("TROOP TYPE", "Monster (Special Character, Lizardman, Saurus)")
-#field("MOUNT", "Grymloq (Saurian)")
-#field("BASE SIZE", "50x50 or 50x100")
-#field("EQUIPMENT", "Light armour")
-#field("MAGIC ITEMS", "")
 
-- *Revered Spear of Tlanxla:* Magic Weapon. Light lance. Each unsaved Wound caused by the Revered Spear of Tlanxla counts as 2 unsaved Wounds when calculating combat results.
-- *Hand of the Gods:* Enchanted Item*.* Bound spell. Hand of Gods contains the spell _Shem's Burning Gaze_ from the Lore of Light.
-
-#field("SPECIAL RULES", "Blood Frenzy (Grymloq only), Cold-blooded, Multiple Wounds (D3) (Grymloq only), Predatory Fighter, Natural Armour (2+)")
-
-- *Army of Kroq-Gar:* Kroq-Gar must always be the Army General. An army led by Kroq-Gar may include a single unit of Saurus Cold One Riders as a Core choice.
-- *Sacred Spawning of Xhotl:* Kroq-Gar has a Magical Ward (5+). If Kroq-Gar is wounded in close combat and does not pass his Magical Ward save, then whoever struck the blow immediately suffers an automatic Strength 5 hit.
-- *Attuned to the Beast:* Grymloq does not suffer from Berserk Rage.
-
-#entry("TEHENHAUIN")
-#namecost("Prophet of Sotek, Harbinger of the Serpent God", "")
-#profile(
-  (name: "Tehenhauin", m: 6, ws: 6, bs: 5, s: 4, t: 3, w: 3, i: 6, a: 3, ld: 8, points: 310),
+#unit("KROQ-GAR",
+  solo: true,
+  subtitle: "Ancient Scar-Leader, Last Defender of Xhotl",
+  profiles: (
+    (name: "Kroq-Gar", m: 4, ws: 6, bs: 0, s: 5, t: 5, w: 3, i: 3, a: 5, ld: 8, points: 465),
+    (name: "Grymloq (Carnosaur)", m: 7, ws: 4, bs: 0, s: 6, t: 5, w: 5, i: 2, a: 5, ld: 5, points: ""),
+  ),
+  troop-type: "Monster (Special Character, Lizardman, Saurus)",
+  mount: "Grymloq (Saurian)",
+  base-size: "50x50 or 50x100",
+  equipment: "Light armour",
+  magic-items: (
+    rule("Revered Spear of Tlanxla")[Magic Weapon. Light lance. Each unsaved Wound caused by the Revered Spear of Tlanxla counts as 2 unsaved Wounds when calculating combat results.],
+    rule("Hand of the Gods")[Enchanted Item*.* Bound spell. Hand of Gods contains the spell _Shem's Burning Gaze_ from the Lore of Light.],
+  ),
+  special-rules: "Blood Frenzy (Grymloq only), Cold-blooded, Multiple Wounds (D3) (Grymloq only), Predatory Fighter, Natural Armour (2+)",
+  special-rules-body: (
+    rule("Army of Kroq-Gar")[Kroq-Gar must always be the Army General. An army led by Kroq-Gar may include a single unit of Saurus Cold One Riders as a Core choice.],
+    rule("Sacred Spawning of Xhotl")[Kroq-Gar has a Magical Ward (5+). If Kroq-Gar is wounded in close combat and does not pass his Magical Ward save, then whoever struck the blow immediately suffers an automatic Strength 5 hit.],
+    rule("Attuned to the Beast")[Grymloq does not suffer from Berserk Rage.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Lizardman, Skink)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("EQUIPMENT", "Light armour")
-#field("MAGIC", "Tehenhauin is a Level 3 Wizard who uses spells from the Lore of Beasts.")
-#field("MAGIC ITEMS", "")
 
-- *Blade of the Serpent's Tongue:* Magic Weapon. The Blade of the Serpent's Tongue grants Tehenhauin the Mighty Blow (1) special rule on any turn he charges. In addition, all attacks made by the Blade of the Serpent's Tongue have the Poisoned Attacks special rule.
-- *Plaque of Sotek:* Talisman. The Plaque of Sotek grants Tehenhauin and any Jungle Swarms in his unit the Regeneration (6+) special rule.
-
-#field("SPECIAL RULES", "Aquatic, Arcane Vassal, Cold-blooded, Hatred (Skaven), Immunity (Poisoned Attacks), Magical Ward (5+), Natural Armour (6+)")
-
-- *Master of Snakes:* Tehenhauin can join Jungle Swarm units, even though characters are not normally permitted to join Swarms. Whilst Tehenhauin leads a Jungle Swarm, he gains the Unbreakable special rule and the unit's Unstable special rule is ignored.
-- *Prophet of Sotek:* If your army includes Tehenhauin, you may upgrade any units of Skink Cohorts, Skink Skirmishers, Raptadon Riders, Horned One Riders, Terradon Riders or Ripperdactyl Riders in your army to be Red Crested Skinks. Red Crested Skinks have +1 Weapon Skill, as well as the Devastating Charge, Hatred (Skaven) and Immunity (Poisoned Attacks) special rules for +2 points per model. They may not take any Sacred Spawning. In addition, Skink Cohorts with this upgrade may replace their shields with great weapons for +2 points per model.
-- *Tide of Serpents:* In close combat Tehenhauin can make an extra D6 Attacks at Initiative 1. These extra Attacks are always resolved at Weapon Skill 2 and Strength 2 and have the Poisoned Attacks special rule.
-
-#field("OPTIONS", "")
-
+#unit("TEHENHAUIN",
+  solo: true,
+  subtitle: "Prophet of Sotek, Harbinger of the Serpent God",
+  profiles: (
+    (name: "Tehenhauin", m: 6, ws: 6, bs: 5, s: 4, t: 3, w: 3, i: 6, a: 3, ld: 8, points: 310),
+  ),
+  troop-type: "Infantry (Special Character, Lizardman, Skink)",
+  base-size: "40x40 or 50x50",
+  equipment: "Light armour",
+  magic: "Tehenhauin is a Level 3 Wizard who uses spells from the Lore of Beasts.",
+  magic-items: (
+    rule("Blade of the Serpent's Tongue")[Magic Weapon. The Blade of the Serpent's Tongue grants Tehenhauin the Mighty Blow (1) special rule on any turn he charges. In addition, all attacks made by the Blade of the Serpent's Tongue have the Poisoned Attacks special rule.],
+    rule("Plaque of Sotek")[Talisman. The Plaque of Sotek grants Tehenhauin and any Jungle Swarms in his unit the Regeneration (6+) special rule.],
+  ),
+  special-rules: "Aquatic, Arcane Vassal, Cold-blooded, Hatred (Skaven), Immunity (Poisoned Attacks), Magical Ward (5+), Natural Armour (6+)",
+  special-rules-body: (
+    rule("Master of Snakes")[Tehenhauin can join Jungle Swarm units, even though characters are not normally permitted to join Swarms. Whilst Tehenhauin leads a Jungle Swarm, he gains the Unbreakable special rule and the unit's Unstable special rule is ignored.],
+    rule("Prophet of Sotek")[If your army includes Tehenhauin, you may upgrade any units of Skink Cohorts, Skink Skirmishers, Raptadon Riders, Horned One Riders, Terradon Riders or Ripperdactyl Riders in your army to be Red Crested Skinks. Red Crested Skinks have +1 Weapon Skill, as well as the Devastating Charge, Hatred (Skaven) and Immunity (Poisoned Attacks) special rules for +2 points per model. They may not take any Sacred Spawning. In addition, Skink Cohorts with this upgrade may replace their shields with great weapons for +2 points per model.],
+    rule("Tide of Serpents")[In close combat Tehenhauin can make an extra D6 Attacks at Initiative 1. These extra Attacks are always resolved at Weapon Skill 2 and Strength 2 and have the Poisoned Attacks special rule.],
+  ),
+  options: [
 - May be mounted on a Stegadon with an Engine of the Gods (replacing one of the crew) +265 points
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - If Tehenhauin is mounted on a Stegadon, he does not add his default Natural Armour save to the model's overall save.
-
-#entry("TETTO'EKO")
-#namecost("Astromancer of the Constellations, the Beholder", "")
-#profile(
-  (name: "Tetto'eko", m: 6, ws: 2, bs: 3, s: 2, t: 2, w: 3, i: 4, a: 1, ld: 6, points: 225),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Lizardman, Skink)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("MAGIC", "Tetto'eko is a Level 3 Wizard who uses the Lore of Heavens.")
-#field("MAGIC ITEMS", "")
 
-- *The Eye of the Old Ones:* Enchanted Item. After deployment, but before Vanguard moves are made, if Tetto'eko is on the battlefield he can consult the Eye of the Old Ones. If he does so, D3 friendly units of your choice gain the Vanguard special rule.
-- *The Stellar Staff:* Arcane Item. Staff. Tetto'eko knows the _Comet of Casandora_ spell from the Lore of Heavens in addition to his other spells. If he successfully casts it, you may re-roll the dice at the start of each Magic phase to see if the comet arrives.
-
-#field("SPECIAL RULES", "Arcane Vassal, Cold-blooded, Loremaster (Lore of Heavens), Magical Ward (5+), Natural")
-
+#unit("TETTO'EKO",
+  solo: true,
+  subtitle: "Astromancer of the Constellations, the Beholder",
+  profiles: (
+    (name: "Tetto'eko", m: 6, ws: 2, bs: 3, s: 2, t: 2, w: 3, i: 4, a: 1, ld: 6, points: 225),
+  ),
+  troop-type: "Infantry (Special Character, Lizardman, Skink)",
+  base-size: "40x40 or 50x50",
+  magic: "Tetto'eko is a Level 3 Wizard who uses the Lore of Heavens.",
+  magic-items: (
+    rule("The Eye of the Old Ones")[Enchanted Item. After deployment, but before Vanguard moves are made, if Tetto'eko is on the battlefield he can consult the Eye of the Old Ones. If he does so, D3 friendly units of your choice gain the Vanguard special rule.],
+    rule("The Stellar Staff")[Arcane Item. Staff. Tetto'eko knows the _Comet of Casandora_ spell from the Lore of Heavens in addition to his other spells. If he successfully casts it, you may re-roll the dice at the start of each Magic phase to see if the comet arrives.],
+  ),
+  special-rules: "Arcane Vassal, Cold-blooded, Loremaster (Lore of Heavens), Magical Ward (5+), Natural",
+  special-rules-body: [
 *Armour (6+)*
 
 - *Herald of Cosmic Events:* Roll a D6 at the start of each friendly Magic phase. On a roll of 2\-6, Tetto'Eko's calculations are correct and the cosmic event occurs; all friendly Wizards within 12" must re-roll power dice rolls of a 1 this phase. However, on a roll of 1, the Chaos Moon has corrupted Tetto'eko's calculations and all friendly Wizards within 12" casting a spell must re-roll any of the power dice that roll a 6 this phase.
 - *The Palanquin of Constellations:* The Palanquin of Constellations gives Tetto'eko the Strider special rule. Additionally, while they have the troop type Infantry, he is never considered to be a ‘model on foot' for the purposes of spells, magic items and special rules. If Tetto'eko joins a unit Skink Cohorts whose front rank contains five or more models, he must be placed in the second rank, displacing other models if necessary. If the unit's front rank is ever reduced to four or fewer models, Tetto'eko must immediately move into the front rank (displacing models if necessary).
-
-#field("NOTES", "")
-
+  ],
+  notes: [
 - Tetto'eko has a Line of Sight value of 2.
-
-#entry("CHAKAX")
-#namecost("The Eternity Warden, Prime Guardian of Xlanhuapec", "")
-#profile(
-  (name: "Chakax", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 210),
+  ],
 )
-#field("TROOP TYPE", "Infantry (Special Character, Lizardman, Saurus)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("EQUIPMENT", "Light armour")
-#field("MAGIC ITEMS", "")
 
-- *The Star-stone Mace:* Magic Weapon. Great weapon. At the start of every Close Combat phase, all enemy models in base contact with Chakax must reveal their magic items, and Magical weapons and armour count as mundane versions of the same type.
-- *The Helm of the Prime Guardian:* Magic Armour. This armour gives the wearer a 6+ armour save. Enemy units with the Scouts special rule may not use their special deployment to set up within 20" of Chakax. In addition, if an enemy unit within 20" of Chakax contains 'hidden' models (such as Assassins, Night Goblin Fanatics etc.), their presence must be announced as soon as they come within 20" of Chakax.
-- *The Key to the Eternity Chamber:* Enchanted Item. When fighting in a challenge, Chakax has a Magical Ward (5+) and his opponent gains the Always Strikes Last special rule.
-
-#field("SPECIAL RULES", "Cold-blooded, Guardians, Predatory Fighter, Natural Armour (5+), Stubborn")
-
-- *Eternity Warden:* Chakax must always issue a challenge, and can never refuse one. When fighting in a challenge, Chakax re-rolls all failed rolls To Hit.
-- *Ultimate Bodyguard:* Whilst Chakax is part of a unit that contains both a Slann and Temple Guard, all models in the unit gain the Unbreakable special rule.
-
-#entry("GOR-ROK")
-#namecost("The Great White Lizard, The Scarred One", "")
-#profile(
-  (name: "Gor-Rok", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 220),
+#unit("CHAKAX",
+  solo: true,
+  subtitle: "The Eternity Warden, Prime Guardian of Xlanhuapec",
+  profiles: (
+    (name: "Chakax", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 210),
+  ),
+  troop-type: "Infantry (Special Character, Lizardman, Saurus)",
+  base-size: "25x25 or 30x30",
+  equipment: "Light armour",
+  magic-items: (
+    rule("The Star-stone Mace")[Magic Weapon. Great weapon. At the start of every Close Combat phase, all enemy models in base contact with Chakax must reveal their magic items, and Magical weapons and armour count as mundane versions of the same type.],
+    rule("The Helm of the Prime Guardian")[Magic Armour. This armour gives the wearer a 6+ armour save. Enemy units with the Scouts special rule may not use their special deployment to set up within 20" of Chakax. In addition, if an enemy unit within 20" of Chakax contains 'hidden' models (such as Assassins, Night Goblin Fanatics etc.), their presence must be announced as soon as they come within 20" of Chakax.],
+    rule("The Key to the Eternity Chamber")[Enchanted Item. When fighting in a challenge, Chakax has a Magical Ward (5+) and his opponent gains the Always Strikes Last special rule.],
+  ),
+  special-rules: "Cold-blooded, Guardians, Predatory Fighter, Natural Armour (5+), Stubborn",
+  special-rules-body: (
+    rule("Eternity Warden")[Chakax must always issue a challenge, and can never refuse one. When fighting in a challenge, Chakax re-rolls all failed rolls To Hit.],
+    rule("Ultimate Bodyguard")[Whilst Chakax is part of a unit that contains both a Slann and Temple Guard, all models in the unit gain the Unbreakable special rule.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Lizardman, Saurus)")
-#field("BASE SIZE", "25x25 or 30x30")
-#field("MAGIC ITEMS", "")
 
-- *The Mace of Ulumak:* Magic Weapon. The Mace allows Gor-Rok to re-roll all failed To Hit rolls. In addition, when striking with the Mace of Ulumak, Gor-Rok gains an additional Attack from his Predatory Fighter special rule on any successful To Hit roll of a 5 or 6.
-- *The Shield of Aeons:* Magic Armour. Shield. This shield gives Gor-Rok an additional 6+ armour save. In addition, any enemy model that makes a successful charge against Gor-Rok and ends the Movement phase in base contact with him must immediately take a Dangerous Terrain test with a \-1 penalty.
-
-#field("SPECIAL RULES", "Blessed Mark of the Old Ones (see Blessed Spawnings), Cold-blooded, Immunity")
-
+#unit("GOR-ROK",
+  solo: true,
+  subtitle: "The Great White Lizard, The Scarred One",
+  profiles: (
+    (name: "Gor-Rok", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 220),
+  ),
+  troop-type: "Infantry (Special Character, Lizardman, Saurus)",
+  base-size: "25x25 or 30x30",
+  magic-items: (
+    rule("The Mace of Ulumak")[Magic Weapon. The Mace allows Gor-Rok to re-roll all failed To Hit rolls. In addition, when striking with the Mace of Ulumak, Gor-Rok gains an additional Attack from his Predatory Fighter special rule on any successful To Hit roll of a 5 or 6.],
+    rule("The Shield of Aeons")[Magic Armour. Shield. This shield gives Gor-Rok an additional 6+ armour save. In addition, any enemy model that makes a successful charge against Gor-Rok and ends the Movement phase in base contact with him must immediately take a Dangerous Terrain test with a \-1 penalty.],
+  ),
+  special-rules: "Blessed Mark of the Old Ones (see Blessed Spawnings), Cold-blooded, Immunity",
+  special-rules-body: [
 *(Psychology), Predatory Fighter, Natural Armour (5+), Stubborn*
 
 - *Resilient:* Any successful rolls To Wound roll against Gor-Rok must be re-rolled. In addition, Gor-Rok has the Immunity (Killing Blow) special rule.
-
-#entry("NAKAI THE WANDERER")
-#namecost("Sacred Kroxigor of the First Spawning", "")
-#profile(
-  (name: "Nakai", m: 6, ws: 5, bs: 0, s: 6, t: 5, w: 4, i: 3, a: 5, ld: 8, points: 310),
+  ],
 )
-#field("TROOP TYPE", "Monstrous Infantry (Special Character, Lizardman, Kroxigor)")
-#field("BASE SIZE", "40x40 or 50x50")
-#field("MAGIC ITEMS", "")
 
-- *The Sacred Blade of Quetzl:* Magic Weapon. Great weapon. The Sacred Blade of Quetzl grants Nakai +1 to Hit in close combat, and enemy close combat attacks against him suffer \-1 To Hit.
-
-#field("SPECIAL RULES", "Aquatic, Blessed Mark of the Old Ones (see Sacred Spawnings), Cold-blooded, Loner, Natural Armour (3+), Regeneration (4+), Predatory Fighter")
-
-- *Jungle Spirit:* Nakai always appears using the Ambushers special rule, with the following exception; he will always appear from a forest, marshland or river terrain feature rather than the table edge if able to. Any unit that kills Nakai in close combat may not overrun. If Nakai flees from combat, then the victorious unit may not pursue.
-
-#entry("TIKTAQ'TO")
-#namecost("Master of Skies, the Eye in the Heavens", "")
-#profile(
-  (name: "Tiktaq'to", m: 6, ws: 4, bs: 5, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 7, points: 145),
-  (name: "Zwup (Terradon)", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 2, a: 1, ld: 3, points: ""),
+#unit("NAKAI THE WANDERER",
+  solo: true,
+  subtitle: "Sacred Kroxigor of the First Spawning",
+  profiles: (
+    (name: "Nakai", m: 6, ws: 5, bs: 0, s: 6, t: 5, w: 4, i: 3, a: 5, ld: 8, points: 310),
+  ),
+  troop-type: "Monstrous Infantry (Special Character, Lizardman, Kroxigor)",
+  base-size: "40x40 or 50x50",
+  magic-items: (
+    rule("The Sacred Blade of Quetzl")[Magic Weapon. Great weapon. The Sacred Blade of Quetzl grants Nakai +1 to Hit in close combat, and enemy close combat attacks against him suffer \-1 To Hit.],
+  ),
+  special-rules: "Aquatic, Blessed Mark of the Old Ones (see Sacred Spawnings), Cold-blooded, Loner, Natural Armour (3+), Regeneration (4+), Predatory Fighter",
+  special-rules-body: (
+    rule("Jungle Spirit")[Nakai always appears using the Ambushers special rule, with the following exception; he will always appear from a forest, marshland or river terrain feature rather than the table edge if able to. Any unit that kills Nakai in close combat may not overrun. If Nakai flees from combat, then the victorious unit may not pursue.],
+  ),
 )
-#field("TROOP TYPE", "Cavalry (Special Character, Lizardman, Skink)")
-#field("MOUNT", "Zwup (Saurian)")
-#field("BASE SIZE", "40x40")
-#field("MAGIC ITEMS", "")
 
-- *The Blade of Ancient Skies:* Magic Weapon. The Blade of Ancient Skies has the Ignores Armour saves special rule. In addition, when fighting against a model with the Fly special rule, attacks made with the Blade of Ancient Skies receive a +1 bonus To Hit.
-- *Mask of Heavens:* Enchanted Item. All Terradons in Tiktaq'to's unit use his Weapon Skill instead of their own. In addition, enemy units suffer an additional \-1 To Hit penalty when shooting Tiktaq'to and his unit.
-
-#field("SPECIAL RULES", "Ambushers, Cold-blooded, Drop Rocks (see Terradons), Fear, Fly (9), Forest Strider, Natural Armour (6+)")
-
-- *Master of Skies:* If your army contains Tiktaq'to, one unit of Terradon Riders may deploy using the Ambushers special rule.
-
-#entry("OXYOTL")
-#namecost("Survivor of Pahuax, the Returned, He That Hunts Unseen", "")
-#profile(
-  (name: "Oxyotl", m: 6, ws: 4, bs: 6, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 7, points: 100),
+#unit("TIKTAQ'TO",
+  solo: true,
+  subtitle: "Master of Skies, the Eye in the Heavens",
+  profiles: (
+    (name: "Tiktaq'to", m: 6, ws: 4, bs: 5, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 7, points: 145),
+    (name: "Zwup (Terradon)", m: 2, ws: 3, bs: 0, s: 4, t: 3, w: 2, i: 2, a: 1, ld: 3, points: ""),
+  ),
+  troop-type: "Cavalry (Special Character, Lizardman, Skink)",
+  mount: "Zwup (Saurian)",
+  base-size: "40x40",
+  magic-items: (
+    rule("The Blade of Ancient Skies")[Magic Weapon. The Blade of Ancient Skies has the Ignores Armour saves special rule. In addition, when fighting against a model with the Fly special rule, attacks made with the Blade of Ancient Skies receive a +1 bonus To Hit.],
+    rule("Mask of Heavens")[Enchanted Item. All Terradons in Tiktaq'to's unit use his Weapon Skill instead of their own. In addition, enemy units suffer an additional \-1 To Hit penalty when shooting Tiktaq'to and his unit.],
+  ),
+  special-rules: "Ambushers, Cold-blooded, Drop Rocks (see Terradons), Fear, Fly (9), Forest Strider, Natural Armour (6+)",
+  special-rules-body: (
+    rule("Master of Skies")[If your army contains Tiktaq'to, one unit of Terradon Riders may deploy using the Ambushers special rule.],
+  ),
 )
-#field("TROOP TYPE", "Infantry (Special Character, Lizardman, Skink)")
-#field("BASE SIZE", "20x20 or 25x25")
-#field("EQUIPMENT", "Hand weapon")
-#field("MAGIC ITEMS", "")
 
+#unit("OXYOTL",
+  solo: true,
+  subtitle: "Survivor of Pahuax, the Returned, He That Hunts Unseen",
+  profiles: (
+    (name: "Oxyotl", m: 6, ws: 4, bs: 6, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 7, points: 100),
+  ),
+  troop-type: "Infantry (Special Character, Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic-items: [
 - *The Golden Blowpipe of P'Toohee:* Magic Weapon. This weapon has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "2", "Firefly Frog Venom, March & Shoot, Multiple Shots (3), Multiple Wounds (D3), Poisoned Attacks, Quick Shot"))
-#field("SPECIAL RULES", "Aquatic, Chameleon, Cold-blooded, Forest Strider, Hatred (Daemons of Chaos), Natural")
-
+  ],
+  special-rules: "Aquatic, Chameleon, Cold-blooded, Forest Strider, Hatred (Daemons of Chaos), Natural",
+  special-rules-body: [
 *Armour (6+), Scouts, Sniper*
 
 - *Master Predator:* If Oxyotl remained stationary in his preceding Movement phase, enemies cannot draw Line of Sight to him unless they are within 6", and all shots made from the Golden Blowpipe of P'Toohee may re- roll failed To Wound rolls. If an enemy unit would move through Oxyotl, simply move Oxyotl aside by the smallest amount possible to make room for the enemy unit.
-
-#field("OPTIONS", "")
-
+  ],
+  options: [
 - May take Magic Items up to a total of 25 points
+  ],
+)
 
 = CREDITS
 
-#entry("Written & Edited by:", first: true)
-#namecost("Mathias Eliasson", "")
+#unit("Written & Edited by:",
+  first: true,
+  subtitle: "Mathias Eliasson",
+  before: [
 #namecost("Based on Warhammer Fantasy by Games-Workshop", "")
 #namecost("Special thanks to all the people that have contributed with feedback and ideas", "")
+  ],
+)
