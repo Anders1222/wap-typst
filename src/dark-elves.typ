@@ -602,10 +602,7 @@ Lores of Magic:
   ),
   troop-type: "War Beast (Equine)",
   base-size: "25x50 or 30x60",
-  special-rules: "Fly (9)",
-  special-rules-body: (
-    rule("Impale")[A Dark Pegasus gains the Mighty Blow (1) special rule in any turn that it charges.],
-  ),
+  special-rules: "Fly (9), Impale",
 )
 
 #unit("MANTICORE",

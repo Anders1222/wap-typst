@@ -428,10 +428,7 @@ Lores of Magic:
   ),
   troop-type: "War Beast (Chimeric)",
   base-size: "25x50, 30x60, 40x40, 40x60",
-  special-rules: "Fear, Fly (9), Magical Attacks, Natural Armour (6+)",
-  special-rules-body: (
-    rule("Impale")[A Kirin gains the Mighty Blow (1) special rule in any turn that it charges.],
-  ),
+  special-rules: "Fear, Fly (9), Impale, Magical Attacks, Natural Armour (6+)",
 )
 
 = CORE UNITS
@@ -894,7 +891,7 @@ Each Hit from a fire rocket is multiplied into D3 Hits.
   mount: "Kirin (Chimeric)",
   base-size: "25x50, 30x60, 40x40, 40x60",
   equipment: "Katana, medium armour",
-  special-rules: "Death Before Dishonour, Devastating Charge, Fear, Fly (9), Impale (see Kirin), Magical",
+  special-rules: "Death Before Dishonour, Devastating Charge, Fear, Fly (9), Impale, Magical",
   special-rules-body: [
 *Attacks* (Kirin only)*, Natural Armour (6+), Stubborn, Way of the Warrior*
   ],
