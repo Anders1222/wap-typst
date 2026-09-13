@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 #namecost("ANCESTRAL GRUDGE", "")
 
 Dwarfs have the Hatred special rule against Orcs, Goblins and Skaven.
@@ -708,7 +708,6 @@ turn."), ("4-6", "The rune does not take effect.")))
 )
 
 #unit("MINERS",
-  breakable: true,
   profiles: (
     (name: "Miner", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 1, i: 2, a: 1, ld: 9, points: 11),
     (name: "Miner's Cart", m: 6, ws: "-", bs: "-", s: 4, t: 4, w: 3, i: "-", a: "-", ld: "-", points: ""),

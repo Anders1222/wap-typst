@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a High Elf army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the Warhammer rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules' that apply to several High Elf units, and these are detailed here.
 
 #namecost("ELVEN GRACE", "")
@@ -1007,7 +1007,6 @@ Signature Spells from the Winds of Magic.
 )
 
 #unit("FLAMESPYRE PHOENIX",
-  breakable: true,
   profiles: (
     (name: "Flamespyre Phoenix", m: 2, ws: 5, bs: 0, s: 5, t: 5, w: 5, i: 4, a: 4, ld: 8, points: 235),
     (name: "Frostheart Phoenix", m: 2, ws: 6, bs: 0, s: 5, t: 6, w: 5, i: 3, a: 3, ld: 9, points: ""),

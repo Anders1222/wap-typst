@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in an Orc & Goblin army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Orc & Goblin units, and these are detailed here.
 
 #namecost("ANIMOSITY", "")
@@ -87,7 +87,8 @@ possible to do so. If the unit cannot declare a
 charge then it may carry on with the rest of
 its turn normally, as if it had not yet moved
 this turn.")))
-#chartlabel("ARMED TO DA TEEF")
+
+#namecost("ARMED TO DA TEEF", "")
 
 If a model with this special rule has more than one weapon and/or a shield, they may choose which weapon combination they want to use at the start of each round of close combat.
 
@@ -741,7 +742,6 @@ Little Waaagh!
 )
 
 #unit("GIANT RIVER TROLL HAG",
-  breakable: true,
   profiles: (
     (name: "Giant River Troll Hag", m: 5, ws: 3, bs: 1, s: 6, t: 5, w: 6, i: 1, a: "*", ld: 6, points: 270),
   ),
@@ -1050,7 +1050,6 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
 )
 
 #unit("GOBLIN GITZ",
-  breakable: true,
   profiles: (
     (name: "Goblin", m: 4, ws: 2, bs: 3, s: 3, t: 3, w: 1, i: 2, a: 1, ld: 6, points: 2),
     (name: "Nasty Skulker", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 3, a: 1, ld: 6, points: ""),
@@ -1796,7 +1795,6 @@ Any unit hit by a Flinger suffer \-1 to its Movement, Weapon Skill, Ballistic Sk
 )
 
 #unit("GIANT",
-  breakable: true,
   profiles: (
     (name: "Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 180),
   ),
@@ -1843,7 +1841,6 @@ then choose another victim. Roll again on this table to see what the Giant does 
 )
 
 #unit("BONEGRINDER GIANT",
-  breakable: true,
   profiles: (
     (name: "Bonegrinder Giant", m: 10, ws: 3, bs: 3, s: 8, t: 8, w: 10, i: 1, a: "*", ld: 10, points: 385),
   ),

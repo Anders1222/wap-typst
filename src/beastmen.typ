@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Beastmen army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Beastmen units, and these are detailed here.
 
 #namecost("BEASTMEN BREEDS", "")
@@ -66,7 +66,8 @@ Roll a D6 for each unit containing models with this special rule at the beginnin
 Stupidity special rule."), ("3-4", "Drunken Frenzy: The unit is subject to the
 Frenzy special rule."), ("5-6", "Drunken Bravado: The unit is subject to the
 Stubborn special rule.")))
-#chartlabel("MARKS OF CHAOS")
+
+#namecost("MARKS OF CHAOS", "")
 
 Several characters and regiments in the Beastmen army have, or can purchase, one of the four Marks of Chaos detailed below. A character with a Mark of Chaos cannot join a unit that has a different Mark of Chaos. A character with a Mark of Chaos cannot join a unit that has already been joined by a character that has a different Mark of Chaos.
 
@@ -1150,7 +1151,6 @@ If the target unit contains one or more models mentioned in Ghostsight, you may 
 )
 
 #unit("GIANT",
-  breakable: true,
   profiles: (
     (name: "Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 180),
   ),

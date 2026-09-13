@@ -48,7 +48,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Hobgoblin army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Hobgoblin units, and these are detailed here.
 
 #namecost("BACKSTABBERS", "")
@@ -740,7 +740,6 @@ If you roll a misfire, or if for any reason some of the models in the unit canno
 )
 
 #unit("GIANT",
-  breakable: true,
   profiles: (
     (name: "Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 180),
   ),

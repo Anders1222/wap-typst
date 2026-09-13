@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Skaven army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Skaven units, and these are detailed here.
 
 #namecost("CLAN ENMITY", "")
@@ -462,7 +462,6 @@ They may use a combination of spells from both Lores. In addition, they can also
 )
 
 #unit("VERMINLORD",
-  breakable: true,
   profiles: (
     (name: "Verminlord", m: 8, ws: 8, bs: 4, s: 6, t: 6, w: 6, i: 10, a: 5, ld: 8, points: 450),
   ),
@@ -1241,7 +1240,6 @@ Attacks special rule."), ("6", "Power Failure: The Doom-flayer may not attack or
 )
 
 #unit("STORMFIEND",
-  breakable: true,
   profiles: (
     (name: "Stormfiend", m: 6, ws: 4, bs: 3, s: 5, t: 5, w: 4, i: 5, a: 4, ld: 7, points: 70),
   ),

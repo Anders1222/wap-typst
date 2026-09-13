@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in an Albion army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Albion units, and these are detailed here.
 
 #namecost("BATTLE CRY", "")
@@ -688,7 +688,6 @@ Rather than rolling to Hit using Ballistic Skill, the target must pass a Weapon 
 )
 
 #unit("GIANT",
-  breakable: true,
   profiles: (
     (name: "Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 180),
   ),
@@ -744,7 +743,6 @@ then choose another victim. Roll again on this table to see what the Giant does 
 )
 
 #unit("BONEGRINDER GIANT",
-  breakable: true,
   profiles: (
     (name: "Bonegrinder Giant", m: 10, ws: 3, bs: 3, s: 8, t: 8, w: 10, i: 1, a: "*", ld: 10, points: 380),
   ),
