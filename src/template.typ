@@ -641,7 +641,13 @@
 // the level-2 heading `emit.py` counts and the outline lists.
 #let SECTION_GAP = 2.6em
 
-#let magic-item-section(kind, name: auto, first: false, body) = {
+// `intro:` is the category's own rules - what a magic weapon replaces, who may
+// wear magic armour - which the rulebook sets under the section heading at the
+// full measure, before the records begin in their columns. The army books
+// leave it off: their sections open on the records, the rules being the
+// rulebook's to state.
+#let magic-item-section(kind, name: auto, first: false, intro: none,
+                        body) = {
   _assert-kind(kind, "magic-item-section")
   let name = if name == auto { MAGIC_ITEM_SECTIONS.at(kind) } else { name }
   show heading.where(level: 2): it => block(
@@ -652,7 +658,12 @@
   // `entry` rather than a heading of its own, so a magic-item section heads
   // exactly as a unit entry does - one definition, not two. Its own break is
   // off: the section decides its own, below.
-  let head = entry(name, first: true)
+  let head = {
+    entry(name, first: true)
+    // Not wrapped in a block, as the chapter intro is not: a paragraph takes
+    // `par.spacing`, and the records' columns follow it at that gap.
+    if intro != none { intro }
+  }
   if first {
     head
     balanced-columns(body)
@@ -661,13 +672,12 @@
       let records = _records(body)
       let across = _measure-width()
       let page-column = page.height - PAGE_MARGIN.top - PAGE_MARGIN.bottom
-      // The heading as it will be set, and the spacing the columns keep from
-      // it - measured with a frame of no height standing in for the columns,
-      // so it is the heading's `below` as it will actually resolve, not a
+      // The heading and intro as they will be set, and the spacing the columns
+      // keep from them - measured with a frame of no height standing in for
+      // the columns, so it is the `below` as it will actually resolve, not a
       // figure copied from the show rule and resolved against the wrong em.
       let head-h = measure(block(width: across,
-        heading(level: 2, name) + block(height: 0pt, above: 0pt, below: 0pt)))
-        .height
+        head + block(height: 0pt, above: 0pt, below: 0pt))).height
       let columns = page-column - head-h
       let width = _column-width(across)
       if _flow(records, width, columns, page-column).column <= 1 {

@@ -4526,14 +4526,13 @@ Magic items are considered to be unique – you can only have one of each in you
 
 Each model can normally only carry one of each type of magic item. Magic items are divided into six categories: Magic Weapons, Magic Armour, Talismans, Enchanted Items, Arcane Items and Magic Standards. A model can only ever choose one item from each category, unless specified.
 
-#magic-item-section("weapon", first: true)[
-
+#magic-item-section("weapon", first: true, intro: [
 Unless otherwise stated, a magic weapon is treated as a hand weapon (replacing the model's regular hand weapon), and follows the rules for such. This means that a magic weapon can be used with both an additional hand weapon or shield/buckler following their normal rules. In the case of non-magical additional hand weapons, the +1 Attack does not benefit from any special rules from the magic weapon.
 
 In order for a model to be able to choose a particular piece of weapon (such as great weapon, polearm or two hand weapons) they must be able to pick this as a mundane option or have it as part of their default equipment, unless it is specified. Note that magic weapons that count as normal hand weapons may be taken by any model that can choose magic weapons.
 
 A character that has a magic close combat weapon cannot use any other close combat weapons. If a character has more than one magic weapon, they must choose which one to use at the start of the combat (unless a rule specifies that both can be used at the same time) – the chosen weapon must be used for the duration of the combat.
-
+])[
 #magic-weapon("GIANT BLADE", 45)[The wielder gains +3 Strength.]
 
 #magic-weapon("SWORD OF BLOODSHED", 45)[The wielder gains +3 Attacks.]
@@ -4571,14 +4570,13 @@ A character that has a magic close combat weapon cannot use any other close comb
 #magic-weapon("BURNING BLADE", 5, common: true)[The wielder gains the Flaming Attacks special rule.]
 ]
 
-#magic-item-section("armour")[
-
+#magic-item-section("armour", intro: [
 Except where otherwise stated, magical suits of armour (light, medium or heavy) and bucklers/shields follow the same rules as mundane ones, but keep in mind that a model can only have one suit of armour and one buckler/shield, so if you give a model a magical suit of armour or a magical shield, it replaces any mundane equivalent already worn by the model.
 
 In order for a model to be able to choose a particular piece of armour (such as heavy armour or a shield) they must be able to pick this as a mundane option or have it as part of their default equipment.
 
 Magic armours that are not specified as suits or shields (such as helmets, gauntlets and so on) can always be worn by models that are allowed to wear any non- magical armour.
-
+])[
 #magic-armour("ARMOUR OF DESTINY", 60, type: "Heavy armour")[The wearer gains the Magical Ward (4+) special rule.]
 
 #magic-armour("ARMOUR OF RESILIENCE", 40, type: "Heavy armour")[The wearer gains +1 Toughness.]
@@ -4608,10 +4606,9 @@ Magic armours that are not specified as suits or shields (such as helmets, gaunt
 #magic-armour("CHARMED SHIELD", 5, type: "Shield", one-use: true, common: true)[The first hit suffered by the bearer is ignored on a roll of 2+.]
 ]
 
-#magic-item-section("talisman")[
-
+#magic-item-section("talisman", intro: [
 The Talismans category includes items that offer protection for the bearer.
-
+])[
 #talisman("TALISMAN OF PRESERVATION", 40)[The bearer gains the Magical Ward (4+) special rule.]
 
 #talisman("OBSIDIAN LODESTONE", 30)[The bearer and any unit they join gain the Magic Resistance (3) special rule.]
@@ -4633,8 +4630,7 @@ The Talismans category includes items that offer protection for the bearer.
 #talisman("LUCKY TRINKET", 5, one-use: true, common: true)[The bearer may re-roll a single failed armour or invulnerable save.]
 ]
 
-#magic-item-section("arcane")[
-
+#magic-item-section("arcane", intro: [
 Only a character with a Wizard level can carry Arcane Items. Unlike other magic item types, Wizards may take several Arcane Items, chosen from the categories below. A Wizard may not take more than one item from the same category.
 
 *Staffs* cover things like wands, staves, rods and sceptres, and usually provide bonuses to casting or dispelling.
@@ -4642,7 +4638,7 @@ Only a character with a Wizard level can carry Arcane Items. Unlike other magic 
 *Charms* include scrolls, stones and gems, and provide temporary effects with a limited number of uses.
 
 *Relics* include tomes, cloaks, rings and familiars, and provide magical abilities or utility effects.
-
+])[
 #arcane-item("WAND OF THE WINDS", 40, type: "Staff")[The bearer of this item may re-roll one D3 when determining the Winds of Magic in each Magic phase.]
 
 #arcane-item("DESTROY MAGIC SCROLL", 35, type: "Charm", one-use: true)[When an enemy cast a spell, the bearer may immediately counter its effects by using this item instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). In addition, roll a D6. On a 4+, the spell is destroyed and the enemy caster loses access to the spell for the rest of the game.]
@@ -4682,10 +4678,9 @@ Only a character with a Wizard level can carry Arcane Items. Unlike other magic 
 #arcane-item("SPELL FAMILIAR", 10, type: "Relic", common: true)[The bearer knows one additional spell from those normally allowed to them.]
 ]
 
-#magic-item-section("enchanted")[
-
+#magic-item-section("enchanted", intro: [
 The Enchanted Items category includes items that typically offer a utility ability for either the bearer or any unit they are with.
-
+])[
 #enchanted-item("RUBY RING OF RUIN", 35, bound: true)[The Ruby Ring of Ruin contains the _Fireball_ spell from the Lore of Fire.]
 
 #enchanted-item("BOOTS OF FLIGHT", 20, only: "Infantry")[The Boots of Flight give the wearer the Movement 10 and the Strider special rule.]
@@ -4705,12 +4700,11 @@ The Enchanted Items category includes items that typically offer a utility abili
 #enchanted-item("WARRIOR FAMILIAR", 5, common: true)[The model gains an additional Strength 3 Attack. This does not benefit from any weapon, item or special rule used by the character. You may still take another Enchanted Item in addition to the Warrior Familiar, and it also does not count against the maximum points limit of magic items normally allowed for the character.]
 ]
 
-#magic-item-section("standard")[
-
+#magic-item-section("standard", intro: [
 Some units are allowed to carry magic banners, as detailed in their army list entry. The only character permitted to carry a Magic Standard is the army's battle Standard Bearer.
 
 Standards can only be carried by a standard bearer, as shown in the army list in the relevant Warhammer Armies book.
-
+])[
 #magic-standard("BANNER OF DEFIANCE", 25)[A unit with this standard gains the Stubborn special rule.]
 
 #magic-standard("BANNER OF IRON RESOLVE", 25)[A unit with this standard gains the Immunity (Psychology) special rule.]
