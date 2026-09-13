@@ -144,7 +144,7 @@ Models on foot only. Models with this Blessed Spawning have the Aquatic special 
 
 = DISCIPLINES OF THE OLD ONES
 
-#columns(2)[
+#balanced-columns[
 *A Slann Mage-Priest can purchase Disciplines of the Old Ones as detailed in the Lizardmen Army List. Each Discipline of the Old Ones can only be taken once in each army (excluding Special Characters).*
 
 #namecost("THE FOCUSED RUMINATION", "30 points")

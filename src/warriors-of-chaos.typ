@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes all the different units used in a Warriors of Chaos army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Warriors of Chaos units, and these are detailed here.
 
 #namecost("CHAOS ARMOUR", "")
@@ -230,7 +230,7 @@ Models with this special rule have the Cold-blooded special rule when taking Pan
 ]
 = GIFTS OF THE GODS
 
-#columns(2)[
+#balanced-columns[
 *Below are Gifts of the Gods that can be bought for your characters. Each can only be chosen once per army, and no model may choose more than three Gifts of the Gods (excluding results from the Eye of the Gods rolls).*
 
 #namecost("MANTLE OF CHAOS", "55 points")

@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes the different units in a Daemons of Chaos army, along with their rules. Where a model has a special rule that is explained in the Warhammer rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring 'army special rules' that apply to several Daemons of Chaos units, and these are detailed below.
 
 #namecost("DAEMONIC", "")

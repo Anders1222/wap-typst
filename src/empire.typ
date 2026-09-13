@@ -80,7 +80,7 @@ Each Hit from a grenade launching blunderbuss is multiplied into D6 Hits.
 
 = THE CULT OF ULRIC
 
-#columns(2)[
+#balanced-columns[
 You may choose to field your army as the Cult of Ulric. If you do, your Army General must have the Crush the Weak special rule. A Cult of Ulric army may not take magic items marked "Sigmarite only" or include Sisters of Sigmar. The following special rules apply to the Cult of Ulric:
 
 #namecost("CRUSH THE WEAK", "")
@@ -129,7 +129,7 @@ Wolf Kin replace Flagellants for +3 points per model. They have Weapon Skill 4 a
 
 = KNIGHTLY ORDERS
 
-#columns(2)[
+#balanced-columns[
 *Units of Knights may be upgraded to any one of the Knightly Orders below as detailed in the army list. A Grand Master or Chapter Master may only join a unit that belongs to the same Knightly Order. You may only field one Grand Master for each Knightly Order. Grand Masters and Chapter Masters must either be armed with a hand weapon or the same equipment as the rest of their unit.*
 
 #namecost("REIKSGUARD KNIGHTS", "")
