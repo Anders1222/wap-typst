@@ -177,6 +177,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
 ]
 = FOREST SPITES
 
+#balanced-columns[
 *Characters may choose Spites as detailed in the army list. Each Spite may only be chosen once per army.*
 
 #namecost("A BLIGHT OF TERRORS", "25 points")
@@ -221,6 +222,7 @@ A Murder of Spites is a close combat attack that can be used in addition to the 
 #namecost("A RESPLENDENCE OF LUMINESCENTS", "10 points")
 
 A Resplendence of Luminescents gives the character and any unit they join Magical Attacks.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Wood Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Grand Cathayan army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Grand Cathayan units, and these are detailed here.
 
 #namecost("CELESTIAL FORGED ARMOUR", "")
@@ -88,6 +89,7 @@ A unit with this special rule may re-roll failed Panic tests caused by friendly 
 #minitable(("Range", "Strength", "Special Rules"), ("12/18\"", "2", "Multiple Shots (3), Rapid Fire"))
 #namecost("THREE-EYED GUN", "")
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Multiple Shots (3), Ponderous, Rapid Fire"))
+]
 
 #lore("THE LORE OF YIN")[
 

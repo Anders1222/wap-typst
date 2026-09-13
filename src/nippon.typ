@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Nipponese army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Nipponese units, and these are detailed here.
 
 #namecost("DEATH BEFORE DISHONOUR", "")
@@ -85,9 +86,11 @@ Units with mantlets must place them on separate bases in front of the unit. Ever
 #namecost("SMOKE BOMBS", "")
 
 A unit with Smoke Bombs may use them at the end of any Close Combat phase in which they take part. If they do so, the unit may disengage from combat by making a flee move. If they do so, the enemy cannot pursue them and they will rally automatically in their next turn.
+]
 
 = CLAN MON
 
+#balanced-columns[
 *Characters and units that can take a Clan Mon are detailed in the army list. The cost below only applies to characters. You are not required to take Clan Mon on all units that can do so. You may not have multiple different Clan Mons in the same army.*
 
 #namecost("MON OF THE HATTIGA CLAN", "20 points")
@@ -121,6 +124,7 @@ War Machines only. War Machines with this Clan Mon may re-roll one failed To Hit
 #namecost("MON OF THE ODARI CLAN", "")
 
 Ashigaru only. Models with this Mon gain +1 to their Leadership.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Nipponese. These may be used in addition to the magic items found in the Warhammer rulebook. Any magic weapon that counts as a hand weapon follow the rules for katanas.])
 

@@ -795,10 +795,16 @@
 )))
 
 // A diagram lifted from the source. Named `diagram` rather than `figure` so it
-// does not shadow Typst's own. The width is a fraction of the measure, so a
-// half-column diagram stays half a column whatever the margins are.
+// does not shadow Typst's own. The width is a fraction of the page's measure,
+// so a half-column diagram stays half a column whatever the margins are - and
+// of the page's measure whatever the diagram sits in: a chapter set in two
+// columns holds one at the width the source printed it, capped at the column,
+// rather than at a fraction of a fraction.
 #let diagram(path, fraction) = block(above: 1em, below: 1em, width: 100%,
-  align(center, image(path, width: fraction * 100%)),
+  align(center, context {
+    let measure = page.width - page.margin.left.length - page.margin.right.length
+    layout(size => image(path, width: calc.min(fraction * measure, size.width)))
+  }),
 )
 
 // The axis labels around a chart. In the source the row axis is set vertically

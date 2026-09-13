@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 #namecost("ANCESTRAL GRUDGE", "")
 
 Dwarfs have the Hatred special rule against Orcs, Goblins and Skaven.
@@ -91,6 +92,7 @@ Models with this special rule always Wound on a To Wound roll of 4+ in close com
 #namecost("WARDS OF GRIMNIR", "")
 
 A model with Wards of Grimnir has the Magical Ward (6+) special rule against missile attacks and the Magic Resistance (2) special rule.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Dwarfs. Dwarfs may not use magic items found in the Warhammer rulebook.])
 

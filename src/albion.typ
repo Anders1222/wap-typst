@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in an Albion army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Albion units, and these are detailed here.
 
 #namecost("BATTLE CRY", "")
@@ -68,6 +69,7 @@ Your army may be associated with one of the Tribes below. Having a Clan Affiliat
 - *Fir Domain:* Models with this special rule gain +1 armour save when using shields.
 
 - *Sessair:* Models with this special rule re-roll 1's when rolling To Wound in close combat.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Albionites. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

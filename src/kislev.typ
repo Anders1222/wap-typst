@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Kislev army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the Warhammer rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules' that apply to several Kislev units, and these are detailed here.
 
 #namecost("BY OUR BLOOD", "")
@@ -70,6 +71,7 @@ The enemy may not pursue a unit disengaging from combat in this manner. After ma
 #namecost("STEADY IN THE RANKS", "")
 
 Models with this special rule do not suffer the normal \-1 penalty To Hit for firing at a charging enemy.
+]
 
 #lore("THE LORE OF ICE")[
 
