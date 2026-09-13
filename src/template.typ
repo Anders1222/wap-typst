@@ -813,37 +813,24 @@
   let named = if _typeof(level) == int { "Level " + str(level) } else { level }
 
   [#metadata((kind: "spell", name: name, level: level, cast: cast))<meta>]
-  // The name on its own line; the level and the casting value on the next,
-  // one at each end of it.
-  //
-  // Every spell breaks the same way, whether or not the name would have fitted
-  // beside its level. Letting it depend on the length meant a lore where a few
-  // spells ran to two lines and the rest to one, and the eye read that ragged
-  // difference as meaning something - which it did not. Two lines always is one
-  // shape a reader can learn.
-  //
-  // No dotted leader, though the grid is otherwise the one an option line uses.
-  // A leader is there to carry the eye across a column of prices to the one
-  // number on its row; a spell has a single value on the right, and the dots
-  // joined two things that were already touching.
+  // The name with its level in parentheses after it, at one size and weight -
+  // BASH 'EM LADZ (Level 1) - and the casting value on the line below, at the
+  // body size and italic, so it reads as the one figure a player looks for
+  // under the name. The name and level used to stand on two lines with the
+  // casting value at the far end of the second, and the level, small and
+  // muted, read as an aside rather than as part of what the spell is called.
   block(above: RECORD_GAP, below: 0em, sticky: true, {
     // As in `namecost`, and for its reasons: justification would stretch a
     // short name across the column.
     set par(justify: false)
     block(below: 0em,
-      text(weight: "bold", size: 10.5pt, tracking: 0.04em, hyphenate: false,
-        upper(name)))
-    // Italic and a shade smaller, as the casting value opposite it is: the two
-    // numbers a player needs are the two things here that are not upright body
-    // text, and they sit at either end of one line.
-    block(above: 0.1em, below: 0em, grid(
-      columns: (1fr, auto),
-      align: (left + bottom, right + bottom),
-      column-gutter: 0.6em,
-      text(size: 9.5pt, style: "italic", fill: muted)[(#named)],
-      if cast != none { text(size: 9.5pt, style: "italic")[Cast on #cast] }
-      else { none },
-    ))
+      text(weight: "bold", size: 10.5pt, tracking: 0.04em, hyphenate: false)[
+        #upper(name) (#named)
+      ])
+    if cast != none {
+      block(above: 0.1em, below: 0em,
+        text(size: 10pt, style: "italic")[Cast on #cast])
+    }
   })
   // An explicit `above` or `below` wins over whatever its neighbour brings, so
   // the gap between a spell's name and the rules under it is this figure and
