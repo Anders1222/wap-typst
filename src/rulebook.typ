@@ -299,8 +299,11 @@ When a situation of contention arises, players should agree on a fair and reason
 
 Likewise; if there are any rules you or your gaming group dislike, feel free to discuss them among yourself and change them accordingly to something you prefer. This book is meant as a framework to play the game around, but feel free to make up new rules or changes as you see fit as long as your opponent agrees with you.
 
+]
+
 = MODEL PROFILES
 
+#balanced-columns[
 Warhammer uses nine different statistics or characteristics to describe the various attributes of the different models. All characteristics are rated on a scale from 0 to 10 – they cannot go below 0 or rise above 10, unless specified.
 
 If certain spells or special rules give an increase or decrease to a model’s characteristics, then you use the new value for as long as that spells or special rule is in effect. However, this does not apply to weapons of any kind (see the Weapons & Armour chapter for more information).
@@ -350,7 +353,6 @@ If any model has a Movement value of 0, it cannot move at all for any reason, un
 If any model has a Weapon Skill of 0 then it is unable to attack with its normal attacks or defend itself in close combat, and any blows struck against it will therefore automatically hit. A model with Ballistic Skill 0 cannot use any missile weapons that require To Hit.
 
 If at any time a model's Strength, Toughness or Wounds are reduced to 0 or less by magic or a special rule, it is slain and removed from play.
-
 ]
 
 = FIGHTING A BATTLE
