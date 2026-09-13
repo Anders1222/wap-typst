@@ -10,17 +10,17 @@
 #book-meta(
   slug: "high-elves",
   army: "High Elves",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/high-elves.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — High Elves 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — High Elves 1.0")
 
 #cover(
   title: "High Elves",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/high-elves.png",
 )
 

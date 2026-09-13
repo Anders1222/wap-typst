@@ -10,17 +10,17 @@
 #book-meta(
   slug: "kingdoms-of-ind",
   army: "Kingdoms of Ind",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/kingdoms-of-ind.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Kingdoms of Ind 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Kingdoms of Ind 1.0")
 
 #cover(
   title: "Kingdoms of Ind",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/kingdoms-of-ind.png",
 )
 

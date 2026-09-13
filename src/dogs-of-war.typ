@@ -10,17 +10,17 @@
 #book-meta(
   slug: "dogs-of-war",
   army: "Dogs of War",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/dogs-of-war.png",
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Dogs of War 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Dogs of War 1.0")
 
 #cover(
   title: "Dogs of War",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/dogs-of-war.png",
 )
 

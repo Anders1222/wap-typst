@@ -10,17 +10,17 @@
 #book-meta(
   slug: "halflings",
   army: "Halflings",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/halflings.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Halflings 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Halflings 1.0")
 
 #cover(
   title: "Halflings",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/halflings.png",
 )
 

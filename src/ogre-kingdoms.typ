@@ -10,17 +10,17 @@
 #book-meta(
   slug: "ogre-kingdoms",
   army: "Ogre Kingdoms",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/ogre-kingdoms.png",
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Ogre Kingdoms 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Ogre Kingdoms 1.0")
 
 #cover(
   title: "Ogre Kingdoms",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/ogre-kingdoms.png",
 )
 

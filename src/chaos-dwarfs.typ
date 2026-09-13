@@ -10,17 +10,17 @@
 #book-meta(
   slug: "chaos-dwarfs",
   army: "Chaos Dwarfs",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/chaos-dwarfs.png",
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Chaos Dwarfs 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Chaos Dwarfs 1.0")
 
 #cover(
   title: "Chaos Dwarfs",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/chaos-dwarfs.png",
 )
 

@@ -10,17 +10,17 @@
 #book-meta(
   slug: "amazons",
   army: "Amazons",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/amazons.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Amazons 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Amazons 1.0")
 
 #cover(
   title: "Amazons",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/amazons.png",
 )
 

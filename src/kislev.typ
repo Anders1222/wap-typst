@@ -10,17 +10,17 @@
 #book-meta(
   slug: "kislev",
   army: "Kislev",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/kislev.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Kislev 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Kislev 1.0")
 
 #cover(
   title: "Kislev",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/kislev.png",
 )
 

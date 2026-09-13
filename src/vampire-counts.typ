@@ -10,17 +10,17 @@
 #book-meta(
   slug: "vampire-counts",
   army: "Vampire Counts",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/vampire-counts.png",
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Vampire Counts 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Vampire Counts 1.0")
 
 #cover(
   title: "Vampire Counts",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/vampire-counts.png",
 )
 

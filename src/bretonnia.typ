@@ -10,17 +10,17 @@
 #book-meta(
   slug: "bretonnia",
   army: "Bretonnia",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/bretonnia.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Bretonnia 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Bretonnia 1.0")
 
 #cover(
   title: "Bretonnia",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/bretonnia.png",
 )
 

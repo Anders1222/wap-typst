@@ -10,16 +10,16 @@
 #book-meta(
   slug: "rulebook",
   army: "The Game of Fantasy Battles",
-  version: "3.11",
+  version: "1.0",
   layout: "rules",
   cover: "covers/rulebook.png",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — The Game of Fantasy Battles 3.11")
+#show: book.with(title: "Warhammer Armies Revamped — The Game of Fantasy Battles 1.0")
 
 #cover(
   title: "The Game of Fantasy Battles",
-  subtitle: "Warhammer Armies Revamped · 3.11",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/rulebook.png",
 )
 

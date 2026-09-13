@@ -10,17 +10,17 @@
 #book-meta(
   slug: "pirates-of-sartosa",
   army: "Pirates of Sartosa",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/pirates-of-sartosa.png",
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Pirates of Sartosa 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Pirates of Sartosa 1.0")
 
 #cover(
   title: "Pirates of Sartosa",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/pirates-of-sartosa.png",
 )
 

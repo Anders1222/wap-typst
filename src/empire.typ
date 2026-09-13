@@ -10,17 +10,17 @@
 #book-meta(
   slug: "empire",
   army: "The Empire",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/empire.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — The Empire 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — The Empire 1.0")
 
 #cover(
   title: "The Empire",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/empire.png",
 )
 

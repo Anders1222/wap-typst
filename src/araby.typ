@@ -10,17 +10,17 @@
 #book-meta(
   slug: "araby",
   army: "Araby",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/araby.png",
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Araby 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Araby 1.0")
 
 #cover(
   title: "Araby",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/araby.png",
 )
 

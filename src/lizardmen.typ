@@ -10,17 +10,17 @@
 #book-meta(
   slug: "lizardmen",
   army: "Lizardmen",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/lizardmen.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Lizardmen 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Lizardmen 1.0")
 
 #cover(
   title: "Lizardmen",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/lizardmen.png",
 )
 

@@ -10,17 +10,17 @@
 #book-meta(
   slug: "nippon",
   army: "Nippon",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/nippon.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Nippon 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Nippon 1.0")
 
 #cover(
   title: "Nippon",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/nippon.png",
 )
 

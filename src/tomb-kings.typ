@@ -10,17 +10,17 @@
 #book-meta(
   slug: "tomb-kings",
   army: "Tomb Kings",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/tomb-kings.png",
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Tomb Kings 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Tomb Kings 1.0")
 
 #cover(
   title: "Tomb Kings",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/tomb-kings.png",
 )
 

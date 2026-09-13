@@ -10,17 +10,17 @@
 #book-meta(
   slug: "grand-cathay",
   army: "Grand Cathay",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/grand-cathay.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Grand Cathay 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Grand Cathay 1.0")
 
 #cover(
   title: "Grand Cathay",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/grand-cathay.png",
 )
 

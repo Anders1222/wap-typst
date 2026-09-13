@@ -10,17 +10,17 @@
 #book-meta(
   slug: "zombie-pirates",
   army: "Zombie Pirates",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/zombie-pirates.png",
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Zombie Pirates 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Zombie Pirates 1.0")
 
 #cover(
   title: "Zombie Pirates",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/zombie-pirates.png",
 )
 

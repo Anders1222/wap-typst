@@ -10,17 +10,17 @@
 #book-meta(
   slug: "warriors-of-chaos",
   army: "Warriors of Chaos",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/warriors-of-chaos.png",
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Warriors of Chaos 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Warriors of Chaos 1.0")
 
 #cover(
   title: "Warriors of Chaos",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/warriors-of-chaos.png",
 )
 

@@ -10,17 +10,17 @@
 #book-meta(
   slug: "wood-elves",
   army: "Wood Elves",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/wood-elves.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Wood Elves 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Wood Elves 1.0")
 
 #cover(
   title: "Wood Elves",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/wood-elves.png",
 )
 

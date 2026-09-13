@@ -10,17 +10,17 @@
 #book-meta(
   slug: "skaven",
   army: "Skaven",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/skaven.png",
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Skaven 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Skaven 1.0")
 
 #cover(
   title: "Skaven",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/skaven.png",
 )
 

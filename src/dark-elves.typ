@@ -10,17 +10,17 @@
 #book-meta(
   slug: "dark-elves",
   army: "Dark Elves",
-  version: "3.1",
+  version: "1.0",
   layout: "army",
   cover: "covers/dark-elves.png",
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Dark Elves 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Dark Elves 1.0")
 
 #cover(
   title: "Dark Elves",
-  subtitle: "Warhammer Armies Revamped · 3.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/dark-elves.png",
 )
 

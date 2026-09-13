@@ -10,17 +10,17 @@
 #book-meta(
   slug: "estalia",
   army: "Estalia",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/estalia.png",
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Estalia 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Estalia 1.0")
 
 #cover(
   title: "Estalia",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/estalia.png",
 )
 

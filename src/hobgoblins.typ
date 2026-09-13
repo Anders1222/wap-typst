@@ -10,17 +10,17 @@
 #book-meta(
   slug: "hobgoblins",
   army: "Hobgoblins",
-  version: "3.0",
+  version: "1.0",
   layout: "army",
   cover: "covers/hobgoblins.png",
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Revamped — Hobgoblins 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Hobgoblins 1.0")
 
 #cover(
   title: "Hobgoblins",
-  subtitle: "Warhammer Armies Revamped · 3.0",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: "/assets/covers/hobgoblins.png",
 )
 
