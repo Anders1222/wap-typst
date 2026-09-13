@@ -169,194 +169,62 @@ A Pavise has the following armour profile:
 
 #spell("MANACLE OF CALOE", 3, cast: "8+")[_Manacle of Caloe_ is a *hex* spell with a range of 24". The target unit has all its movement halved until the start of the caster's next Magic phase.]
 ]
-= QUIRKS OF CHARACTER
+#upgrade-chapter("QUIRKS OF CHARACTER", intro: [*Models can spend points on Quirks of Character, as detailed in the army list. The points cost below refer to the cost for characters. Characters and units may take up to two Quirks of Characters each. Core Units with two Quirks count as Special Units, and Special Units with two Quirks count as Rare Units. One character and one unit may take the same Quirk of Character, but each Quirk may otherwise only be taken once unless specified.*])[
+#upgrade("GRIZZLED WARRIOR", (("Characters", "25 points"),), only: "Infantry or Cavalry")[All successful To Wound rolls against this model must be re-rolled.]
 
-#balanced-columns[
-*Models can spend points on Quirks of Character, as detailed in the army list. The points cost below refer to the cost for characters. Characters and units may take up to two Quirks of Characters each. Core Units with two Quirks count as Special Units, and Special Units with two Quirks count as Rare Units. One character and one unit may take the same Quirk of Character, but each Quirk may otherwise only be taken once unless specified.*
+#upgrade("CHARISMATIC LEADER", (("Characters", "25 points"),), only: "Army General")[The model gains the Inspiring Presence (6) special rule.]
 
-#namecost("GRIZZLED WARRIOR", "")
-#namecost("Characters", "25 points")
+#upgrade("GREEDY", (("Characters", "20 points"),), only: "Army General")[All friendly models using the Paymaster's Hold Your Ground ability may choose to re-roll just one of the dice when taking Break or Panic tests.]
 
-Infantry or Cavalry only. All successful To Wound rolls against this model must be re-rolled.
+#upgrade("EAGLE EYE", (("Characters", "20 points"),), only: "Character")[The model gains the Sniper special rule.]
 
-#namecost("CHARISMATIC LEADER", "")
-#namecost("Characters", "25 points")
+#upgrade("BEASTSLAYER", (("Characters", "15 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Multiple Wounds (2) special rule.]
 
-Army General only. The model gains the Inspiring Presence (6) special rule.
+#upgrade("BLOOD FEUD", (("Characters", "15 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model has the Hatred special rule.]
 
-#namecost("GREEDY", "")
-#namecost("Characters", "20 points")
+#upgrade("DEFIANT", (("Characters", "15 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Stubborn special rule.]
 
-Army General only. All friendly models using the Paymaster's Hold Your Ground ability may choose to re-roll just one of the dice when taking Break or Panic tests.
+#upgrade("EXECUTIONER", (("Characters", "15 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Killing Blow special rule.]
 
-#namecost("EAGLE EYE", "")
-#namecost("Characters", "20 points")
+#upgrade("FEARSOME REPUTATION", (("Characters", "15 points"), ("Infantry", "1 point per model"), ("Cavalry", "2 points per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Fear special rule.]
 
-Character only. The model gains the Sniper special rule.
+#upgrade("RANGER", (("Characters", "15 points"), ("Infantry", "1 point per model")), only: "Character on foot and Skirmishers")[The model gains the Scouts special rule.]
 
-#namecost("BEASTSLAYER", "")
-#namecost("Characters", "15 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
+#upgrade("TACTICIAN", (("Characters", "15 points"),))[One per army. You may add +1 to the result when determining who chooses which side of the table to deploy on.]
 
-The model gains the Multiple Wounds (2) special rule.
+#upgrade("BERSERKER", (("Characters", "10 points"), ("Infantry", "1 point per model"), ("Cavalry", "2 points per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Frenzy special rule.]
 
-#namecost("BLOOD FEUD", "")
-#namecost("Characters", "15 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
+#upgrade("BLADEMASTER", (("Characters", "10 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Parry (6+) special rule.]
 
-The model has the Hatred special rule.
+#upgrade("DIPLOMAT", (("Characters", "10 points"),), only: "Army General")[One unit of Dwarfs, Norse, Elves, Halflings, Ogres, Orcs or Hobgoblins may be taken as a Core Unit instead of a Special Unit, or as a Special Unit instead of a Rare Unit.]
 
-#namecost("DEFIANT", "")
-#namecost("Characters", "15 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
+#upgrade("HARD HITTER", (("Characters", "10 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Mighty Blow (1) special rule.]
 
-The model gains the Stubborn special rule.
+#upgrade("POISONER", (("Characters", "10 points"), ("Infantry/Cavalry", "1 point per model")), only: "Character, Duellists, Hobgoblins or Elves")[The model gains the Poisoned Attacks special rule.]
 
-#namecost("EXECUTIONER", "")
-#namecost("Characters", "15 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
+#upgrade("BATTLE-EAGER", (("Characters", "5 points"), ("Infantry", "0.5 point per model"), ("Cavalry", "1 points per model"), ("Monstrous Infantry", "1.5 points per model")))[The model gains the Vanguard special rule.]
 
-The model gains the Killing Blow special rule.
+#upgrade("DRILLED", (("Characters", "5 points"), ("Infantry", "0.5 point per model"), ("Cavalry", "1 points per model"), ("Monstrous Infantry", "1.5 points per model")))[The model gains the Disciplined special rule.]
 
-#namecost("FEARSOME REPUTATION", "")
-#namecost("Characters", "15 points")
-#namecost("Infantry 1 point per model", "")
-#namecost("Cavalry 2 points per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
+#upgrade("FEARLESS", (("Characters", "5 points"), ("Infantry", "1 point per model"), ("Cavalry", "2 points per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Immunity (Fear, Panic) special rule.]
 
-The model gains the Fear special rule.
+#upgrade("FLEET-FOOTED", (("Characters", "5 points"), ("Infantry/Cavalry", "1 point per model")))[The model gains the Swiftstride special rule.]
 
-#namecost("RANGER", "")
-#namecost("Characters", "15 points")
-#namecost("Infantry 1 point per model", "")
+#upgrade("FURIOUS CHARGER", (("Characters", "5 points"), ("Infantry", "0.5 point per model"), ("Cavalry", "1 points per model"), ("Monstrous Infantry", "1.5 points per model")))[The model gains the Devastating Charge special rule.]
 
-Character on foot and Skirmishers only. The model gains the Scouts special rule.
+#upgrade("MARKSMAN", (("Characters", "5 points"), ("Infantry/Cavalry", "0.5 point per model"), ("Monstrous Infantry", "1.5 points per model")))[The model does not suffer penalties for shooting at long range.]
 
-#namecost("TACTICIAN", "")
-#namecost("Characters", "15 points")
+#upgrade("PRECISION STRIKER", (("Characters", "5 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Armour Piercing (1) special rule.]
 
-One per army. You may add +1 to the result when determining who chooses which side of the table to deploy on.
+#upgrade("QUICK DRAW", (("Characters", "5 points"), ("Infantry/Cavalry", "1 point per model"), ("Monstrous Infantry", "3 points per model")))[The model gains the Rapid Fire special rule.]
 
-#namecost("BERSERKER", "")
-#namecost("Characters", "10 points")
-#namecost("Infantry 1 point per model", "")
-#namecost("Cavalry 2 points per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
+#upgrade("RAIDER", (("Characters", "5 points"), ("Infantry", "1 point per model")), only: "Skirmishers and Fast Cavalry")[The model gains the Ambushers special rule.]
 
-The model gains the Frenzy special rule.
+#upgrade("STEADY AIM", (("Characters", "5 points"), ("Infantry", "0.5 point per model"), ("Cavalry", "1 point per model")))[The model does not suffer the normal To Hit penalty for moving & shooting.]
 
-#namecost("BLADEMASTER", "")
-#namecost("Characters", "10 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
+#upgrade("VETERAN", (("Infantry/Cavalry", "1 point per model"),), only: "Pikemen, Sellswords and Stradiots")[The model gains +1 Weapon Skill. This Quirk may be taken once per full 1000 points in your army.]
 
-The model gains the Parry (6+) special rule.
-
-#namecost("DIPLOMAT", "")
-#namecost("Characters", "10 points")
-
-Army General only. One unit of Dwarfs, Norse, Elves, Halflings, Ogres, Orcs or Hobgoblins may be taken as a Core Unit instead of a Special Unit, or as a Special Unit instead of a Rare Unit.
-
-#namecost("HARD HITTER", "")
-#namecost("Characters", "10 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
-
-The model gains the Mighty Blow (1) special rule.
-
-#namecost("POISONER", "")
-#namecost("Characters", "10 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-
-Character, Duellists, Hobgoblins or Elves only. The model gains the Poisoned Attacks special rule.
-
-#namecost("BATTLE-EAGER", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry 0.5 point per model", "")
-#namecost("Cavalry 1 points per model", "")
-#namecost("Monstrous Infantry 1.5 points per model", "")
-
-The model gains the Vanguard special rule.
-
-#namecost("DRILLED", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry 0.5 point per model", "")
-#namecost("Cavalry 1 points per model", "")
-#namecost("Monstrous Infantry 1.5 points per model", "")
-
-The model gains the Disciplined special rule.
-
-#namecost("FEARLESS", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry 1 point per model", "")
-#namecost("Cavalry 2 points per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
-
-The model gains the Immunity (Fear, Panic) special rule.
-
-#namecost("FLEET-FOOTED", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-
-The model gains the Swiftstride special rule.
-
-#namecost("FURIOUS CHARGER", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry 0.5 point per model", "")
-#namecost("Cavalry 1 points per model", "")
-#namecost("Monstrous Infantry 1.5 points per model", "")
-
-The model gains the Devastating Charge special rule.
-
-#namecost("MARKSMAN", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry/Cavalry 0.5 point per model", "")
-#namecost("Monstrous Infantry 1.5 points per model", "")
-
-The model does not suffer penalties for shooting at long range.
-
-#namecost("PRECISION STRIKER", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
-
-The model gains the Armour Piercing (1) special rule.
-
-#namecost("QUICK DRAW", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry/Cavalry 1 point per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
-
-The model gains the Rapid Fire special rule.
-
-#namecost("RAIDER", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry 1 point per model", "")
-
-Skirmishers and Fast Cavalry only. The model gains the Ambushers special rule.
-
-#namecost("STEADY AIM", "")
-#namecost("Characters", "5 points")
-#namecost("Infantry 0.5 point per model", "")
-#namecost("Cavalry 1 point per model", "")
-
-The model does not suffer the normal To Hit penalty for moving & shooting.
-
-#namecost("VETERAN", "")
-#namecost("Infantry/Cavalry 1 point per model", "")
-
-Pikemen, Sellswords and Stradiots only. The model gains +1 Weapon Skill. This Quirk may be taken once per full 1000 points in your army.
-
-#namecost("WEALTHY", "")
-#namecost("Infantry 1 point per model", "")
-#namecost("Cavalry 2 points per model", "")
-#namecost("Monstrous Infantry 3 points per model", "")
-
-Model with light or medium armour only. The model counts its armour save as being 1 point higher than it actually is. This Quirk may be taken once per full 1000 points in your army.
+#upgrade("WEALTHY", (("Infantry", "1 point per model"), ("Cavalry", "2 points per model"), ("Monstrous Infantry", "3 points per model")), only: "Model with light or medium armour")[The model counts its armour save as being 1 point higher than it actually is. This Quirk may be taken once per full 1000 points in your army.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Dogs of War. These may be used in addition to the magic items found in the Warhammer rulebook.])

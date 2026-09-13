@@ -163,70 +163,36 @@ One use only. A Butcher with a Scalp-Gnoblar may re- roll a single dice when att
 
 #spell("THE GREAT MAW AWAKENS", 4, cast: "15+")[Remains in play. _The Great Maw Awakens_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move must take an Initiative test. Models that pass the test suffer a Strength 3 hit. Models that fail the test suffer a Strength 7 hit with the Multiple Wounds (D6) special rule.]
 ]
-= BIG NAMES OF THE OGRES
+#upgrade-chapter("BIG NAMES OF THE OGRES", intro: [*Certain models are able to spend points on Big Names, as detailed in the army list. Each model may only take a single Big Name, unless specified. No big name may be taken more than once in the same army.*])[
+#upgrade("DEATHCHEATER", 20)[Starting from the end of the phase in which the character is down to their last Wound, they receive a 3+ invulnerable save.]
 
-#balanced-columns[
-*Certain models are able to spend points on Big Names, as detailed in the army list. Each model may only take a single Big Name, unless specified. No big name may be taken more than once in the same army.*
+#upgrade("MOUNTAINEATER", 20)[The character will never be wounded on a score better than a 3+. Hits that cause automatic Wounds are unaffected.]
 
-#namecost("DEATHCHEATER", "20 points")
+#upgrade("KINEATER", 20, only: "Tyrants")[Any friendly unit within 12" of the character may re-roll failed Panic tests.]
 
-Starting from the end of the phase in which the character is down to their last Wound, they receive a 3+ invulnerable save.
+#upgrade("BEASTKILLER", 15, only: "Hunters")[When making attacks against War Beasts, Monstrous Beasts, Monstrous Creatures or Monsters, the character gains +1 on his rolls To Wound. If the character is using a magic weapon, then he does not get this bonus.]
 
-#namecost("MOUNTAINEATER", "20 points")
+#upgrade("DAEMONKILLER", 15, only: "Tyrants")[The character causes Terror.]
 
-The character will never be wounded on a score better than a 3+. Hits that cause automatic Wounds are unaffected.
+#upgrade("GIANTBREAKER", 15)[The character gains +1 Strength. They may never refuse challenges, and neither they nor a unit they are with may choose to flee as a charge reaction.]
 
-#namecost("KINEATER", "20 points")
+#upgrade("GUTSLUGGER", 15)[The character gains +1 To Hit in close combat in any turn in which it did not charge.]
 
-Tyrants only. Any friendly unit within 12" of the character may re-roll failed Panic tests.
+#upgrade("MAWSEEKER", 15)[The character gains +1 Toughness and the Stupidity special rule.]
 
-#namecost("BEASTKILLER", "15 points")
+#upgrade("BRAWLERGUTS", 10, only: "Model on foot")[The character gains the Impact Hits (D3) special rule.]
 
-Hunters only. When making attacks against War Beasts, Monstrous Beasts, Monstrous Creatures or Monsters, the character gains +1 on his rolls To Wound. If the character is using a magic weapon, then he does not get this bonus.
+#upgrade("NECKWRINGER", 10)[Enemy Infantry in combat with this character cannot claim the bonus for Outnumbering their foe.]
 
-#namecost("DAEMONKILLER", "15 points")
+#upgrade("WALLCRUSHER", 10)[The character does one additional Impact Hit on a successful Ogre Charge. In addition, they ignore all the effects of obstacles when attacking units that are defending them.]
 
-Tyrants only. The character causes Terror.
+#upgrade("LONGSTRIDER", 5, only: "Model on foot")[The character gains +1 Movement.]
 
-#namecost("GIANTBREAKER", "15 points")
+#upgrade("MAGESWALLOWER", 5)[The character gains the Magical Attacks special rule.]
 
-The character gains +1 Strength. They may never refuse challenges, and neither they nor a unit they are with may choose to flee as a charge reaction.
+#upgrade("MONSTERWRESTLER", 5)[Monstrous Creatures and Monsters cannot use Stomp against this character or their unit.]
 
-#namecost("GUTSLUGGER", "15 points")
-
-The character gains +1 To Hit in close combat in any turn in which it did not charge.
-
-#namecost("MAWSEEKER", "15 points")
-
-The character gains +1 Toughness and the Stupidity special rule.
-
-#namecost("BRAWLERGUTS", "10 points")
-
-Model on foot only. The character gains the Impact Hits (D3) special rule.
-
-#namecost("NECKWRINGER", "10 points")
-
-Enemy Infantry in combat with this character cannot claim the bonus for Outnumbering their foe.
-
-#namecost("WALLCRUSHER", "10 points")
-
-The character does one additional Impact Hit on a successful Ogre Charge. In addition, they ignore all the effects of obstacles when attacking units that are defending them.
-
-#namecost("LONGSTRIDER", "5 points")
-
-Model on foot only. The character gains +1 Movement.
-
-#namecost("MAGESWALLOWER", "5 points")
-
-The character gains the Magical Attacks special rule.
-
-#namecost("MONSTERWRESTLER", "5 points")
-
-Monstrous Creatures and Monsters cannot use Stomp against this character or their unit.
-
-#namecost("STEEDEATER", "5 points")
-
-The character and any unit they are with gain the Swiftstride special rule when charging or pureeing enemy War Beasts and Cavalry.
+#upgrade("STEEDEATER", 5)[The character and any unit they are with gain the Swiftstride special rule when charging or pureeing enemy War Beasts and Cavalry.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Ogres. These may be used in addition to the magic items found in the Warhammer rulebook.])

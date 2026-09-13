@@ -130,54 +130,28 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
 
 #spell("FLAMES OF THE PHOENIX", 4, cast: "15+")[Remains in play. _Flames of the Phoenix_ is a *direct damage* spell with a range of 24". Every model in the target unit takes a Strength 3 hit with the Flaming Attacks special rule. At the end of every subsequent Magic phase, every model in the target unit suffers another hit with the Flaming Attacks special rule, with the Strength of each Hit increasing by 1 every time.]
 ]
-= ELVEN HONOURS
+#upgrade-chapter("ELVEN HONOURS", intro: [*Characters may be given one Elven Honour as detailed in the army list. Each Honour can be taken by more than one model in the army.*])[
+#upgrade("ANOINTED OF ASURYAN", 50, only: "Model on foot")[The model gains a 4+ invulnerable save and the Immunity (Psychology) special rule. The model must take a polearm and may be mounted on a Flamespyre Phoenix (see Rare Units) for +200 points. In addition, all models in a unit that contains an Anointed of Asuryan may re-roll invulnerable save results of 1.]
 
-#balanced-columns[
-*Characters may be given one Elven Honour as detailed in the army list. Each Honour can be taken by more than one model in the army.*
+#upgrade("BLOOD OF CALEDOR", 35)[The model gains dragon armour and the Devastating Charge special rule. The model must be mounted on an Elven Steed with ithilmar barding or a Moon Dragon. Alternatively, if the model is a Prince, they may be mounted on a Star Dragon for +390 points. If the model is a Noble, they may be mounted on a Sun Dragon for +235 points.]
 
-#namecost("ANOINTED OF ASURYAN", "50 points")
+#upgrade("CHRACIAN HUNTER", 20, only: "Model on foot")[The model gains a lion cloak, the Forest Strider, Multiple Wounds (2) and Stubborn special rules. The model must take a great weapon and may be mounted on a White Lion Chariot (see Special Units), replacing one of the crew, for +95 points.]
 
-Model on foot only. The model gains a 4+ invulnerable save and the Immunity (Psychology) special rule. The model must take a polearm and may be mounted on a Flamespyre Phoenix (see Rare Units) for +200 points. In addition, all models in a unit that contains an Anointed of Asuryan may re-roll invulnerable save results of 1.
+#upgrade("COTHIQUE MARINER", 20, only: "Model on foot")[The model may not take heavy armour. The model and one unit of Rangers that they must deploy with gains the Ambushers special rule.]
 
-#namecost("BLOOD OF CALEDOR", "35 points")
+#upgrade("SHADOW STALKER", 20, only: "Model on foot")[The model must take an Elven shortbow or Elven longbow. They cannot take medium or heavy armour. They gain the Independent, Scouts and Sniper special rules.]
 
-The model gains dragon armour and the Devastating Charge special rule. The model must be mounted on an Elven Steed with ithilmar barding or a Moon Dragon. Alternatively, if the model is a Prince, they may be mounted on a Star Dragon for +390 points. If the model is a Noble, they may be mounted on a Sun Dragon for +235 points.
+#upgrade("BLADELORD", 15, only: "Model on foot")[The model must take a great weapon. The model gains the Killing Blow and Swordmaster special rules.]
 
-#namecost("CHRACIAN HUNTER", "20 points")
+#upgrade("ELLYRIAN OUTRIDER", 15, only: "Model on Elven Steed")[The model may not take heavy armour. The model and any unit of Ellyrian Reavers they join may flee, pursuit and charge distances.]
 
-Model on foot only. The model gains a lion cloak, the Forest Strider, Multiple Wounds (2) and Stubborn special rules. The model must take a great weapon and may be mounted on a White Lion Chariot (see Special Units), replacing one of the crew, for +95 points.
+#upgrade("PURE OF HEART", 15)[The model and any unit they join gain the Immunity (Panic) special rule. When fighting against Dark Elves in close combat, they gain Immunity (Psychology).]
 
-#namecost("COTHIQUE MARINER", "20 points")
+#upgrade("GUARDIAN OF YVRESSE", 10, only: "Model on foot")[The model must take a shield. If this model is in a unit of Sentinels or Wardens, that unit gains the Fight in Extra Ranks (1) special rule.]
 
-Model on foot only. The model may not take heavy armour. The model and one unit of Rangers that they must deploy with gains the Ambushers special rule.
+#upgrade("LOTHERN SEA HELM", 10, only: "Model on foot")[The model may take no other weapons besides spear, light lance and Elven shortbow, and may be mounted on a Lothern Skycutter (see Rare Units), replacing one of the crew, for +65 points. If a unit of Lothern Sea Guard contains one or more Sea Helms, they gain the Quick Shot special rule when making a Stand & Shoot charge reaction. In addition, the unit may then choose to do a Reform before moving the enemy unit.]
 
-#namecost("SHADOW STALKER", "20 points")
-
-Model on foot only. The model must take an Elven shortbow or Elven longbow. They cannot take medium or heavy armour. They gain the Independent, Scouts and Sniper special rules.
-
-#namecost("BLADELORD", "15 points")
-
-Model on foot only. The model must take a great weapon. The model gains the Killing Blow and Swordmaster special rules.
-
-#namecost("ELLYRIAN OUTRIDER", "15 points")
-
-Model on Elven Steed only. The model may not take heavy armour. The model and any unit of Ellyrian Reavers they join may flee, pursuit and charge distances.
-
-#namecost("PURE OF HEART", "15 points")
-
-The model and any unit they join gain the Immunity (Panic) special rule. When fighting against Dark Elves in close combat, they gain Immunity (Psychology).
-
-#namecost("GUARDIAN OF YVRESSE", "10 points")
-
-Model on foot only. The model must take a shield. If this model is in a unit of Sentinels or Wardens, that unit gains the Fight in Extra Ranks (1) special rule.
-
-#namecost("LOTHERN SEA HELM", "10 points")
-
-Model on foot only. The model may take no other weapons besides spear, light lance and Elven shortbow, and may be mounted on a Lothern Skycutter (see Rare Units), replacing one of the crew, for +65 points. If a unit of Lothern Sea Guard contains one or more Sea Helms, they gain the Quick Shot special rule when making a Stand & Shoot charge reaction. In addition, the unit may then choose to do a Reform before moving the enemy unit.
-
-#namecost("TIRANOC CHARIOT MASTER", "5 points")
-
-Model on Tiranoc Chariot only. The model may roll an additional D6 for their Impact Hits and pick the highest result. In addition, they may re-roll failed Dangerous Terrain tests.
+#upgrade("TIRANOC CHARIOT MASTER", 5, only: "Model on Tiranoc Chariot")[The model may roll an additional D6 for their Impact Hits and pick the highest result. In addition, they may re-roll failed Dangerous Terrain tests.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the High Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])

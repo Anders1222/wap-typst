@@ -175,53 +175,35 @@ A model with this rule can choose to make a single Tree Whack in place of making
 
 #spell("ARIEL'S BLESSING", 4, cast: "13+")[_Ariel's Blessing_ is an *augment* spell with a range of 18". The target gains the Regeneration (4+) special rule until the start of the caster's next Magic phase.]
 ]
-= FOREST SPITES
+#upgrade-chapter("FOREST SPITES", intro: [*Characters may choose Spites as detailed in the army list. Each Spite may only be chosen once per army.*])[
+#upgrade("A BLIGHT OF TERRORS", 25)[A character with a Blight of Terrors gains the Terror special rule.]
 
-#balanced-columns[
-*Characters may choose Spites as detailed in the army list. Each Spite may only be chosen once per army.*
+#upgrade("A CLUSTER OF RADIANTS", 25, only: "Forest Spirit")[A character with a Cluster of Radiants adds one extra dice to their Dispel pool in their opponent's Magic phase.]
 
-#namecost("A BLIGHT OF TERRORS", "25 points")
+#upgrade("AN ANNOYANCE OF NETLINGS", 20)[Any enemy attempting to strike a character with an Annoyance of Netlings in close combat will suffer \-1 To Hit.]
 
-A character with a Blight of Terrors gains the Terror special rule.
-
-#namecost("A CLUSTER OF RADIANTS", "25 points")
-
-Forest Spirit only. A character with a Cluster of Radiants adds one extra dice to their Dispel pool in their opponent's Magic phase.
-
-#namecost("AN ANNOYANCE OF NETLINGS", "20 points")
-
-Any enemy attempting to strike a character with an Annoyance of Netlings in close combat will suffer \-1 To Hit.
-
-#namecost("A MUSTER OF MALEVOLENTS", "20 points")
-
-A Muster of Malevolents is a shooting attack that can be used in addition to the models other shooting attacks. This cannot be used in combination with the Sniper special rule. It has the following profile:
+#upgrade("A MUSTER OF MALEVOLENTS", 20)[A Muster of Malevolents is a shooting attack that can be used in addition to the models other shooting attacks. This cannot be used in combination with the Sniper special rule. It has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "2", "Magical Attacks, Multiple Shots (D6), Poisoned Attacks, Quick Shot, Rapid Fire"))
-#namecost("HAGBANE SPITE", "20 points")
+]
 
-One use only. A Hagbane Spite can be used after an enemy Wizard has successfully cast a spell within 24" instead of dispelling it. When used, the enemy Wizard automatically suffers D3 Hits that Wound on a 4+ with the Ignores Armour Saves special rule.
+#upgrade("HAGBANE SPITE", 20, one-use: true)[A Hagbane Spite can be used after an enemy Wizard has successfully cast a spell within 24" instead of dispelling it. When used, the enemy Wizard automatically suffers D3 Hits that Wound on a 4+ with the Ignores Armour Saves special rule.]
 
-#namecost("A PAGEANT OF SHRIKES", "15 points")
-
-A Pageant of Shrikes is a shooting attack that can be used in addition to the model's other shooting attacks. It has the following profile:
+#upgrade("A PAGEANT OF SHRIKES", 15)[A Pageant of Shrikes is a shooting attack that can be used in addition to the model's other shooting attacks. It has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12/18\"", "4", "Cumbersome, Magical Attacks, Sniper"))
-#namecost("A BEFUDDLEMENT OF MISCHIEFS", "10 points")
+]
 
-Bound Spell (Level 2, cast on 7+). _A Befuddlement of Mischiefs_ is a *hex* spell with a range of 18". The target becomes subject to Stupidity until the start of your next Magic phase.
+#upgrade("A BEFUDDLEMENT OF MISCHIEFS", 10, bound: (level: 2, cast: "7+"))[_A Befuddlement of Mischiefs_ is a *hex* spell with a range of 18". The target becomes subject to Stupidity until the start of your next Magic phase.]
 
-#namecost("A LAMENTATION OF DESPAIRS", "10 points")
+#upgrade("A LAMENTATION OF DESPAIRS", 10, bound: (level: 2, cast: "7+"))[_Lamentation of Despairs_ is a *direct damage* spell with a range of 12" which can be used to target enemy Characters or Monsters, even within a unit. The targeted model must pass a Leadership test, or else suffer D3 Wounds which Ignores Armour saves.]
 
-Bound Spell (Level 2, cast on 7+). _Lamentation of Despairs_ is a *direct damage* spell with a range of 12" which can be used to target enemy Characters or Monsters, even within a unit. The targeted model must pass a Leadership test, or else suffer D3 Wounds which Ignores Armour saves.
-
-#namecost("A MURDER OF SPITES", "10 points")
-
-A Murder of Spites is a close combat attack that can be used in addition to the model's other attacks. It has the following profile:
+#upgrade("A MURDER OF SPITES", 10)[A Murder of Spites is a close combat attack that can be used in addition to the model's other attacks. It has the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "2", "Magical Attacks, Poisoned Attacks, Random Attacks (D6)"))
-#namecost("A RESPLENDENCE OF LUMINESCENTS", "10 points")
+]
 
-A Resplendence of Luminescents gives the character and any unit they join Magical Attacks.
+#upgrade("A RESPLENDENCE OF LUMINESCENTS", 10)[A Resplendence of Luminescents gives the character and any unit they join Magical Attacks.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Wood Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])

@@ -129,229 +129,128 @@ Roll a D6 at the end of each Close Combat phase in which one or more models was 
 
 #spell("WIND OF UNDEATH", 4, cast: "13+")[_Wind of Undeath_ is a *direct damage aura* spell with a range of 12". Each unit within range suffer 2D6 Strength 3 Hits which Ignores Armour Saves.]
 ]
-= VAMPIRIC POWERS
+#upgrade-chapter("VAMPIRIC POWERS", intro: [*In this section you will find powers that can be bought for your Vampires. You cannot buy multiples of the same power for a single Vampire, but different Vampires in the same army can have the same powers if you wish. Each Vampire may only take powers from their own Bloodline (unless specified).*])[
+#upgrade("RED FURY", 30, only: "Blood Dragon or Strigoi")[For each unsaved Wound caused by the model in close combat, it can immediately make an additional Attack (to a maximum of +3 Attacks). These additional Attacks do not benefit from Red Fury.]
 
-*In this section you will find powers that can be bought for your Vampires. You cannot buy multiples of the same power for a single Vampire, but different Vampires in the same army can have the same powers if you wish. Each Vampire may only take powers from their own Bloodline (unless specified).*
+#upgrade("UNHOLY REGENERATION", 30, only: "Necrarch or Strigoi")[The model gains the Regeneration (4+) special rule.]
 
-#namecost("RED FURY", "30 points")
+#upgrade("CURSE OF THE REVENANT", 20, only: "Necrarch or Strigoi")[The model has a 3+ invulnerable save when they have a single Wound remaining (if the model suffers multiple Wounds in a single turn, it is reduced to 1 Wound and may then attempt to take this invulnerable save).]
 
-Blood Dragon or Strigoi only. For each unsaved Wound caused by the model in close combat, it can immediately make an additional Attack (to a maximum of +3 Attacks). These additional Attacks do not benefit from Red Fury.
+#upgrade("FEAR INCARNATE", 20)[All enemy units in base contact with the model must pass a Leadership test at the start of each round of close combat or suffer \-1 To Hit this round.]
 
-#namecost("UNHOLY REGENERATION", "30 points")
+#upgrade("FLYING HORROR", 20, only: "Model on foot")[Thе model gains the Fly (10) special rule and may join units of Fell Bats.]
 
-Necrarch or Strigoi only. The model gains the Regeneration (4+) special rule.
+#upgrade("SUPERNATURAL HORROR", 15, only: "Von Carstein, Necrarch or Strigoi")[The model gains the Terror special rule.]
 
-#namecost("CURSE OF THE REVENANT", "20 points")
+#upgrade("TRANSFIX", 15, only: "Von Carstein or Lahmian")[At the beginning of the Close Combat phase, select one model in base contact with the Vampire. The victim must pass a Leadership test or get reduced to Weapon Skill 1 for the duration of this round of Close Combat phase and all attacks directed against the victim will hit automatically.]
 
-Necrarch or Strigoi only. The model has a 3+ invulnerable save when they have a single Wound remaining (if the model suffers multiple Wounds in a single turn, it is reduced to 1 Wound and may then attempt to take this invulnerable save).
+#upgrade("HUNTER IN THE DARK", 10, only: "Lahmian or Strigoi on foot")[The model has the Scouts special rule.]
 
-#namecost("FEAR INCARNATE", "20 points")
+#upgrade("UNBENDING WILLPOWER", 10, only: "Von Carstein or Necrarch")[Units of Undead within 6" of one or more models with this power suffer one less Wound than they normally would due to the Unstable special rule or following the death of the army's General. Note that this is not cumulative with the Battle Standard.]
 
-All enemy units in base contact with the model must pass a Leadership test at the start of each round of close combat or suffer \-1 To Hit this round.
+#upgrade("HONOUR OR DEATH", 5, only: "Von Carstein or Blood Dragon")[After issuing or accepting a challenge with a model with this power, the enemy character must take a Leadership test. If failed, the enemy model will automatically refuse the challenge following the normal rules.]
 
-#namecost("FLYING HORROR", "20 points")
+#group("VON CARSTEIN")
 
-Model on foot only. Thе model gains the Fly (10) special rule and may join units of Fell Bats.
+#upgrade("AURA OF DARK MAJESTY", 30)[All enemy units within 6" of one or more models with the Aura of Dark Majesty suffer a \-1 penalty to their Leadership. This penalty is cumulative with any other modifiers.]
 
-#namecost("SUPERNATURAL HORROR", "15 points")
+#upgrade("SPECTRAL ATTENDANTS", 25)[All enemy Wizards within 18" of the model must re- roll successful channelling results.]
 
-Von Carstein, Necrarch or Strigoi only. The model gains the Terror special rule.
+#upgrade("WALKING DEATH", 20)[Any unit in base contact with the model must re-roll successful Break tests.]
 
-#namecost("TRANSFIX", "15 points")
+#upgrade("CALL WINDS", 10, bound: (level: 3, cast: "9+"))[_Call Winds_ is a *hex aura* spell with a range of 24". Until the start of caster's next Magic phase, all enemy missile attacks fired from within or at a target within range suffer \-1 To Hit.]
 
-Von Carstein or Lahmian only. At the beginning of the Close Combat phase, select one model in base contact with the Vampire. The victim must pass a Leadership test or get reduced to Weapon Skill 1 for the duration of this round of Close Combat phase and all attacks directed against the victim will hit automatically.
+#upgrade("EARTH BIND", 10)[The model and any unit they join gain the Magic Resistance (1) special rule.]
 
-#namecost("HUNTER IN THE DARK", "10 points")
+#upgrade("SUMMON CREATURES OF THE NIGHT", 10)[This Vampire can use the _Invocation of Nehek_ spell to heal and increase units of Dire Wolves, Bat Swarms and Fell Bats beyond their starting size, even though they are not all Undead.]
 
-Lahmian or Strigoi on foot only. The model has the Scouts special rule.
+#upgrade("WOLF FORM", 10, only: "Model on foot")[The model gains Movement 9 and the Swiftstride special rule. In addition, they may join units of Dire Wolves.]
 
-#namecost("UNBENDING WILLPOWER", "10 points")
+#upgrade("WOLF LORD", 10)[The model allows all friendly units of Dire Wolves within 24" of it to March.]
 
-Von Carstein or Necrarch only. Units of Undead within 6" of one or more models with this power suffer one less Wound than they normally would due to the Unstable special rule or following the death of the army's General. Note that this is not cumulative with the Battle Standard.
+#group("NECRARCH")
 
-#namecost("HONOUR OR DEATH", "5 points")
+#upgrade("WELLSPRING OF DARK MAGIC", 50)[The model and all friendly Wizards within 12" gain +1 to cast spells from the Lore of Necromancy.]
 
-Von Carstein or Blood Dragon only. After issuing or accepting a challenge with a model with this power, the enemy character must take a Leadership test. If failed, the enemy model will automatically refuse the challenge following the normal rules.
+#upgrade("SPECTRAL FORM", 40, only: "Model on foot")[The model gains the Ethereal special rule. However, it may not join non-Ethereal units or take any magic items.]
 
-#entry("VON CARSTEIN")
-#namecost("AURA OF DARK MAJESTY", "30 points")
+#upgrade("MASTERY OVER FLESH", 25)[When casting the _Invocation of Nehek, Vanhel's Danse Macabre_, _Hellish Vigour_ or _Raise Dead_ spells from the Lore of Necromancy, the model may re-roll all the initial casting dice (unless they have rolled a Miscast).]
 
-All enemy units within 6" of one or more models with the Aura of Dark Majesty suffer a \-1 penalty to their Leadership. This penalty is cumulative with any other modifiers.
+#upgrade("UNHOLY CYNOSURE", 25)[Once per Magic phase, the model can re-roll one of the dice rolled to cast a spell. This can be used to negate a Miscast result or could cause an Ultimate Power result.]
 
-#namecost("SPECTRAL ATTENDANTS", "25 points")
+#upgrade("FORBIDDEN LORE", 20)[The model has the Loremaster special rule.]
 
-All enemy Wizards within 18" of the model must re- roll successful channelling results.
+#upgrade("DARK ACOLYTE", 20)[The model adds +1 to the number of Wounds healed (Core Units regain +D3 Wounds) whenever it successfully casts _Invocation of Nehek_.]
 
-#namecost("WALKING DEATH", "20 points")
+#upgrade("NEHEKHARA'S NOBLE BLOOD", 20)[The model adds +6" to the range of all their spells (excluding auras).]
 
-Any unit in base contact with the model must re-roll successful Break tests.
+#upgrade("MASTER OF THE BLACK ARTS", 15)[A player using a model with the Master of the Black Arts power can re-roll the result when it is determining the strength of the Winds of Magic in each of your Magic phases.]
 
-#namecost("CALL WINDS", "10 points")
+#group("BLOOD DRAGON")
 
-Bound Spell (Level 3, cast on 9+). _Call Winds_ is a *hex aura* spell with a range of 24". Until the start of caster's next Magic phase, all enemy missile attacks fired from within or at a target within range suffer \-1 To Hit.
+#upgrade("DOOMRIDER", 20, only: "Cavalry")[The model and any Cavalry unit it is with can re-roll failed charge distances.]
 
-#namecost("EARTH BIND", "10 points")
+#upgrade("DREAD KNIGHT", 20)[While fighting in a challenge, the model will gain +1 To Hit and To Wound.]
 
-The model and any unit they join gain the Magic Resistance (1) special rule.
+#upgrade("WARRIOR PRIDE", 20, only: "Infantry or Cavalry")[The model can re-roll failed armour save results of 1.]
 
-#namecost("SUMMON CREATURES", "")
-#namecost("OF THE NIGHT", "10 points")
+#upgrade("HEART PIERCING", 15)[The model can re-roll To Wound rolls of 1 in close combat.]
 
-This Vampire can use the _Invocation of Nehek_ spell to heal and increase units of Dire Wolves, Bat Swarms and Fell Bats beyond their starting size, even though they are not all Undead.
+#upgrade("MASTER STRIKE", 15)[The model has the Killing Blow special rule.]
 
-#namecost("WOLF FORM", "10 points")
+#upgrade("MIGHT OF ARMS", 15)[The model can re-roll To Hit rolls of 1 in close combat.]
 
-Model on foot only. The model gains Movement 9 and the Swiftstride special rule. In addition, they may join units of Dire Wolves.
+#upgrade("STRENGTH OF STEEL", 10)[The model has the Devastating Charge and Mighty Blow (1) special rules.]
 
-#namecost("WOLF LORD", "10 points")
+#upgrade("BLADEMASTER", 10)[The model gains the Parry (6+) special rule, even while mounted.]
 
-The model allows all friendly units of Dire Wolves within 24" of it to March.
+#upgrade("FURIOUS CHARGE", 10)[In any turn in which the model makes a successful charge, they have the Ignores Armour saves special rule.]
 
-#entry("NECRARCH")
-#namecost("WELLSPRING OF DARK MAGIC", "50 points")
+#group("STRIGOI")
 
-The model and all friendly Wizards within 12" gain +1 to cast spells from the Lore of Necromancy.
+#upgrade("MASSIVE MONSTROSITY", 35, only: "Model on foot")[The model gains +2 Wounds and becomes Monstrous Infantry. It should be placed on a 40x40mm base.]
 
-#namecost("SPECTRAL FORM", "40 points")
+#upgrade("LOATHSOME STENCH", 20)[All enemy units in base contact with the model suffer \-1 to their Weapon Skill.]
 
-Model on foot only. The model gains the Ethereal special rule. However, it may not join non-Ethereal units or take any magic items.
+#upgrade("IRON SINEWS", 15)[The model may re-roll failed To Wound roll.]
 
-#namecost("MASTERY OVER FLESH", "25 points")
+#upgrade("TERRIBLE BLOWS", 15)[The model gains the Multiple Wounds (D3) special rule.]
 
-When casting the _Invocation of Nehek, Vanhel's Danse Macabre_, _Hellish Vigour_ or _Raise Dead_ spells from the Lore of Necromancy, the model may re-roll all the initial casting dice (unless they have rolled a Miscast).
+#upgrade("GHOULKIN", 10)[One unit of Crypt Ghouls may be deployed as Scouts.]
 
-#namecost("UNHOLY CYNOSURE", "25 points")
+#upgrade("INFINITE HATRED", 10)[The model's Hatred special rule applies in every close combat round, not just the first.]
 
-Once per Magic phase, the model can re-roll one of the dice rolled to cast a spell. This can be used to negate a Miscast result or could cause an Ultimate Power result.
+#upgrade("MONSTROUS MASS", 10)[The model gains the Immunity (Killing Blow, Multiple Wounds) special rule.]
 
-#namecost("FORBIDDEN LORE", "20 points")
+#upgrade("RAVENOUS", 10)[The model gains the Frenzy special rule.]
 
-The model has the Loremaster special rule.
+#upgrade("SUMMON GHOULS", 10)[The model allows one unit of Crypt Ghouls to deploy as Ambushers.]
 
-#namecost("DARK ACOLYTE", "20 points")
+#group("LAHMIAN")
 
-The model adds +1 to the number of Wounds healed (Core Units regain +D3 Wounds) whenever it successfully casts _Invocation of Nehek_.
-
-#namecost("NEHEKHARA'S NOBLE BLOOD", "20 points")
-
-The model adds +6" to the range of all their spells (excluding auras).
-
-#namecost("MASTER OF THE BLACK ARTS", "15 points")
-
-A player using a model with the Master of the Black Arts power can re-roll the result when it is determining the strength of the Winds of Magic in each of your Magic phases.
-
-#entry("BLOOD DRAGON")
-#namecost("DOOMRIDER", "20 points")
-
-Cavalry only. The model and any Cavalry unit it is with can re-roll failed charge distances.
-
-#namecost("DREAD KNIGHT", "20 points")
-
-While fighting in a challenge, the model will gain +1 To Hit and To Wound.
-
-#namecost("WARRIOR PRIDE", "20 points")
-
-Infantry or Cavalry only. The model can re-roll failed armour save results of 1.
-
-#namecost("HEART PIERCING", "15 points")
-
-The model can re-roll To Wound rolls of 1 in close combat.
-
-#namecost("MASTER STRIKE", "15 points")
-
-The model has the Killing Blow special rule.
-
-#namecost("MIGHT OF ARMS", "15 points")
-
-The model can re-roll To Hit rolls of 1 in close combat.
-
-#namecost("STRENGTH OF STEEL", "10 points")
-
-The model has the Devastating Charge and Mighty Blow (1) special rules.
-
-#namecost("BLADEMASTER", "10 points")
-
-The model gains the Parry (6+) special rule, even while mounted.
-
-#namecost("FURIOUS CHARGE", "10 points")
-
-In any turn in which the model makes a successful charge, they have the Ignores Armour saves special rule.
-
-#entry("STRIGOI")
-#namecost("MASSIVE MONSTROSITY", "35 points")
-
-Model on foot only. The model gains +2 Wounds and becomes Monstrous Infantry. It should be placed on a 40x40mm base.
-
-#namecost("LOATHSOME STENCH", "20 points")
-
-All enemy units in base contact with the model suffer \-1 to their Weapon Skill.
-
-#namecost("IRON SINEWS", "15 points")
-
-The model may re-roll failed To Wound roll.
-
-#namecost("TERRIBLE BLOWS", "15 points")
-
-The model gains the Multiple Wounds (D3) special rule.
-
-#namecost("GHOULKIN", "10 points")
-
-One unit of Crypt Ghouls may be deployed as Scouts.
-
-#namecost("INFINITE HATRED", "10 points")
-
-The model's Hatred special rule applies in every close combat round, not just the first.
-
-#namecost("MONSTROUS MASS", "10 points")
-
-The model gains the Immunity (Killing Blow, Multiple Wounds) special rule.
-
-#namecost("RAVENOUS", "10 points")
-
-The model gains the Frenzy special rule.
-
-#namecost("SUMMON GHOULS", "10 points")
-
-The model allows one unit of Crypt Ghouls to deploy as Ambushers.
-
-#entry("LAHMIAN")
-#namecost("SEDUCTION", "25 points")
-
-At the beginning of the Close Combat round, after challenges have been issued and/or accepted, select a model in base contact with the Vampire. The selected model must take a Leadership test with a \-1 modifier. If the test is failed, the victim is controlled by the Vampire player in that Close Combat phase.
+#upgrade("SEDUCTION", 25)[At the beginning of the Close Combat round, after challenges have been issued and/or accepted, select a model in base contact with the Vampire. The selected model must take a Leadership test with a \-1 modifier. If the test is failed, the victim is controlled by the Vampire player in that Close Combat phase.
 
 The model will direct its attacks against his own side. The model cannot be attacked by either side in that Close Combat phase but, after combat resolution has been worked out, it reverts immediately to the original player's control and can therefore use his Leadership for any Break tests and can be broken and pursued as normal.
 
 If the model has no friendly models in base contact, it is unable to attack in that Close Combat phase and all attacks directed against the victim will hit automatically.
 
 If the Vampire was in a challenge with a model that it takes control of, the challenge ends and both models may attack other targets as normal.
+]
 
-#namecost("LIGHTNING REFLEXES", "25 points")
+#upgrade("LIGHTNING REFLEXES", 25)[Enemies must re-roll successful rolls To Hit in close combat against this model.]
 
-Enemies must re-roll successful rolls To Hit in close combat against this model.
+#upgrade("NIGHT CREATURE", 20, only: "Model on foot")[If this model is a lone character, it cannot be targeted by enemy missile attacks or spells unless it is within 12".]
 
-#namecost("NIGHT CREATURE", "20 points")
+#upgrade("INNOCENCE LOST", 20)[The model has the Always Strikes First special rule.]
 
-Model on foot only. If this model is a lone character, it cannot be targeted by enemy missile attacks or spells unless it is within 12".
+#upgrade("DOMINATION", 15)[All enemy units in base contact with this model must re-roll successful Leadership tests (except Break tests).]
 
-#namecost("INNOCENCE LOST", "20 points")
+#upgrade("QUICKBLOOD", 15)[The model gains the Dodge (5+) special rule.]
 
-The model has the Always Strikes First special rule.
+#upgrade("BEGUILE", 10)[At the beginning of the Close Combat round, all units in base contact with the model must take a Leadership test with a \-3 modifier. If the test is failed, the Vampire can only be Hit on 6's this turn.]
 
-#namecost("DOMINATION", "15 points")
-
-All enemy units in base contact with this model must re-roll successful Leadership tests (except Break tests).
-
-#namecost("QUICKBLOOD", "15 points")
-
-The model gains the Dodge (5+) special rule.
-
-#namecost("BEGUILE", "10 points")
-
-At the beginning of the Close Combat round, all units in base contact with the model must take a Leadership test with a \-3 modifier. If the test is failed, the Vampire can only be Hit on 6's this turn.
-
-#namecost("SWIFTNESS", "10 points")
-
-Model on foot only. The model gains Movement 10 and the Swiftstride special rule.
+#upgrade("SWIFTNESS", 10, only: "Model on foot")[The model gains Movement 10 and the Swiftstride special rule.]
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Vampire Counts. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

@@ -129,86 +129,30 @@ Winter Wolves (Canine) replace Demigryphs. They have Movement 9, but may not tak
 Wolf Kin replace Flagellants for +3 points per model. They have Weapon Skill 4 and Leadership 8. Crush the Weak, Skirmishers and Stubborn replace The End is Nigh!, Fanatical Zeal, Prophecy of Doom and Unbreakable. They may take great weapons for +3 points per model. They may not take flails.
 ]
 
-= KNIGHTLY ORDERS
+#upgrade-chapter("KNIGHTLY ORDERS", intro: [*Units of Knights may be upgraded to any one of the Knightly Orders below as detailed in the army list. A Grand Master or Chapter Master may only join a unit that belongs to the same Knightly Order. You may only field one Grand Master for each Knightly Order. Grand Masters and Chapter Masters must either be armed with a hand weapon or the same equipment as the rest of their unit.*])[
+#upgrade("REIKSGUARD KNIGHTS", (("Characters", "free"), ("Cavalry/Infantry", "1 point per model"), ("Monstrous Cavalry", "3 points per model")))[Must take heavy lances or polearms if mounted. The models have the Stubborn special rule. However, they may not take a regular Grand Master.]
 
-#balanced-columns[
-*Units of Knights may be upgraded to any one of the Knightly Orders below as detailed in the army list. A Grand Master or Chapter Master may only join a unit that belongs to the same Knightly Order. You may only field one Grand Master for each Knightly Order. Grand Masters and Chapter Masters must either be armed with a hand weapon or the same equipment as the rest of their unit.*
+#upgrade("KNIGHTS OF THE BLAZING SUN", (("Characters", "free"), ("Cavalry", "1 point per model"), ("Monstrous Cavalry", "3 points per model")))[Must take heavy lances or polearms, as well as shields. Whenever a unit where the majority of models have this upgrade declare a charge, the unit being charged suffer \-1 Weapon Skill and Ballistic Skill for the duration of the turn.]
 
-#namecost("REIKSGUARD KNIGHTS", "")
-#namecost("Characters free", "")
-#namecost("Cavalry/Infantry 1 point per model", "")
-#namecost("Monstrous Cavalry 3 points per model", "")
+#upgrade("KNIGHTS PANTHER", (("Characters", "free"), ("Cavalry", "1 point per model")))[Must take heavy lances or polearms. A unit where all models have this upgrade add an extra D3" to their charge distance.]
 
-Must take heavy lances or polearms if mounted. The models have the Stubborn special rule. However, they may not take a regular Grand Master.
+#upgrade("KNIGHTS OF THE WHITE WOLF", (("Characters", "10 points"), ("Cavalry/Infantry", "1 point per model"), ("Monstrous Cavalry", "free")))[Must take cavalry hammers. The models have the Crush the Weak and White Wolf Cloak special rules. Monstrous Cavalry replace polearms and shields with cavalry hammers and may only be taken in a Cult of Ulric army.]
 
-#namecost("KNIGHTS OF THE BLAZING SUN", "")
-#namecost("Characters free", "")
-#namecost("Cavalry 1 point per model", "")
-#namecost("Monstrous Cavalry 3 points per model", "")
+#upgrade("BLACK GUARD OF MORR", (("Characters", "free"), ("Cavalry/Infantry", "free")))[Must take polearms on foot. The models have the Fear and Independent special rules.]
 
-Must take heavy lances or polearms, as well as shields. Whenever a unit where the majority of models have this upgrade declare a charge, the unit being charged suffer \-1 Weapon Skill and Ballistic Skill for the duration of the turn.
+#upgrade("KNIGHTS GRIFFON", (("Characters", "free"), ("Cavalry", "1 point per model"), ("Monstrous Cavalry", "3 points per model")))[Must take heavy lances or polearms. The models gain the Disciplined special rule. In addition, they may not choose Flee as a charge reaction, refuse a challenge and ignore Swiftstride when fleeing.]
 
-#namecost("KNIGHTS PANTHER", "")
-#namecost("Characters free", "")
-#namecost("Cavalry 1 point per model", "")
+#upgrade("KNIGHTS OF THE EVERLASTING LIGHT", (("Characters", "10 points"), ("Cavalry", "1 point per model")))[Must take heavy lances or great weapons. The models gain the Magical Attacks special rule and may re-roll failed armour saves in close combat. However, they must re-roll successful armour saves from missile attacks and successful Dangerous Terrain tests.]
 
-Must take heavy lances or polearms. A unit where all models have this upgrade add an extra D3" to their charge distance.
+#upgrade("KNIGHTS OF SIGMAR'S BLOOD", (("Characters", "free"), ("Cavalry", "1 point per model")))[Must take heavy lances or polearms. The models have the Inspiring Presence (6) special rule. However, they may not be upgraded to Inner Circle Knights.]
 
-#namecost("KNIGHTS OF THE WHITE WOLF", "")
-#namecost("Characters", "10 points")
-#namecost("Cavalry/Infantry 1 point per model", "")
-#namecost("Monstrous Cavalry free", "")
+#upgrade("KNIGHTS OF THE BLACK BEAR", (("Characters", "free"), ("Cavalry", "free")))[Must take heavy lances or polearms. This unit always counts as having one more rank than it actually has for the purpose of determining Steadfast, and enemy units cannot claim the Outnumber bonus against it. However, it must re-roll successful Leadership tests for Marching when within 6" of enemy units, Redirecting a Charge, Reforming from Defeat after losing a round of close combat or Restraining from Pursuit.]
 
-Must take cavalry hammers. The models have the Crush the Weak and White Wolf Cloak special rules. Monstrous Cavalry replace polearms and shields with cavalry hammers and may only be taken in a Cult of Ulric army.
+#upgrade("KNIGHTS OF THE TWIN-TAILED ORB", (("Characters", "15 points"), ("Cavalry", "2 points per model")))[The unit is armed with flails instead of heavy lances. The models have the Flaming Attacks and Frenzy special rules.]
 
-#namecost("BLACK GUARD OF MORR", "")
-#namecost("Characters free", "")
-#namecost("Cavalry/Infantry free", "")
+#upgrade("KNIGHTS ENCARMINE", (("Characters", "10 points"), ("Cavalry", "free")))[The unit is armed with two hand weapons instead of heavy lances. The models may re-roll 1's To Hit and failed Parry saves. However, they cannot gain any bonus from ranks (including Steadfast) or Disrupt enemy units.]
 
-Must take polearms on foot. The models have the Fear and Independent special rules.
-
-#namecost("KNIGHTS GRIFFON", "")
-#namecost("Characters free", "")
-#namecost("Cavalry 1 point per model", "")
-#namecost("Monstrous Cavalry 3 points per model", "")
-
-Must take heavy lances or polearms. The models gain the Disciplined special rule. In addition, they may not choose Flee as a charge reaction, refuse a challenge and ignore Swiftstride when fleeing.
-
-#namecost("KNIGHTS OF THE EVERLASTING LIGHT", "")
-#namecost("Characters", "10 points")
-#namecost("Cavalry 1 point per model", "")
-
-Must take heavy lances or great weapons. The models gain the Magical Attacks special rule and may re-roll failed armour saves in close combat. However, they must re-roll successful armour saves from missile attacks and successful Dangerous Terrain tests.
-
-#namecost("KNIGHTS OF SIGMAR'S BLOOD", "")
-#namecost("Characters free", "")
-#namecost("Cavalry 1 point per model", "")
-
-Must take heavy lances or polearms. The models have the Inspiring Presence (6) special rule. However, they may not be upgraded to Inner Circle Knights.
-
-#namecost("KNIGHTS OF THE BLACK BEAR", "")
-#namecost("Characters free", "")
-#namecost("Cavalry free", "")
-
-Must take heavy lances or polearms. This unit always counts as having one more rank than it actually has for the purpose of determining Steadfast, and enemy units cannot claim the Outnumber bonus against it. However, it must re-roll successful Leadership tests for Marching when within 6" of enemy units, Redirecting a Charge, Reforming from Defeat after losing a round of close combat or Restraining from Pursuit.
-
-#namecost("KNIGHTS OF THE TWIN-TAILED ORB", "")
-#namecost("Characters", "15 points")
-#namecost("Cavalry 2 points per model", "")
-
-The unit is armed with flails instead of heavy lances. The models have the Flaming Attacks and Frenzy special rules.
-
-#namecost("KNIGHTS ENCARMINE", "")
-#namecost("Characters", "10 points")
-#namecost("Cavalry free", "")
-
-The unit is armed with two hand weapons instead of heavy lances. The models may re-roll 1's To Hit and failed Parry saves. However, they cannot gain any bonus from ranks (including Steadfast) or Disrupt enemy units.
-
-#namecost("SONS OF MANANN", "")
-#namecost("Characters", "15 points")
-#namecost("Cavalry 2 points per model", "")
-
-The unit is armed with polearms & shields instead of heavy lances. The models (but not their mounts) gain +1 To Hit in the first round of close combat.
+#upgrade("SONS OF MANANN", (("Characters", "15 points"), ("Cavalry", "2 points per model")))[The unit is armed with polearms & shields instead of heavy lances. The models (but not their mounts) gain +1 To Hit in the first round of close combat.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Empire. These may be used in addition to the magic items found in the Warhammer rulebook.])

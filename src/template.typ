@@ -689,6 +689,126 @@
   balanced-columns(body)
 }
 
+// --- upgrades ---------------------------------------------------------------
+
+// A faction's own purchases: Bretonnia's Virtues, the Empire's Knightly Orders,
+// the Daemonic Gifts, the Dwarfs' runes - seventeen chapters in sixteen books,
+// each a list of named things a character pays points for. They are magic
+// items by another name, as a spell is, and are set as one: the name with its
+// cost flush right, the qualifiers, then the rules, at RECORD_GAP and in two
+// level columns. Written as records so the cost is a number, "Model on foot
+// only." is a value, and a name that wraps cannot be typed as two.
+//
+// `cost` says by its type what shape the price takes, as a unit field does:
+//
+//   30                                   30 points.
+//   none                                 No price printed - two of Nippon's
+//                                        Clan Mons carry none.
+//   (5, 35, 55)                          5/35/55 points: a Dwarf rune, priced
+//                                        by how many of it are inscribed.
+//   (("Characters", "25 points"),        A line per kind of model beneath the
+//    ("Infantry", "1 point per model"))  name: the Knightly Orders and the
+//                                        Quirks of Character.
+#let upgrade(name, cost, body, only: none, bound: none, one-use: false) = {
+  let where = "upgrade " + name
+  let is-points = x => _typeof(x) == int and x > 0
+  let is-line = x => (_typeof(x) == array and x.len() == 2
+    and x.all(s => _typeof(s) == str))
+  let shape = if cost == none { "none" }
+    else if is-points(cost) { "points" }
+    else if _typeof(cost) == array and cost.len() > 0 and cost.all(is-points) {
+      "tiers"
+    } else if _typeof(cost) == array and cost.len() > 0 and cost.all(is-line) {
+      "lines"
+    }
+  assert(shape != none, message: where + ": cost is a number of points, none,"
+    + " a tuple of numbers, or (who, price) pairs - not " + repr(cost))
+
+  // Who may take it, how it may be used, then what it does - the order a magic
+  // item's qualifiers take, through the same machinery, with the full stops
+  // supplied here.
+  let qualifiers = (
+    if only != none { only + " only" },
+    _bound-phrase(bound, where),
+    if one-use { "One use only" },
+  ).filter(q => q != none).map(q => q + ". ")
+
+  [#metadata((
+    kind: "upgrade", name: name, cost: cost, only: only, bound: bound,
+    one-use: one-use,
+  ))<meta>]
+  namecost(name,
+    if shape == "points" { str(cost) + " points" }
+    else if shape == "tiers" { cost.map(str).join("/") + " points" }
+    else { "" },
+    above: RECORD_GAP)
+  // The per-model prices, one to a line under the name: the model's kind at the
+  // left and its price at the right, as the source sets them, in the smaller
+  // size the cost beside a name takes. No leader - the source draws none, and
+  // the two halves are short enough to read as one line without it.
+  // Unbreakable, so a column's foot cannot fall between one price and the
+  // next; the name above is sticky and moves with it.
+  if shape == "lines" {
+    block(above: 0.15em, below: 0.4em, breakable: false, {
+      set par(justify: false)
+      grid(
+        columns: (1fr, auto),
+        align: (left + bottom, right + bottom),
+        column-gutter: 0.6em, row-gutter: 0.25em,
+        ..cost.map(((who, price)) => (
+          text(weight: "bold", size: 9.5pt, who),
+          text(size: 9.5pt, style: "italic", price),
+        )).flatten(),
+      )
+    })
+  }
+  // Not wrapped in a block, as a magic item's is not: the qualifiers open the
+  // first paragraph rather than standing off as a line of their own.
+  [#qualifiers.join()#body]
+}
+
+// A heading inside the chapter: the four gods' gifts, the five bloodlines, the
+// Dwarfs' six kinds of rune. The source sets these as run-in heads within the
+// column flow and lists them on its contents page, so this is a level-2
+// heading - the contents and emit.py's tally both see it, as they see a
+// magic-item section - but not an `entry`: no page break beneath it, and no
+// rule, since the rule beneath a level-2 heading is a unit entry's. The show
+// rule is scoped to this one heading. Wrapped in a sticky block so
+// `balanced-columns` glues it to the record beneath it and it is never left
+// standing at the foot of a column.
+//
+// `note` is the line under the head that says who may take what follows -
+// "The following powers may only be taken by Daemons of Khorne." - set as
+// `note` sets one, indented and a shade smaller.
+// `below` is for the prose that follows a head in the Dwarfs' chapter - a
+// record brings RECORD_GAP of its own, a paragraph brings nothing.
+#let group(name, note: none) = block(
+  above: 1.9em, below: 0.5em, width: 100%, sticky: true,
+  {
+    show heading.where(level: 2): it => block(
+      width: 100%, above: 0em, below: 0em,
+      align(center,
+        text(size: 12pt, weight: "bold", tracking: 0.06em, hyphenate: false,
+          upper(it.body))),
+    )
+    heading(level: 2, name)
+    if note != none {
+      block(above: 0.55em, below: 0em, inset: (left: 1.1em, right: 1.1em),
+        text(size: 10pt, note))
+    }
+  },
+)
+
+// The chapter: its title, its standing paragraph, and its records in two level
+// columns, as a lore is. The intro is set as it is given rather than `strong`
+// as a lore's is: the source bolds the paragraph in most of these chapters and
+// sets it plain in the Daemons', and a book says which by what it passes.
+#let upgrade-chapter(title, intro: none, body) = {
+  heading(level: 1, title)
+  if intro != none { intro }
+  balanced-columns(body)
+}
+
 // --- profiles ---------------------------------------------------------------
 
 // The label sits on the same line as the value it introduces, so it is set at

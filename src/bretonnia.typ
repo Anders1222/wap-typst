@@ -117,78 +117,40 @@ At the start of each enemy turn, the transformed model must take a Leadership te
 
 ]
 
-= VIRTUES OF THE CHIVALRIC KNIGHT
+#upgrade-chapter("VIRTUES OF THE CHIVALRIC KNIGHT", intro: [*This section contains the rules for different Virtues used by the Bretonnians. More than one character can have the same Virtue, but to represent the rarity of this, any character that takes a Virtue another character already has must pay double the points listed below. If a third character takes the same Virtue they must pay triple, and so on.*])[
+#upgrade("VIRTUE OF HEROISM", 35)[The Knight has the Heroic Killing Blow special rule.]
 
-#balanced-columns[
-*This section contains the rules for different Virtues used by the Bretonnians. More than one character can have the same Virtue, but to represent the rarity of this, any character that takes a Virtue another character already has must pay double the points listed below. If a third character takes the same Virtue they must pay triple, and so on.*
+#upgrade("VIRTUE OF STOICISM", 35)[The Knight (and any unit he has joined) gains the Cold-Blooded special rule.]
 
-#namecost("VIRTUE OF HEROISM", "35 points")
+#upgrade("VIRTUE OF THE IDEAL", 30)[The Knight gains the following bonuses to his profile: +2 Weapon Skill, +1 Initiative, +1 Attack. He may not be the army's General and any friendly unit (including other Knightly characters, or units using a Knight's Leadership) taking any form of Leadership test within 6" of this model suffers a \-1 penalty to their Leadership.]
 
-The Knight has the Heroic Killing Blow special rule.
+#upgrade("VIRTUE OF THE IMPETUOUS KNIGHT", 30)[The Knight, and any mounted unit he is with, adds +D3" to their charge distance.]
 
-#namecost("VIRTUE OF STOICISM", "35 points")
+#upgrade("VIRTUE OF AUDACITY", 30)[Against enemies with a higher Strength than himself (before modifications from weapons etc), the Knight may re-roll any failed rolls to hit and to wound.]
 
-The Knight (and any unit he has joined) gains the Cold-Blooded special rule.
+#upgrade("VIRTUE OF CONFIDENCE", 25)[The Knight must always issue challenges, and will always accept them if possible. In challenges, the Knight may re-roll all failed rolls to hit and to wound.]
 
-#namecost("VIRTUE OF THE IDEAL", "30 points")
+#upgrade("VIRTUE OF KNIGHTLY TEMPER", 25)[For each attack that the Knight hits and wounds with on the charge (after Saves), he may make an additional attack. Extra attacks are not generated if these additional attacks also hit and wound.]
 
-The Knight gains the following bonuses to his profile: +2 Weapon Skill, +1 Initiative, +1 Attack. He may not be the army's General and any friendly unit (including other Knightly characters, or units using a Knight's Leadership) taking any form of Leadership test within 6" of this model suffers a \-1 penalty to their Leadership.
+#upgrade("VIRTUE OF DEVOTION", 20)[The Knight is completely immune to the effects of all enemy spells.]
 
-#namecost("VIRTUE OF THE IMPETUOUS KNIGHT", "30 points")
+#upgrade("VIRTUE OF DUTY", 20)[For as long as the General is alive, the model with this Virtue adds +1 to the combat resolution of any fight of which he is a part. May not be taken by the General.]
 
-The Knight, and any mounted unit he is with, adds +D3" to their charge distance.
+#upgrade("VIRTUE OF THE PENITENT", 20)[The Knight has the Stubborn special rule, though he may never join any friendly units.]
 
-#namecost("VIRTUE OF AUDACITY", "30 points")
+#upgrade("VIRTUE OF THE JOUST", 20)[The Knight may re-roll failed rolls to hit when charging and/or using a lance (including magical lances).]
 
-Against enemies with a higher Strength than himself (before modifications from weapons etc), the Knight may re-roll any failed rolls to hit and to wound.
+#upgrade("VIRTUE OF DISCIPLINE", 15)[Enemies can never claim the Outnumber bonus against the Knight and any unit he is with.]
 
-#namecost("VIRTUE OF CONFIDENCE", "25 points")
+#upgrade("VIRTUE OF KNIGHTLY ARDOUR", 15)[The Knight and unit he is with may choose to Counter- charge as long they distance between them and the enemy is less than the Movement value of the enemy unit, and even if they failed their charge the previous turn.]
 
-The Knight must always issue challenges, and will always accept them if possible. In challenges, the Knight may re-roll all failed rolls to hit and to wound.
+#upgrade("VIRTUE OF NOBLE DISDAIN", 15)[The Knight Hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties from Shooting or Magic.]
 
-#namecost("VIRTUE OF KNIGHTLY TEMPER", "25 points")
+#upgrade("VIRTUE OF PURITY", 15)[The Knight gains a +1 bonus to their Magical Ward save from the Blessing of the Lady.]
 
-For each attack that the Knight hits and wounds with on the charge (after Saves), he may make an additional attack. Extra attacks are not generated if these additional attacks also hit and wound.
+#upgrade("VIRTUE OF EMPATHY", 10)[If the Knight is not the army's General, models with the Peasant's Duty within 12" of him treat him as having the Inspiring Presence rule. If he is the army’s General, his Inspiring Presence rule is instead increased to 18" for models with the Peasant's Duty. In addition, he may join units with the Peasant's Duty.]
 
-#namecost("VIRTUE OF DEVOTION", "20 points")
-
-The Knight is completely immune to the effects of all enemy spells.
-
-#namecost("VIRTUE OF DUTY", "20 points")
-
-For as long as the General is alive, the model with this Virtue adds +1 to the combat resolution of any fight of which he is a part. May not be taken by the General.
-
-#namecost("VIRTUE OF THE PENITENT", "20 points")
-
-The Knight has the Stubborn special rule, though he may never join any friendly units.
-
-#namecost("VIRTUE OF THE JOUST", "20 points")
-
-The Knight may re-roll failed rolls to hit when charging and/or using a lance (including magical lances).
-
-#namecost("VIRTUE OF DISCIPLINE", "15 points")
-
-Enemies can never claim the Outnumber bonus against the Knight and any unit he is with.
-
-#namecost("VIRTUE OF KNIGHTLY ARDOUR", "15 points")
-
-The Knight and unit he is with may choose to Counter- charge as long they distance between them and the enemy is less than the Movement value of the enemy unit, and even if they failed their charge the previous turn.
-
-#namecost("VIRTUE OF NOBLE DISDAIN", "15 points")
-
-The Knight Hates all enemies using missile weapons including war machine crews. In addition, any unit the Knight has joined never takes Panic tests caused by suffering 25% casualties from Shooting or Magic.
-
-#namecost("VIRTUE OF PURITY", "15 points")
-
-The Knight gains a +1 bonus to their Magical Ward save from the Blessing of the Lady.
-
-#namecost("VIRTUE OF EMPATHY", "10 points")
-
-If the Knight is not the army's General, models with the Peasant's Duty within 12" of him treat him as having the Inspiring Presence rule. If he is the army’s General, his Inspiring Presence rule is instead increased to 18" for models with the Peasant's Duty. In addition, he may join units with the Peasant's Duty.
-
-#namecost("VIRTUE OF UTTER SERENTIY", "15 points")
-
-All enemy Wizards within 12" of this Knight suffer \-1 casting penalty.
+#upgrade("VIRTUE OF UTTER SERENTIY", 15)[All enemy Wizards within 12" of this Knight suffer \-1 casting penalty.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Bretonnians. These may be used in addition to the magic items found in the Warhammer rulebook. Bretonnian characters equipped with a normal lance and a magic weapon may use their lance when charging and then use the magic weapon in the second and subsequent turns of a close combat.])
