@@ -48,7 +48,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Warriors of Chaos army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Warriors of Chaos units, and these are detailed here.
 
 #namecost("CHAOS ARMOUR", "")
@@ -86,7 +86,8 @@ Once the result of the roll has been determined, make a note on your army roster
 A model can have several Gifts of the Gods, but can only have each Gift once. If a Gift cannot be applied, the roll has no effect.
 
 #chart((("D6", "Result"), ("1", "Pick one Gift of the Gods worth 5 points."), ("2", "Pick one Gift of the Gods worth 10 points."), ("3", "Pick one Gift of the Gods worth 15 points."), ("4", "Pick one Gift of the Gods worth 20 points."), ("5", "Pick one Gift of the Gods worth 25 points."), ("6", "Pick one Gift of the Gods worth 30 points.")))
-#chartlabel("MARKS OF CHAOS")
+
+#namecost("MARKS OF CHAOS", "")
 
 Many characters and units in the Warriors of Chaos army have, or can purchase, one of the four Marks of Chaos detailed below.
 

@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Chaos Dwarf army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Chaos Dwarf units, and these are detailed here.
 
 #namecost("BACKSTABBERS", "")
@@ -150,7 +150,8 @@ closest visible enemy unit, if it is possible to
 do so. If the unit cannot declare a charge then
 it may carry on with the rest of its turn
 normally, as if it had not yet moved this turn.")))
-#chartlabel("ANIMOSITY")
+
+#namecost("ANIMOSITY", "")
 
 Units with this special rule must test for Animosity in the Charge sub-phase after all normal charges has been declared during each of your turns, by every unit that is subject to Animosity, unless any of the following applies:
 

@@ -438,10 +438,34 @@
 // It is a model of the layout, not the layout, so the two columns are level
 // to within a record - which is what a break judged by eye is, too.
 //
+// With `whole`, a record is a subsection instead: a head - a sticky block or
+// a heading - and every paragraph, table and note under it to the next head.
+// The army books' special-rules chapters are set this way, so a rule is one
+// record whatever the number of its paragraphs; cut at paragraph breaks, a
+// two-paragraph rule was two records, and the second could open a column on
+// its own with its name and first paragraph at the foot of the one before.
+// Whatever stands before the first head - the chapter's intro - is left as
+// the paragraphs it is.
+//
 // Three helpers do the above, so a section can be balanced for a page it is
 // not yet on: the records cut from the body, the flow played out through
 // them, and the columns set from the flow.
-#let _records(body) = {
+#let _is-head(k) = k.func() == heading or (k.func() == block
+  and k.fields().at("sticky", default: false))
+
+// The gap a head opens with, carried out to the block it is kept in: spacing
+// at the start of a container collapses, so left inside it the head would sit
+// on the paragraph before it at no gap at all. A sticky block names its own;
+// a heading's is the one its show rule sets.
+#let _head-above(k) = {
+  // A markup heading knows its depth, not yet its level - that is resolved
+  // later against the offset - so the depth stands for it here.
+  let level = k.fields().at("level", default: k.fields().at("depth", default: 1))
+  if k.func() != heading { k.fields().at("above", default: RUNIN_GAP) }
+  else if level == 2 { 1.9em } else { 1.6em }
+}
+
+#let _records(body, whole: false) = {
   let records = ()
   let current = ()
   let kids = if body.has("children") { body.children } else { (body,) }
@@ -472,8 +496,49 @@
     if ends-sticky(r) { pending = r } else { glued.push(r); pending = none }
   }
   if pending != none { glued.push(pending) }
-  glued
+  if not whole { return glued }
+
+  // A head opens a subsection, and a record that follows one joins it.
+  let starts-head(r) = {
+    let kids = (if r.has("children") { r.children } else { (r,) })
+      .filter(k => k.func() != space)
+    kids.len() > 0 and _is-head(kids.first())
+  }
+  let grouped = ()
+  let current = none
+  for r in glued {
+    if starts-head(r) {
+      if current != none { grouped.push(current) }
+      current = r
+    } else if current != none {
+      current = current + parbreak() + r
+    } else {
+      grouped.push(r)
+    }
+  }
+  if current != none { grouped.push(current) }
+  grouped
 }
+
+// A subsection record kept whole: set as an unbreakable block, it moves to
+// the top of the next column rather than leaving its head and first lines at
+// the foot of one and the rest at the top of the next. Only one that fits a
+// column, though - an unbreakable block taller than its column overflows the
+// page and loses its tail - so a longer one is left to break where the column
+// ends, as prose does. `_flow` reads the block back and plays it out as
+// moving whole, so the model and the page agree.
+#let _kept(r, width, column) = {
+  let kids = (if r.has("children") { r.children } else { (r,) })
+    .filter(k => k.func() != [ ].func())
+  if kids.len() == 0 or not _is-head(kids.first()) { return r }
+  if measure(block(width: width, r)).height > column { return r }
+  // `below` is what a paragraph brings, so the gap to whatever follows is the
+  // one the last paragraph would have set.
+  block(breakable: false, width: 100%, above: _head-above(kids.first()),
+    below: 1em, r)
+}
+#let _is-kept(r) = (r.func() == block
+  and not r.fields().at("breakable", default: true))
 
 // The flow of the records through columns `width` wide, played out on paper:
 // the first pair of columns is `first-column` tall, every pair after it
@@ -507,7 +572,7 @@
     if h <= room {
       starts.push(column)
       y += lead + h
-    } else if room >= min-keep {
+    } else if room >= min-keep and not _is-kept(records.at(i)) {
       // Runs on: as much as fits stays, the rest opens the next column.
       starts.push(column)
       let rest = h - room
@@ -596,14 +661,22 @@
 )
 #let _column-width(measure) = (measure - COLUMN_GUTTER * measure) / 2
 
-#let balanced-columns(body) = context {
-  let records = _records(body)
+// `whole: true` keeps each subsection - a head and the paragraphs under it -
+// on one column, as `two-columns` keeps a short one in prose: see `_records`
+// and `_kept`. The army books' special-rules chapters set it; a magic-item
+// section or a lore does not, and its records run on as they did.
+#let balanced-columns(body, whole: false) = context {
+  let records = _records(body, whole: whole)
   let here-y = here().position().y
 
   layout(size => {
     let page-column = size.height
     let first-column = page.height - PAGE_MARGIN.bottom - here-y
-    _balance(records, _column-width(size.width), first-column, page-column)
+    let width = _column-width(size.width)
+    let records = if whole {
+      records.map(r => _kept(r, width, calc.min(first-column, page-column)))
+    } else { records }
+    _balance(records, width, first-column, page-column)
   })
 }
 
@@ -1445,9 +1518,7 @@
       current = (keep: false, kids: (), above: none)
     } else if is-heading or is-head {
       if current.kids.len() > 0 { segments.push(current) }
-      let above = if is-head { kid.fields().at("above", default: RUNIN_GAP) }
-        else if level(kid) == 2 { 1.9em } else { 1.6em }
-      current = (keep: true, kids: (kid,), above: above)
+      current = (keep: true, kids: (kid,), above: _head-above(kid))
     } else {
       current.kids.push(kid)
     }

@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Dogs of War army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Dogs of War units, and these are detailed here.
 
 #namecost("BACKSTABBERS", "")
@@ -82,7 +82,8 @@ Every time a unit with this special rule fails a Break test, roll on the Mercena
 and all models in the unit suffer a -1 modifier
 to their Leadership for the rest of the battle."), ("4-5", "Soldier On: The unit flees as normal."), ("6", "Stand Fast! The unit has the Disciplined
 special rule on their next Rally test.")))
-#chartlabel("OGRE CHARGE")
+
+#namecost("OGRE CHARGE", "")
 
 The model has the Impact Hits (1) special rule. In addition, they add their current Rank Bonus to the Strength of the Impact Hits they inflict. In addition, they count as having one more rank than their actual number for the purpose of determining Steadfast in any turn that they charge.
 

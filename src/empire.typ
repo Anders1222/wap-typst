@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in an Empire army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Empire units, and these are detailed here.
 
 #namecost("STATE TROOPS", "")
@@ -82,7 +82,7 @@ Each Hit from a grenade launching blunderbuss is multiplied into D6 Hits.
 
 = THE CULT OF ULRIC
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 You may choose to field your army as the Cult of Ulric. If you do, your Army General must have the Crush the Weak special rule. A Cult of Ulric army may not take magic items marked "Sigmarite only" or include Sisters of Sigmar. The following special rules apply to the Cult of Ulric:
 
 #namecost("CRUSH THE WEAK", "")

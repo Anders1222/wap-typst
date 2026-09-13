@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 #namecost("ANCESTRAL GRUDGE", "")
 
 Dwarfs have the Hatred special rule against Orcs, Goblins and Skaven.

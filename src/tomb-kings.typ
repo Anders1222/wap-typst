@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Tomb Kings army, along with the rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the Warhammer rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring 'army special rules' that apply to several Tomb Kings units, and these are detailed below.
 
 #namecost("ARROWS OF ASAPH", "")
@@ -84,7 +84,8 @@ the same process."), ("5-6", "Shifting Sands: The unit enters the
 battlefield from any point on a randomly
 determined board edge, moving on using the
 rules for reinforcements.")))
-#chartlabel("THE HIEROPHANT")
+
+#namecost("THE HIEROPHANT", "")
 
 Your army must include at least one Wizard to be the army's Hierophant. If your army includes several Wizards, this will be the one with the highest Wizard Level. If two or more models have the highest Wizard Level, choose which of them will be the Hierophant. The Hierophant must use the Lore of Nehekhara.
 

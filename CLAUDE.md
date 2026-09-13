@@ -155,6 +155,13 @@ one without is the rulebook, and `magic-item-section` measures whether the
 material fills two columns rather than counting characters. Prefer fixing a rule
 in the template over writing an override into a book.
 
+An army special rules chapter is `#balanced-columns(whole: true)[..]`: each
+rule - its `#namecost` head and everything to the next head - is one record
+kept on one column, so a rule that does not fit moves whole to the top of the
+next column or page rather than splitting. Only a rule taller than a column
+still breaks. A magic-item section or lore is balanced without `whole:` and its
+records run on as before.
+
 **How an entry meets the page** is the entry's own declaration, and there are
 three answers. By default it **flows**: entries run one after another down the
 page and a new page starts when the last one is full, in an unbreakable block so

@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#balanced-columns[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in an Orc & Goblin army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Orc & Goblin units, and these are detailed here.
 
 #namecost("ANIMOSITY", "")
@@ -87,7 +87,8 @@ possible to do so. If the unit cannot declare a
 charge then it may carry on with the rest of
 its turn normally, as if it had not yet moved
 this turn.")))
-#chartlabel("ARMED TO DA TEEF")
+
+#namecost("ARMED TO DA TEEF", "")
 
 If a model with this special rule has more than one weapon and/or a shield, they may choose which weapon combination they want to use at the start of each round of close combat.
 
