@@ -497,11 +497,21 @@
     if on-page.len() > 1 {
       let acc = carried-in
       let best = none
+      let room-a = column-height(last-page)
+      let room-b = column-height(last-page + 1)
       for i in on-page {
         // The break before record i leaves `acc` in the first column and the
-        // rest in the second; take the seam nearest the halfway line.
+        // rest in the second; take the seam nearest the halfway line. Only a
+        // seam both halves fit at, though. On a page the records fill to the
+        // foot, the seam nearest halfway can lie past what the first column
+        // holds: the record before it runs on into the second column of its
+        // own accord, and a break placed after that run-on opens a third
+        // column, which is a new page with a page's worth of records left
+        // behind it. Where no seam fits, the flow is left to break itself,
+        // which on a full page it does level anyway.
         let off = calc.abs(acc - total / 2)
-        if best == none or off < best { best = off; break-at = i }
+        let fits = acc <= room-a and total - acc <= room-b
+        if fits and (best == none or off < best) { best = off; break-at = i }
         acc += heights.at(i) + gap
       }
       // A break before the first record on the page would empty the column.
@@ -627,7 +637,9 @@
 }
 
 // A lore: its chapter title and its spells, always in two columns, as a
-// magic-item section is.
+// magic-item section is - and through `balanced-columns`, so the two come out
+// level as that section's do rather than the first running to the foot of the
+// page before the second begins.
 //
 // The title is a level-1 heading, which is what the corpus already sets a lore
 // as, so it takes its own page and its centred rule from the chapter show rule.
@@ -638,7 +650,7 @@
   // Not wrapped in a block, as `magic-item-chapter`'s intro is not: a block
   // takes `block.spacing` where a paragraph takes `par.spacing`.
   if intro != none { strong(intro) }
-  _columns(2, body)
+  balanced-columns(body)
 }
 
 // --- profiles ---------------------------------------------------------------
