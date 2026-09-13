@@ -31,10 +31,17 @@
 // spells. The cost is optional; several entries carry only a name.
 // `sticky` keeps the name with the rules text that follows, so a heading is
 // never stranded at the foot of a column.
-// `above` is a parameter because a magic item wants a wider gap before its name
-// than a run-in name inside a unit entry does, and the two share this function.
-// The default is what every caller but `magic-item` uses.
-#let namecost(name, cost, above: 0.9em) = block(above: above, below: 0.2em, sticky: true, {
+// `above` is a parameter because the callers want different gaps before the
+// name and share this function: a magic item its RECORD_GAP, a subtitle under
+// a unit's name the 0.9em that keeps it close to that name. The default is
+// the gap before a run-in head in prose - the rulebook's four hundred, the
+// army books' special-rules chapters - which opens a subsection and needs to
+// stand further from the paragraph above it than that paragraph stands from
+// its own predecessor. At 0.9em it stood nearer, and a new head read as the
+// tail of the text before it.
+#let RUNIN_GAP = 1.4em
+
+#let namecost(name, cost, above: RUNIN_GAP) = block(above: above, below: 0.2em, sticky: true, {
   // Justification would stretch a two-word name across the whole column, so it
   // is switched off here and the name column sized to its content.
   set par(justify: false)
@@ -1228,7 +1235,7 @@
     // Karaz-a-Karak" - which 463 entries set between the name and the profile.
     // It is `namecost` with no cost, the same call a magic item's name is set
     // with, so a subtitle and an item head sit on the same baseline.
-    if "subtitle" in args { namecost(args.subtitle, "") }
+    if "subtitle" in args { namecost(args.subtitle, "", above: 0.9em) }
     if "profiles" in args { profile(..args.profiles) }
     if "before" in args { args.before }
     for k in order {
@@ -1471,7 +1478,7 @@
   // it, so the first line of a two-line heading is not spaced out across the
   // measure.
   show heading.where(level: 2): it => block(
-    above: 1.35em, below: 0.5em, sticky: true,
+    above: 1.9em, below: 0.5em, sticky: true,
   )[
     #set par(justify: false)
     #text(size: 14.5pt, weight: "bold", tracking: 0.05em, hyphenate: false)[#upper(it.body)]
@@ -1480,9 +1487,12 @@
   ]
 
   // Third tier, used only by the core rulebook: no rule beneath it, so the
-  // hierarchy stays legible against the level-2 headings.
+  // hierarchy stays legible against the level-2 headings. The gaps above the
+  // three tiers step down - 1.9em, 1.6em, RUNIN_GAP - so a heading stands off
+  // the text above it by more than a paragraph break does, and by more the
+  // higher its tier.
   show heading.where(level: 3): it => block(
-    above: 1.1em, below: 0.35em, sticky: true,
+    above: 1.6em, below: 0.35em, sticky: true,
     {
       set par(justify: false)
       text(size: 10.5pt, weight: "bold", tracking: 0.04em, hyphenate: false)[#upper(it.body)]
