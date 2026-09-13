@@ -339,7 +339,7 @@ Strength 5 hits.")))
 - May take Magic Items and/or Disciplines of the Old Ones up to a total of 100 points
   ],
   notes: (
-    rule("Battle Standard")[The Battle Standard Bearer can have a magic banner with no points limit. However, a Slann carrying a magic standard can only take other magic items and/or Disciplines of the Old Ones up to a total of 50 points. A Slann carrying the Battle Standard may still be the Army General.],
+    rule("Battle Standard")[The Battle Standard Bearer can have a magic banner with no points limit in addition to any other magic items and/or Disciplines of the Old Ones they might have. A Slann carrying the Battle Standard may still be the Army General.],
   ),
 )
 
@@ -493,6 +493,7 @@ Strength 5 hits.")))
   ),
   troop-type: "Monstrous Infantry (Lizardman, Saurus)",
   base-size: "50x75 or 60x90",
+  equipment: "Hand weapon",
   special-rules: "Cold-blooded, Inspiring Presence (6), Natural Armour (5+), Predatory Fighter, Stubborn",
   notes: [
 - A Temple Guard Palanquin adds +4 Unit Strength to the model.
@@ -584,7 +585,7 @@ Riders)
 #unit("SAURUS WARRIORS",
   first: true,
   profiles: (
-    (name: "Saurus Warrior", m: 4, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 1, a: 2, ld: 8, points: 13),
+    (name: "Saurus Warrior", m: 4, ws: 4, bs: 0, s: 4, t: 4, w: 1, i: 1, a: 2, ld: 8, points: 14),
   ),
   unit-size: "10-30",
   troop-type: "Infantry (Lizardman, Saurus)",
@@ -609,7 +610,7 @@ Riders)
   troop-type: "Infantry (Lizardman, Skink)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon, shield",
-  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+), Poisoned Attacks (",
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+)",
   options: [
 - May choose one of the following:
   - Spears +0.5 point/model
@@ -867,7 +868,7 @@ A Slann who is in base contact with a model with the Guardians special rule is c
 
 - *Spout Flames:* Spout Flames shoots like a fire thrower with the following profile:
 
-#minitable(("Range", "Strength", "Special Rules"), ("n/a", "4", "Flaming Attacks, Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("n/a", "4", "Cumbersome, Flaming Attacks"))
 
 If the artillery dice result is a misfire, no shots are fired and D3 Skink handlers are removed as casualties. If all Skink handlers are removed, the Salamander is subject to Frenzy for the remainder of the game.
   ],
@@ -934,7 +935,7 @@ If the artillery dice result is a misfire, no shots are fired and D3 Skink Handl
 
 - *Stream of Fire:* Stream of Fire is a fire thrower with the following profile:
 
-#minitable(("Range", "Strength", "Special Rules"), ("6\"", "5", "Flaming Attacks, Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("6\"", "5", "Cumbersome, Flaming Attacks"))
 
 If the artillery dice result is a misfire, no shots are fired and D3 Skink Handlers are removed as casualties. If all Skink handlers are removed, the Ancient Salamander is subject to Frenzy for the remainder of the game.
   ],
@@ -978,7 +979,7 @@ Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase."
 
 #unit("STEGADON",
   profiles: (
-    (name: "Stegadon", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 5, i: 2, a: 4, ld: 6, points: 195),
+    (name: "Stegadon", m: 6, ws: 3, bs: 0, s: 5, t: 6, w: 5, i: 2, a: 4, ld: 6, points: 200),
     (name: "Skink Crew", m: "-", ws: 2, bs: 3, s: 3, t: "-", w: "-", i: 4, a: 1, ld: 5, points: ""),
   ),
   troop-type: "Monster (Saurian)",
@@ -1029,7 +1030,7 @@ Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase."
   equipment-body: (
     rule("Power of the Ancients")[Arcane Item. Bound Spell. This item contains the _Fiery Blast_ spell from the Lore of Fire.],
   ),
-  special-rules: "Cold-blooded, Immunity (Psychology), Impact Hits (D6+1), Jungle Poisons, Natural",
+  special-rules: "Cold-blooded, Immunity (Psychology), Jungle Poisons, Natural",
   special-rules-body: [
 *Armour (4+), Stubborn*
   ],
