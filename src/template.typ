@@ -1019,12 +1019,31 @@
 // of the page's measure whatever the diagram sits in: a chapter set in two
 // columns holds one at the width the source printed it, capped at the column,
 // rather than at a fraction of a fraction.
-#let diagram(path, fraction) = block(above: 1em, below: 1em, width: 100%,
+//
+// In a page set in columns, a diagram the source printed wider than a column
+// spans both, as a float at the head of the page: at column width it would be
+// half the size it was drawn at, and the diagrams are read for their labels.
+// `fraction` says which it is - the source set its diagrams at half the
+// measure or the whole of it, and nothing between. `span: false` keeps a wide
+// one in its column regardless: a float that finds no room on its page goes
+// to the next, and a chapter whose last page is full leaves it standing alone
+// on a page of its own, which is worse than a diagram at half its size.
+#let _diagram-body(path, fraction) = block(above: 1em, below: 1em, width: 100%,
   align(center, context {
     let measure = page.width - page.margin.left.length - page.margin.right.length
     layout(size => image(path, width: calc.min(fraction * measure, size.width)))
   }),
 )
+
+#let diagram(path, fraction, span: auto) = context {
+  let span = if span == auto { fraction > 0.5 } else { span }
+  if page.columns > 1 and span {
+    place(top + center, scope: "parent", float: true, clearance: 1em,
+      _diagram-body(path, fraction))
+  } else {
+    _diagram-body(path, fraction)
+  }
+}
 
 // The axis labels around a chart. In the source the row axis is set vertically
 // beside the grid; read in flow order it arrives after it, so both axes are set
@@ -1347,6 +1366,23 @@
   v(1fr)
 })
 
+// --- columns of prose -------------------------------------------------------
+
+// Chapters of continuous rules set in two columns the ordinary way: the first
+// fills to the foot of the page and the second begins, as the source rulebook
+// sets them. Not `balanced-columns`, which levels a section's last page - a
+// run of prose chapters has no last page to level, only the next chapter's
+// first, and that opens on a page of its own. Set on the page rather than in a
+// `columns` block so a chapter title and a wide diagram can float across both
+// columns, which the show rules above `book` do when they find the page set
+// this way. A magic-item section or a lore is not put inside this: each sets
+// its own columns and would set them inside one of these.
+#let two-columns(body) = {
+  set page(columns: 2)
+  set columns(gutter: COLUMN_GUTTER)
+  body
+}
+
 // --- document ---------------------------------------------------------------
 
 // `side` and `size` are the two dials of the measure, and every book in the
@@ -1398,9 +1434,12 @@
   // still and set itself flush left. Every chapter opening in the corpus was
   // centred on 189pt of a 595pt page. The rule takes the whole measure, as the
   // one beneath a level-2 heading does.
-  show heading.where(level: 1): it => {
-    pagebreak(weak: true)
-    block(width: 100%, below: 1.1em, {
+  //
+  // In a page set in columns the title is floated to the head of the page in
+  // the page's own scope, so it spans both columns as a chapter title should;
+  // the break comes first so the float lands on the chapter's page and not
+  // atop the tail of the one before.
+  let title(it) = block(width: 100%, below: 1.1em, {
       // Both off for the reasons `namecost` has them off, which a chapter title
       // needed just as much and never had. Justification would space a title
       // that runs to two lines right across the measure, VIRTUES OF THE
@@ -1415,6 +1454,14 @@
         #line(length: 100%, stroke: 1pt + hair)
       ]
     })
+  show heading.where(level: 1): it => context {
+    pagebreak(weak: true)
+    if page.columns > 1 {
+      place(top + center, scope: "parent", float: true, clearance: 1.1em,
+        title(it))
+    } else {
+      title(it)
+    }
   }
 
   show heading.where(level: 2): it => block(

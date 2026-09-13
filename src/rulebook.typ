@@ -44,6 +44,7 @@
 
 #outline(title: [Contents], depth: 3)
 
+#two-columns[
 = WHAT YOU NEED
 
 #namecost("ARMIES OF MINIATURES", "")
@@ -1969,7 +1970,9 @@ If a unit fails a Panic test:
 
 Providing that the panicked unit doesn't carry itself off the board with its first flee move, you'll have a chance to rally it in later turns.
 
-#diagram("/assets/figures/rulebook/img-0527.jpg", 1.0)
+// In its column rather than across the page: the Panic chapter's text fills
+// its last page, and floated the diagram would stand alone on the page after.
+#diagram("/assets/figures/rulebook/img-0527.jpg", 1.0, span: false)
 
 #note[_The middle blue unit has been destroyed in close combat. All friendly units within 6" must immediately test for Panic — the destroyed unit is left in place until the tests are made to ensure an accurate measurement._]
 
@@ -4509,6 +4512,8 @@ At the end of the battle, the side that controls the watchtower is the winner. T
 None.
 
 #diagram("/assets/figures/rulebook/img-0611.jpg", 0.756)
+
+]
 
 #magic-item-chapter()
 
