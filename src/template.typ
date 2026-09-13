@@ -984,9 +984,17 @@
 // the body size rather than under it - at 9pt against 10pt the two halves of
 // one line read as two different registers. `1em` rather than a fixed 10pt so
 // the label follows whatever size `book()` is given.
+//
+// The gap between one field and the next is a shade wider than the leading
+// inside a paragraph, so a run of one-line fields reads as a list of fields
+// and not as the lines of one paragraph. At 0.3em it was narrower than the
+// leading, and BASE SIZE, EQUIPMENT and MAGIC sat closer to each other than
+// MAGIC's own second line sat to its first.
+#let FIELD_GAP = 0.6em
+
 #let field(label, value) = {
   [#metadata((kind: "field", label: label, value: value))<meta>]
-  block(above: 0.3em, below: 0.3em)[
+  block(above: FIELD_GAP, below: FIELD_GAP)[
     #text(weight: "bold", size: 1em, tracking: 0.07em)[#upper(label):]
     #if value != "" [ #value ]
   ]
@@ -1294,6 +1302,14 @@
   }
 
   let body = {
+    // A list under a field - the options, the named rules - has its items
+    // spaced a little wider than the lines of a paragraph, so "May be mounted
+    // on one of the following:" stands off the option before it and its
+    // sub-options read as its own. Those sub-options stay at the leading: the
+    // set rule inside the show rule reaches the lists nested in a list and
+    // not the list itself, which is what makes the two levels differ.
+    set list(spacing: 0.85em)
+    show list: it => { set list(spacing: auto); it }
     // The run-in line under a special character's name - "High King of
     // Karaz-a-Karak" - which 463 entries set between the name and the profile.
     // It is `namecost` with no cost, the same call a magic item's name is set
