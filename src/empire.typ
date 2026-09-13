@@ -426,7 +426,7 @@ Wolf Kin replace Flagellants for +3 points per model. They have Weapon Skill 4 a
   - Medium armour +9 points
   - Heavy armour +18 points
 - May take a shield +5 points
-- May be upgraded with the Full Plate special rule for +6 points.
+- May be upgraded with the Full Plate special rule for +12 points.
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
