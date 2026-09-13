@@ -1097,6 +1097,27 @@
   v(1fr)
 })
 
+// The contents page, in two columns that come out level, as a lore or a
+// magic-item section is set. Typst's own `outline` runs its entries in one
+// column down the page, and an army book's sixty-odd entries at that measure
+// run on to a second page that is five-sixths empty; the printed books set
+// theirs in two. The entries are built here from the same headings the
+// outline would list - one `outline.entry` per heading, so the show rule that
+// bolds a chapter's line and the fill and page number are the outline's own -
+// and handed to `balanced-columns` as one record apiece, which is what puts
+// the seam at the halfway line rather than the foot of the first column.
+// `book` routes every `#outline(..)` through this, so a book still declares
+// its contents with the one call and its depth, and says nothing about how
+// they are set.
+#let contents(title: [Contents], depth: none) = {
+  heading(level: 1, outlined: false, title)
+  context {
+    let heads = query(heading.where(outlined: true))
+      .filter(h => depth == none or h.level <= depth)
+    balanced-columns(heads.map(h => outline.entry(h.level, h)).join(parbreak()))
+  }
+}
+
 #let colophon(lines) = page(footer: none, {
   v(1fr)
   align(center, block(width: 78%, {
@@ -1144,6 +1165,10 @@
   // The contents page: a chapter's line is set a half-point above the body and
   // bold, so the six sections under MAGIC ITEMS read as its children.
   show outline.entry.where(level: 1): set text(size: 10.5pt, weight: "bold")
+  show outline: it => contents(
+    title: if it.title == auto { [Contents] } else { it.title },
+    depth: it.depth,
+  )
   set list(marker: text(fill: hair)[•], indent: 0.5em, body-indent: 0.45em)
   show list: set block(above: 0.55em, below: 0.75em)
   set table(gutter: 0pt)
