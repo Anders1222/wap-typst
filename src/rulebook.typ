@@ -44,9 +44,9 @@
 
 #outline(title: [Contents], depth: 3)
 
-#two-columns[
 = WHAT YOU NEED
 
+#balanced-columns[
 #namecost("ARMIES OF MINIATURES", "")
 
 Both you and your opponent each need to have an army built out of suitable models. There is no strict rule what models you should use, but you should endeavour to use models of a similar scale (most commonly between 28 to 32 mm) and have them be armed with appropriate equipment matching their rules, so it is clear to both you and your opponent what each model is supposed to represent. Ideally, all miniatures should also be painted, but it is up to you and your opponent whether or not this is a rule you want to enforce for yourselves.
@@ -82,7 +82,9 @@ Warhammer uses six-sided dice to work out effects such as combat and shooting. I
 #namecost("TOKENS & MARKERS", "")
 
 It is recommended that you use some sort of tokens or markers to help remind you of things such as which units have charged, fled, rallied etc, as well as if they are under the effect of some spell or special rule.
+]
 
+#two-columns[
 = BASIC RULES
 
 === MEASURING DISTANCES
@@ -349,8 +351,11 @@ If any model has a Weapon Skill of 0 then it is unable to attack with its normal
 
 If at any time a model's Strength, Toughness or Wounds are reduced to 0 or less by magic or a special rule, it is slain and removed from play.
 
+]
+
 = FIGHTING A BATTLE
 
+#balanced-columns[
 === CHOOSING AN ARMY
 
 First, you must choose an army to play and a points value to use. In a pitched battle, both your and your opponent’s armies should be at the same points value. You are allowed to have less points than agreed on, but not more.
@@ -393,7 +398,9 @@ In a complete game turn, both players get a player turn, each divided into the M
 === EXCEPTIONS
 
 While playing your game of Warhammer, you'll occasionally discover exceptions to the general turn sequence laid out above, when things are worked out as they occur rather than in any strict order, or perhaps that both players will have to do something at the same time. Occasionally the actions of one player will trigger the sudden appearance of a particular troop type, or may activate some special rule or occurrence. When this happens, the exceptional rule will contain all the information you need to resolve it.
+]
 
+#two-columns[
 = MOVEMENT
 
 === MOVING YOUR UNITS
