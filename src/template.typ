@@ -828,8 +828,10 @@
       text(weight: "bold", size: 10.5pt, tracking: 0.04em, hyphenate: false)[
         #upper(name) #text(style: "italic")[(#named)]
       ])
+    // Stood off the name by a third of a line: hard under it, the casting
+    // value read as a smaller line than the paragraph below, though it is not.
     if cast != none {
-      block(above: 0.1em, below: 0em,
+      block(above: 0.35em, below: 0em,
         text(size: 10pt, style: "italic")[Cast on #cast])
     }
   })
