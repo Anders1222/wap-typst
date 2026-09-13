@@ -162,7 +162,10 @@ that would leave a page of its own empty. `breakable: true` lifts the no-split
 rule for the 28 entries taller than a page, which have to break somewhere and
 would otherwise overflow and lose their tail silently — so **never mark an entry
 `breakable: false` by hand without checking it fits**; the gate is a word-bag
-compare of the rendered PDF, which is what catches an overflow.
+compare of the rendered PDF, which is what catches an overflow. A magic-item
+section decides for itself: one that fits on a page is set as one unbreakable
+block that the page places where there is room, with `SECTION_GAP` above it,
+and one longer than a page opens a page. Nothing in a book says which.
 
 ## Commits
 

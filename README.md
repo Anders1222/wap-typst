@@ -166,7 +166,7 @@ army book, and one without is the rulebook.
 
 | | army books | core rulebook |
 |---|---|---|
-| pagination | every entry opens its own page | sections flow |
+| pagination | every entry opens its own page; short magic-item sections share | sections flow |
 | hierarchy | chapter → entry | chapter → section → subsection |
 | columns | per entry (see below) | single, with wider margins |
 | tables | stat lines, rebuilt from x-coordinates | ruled charts, read directly |
@@ -193,11 +193,16 @@ smaller drops to level 3.
 
 ## Layout
 
-**Every entry opens its own page** — each unit, character and magic-item section
-— so nothing straddles the space left over by whatever preceded it. The one
-exception is an entry consisting of *only* a stat line and a few fields, such as
-a character mount: a page of its own would be almost entirely empty, so these
-share one, set unbreakable so none of them straddles a boundary either.
+**Every entry opens its own page** — each unit and character — so nothing
+straddles the space left over by whatever preceded it. Two exceptions. An entry
+consisting of *only* a stat line and a few fields, such as a character mount: a
+page of its own would be almost entirely empty, so these share one, set
+unbreakable so none of them straddles a boundary either. And a magic-item
+section that would fit on a page of its own is set the same way, heading and
+balanced columns as one unbreakable block, so it takes the rest of the page it
+finds itself on if there is room and moves whole to the next page if not — a
+faction's five short sections then share a page or two instead of taking five.
+A section longer than a page opens one, as before.
 
 Entries containing stat blocks are single-column, since an eleven-column table
 cannot survive an 8cm measure and floating it would sever it from its unit.

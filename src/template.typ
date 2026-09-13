@@ -145,10 +145,11 @@
 
 // --- entries ----------------------------------------------------------------
 
-// Each entry — a unit, a character, a magic-item section — opens its own page,
-// so nothing straddles the space left over by whatever preceded it. `weak`
-// keeps the break from firing when the page is already fresh, and `first`
-// suppresses it so an entry can share its chapter-title page.
+// Each entry — a unit, a character — opens its own page, so nothing straddles
+// the space left over by whatever preceded it. `weak` keeps the break from
+// firing when the page is already fresh, and `first` suppresses it so an entry
+// can share its chapter-title page - or, for a magic-item section, so the
+// section can place its own break, which it does by whether it fits.
 #let entry(name, first: false) = {
   if not first { pagebreak(weak: true) }
   [#metadata((kind: "entry", name: name))<meta>]
@@ -429,7 +430,11 @@
 //
 // It is a model of the layout, not the layout, so the two columns are level
 // to within a record - which is what a break judged by eye is, too.
-#let balanced-columns(body) = context {
+//
+// Three helpers do the above, so a section can be balanced for a page it is
+// not yet on: the records cut from the body, the flow played out through
+// them, and the columns set from the flow.
+#let _records(body) = {
   let records = ()
   let current = ()
   let kids = if body.has("children") { body.children } else { (body,) }
@@ -460,111 +465,143 @@
     if ends-sticky(r) { pending = r } else { glued.push(r); pending = none }
   }
   if pending != none { glued.push(pending) }
-  let records = glued
+  glued
+}
 
-  let here-y = here().position().y
+// The flow of the records through columns `width` wide, played out on paper:
+// the first pair of columns is `first-column` tall, every pair after it
+// `page-column`. Returns the heights and gaps it measured and, for each
+// record, the column it starts in; `carried` is what a split record brings
+// into each column it runs on into, and `column` is the last one used.
+// Needs a context, for `measure` and `text.size`.
+#let _flow(records, width, first-column, page-column) = {
   // Three lines of body text: less than that left behind, and the record
   // moves whole.
   let min-keep = 3 * (text.size * (1 + 0.62)).to-absolute()
+  let heights = records.map(r => measure(block(width: width, r)).height)
+  // `gaps.at(i)` is the space the page sets between record i - 1 and record
+  // i: the pair measured together, less the two on their own.
+  let gaps = (0pt,) + range(1, records.len()).map(i => calc.max(0pt,
+    measure(block(width: width,
+      records.at(i - 1) + parbreak() + records.at(i))).height
+    - heights.at(i - 1) - heights.at(i)))
+
+  // `starts` is the column each record starts in; a record that ran on from
+  // the column before carries `carry` of its height into this one, which
+  // counts toward this page's total.
+  let column = 0
+  let y = 0pt
+  let starts = ()
+  let carried = ()  // height carried into each column by a split record
+  let column-height(c) = if c < 2 { first-column } else { page-column }
+  for (i, h) in heights.enumerate() {
+    let lead = if y > 0pt { gaps.at(i) } else { 0pt }
+    let room = column-height(column) - y - lead
+    if h <= room {
+      starts.push(column)
+      y += lead + h
+    } else if room >= min-keep {
+      // Runs on: as much as fits stays, the rest opens the next column.
+      starts.push(column)
+      let rest = h - room
+      while rest > column-height(column + 1) {
+        column += 1
+        carried.push((column, column-height(column)))
+        rest -= column-height(column)
+      }
+      column += 1
+      carried.push((column, rest))
+      y = rest
+    } else {
+      column += 1
+      starts.push(column)
+      y = h
+    }
+  }
+  (heights: heights, gaps: gaps, starts: starts, carried: carried,
+   column: column)
+}
+
+// The records set in two level columns, the first pair `first-column` tall
+// and every pair after it `page-column`: the flow played out through `_flow`,
+// and a column break placed where the last page's records halve.
+#let _balance(records, width, first-column, page-column) = {
+  let flow = _flow(records, width, first-column, page-column)
+  let (heights, gaps, starts, carried, column) = flow
+  let column-height(c) = if c < 2 { first-column } else { page-column }
+
+  // The last pair of columns is the last page. What it holds is every record
+  // starting there plus whatever ran on into its first column; split that
+  // where the heights halve.
+  let last-page = calc.floor(column / 2) * 2
+  let on-page = range(records.len()).filter(i => starts.at(i) >= last-page)
+  let carried-in = carried.filter(((c, _)) => c == last-page)
+    .map(((_, h)) => h).sum(default: 0pt)
+  // A gap precedes every record on the page but one that opens the column.
+  let lead(k, i) = if k > 0 or carried-in > 0pt { gaps.at(i) } else { 0pt }
+  let total = carried-in + on-page.enumerate()
+    .map(((k, i)) => lead(k, i) + heights.at(i)).sum(default: 0pt)
+  let break-at = none
+  if on-page.len() > 1 {
+    let acc = carried-in
+    let best = none
+    let room-a = column-height(last-page)
+    let room-b = column-height(last-page + 1)
+    for (k, i) in on-page.enumerate() {
+      // The gap before record i is set only if i follows something in the
+      // same column; at a seam it is dropped, so it counts toward neither
+      // half's room, but it is part of the total the halfway line is
+      // measured against.
+      let before = acc
+      acc += lead(k, i)
+      // The break before record i leaves `acc` in the first column and the
+      // rest in the second; take the seam nearest the halfway line. Only a
+      // seam both halves fit at, though. On a page the records fill to the
+      // foot, the seam nearest halfway can lie past what the first column
+      // holds: the record before it runs on into the second column of its
+      // own accord, and a break placed after that run-on opens a third
+      // column, which is a new page with a page's worth of records left
+      // behind it. Where no seam fits, the flow is left to break itself,
+      // which on a full page it does level anyway.
+      let off = calc.abs(acc - total / 2)
+      let fits = before <= room-a and total - acc <= room-b
+      if fits and (best == none or off < best) { best = off; break-at = i }
+      acc += heights.at(i)
+    }
+    // A break before the first record on the page would empty the column.
+    if break-at == on-page.first() { break-at = none }
+  }
+
+  let laid = ()
+  for (i, r) in records.enumerate() {
+    if i == break-at { laid.push(colbreak()) }
+    laid.push(r)
+    if i + 1 < records.len() { laid.push(parbreak()) }
+  }
+  _columns(2, gutter: COLUMN_GUTTER, laid.join())
+}
+
+// The measure between the margins, and the width of one of two columns set
+// across it: what `layout` would report, worked out from the page instead
+// for the places that have no `layout` to ask.
+#let _measure-width() = (
+  page.width - page.margin.left.length - page.margin.right.length
+)
+#let _column-width(measure) = (measure - COLUMN_GUTTER * measure) / 2
+
+#let balanced-columns(body) = context {
+  let records = _records(body)
+  let here-y = here().position().y
 
   layout(size => {
     let page-column = size.height
     let first-column = page.height - PAGE_MARGIN.bottom - here-y
-    let width = (size.width - COLUMN_GUTTER * size.width) / 2
-    let heights = records.map(r => measure(block(width: width, r)).height)
-    // `gaps.at(i)` is the space the page sets between record i - 1 and record
-    // i: the pair measured together, less the two on their own.
-    let gaps = (0pt,) + range(1, records.len()).map(i => calc.max(0pt,
-      measure(block(width: width,
-        records.at(i - 1) + parbreak() + records.at(i))).height
-      - heights.at(i - 1) - heights.at(i)))
-
-    // Play the flow out. `starts` is the column each record starts in; a
-    // record that ran on from the column before carries `carry` of its height
-    // into this one, which counts toward this page's total.
-    let column = 0
-    let y = 0pt
-    let starts = ()
-    let carried = ()  // height carried into each column by a split record
-    let column-height(c) = if c < 2 { first-column } else { page-column }
-    for (i, h) in heights.enumerate() {
-      let lead = if y > 0pt { gaps.at(i) } else { 0pt }
-      let room = column-height(column) - y - lead
-      if h <= room {
-        starts.push(column)
-        y += lead + h
-      } else if room >= min-keep {
-        // Runs on: as much as fits stays, the rest opens the next column.
-        starts.push(column)
-        let rest = h - room
-        while rest > column-height(column + 1) {
-          column += 1
-          carried.push((column, column-height(column)))
-          rest -= column-height(column)
-        }
-        column += 1
-        carried.push((column, rest))
-        y = rest
-      } else {
-        column += 1
-        starts.push(column)
-        y = h
-      }
-    }
-
-    // The last pair of columns is the last page. What it holds is every record
-    // starting there plus whatever ran on into its first column; split that
-    // where the heights halve.
-    let last-page = calc.floor(column / 2) * 2
-    let on-page = range(records.len()).filter(i => starts.at(i) >= last-page)
-    let carried-in = carried.filter(((c, _)) => c == last-page)
-      .map(((_, h)) => h).sum(default: 0pt)
-    // A gap precedes every record on the page but one that opens the column.
-    let lead(k, i) = if k > 0 or carried-in > 0pt { gaps.at(i) } else { 0pt }
-    let total = carried-in + on-page.enumerate()
-      .map(((k, i)) => lead(k, i) + heights.at(i)).sum(default: 0pt)
-    let break-at = none
-    if on-page.len() > 1 {
-      let acc = carried-in
-      let best = none
-      let room-a = column-height(last-page)
-      let room-b = column-height(last-page + 1)
-      for (k, i) in on-page.enumerate() {
-        // The gap before record i is set only if i follows something in the
-        // same column; at a seam it is dropped, so it counts toward neither
-        // half's room, but it is part of the total the halfway line is
-        // measured against.
-        let before = acc
-        acc += lead(k, i)
-        // The break before record i leaves `acc` in the first column and the
-        // rest in the second; take the seam nearest the halfway line. Only a
-        // seam both halves fit at, though. On a page the records fill to the
-        // foot, the seam nearest halfway can lie past what the first column
-        // holds: the record before it runs on into the second column of its
-        // own accord, and a break placed after that run-on opens a third
-        // column, which is a new page with a page's worth of records left
-        // behind it. Where no seam fits, the flow is left to break itself,
-        // which on a full page it does level anyway.
-        let off = calc.abs(acc - total / 2)
-        let fits = before <= room-a and total - acc <= room-b
-        if fits and (best == none or off < best) { best = off; break-at = i }
-        acc += heights.at(i)
-      }
-      // A break before the first record on the page would empty the column.
-      if break-at == on-page.first() { break-at = none }
-    }
-
-    let laid = ()
-    for (i, r) in records.enumerate() {
-      if i == break-at { laid.push(colbreak()) }
-      laid.push(r)
-      if i + 1 < records.len() { laid.push(parbreak()) }
-    }
-    _columns(2, gutter: COLUMN_GUTTER, laid.join())
+    _balance(records, _column-width(size.width), first-column, page-column)
   })
 }
 
-// A section: its page break, its heading, and its items, always in two columns.
+// A section: its heading and its items, always in two columns - and the page
+// break before it, when it needs one.
 //
 // The column count used to be decided at import by counting characters - two
 // columns at 3,000 of them, one below, written into the book as a bare
@@ -574,25 +611,77 @@
 // that a magic-item section is two columns whatever its length, as a lore
 // already was, and `balanced-columns` sees to it that the two come out level.
 //
+// A section used to open a page of its own, as a unit entry does. Most fill
+// one; but a faction's own items - the Empire's Ulrican and Sigmarite
+// chapters, the Warriors of Chaos's four gods' - run to a handful of records
+// apiece, and each on a page of its own left the chapter mostly parchment. So
+// a section that would fit on a page of its own no longer insists on one: it
+// is set as one unbreakable block, heading and columns together, and the page
+// takes it where it stands if it has the room and moves it whole to the next
+// page if not - the rule a character mount already lives by. The block is
+// balanced for a page of its own, and a section that fits a page's columns
+// fits the same columns cut shorter, so the block is the same block wherever
+// it lands. A section too long for a page opens one, as before, and fills it
+// as before; it never shared a page anyway.
+//
+// It is done this way, rather than by asking where the page has got to and
+// deciding from that, because the answer to that question is only known from
+// the pass before, and a run of sections each placed by where the last one
+// ended would want a pass per section to settle - more than Typst gives a
+// document. A block that carries its own height asks nothing of the passes.
+//
+// `SECTION_GAP` is the air above a section that shares a page with the one
+// before it, and `first` is the section that shares its chapter's title page
+// instead, set beneath the intro as it always was.
+//
 // The heading is centred, as the printed books centre a category within its
 // chapter, and carries no rule: the rule beneath a level-2 heading is a unit
 // entry's, and a category heading with one would read as a second chapter
-// title. The show rule is scoped to this one heading, so `entry` still emits
+// title. The show rule is scoped to this one section, so `entry` still emits
 // the level-2 heading `emit.py` counts and the outline lists.
+#let SECTION_GAP = 2.6em
+
 #let magic-item-section(kind, name: auto, first: false, body) = {
   _assert-kind(kind, "magic-item-section")
-  // `entry` rather than a heading of its own, so a magic-item section breaks
-  // and heads exactly as a unit entry does - one definition, not two.
-  {
-    show heading.where(level: 2): it => block(
-      width: 100%, above: 1.35em, below: 0.7em, sticky: true,
-      align(center,
-        text(size: 14pt, weight: "bold", tracking: 0.05em, upper(it.body))),
-    )
-    entry(if name == auto { MAGIC_ITEM_SECTIONS.at(kind) } else { name },
-          first: first)
+  let name = if name == auto { MAGIC_ITEM_SECTIONS.at(kind) } else { name }
+  show heading.where(level: 2): it => block(
+    width: 100%, above: 1.35em, below: 0.7em, sticky: true,
+    align(center,
+      text(size: 14pt, weight: "bold", tracking: 0.05em, upper(it.body))),
+  )
+  // `entry` rather than a heading of its own, so a magic-item section heads
+  // exactly as a unit entry does - one definition, not two. Its own break is
+  // off: the section decides its own, below.
+  let head = entry(name, first: true)
+  if first {
+    head
+    balanced-columns(body)
+  } else {
+    context {
+      let records = _records(body)
+      let across = _measure-width()
+      let page-column = page.height - PAGE_MARGIN.top - PAGE_MARGIN.bottom
+      // The heading as it will be set, and the spacing the columns keep from
+      // it - measured with a frame of no height standing in for the columns,
+      // so it is the heading's `below` as it will actually resolve, not a
+      // figure copied from the show rule and resolved against the wrong em.
+      let head-h = measure(block(width: across,
+        heading(level: 2, name) + block(height: 0pt, above: 0pt, below: 0pt)))
+        .height
+      let columns = page-column - head-h
+      let width = _column-width(across)
+      if _flow(records, width, columns, page-column).column <= 1 {
+        block(breakable: false, above: SECTION_GAP, below: 0pt, width: 100%, {
+          head
+          _balance(records, width, columns, page-column)
+        })
+      } else {
+        pagebreak(weak: true)
+        head
+        balanced-columns(body)
+      }
+    }
   }
-  balanced-columns(body)
 }
 
 // --- spells -----------------------------------------------------------------
