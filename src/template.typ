@@ -1339,14 +1339,13 @@
 
 // --- document ---------------------------------------------------------------
 
-// `side` widens the margins for the core rulebook, which is set in one column:
-// at the army books' measure a page of continuous prose runs to ~90 characters a
-// line, which is too long to read comfortably.
-//
-// `size` is the other half of the same dial. The source books are set in 10pt
-// Times inside 2cm margins, and the defaults are those two. Libertinus sets
-// tighter than Times, so the line runs a few characters longer than the
+// `side` and `size` are the two dials of the measure, and every book in the
+// corpus - the rulebook included - takes the defaults. The source books are set
+// in 10pt Times inside 2cm margins, and the defaults are those two. Libertinus
+// sets tighter than Times, so the line runs a few characters longer than the
 // source's; that is accepted so the type sits at the size the source printed.
+// The rulebook used to widen `side` for its one-column prose; it now shares
+// the army books' page so the two read as one set.
 #let book(title: "", side: 2.0cm, size: 10pt, body) = {
   set document(title: title)
   set page(
