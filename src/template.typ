@@ -1464,10 +1464,17 @@
     }
   }
 
+  //
+  // Hyphenation off, as it is for a chapter title and for the same reason: a
+  // heading too long for its column - THE MOVEMENT PHASE SEQUENCE in the
+  // rulebook's - breaks at a space, not at SE-QUENCE. Justification off with
+  // it, so the first line of a two-line heading is not spaced out across the
+  // measure.
   show heading.where(level: 2): it => block(
     above: 1.35em, below: 0.5em, sticky: true,
   )[
-    #text(size: 14.5pt, weight: "bold", tracking: 0.05em)[#upper(it.body)]
+    #set par(justify: false)
+    #text(size: 14.5pt, weight: "bold", tracking: 0.05em, hyphenate: false)[#upper(it.body)]
     #v(-0.52em)
     #line(length: 100%, stroke: 0.6pt + hair)
   ]
@@ -1476,7 +1483,10 @@
   // hierarchy stays legible against the level-2 headings.
   show heading.where(level: 3): it => block(
     above: 1.1em, below: 0.35em, sticky: true,
-    text(size: 10.5pt, weight: "bold", tracking: 0.04em)[#upper(it.body)],
+    {
+      set par(justify: false)
+      text(size: 10.5pt, weight: "bold", tracking: 0.04em, hyphenate: false)[#upper(it.body)]
+    },
   )
 
   body

@@ -263,9 +263,7 @@ Example: _A model with Line of Sight value 2 can see and be seen behind a model 
 
 Whilst every effort has been made to make sure that the sequencing of rules is utterly clear, occasionally you'll find that two or more rules are to be resolved at the same time – normally 'at the start of the Movement phase' or similar. When this happens, resolve both rules at the same time whenever possible. If this is not possible for any reason, then the player whose turn it is chooses the order.
 
-=== TAKE-BACKS & FORGOTTEN
-
-=== RULES
+=== TAKE-BACKS & FORGOTTEN RULES
 
 There will likely be situations where you or your opponent will find yourself in a situation where you might second-guess your original plan and wants a re- do, such as moving a unit a certain distance and realising that would put you in a bad spot. Players should be tolerant of letting each other change their minds and re-do such mistakes.
 
@@ -275,9 +273,7 @@ Likewise, if a player has forgotten a rule that should have happened in a previo
 
 However, players should be encouraged to remind each other about said rules if they are able to ensure the game is as fair as possible to both sides.
 
-=== BASIC RULES AND
-
-=== ADVANCED RULES
+=== BASIC RULES AND ADVANCED RULES
 
 Basic rules apply to all the models in the game, unless specifically stated otherwise. They include the rules for movement, shooting, close combat and so on, as well as the rules for Panic tests. These are all the rules you'll need for your average infantry model.
 
@@ -460,9 +456,7 @@ A unit that reforms may not fire missile weapons in the Shooting phase.
 
 #note[_A unit can either turn (A), redress the ranks (B), or reform (C)._]
 
-== THE MOVEMENT
-
-== PHASE SEQUENCE
+== THE MOVEMENT PHASE SEQUENCE
 
 *Work your way through the sub-phases shown in the summary below. The units in your army can act in whatever order you wish within each sub-phase, providing that you complete one sub-phase before moving onto the next.*
 
@@ -694,9 +688,7 @@ to bring an equal number of models from both his units (or as near
 as possible) into contact with the blue unit."), ("1. Both red units have declared charges against the blue unit and
 have rolled sufficiently high to complete their charges successfully.", "")))
 
-== 3. COMPULSORY
-
-== MOVES
+== 3. COMPULSORY MOVES
 
 Generally speaking, a player can move their units however they wish within the confines of the rules governing movement. However, some moves are compulsory, which means the owning player cannot choose to control them.
 
@@ -736,9 +728,7 @@ Any unit that has a friendly unit with Unit Strength 10 or more flee through it 
 
 As soon as a fleeing unit moves into base contact with the battlefield edge it is removed from the game as casualties.
 
-=== OTHER COMPULSORY
-
-=== MOVES
+=== OTHER COMPULSORY MOVES
 
 Aside from fleeing troops, units that are forced to move in the Compulsory Moves sub-phase otherwise follow the normal movement rules, unless clearly stated. Any further rules that apply to units that have a compulsory move will be described in their entry in the relevant army book, for example, they will often have to move at a set speed or in a given direction. These compulsory moves can be resolved in any order the controlling player wishes, providing that all Flee moves have already been completed.
 
@@ -770,9 +760,7 @@ It is also worth noting that a unit that has marched in the Movement phase canno
 
 If you wish a unit to march when an enemy unit is within 6", it will first have to take a Leadership test. If the test is passed, the unit marches as ordered. If the test is failed, the unit will only be able to move normally. Units do not need to test to march if the enemy units are fleeing, engaged in combat or have less than Unit Strength 10.
 
-=== LONE MODELS AND
-
-=== MOVEMENT
+=== LONE MODELS AND MOVEMENT
 
 *Units that consist of a single model are mostly moved the same as other units.*
 
@@ -954,9 +942,7 @@ When placing a summoned unit, it must be wholly at least 1" away from other unit
 
 Some spells can summon models into already existing units. This is done in a strict order. First, any slain command groups models are resurrected in an order of your choosing, displacing rank-and-file models as required. Then rank-and-file models with multiple Wounds are healed to their starting value. Lastly, rank and file models are summoned. The unit formation must be legal after all models are added. If any models cannot be added for any reason, those models are wasted. Any models that are summoned into an existing unit retain any equipment, rules and/or bonuses as the rest of the unit.
 
-== THE MAGIC PHASE
-
-== SEQUENCE
+== THE MAGIC PHASE SEQUENCE
 
 The Magic phase starts with both sides determining how much magical power can be tapped into this turn. The player whose turn it is (the casting player) will be seeking to draw down enough power to cast their spells, whilst their opponent (the dispelling player) will be gathering magical energy to dispel any spells being cast.
 
@@ -972,9 +958,7 @@ The Magic phase starts with both sides determining how much magical power can be
 
 *5\. NEXT SPELL *_Repeat steps 2 through 4 until the casting player cannot cast, or no longer wishes to cast, any more spells._
 
-== 1. ROLL FOR THE WINDS
-
-== OF MAGIC
+== 1. ROLL FOR THE WINDS OF MAGIC
 
 *The strength of the Winds of Magic is based on the size of the game played.*
 
@@ -1008,9 +992,7 @@ Each Wizard can only attempt to cast each spell once per turn (if they have a Ma
 
 To cast a spell, a Wizard nominates one of their spells to cast, and declares the target of the spell. Before choosing, it's worth examining the rules of the spell to determine its maximum range – remember that you can normally measure to see if a target is in range before you try to cast a spell.
 
-=== CHOOSE NUMBER OF POWER
-
-=== DICE
+=== CHOOSE NUMBER OF POWER DICE
 
 Once the Wizard, spell and target have been chosen, the player then declares how many power dice from their pool the Wizard will use in their attempt to cast the spell. At least one dice must be taken from the power pool. The number of dice each Wizard can use to cast each spell is equal to their Wizard Level plus 2. So, a Level 3 Wizard could use a maximum of 5 dice on each spell.
 
@@ -1096,9 +1078,7 @@ In order to attempt a dispel, the dispelling player first nominates one of their
 
 If the dispelling player does not have an eligible Wizard to attempt a dispel their army can attempt to dispel the spell instead.
 
-=== CHOOSE NUMBER OF DISPEL
-
-=== DICE
+=== CHOOSE NUMBER OF DISPEL DICE
 
 When dispelling, a Wizard can use any number of dispel dice. Once the Wizard has been chosen, the player declares how many dispel dice the Wizard will use in their dispel attempt. Unlike casting, there is no upper limit on the number of dice that can be used in a dispel attempt – though you must use at least one dice from the pool if you wish to attempt a dispel.
 
@@ -1209,9 +1189,7 @@ Then proceed to the next unit that is shooting and continue as above until you h
 
 *6\. REMOVE CASUALTIES*
 
-== 1. NOMINATE UNIT TO
-
-== SHOOT
+== 1. NOMINATE UNIT TO SHOOT
 
 *During the Shooting phase, a model armed with a missile weapon can use it to make a single shooting attack. Models that have marched, reformed or rallied this turn cannot shoot, nor can those that have made a failed charge, are fleeing or are fighting in close combat.*
 
@@ -1237,9 +1215,7 @@ Now you've chosen the unit that will make the shooting attack, you need to choos
 
 All units in the game may fire with their first two ranks. Models further back than the second rank cannot shoot unless specified, regardless of the Line of Sight value of the target.
 
-=== CHECK THE TARGET IS IN
-
-=== RANGE
+=== CHECK THE TARGET IS IN RANGE
 
 All missile weapons have a maximum range that indicates the furthest distance they can shoot. A detailed summary of shooting weapons and their ranges can be found in the Weapons & Armour chapter.
 
@@ -1249,9 +1225,7 @@ A model can normally only shoot at a target if it lies within the maximum range 
 
 All models in a unit have to shoot at the same target. Due to the relative positions of the shooting unit and the target, it might happen that some models in a firing unit can shoot the target while other models in the unit cannot (the target may be out of their forward arc or completely obscured by terrain or other models). Sometimes, some models in the shooting unit will be out of range. In these situations, you're free to continue with the shot, but only those models permitted to shoot the target (and that have it within their weapons' range) will fire.
 
-=== SHOOTING INTO FLANK OR
-
-=== REAR
+=== SHOOTING INTO FLANK OR REAR
 
 *Sometimes you may find that your models are able to target an enemy unit's flank or rear. This is useful because this can circumvent protection given from shields and other equipment that normally only protect the unit's front.*
 
@@ -1376,9 +1350,7 @@ Note that a save of any kind can never be better than 2+. This does not prevent 
 
 #chart((("Save modifier:", "Save:"), ("+1", "6+"), ("+2", "5+"), ("+3", "4+"), ("+4", "3+"), ("+5", "2+")))
 
-=== NEGATIVE ARMOUR SAVE
-
-=== MODIFIERS
+=== NEGATIVE ARMOUR SAVE MODIFIERS
 
 Some weapons or creatures are so powerful that they can punch right through armour. Such attacks inflict a modifier on the saving throw, just as shooting modifiers affect the To Hit roll.
 
@@ -1404,9 +1376,7 @@ Some models may be allowed to re-roll an invulnerable save from a specific sourc
 
 Some special attacks don't inflict wounds, but require models to be removed as casualties (after failing a Ld or T test, for example). Where this is the case, not only are no saves of any kind allowed (unless specified otherwise), but the number of wounds on the victim's profile is completely irrelevant – just remove the model from play.
 
-== 6. REMOVE
-
-== CASUALTIES
+== 6. REMOVE CASUALTIES
 
 #note[_Example: A unit of Ogres suffers 5 wounds from arrow fire. Each Ogre model has 3 Wounds. So, 5 wounds equal one model dead (3 wounds) with 2 wounds left over. The wounds left over are not enough to remove another model, so the player must make a note that 2 wounds have been suffered by the unit. If the unit takes another wound from some other attack later in the game, then another Ogre model is removed._]
 
@@ -1427,9 +1397,7 @@ For every model that fails its save the target unit suffers an unsaved wound (an
 
 Although casualties would normally fall amongst the front rank, for the purposes of game play we remove models from the rear rank of the unit. This keeps the formation neat and represents rear rankers stepping forward into gaps formerly filled by fallen comrades. If the unit is deployed in a single rank, then casualties are removed equally from both ends.
 
-=== MODELS WITH MORE THAN
-
-=== ONE WOUND
+=== MODELS WITH MORE THAN ONE WOUND
 
 Some models have more than one Wound on their profile. Should such a unit suffer wounds, you must remove as many whole models as possible. You are not allowed to spread the wounds throughout the unit to avoid suffering casualties.
 
@@ -1461,9 +1429,7 @@ The player whose turn it is nominates a close combat involving one or more of th
 
 *4\. FLEE AND PURSUE *_\- Restrain or pursue? - Roll flee distance - Roll pursuit distance - Caught! - Move fleeing unit - Restraining units reform - Move pursuers_
 
-== 1. FIGHT A ROUND OF
-
-== CLOSE COMBAT
+== 1. FIGHT A ROUND OF CLOSE COMBAT
 
 Just as all eligible units (i.e. those in base contact with the enemy) must fight in close combat, similarly all models that are able to must fight. Models cannot elect not to strike, nor can they normally be prevented from doing so.
 
@@ -1585,9 +1551,7 @@ It can happen that a model causes more casualties than it has enemies in base co
 
 It is a good idea not to immediately remove models that are slain from the table, but instead temporarily place them next to their unit – you will need to know how many casualties have been caused when working out who won the combat.
 
-== 2. CALCULATE
-
-== COMBAT RESULT
+== 2. CALCULATE COMBAT RESULT
 
 *Once all the models engaged in the combat have fought, this concludes what we call a 'combat round' or 'round of close combat'.*
 
@@ -1679,9 +1643,7 @@ The higher the difference between the winner's combat result score and the loser
 
 Of course, if one side has been completely wiped out in the fight, the other side is automatically the winner. In such cases the unit automatically restrains pursuit and reforms. Alternatively, if the unit charged this turn it can choose to overrun.
 
-== 3. LOSER TAKES A
-
-== BREAK TEST
+== 3. LOSER TAKES A BREAK TEST
 
 *The losing unit in a combat must pass a Leadership test or flee. This Break test is modified by the amount by which the unit lost the combat.*
 
@@ -1826,17 +1788,13 @@ If you charge an enemy and they are wiped out before the Close Combat phase (by 
 
 A pursuing unit that moves into contact with the battlefield edge moves off the battlefield. However, unlike fleeing units they are allow them to re-enter the board in their next Movement phase, using the rules for Reinforcements. The unit is placed back as close as possible to the same point from which it left the battlefield, in the same formation. Remember that it needs to face directly towards the battlefield and have all of its rear rank touching the battlefield edge. It is often a good idea to leave a model from such a unit in order to mark the position from which it left the battlefield (a standard bearer is ideal).
 
-== MULTIPLE CLOSE
-
-== COMBATS
+== MULTIPLE CLOSE COMBATS
 
 *It is possible that more than two units can become involved in the same close combat.*
 
 A multiple combat is a fight that involves more than one unit on either (or even both) sides. Unless otherwise stated, all the rules for a one-on-one close combat also apply to a combat with multiple units on each side.
 
-=== MULTIPLE COMBATS AND
-
-=== BREAK TESTS
+=== MULTIPLE COMBATS AND BREAK TESTS
 
 In a combat involving multiple units, you will first need to calculate the total combat resolution score for all units involved on both sides to determine the overall winner of that round of combat.
 
@@ -1865,9 +1823,7 @@ Note that if a unit is Disrupted from any source, it may not count its rank bonu
 #diagram("/assets/figures/rulebook/img-0518.jpg", 0.463)
 #diagram("/assets/figures/rulebook/img-0519.jpg", 0.463)
 
-=== MULTIPLE COMBATS AND
-
-=== PURSUIT
+=== MULTIPLE COMBATS AND PURSUIT
 
 *It can happen that one or more victorious units have defeated several enemies that were engaging them from different sides.*
 
@@ -1901,9 +1857,7 @@ You may find that this involves the fleeing unit turning so that it overlaps one
 
 Once all flee moves have been resolved, resolve any pursue moves one at a time. In an order chosen by the controlling player, each pursuer pivots about its centre (ignoring other units) so that it is facing directly towards the centre of the fleeing unit of its choice, and then pursues, as described earlier. Note that this will sometimes lead to a pursuing unit 'catching up' with a fleeing unit that has rolled high enough to escape. In this case, the pursuing unit must stop 1" away.
 
-=== SHRINKING UNITS AND
-
-=== MULTIPLE FIGHTS
+=== SHRINKING UNITS AND MULTIPLE FIGHTS
 
 Occasionally, a situation can arise when one or more units are no longer in base contact with the enemy, but at least part of the enemy unit is still alive. This normally occurs when an enemy has been charged in the rear – as casualties come from the rear rank first, this would in theory leave the attackers stranded from their foe. Clearly this is wrong, just as warriors on a real battlefield would push on to continue the fight, and would not stop fighting if the enemy was standing a few paces away, so must warriors on the miniature battlefield.
 
@@ -2399,9 +2353,7 @@ A unit cannot use Volley Fire if the target is within the weapon’s effective r
 
 If a model with this special rule is hit by a missile attack and is within 3" of a friendly unit consisting of five or more rank and file models of the same troop type within 3", roll a D6. On a roll of 4+, the hit is transferred to a model in the friendly unit (if there is more than one eligible unit within 3", the controlling player can decide which). Otherwise, the hit is resolved against the Weapon Team as normal.
 
-== DEPLOYMENT SPECIAL
-
-== RULES
+== DEPLOYMENT SPECIAL RULES
 
 === AMBUSHERS
 
@@ -2429,9 +2381,7 @@ Models with this special rule may deploy up to a distance equal to their Movemen
 
 Note that a character may only join a unit deploying with the Vanguard special rule if they also have the same rule.
 
-== FORMATION SPECIAL
-
-== RULES
+== FORMATION SPECIAL RULES
 
 === FAST CAVALRY
 
@@ -2564,9 +2514,7 @@ Infantry have a Unit Strength of 1.
 
 Infantry have a Line of Sight value of 1.
 
-== MONSTROUS
-
-== INFANTRY
+== MONSTROUS INFANTRY
 
 The following rules apply to Monstrous Infantry:
 
@@ -2657,9 +2605,7 @@ Cavalry have a Unit Strength of 2.
 
 Cavalry have a Line of Sight value of 2.
 
-== MONSTROUS
-
-== CAVALRY
+== MONSTROUS CAVALRY
 
 All the Cavalry rules apply to Monstrous Cavalry. In addition, the following rules apply:
 
@@ -2781,9 +2727,7 @@ Monstrous Beasts have a Unit Strength of 2.
 
 Monstrous Beasts have a Line of Sight value of 2.
 
-== MONSTROUS
-
-== CREATURES
+== MONSTROUS CREATURES
 
 The following rules apply to Monstrous Creatures:
 
@@ -3036,9 +2980,7 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 *Special Rules:* Many weapons confer special abilities on the attacks made by the wielder, which are explained in the weapon profile. Note that any characteristics bonuses or penalties from weapons normally apply when the model actually attacks – they cannot be used for characteristic tests or spell effects etc. When a weapon does not say when the characteristic bonus applies, then it only applies when striking, or being struck, in close combat.
 
-== CLOSE COMBAT
-
-== WEAPONS
+== CLOSE COMBAT WEAPONS
 #namecost("HAND WEAPON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "-"))
 
@@ -3370,9 +3312,7 @@ A unit that is accompanied by a Musician may re-roll failed Leadership tests whe
 
 Characters are a special type of unit that can either operate on their own or join another unit from the same side.
 
-== CHARACTERS AND
-
-== UNITS
+== CHARACTERS AND UNITS
 
 Most characters are allowed to join certain types of units over the course of the battle. A character is normally permitted to join units made up of Infantry, Cavalry, Monstrous Infantry, Monstrous Beasts or Monstrous Cavalry. However, a character is not allowed to join a unit made up of a troop type with a higher Unit Strength than their own troop type, unless specified.
 
@@ -3719,9 +3659,7 @@ Ghost Fences are obstacles that grant soft cover to units behind them. A unit th
 
 Walls are obstacles that grant hard cover to units behind them, and a \-1 To Hit modifier to charging models in base contact with them.
 
-== MYSTICAL
-
-== MONUMENTS
+== MYSTICAL MONUMENTS
 
 This is essentially a catch-all category for things that don't fit comfortably in other sections. Mystical Monuments are best treated as impassable terrain for the purposes of movement. They should be given a suitable Line of Sight value agreed upon by both players. Particularly large or complex Mystical Monuments might be made up of several terrain elements, such as hills or obstacles.
 
@@ -3803,9 +3741,7 @@ described for the Lore of Life Regrowth spell
 the rules for Stupidity and is Unbreakable for
 the remainder of the game.")))
 
-== ARCANE
-
-== ARCHITECTURE
+== ARCANE ARCHITECTURE
 
 A piece of arcane architecture can either be treated as a building or as impassable terrain. They should be given a suitable Line of Sight value agreed upon by both players.
 
@@ -3873,9 +3809,7 @@ As with other terrain elements, players should identify at the start of the game
 
 As with any terrain pieces, a small amount of common sense will go a long way when dealing with buildings. Players may agree to treat some buildings as impassable. Similarly, players may want to divide very large buildings into several parts, each of which counts as a separate building for the purposes of the following rules.
 
-=== BUILDINGS AND LINE OF
-
-=== SIGHT
+=== BUILDINGS AND LINE OF SIGHT
 
 For Line of Sight purposes, a building has a Line of Sight value of 4 for each floor it has. Models add +4 to their Line of Sight value for every floor they are on above the first one.
 
