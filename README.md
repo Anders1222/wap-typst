@@ -4,8 +4,8 @@ Re-typesets the [Warhammer Armies Project](https://www.warhammerarmiesproject.co
 army books from their published PDFs into [Typst](https://typst.app), and
 publishes the result to GitHub Pages.
 
-**30 army books, two of our own, and the core rulebook · 1,815 unit entries ·
-2,241 typeset pages**, plus nine amended editions of them.
+**30 army books and the core rulebook · 1,746 unit entries ·
+1,599 typeset pages**.
 
 The point is the *book*: proper stat tables, styled headings, real paragraph
 structure — not a scrape. Every book was imported with **no missing words at
@@ -47,8 +47,8 @@ Typst syntax.
 landing page and `build/render.json` — the one list the publish workflow walks.
 Each book declares its own allegiance and counts its own entries, so there is no
 manifest to fall out of step with what is on disk. The page can be filtered by
-allegiance and by edition and re-ordered alphabetically; it is built grouped and
-in source order, so it reads correctly before the script runs.
+allegiance and re-ordered alphabetically; it is built grouped and in source
+order, so it reads correctly before the script runs.
 
 Only the Typst and the cover art are committed, so CI needs the Typst compiler
 and nothing else — no Python, and never the source PDFs.
@@ -72,63 +72,6 @@ python extract/roundtrip.py lizardmen --source "path/to/Warhammer - Lizardmen 3.
 
 `batch.py` skips a book whose JSON is newer than its PDF, so re-runs are cheap;
 pass `--force` to re-extract everything.
-
-## Editions
-
-An **edition** is a book with our own amendments. It is a fork of that book, kept
-in git: `src/lizardmen-house.typ` beside `src/lizardmen.typ`, so what the edition
-changed is `git diff` between the two, and a new upstream version is a three-way
-merge rather than a set of quotations that have to still match.
-
-```
-src/lizardmen.typ  ──fork──►  src/lizardmen-house.typ  ──fork──►  -proposal.typ
-   the book                    the rules we play          what we are arguing about
-```
-
-The faithful reproduction is untouched and keeps its own place on the site beside
-the amended one. `editions/<slug>/edition.toml` holds the edition's identity —
-its label, its version, and the colophon that is set into its books when they are
-written; `editions/<slug>/<book>.toml` records what each change was and why, for
-the day a new upstream version has to have them re-applied.
-
-The changed rules are **not marked in the body**; an amended book is meant to
-read as a book. What an edition changed is set out in a chapter at the back,
-quoting the original wording, the new wording and the reason.
-
-That chapter is the only place a reader learns the body was altered, so it had
-better be complete — and since the change and its write-up are no longer produced
-from one record, that is checked rather than assumed:
-
-```bash
-# Every word this edition removes or introduces must appear in its changelog
-python extract/check_editions.py out/lizardmen-house.pdf out/lizardmen.pdf
-
-# A proposal alters nothing, so its body must match its parent exactly
-python extract/check_editions.py out/rulebook-proposal.pdf out/rulebook-house.pdf     --identical-body
-```
-
-## Proposals
-
-A **proposal** is a change described rather than made. It alters nothing; it is
-set out in a chapter at the back as what it would change, why, what it would
-cost, and what it would look like at the table — the argument to have before
-anyone writes it into the rules. Once agreed it is written into the body and moves
-to the changelog chapter.
-
-Because a proposal book is a fork that adds only that chapter, the promise its
-colophon makes — that the rules text is untouched — is checkable, and is checked,
-by the second command above, which reports nought words differing. The fork is of
-the house edition where the book has one, and of the book itself where it does
-not, so the parent passed to `check_editions.py` is whichever it was forked from,
-and `--chapter PROPOSALS` names the chapter to stop the comparison at.
-
-One proposal has been agreed and is gone from here. *An Army of Infamy: the Ordo
-Draconis* was the only entry in the Vampire Counts proposal book; it is now
-`src/ordo-draconis.typ`, a book of its own on the House Rules shelf, and both the
-proposal book and its record under `editions/proposal/` were deleted when it
-landed. That is what agreeing a proposal looks like — it does not usually mean a
-new book, but this one changed too much of a list to be written as amendments to
-it.
 
 ## How the extraction works
 

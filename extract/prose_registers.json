@@ -2,7 +2,7 @@
   "_note": "Targets CALIBRATED from prose already accepted into the books, not invented. Regenerate a register with: python extract/prose_gate.py --calibrate <file> --from A --to B. Ranges carry deliberate tolerance around the measured figure; a value outside one is a prompt to look, never an automatic fault.",
 
   "lore": {
-    "note": "calibrated from vampire-counts-proposal.typ 2178-2330 (The order, The field, The Lahmian) - 55 paragraphs, 14-158 words, ratio 11.3, no em-dashes",
+    "note": "calibrated from a since-removed book (The order, The field, The Lahmian) - 55 paragraphs, 14-158 words, ratio 11.3, no em-dashes",
     "targets": {
       "word_median": [50, 95],
       "word_min": [0, 30],

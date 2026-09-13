@@ -261,8 +261,7 @@ def wrap(lines: list[str], columns: bool) -> list[str]:
     return ["#columns(2)["] + inner + ["]"]
 
 
-META_KEYS = ("slug", "army", "version", "layout", "cover", "align", "shelf",
-             "authored", "id", "base", "edition")
+META_KEYS = ("slug", "army", "version", "layout", "cover", "align")
 
 
 def book_meta(book: dict) -> list[str]:
@@ -270,10 +269,6 @@ def book_meta(book: dict) -> list[str]:
     for key in META_KEYS:
         value = book.get(key)
         if value is None or value is False:
-            continue
-        # For a book that is not an edition these are the same thing, so saying
-        # it twice is noise. A consumer falls back to the slug.
-        if key == "id" and value == book.get("slug"):
             continue
         out.append(f"  {key}: " + ("true" if value is True else lit(str(value))) + ",")
     out.append(")")
@@ -290,7 +285,7 @@ HEAD = [
 ]
 
 
-def render(data: dict, book: dict, edition: dict | None = None) -> str:
+def render(data: dict, book: dict) -> str:
     figures = f"/assets/figures/{book['slug']}"
     rules = book.get("layout") == "rules"
 
@@ -298,7 +293,7 @@ def render(data: dict, book: dict, edition: dict | None = None) -> str:
              for line in HEAD]
     lines += ["", '#import "template.typ": *', ""]
     lines += book_meta(book)
-    lines += ["", emit.front_matter(book, edition).rstrip()]
+    lines += ["", emit.front_matter(book).rstrip()]
 
     for chapter in data["chapters"]:
         lines += ["", f"= {chapter['title']}", ""]
@@ -349,7 +344,7 @@ def main() -> None:
         raise SystemExit(f"to_book: {source} does not exist")
 
     data = json.loads(source.read_text(encoding="utf-8"))
-    out = (args.out or ROOT / "src" / f"{book['id']}.typ").resolve()
+    out = (args.out or ROOT / "src" / f"{book['slug']}.typ").resolve()
     text = render(data, book)
     out.write_text(text, encoding="utf-8", newline=chr(10))
     entries = sum(len(c["entries"]) for c in data["chapters"])
