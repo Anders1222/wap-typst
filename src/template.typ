@@ -43,7 +43,7 @@
     columns: (1fr, auto),
     align: (left + bottom, right + bottom),
     column-gutter: 0.6em,
-    text(weight: "bold", size: 11pt, tracking: 0.04em, hyphenate: false)[
+    text(weight: "bold", size: 10.5pt, tracking: 0.04em, hyphenate: false)[
       #upper(name)
     ],
     if cost != "" { text(size: 9.5pt, style: "italic", cost) } else { none },
@@ -52,7 +52,7 @@
 
 #let para(rs, style: "body") = {
   if style == "italic" {
-    // Flavour text: inset and a shade smaller than the rules body.
+    // Flavour text: inset from the rules body, and at its size.
     block(
       above: 0.9em, below: 0.9em,
       inset: (left: 1.1em, right: 1.1em),
@@ -606,7 +606,7 @@
     // short name across the column.
     set par(justify: false)
     block(below: 0em,
-      text(weight: "bold", size: 11pt, tracking: 0.04em, hyphenate: false,
+      text(weight: "bold", size: 10.5pt, tracking: 0.04em, hyphenate: false,
         upper(name)))
     // Italic and a shade smaller, as the casting value opposite it is: the two
     // numbers a player needs are the two things here that are not upright body
@@ -644,8 +644,8 @@
 // --- profiles ---------------------------------------------------------------
 
 // The label sits on the same line as the value it introduces, so it is set at
-// the body size rather than under it - at 9pt against 10.5pt the two halves of
-// one line read as two different registers. `1em` rather than a fixed 10.5pt so
+// the body size rather than under it - at 9pt against 10pt the two halves of
+// one line read as two different registers. `1em` rather than a fixed 10pt so
 // the label follows whatever size `book()` is given.
 #let field(label, value) = {
   [#metadata((kind: "field", label: label, value: value))<meta>]
@@ -664,9 +664,12 @@
   fill: (_, y) => if y == 0 { tint } else if calc.even(y) { stripe },
   table.hline(y: 0, stroke: 0.9pt + hair),
   table.hline(y: 1, stroke: 0.5pt + hair),
+  // The header is set at the body size, as the rows under it are. Letterspacing
+  // it would push POINTS past the right margin wherever a long name in the
+  // label column has already squeezed the ten characteristic columns.
   table.header(
-    text(size: 8.5pt, weight: "bold", tracking: 0.09em)[#upper(label)],
-    ..cols.map(c => text(size: 8.5pt, weight: "bold", tracking: 0.09em)[#upper(c)]),
+    text(size: 10pt, weight: "bold")[#upper(label)],
+    ..cols.map(c => text(size: 10pt, weight: "bold")[#upper(c)]),
   ),
   ..rows.flatten(),
   table.hline(stroke: 0.9pt + hair),
@@ -682,7 +685,7 @@
   fill: (_, y) => if y == 0 { tint },
   table.hline(y: 0, stroke: 0.5pt + hair),
   table.header(
-    ..cols.map(c => text(size: 8.5pt, weight: "bold", tracking: 0.07em)[#upper(c)]),
+    ..cols.map(c => text(size: 10pt, weight: "bold", tracking: 0.07em)[#upper(c)]),
   ),
   ..vals,
   table.hline(stroke: 0.5pt + hair),
@@ -1027,7 +1030,7 @@
 #let cover(title: "", subtitle: "", art: none) = page(footer: none, {
   v(1fr)
   align(center)[
-    #text(size: 40pt, weight: "bold", tracking: 0.12em)[#upper(title)]
+    #text(size: 50pt, weight: "bold", tracking: 0.12em)[#upper(title)]
     #v(0.2em)
     #line(length: 42%, stroke: 1.2pt + hair)
     #v(0.4em)
@@ -1057,19 +1060,16 @@
 // line, which is too long to read comfortably.
 //
 // `size` is the other half of the same dial. The source books are set in 10pt
-// Times inside 2cm margins and run about 50 characters to the line; Libertinus
-// sets tighter, so matching the margin alone stretches the line to 55 and
-// matching the line alone leaves the block sitting too far in from the edge.
-// Only the two together land on the printed page's proportions, and the
-// defaults are those two: 2.0cm and 11.5pt measure 2.00cm against the source's
-// 2.00cm and run 47 characters to its 49.
-#let book(title: "", side: 2.0cm, size: 11.5pt, body) = {
+// Times inside 2cm margins, and the defaults are those two. Libertinus sets
+// tighter than Times, so the line runs a few characters longer than the
+// source's; that is accepted so the type sits at the size the source printed.
+#let book(title: "", side: 2.0cm, size: 10pt, body) = {
   set document(title: title)
   set page(
     paper: "a4",
     margin: (x: side, top: PAGE_MARGIN.top, bottom: PAGE_MARGIN.bottom),
     background: image("/assets/images/parchment.jpg", width: 100%, height: 100%),
-    footer: context align(center, text(size: 9.5pt, fill: ink)[
+    footer: context align(center, text(size: 10.5pt, fill: ink)[
       #counter(page).display()
     ]),
   )
@@ -1081,6 +1081,9 @@
   set smartquote(enabled: false)
   set par(justify: true, leading: 0.62em, spacing: 0.72em)
   set heading(numbering: none)
+  // The contents page: a chapter's line is set a half-point above the body and
+  // bold, so the six sections under MAGIC ITEMS read as its children.
+  show outline.entry.where(level: 1): set text(size: 10.5pt, weight: "bold")
   set list(marker: text(fill: hair)[•], indent: 0.5em, body-indent: 0.45em)
   show list: set block(above: 0.55em, below: 0.75em)
   set table(gutter: 0pt)
@@ -1104,7 +1107,7 @@
       // measure breaks at a space, where a reader would break it.
       set par(justify: false)
       align(center)[
-        #text(size: 25pt, weight: "bold", tracking: 0.11em, hyphenate: false)[#upper(it.body)]
+        #text(size: 30pt, weight: "bold", tracking: 0.11em, hyphenate: false)[#upper(it.body)]
         #v(-0.3em)
         #line(length: 100%, stroke: 1pt + hair)
       ]
@@ -1114,7 +1117,7 @@
   show heading.where(level: 2): it => block(
     above: 1.35em, below: 0.5em, sticky: true,
   )[
-    #text(size: 14pt, weight: "bold", tracking: 0.05em)[#upper(it.body)]
+    #text(size: 14.5pt, weight: "bold", tracking: 0.05em)[#upper(it.body)]
     #v(-0.52em)
     #line(length: 100%, stroke: 0.6pt + hair)
   ]
@@ -1123,7 +1126,7 @@
   // hierarchy stays legible against the level-2 headings.
   show heading.where(level: 3): it => block(
     above: 1.1em, below: 0.35em, sticky: true,
-    text(size: 11.5pt, weight: "bold", tracking: 0.04em)[#upper(it.body)],
+    text(size: 10.5pt, weight: "bold", tracking: 0.04em)[#upper(it.body)],
   )
 
   body
