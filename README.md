@@ -145,6 +145,43 @@ python extract/welds.py build/lizardmen.json
 python extract/roundtrip.py lizardmen --source "path/to/book.pdf"
 ```
 
+All three need the source PDFs, which are not in this repository, so they
+answer "is this book faithful to what it came from" and can only be run by
+someone holding the originals. A different question arises far more often once a
+book is in: **did this change move anything it should not have?** Three further
+checks answer that from two renders and nothing else.
+
+`extract/render_text.py` reduces each book to one stream of letters — case
+folded, soft hyphens gone, words rejoined across the line breaks hyphenation put
+in them, every digit and mark discarded — and compares the two. Equality means no
+word moved. The obvious instrument, a word bag, is the wrong one: hyphenation
+shifts with pagination, so an untouched Bretonnia reports 36 words lost and 34
+gained, each of them half of a real word. `extract/render_glyphs.py` asks the
+stronger question, hashing every character's origin, size and font page by page,
+for a change that claims to be invisible on paper. `extract/render_artefacts.py`
+hunts markup that leaked onto the page, and takes `--against` a baseline render
+because the asterisk marking a common item and the footnote markers under a
+weapon table are legitimate — without it the sweep reports two dozen hits on an
+untouched corpus and teaches you to ignore it.
+
+```bash
+python extract/render_text.py out-before out-after     # no word lost or gained
+python extract/render_glyphs.py out-before out-after   # no glyph moved at all
+python extract/render_artefacts.py out-after/*.pdf --against out-before  # leaked markup
+```
+
+A fourth gate is about the site rather than a book. `check_site.py` walks a
+built tree and checks two directions: that every internal link resolves, and
+that every PDF is linked from somewhere. The second is the one worth having —
+a book that compiles and publishes but is named by no page has shipped into a
+corner nobody can reach, which no link check going the other way would notice.
+It cannot see a link that resolves to the *wrong* page. The publish workflow
+runs it on the tree it is about to deploy.
+
+```bash
+python check_site.py _site
+```
+
 **What none of them can see** is worth stating plainly, because it has bitten
 twice. A word bag notices a word *lost*; it does not notice a word *changed*, and
 it is blind to punctuation entirely. Both markup substitutions described above

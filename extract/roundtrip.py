@@ -74,6 +74,16 @@ def rendered_words(pdf: Path) -> tuple[int, Counter]:
             if block["type"] != 0:
                 continue
             for line in block["lines"]:
+                # A folio is not the continuation of a hyphenated word. Where one
+                # breaks over a page boundary the page number is the next line in
+                # the stream, so prepending the carry to it welds `resolu` to `5`
+                # and loses both halves: Orcs & Goblins 1.6 reported one missing
+                # `resolution` that was on the page all along. Held over instead.
+                digits = "".join(c["c"] for s in line["spans"]
+                                 for c in s["chars"]).strip()
+                if carry and digits.isdigit():
+                    bag.update(words(digits))
+                    continue
                 word = carry
                 carry = ""
                 prev_x1 = None

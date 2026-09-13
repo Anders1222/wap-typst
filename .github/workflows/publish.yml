@@ -48,6 +48,11 @@ jobs:
           echo "compiled $count books"
           du -sh _site
 
+      # Every link on the page resolves and every book is linked from it, so a
+      # book cannot ship into a corner nobody can reach. Standard library only.
+      - name: Check the site tree
+        run: python3 check_site.py _site
+
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

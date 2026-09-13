@@ -37,6 +37,16 @@ python extract/to_records.py src/lizardmen.typ
 python extract/coverage.py "path/to/book.pdf" build/lizardmen.json   # words lost
 python extract/welds.py build/lizardmen.json                         # words welded
 python extract/roundtrip.py lizardmen --source "path/to/book.pdf"    # rendered PDF vs source
+
+# Did a change move anything it should not have? These read only two renders —
+# no source PDFs — so unlike the three gates above, anyone can run them. Render
+# the corpus before and after the change into two directories, then:
+python extract/render_text.py out-before out-after     # no word lost or gained
+python extract/render_glyphs.py out-before out-after   # no glyph moved at all
+python extract/render_artefacts.py out-after/*.pdf --against out-before  # leaked markup
+
+# The built site: every link resolves, every PDF is linked. CI runs this too.
+python check_site.py _site
 ```
 
 `batch.py` skips a book whose JSON is newer than its PDF; `--force` re-extracts.
@@ -97,6 +107,14 @@ assumed:
 - Changed a book or `template.typ` → compile the affected book(s) with the two
   flags above and confirm exit 0. A template change affects all 31 books, so
   compile more than one.
+- Restated something without meaning to change it → render the corpus before and
+  after, then `render_text.py` on the two directories, and `render_glyphs.py` too
+  where the page is meant to be untouched. Both are blind to a change that renders
+  identically and means something else; a structural claim wants
+  `typst query <meta>`, not the page.
+- Changed extracted prose or any escaping → `render_artefacts.py --against` the
+  previous render. Without `--against` it reports the corpus's own footnote
+  asterisks and teaches you to ignore it.
 - Changed `#book-meta`, or added/removed/renamed a book → `python emit.py`, and
   commit the resulting `site/index.html` and `build/render.json`.
 - Changed anything under `extract/` → the gates need the source PDFs, which are
