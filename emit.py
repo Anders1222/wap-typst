@@ -75,14 +75,15 @@ def read_alignments(rulebook: Path) -> dict[str, str]:
 
 BASE_COLOPHON = """(
   [
-    An unofficial, non-commercial re-typesetting of *Warhammer Armies Project:
-    {army}*, version {version} — written and freely distributed by Mathias
+    *Warhammer Armies Revamped: {army}*, version 1.0 — an unofficial,
+    non-commercial fan edition. It builds on *Warhammer Armies Project:
+    {army}*, version {source}, written and freely distributed by Mathias
     Eliasson.
   ],
   [
-    All rules text, army design and points values remain the work of their
-    author. Only the typesetting differs here; the content is reproduced
-    from the freely distributed PDF.
+    The rules text, army design and points values descend from his work and are
+    used with gratitude; where this edition departs from them, the changes are
+    its own and not his.
   ],
   [
     Warhammer, Warhammer Fantasy Battle and all associated names, races and
@@ -106,7 +107,10 @@ def front_matter(book: dict) -> str:
 
     title = f"Warhammer Armies Revamped — {army} {version}"
     subtitle = f"Warhammer Armies Revamped · {version}"
-    colophon = BASE_COLOPHON.format(army=army, version=version)
+    # The source PDF's own version, for the attribution; the book's version is
+    # the edition's.
+    source = book.get("source", version)
+    colophon = BASE_COLOPHON.format(army=army, source=source)
 
     return f'''#show: book.with(title: {lit(title)}{side})
 
@@ -277,10 +281,11 @@ def page(books: list[dict], align: dict[str, str], css: str) -> str:
 
   <footer>
     <p>
-      These are unofficial, non-commercial re-typesettings of the
-      <strong>Warhammer Armies Project</strong> army books, written and freely
-      distributed by Mathias Eliasson. All rules text, army design and points
-      values remain the work of their author; only the typesetting differs.
+      <strong>Warhammer Armies Revamped</strong> is an unofficial,
+      non-commercial fan edition. It builds on the Warhammer Armies Project
+      army books, written and freely distributed by Mathias Eliasson. The
+      rules text, army design and points values descend from his work; where
+      this edition departs from them, the changes are its own and not his.
     </p>
     <p>
       Warhammer, Warhammer Fantasy Battle and all associated names, races and

@@ -26,14 +26,14 @@
 
 #colophon((
   [
-    An unofficial, non-commercial re-typesetting of *Warhammer Armies Project:
-    Dwarfs*, version 3.11 — written and freely distributed by Mathias
-    Eliasson.
+    *Warhammer Armies Revamped: Dwarfs*, version 1.0 — an unofficial,
+    non-commercial fan edition. It builds on *Warhammer Armies Project:
+    Dwarfs*, version 3.11, written and freely distributed by Mathias Eliasson.
   ],
   [
-    All rules text, army design and points values remain the work of their
-    author. This edition changes only the typesetting; the content is
-    reproduced from the freely distributed PDF.
+    The rules text, army design and points values descend from his work and are
+    used with gratitude; where this edition departs from them, the changes are
+    its own and not his.
   ],
   [
     Warhammer, Warhammer Fantasy Battle and all associated names, races and

@@ -7,9 +7,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Warhammer Armies Revamped (WAR): a new edition of Warhammer fantasy battles,
 built on the Warhammer Armies Project army books, which were re-typeset from
 their published PDFs into Typst and are published to GitHub Pages.
-`README.md` is thorough and is the authority on *why* the pipeline is shaped
-the way it is; this file covers what you need to work in the repo without
-re-deriving it.
+`README.md` is being rewritten for the new edition and is empty for now; the
+old README, which explained *why* the pipeline is shaped the way it is, is in
+git history at commit f40f962. This file covers what you need to work in the
+repo without re-deriving it.
 
 ## Commands
 
