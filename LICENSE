@@ -1,0 +1,63 @@
+Warhammer Armies Revamped is licensed in two parts, because it holds two kinds
+of work.
+
+  1. The code - the build and extraction scripts, the site generator and the
+     Typst template (build.py, emit.py, check_site.py, extract/, site/ and
+     src/template.typ) - is licensed under the MIT License, below.
+
+  2. The books - the text, army lists and points values of Warhammer Armies
+     Revamped in src/, the published PDFs, and the cover illustrations in
+     assets/ - are licensed under the Creative Commons
+     Attribution-NonCommercial-ShareAlike 4.0 International License
+     (CC BY-NC-SA 4.0), below.
+
+Both grants cover only what Warhammer Armies Revamped itself contributes. The
+books are an unofficial, non-commercial fan edition built on the Warhammer
+Armies Project, written and freely distributed by Mathias Eliasson; his work
+remains his and is not relicensed here. Warhammer, Warhammer Fantasy Battle and
+all associated names, races and places are trademarks of Games Workshop
+Limited, are used without permission, and are outside both licenses. This
+project is unofficial and unaffiliated, and no challenge to their status is
+intended.
+
+--------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Anders1222
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+
+The books of Warhammer Armies Revamped (c) 2026 Anders1222 are licensed under
+CC BY-NC-SA 4.0. You are free to share and adapt them, on these terms:
+
+  Attribution   - credit Warhammer Armies Revamped, link to the license, and
+                  say whether you changed anything.
+  NonCommercial - not for commercial use. The books are not for sale.
+  ShareAlike    - a remix or adaptation must be distributed under the same
+                  license.
+
+The full legal code is at
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+and a human-readable summary at
+https://creativecommons.org/licenses/by-nc-sa/4.0/
