@@ -241,82 +241,42 @@ All models with this special rule follow the Berserk Rage rules from Frenzy. In 
 
 #spell("INFERNAL GATEWAY", 4, cast: "15+")[_Infernal Gateway_ is a *direct damage* spell with a range of 24". The target suffers 2D6 Strength 2D6 hits with the Flaming Attacks special rule. Roll for the Strength first. If an 11 or 12 is rolled when determining the spell’s Strength value, the hits are resolved at Strength 10, and the unit suffers 3D6 hits rather than 2D6.]
 ]
-= MUTATIONS & TRAITS
+#upgrade-chapter("MUTATIONS & TRAITS", intro: [*Below are Mutations & Traits that can be bought for your characters. Each can only be chosen once per army, and no model may choose more than three.*])[
+#upgrade("CROWN OF HORNS", 30, only: "General")[The character gains a Magical Ward (5+). In addition, any unit they join gains +1 to any Rally attempts they make.]
 
-#balanced-columns[
-*Below are Mutations & Traits that can be bought for your characters. Each can only be chosen once per army, and no model may choose more than three.*
+#upgrade("ROARING BRUTE", 30)[Enemy units within 6" of this character suffer \-1 to their Leadership.]
 
-#namecost("CROWN OF HORNS", "30 points")
+#upgrade("EATER OF HEROES", 25)[The character may re-roll To Hit and To Wound when fighting in challenges.]
 
-General only. The character gains a Magical Ward (5+). In addition, any unit they join gains +1 to any Rally attempts they make.
+#upgrade("RUNE OF THE BEAST ASCENDANT", 25, only: "Beastlord or Wargor")[Friendly units of Gors, Ungors and Bestigors within 6" of the character gain +1 Leadership.]
 
-#namecost("ROARING BRUTE", "30 points")
+#upgrade("INDOMITABLE BEAST", 20)[The character gains +1 Wound.]
 
-Enemy units within 6" of this character suffer \-1 to their Leadership.
+#upgrade("GNARLED HIDE", 15)[The character gains the Natural Armour (5+) special rule.]
 
-#namecost("EATER OF HEROES", "25 points")
+#upgrade("ORACLE OF THE DARK TONGUE", 15)[Enemy units in base contact with this character cannot use the Inspiring Presence special rule.]
 
-The character may re-roll To Hit and To Wound when fighting in challenges.
+#upgrade("RAMPANT JUGGERNAUT", 15)[The character gains the Devastating Charge and Mighty Blow (1) special rules in any turn that they make a successful charge.]
 
-#namecost("RUNE OF THE BEAST ASCENDANT", "25 points")
+#upgrade("MANY-LIMBED FIEND", 15)[The character gains +1 Attack.]
 
-Beastlord or Wargor only. Friendly units of Gors, Ungors and Bestigors within 6" of the character gain +1 Leadership.
+#upgrade("MUSCULAR MONSTROSITY", 15)[The character gains +1 Strength.]
 
-#namecost("INDOMITABLE BEAST", "20 points")
+#upgrade("GORGER", 10)[Every time the character rolls a 6 To Wound and slays a model, they regain one Wound lost previously during the game.]
 
-The character gains +1 Wound.
+#upgrade("GOUGE-TUSKS", 10)[The character gains the Armour Piercing (1) special rule.]
 
-#namecost("GNARLED HIDE", "15 points")
+#upgrade("RUNE OF THE INSATIABLE BEAST", 10)[The character can re-roll To Wound rolls of 1 in Close Combat.]
 
-The character gains the Natural Armour (5+) special rule.
+#upgrade("RUNE OF THE TRUE BEAST", 10)[War Beasts, Swarms and any mounts are not allowed to target the character in close combat, although any riders may attack as normal.]
 
-#namecost("ORACLE OF THE DARK TONGUE", "15 points")
+#upgrade("SLUG-SKIN", 10)[All enemy models in base contact with the character at the start of any round of close combat suffer a Strength 2 hit with the Poisoned Attacks special rule.]
 
-Enemy units in base contact with this character cannot use the Inspiring Presence special rule.
+#upgrade("MALEVOLENT DESPOILER", 5)[Enemy units in combat with this character gain no benefits from fighting behind Obstacles.]
 
-#namecost("RAMPANT JUGGERNAUT", "15 points")
+#upgrade("SHADOW-HIDE", 5, only: "Model on foot")[Enemy models targeting the character with missile attacks suffer a \-1 To Hit modifier.]
 
-The character gains the Devastating Charge and Mighty Blow (1) special rules in any turn that they make a successful charge.
-
-#namecost("MANY-LIMBED FIEND", "15 points")
-
-The character gains +1 Attack.
-
-#namecost("MUSCULAR MONSTROSITY", "15 points")
-
-The character gains +1 Strength.
-
-#namecost("GORGER", "10 points")
-
-Every time the character rolls a 6 To Wound and slays a model, they regain one Wound lost previously during the game.
-
-#namecost("GOUGE-TUSKS", "10 points")
-
-The character gains the Armour Piercing (1) special rule.
-
-#namecost("RUNE OF THE INSATIABLE BEAST", "10 points")
-
-The character can re-roll To Wound rolls of 1 in Close Combat.
-
-#namecost("RUNE OF THE TRUE BEAST", "10 points")
-
-War Beasts, Swarms and any mounts are not allowed to target the character in close combat, although any riders may attack as normal.
-
-#namecost("SLUG-SKIN", "10 points")
-
-All enemy models in base contact with the character at the start of any round of close combat suffer a Strength 2 hit with the Poisoned Attacks special rule.
-
-#namecost("MALEVOLENT DESPOILER", "5 points")
-
-Enemy units in combat with this character gain no benefits from fighting behind Obstacles.
-
-#namecost("SHADOW-HIDE", "5 points")
-
-Model on foot only. Enemy models targeting the character with missile attacks suffer a \-1 To Hit modifier.
-
-#namecost("UNCANNY SENSES", "5 points")
-
-The character gains +2 Initiative.
+#upgrade("UNCANNY SENSES", 5)[The character gains +2 Initiative.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Beastmen. These may be used in addition to the magic items found in the Warhammer rulebook.])

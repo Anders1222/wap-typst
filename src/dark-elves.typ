@@ -116,59 +116,33 @@ Repeater handbows have the following profile:
 
 #spell("ARNZIPAL'S BLACK HORROR", 4, cast: "15+")[Remains in play. _Arnzipal's Black Horror_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move must pass a Strength test per Wound on their profile or suffer a Wound which Ignores Armour Saves and Regeneration.]
 ]
-= GIFTS OF KHAINE
+#upgrade-chapter("GIFTS OF KHAINE", intro: [*Characters may choose Gifts of Khaine as detailed in the army list. A model may not have multiples of the same upgrade, but an upgrade can be taken by more than one model in the army.*])[
+#upgrade("DANCE OF DOOM", 30, only: "Model on foot")[Enemies targeting the model must re-roll all successful To Hit rolls with missile weapons and in close combat.]
 
-#balanced-columns[
-*Characters may choose Gifts of Khaine as detailed in the army list. A model may not have multiples of the same upgrade, but an upgrade can be taken by more than one model in the army.*
+#upgrade("CRY OF WAR", 25)[All enemy units in base contact with the wearer suffer \-1 To Hit in the first round of close combat.]
 
-#namecost("DANCE OF DOOM", "30 points")
-
-Model on foot only. Enemies targeting the model must re-roll all successful To Hit rolls with missile weapons and in close combat.
-
-#namecost("CRY OF WAR", "25 points")
-
-All enemy units in base contact with the wearer suffer \-1 To Hit in the first round of close combat.
-
-#namecost("RENDING STARS", "25 points")
-
-Khainite Assassin only. Rending Stars are missile weapons with the following profile.
+#upgrade("RENDING STARS", 25, only: "Khainite Assassin")[Rending Stars are missile weapons with the following profile.
 
 #minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user +1", "Multiple Shots (3), Quick Shot"))
-#namecost("WITCHBREW", "25 points")
+]
 
-Death Hag and Hag Queens only. This model, and all models in the same unit, gain the Frenzy special rule and can never lose their Frenzy.
+#upgrade("WITCHBREW", 25, only: "Death Hag and Hag Queens")[This model, and all models in the same unit, gain the Frenzy special rule and can never lose their Frenzy.]
 
-#namecost("BLACK LOTUS", "20 points")
+#upgrade("BLACK LOTUS", 20, only: "Khainite Assassin")[Each unsaved Wound caused in Close Combat counts as two for the purpose of combat resolution. This has no effect against models with Immunity (Poisoned Attacks).]
 
-Khainite Assassin only. Each unsaved Wound caused in Close Combat counts as two for the purpose of combat resolution. This has no effect against models with Immunity (Poisoned Attacks).
+#upgrade("HAND OF KHAINE", 20)[All enemy units in base contact suffer a \-1 penalty to their Weapon Skill and Initiative.]
 
-#namecost("HAND OF KHAINE", "20 points")
+#upgrade("RUNE OF KHAINE", 20)[The model gains the Random Attacks (D3) special rule in addition to its normal attacks.]
 
-All enemy units in base contact suffer a \-1 penalty to their Weapon Skill and Initiative.
+#upgrade("BLOOD SIGIL", 15, only: "Disciple of Khaine")[The model may re-roll failed Leadership tests when using Blood Rites. However, if they roll any doubles on the second roll, they will suffer a Wound which Ignores Armour Saves.]
 
-#namecost("RUNE OF KHAINE", "20 points")
+#upgrade("DARK VENOM", 15, only: "Khainite Assassin")[A model with Dark Venom gains the Multiple Wounds (D3) special rule (including missile attacks). This has no effect against models with Immunity (Poisoned Attacks).]
 
-The model gains the Random Attacks (D3) special rule in addition to its normal attacks.
+#upgrade("MANBANE", 15, only: "Khainite Assassin")[A model with Manbane will automatically Wound on the roll of a 2+ (including missile attacks). This has no effect against models with Immunity (Poisoned Attacks).]
 
-#namecost("BLOOD SIGIL", "15 points")
+#upgrade("TOUCH OF DEATH", 15)[The model gains the Killing Blow special rule.]
 
-Disciple of Khaine only. The model may re-roll failed Leadership tests when using Blood Rites. However, if they roll any doubles on the second roll, they will suffer a Wound which Ignores Armour Saves.
-
-#namecost("DARK VENOM", "15 points")
-
-Khainite Assassin only. A model with Dark Venom gains the Multiple Wounds (D3) special rule (including missile attacks). This has no effect against models with Immunity (Poisoned Attacks).
-
-#namecost("MANBANE", "15 points")
-
-Khainite Assassin only. A model with Manbane will automatically Wound on the roll of a 2+ (including missile attacks). This has no effect against models with Immunity (Poisoned Attacks).
-
-#namecost("TOUCH OF DEATH", "15 points")
-
-The model gains the Killing Blow special rule.
-
-#namecost("KHAINITE PENDANT", "10 points")
-
-Disciple of Khaine only. One use only. The model may attempt to use two Blood Rites this turn.
+#upgrade("KHAINITE PENDANT", 10, only: "Disciple of Khaine", one-use: true)[The model may attempt to use two Blood Rites this turn.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Dark Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])

@@ -223,326 +223,172 @@ Once the final position is established, place the unit so it can touch the marke
 
 #spell("INFERNAL GATEWAY", 4, cast: "15+")[_Infernal Gateway_ is a *direct damage* spell with a range of 24". The target suffers 2D6 Strength 2D6 hits with the Flaming Attacks special rule. Roll for the Strength first. If an 11 or 12 is rolled when determining the spell’s Strength value, the hits are resolved at Strength 10, and the unit suffers 3D6 hits rather than 2D6.]
 ]
-= DAEMONIC GIFTS
-
+#upgrade-chapter("DAEMONIC GIFTS")[
 Characters may select one or more Gifts from the list below as described in the army list. Each Gift may only be taken once per character, but more than one character may take the same Gift.
 
-#namecost("BRINGER OF THE SWARM", "70 points")
+#upgrade("BRINGER OF THE SWARM", 70)[At the end of every Close Combat phase in which the Daemon causes one or more unsaved Wounds, a unit of Chaos Furies with the same Daemonic Alignment as the Daemon is created. The unit consists of one Chaos Fury for every unsaved Wound caused. The unit must be placed wholly within 12" of the Daemon and cannot be placed with 1" of another unit or impassable terrain. If any model cannot be placed because there isn’t enough room, or you do not have sufficient models, it is lost. Units created in this way do not award victory points.]
 
-At the end of every Close Combat phase in which the Daemon causes one or more unsaved Wounds, a unit of Chaos Furies with the same Daemonic Alignment as the Daemon is created. The unit consists of one Chaos Fury for every unsaved Wound caused. The unit must be placed wholly within 12" of the Daemon and cannot be placed with 1" of another unit or impassable terrain. If any model cannot be placed because there isn’t enough room, or you do not have sufficient models, it is lost. Units created in this way do not award victory points.
+#upgrade("AURA OF DISRUPTION", 60)[Any dispel attempt you make while this model is on the table receives one extra ‘free’ dispel dice.]
 
-#namecost("AURA OF DISRUPTION", "60 points")
+#upgrade("SORCEROUS LODESTONE", 55)[Whenever a spell is successfully cast by any Wizard, roll a D6 – this Daemon regains a Wound lost earlier in the battle on a roll of 5+. Whenever a spell is miscast by any Wizard, the Daemon instead suffers a Wound on a roll of 4+.]
 
-Any dispel attempt you make while this model is on the table receives one extra ‘free’ dispel dice.
+#upgrade("DAEMONIC ARROGANCE", 30)[The Daemon gains the Stubborn special rule.]
 
-#namecost("SORCEROUS LODESTONE", "55 points")
+#upgrade("CHAOS DISRUPTION", 30)[Any missile attack targeting the Daemon or the unit it is with suffers an additional \-1 to Hit penalty.]
 
-Whenever a spell is successfully cast by any Wizard, roll a D6 – this Daemon regains a Wound lost earlier in the battle on a roll of 5+. Whenever a spell is miscast by any Wizard, the Daemon instead suffers a Wound on a roll of 4+.
+#upgrade("NOXIOUS BREATH", 30)[The Daemon has a Strength 2 Breath Weapon with the Ignores Armour saves special rule.]
 
-#namecost("DAEMONIC ARROGANCE", "30 points")
+#upgrade("SOULEATER", 30)[At the end of any phase in which the Daemon causes one or more unsaved Wounds in close combat, it regains a single lost Wound.]
 
-The Daemon gains the Stubborn special rule.
+#upgrade("SOUL HUNGER", 30)[The Daemon may re-roll failed rolls To Hit and To Wound in the first round of any combat.]
 
-#namecost("CHAOS DISRUPTION", "30 points")
+#upgrade("UNHOLY SACRIFICE", 30)[This Daemon can choose to lose D3 Wounds (with no saves allowed) at the start of any of your Magic phases. If it does so, add D3+1 dice to your power pool.]
 
-Any missile attack targeting the Daemon or the unit it is with suffers an additional \-1 to Hit penalty.
+#upgrade("WARD OF CHAOS", 30)[The Daemon has the Magical Ward (3+) special rule against missile attacks.]
 
-#namecost("NOXIOUS BREATH", "30 points")
+#upgrade("RADIANCE OF DARK GLORY", 25)[The Daemon and all friendly units within 12" suffer one less wound than normal when taking Daemonic Instability tests.]
 
-The Daemon has a Strength 2 Breath Weapon with the Ignores Armour saves special rule.
+#upgrade("CLEAVING BLOW", 20)[The Daemon's close combat attacks have the Multiple Wounds (2) special rule.]
 
-#namecost("SOULEATER", "30 points")
+#upgrade("CRUSHING MASS", 20)[The Daemon gains the Impact Hits (D3) special rule.]
 
-At the end of any phase in which the Daemon causes one or more unsaved Wounds in close combat, it regains a single lost Wound.
+#upgrade("IMPENETRABLE HIDE", 20)[The Daemon gains +1 Toughness.]
 
-#namecost("SOUL HUNGER", "30 points")
-
-The Daemon may re-roll failed rolls To Hit and To Wound in the first round of any combat.
-
-#namecost("UNHOLY SACRIFICE", "30 points")
-
-This Daemon can choose to lose D3 Wounds (with no saves allowed) at the start of any of your Magic phases. If it does so, add D3+1 dice to your power pool.
-
-#namecost("WARD OF CHAOS", "30 points")
-
-The Daemon has the Magical Ward (3+) special rule against missile attacks.
-
-#namecost("RADIANCE OF DARK GLORY", "25 points")
-
-The Daemon and all friendly units within 12" suffer one less wound than normal when taking Daemonic Instability tests.
-
-#namecost("CLEAVING BLOW", "20 points")
-
-The Daemon's close combat attacks have the Multiple Wounds (2) special rule.
-
-#namecost("CRUSHING MASS", "20 points")
-
-The Daemon gains the Impact Hits (D3) special rule.
-
-#namecost("IMPENETRABLE HIDE", "20 points")
-
-The Daemon gains +1 Toughness.
-
-#namecost("WITHERING GAZE", "20 points")
-
-This is a missile attack with the following profile:
+#upgrade("WITHERING GAZE", 20)[This is a missile attack with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("12\"", "6", "Quick Shot"))
-#namecost("AWESOME STRENGTH", "15 points")
+]
 
-The Daemon gains +1 Strength.
+#upgrade("AWESOME STRENGTH", 15)[The Daemon gains +1 Strength.]
 
-#namecost("CORPULENCE", "15 points")
+#upgrade("CORPULENCE", 15)[The Daemon gains +1 Wound.]
 
-The Daemon gains +1 Wound.
+#upgrade("DIABOLIC SPLENDOUR", 15)[The Daemon may re-roll 1's when taking Ward saves.]
 
-#namecost("DIABOLIC SPLENDOUR", "15 points")
+#upgrade("INCORPOREAL STRIKE", 15)[Enemies Wounded by this Daemon in close combat must re-roll successful armour saves.]
 
-The Daemon may re-roll 1's when taking Ward saves.
+#upgrade("SKILL SWALLOWER", 15)[Whenever the Daemon slays an enemy character, it immediately increases one characteristic, of your choice, by one point.]
 
-#namecost("INCORPOREAL STRIKE", "15 points")
+#upgrade("UNBREAKABLE SKIN", 15)[The Daemon gains the Natural Armour (5+) special rule.]
 
-Enemies Wounded by this Daemon in close combat must re-roll successful armour saves.
+#upgrade("UNHOLY FLURRY", 15)[The Daemon has +1 Attacks.]
 
-#namecost("SKILL SWALLOWER", "15 points")
+#upgrade("DARK BLESSING", 10)[The Daemon gains a Magical Ward (2+) against the first Wound it suffers in the battle.]
 
-Whenever the Daemon slays an enemy character, it immediately increases one characteristic, of your choice, by one point.
+#group("GIFTS OF KHORNE", note: [_The following powers may only be taken by Daemons of Khorne._])
 
-#namecost("UNBREAKABLE SKIN", "15 points")
+#upgrade("AURA OF FURY", 50, only: "Bloodthirster")[All friendly Daemons of Khorne units within 12" of the Daemon may re-roll 1's To Wound and gain the Fight in Extra Ranks (1) special rule.]
 
-The Daemon gains the Natural Armour (5+) special rule.
+#upgrade("HELLFIRE", 35, only: "Bloodthirster")[The Daemon gains a Strength 5 Breath Weapon with the Flaming Attacks special rule.]
 
-#namecost("UNHOLY FLURRY", "15 points")
+#upgrade("DARK INSANITY", 30, only: "Bloodthirster")[The Daemon replaces its normal Attacks with the Random Attacks (2D6+2) special rule.]
 
-The Daemon has +1 Attacks.
+#upgrade("SLAUGHTERBORN", 30)[The Daemon gains +D3 Attacks in close combat.]
 
-#namecost("DARK BLESSING", "10 points")
+#upgrade("SPELL DESTROYER", 25)[If an enemy spell is successfully cast on a model with this Gift, or the unit it is in, roll a D6. On a 4+, the spell is destroyed after it has been resolved, and the enemy must discard the spell for the rest of the game.]
 
-The Daemon gains a Magical Ward (2+) against the first Wound it suffers in the battle.
+#upgrade("SPELL BREAKER", 25, one-use: true)[When an enemy spell has been cast, a Daemon with this Gift can use it instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dice to attempt to dispel the spell, which cannot be combined with any other dispel dice. This may also be used to dispel spells that Remains in Play.]
 
-#entry("GIFTS OF KHORNE")
-#note[_The following powers may only be taken by Daemons of Khorne._]
+#upgrade("IMMORTAL FURY", 25)[The Daemon gains the Hatred special rule, which applies in all rounds of close combat. However, it must always pursue fleeing enemies.]
 
-#namecost("AURA OF FURY", "50 points")
+#upgrade("MASSIVE MIGHT", 20)[The Daemon may re-roll failed rolls To Wound in close combat.]
 
-Bloodthirster only. All friendly Daemons of Khorne units within 12" of the Daemon may re-roll 1's To Wound and gain the Fight in Extra Ranks (1) special rule.
+#upgrade("BATTLEMASTER", 20)[The Daemon receives +1 To Hit in close combat.]
 
-#namecost("HELLFIRE", "35 points")
+#upgrade("MIGHT OF KHORNE", 20)[The Daemon gains the Heroic Killing Blow special rule.]
 
-Bloodthirster only. The Daemon gains a Strength 5 Breath Weapon with the Flaming Attacks special rule.
+#upgrade("ASPECT OF DEATH", 15)[Enemy units in base contact with the Daemon suffer an additional -D3 to their Leadership when taking Break tests.]
 
-#namecost("DARK INSANITY", "30 points")
+#upgrade("RELENTLESS HUNTER", 15, only: "Bloodthirster")[The Daemon gains the Hatred (Characters) special rule and gains 3" to its charge range when charging a unit containing any characters.]
 
-Bloodthirster only. The Daemon replaces its normal Attacks with the Random Attacks (2D6+2) special rule.
+#upgrade("UNRIVALLED BATTLE-LUST", 15)[The Daemon may re-roll failed charge distances.]
 
-#namecost("SLAUGHTERBORN", "30 points")
+#upgrade("ARCH-SLAUGHTERER", 10)[The Daemon doubles the amount of combat resolution it receives for Wounds caused in a challenge.]
 
-The Daemon gains +D3 Attacks in close combat.
+#upgrade("RAGE UNCHAINED", 10)[The Daemon gains the Frenzy special rule.]
 
-#namecost("SPELL DESTROYER", "25 points")
+#upgrade("DEVASTATING BLOW", 10)[The Daemon may replace its normal Attacks for a special attack. If this special attack Hits, it automatically Wounds with the Multiple Wounds (D6) special rule.]
 
-If an enemy spell is successfully cast on a model with this Gift, or the unit it is in, roll a D6. On a 4+, the spell is destroyed after it has been resolved, and the enemy must discard the spell for the rest of the game.
+#group("GIFTS OF NURGLE", note: [_The following powers may only be taken by Daemons of Nurgle._])
 
-#namecost("SPELL BREAKER", "25 points")
+#upgrade("EXTREME CONTAGION", 30, only: "Great Unclean One")[All enemy units within 6" of the Daemon at the start of any close combat phase suffer D6 Hits that Wound on a 5+ with the Ignores Armour Saves special rule. This has no effect on Daemons of Nurgle.]
 
-One use only. When an enemy spell has been cast, a Daemon with this Gift can use it instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dice to attempt to dispel the spell, which cannot be combined with any other dispel dice. This may also be used to dispel spells that Remains in Play.
+#upgrade("THE BOUNTIFUL SWARM", 30)[At the start of each close combat phase, all enemy units in base contact with the Daemon suffer D6 Hits. Models Hit must pass a Toughness test or suffer a Wound which Ignores Armour saves. This has no effect on Daemons of Nurgle.]
 
-#namecost("IMMORTAL FURY", "25 points")
+#upgrade("STREAM OF BILE", 30)[This is a Strength 4 Breath Weapon. It has no effect on Daemons of Nurgle.]
 
-The Daemon gains the Hatred special rule, which applies in all rounds of close combat. However, it must always pursue fleeing enemies.
+#upgrade("NOXIOUS VAPOURS", 25)[All enemy models in base contact with this Daemon are subject to the Always Strikes Last special rule in close combat. This has no effect on Daemons of Nurgle.]
 
-#namecost("MASSIVE MIGHT", "20 points")
+#upgrade("NURGLE'S ROT", 25)[Enemy models in base contact with the Daemon at the start of any close combat phase suffer a Strength 2 Hit with the Ignores Armour Saves special rule. This has no effect on Daemons of Nurgle.]
 
-The Daemon may re-roll failed rolls To Wound in close combat.
+#upgrade("NURGLING INFESTATION", 25, only: "Great Unclean One")[At the start of each of your turns, one unit of Nurglings within 6" of the Daemon automatically regains D6 Wounds lost earlier in the battle.]
 
-#namecost("BATTLEMASTER", "20 points")
+#upgrade("PESTILENT BREATH", 25)[This is a Breath Weapon. Each model hit suffers a Wound on a 5+ which Ignores Armour saves. It has no effect on Daemons of Nurgle.]
 
-The Daemon receives +1 To Hit in close combat.
+#upgrade("PESTILENT MUCUS", 25)[When this Daemon suffers a wound, all enemy models in base contact must pass a Toughness test for each Wound inflicted on the Daemon or themselves suffer a Wound with the Ignores Armour Saves special rule. This has no effect on Daemons of Nurgle.]
 
-#namecost("MIGHT OF KHORNE", "20 points")
+#upgrade("GIFT OF FEBRILE FRENZY", 20)[Once per battle, at the start of any close combat phase, the Daemon can make the unit they are with subject to the Frenzy special rule for the remainder of this turn.]
 
-The Daemon gains the Heroic Killing Blow special rule.
+#upgrade("TRAPPINGS OF NURGLE", 15)[The Daemon gains the Natural Armour (5+) special rule.]
 
-#namecost("ASPECT OF DEATH", "15 points")
+#upgrade("THE ENDLESS GIFT", 10)[The Daemon gains the Regeneration (6+) special rule.]
 
-Enemy units in base contact with the Daemon suffer an additional -D3 to their Leadership when taking Break tests.
+#upgrade("SLIME TRAIL", 10)[Enemy units do not receive combat resolution bonuses for attacking the flank or rear of a Daemon with this ability, or any unit he has joined.]
 
-#namecost("RELENTLESS HUNTER", "15 points")
+#group("GIFTS OF SLAANESH", note: [_The following powers may only be taken by Daemons of Slaanesh._])
 
-Bloodthirster only. The Daemon gains the Hatred (Characters) special rule and gains 3" to its charge range when charging a unit containing any characters.
+#upgrade("SENSUAL BARRAGE", 50, only: "Keeper of Secrets")[All enemy units within 6" of the Daemon are subject to the Always Strikes Last special rule. This has no effect on Daemons of Slaanesh.]
 
-#namecost("UNRIVALLED BATTLE-LUST", "15 points")
+#upgrade("SPIRIT SWALLOWER", 50)[Roll a D6 for each unsaved wound the Daemon causes in close combat. On a 4+, the Daemon regains one wound lost earlier in the battle.]
 
-The Daemon may re-roll failed charge distances.
+#upgrade("TEMPTATOR", 30)[At the beginning of a combat, one enemy character in base contact with the Daemon must take a Psychology test. If the test is failed, the character will direct his attacks against friendly models or units chosen by the Daemon's controlling player. These wounds count towards the Daemon's combat resolution. If there are no suitable targets in base contact with the character, he or she does not attack at all this turn.]
 
-#namecost("ARCH-SLAUGHTERER", "10 points")
+#upgrade("SYMPHONIAC", 30)[At the beginning of each round of close combat, all enemy models in base contact with the Daemon must pass a Toughness test or suffer 1 Wound which Ignores Armour saves.]
 
-The Daemon doubles the amount of combat resolution it receives for Wounds caused in a challenge.
+#upgrade("INVIGORATED BY PAIN", 25, only: "Keeper of Secrets")[The Daemon gains +1 Attack for each unsaved Wound they have lost on their starting profile.]
 
-#namecost("RAGE UNCHAINED", "10 points")
+#upgrade("SIREN SONG", 25)[This gift is used during the enemy turn, before charges are declared. Nominate one enemy unit within their maximum charging distance and with Line of Sight to the Daemon – this unit must be able to charge according to the normal Warhammer rules. The target unit must pass a Psychology test or declare a charge against the Daemon (or the unit it is with).]
 
-The Daemon gains the Frenzy special rule.
+#upgrade("SOPORIFIC MUSK", 25)[Models in base contact with one or more models with this Gift suffer a \-1 penalty to both Weapon Skill and Initiative. This has no effect on Daemons of Slaanesh.]
 
-#namecost("DEVASTATING BLOW", "10 points")
+#upgrade("UNNATURAL SWIFTNESS", 25)[The Daemon has the Always Strikes First special rule.]
 
-The Daemon may replace its normal Attacks for a special attack. If this special attack Hits, it automatically Wounds with the Multiple Wounds (D6) special rule.
+#upgrade("ALLURE OF SLAANESH", 20)[Enemy models in base contact with the Daemon must pass a Psychology test. If the test is failed, the affected model may not strike blows in that round of combat.]
 
-#entry("GIFTS OF NURGLE")
-#note[_The following powers may only be taken by Daemons of Nurgle._]
+#upgrade("ENRAPTURING GAZE", 20)[Units in base contact with the Daemon must use their own Leadership value. This has no effect on models with Immunity (Psychology).]
 
-#namecost("EXTREME CONTAGION", "30 points")
+#upgrade("TORMENTOR", 20)[Each unsaved Wound inflicted in close combat from the Daemon counts as two Wounds for the purposes of combat resolution. This has no effect on models with Immunity (Psychology).]
 
-Great Unclean One only. All enemy units within 6" of the Daemon at the start of any close combat phase suffer D6 Hits that Wound on a 5+ with the Ignores Armour Saves special rule. This has no effect on Daemons of Nurgle.
+#group("GIFTS OF TZEENTCH", note: [_The following powers may only be taken by Daemons of Tzeentch._])
 
-#namecost("THE BOUNTIFUL SWARM", "30 points")
+#upgrade("TZEENTCH'S WILL", 60)[The Daemon may re-roll a single D6 once per player turn that directly affects it.]
 
-At the start of each close combat phase, all enemy units in base contact with the Daemon suffer D6 Hits. Models Hit must pass a Toughness test or suffer a Wound which Ignores Armour saves. This has no effect on Daemons of Nurgle.
+#upgrade("ASPECT OF TZEENTCH", 40)[Every time this Daemon uses a Power or Dispel dice, roll a D6. On a 6, they may use this dice again this phase. These additional dice cannot not generate new dice.]
 
-#namecost("STREAM OF BILE", "30 points")
+#upgrade("TWIN HEADS", 40)[The Daemon gains a +2 casting bonus.]
 
-This is a Strength 4 Breath Weapon. It has no effect on Daemons of Nurgle.
+#upgrade("LORD OF FLUX", 35)[At the beginning of each round of close combat, all enemy models in base contact with the Daemon must roll a D6, on a 4+ they suffer 1 Wound which Ignores Armour Saves.]
 
-#namecost("NOXIOUS VAPOURS", "25 points")
+#upgrade("MASTER OF SORCERY", 30)[The Daemon gains the Loremaster special rule. In addition, it can use any of the Winds of Magic from the Warhammer Rulebook instead of its normal Lore.]
 
-All enemy models in base contact with this Daemon are subject to the Always Strikes Last special rule in close combat. This has no effect on Daemons of Nurgle.
+#upgrade("POWER VORTEX", 30)[Once per Magic phase, the Daemon may add an additional 'free' Power dice to the casting attempt. This can cause Ultimate Power as normal, and can cause the Daemon to roll more dice than normally allowed.]
 
-#namecost("NURGLE'S ROT", "25 points")
+#upgrade("BARRAGE OF KNOWLEDGE", 25, only: "Lord of Change")[All enemy Wizards within 18" of the Daemon suffer a \-1 casting penalty.]
 
-Enemy models in base contact with the Daemon at the start of any close combat phase suffer a Strength 2 Hit with the Ignores Armour Saves special rule. This has no effect on Daemons of Nurgle.
+#upgrade("DARK MAGISTER", 25)[The Daemon ignores the result of his first Miscast.]
 
-#namecost("NURGLING INFESTATION", "25 points")
+#upgrade("WELLSPRING OF ARCANE MIGHT", 25)[The Daemon gains a +1 bonus when channelling Power dice.]
 
-Great Unclean One only. At the start of each of your turns, one unit of Nurglings within 6" of the Daemon automatically regains D6 Wounds lost earlier in the battle.
+#upgrade("CURSED ICHOR", 20)[Roll a D6 every time the Daemon suffers an unsaved Wound; on a 5+, the model that struck the blow suffers a Wound which Ignores Armour Saves.]
 
-#namecost("PESTILENT BREATH", "25 points")
+#upgrade("FLAMES OF TZEENTCH", 20)[The Daemon gains the Flames of Tzeentch special rule.]
 
-This is a Breath Weapon. Each model hit suffers a Wound on a 5+ which Ignores Armour saves. It has no effect on Daemons of Nurgle.
+#upgrade("IRIDESCENT CORONA", 20)[Enemy models in base contact with the Daemon at the start of any close combat phase suffer a Strength 3 Hit with the Flaming Attacks special rule. Any wounds caused count towards combat resolution.]
 
-#namecost("PESTILENT MUCUS", "25 points")
+#upgrade("ALL-SEEING EYE", 10)[At the start of each of your Magic Phases, you may pick one enemy unit within 24" of the Daemon. That unit must reveal all Magic Items and Hidden units in it.]
 
-When this Daemon suffers a wound, all enemy models in base contact must pass a Toughness test for each Wound inflicted on the Daemon or themselves suffer a Wound with the Ignores Armour Saves special rule. This has no effect on Daemons of Nurgle.
-
-#namecost("GIFT OF FEBRILE FRENZY", "20 points")
-
-Once per battle, at the start of any close combat phase, the Daemon can make the unit they are with subject to the Frenzy special rule for the remainder of this turn.
-
-#namecost("TRAPPINGS OF NURGLE", "15 points")
-
-The Daemon gains the Natural Armour (5+) special rule.
-
-#namecost("THE ENDLESS GIFT", "10 points")
-
-The Daemon gains the Regeneration (6+) special rule.
-
-#namecost("SLIME TRAIL", "10 points")
-
-Enemy units do not receive combat resolution bonuses for attacking the flank or rear of a Daemon with this ability, or any unit he has joined.
-
-#entry("GIFTS OF SLAANESH")
-#note[_The following powers may only be taken by Daemons of Slaanesh._]
-
-#namecost("SENSUAL BARRAGE", "50 points")
-
-Keeper of Secrets only. All enemy units within 6" of the Daemon are subject to the Always Strikes Last special rule. This has no effect on Daemons of Slaanesh.
-
-#namecost("SPIRIT SWALLOWER", "50 points")
-
-Roll a D6 for each unsaved wound the Daemon causes in close combat. On a 4+, the Daemon regains one wound lost earlier in the battle.
-
-#namecost("TEMPTATOR", "30 points")
-
-At the beginning of a combat, one enemy character in base contact with the Daemon must take a Psychology test. If the test is failed, the character will direct his attacks against friendly models or units chosen by the Daemon's controlling player. These wounds count towards the Daemon's combat resolution. If there are no suitable targets in base contact with the character, he or she does not attack at all this turn.
-
-#namecost("SYMPHONIAC", "30 points")
-
-At the beginning of each round of close combat, all enemy models in base contact with the Daemon must pass a Toughness test or suffer 1 Wound which Ignores Armour saves.
-
-#namecost("INVIGORATED BY PAIN", "25 points")
-
-Keeper of Secrets only. The Daemon gains +1 Attack for each unsaved Wound they have lost on their starting profile.
-
-#namecost("SIREN SONG", "25 points")
-
-This gift is used during the enemy turn, before charges are declared. Nominate one enemy unit within their maximum charging distance and with Line of Sight to the Daemon – this unit must be able to charge according to the normal Warhammer rules. The target unit must pass a Psychology test or declare a charge against the Daemon (or the unit it is with).
-
-#namecost("SOPORIFIC MUSK", "25 points")
-
-Models in base contact with one or more models with this Gift suffer a \-1 penalty to both Weapon Skill and Initiative. This has no effect on Daemons of Slaanesh.
-
-#namecost("UNNATURAL SWIFTNESS", "25 points")
-
-The Daemon has the Always Strikes First special rule.
-
-#namecost("ALLURE OF SLAANESH", "20 points")
-
-Enemy models in base contact with the Daemon must pass a Psychology test. If the test is failed, the affected model may not strike blows in that round of combat.
-
-#namecost("ENRAPTURING GAZE", "20 points")
-
-Units in base contact with the Daemon must use their own Leadership value. This has no effect on models with Immunity (Psychology).
-
-#namecost("TORMENTOR", "20 points")
-
-Each unsaved Wound inflicted in close combat from the Daemon counts as two Wounds for the purposes of combat resolution. This has no effect on models with Immunity (Psychology).
-
-#entry("GIFTS OF TZEENTCH")
-#note[_The following powers may only be taken by Daemons of Tzeentch._]
-
-#namecost("TZEENTCH'S WILL", "60 points")
-
-The Daemon may re-roll a single D6 once per player turn that directly affects it.
-
-#namecost("ASPECT OF TZEENTCH", "40 points")
-
-Every time this Daemon uses a Power or Dispel dice, roll a D6. On a 6, they may use this dice again this phase. These additional dice cannot not generate new dice.
-
-#namecost("TWIN HEADS", "40 points")
-
-The Daemon gains a +2 casting bonus.
-
-#namecost("LORD OF FLUX", "35 points")
-
-At the beginning of each round of close combat, all enemy models in base contact with the Daemon must roll a D6, on a 4+ they suffer 1 Wound which Ignores Armour Saves.
-
-#namecost("MASTER OF SORCERY", "30 points")
-
-The Daemon gains the Loremaster special rule. In addition, it can use any of the Winds of Magic from the Warhammer Rulebook instead of its normal Lore.
-
-#namecost("POWER VORTEX", "30 points")
-
-Once per Magic phase, the Daemon may add an additional 'free' Power dice to the casting attempt. This can cause Ultimate Power as normal, and can cause the Daemon to roll more dice than normally allowed.
-
-#namecost("BARRAGE OF KNOWLEDGE", "25 points")
-
-Lord of Change only. All enemy Wizards within 18" of the Daemon suffer a \-1 casting penalty.
-
-#namecost("DARK MAGISTER", "25 points")
-
-The Daemon ignores the result of his first Miscast.
-
-#namecost("WELLSPRING OF ARCANE MIGHT", "25 points")
-
-The Daemon gains a +1 bonus when channelling Power dice.
-
-#namecost("CURSED ICHOR", "20 points")
-
-Roll a D6 every time the Daemon suffers an unsaved Wound; on a 5+, the model that struck the blow suffers a Wound which Ignores Armour Saves.
-
-#namecost("FLAMES OF TZEENTCH", "20 points")
-
-The Daemon gains the Flames of Tzeentch special rule.
-
-#namecost("IRIDESCENT CORONA", "20 points")
-
-Enemy models in base contact with the Daemon at the start of any close combat phase suffer a Strength 3 Hit with the Flaming Attacks special rule. Any wounds caused count towards combat resolution.
-
-#namecost("ALL-SEEING EYE", "10 points")
-
-At the start of each of your Magic Phases, you may pick one enemy unit within 24" of the Daemon. That unit must reveal all Magic Items and Hidden units in it.
-
-#namecost("MARK OF THE CONJURER", "10 points")
-
-The Daemon gain a +1 bonus to all Fires of Change rolls (see Lore of Tzeentch).
+#upgrade("MARK OF THE CONJURER", 10)[The Daemon gain a +1 bonus to all Fires of Change rolls (see Lore of Tzeentch).]
+]
 
 #magic-item-chapter(title: "UNDIVIDED MAGIC ITEMS", intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Daemons of Chaos. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

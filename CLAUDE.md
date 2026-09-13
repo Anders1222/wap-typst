@@ -110,7 +110,13 @@ section before hand-writing markup. It validates rather than trusting: unknown
 `#book-meta` keys are an error, `magic-item` takes an integer cost (not
 `"45 points"`) and checks the type against the vocabulary for its category, and
 the six categories are exposed as named functions (`magic-weapon`, `talisman`,
-…) so a book states its category by the function it calls.
+…) so a book states its category by the function it calls. A faction's own
+purchases — Virtues, Gifts, Honours, Knightly Orders, runes — are an
+`upgrade-chapter` of `upgrade` records, the same shape as a magic item without
+a category: `cost:` is an integer, `none`, a tuple like `(5, 35, 55)` for a
+tiered rune, or `(who, price)` pairs for a per-model price list, and `group`
+is the run-in heading inside the chapter (the gods, the bloodlines) — a level-2
+heading the contents lists, with no page break.
 
 A unit entry is one `#unit(NAME, ..)` call: `profiles:` rows of the ten
 characteristics as dictionaries, then the entry's fields as named arguments —

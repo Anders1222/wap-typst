@@ -228,214 +228,108 @@ Models with this special rule have the Cold-blooded special rule when taking Pan
 
 #spell("INFERNAL GATEWAY", 4, cast: "15+")[_Infernal Gateway_ is a *direct damage* spell with a range of 24". The target suffers 2D6 Strength 2D6 hits with the Flaming Attacks special rule. Roll for the Strength first. If an 11 or 12 is rolled when determining the spell’s Strength value, the hits are resolved at Strength 10, and the unit suffers 3D6 hits rather than 2D6.]
 ]
-= GIFTS OF THE GODS
+#upgrade-chapter("GIFTS OF THE GODS", intro: [*Below are Gifts of the Gods that can be bought for your characters. Each can only be chosen once per army, and no model may choose more than three Gifts of the Gods (excluding results from the Eye of the Gods rolls).*])[
+#upgrade("MANTLE OF CHAOS", 55)[Any missile attacks targeting the character or the unit they are with have their Strength value halved, rounding up. This has no effect against Magical Attacks.]
 
-#balanced-columns[
-*Below are Gifts of the Gods that can be bought for your characters. Each can only be chosen once per army, and no model may choose more than three Gifts of the Gods (excluding results from the Eye of the Gods rolls).*
+#upgrade("DIABOLIC SPLENDOUR", 30)[Any successful Leadership tests taken by an enemy unit in base contact with the character must be re- rolled. This mutation cannot be combined with Fearsome Aura.]
 
-#namecost("MANTLE OF CHAOS", "55 points")
+#upgrade("FEARSOME AURA", 30)[All enemy units within 6" of the character suffer \-1 to their Leadership.]
 
-Any missile attacks targeting the character or the unit they are with have their Strength value halved, rounding up. This has no effect against Magical Attacks.
+#upgrade("TERRIFYING APPEARANCE", 25)[The character gains the Terror special rule.]
 
-#namecost("DIABOLIC SPLENDOUR", "30 points")
+#upgrade("WINGS", 25, only: "Infantry")[The character gains the Fly (10) special rule.]
 
-Any successful Leadership tests taken by an enemy unit in base contact with the character must be re- rolled. This mutation cannot be combined with Fearsome Aura.
+#upgrade("FLAMING BREATH", 25)[The character gains a Strength 3 Breath Weapon that has the Flaming Attacks special rule.]
 
-#namecost("FEARSOME AURA", "30 points")
+#upgrade("COMMAND OF THE GODS", 20)[The character gains +1 Leadership.]
 
-All enemy units within 6" of the character suffer \-1 to their Leadership.
+#upgrade("DAEMON-FLESH", 20)[The character cannot be wounded on better than a 3+.]
 
-#namecost("TERRIFYING APPEARANCE", "25 points")
+#upgrade("ENCHANTING AURA", 20)[Enemy models in base contact with the character are subject to the Always Strikes Last special rule.]
 
-The character gains the Terror special rule.
+#upgrade("MASSIVE BULK", 20)[The character gains +1 Wound.]
 
-#namecost("WINGS", "25 points")
+#upgrade("MASTER OF MORTALS", 20)[The character gains the Inspiring Presence (6) special rule that affects Humans.]
 
-Infantry only. The character gains the Fly (10) special rule.
+#upgrade("UNHOLY RESILIENCE", 20)[The character gains +1 Toughness.]
 
-#namecost("FLAMING BREATH", "25 points")
+#upgrade("AURA OF CHAOS", 15)[The character gains a Magical Ward (6+).]
 
-The character gains a Strength 3 Breath Weapon that has the Flaming Attacks special rule.
+#upgrade("BESTIAL VISAGE", 15)[The character gains the Fear special rule.]
 
-#namecost("COMMAND OF THE GODS", "20 points")
+#upgrade("DARK FURY", 15)[The character gains +1 Attack.]
 
-The character gains +1 Leadership.
+#upgrade("EXTRA ARM", 15)[The character may wield both a weapon that Requires Two Hands and a shield at the same time, benefitting from both pieces of equipment. This mutation cannot be combined with Tentacle.]
 
-#namecost("DAEMON-FLESH", "20 points")
+#upgrade("SLAUGHTERER'S STRENGTH", 15)[The character gains +1 Strength.]
 
-The character cannot be wounded on better than a 3+.
+#upgrade("SOUL FEEDER", 15)[Roll a D6 for every unsaved Wound the character inflicts on an enemy unit in close combat. For each result of a 6 rolled, they immediately regain a single lost Wound.]
 
-#namecost("ENCHANTING AURA", "20 points")
+#upgrade("CHAOS FAMILIAR", 10, only: "Wizard")[The character knows one more spell than normal for their level.]
 
-Enemy models in base contact with the character are subject to the Always Strikes Last special rule.
+#upgrade("DISTENDABLE MAW", 10)[Instead of making his usual attacks, the character can choose to make a special attack against a single Infantry model. If the attack hits, the enemy model must pass an Initiative test. If this test is failed, the victim suffers D3 Wounds with no saves allowed.]
 
-#namecost("MASSIVE BULK", "20 points")
+#upgrade("POISONOUS SLIME", 10)[The character gains the Poisoned Attacks and Immunity (Poisoned Attacks) special rules.]
 
-The character gains +1 Wound.
+#upgrade("SCALED SKIN", 10)[The character gains the Natural Armour (6+) special rule.]
 
-#namecost("MASTER OF MORTALS", "20 points")
+#upgrade("ACID ICHOR", 5)[Whenever this character suffers an unsaved Wound in close combat, the model that inflicted that Hit suffers a Strength 4 hit.]
 
-The character gains the Inspiring Presence (6) special rule that affects Humans.
+#upgrade("BURNING BODY", 5)[The character gains the Flaming Attacks and Immunity (Flaming Attacks) special rules.]
 
-#namecost("UNHOLY RESILIENCE", "20 points")
+#upgrade("CLOVEN HOOVES", 5, only: "Model on foot")[The character gains +1 Movement. This mutation cannot be combined with Serpent Body.]
 
-The character gains +1 Toughness.
+#upgrade("FLAMES OF CHAOS", 5)[The character gains the Magic Resistance (1) special rule.]
 
-#namecost("AURA OF CHAOS", "15 points")
+#upgrade("HORNS", 5, only: "Model on foot")[The character gains the Impact Hits (1) special rule.]
 
-The character gains a Magical Ward (6+).
+#upgrade("MURDEROUS MUTATION", 5)[The character gains +1 Weapon Skill.]
 
-#namecost("BESTIAL VISAGE", "15 points")
+#upgrade("TENTACLE", 5)[Choose one enemy model in base contact with the character at the start of each round of close combat – that model suffers \-1 Attacks. However, the character is not allowed to use a shield or any weapon that Requires Two Hands.]
 
-The character gains the Fear special rule.
+#upgrade("UNHOLY STRIKE", 5)[Instead of attacking normally, the character can choose to make a single special Attack. If they do so, and the Attack hits, the hit is resolved at double the character's Strength and has the Multiple Wounds (D3) special rule.]
 
-#namecost("DARK FURY", "15 points")
+#group("POWERS OF KHORNE", note: [_The following powers may only be taken by characters with the Mark of Khorne or Daemon of Khorne._])
 
-The character gains +1 Attack.
+#upgrade("BLOODCURDLING ROAR", 25)[At the start of the first round of close combat, all enemy units in base contact with the character suffer D6 Strength 2 hits which Ignores Armour saves.]
 
-#namecost("EXTRA ARM", "15 points")
+#upgrade("BLOOD FEVER", 25)[The character will never lose their Frenzy for any reason. In addition, any unit, friend or foe, that is in base contact with them at the start of their Movement phase becomes subject to Frenzy for the rest of that turn. If they already have the Frenzy special rule, they instead gain +1 Attack, but will have to re-roll any successful Berserk Rage roll.]
 
-The character may wield both a weapon that Requires Two Hands and a shield at the same time, benefitting from both pieces of equipment. This mutation cannot be combined with Tentacle.
+#upgrade("FURY OF THE BLOOD GOD", 25)[The character gains the Hatred special rule. Any Wizard within 12" of the character suffer -D3 to each of their casting rolls.]
 
-#namecost("SLAUGHTERER'S STRENGTH", "15 points")
+#upgrade("DEAFENING BELLOW", 20)[On the turn that the character charges, all enemy units in base contact suffer \-1 To Hit in close combat.]
 
-The character gains +1 Strength.
+#group("POWERS OF NURGLE", note: [_The following powers may only be taken by characters with the Mark of Nurgle or Daemon of Nurgle._])
 
-#namecost("SOUL FEEDER", "15 points")
+#upgrade("STREAM OF CORRUPTION", 40)[The character gains a Breath Weapon. All models Hit must pass a Toughness test or suffer a Wound with the Ignores Armour saves special rule.]
 
-Roll a D6 for every unsaved Wound the character inflicts on an enemy unit in close combat. For each result of a 6 rolled, they immediately regain a single lost Wound.
+#upgrade("NURGLING INFESTATION", 15)[Each model that attacks the character in close combat suffer an automatic Strength 3 hit after the attacker’s hits have been worked out. This hit occurs even if the character with the Nurgling Infestation is slain and any wounds caused count towards combat resolution.]
 
-#namecost("CHAOS FAMILIAR", "10 points")
+#upgrade("SECONDARY JAWS", 15)[The character gains a special attack at Strength 2 with the Always Strikes First and Ignores Armour Saves special rules.]
 
-Wizard only. The character knows one more spell than normal for their level.
+#upgrade("NURGLE'S ROT", 10)[At the start of every close combat phase, every enemy model in base contact with the character suffers a single Strength 1 hit with the Ignores Armour Saves special rule.]
 
-#namecost("DISTENDABLE MAW", "10 points")
+#group("POWERS OF SLAANESH", note: [_The following powers may only be taken by characters with the Mark of Slaanesh or Daemon of Slaanesh._])
 
-Instead of making his usual attacks, the character can choose to make a special attack against a single Infantry model. If the attack hits, the enemy model must pass an Initiative test. If this test is failed, the victim suffers D3 Wounds with no saves allowed.
+#upgrade("HELLSHRIEK", 50, one-use: true)[The character can use this ability at the start of any Magic phase, immediately after rolling for the Winds of Magic. All enemy Wizards within 18" must immediately roll 2D6 on the Miscast table.]
 
-#namecost("POISONOUS SLIME", "10 points")
+#upgrade("WORD OF AGONY", 30)[Once per game, at the beginning of the Close Combat phase (before challenges are issued), the character can choose a model in base contact. That model takes D6 Strength 4 hits which Ignores Armour saves.]
 
-The character gains the Poisoned Attacks and Immunity (Poisoned Attacks) special rules.
+#upgrade("SERPENT BODY", 15, only: "Model on foot")[The character gains +2 Movement, +1 Initiative and the Swiftstride special rule. This mutation cannot be combined with Cloven Hooves.]
 
-#namecost("SCALED SKIN", "10 points")
+#upgrade("SOPORIFIC MUSK", 15)[When a unit flees from the character or the unit they are with, the fleeing unit rolls an extra D6 and discards the highest dice roll.]
 
-The character gains the Natural Armour (6+) special rule.
+#upgrade("ALLURE OF SLAANESH", 10)[Any opponent wishing to strike the character in close combat must first pass a Psychology test before rolling To Hit. If the test is failed, that model cannot make any close combat attacks that phase. This does not affect Attacks that do not roll To Hit.]
 
-#namecost("ACID ICHOR", "5 points")
+#group("POWERS OF TZEENTCH", note: [_The following powers may only be taken by characters with the Mark of Tzeentch or Daemon of Tzeentch._])
 
-Whenever this character suffers an unsaved Wound in close combat, the model that inflicted that Hit suffers a Strength 4 hit.
+#upgrade("TENDRILS OF TZEENTCH", 30, only: "Wizards")[The character may re-roll a single power or dispel dice per player turn. This may potentially prevent a Miscast.]
 
-#namecost("BURNING BODY", "5 points")
+#upgrade("PROTEAN FORM", 25)[The Champion has the Regeneration (5+) special rule.]
 
-The character gains the Flaming Attacks and Immunity (Flaming Attacks) special rules.
+#upgrade("CONJOINED HOMUNCULUS", 25, only: "Wizard")[Once per turn, the character may choose to add +D3 to his casting result after attempting to cast a spell. This extra dice cannot cause a Miscast or count towards Ultimate Power.]
 
-#namecost("CLOVEN HOOVES", "5 points")
-
-Model on foot only. The character gains +1 Movement. This mutation cannot be combined with Serpent Body.
-
-#namecost("FLAMES OF CHAOS", "5 points")
-
-The character gains the Magic Resistance (1) special rule.
-
-#namecost("HORNS", "5 points")
-
-Model on foot only. The character gains the Impact Hits (1) special rule.
-
-#namecost("MURDEROUS MUTATION", "5 points")
-
-The character gains +1 Weapon Skill.
-
-#namecost("TENTACLE", "5 points")
-
-Choose one enemy model in base contact with the character at the start of each round of close combat – that model suffers \-1 Attacks. However, the character is not allowed to use a shield or any weapon that Requires Two Hands.
-
-#namecost("UNHOLY STRIKE", "5 points")
-
-Instead of attacking normally, the character can choose to make a single special Attack. If they do so, and the Attack hits, the hit is resolved at double the character's Strength and has the Multiple Wounds (D3) special rule.
-
-#namecost("POWERS OF KHORNE", "")
-
-#note[_The following powers may only be taken by characters with the Mark of Khorne or Daemon of Khorne._]
-
-#namecost("BLOODCURDLING ROAR", "25 points")
-
-At the start of the first round of close combat, all enemy units in base contact with the character suffer D6 Strength 2 hits which Ignores Armour saves.
-
-#namecost("BLOOD FEVER", "25 points")
-
-The character will never lose their Frenzy for any reason. In addition, any unit, friend or foe, that is in base contact with them at the start of their Movement phase becomes subject to Frenzy for the rest of that turn. If they already have the Frenzy special rule, they instead gain +1 Attack, but will have to re-roll any successful Berserk Rage roll.
-
-#namecost("FURY OF THE BLOOD GOD", "25 points")
-
-The character gains the Hatred special rule. Any Wizard within 12" of the character suffer -D3 to each of their casting rolls.
-
-#namecost("DEAFENING BELLOW", "20 points")
-
-On the turn that the character charges, all enemy units in base contact suffer \-1 To Hit in close combat.
-
-#namecost("POWERS OF NURGLE", "")
-
-#note[_The following powers may only be taken by characters with the Mark of Nurgle or Daemon of Nurgle._]
-
-#namecost("STREAM OF CORRUPTION", "40 points")
-
-The character gains a Breath Weapon. All models Hit must pass a Toughness test or suffer a Wound with the Ignores Armour saves special rule.
-
-#namecost("NURGLING INFESTATION", "15 points")
-
-Each model that attacks the character in close combat suffer an automatic Strength 3 hit after the attacker’s hits have been worked out. This hit occurs even if the character with the Nurgling Infestation is slain and any wounds caused count towards combat resolution.
-
-#namecost("SECONDARY JAWS", "15 points")
-
-The character gains a special attack at Strength 2 with the Always Strikes First and Ignores Armour Saves special rules.
-
-#namecost("NURGLE'S ROT", "10 points")
-
-At the start of every close combat phase, every enemy model in base contact with the character suffers a single Strength 1 hit with the Ignores Armour Saves special rule.
-
-#namecost("POWERS OF SLAANESH", "")
-
-#note[_The following powers may only be taken by characters with the Mark of Slaanesh or Daemon of Slaanesh._]
-
-#namecost("HELLSHRIEK", "50 points")
-
-One use only. The character can use this ability at the start of any Magic phase, immediately after rolling for the Winds of Magic. All enemy Wizards within 18" must immediately roll 2D6 on the Miscast table.
-
-#namecost("WORD OF AGONY", "30 points")
-
-Once per game, at the beginning of the Close Combat phase (before challenges are issued), the character can choose a model in base contact. That model takes D6 Strength 4 hits which Ignores Armour saves.
-
-#namecost("SERPENT BODY", "15 points")
-
-Model on foot only. The character gains +2 Movement, +1 Initiative and the Swiftstride special rule. This mutation cannot be combined with Cloven Hooves.
-
-#namecost("SOPORIFIC MUSK", "15 points")
-
-When a unit flees from the character or the unit they are with, the fleeing unit rolls an extra D6 and discards the highest dice roll.
-
-#namecost("ALLURE OF SLAANESH", "10 points")
-
-Any opponent wishing to strike the character in close combat must first pass a Psychology test before rolling To Hit. If the test is failed, that model cannot make any close combat attacks that phase. This does not affect Attacks that do not roll To Hit.
-
-#namecost("POWERS OF TZEENTCH", "")
-
-#note[_The following powers may only be taken by characters with the Mark of Tzeentch or Daemon of Tzeentch._]
-
-#namecost("TENDRILS OF TZEENTCH", "30 points")
-
-Wizards only. The character may re-roll a single power or dispel dice per player turn. This may potentially prevent a Miscast.
-
-#namecost("PROTEAN FORM", "25 points")
-
-The Champion has the Regeneration (5+) special rule.
-
-#namecost("CONJOINED HOMUNCULUS", "25 points")
-
-Wizard only. Once per turn, the character may choose to add +D3 to his casting result after attempting to cast a spell. This extra dice cannot cause a Miscast or count towards Ultimate Power.
-
-#namecost("THIRD EYE OF TZEENTCH", "10 points")
-
-The character re-rolls Ward save results of 1.
+#upgrade("THIRD EYE OF TZEENTCH", 10)[The character re-rolls Ward save results of 1.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Warriors of Chaos. These may be used in addition to the magic items found in the Warhammer rulebook.])

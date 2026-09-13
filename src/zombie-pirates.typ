@@ -150,82 +150,42 @@ Models with this special rule must roll a D6 for every To Hit roll of 1 with mis
 
 #spell("VORPAL MAELSTROM", 4, cast: "13+")[_Vorpal Maelstrom_ is a *direct damage* spell. Place the large template anywhere within 18" of the Wizard; it then scatters D6". All models under the template suffer a Strength Hit equal to their Unit Strength plus 2. In addition, any surviving models will have their Movement value lowered by half until the start of the caster's next Magic Phase.]
 ]
-= VAMPIRIC POWERS
+#upgrade-chapter("VAMPIRIC POWERS", intro: [*In this section you will find powers that can be bought for your Vampires. You cannot buy multiples of the same power for a single Vampire, but different Vampires in the same army can have the same powers if you wish.*])[
+#upgrade("RED FURY", 30)[For each unsaved Wound caused by the model in close combat, it can immediately make an additional Attack (to a maximum of +3 Attacks). These additional Attacks do not benefit from Red Fury.]
 
-#balanced-columns[
-*In this section you will find powers that can be bought for your Vampires. You cannot buy multiples of the same power for a single Vampire, but different Vampires in the same army can have the same powers if you wish.*
+#upgrade("UNHOLY REGENERATION", 30)[The model gains the Regeneration (4+) special rule.]
 
-#namecost("RED FURY", "30 points")
+#upgrade("CURSE OF THE REVENANT", 20)[The model has a 3+ invulnerable save when they have a single Wound remaining (if the model suffers multiple Wounds in a single turn, it is reduced to 1 Wound and may then attempt to take this invulnerable save).]
 
-For each unsaved Wound caused by the model in close combat, it can immediately make an additional Attack (to a maximum of +3 Attacks). These additional Attacks do not benefit from Red Fury.
+#upgrade("FOG OF DECEPTION", 20)[The Vampire and any unit they are in may re-deploy themselves wholly within 12" from their original location after all other units have been positioned, but before Scouts are placed on the table.]
 
-#namecost("UNHOLY REGENERATION", "30 points")
+#upgrade("FEAR INCARNATE", 20)[All enemy units in base contact with the model must pass a Leadership test at the start of each round of close combat or suffer \-1 To Hit this round.]
 
-The model gains the Regeneration (4+) special rule.
+#upgrade("FLYING HORROR", 20, only: "Model on foot")[Thе model gains the Fly (10) special rule.]
 
-#namecost("CURSE OF THE REVENANT", "20 points")
+#upgrade("VOICES FROM THE DEEP", 20)[When casting spells from the Lore of the Deep, the model may add a +D3 casting bonus once per Magic phase.]
 
-The model has a 3+ invulnerable save when they have a single Wound remaining (if the model suffers multiple Wounds in a single turn, it is reduced to 1 Wound and may then attempt to take this invulnerable save).
+#upgrade("FAR-REACHING WILL", 15)[The Vampire allows one unit of Zombie Deckhands to deploy as Ambushers.]
 
-#namecost("FOG OF DECEPTION", "20 points")
+#upgrade("SUPERNATURAL HORROR", 15)[The model gains the Terror special rule.]
 
-The Vampire and any unit they are in may re-deploy themselves wholly within 12" from their original location after all other units have been positioned, but before Scouts are placed on the table.
+#upgrade("SWASHBUCKLER", 15, only: "Model on foot")[The model has the Parry (6+) special rule. Whenever the model rolls a natural 6 when taking a Parry save, it automatically inflicts an extra Hit back onto the model or unit that struck the blow.]
 
-#namecost("FEAR INCARNATE", "20 points")
+#upgrade("TAUNTING CURSES", 15)[Whenever the Vampire successfully casts one or more spells on an enemy unit, that unit suffers \-1 to their Leadership until the start of your next Magic phase. In addition, when the Vampire issues a challenge, nominate an enemy character in the same close combat. That model must pass a Leadership test or be forced to accept the challenge.]
 
-All enemy units in base contact with the model must pass a Leadership test at the start of each round of close combat or suffer \-1 To Hit this round.
+#upgrade("TRANSFIX", 15)[At the beginning of the Close Combat phase, select one model in base contact with the Vampire. The victim must pass a Leadership test or be unable to attack in that Close Combat phase and all attacks directed against the victim will hit automatically.]
 
-#namecost("FLYING HORROR", "20 points")
+#upgrade("HORNSWAGGLE", 10)[At the beginning of the Close combat phase, roll a D6; on a 4+ the enemy unit will suffer \-1 to their Weapon Skill until the beginning of the next Close combat phase.]
 
-Model on foot only. Thе model gains the Fly (10) special rule.
+#upgrade("STORMCALL", 10)[The Vampire gains the _Storm of Cronos_ spell from the Lore of Heavens as a Bound Spell.]
 
-#namecost("VOICES FROM THE DEEP", "20 points")
+#upgrade("UNBENDING WILLPOWER", 10)[Units of Undead within 6" of one or more models with this power suffer one less Wound than they normally would due to the Unstable special rule or following the death of the army's General. Note that this is not cumulative with the Battle Standard.]
 
-When casting spells from the Lore of the Deep, the model may add a +D3 casting bonus once per Magic phase.
+#upgrade("WHARF RATS", 10)[All enemy units in base contact with the Vampire suffer D6 Strength 1 Attacks with the Always Strikes Last and Poisoned Attacks special rules in each round of Close Combat.]
 
-#namecost("FAR-REACHING WILL", "15 points")
+#upgrade("CLOYING MISTS", 5)[Enemy models in base contact with the model are reduced to Initiative 1.]
 
-The Vampire allows one unit of Zombie Deckhands to deploy as Ambushers.
-
-#namecost("SUPERNATURAL HORROR", "15 points")
-
-The model gains the Terror special rule.
-
-#namecost("SWASHBUCKLER", "15 points")
-
-Model on foot only. The model has the Parry (6+) special rule. Whenever the model rolls a natural 6 when taking a Parry save, it automatically inflicts an extra Hit back onto the model or unit that struck the blow.
-
-#namecost("TAUNTING CURSES", "15 points")
-
-Whenever the Vampire successfully casts one or more spells on an enemy unit, that unit suffers \-1 to their Leadership until the start of your next Magic phase. In addition, when the Vampire issues a challenge, nominate an enemy character in the same close combat. That model must pass a Leadership test or be forced to accept the challenge.
-
-#namecost("TRANSFIX", "15 points")
-
-At the beginning of the Close Combat phase, select one model in base contact with the Vampire. The victim must pass a Leadership test or be unable to attack in that Close Combat phase and all attacks directed against the victim will hit automatically.
-
-#namecost("HORNSWAGGLE", "10 points")
-
-At the beginning of the Close combat phase, roll a D6; on a 4+ the enemy unit will suffer \-1 to their Weapon Skill until the beginning of the next Close combat phase.
-
-#namecost("STORMCALL", "10 points")
-
-The Vampire gains the _Storm of Cronos_ spell from the Lore of Heavens as a Bound Spell.
-
-#namecost("UNBENDING WILLPOWER", "10 points")
-
-Units of Undead within 6" of one or more models with this power suffer one less Wound than they normally would due to the Unstable special rule or following the death of the army's General. Note that this is not cumulative with the Battle Standard.
-
-#namecost("WHARF RATS", "10 points")
-
-All enemy units in base contact with the Vampire suffer D6 Strength 1 Attacks with the Always Strikes Last and Poisoned Attacks special rules in each round of Close Combat.
-
-#namecost("CLOYING MISTS", "5 points")
-
-Enemy models in base contact with the model are reduced to Initiative 1.
-
-#namecost("HONOUR OR DEATH", "5 points")
-
-At the start of a challenge, the enemy character selected to take on the Vampire must take a Leadership test before any blows are struck. If failed, the enemy model will fight with Weapon Skill 1 for the remainder of the turn.
+#upgrade("HONOUR OR DEATH", 5)[At the start of a challenge, the enemy character selected to take on the Vampire must take a Leadership test before any blows are struck. If failed, the enemy model will fight with Weapon Skill 1 for the remainder of the turn.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Zombie Pirates. These may be used in addition to the magic items found in the Warhammer rulebook.])

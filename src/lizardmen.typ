@@ -104,104 +104,52 @@ In addition, a unit that contains one or more models with this special rule that
 
 #spell("THE GREAT LEVELLER", 4, cast: "15+")[_The Great Leveller_ is a *direct damage aura* spell with a range of 12". All units (friend and foe, except the caster) within range (even if they are engaged in close combat) suffer 3D6 Strength 5 Hits.]
 ]
-= BLESSED SPAWNINGS
+#upgrade-chapter("BLESSED SPAWNINGS", intro: [*Characters and units that can take Blessed Spawnings are detailed in the army list. The cost below only applies to characters. Lords may take up to 3 Blessed Spawnings. Heroes, Core and Special units may take up to 2 Sacred Spawnings. Core units that take more than one Blessed Spawning count as Special units, and Special units counts as Rare units.*])[
+#upgrade("BLESSED MARK OF THE OLD ONES", 10)[One per army, Characters only (not including Special Characters). The character may re-roll a total of 3 dice to either To Hit, To Wound, armour saves or invulnerable saves during the game. This Blessed Spawning does not prevent the character from joining any other Blessed Spawning.]
 
-#balanced-columns[
-*Characters and units that can take Blessed Spawnings are detailed in the army list. The cost below only applies to characters. Lords may take up to 3 Blessed Spawnings. Heroes, Core and Special units may take up to 2 Sacred Spawnings. Core units that take more than one Blessed Spawning count as Special units, and Special units counts as Rare units.*
+#upgrade("BLESSED SPAWNING OF CHOTEC", 10)[Models with this Blessed Spawning re-roll failed Charge and Pursuit distances.]
 
-#namecost("BLESSED MARK OF THE OLD ONES", "10 points")
+#upgrade("BLESSED SPAWNING OF TEPOK", 10)[Models with this Blessed Spawning have the Magic Resistance (2) special rule.]
 
-One per army, Characters only (not including Special Characters). The character may re-roll a total of 3 dice to either To Hit, To Wound, armour saves or invulnerable saves during the game. This Blessed Spawning does not prevent the character from joining any other Blessed Spawning.
+#upgrade("BLESSED SPAWNING OF SOTEK", 10)[Models with this Blessed Spawning have the Devastating Charge special rule.]
 
-#namecost("BLESSED SPAWNING OF CHOTEC", "10 points")
+#upgrade("BLESSED SPAWNING OF ITZL", 5, only: "Mounted models")[Models with this Blessed Spawning re-roll failed Stupidity or Berserk Rage tests.]
 
-Models with this Blessed Spawning re-roll failed Charge and Pursuit distances.
+#upgrade("BLESSED SPAWNING OF QUETZL", 5)[Models with this Blessed Spawning can never have their armour save reduced to less than 6+.]
 
-#namecost("BLESSED SPAWNING OF TEPOK", "10 points")
+#upgrade("BLESSED SPAWNING OF HUANCHI", 5, only: "Models on foot")[Models with this Blessed Spawning have the Ambushers and Forest Strider special rules.]
 
-Models with this Blessed Spawning have the Magic Resistance (2) special rule.
+#upgrade("BLESSED SPAWNING OF TLAZCOTL", 5)[Models with this Blessed Spawning may re-roll failed Psychology tests.]
 
-#namecost("BLESSED SPAWNING OF SOTEK", "10 points")
-
-Models with this Blessed Spawning have the Devastating Charge special rule.
-
-#namecost("BLESSED SPAWNING OF ITZL", "5 points")
-
-Mounted models only. Models with this Blessed Spawning re-roll failed Stupidity or Berserk Rage tests.
-
-#namecost("BLESSED SPAWNING OF QUETZL", "5 points")
-
-Models with this Blessed Spawning can never have their armour save reduced to less than 6+.
-
-#namecost("BLESSED SPAWNING OF HUANCHI", "5 points")
-
-Models on foot only. Models with this Blessed Spawning have the Ambushers and Forest Strider special rules.
-
-#namecost("BLESSED SPAWNING OF TLAZCOTL", "5 points")
-
-Models with this Blessed Spawning may re-roll failed Psychology tests.
-
-#namecost("BLESSED SPAWNING OF TZUNKI", "5 points")
-
-Models on foot only. Models with this Blessed Spawning have the Aquatic special rule and +2 Initiative.
+#upgrade("BLESSED SPAWNING OF TZUNKI", 5, only: "Models on foot")[Models with this Blessed Spawning have the Aquatic special rule and +2 Initiative.]
 ]
 
-= DISCIPLINES OF THE OLD ONES
+#upgrade-chapter("DISCIPLINES OF THE OLD ONES", intro: [*A Slann Mage-Priest can purchase Disciplines of the Old Ones as detailed in the Lizardmen Army List. Each Discipline of the Old Ones can only be taken once in each army (excluding Special Characters).*])[
+#upgrade("THE FOCUSED RUMINATION", 30)[Once per Magic phase, the Slann may add an additional 'free' Power dice to the casting attempt. This can cause a Miscast or Ultimate Power as normal, and can cause the Mage-Priest to roll more dice than normally allowed.]
 
-#balanced-columns[
-*A Slann Mage-Priest can purchase Disciplines of the Old Ones as detailed in the Lizardmen Army List. Each Discipline of the Old Ones can only be taken once in each army (excluding Special Characters).*
+#upgrade("FOCUS OF MYSTERY", 30)[The Slann Mage-Priest has the Loremaster special rule. This discipline cannot be combined with the Wandering Deliberations or Deep Contemplations disciplines.]
 
-#namecost("THE FOCUSED RUMINATION", "30 points")
+#upgrade("HARMONIC ALIGNMENT", 30)[The Slann Mage-Priest gains a +1 bonus to channel power and dispel dice.]
 
-Once per Magic phase, the Slann may add an additional 'free' Power dice to the casting attempt. This can cause a Miscast or Ultimate Power as normal, and can cause the Mage-Priest to roll more dice than normally allowed.
+#upgrade("BECALMING COGITATION", 25)[The Slann Mage-Priest re-rolls its first failed dispel attempt in each Magic phase.]
 
-#namecost("FOCUS OF MYSTERY", "30 points")
+#upgrade("SOUL OF STONE", 25)[When rolling on the Miscast table, the Slann Mage- Priest can choose to subtract 1 from the result (to a minimum of 2) or add 1 to the result (to a maximum of 12), instead of accepting the original result.]
 
-The Slann Mage-Priest has the Loremaster special rule. This discipline cannot be combined with the Wandering Deliberations or Deep Contemplations disciplines.
+#upgrade("WANDERING DELIBERATIONS", 25)[The Slann Mage-Priest may choose their spells from a combination of any of the eight Winds of Magic in the _Warhammer_ rulebook. However, they may only choose one Signature Spell. This discipline cannot be combined with the Focus of Mystery or Deep Contemplations disciplines.]
 
-#namecost("HARMONIC ALIGNMENT", "30 points")
+#upgrade("THE HARROWING SCRUTINY", 20)[The Slann Mage-Priest has the Terror special rule.]
 
-The Slann Mage-Priest gains a +1 bonus to channel power and dispel dice.
+#upgrade("HIGHER STATE OF CONSCIOUSNESS", 20)[The Slann Mage-Priest has the Ethereal special rule, but cannot join units.]
 
-#namecost("BECALMING COGITATION", "25 points")
+#upgrade("TRANSCENDENT HEALING", 20)[If this model is alive at the end of any friendly Magic phase, roll a number of D6 equal to the difference between the Slann Mage-Priest's starting number of Wounds and its current number of Wounds. For each roll of a 6, the Slann Mage-Priest immediately recovers a single Wound lost earlier in the battle.]
 
-The Slann Mage-Priest re-rolls its first failed dispel attempt in each Magic phase.
+#upgrade("DEEP CONTEMPLATIONS", 15)[Whenever the Slann Mage-Priest successfully casts a spell, they can immediately choose one of the Signature Spells from one of the eight Winds of Magic in the _Warhammer_ rulebook which they can cast for the remainder of the Magic phase. That newly chosen spell will always use that spell lore's lore attribute. This discipline cannot be combined with the Focus of Mystery or Wandering Deliberations discipline.]
 
-#namecost("SOUL OF STONE", "25 points")
+#upgrade("RESERVOIR OF ELDRITCH ENERGY", 10)[At the end of the opponent's Magic phase, the Slann Mage-Priest can store a single unused dispel dice remaining in your pool. At the beginning of your next Magic phase, roll a D6; on a 2+ you can add that dice to your power pool. On the roll of a 1, that bonus dice is lost. If the Slann is slain before their next Magic phase, the bonus dice is lost.]
 
-When rolling on the Miscast table, the Slann Mage- Priest can choose to subtract 1 from the result (to a minimum of 2) or add 1 to the result (to a maximum of 12), instead of accepting the original result.
+#upgrade("UNFATHOMABLE PRESENCE", 10)[Roll a D3 at the start of each enemy Magic phase; the Slann Mage-Priest has the Magic Resistance (\*) special rule until the end of that phase, where the result of 1 gives Magic Resistance (1), a result of 2 gives Magic Resistance (2) and a result of 3 gives Magic Resistance (3).]
 
-#namecost("WANDERING DELIBERATIONS", "25 points")
-
-The Slann Mage-Priest may choose their spells from a combination of any of the eight Winds of Magic in the _Warhammer_ rulebook. However, they may only choose one Signature Spell. This discipline cannot be combined with the Focus of Mystery or Deep Contemplations disciplines.
-
-#namecost("THE HARROWING SCRUTINY", "20 points")
-
-The Slann Mage-Priest has the Terror special rule.
-
-#namecost("HIGHER STATE OF CONSCIOUSNESS", "20 points")
-
-The Slann Mage-Priest has the Ethereal special rule, but cannot join units.
-
-#namecost("TRANSCENDENT HEALING", "20 points")
-
-If this model is alive at the end of any friendly Magic phase, roll a number of D6 equal to the difference between the Slann Mage-Priest's starting number of Wounds and its current number of Wounds. For each roll of a 6, the Slann Mage-Priest immediately recovers a single Wound lost earlier in the battle.
-
-#namecost("DEEP CONTEMPLATIONS", "15 points")
-
-Whenever the Slann Mage-Priest successfully casts a spell, they can immediately choose one of the Signature Spells from one of the eight Winds of Magic in the _Warhammer_ rulebook which they can cast for the remainder of the Magic phase. That newly chosen spell will always use that spell lore's lore attribute. This discipline cannot be combined with the Focus of Mystery or Wandering Deliberations discipline.
-
-#namecost("RESERVOIR OF ELDRITCH ENERGY", "10 points")
-
-At the end of the opponent's Magic phase, the Slann Mage-Priest can store a single unused dispel dice remaining in your pool. At the beginning of your next Magic phase, roll a D6; on a 2+ you can add that dice to your power pool. On the roll of a 1, that bonus dice is lost. If the Slann is slain before their next Magic phase, the bonus dice is lost.
-
-#namecost("UNFATHOMABLE PRESENCE", "10 points")
-
-Roll a D3 at the start of each enemy Magic phase; the Slann Mage-Priest has the Magic Resistance (\*) special rule until the end of that phase, where the result of 1 gives Magic Resistance (1), a result of 2 gives Magic Resistance (2) and a result of 3 gives Magic Resistance (3).
-
-#namecost("VAST INTELLECT", "10 points")
-
-The Slann Mage-Priest can choose one additional spell.
+#upgrade("VAST INTELLECT", 10)[The Slann Mage-Priest can choose one additional spell.]
 ]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Lizardmen. These may be used in addition to the magic items found in the Warhammer rulebook.])
