@@ -1,8 +1,9 @@
-# wap-typst
+# warhammer-armies-revamped
 
-Re-typesets the [Warhammer Armies Project](https://www.warhammerarmiesproject.com/)
-army books from their published PDFs into [Typst](https://typst.app), and
-publishes the result to GitHub Pages.
+**Warhammer Armies Revamped (WAR)**: a new edition of Warhammer fantasy battles,
+built on the [Warhammer Armies Project](https://www.warhammerarmiesproject.com/)
+army books. The books were re-typeset from their published PDFs into
+[Typst](https://typst.app) and are published to GitHub Pages.
 
 **30 army books and the core rulebook · 1,746 unit entries ·
 1,599 typeset pages**.
@@ -17,7 +18,12 @@ be edited, and an edit is nobody's business but the editor's.
 
 Unofficial and non-commercial. All rules text, army design and points values are
 the work of **Mathias Eliasson**, who writes and freely distributes the Warhammer
-Armies Project books. Only the typesetting differs here.
+Armies Project books. This edition changes the typesetting and uses newly
+AI-generated cover illustrations. The rules text remains his work.
+
+The 30 army illustrations and main rulebook illustration are transparent PNGs in `assets/covers/`. Open the
+[cover gallery](assets/cover-gallery.html) locally to compare them on different
+backgrounds. [Research and prompts](assets/cover-art.md) document their creation.
 
 Warhammer, Warhammer Fantasy Battle and all associated names, races and places
 are trademarks of Games Workshop Limited. This project is unaffiliated with both
@@ -182,8 +188,9 @@ smaller drops to level 3.
 - **The army books' interior artwork is not carried over.** Their illustrations
   are vector drawings, not raster images — 13,708 drawing operations in Lizardmen
   3.0 alone — of which only the parchment background and the cover are
-  extractable. Re-exporting the vector regions is not implemented. Covers *are*
-  carried, into `assets/covers/`. The core rulebook is different: its diagrams
+  extractable. Re-exporting the vector regions is not implemented. The army
+  covers and core rulebook cover in `assets/covers/` now use newly generated
+  transparent illustrations. The core rulebook's diagrams
   are raster with known bounding boxes, so all 46 are placed in the flow at their
   original proportion of the measure.
 - A multi-line diagram legend in the rulebook merges into one paragraph, since

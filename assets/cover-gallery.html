@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book cover illustrations</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f2eb;color:#292720;font:16px/1.5 system-ui,sans-serif}
+header{padding:24px clamp(20px,5vw,72px);border-bottom:1px solid #c9c0ad;background:#fffdf7}
+h1{font:600 32px Georgia,serif;margin:0 0 8px}p{margin:4px 0 16px;max-width:70ch}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}button,label{font:inherit}
+button{padding:7px 14px;border:1px solid #a69b87;border-radius:6px;background:#fff;cursor:pointer}
+button[aria-pressed=true]{background:#39372e;color:white}input{vertical-align:middle;cursor:pointer}
+main{--art-bg:url('images/parchment.jpg');display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:24px clamp(20px,5vw,72px)}
+figure{margin:0;border:1px solid #d2c9b9;border-radius:8px;overflow:hidden;background:white}
+figure a{display:block;background:var(--art-bg);background-size:cover;padding:14px}
+img{width:100%;height:auto;display:block}figcaption{padding:12px 16px;font:600 18px Georgia,serif;border-top:1px solid #d2c9b9}
+footer{padding:20px clamp(20px,5vw,72px)}a{color:inherit}:focus-visible{outline:3px solid #287aac;outline-offset:3px}
+main[data-background=checkerboard] figure a{background:conic-gradient(#d7d7d7 25%,#fff 0 50%,#d7d7d7 0 75%,#fff 0) 0 0/24px 24px}
+</style>
+<header><h1>Book cover illustrations</h1><p>30 faction illustrations and the main rulebook cover. Choose a background to inspect the transparent edges. Click an illustration to open the original PNG.</p>
+<div class="controls" aria-label="Illustration background">
+<button data-bg="parchment" aria-pressed="true">Parchment</button><button data-bg="light" aria-pressed="false">Light</button><button data-bg="dark" aria-pressed="false">Dark</button><button data-bg="checkerboard" aria-pressed="false">Checkerboard</button>
+<label>Custom <input type="color" value="#8c9fb0" aria-label="Custom illustration background"></label>
+</div></header>
+<main data-background="parchment">
+<figure><a href="covers/rulebook.png" aria-label="Open main rulebook image"><img src="covers/rulebook.png" alt="Empire, Dwarf and High Elf defenders facing Chaos and an Orc beneath a dragon" width="1254" height="1254"></a><figcaption>The Game of Fantasy Battles</figcaption></figure>
+<figure><a href="covers/albion.png" aria-label="Open Albion image"><img src="covers/albion.png" alt="Truthsayer, woad warrior, Ogham stone and giant" loading="lazy" width="1254" height="1254"></a><figcaption>Albion</figcaption></figure>
+<figure><a href="covers/amazons.png" aria-label="Open Amazons image"><img src="covers/amazons.png" alt="Lustrian warrior sisterhood, feathers, jade and ancient sunstaff" loading="lazy" width="1254" height="1254"></a><figcaption>Amazons</figcaption></figure>
+<figure><a href="covers/araby.png" aria-label="Open Araby image"><img src="covers/araby.png" alt="Desert commander, Arabian horse and djinn" loading="lazy" width="1254" height="1254"></a><figcaption>Araby</figcaption></figure>
+<figure><a href="covers/beastmen.png" aria-label="Open Beastmen image"><img src="covers/beastmen.png" alt="Goat-headed Beastlord, bray-shaman and herdstone" loading="lazy" width="1254" height="1254"></a><figcaption>Beastmen</figcaption></figure>
+<figure><a href="covers/bretonnia.png" aria-label="Open Bretonnia image"><img src="covers/bretonnia.png" alt="Grail knight, heraldic caparison and sacred chalice" loading="lazy" width="1254" height="1254"></a><figcaption>Bretonnia</figcaption></figure>
+<figure><a href="covers/chaos-dwarfs.png" aria-label="Open Chaos Dwarfs image"><img src="covers/chaos-dwarfs.png" alt="Hashut, curled beard, tall hat, infernal guard and forge" loading="lazy" width="1254" height="1254"></a><figcaption>Chaos Dwarfs</figcaption></figure>
+<figure><a href="covers/daemons-of-chaos.png" aria-label="Open Daemons of Chaos image"><img src="covers/daemons-of-chaos.png" alt="A compact ensemble representing the four Ruinous Powers" loading="lazy" width="1254" height="1254"></a><figcaption>Daemons of Chaos</figcaption></figure>
+<figure><a href="covers/dark-elves.png" aria-label="Open Dark Elves image"><img src="covers/dark-elves.png" alt="Dreadlord, angular armor and Cold One mount" loading="lazy" width="1254" height="1254"></a><figcaption>Dark Elves</figcaption></figure>
+<figure><a href="covers/dogs-of-war.png" aria-label="Open Dogs of War image"><img src="covers/dogs-of-war.png" alt="Tilean captain, pikeman, dwarf mercenary and pay chest" loading="lazy" width="1254" height="1254"></a><figcaption>Dogs of War</figcaption></figure>
+<figure><a href="covers/dwarfs.png" aria-label="Open Dwarfs image"><img src="covers/dwarfs.png" alt="Runic king, engineer, gromril and anvil" loading="lazy" width="1254" height="1254"></a><figcaption>Dwarfs</figcaption></figure>
+<figure><a href="covers/empire.png" aria-label="Open Empire image"><img src="covers/empire.png" alt="General, halberdier, cannon and comet imagery" loading="lazy" width="1254" height="1254"></a><figcaption>Empire</figcaption></figure>
+<figure><a href="covers/estalia.png" aria-label="Open Estalia image"><img src="covers/estalia.png" alt="Morion, rodela, arquebusier and Myrmidia relief" loading="lazy" width="1254" height="1254"></a><figcaption>Estalia</figcaption></figure>
+<figure><a href="covers/grand-cathay.png" aria-label="Open Grand Cathay image"><img src="covers/grand-cathay.png" alt="Jade lamellar armor, dragon-blooded commander and Eastern dragon" loading="lazy" width="1254" height="1254"></a><figcaption>Grand Cathay</figcaption></figure>
+<figure><a href="covers/halflings.png" aria-label="Open Halflings image"><img src="covers/halflings.png" alt="Moot fieldwarden, master chef and hot pot" loading="lazy" width="1254" height="1254"></a><figcaption>Halflings</figcaption></figure>
+<figure><a href="covers/high-elves.png" aria-label="Open High Elves image"><img src="covers/high-elves.png" alt="Ulthuan prince, silver armor and phoenix" loading="lazy" width="1254" height="1254"></a><figcaption>High Elves</figcaption></figure>
+<figure><a href="covers/hobgoblins.png" aria-label="Open Hobgoblins image"><img src="covers/hobgoblins.png" alt="Steppe khan, lamellar armor and giant wolf" loading="lazy" width="1254" height="1254"></a><figcaption>Hobgoblins</figcaption></figure>
+<figure><a href="covers/kingdoms-of-ind.png" aria-label="Open Kingdoms of Ind image"><img src="covers/kingdoms-of-ind.png" alt="Rajah, Bengal tiger and royal elephant" loading="lazy" width="1254" height="1254"></a><figcaption>Kingdoms of Ind</figcaption></figure>
+<figure><a href="covers/kislev.png" aria-label="Open Kislev image"><img src="covers/kislev.png" alt="Winged Lancer and Ice Witch" loading="lazy" width="1254" height="1254"></a><figcaption>Kislev</figcaption></figure>
+<figure><a href="covers/lizardmen.png" aria-label="Open Lizardmen image"><img src="covers/lizardmen.png" alt="Saurus Oldblood, Skink priest and Slann palanquin" loading="lazy" width="1254" height="1254"></a><figcaption>Lizardmen</figcaption></figure>
+<figure><a href="covers/nippon.png" aria-label="Open Nippon image"><img src="covers/nippon.png" alt="Samurai daimyo and komainu guardian" loading="lazy" width="1254" height="1254"></a><figcaption>Nippon</figcaption></figure>
+<figure><a href="covers/norsca.png" aria-label="Open Norsca image"><img src="covers/norsca.png" alt="Tribal chieftain and war mammoth" loading="lazy" width="1254" height="1254"></a><figcaption>Norsca</figcaption></figure>
+<figure><a href="covers/ogre-kingdoms.png" aria-label="Open Ogre Kingdoms image"><img src="covers/ogre-kingdoms.png" alt="Ogre Tyrant, iron gutplate and Gnoblar" loading="lazy" width="1254" height="1254"></a><figcaption>Ogre Kingdoms</figcaption></figure>
+<figure><a href="covers/orcs-goblins.png" aria-label="Open Orcs &amp; Goblins image"><img src="covers/orcs-goblins.png" alt="Warboss, Night Goblin and squig" loading="lazy" width="1254" height="1254"></a><figcaption>Orcs &amp; Goblins</figcaption></figure>
+<figure><a href="covers/pirates-of-sartosa.png" aria-label="Open Pirates of Sartosa image"><img src="covers/pirates-of-sartosa.png" alt="Living captain and buccaneer, cannon and treasure" loading="lazy" width="1254" height="1254"></a><figcaption>Pirates of Sartosa</figcaption></figure>
+<figure><a href="covers/skaven.png" aria-label="Open Skaven image"><img src="covers/skaven.png" alt="Horned Grey Seer, Stormvermin and warpstone machinery" loading="lazy" width="1254" height="1254"></a><figcaption>Skaven</figcaption></figure>
+<figure><a href="covers/tomb-kings.png" aria-label="Open Tomb Kings image"><img src="covers/tomb-kings.png" alt="Nehekharan monarch, Tomb Guard and sandstone sphinx" loading="lazy" width="1254" height="1254"></a><figcaption>Tomb Kings</figcaption></figure>
+<figure><a href="covers/vampire-counts.png" aria-label="Open Vampire Counts image"><img src="covers/vampire-counts.png" alt="Sylvanian vampire lord, Grave Guard and bats" loading="lazy" width="1254" height="1254"></a><figcaption>Vampire Counts</figcaption></figure>
+<figure><a href="covers/warriors-of-chaos.png" aria-label="Open Warriors of Chaos image"><img src="covers/warriors-of-chaos.png" alt="Armored mortal champions, horned helms and eight-pointed star" loading="lazy" width="1254" height="1254"></a><figcaption>Warriors of Chaos</figcaption></figure>
+<figure><a href="covers/wood-elves.png" aria-label="Open Wood Elves image"><img src="covers/wood-elves.png" alt="Glade Lord, Treeman and Dryad" loading="lazy" width="1254" height="1254"></a><figcaption>Wood Elves</figcaption></figure>
+<figure><a href="covers/zombie-pirates.png" aria-label="Open Zombie Pirates image"><img src="covers/zombie-pirates.png" alt="Vampire admiral, drowned gunner and haunted ship debris" loading="lazy" width="1254" height="1254"></a><figcaption>Zombie Pirates</figcaption></figure>
+</main>
+<footer><a href="cover-art.md">Research and provenance</a> · <a href="cover-art-prompts.json">Generation prompts</a></footer>
+<script>
+const grid=document.querySelector('main');
+const backgrounds={parchment:"url('images/parchment.jpg')",light:'#ffffff',dark:'#20232a'};
+function selectBackground(name,value){grid.dataset.background=name;grid.style.setProperty('--art-bg',value||backgrounds[name]||'#fff');document.querySelectorAll('button[data-bg]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.bg===name)));}
+document.querySelectorAll('button[data-bg]').forEach(b=>b.addEventListener('click',()=>selectBackground(b.dataset.bg)));
+document.querySelector('input[type=color]').addEventListener('input',e=>selectBackground('custom',e.target.value));
+</script>
+</html>

@@ -16,11 +16,11 @@
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Dwarfs 3.11")
+#show: book.with(title: "Warhammer Armies Revamped — Dwarfs 3.11")
 
 #cover(
   title: "Dwarfs",
-  subtitle: "Warhammer Armies Project · 3.11",
+  subtitle: "Warhammer Armies Revamped · 3.11",
   art: "/assets/covers/dwarfs.png",
 )
 

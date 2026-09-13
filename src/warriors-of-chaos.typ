@@ -16,11 +16,11 @@
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Warriors of Chaos 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Warriors of Chaos 3.0")
 
 #cover(
   title: "Warriors of Chaos",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/warriors-of-chaos.png",
 )
 

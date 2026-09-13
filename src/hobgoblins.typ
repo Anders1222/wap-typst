@@ -16,11 +16,11 @@
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Hobgoblins 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Hobgoblins 3.0")
 
 #cover(
   title: "Hobgoblins",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/hobgoblins.png",
 )
 

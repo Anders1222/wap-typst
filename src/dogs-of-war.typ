@@ -16,11 +16,11 @@
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Dogs of War 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Dogs of War 3.1")
 
 #cover(
   title: "Dogs of War",
-  subtitle: "Warhammer Armies Project · 3.1",
+  subtitle: "Warhammer Armies Revamped · 3.1",
   art: "/assets/covers/dogs-of-war.png",
 )
 

@@ -16,11 +16,11 @@
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Pirates of Sartosa 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Pirates of Sartosa 3.0")
 
 #cover(
   title: "Pirates of Sartosa",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/pirates-of-sartosa.png",
 )
 

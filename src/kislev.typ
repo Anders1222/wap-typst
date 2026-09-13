@@ -16,11 +16,11 @@
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Kislev 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Kislev 3.1")
 
 #cover(
   title: "Kislev",
-  subtitle: "Warhammer Armies Project · 3.1",
+  subtitle: "Warhammer Armies Revamped · 3.1",
   art: "/assets/covers/kislev.png",
 )
 

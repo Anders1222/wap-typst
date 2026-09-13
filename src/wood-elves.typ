@@ -16,11 +16,11 @@
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Wood Elves 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Wood Elves 3.1")
 
 #cover(
   title: "Wood Elves",
-  subtitle: "Warhammer Armies Project · 3.1",
+  subtitle: "Warhammer Armies Revamped · 3.1",
   art: "/assets/covers/wood-elves.png",
 )
 

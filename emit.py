@@ -104,8 +104,8 @@ def front_matter(book: dict) -> str:
     side = ", side: 3.1cm" if rules else ""
     depth = 3 if rules else 2
 
-    title = f"Warhammer Armies Project — {army} {version}"
-    subtitle = f"Warhammer Armies Project · {version}"
+    title = f"Warhammer Armies Revamped — {army} {version}"
+    subtitle = f"Warhammer Armies Revamped · {version}"
     colophon = BASE_COLOPHON.format(army=army, version=version)
 
     return f'''#show: book.with(title: {lit(title)}{side})
@@ -258,13 +258,13 @@ def page(books: list[dict], align: dict[str, str], css: str) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Warhammer Armies Project — typeset army books</title>
+<title>Warhammer Armies Revamped — typeset army books</title>
 <style>
 {css}</style>
 </head>
 <body>
 <main>
-  <h1>Warhammer Armies Project</h1>
+  <h1>Warhammer Armies Revamped</h1>
   <p class="sub">{len(armies)} army books and the core rulebook, {total:,} unit entries, re-typeset with Typst.</p>
 {core}
   <h2 class="section">The Armies</h2>

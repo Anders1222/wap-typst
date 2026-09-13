@@ -1,4 +1,4 @@
-// Typesetting for a Warhammer Armies Project army book.
+// Typesetting for a Warhammer Armies Revamped army book.
 //
 // Everything the generator emits arrives as Typst *strings*, never markup, so
 // no source text can be reinterpreted as syntax. That is why the run helpers

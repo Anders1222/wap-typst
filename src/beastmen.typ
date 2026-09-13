@@ -16,11 +16,11 @@
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Beastmen 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Beastmen 3.0")
 
 #cover(
   title: "Beastmen",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/beastmen.png",
 )
 

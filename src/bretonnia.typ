@@ -16,11 +16,11 @@
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Bretonnia 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Bretonnia 3.0")
 
 #cover(
   title: "Bretonnia",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/bretonnia.png",
 )
 

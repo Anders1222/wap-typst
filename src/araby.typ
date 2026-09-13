@@ -16,11 +16,11 @@
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Araby 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Araby 3.0")
 
 #cover(
   title: "Araby",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/araby.png",
 )
 

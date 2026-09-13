@@ -16,11 +16,11 @@
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Project — The Empire 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — The Empire 3.1")
 
 #cover(
   title: "The Empire",
-  subtitle: "Warhammer Armies Project · 3.1",
+  subtitle: "Warhammer Armies Revamped · 3.1",
   art: "/assets/covers/empire.png",
 )
 

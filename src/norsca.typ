@@ -16,11 +16,11 @@
   align: "neutral",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Norsca 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Norsca 3.0")
 
 #cover(
   title: "Norsca",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/norsca.png",
 )
 

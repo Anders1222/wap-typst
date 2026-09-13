@@ -15,11 +15,11 @@
   cover: "covers/rulebook.png",
 )
 
-#show: book.with(title: "Warhammer Armies Project — The Game of Fantasy Battles 3.11")
+#show: book.with(title: "Warhammer Armies Revamped — The Game of Fantasy Battles 3.11")
 
 #cover(
   title: "The Game of Fantasy Battles",
-  subtitle: "Warhammer Armies Project · 3.11",
+  subtitle: "Warhammer Armies Revamped · 3.11",
   art: "/assets/covers/rulebook.png",
 )
 

@@ -16,11 +16,11 @@
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Dark Elves 3.1")
+#show: book.with(title: "Warhammer Armies Revamped — Dark Elves 3.1")
 
 #cover(
   title: "Dark Elves",
-  subtitle: "Warhammer Armies Project · 3.1",
+  subtitle: "Warhammer Armies Revamped · 3.1",
   art: "/assets/covers/dark-elves.png",
 )
 

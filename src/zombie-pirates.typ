@@ -16,11 +16,11 @@
   align: "destruction",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Zombie Pirates 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Zombie Pirates 3.0")
 
 #cover(
   title: "Zombie Pirates",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/zombie-pirates.png",
 )
 

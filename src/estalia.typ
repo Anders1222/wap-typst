@@ -16,11 +16,11 @@
   align: "order",
 )
 
-#show: book.with(title: "Warhammer Armies Project — Estalia 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — Estalia 3.0")
 
 #cover(
   title: "Estalia",
-  subtitle: "Warhammer Armies Project · 3.0",
+  subtitle: "Warhammer Armies Revamped · 3.0",
   art: "/assets/covers/estalia.png",
 )
 
