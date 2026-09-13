@@ -813,19 +813,20 @@
   let named = if _typeof(level) == int { "Level " + str(level) } else { level }
 
   [#metadata((kind: "spell", name: name, level: level, cast: cast))<meta>]
-  // The name with its level in parentheses after it, at one size and weight -
-  // BASH 'EM LADZ (Level 1) - and the casting value on the line below, at the
-  // body size and italic, so it reads as the one figure a player looks for
-  // under the name. The name and level used to stand on two lines with the
-  // casting value at the far end of the second, and the level, small and
-  // muted, read as an aside rather than as part of what the spell is called.
+  // The name with its level in parentheses after it, at one size - BASH 'EM
+  // LADZ (Level 1), the level italic against the upright name - and the
+  // casting value on the line below, at the body size and italic, so it reads
+  // as the one figure a player looks for under the name. The name and level
+  // used to stand on two lines with the casting value at the far end of the
+  // second, and the level, small and muted, read as an aside rather than as
+  // part of what the spell is called.
   block(above: RECORD_GAP, below: 0em, sticky: true, {
     // As in `namecost`, and for its reasons: justification would stretch a
     // short name across the column.
     set par(justify: false)
     block(below: 0em,
       text(weight: "bold", size: 10.5pt, tracking: 0.04em, hyphenate: false)[
-        #upper(name) (#named)
+        #upper(name) #text(style: "italic")[(#named)]
       ])
     if cast != none {
       block(above: 0.1em, below: 0em,
