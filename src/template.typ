@@ -946,8 +946,10 @@
 // Times inside 2cm margins and run about 50 characters to the line; Libertinus
 // sets tighter, so matching the margin alone stretches the line to 55 and
 // matching the line alone leaves the block sitting too far in from the edge.
-// Only the two together land on the printed page's proportions.
-#let book(title: "", side: 2.4cm, size: 10.5pt, body) = {
+// Only the two together land on the printed page's proportions, and the
+// defaults are those two: 2.0cm and 11.5pt measure 2.00cm against the source's
+// 2.00cm and run 47 characters to its 49.
+#let book(title: "", side: 2.0cm, size: 11.5pt, body) = {
   set document(title: title)
   set page(
     paper: "a4",
