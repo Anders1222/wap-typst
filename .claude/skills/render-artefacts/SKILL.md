@@ -36,9 +36,10 @@ only hits that are **new** are reported, which is the number that means
 something.
 
 ```bash
-# out-before/ is the committed tree rendered in a worktree; see render-text.
-python extract/render_artefacts.py out/*.pdf --against "$TMP/base/out-before"
-python extract/render_artefacts.py out/skaven.pdf --against "$TMP/base/out-before"
+# $TMP/base/out is the committed tree built in a worktree with build.py;
+# see the render-text skill.
+python extract/render_artefacts.py out/*.pdf --against "$TMP/base/out"
+python extract/render_artefacts.py out/skaven.pdf --against "$TMP/base/out"
 ```
 
 The baseline is matched by filename, so it must hold a PDF of the same name

@@ -27,20 +27,19 @@ it. Build the baseline from the committed tree in a worktree so the working
 copy is untouched:
 
 ```bash
-# Baseline: the committed version, rendered into out-before/
+# Baseline: the committed version, built in a worktree into its own out/
 git worktree add "$TMP/base" HEAD
-( cd "$TMP/base" && mkdir -p out-before && for f in src/*.typ; do
-    b=$(basename "$f" .typ); [ "$b" = template ] && continue
-    typst compile --ignore-system-fonts --root . "$f" "out-before/$b.pdf"
-  done )
+( cd "$TMP/base" && python build.py )
 
-# After: the working copy, rendered into out/
-for f in src/*.typ; do b=$(basename "$f" .typ); [ "$b" = template ] && continue
-  typst compile --ignore-system-fonts --root . "$f" "out/$b.pdf"; done
+# After: the working copy, built into out/
+python build.py
 
-python extract/render_text.py "$TMP/base/out-before" out
+python extract/render_text.py "$TMP/base/out" out
 git worktree remove --force "$TMP/base"
 ```
+
+`build.py` compiles every book on `build/render.json` in parallel with the
+two CI flags, so both renders are the ones that would publish.
 
 For one book, pass the two PDFs instead of the directories. Books are paired
 by filename, so the two directories must name them the same way; a book on one
