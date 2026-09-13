@@ -1384,10 +1384,84 @@
 // columns, which the show rules above `book` do when they find the page set
 // this way. A magic-item section or a lore is not put inside this: each sets
 // its own columns and would set them inside one of these.
+// A subsection - a run-in head or a sub-heading and the paragraphs under it,
+// to the next head - is kept on one column when it is short: set as an
+// unbreakable block, it moves whole to the next column rather than leaving
+// its head and first lines at the foot of one and the rest at the top of the
+// next. Short is up to KEEP_LIMIT of a column. A taller one is left to break
+// where the column ends, as prose does, because moving it whole would leave
+// the column it left up to its own height empty - a column two-thirds blank
+// above a subsection that could have begun there. The limit is where the
+// blank a move can leave stops being worth the head kept with its text; and
+// a subsection taller than a column could not be kept whole at all, since an
+// unbreakable block taller than its column overflows the page and loses its
+// tail. The height is measured at the column's width, as `balanced-columns`
+// measures its records.
+//
+// `above` is the head's own gap, carried out to the block: spacing at the
+// start of a container collapses, so left inside it the head would sit on the
+// paragraph before it at no gap at all.
+#let KEEP_LIMIT = 50%
+
+#let _keep-together(body, above) = context {
+  let width = _column-width(_measure-width())
+  let column = page.height - PAGE_MARGIN.top - PAGE_MARGIN.bottom
+  if measure(block(width: width, body)).height <= KEEP_LIMIT * column {
+    // `below` is what a paragraph brings, so the gap to whatever follows is
+    // the one the last paragraph would have set.
+    block(breakable: false, width: 100%, above: above, below: 1em, body)
+  } else {
+    body
+  }
+}
+
+// The body cut into subsections. A sub-heading or a sticky block - which in
+// prose is a run-in head, `namecost` being the only sticky thing there - opens
+// one, and it runs to the next. A chapter title and a diagram pass through
+// on their own: both are floated across the page's columns when they are
+// wide, and a float cannot be placed from inside a block. Whatever stands
+// before the first head passes through as it is.
+#let _subsections(body) = {
+  let kids = if body.has("children") { body.children } else { (body,) }
+  // `context` is a keyword, so the element it makes is named by making one.
+  let contextual = (context none).func()
+  // A markup heading knows its depth, not yet its level - that is resolved
+  // later against the offset - so the depth stands for it here.
+  let level(k) = k.fields().at("level", default: k.fields().at("depth", default: 1))
+
+  // First pass: the children into segments, each either a subsection with the
+  // gap its head opens with, or a run that passes through as it is. A
+  // closure cannot write the variables around it, so the segment being
+  // gathered is closed inline at each place a new one opens.
+  let segments = ()
+  let current = (keep: false, kids: (), above: none)
+  for kid in kids {
+    let is-heading = kid.func() == heading
+    let is-head = (kid.func() == block
+      and kid.fields().at("sticky", default: false))
+    if (is-heading and level(kid) == 1) or kid.func() == contextual {
+      if current.kids.len() > 0 { segments.push(current) }
+      segments.push((keep: false, kids: (kid,), above: none))
+      current = (keep: false, kids: (), above: none)
+    } else if is-heading or is-head {
+      if current.kids.len() > 0 { segments.push(current) }
+      let above = if is-head { kid.fields().at("above", default: RUNIN_GAP) }
+        else if level(kid) == 2 { 1.9em } else { 1.6em }
+      current = (keep: true, kids: (kid,), above: above)
+    } else {
+      current.kids.push(kid)
+    }
+  }
+  if current.kids.len() > 0 { segments.push(current) }
+
+  segments.map(seg => if seg.keep { _keep-together(seg.kids.join(), seg.above) }
+    else { seg.kids.join() }).join()
+}
+
 #let two-columns(body) = {
   set page(columns: 2)
   set columns(gutter: COLUMN_GUTTER)
-  body
+  _subsections(body)
 }
 
 // --- document ---------------------------------------------------------------
