@@ -31,10 +31,17 @@
 // spells. The cost is optional; several entries carry only a name.
 // `sticky` keeps the name with the rules text that follows, so a heading is
 // never stranded at the foot of a column.
-// `above` is a parameter because a magic item wants a wider gap before its name
-// than a run-in name inside a unit entry does, and the two share this function.
-// The default is what every caller but `magic-item` uses.
-#let namecost(name, cost, above: 0.9em) = block(above: above, below: 0.2em, sticky: true, {
+// `above` is a parameter because the callers want different gaps before the
+// name and share this function: a magic item its RECORD_GAP, a subtitle under
+// a unit's name the 0.9em that keeps it close to that name. The default is
+// the gap before a run-in head in prose - the rulebook's four hundred, the
+// army books' special-rules chapters - which opens a subsection and needs to
+// stand further from the paragraph above it than that paragraph stands from
+// its own predecessor. At 0.9em it stood nearer, and a new head read as the
+// tail of the text before it.
+#let RUNIN_GAP = 1.4em
+
+#let namecost(name, cost, above: RUNIN_GAP) = block(above: above, below: 0.2em, sticky: true, {
   // Justification would stretch a two-word name across the whole column, so it
   // is switched off here and the name column sized to its content.
   set par(justify: false)
@@ -641,7 +648,13 @@
 // the level-2 heading `emit.py` counts and the outline lists.
 #let SECTION_GAP = 2.6em
 
-#let magic-item-section(kind, name: auto, first: false, body) = {
+// `intro:` is the category's own rules - what a magic weapon replaces, who may
+// wear magic armour - which the rulebook sets under the section heading at the
+// full measure, before the records begin in their columns. The army books
+// leave it off: their sections open on the records, the rules being the
+// rulebook's to state.
+#let magic-item-section(kind, name: auto, first: false, intro: none,
+                        body) = {
   _assert-kind(kind, "magic-item-section")
   let name = if name == auto { MAGIC_ITEM_SECTIONS.at(kind) } else { name }
   show heading.where(level: 2): it => block(
@@ -652,7 +665,12 @@
   // `entry` rather than a heading of its own, so a magic-item section heads
   // exactly as a unit entry does - one definition, not two. Its own break is
   // off: the section decides its own, below.
-  let head = entry(name, first: true)
+  let head = {
+    entry(name, first: true)
+    // Not wrapped in a block, as the chapter intro is not: a paragraph takes
+    // `par.spacing`, and the records' columns follow it at that gap.
+    if intro != none { intro }
+  }
   if first {
     head
     balanced-columns(body)
@@ -661,13 +679,12 @@
       let records = _records(body)
       let across = _measure-width()
       let page-column = page.height - PAGE_MARGIN.top - PAGE_MARGIN.bottom
-      // The heading as it will be set, and the spacing the columns keep from
-      // it - measured with a frame of no height standing in for the columns,
-      // so it is the heading's `below` as it will actually resolve, not a
+      // The heading and intro as they will be set, and the spacing the columns
+      // keep from them - measured with a frame of no height standing in for
+      // the columns, so it is the `below` as it will actually resolve, not a
       // figure copied from the show rule and resolved against the wrong em.
       let head-h = measure(block(width: across,
-        heading(level: 2, name) + block(height: 0pt, above: 0pt, below: 0pt)))
-        .height
+        head + block(height: 0pt, above: 0pt, below: 0pt))).height
       let columns = page-column - head-h
       let width = _column-width(across)
       if _flow(records, width, columns, page-column).column <= 1 {
@@ -1009,12 +1026,31 @@
 // of the page's measure whatever the diagram sits in: a chapter set in two
 // columns holds one at the width the source printed it, capped at the column,
 // rather than at a fraction of a fraction.
-#let diagram(path, fraction) = block(above: 1em, below: 1em, width: 100%,
+//
+// In a page set in columns, a diagram the source printed wider than a column
+// spans both, as a float at the head of the page: at column width it would be
+// half the size it was drawn at, and the diagrams are read for their labels.
+// `fraction` says which it is - the source set its diagrams at half the
+// measure or the whole of it, and nothing between. `span: false` keeps a wide
+// one in its column regardless: a float that finds no room on its page goes
+// to the next, and a chapter whose last page is full leaves it standing alone
+// on a page of its own, which is worse than a diagram at half its size.
+#let _diagram-body(path, fraction) = block(above: 1em, below: 1em, width: 100%,
   align(center, context {
     let measure = page.width - page.margin.left.length - page.margin.right.length
     layout(size => image(path, width: calc.min(fraction * measure, size.width)))
   }),
 )
+
+#let diagram(path, fraction, span: auto) = context {
+  let span = if span == auto { fraction > 0.5 } else { span }
+  if page.columns > 1 and span {
+    place(top + center, scope: "parent", float: true, clearance: 1em,
+      _diagram-body(path, fraction))
+  } else {
+    _diagram-body(path, fraction)
+  }
+}
 
 // The axis labels around a chart. In the source the row axis is set vertically
 // beside the grid; read in flow order it arrives after it, so both axes are set
@@ -1199,7 +1235,7 @@
     // Karaz-a-Karak" - which 463 entries set between the name and the profile.
     // It is `namecost` with no cost, the same call a magic item's name is set
     // with, so a subtitle and an item head sit on the same baseline.
-    if "subtitle" in args { namecost(args.subtitle, "") }
+    if "subtitle" in args { namecost(args.subtitle, "", above: 0.9em) }
     if "profiles" in args { profile(..args.profiles) }
     if "before" in args { args.before }
     for k in order {
@@ -1337,16 +1373,106 @@
   v(1fr)
 })
 
+// --- columns of prose -------------------------------------------------------
+
+// Chapters of continuous rules set in two columns the ordinary way: the first
+// fills to the foot of the page and the second begins, as the source rulebook
+// sets them. Not `balanced-columns`, which levels a section's last page - a
+// run of prose chapters has no last page to level, only the next chapter's
+// first, and that opens on a page of its own. Set on the page rather than in a
+// `columns` block so a chapter title and a wide diagram can float across both
+// columns, which the show rules above `book` do when they find the page set
+// this way. A magic-item section or a lore is not put inside this: each sets
+// its own columns and would set them inside one of these.
+// A subsection - a run-in head or a sub-heading and the paragraphs under it,
+// to the next head - is kept on one column when it is short: set as an
+// unbreakable block, it moves whole to the next column rather than leaving
+// its head and first lines at the foot of one and the rest at the top of the
+// next. Short is up to KEEP_LIMIT of a column. A taller one is left to break
+// where the column ends, as prose does, because moving it whole would leave
+// the column it left up to its own height empty - a column two-thirds blank
+// above a subsection that could have begun there. The limit is where the
+// blank a move can leave stops being worth the head kept with its text; and
+// a subsection taller than a column could not be kept whole at all, since an
+// unbreakable block taller than its column overflows the page and loses its
+// tail. The height is measured at the column's width, as `balanced-columns`
+// measures its records.
+//
+// `above` is the head's own gap, carried out to the block: spacing at the
+// start of a container collapses, so left inside it the head would sit on the
+// paragraph before it at no gap at all.
+#let KEEP_LIMIT = 50%
+
+#let _keep-together(body, above) = context {
+  let width = _column-width(_measure-width())
+  let column = page.height - PAGE_MARGIN.top - PAGE_MARGIN.bottom
+  if measure(block(width: width, body)).height <= KEEP_LIMIT * column {
+    // `below` is what a paragraph brings, so the gap to whatever follows is
+    // the one the last paragraph would have set.
+    block(breakable: false, width: 100%, above: above, below: 1em, body)
+  } else {
+    body
+  }
+}
+
+// The body cut into subsections. A sub-heading or a sticky block - which in
+// prose is a run-in head, `namecost` being the only sticky thing there - opens
+// one, and it runs to the next. A chapter title and a diagram pass through
+// on their own: both are floated across the page's columns when they are
+// wide, and a float cannot be placed from inside a block. Whatever stands
+// before the first head passes through as it is.
+#let _subsections(body) = {
+  let kids = if body.has("children") { body.children } else { (body,) }
+  // `context` is a keyword, so the element it makes is named by making one.
+  let contextual = (context none).func()
+  // A markup heading knows its depth, not yet its level - that is resolved
+  // later against the offset - so the depth stands for it here.
+  let level(k) = k.fields().at("level", default: k.fields().at("depth", default: 1))
+
+  // First pass: the children into segments, each either a subsection with the
+  // gap its head opens with, or a run that passes through as it is. A
+  // closure cannot write the variables around it, so the segment being
+  // gathered is closed inline at each place a new one opens.
+  let segments = ()
+  let current = (keep: false, kids: (), above: none)
+  for kid in kids {
+    let is-heading = kid.func() == heading
+    let is-head = (kid.func() == block
+      and kid.fields().at("sticky", default: false))
+    if (is-heading and level(kid) == 1) or kid.func() == contextual {
+      if current.kids.len() > 0 { segments.push(current) }
+      segments.push((keep: false, kids: (kid,), above: none))
+      current = (keep: false, kids: (), above: none)
+    } else if is-heading or is-head {
+      if current.kids.len() > 0 { segments.push(current) }
+      let above = if is-head { kid.fields().at("above", default: RUNIN_GAP) }
+        else if level(kid) == 2 { 1.9em } else { 1.6em }
+      current = (keep: true, kids: (kid,), above: above)
+    } else {
+      current.kids.push(kid)
+    }
+  }
+  if current.kids.len() > 0 { segments.push(current) }
+
+  segments.map(seg => if seg.keep { _keep-together(seg.kids.join(), seg.above) }
+    else { seg.kids.join() }).join()
+}
+
+#let two-columns(body) = {
+  set page(columns: 2)
+  set columns(gutter: COLUMN_GUTTER)
+  _subsections(body)
+}
+
 // --- document ---------------------------------------------------------------
 
-// `side` widens the margins for the core rulebook, which is set in one column:
-// at the army books' measure a page of continuous prose runs to ~90 characters a
-// line, which is too long to read comfortably.
-//
-// `size` is the other half of the same dial. The source books are set in 10pt
-// Times inside 2cm margins, and the defaults are those two. Libertinus sets
-// tighter than Times, so the line runs a few characters longer than the
+// `side` and `size` are the two dials of the measure, and every book in the
+// corpus - the rulebook included - takes the defaults. The source books are set
+// in 10pt Times inside 2cm margins, and the defaults are those two. Libertinus
+// sets tighter than Times, so the line runs a few characters longer than the
 // source's; that is accepted so the type sits at the size the source printed.
+// The rulebook used to widen `side` for its one-column prose; it now shares
+// the army books' page so the two read as one set.
 #let book(title: "", side: 2.0cm, size: 10pt, body) = {
   set document(title: title)
   set page(
@@ -1389,9 +1515,12 @@
   // still and set itself flush left. Every chapter opening in the corpus was
   // centred on 189pt of a 595pt page. The rule takes the whole measure, as the
   // one beneath a level-2 heading does.
-  show heading.where(level: 1): it => {
-    pagebreak(weak: true)
-    block(width: 100%, below: 1.1em, {
+  //
+  // In a page set in columns the title is floated to the head of the page in
+  // the page's own scope, so it spans both columns as a chapter title should;
+  // the break comes first so the float lands on the chapter's page and not
+  // atop the tail of the one before.
+  let title(it) = block(width: 100%, below: 1.1em, {
       // Both off for the reasons `namecost` has them off, which a chapter title
       // needed just as much and never had. Justification would space a title
       // that runs to two lines right across the measure, VIRTUES OF THE
@@ -1406,21 +1535,42 @@
         #line(length: 100%, stroke: 1pt + hair)
       ]
     })
+  show heading.where(level: 1): it => context {
+    pagebreak(weak: true)
+    if page.columns > 1 {
+      place(top + center, scope: "parent", float: true, clearance: 1.1em,
+        title(it))
+    } else {
+      title(it)
+    }
   }
 
+  //
+  // Hyphenation off, as it is for a chapter title and for the same reason: a
+  // heading too long for its column - THE MOVEMENT PHASE SEQUENCE in the
+  // rulebook's - breaks at a space, not at SE-QUENCE. Justification off with
+  // it, so the first line of a two-line heading is not spaced out across the
+  // measure.
   show heading.where(level: 2): it => block(
-    above: 1.35em, below: 0.5em, sticky: true,
+    above: 1.9em, below: 0.5em, sticky: true,
   )[
-    #text(size: 14.5pt, weight: "bold", tracking: 0.05em)[#upper(it.body)]
+    #set par(justify: false)
+    #text(size: 14.5pt, weight: "bold", tracking: 0.05em, hyphenate: false)[#upper(it.body)]
     #v(-0.52em)
     #line(length: 100%, stroke: 0.6pt + hair)
   ]
 
   // Third tier, used only by the core rulebook: no rule beneath it, so the
-  // hierarchy stays legible against the level-2 headings.
+  // hierarchy stays legible against the level-2 headings. The gaps above the
+  // three tiers step down - 1.9em, 1.6em, RUNIN_GAP - so a heading stands off
+  // the text above it by more than a paragraph break does, and by more the
+  // higher its tier.
   show heading.where(level: 3): it => block(
-    above: 1.1em, below: 0.35em, sticky: true,
-    text(size: 10.5pt, weight: "bold", tracking: 0.04em)[#upper(it.body)],
+    above: 1.6em, below: 0.35em, sticky: true,
+    {
+      set par(justify: false)
+      text(size: 10.5pt, weight: "bold", tracking: 0.04em, hyphenate: false)[#upper(it.body)]
+    },
   )
 
   body
