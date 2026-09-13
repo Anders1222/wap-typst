@@ -16,8 +16,15 @@ anything under `extract/`, Python 3.11+ with `pymupdf`. There is no package
 manifest and no test suite; the verification scripts below are the tests.
 
 ```bash
-# Compile one book. Both flags matter: --ignore-system-fonts makes the local
-# render byte-identical to CI's, --root . resolves the /assets paths.
+# Compile the corpus: every book on build/render.json, in parallel, into out/.
+# It is what CI does, with the same two flags, so a local render is the one
+# that will publish. A compile error stops it with the diagnostic, exit 1.
+python build.py
+python build.py skaven dwarfs     # two books
+python build.py --site            # and assemble _site/ for check_site.py
+
+# Compile one book by hand. Both flags matter: --ignore-system-fonts makes the
+# local render byte-identical to CI's, --root . resolves the /assets paths.
 typst compile --ignore-system-fonts --root . src/lizardmen.typ out/lizardmen.pdf
 
 # Rebuild site/index.html and build/render.json from the books in src/.
@@ -94,9 +101,9 @@ prose as it goes.
 There is no test suite, so verification is per-change and must be run, not
 assumed:
 
-- Changed a book or `template.typ` → compile the affected book(s) with the two
-  flags above and confirm exit 0. A template change affects all 31 books, so
-  compile more than one.
+- Changed a book or `template.typ` → `python build.py` and confirm exit 0. A
+  template change affects all 31 books, and the whole corpus takes seconds, so
+  build all of it rather than the one book you touched.
 - Changed `#book-meta`, or added/removed/renamed a book → `python emit.py`, and
   commit the resulting `site/index.html` and `build/render.json`.
 - Changed anything under `extract/` → the gates need the source PDFs, which are

@@ -63,7 +63,11 @@ python extract/to_book.py lizardmen
 # Rebuild the landing page and the render list from the books
 python emit.py
 
-# Compile one. Bundled fonts only, so this matches the CI render exactly.
+# Compile every book on the render list, in parallel, into out/. Bundled fonts
+# only, so this matches the CI render exactly. --site also assembles _site/.
+python build.py
+
+# Or one by hand, with the same two flags.
 typst compile --ignore-system-fonts --root . src/lizardmen.typ out/lizardmen.pdf
 
 # Check a rendered book still carries every word of its source

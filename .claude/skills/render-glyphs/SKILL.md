@@ -24,13 +24,14 @@ paper.
 
 ## How to run it
 
-Same two renders as `render-text`: the committed tree built in a worktree as
-`out-before/`, the working copy built as `out/`. See that skill for the loop.
+Same two renders as `render-text`: the committed tree built in a worktree
+with `python build.py`, and the working copy built the same way into `out/`.
+See that skill for the commands.
 
 ```bash
-python extract/render_glyphs.py "$TMP/base/out-before" out
-python extract/render_glyphs.py "$TMP/base/out-before" out -n 12   # list more pages
-python extract/render_glyphs.py out-before/skaven.pdf out/skaven.pdf
+python extract/render_glyphs.py "$TMP/base/out" out
+python extract/render_glyphs.py "$TMP/base/out" out -n 12   # list more pages
+python extract/render_glyphs.py "$TMP/base/out/skaven.pdf" out/skaven.pdf
 ```
 
 Do **not** reach for `cmp` on the PDFs instead. Typst stamps a wall-clock
