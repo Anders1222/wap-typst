@@ -666,9 +666,9 @@
       else { none },
     ))
   })
-  // Block spacing is the larger of the two sides it falls between, and a
-  // paragraph brings 0.72em of its own - a full paragraph break between a
-  // spell's name and the rules under it. Set from both sides instead.
+  // An explicit `above` or `below` wins over whatever its neighbour brings, so
+  // the gap between a spell's name and the rules under it is this figure and
+  // not a paragraph break. Named on both sides so neither has to be guessed.
   block(above: 0.28em, body)
 }
 
@@ -1133,7 +1133,13 @@
   // Leaving it on would curl every apostrophe in text the colophon promises is
   // reproduced, and the word-bag gate cannot see punctuation change.
   set smartquote(enabled: false)
-  set par(justify: true, leading: 0.62em, spacing: 0.72em)
+  // A blank line in the source is a paragraph break, and it is set a shade
+  // wider than a line break so the eye can find where one point ends and the
+  // next begins: 1em against 0.62em of leading is a third of a line more. A
+  // block that names its own `above` or `below` keeps that gap, whatever a
+  // paragraph beside it would bring, so this widens the space between
+  // paragraphs and nothing else.
+  set par(justify: true, leading: 0.62em, spacing: 1em)
   set heading(numbering: none)
   // The contents page: a chapter's line is set a half-point above the body and
   // bold, so the six sections under MAGIC ITEMS read as its children.
