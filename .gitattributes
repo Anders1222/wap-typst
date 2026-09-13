@@ -1,6 +1,6 @@
 # Keep LF in the repository. The publish workflow uses backslash line
 # continuations in a bash `run:` block, and a stray CR breaks them on Ubuntu.
 * text=auto eol=lf
-
 *.png -text
 *.pdf -text
+assets/covers/*.png filter=lfs diff=lfs merge=lfs -text

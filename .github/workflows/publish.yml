@@ -21,6 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          # The covers live in Git LFS; the compile reads the real PNGs.
+          lfs: true
 
       - uses: typst-community/setup-typst@v5
 
