@@ -971,27 +971,21 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
   special-rules: "Animosity, Size Matters",
   upgrades: (
     rule("Big Stabbas")[A unit of Savage Orc Boyz may be upgraded to include Big Stabbas. This is represented by including one or more Big Stabba models in the unit. A Big Stabba is mounted on two Infantry bases and must be placed to cover both the first and second rank of the unit, but is otherwise equipped like the rest of the unit. Each Big Stabba model causes D3 Impact Hits with the Multiple Wounds (D3) special rule. Big Stabbas are always the last models to be removed as casualties (excluding any Command Group models); the weapons are picked up by other Savage Orcs in the unit should they be slain.],
-    rule("Big 'Uns")[For each Orc Warboss in your army, you may upgrade one unit of Orc Boys or Orc Boar Boyz of the same sub-species to Big 'Uns. Big 'Uns gain +1 Weapon Skill and the Mighty Blow (1) special rule. In addition, they count as Special Units.],
     rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Infantry (Savage Orc).],
   ),
   options: [
-- May be upgraded to Big 'Uns +2 points/model
 - May be upgraded to Savage Orcs +3 points/model
 - May choose one of the following:
   - Additional hand weapons +1 point/model
   - Spears +1 point/model
-  - Polearms (Common Big 'Uns only) +2 points/model
-  - Great weapons (Big 'Uns only) +3 points/model
 - May take shields (unless armed with great weapons) +1 point/model
 - May choose one of the following:
   - Light armour (Common Orcs only) +0.5 point/model
-  - Medium armour (Common Big Un's only) +1.5 points/model
 - May upgrade two Savage Orcs to a Big Stabba for every 10 models in the unit +10 points/Big Stabba
 - May upgrade one Orc Boy to a Leader +5 points
 - May upgrade one Orc Boy to a Musician +5 points
 - May upgrade one Orc Boy to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-  - Big 'Uns take a Magic Standard worth up to 50 points
   ],
 )
 
@@ -1007,7 +1001,6 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
   equipment: "Hand weapon",
   special-rules: "Animosity, Natural Armour (6+), Size Matters, Tusker Charge (War Boar only)",
   upgrades: (
-    rule("Big 'Uns")[For each Orc Warboss in your army, you may upgrade one unit of Orc Boys or Orc Boar Boyz of the same sub-species to Big 'Uns. Big 'Uns gain +1 Weapon Skill and the Mighty Blow (1) special rule. In addition, they count as Special Units.],
     rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Cavalry (Savage Orc).],
   ),
   options: [
@@ -1018,12 +1011,10 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
 - May take shields (unless armed with additional hand weapons) +1 point/model
 - May choose one of the following:
   - Light armour (Common Orcs only) +1 point/model
-  - Medium armour (Common Big Un's only) +2 points/model
 - May upgrade one Boar Boy to a Leader +5 points
 - May upgrade one Boar Boy to a Musician +5 points
 - May upgrade one Boar Boy to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
-  - Big 'Uns take a Magic Standard worth up to 50 points
   ],
 )
 
@@ -1211,8 +1202,73 @@ only)*, Wall-crawler*
 
 = SPECIAL UNITS
 
-#unit("BRUTES",
+#unit("BIG 'UNS",
   first: true,
+  profiles: (
+    (name: "Big 'Un", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 7, points: 8.5),
+  ),
+  unit-size: "15-45",
+  troop-type: "Infantry (Common Orc)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: "Animosity, Size Matters, Mighty Blow (1)",
+  upgrades: (
+    rule("Big Stabbas")[A unit of Savage Orc Boyz may be upgraded to include Big Stabbas. This is represented by including one or more Big Stabba models in the unit. A Big Stabba is mounted on two Infantry bases and must be placed to cover both the first and second rank of the unit, but is otherwise equipped like the rest of the unit. Each Big Stabba model causes D3 Impact Hits with the Multiple Wounds (D3) special rule. Big Stabbas are always the last models to be removed as casualties (excluding any Command Group models); the weapons are picked up by other Savage Orcs in the unit should they be slain.],
+    rule("Big 'Uns")[For each Orc Warboss in your army, you may take one unit of Big 'Uns or Boar Boy Big 'Uns as a core choice],
+    rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Infantry (Savage Orc).],
+  ),
+  options: [
+- May be upgraded to Savage Orcs +3 points/model
+- May choose one of the following:
+  - Additional hand weapons +1 point/model
+  - Spears +1 point/model
+  - Polearms (Common Big 'Uns only) +2 points/model
+  - Great weapons +3 points/model
+- May take shields (unless armed with great weapons) +1 point/model
+- May choose one of the following:
+  - Light armour (Common Big 'Uns only) +0.5 point/model
+  - Medium armour (Common Big 'Uns only) +1.5 points/model
+- May upgrade two Savage Orcs to a Big Stabba for every 10 models in the unit +10 points/Big Stabba
+- May upgrade one Big 'Un to a Leader +5 points
+- May upgrade one Big 'Un to a Musician +5 points
+- May upgrade one Big 'Un to a Standard Bearer +10 points
+  - May take a Magic Standard worth up to 50 points
+  ],
+)
+
+
+#unit("BOAR BOY BIG 'UNS",
+  profiles: (
+    (name: "Big 'Un", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 7, points: 17),
+    (name: "War Boar", m: 7, ws: 3, bs: 0, s: 3, t: 4, w: 1, i: 3, a: 1, ld: 3, points: ""),
+  ),
+  unit-size: "5-15",
+  troop-type: "Cavalry (Common Orc)",
+  mount: "War Boar (Porcine)",
+  base-size: "25x50 or 30x60",
+  equipment: "Hand weapon",
+  special-rules: "Animosity, Natural Armour (6+), Size Matters, Mighty Blow (1), Tusker Charge (War Boar only)",
+  upgrades: (
+    rule("Big 'Uns")[For each Orc Warboss in your army, you may take one unit of Big 'Uns or Boar Boy Big 'Uns as a core choice],
+    rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Cavalry (Savage Orc).],
+  ),
+  options: [
+- May be upgraded to Savage Orcs +3 points/model
+- May choose one of the following:
+  - Additional hand weapons (Savage Orcs only) +1 point/model
+  - Light lances +1.5 points/model
+- May take shields (unless armed with additional hand weapons) +1 point/model
+- May choose one of the following:
+  - Light armour (Common Big Un's only) +1 point/model
+  - Medium armour (Common Big Un's only) +2 points/model
+- May upgrade one Boar Boy Big 'Un to a Leader +5 points
+- May upgrade one Boar Boy Big 'Un to a Musician +5 points
+- May upgrade one Boar Boy Big 'Uns to a Standard Bearer +10 points
+  - May take a Magic Standard worth up to 50 points
+  ],
+)
+
+#unit("BRUTES",
   profiles: (
     (name: "Brute", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 7, points: 26),
   ),
@@ -1257,25 +1313,24 @@ only)
 
 #unit("BLACK ORCS",
   profiles: (
-    (name: "Black Orc", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 8, points: 13),
+    (name: "Black Orc", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 1, i: 2, a: 2, ld: 8, points: 14),
   ),
   unit-size: "10-30",
   troop-type: "Infantry (Black Orc)",
   base-size: "25x25 or 30x30",
-  equipment: "Hand weapon, medium armour",
+  equipment: "Hand weapon, heavy armour",
   special-rules: "Armed to da Teef, Immunity (Psychology), Mighty Blow (1)",
   options: [
 - Must take one of the following:
   - Shields free
   - Spears free
   - Additional hand weapons +1 point/model
-  - Great weapons +1 point/model
+  - Great weapons +2 point/model
 - May take one of the following:
   - Additional hand weapons +1 point/model
-  - Great weapons +1 point/model
+  - Great weapons +2 point/model
   - Shields +1 point/model
   - Spears +1 point/model
-- May take heavy armour +1.5 point/model
 - May upgrade one Black Orc to a Leader +5 points
 - May upgrade one Black Orc to a Musician +5 points
 - May upgrade one Black Orc to a Standard Bearer +10 points
@@ -1931,7 +1986,7 @@ it.")))
   special-rules-body: (
     rule("Da Boss 'as a Plan!")[Gorbad must be the Army General and also counts as the Battle Standard Bearer. In addition, he has the Inspiring Presence (6) and Hold Your Ground (6) special rules.],
     rule("Da Great Leader")[Friendly units within 18" of Gorbad that fail an Animosity test add Gorbad's current number of Wounds to their roll on the Animosity table.],
-    rule("Orcs are da Best")[An Orc & Goblin army that includes Gorbad may take one of unit of Common Orc Big 'Uns and Common Orc Boar Boy Big 'Uns as a Core choice instead of a Special choice.],
+    rule("Orcs are da Best")[An Orc & Goblin army that includes Gorbad may Common Orc Big 'Uns and Common Orc Boar Boy Big 'Uns as a Core choice instead of a Special choice.],
   ),
 )
 

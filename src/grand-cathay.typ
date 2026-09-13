@@ -576,10 +576,7 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   ),
   troop-type: "War Beast (Chimeric)",
   base-size: "25x50, 30x60, 40x40, 40x60",
-  special-rules: "Fear, Fly (9), Natural Armour (6+)",
-  special-rules-body: (
-    rule("Impale")[Mounts with this special rule gain the Mighty Blow (1) special rule when they charge.],
-  ),
+  special-rules: "Fear, Fly (9), Impale, Natural Armour (6+)",
 )
 
 #unit("GREAT SPIRIT LONGMA",
@@ -589,9 +586,6 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   troop-type: "Monstrous Beast (Chimeric)",
   base-size: "50x75 or 60x100",
   special-rules: "Fear, Fly (9), Impale, Natural Armour (5+)",
-  special-rules-body: (
-    rule("Impale")[Mounts with this special rule gain the Mighty Blow (1) special rule when they charge.],
-  ),
 )
 
 = CORE UNITS
@@ -1145,10 +1139,7 @@ damage as normal."), ("4-6", "Dud. Only the model under the template's central h
   mount: "Longma (Chimeric)",
   base-size: "25x50, 30x60, 40x40, 40x60",
   equipment: "Light lance, medium armour, shield",
-  special-rules: "Celestial Forged Armour, Fear, Fly (9), Natural Armour (6+), Stubborn, Will of the Dragons, Yang",
-  special-rules-body: (
-    rule("Impale")[Mounts with this special rule gain the Mighty Blow (1) special rule when they charge.],
-  ),
+  special-rules: "Celestial Forged Armour, Fear, Fly (9), Impale, Natural Armour (6+), Stubborn, Will of the Dragons, Yang",
   options: [
 - May replace light lances & shields with polearms free
 - May take heavy armour +4 points/model

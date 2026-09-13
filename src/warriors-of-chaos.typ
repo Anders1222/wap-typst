@@ -723,8 +723,11 @@ until the end of the turn.")))
 - Metal
 - Shadow
 
-A Soulflayer with the Mark of Tzeentch, Nurgle or Slaanesh must use the Lore of Tzeentch, Nurgle, or Slaanesh, respectively.
-  ],
+A Sorcerer with a mark of chaos can choose:
+- Nurgle: Lore of Nurgle, Beasts, Death
+- Tzeentch: Lore of Tzeentch, Fire, Heavens
+- Slaanesh: Lore of Slaanesh, Shadow, Metal
+],
   special-rules: "Chaos Armour, Eye of the Gods, Will of Chaos",
   options: [
 - May take an additional Wizard Level +35 points
@@ -917,7 +920,7 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
 #unit("WARRIORS",
   first: true,
   profiles: (
-    (name: "Warrior", m: 4, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 4, a: 1, ld: 8, points: 13),
+    (name: "Warrior", m: 4, ws: 5, bs: 3, s: 4, t: 4, w: 1, i: 4, a: 2, ld: 8, points: 14),
   ),
   unit-size: "10-30",
   troop-type: "Infantry (Human)",

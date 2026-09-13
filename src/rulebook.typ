@@ -2130,6 +2130,10 @@ Impact Hits roll to wound using the Strength of the model making the Impact Hits
 
 Unless specified, any special rules or bonuses that apply to the model’s normal attacks do not apply to its Impact Hits.
 
+=== IMPALE
+
+A mount with this special rule has the Mighty Blow (1) special rule in any turn that it charges.
+
 === INDEPENDENT
 
 A character with this special rule cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule.

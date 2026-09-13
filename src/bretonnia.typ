@@ -468,9 +468,6 @@ of Magic:
   troop-type: "War Beast (Equine)",
   base-size: "25x50 or 50x50",
   special-rules: "Impale, Magical Attacks, Magic Resistance (2)",
-  special-rules-body: (
-    rule("Impale")[A Unicorn gains the Mighty Blow (1) special rule in any turn that it charges.],
-  ),
 )
 
 #unit("PEGASUS",
@@ -1244,7 +1241,7 @@ If a misfire is rolled, roll on the Black Powder Misfire Chart as normal, but su
     rule("The Staff of the Elements")[Arcane Item. Staff. This item allows Élise Duchard to use the Signature Spell from either the Lore of Life or Heavens in addition to her other chosen spells.],
     rule("Chalice Of Brionne")[Enchanted Item. All enemy units within 12" suffer a \-2 Leadership penalty when attempting to use Inspiring Presence, Hold Your Ground, Rally, March, Redirecting a Charge, Reforming from Defeat, Restraining from Pursuit or Swift Reform.],
   ),
-  special-rules: "Aura of the Lady, Impale (Ariandir only, see Unicorns), Magical Attacks (Ariandir only), Magic Resistance (1)",
+  special-rules: "Aura of the Lady, Impale (Ariandir only), Magical Attacks (Ariandir only), Magic Resistance (1)",
   special-rules-body: (
     rule("Arcane Backlash")[Élise Duchard has a +1 dispel bonus. In addition, if she rolls any natural double when dispelling, treat this has having rolled Ultimate Power. If a spell is dispelled by her rolling two or more natural 6's, the casting Wizard also suffer a Wound which Ignores Armour saves.],
   ),

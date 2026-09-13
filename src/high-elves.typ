@@ -555,10 +555,7 @@ Signature Spells from the Winds of Magic.
   ),
   troop-type: "War Beast (Equine)",
   base-size: "25x50 or 30x60",
-  special-rules: "Forest Strider, Magical Attacks, Magic Resistance (2)",
-  special-rules-body: (
-    rule("Impale")[A Unicorn gains the Mighty Blow (1) special rule in any turn that it charges.],
-  ),
+  special-rules: "Forest Strider, Impale, Magical Attacks, Magic Resistance (2)",
 )
 
 #unit("GREAT EAGLE",
