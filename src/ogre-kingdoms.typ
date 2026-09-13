@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes all the different units used in an Ogre Kingdoms army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Ogre Kingdoms units, and these are detailed here.
 
 #namecost("BENEATH CONTEMPT", "")
@@ -165,6 +165,7 @@ One use only. A Butcher with a Scalp-Gnoblar may re- roll a single dice when att
 ]
 = BIG NAMES OF THE OGRES
 
+#balanced-columns[
 *Certain models are able to spend points on Big Names, as detailed in the army list. Each model may only take a single Big Name, unless specified. No big name may be taken more than once in the same army.*
 
 #namecost("DEATHCHEATER", "20 points")
@@ -226,6 +227,7 @@ Monstrous Creatures and Monsters cannot use Stomp against this character or thei
 #namecost("STEEDEATER", "5 points")
 
 The character and any unit they are with gain the Swiftstride special rule when charging or pureeing enemy War Beasts and Cavalry.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Ogres. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

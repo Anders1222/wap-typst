@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Dark Elf army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the Warhammer rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules' that apply to several Dark Elf units, and these are detailed here.
 
 #namecost("ELVEN GRACE", "")
@@ -83,6 +84,7 @@ Deathrain crossbows have the following profile:
 Repeater handbows have the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("8/12\"", "2", "Multiple Shots (3), Quick Shot, Rapid Fire"))
+]
 
 #lore("THE LORE OF DARK MAGIC")[
 
@@ -116,6 +118,7 @@ Repeater handbows have the following profile:
 ]
 = GIFTS OF KHAINE
 
+#balanced-columns[
 *Characters may choose Gifts of Khaine as detailed in the army list. A model may not have multiples of the same upgrade, but an upgrade can be taken by more than one model in the army.*
 
 #namecost("DANCE OF DOOM", "30 points")
@@ -166,6 +169,7 @@ The model gains the Killing Blow special rule.
 #namecost("KHAINITE PENDANT", "10 points")
 
 Disciple of Khaine only. One use only. The model may attempt to use two Blood Rites this turn.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Dark Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

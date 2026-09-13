@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in an Empire army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Empire units, and these are detailed here.
 
 #namecost("STATE TROOPS", "")
@@ -77,10 +78,11 @@ Each Hit from a grenade launching blunderbuss is multiplied into D6 Hits.
 #minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (3), Quick Shot, Rapid Fire"))
 
 #note[_A repeater pistol can be used in combination with a regular pistol as a brace of pistols, in which case they fire Multiple Shots (4), but do not have Rapid Fire._]
+]
 
 = THE CULT OF ULRIC
 
-#columns(2)[
+#balanced-columns[
 You may choose to field your army as the Cult of Ulric. If you do, your Army General must have the Crush the Weak special rule. A Cult of Ulric army may not take magic items marked "Sigmarite only" or include Sisters of Sigmar. The following special rules apply to the Cult of Ulric:
 
 #namecost("CRUSH THE WEAK", "")
@@ -129,7 +131,7 @@ Wolf Kin replace Flagellants for +3 points per model. They have Weapon Skill 4 a
 
 = KNIGHTLY ORDERS
 
-#columns(2)[
+#balanced-columns[
 *Units of Knights may be upgraded to any one of the Knightly Orders below as detailed in the army list. A Grand Master or Chapter Master may only join a unit that belongs to the same Knightly Order. You may only field one Grand Master for each Knightly Order. Grand Masters and Chapter Masters must either be armed with a hand weapon or the same equipment as the rest of their unit.*
 
 #namecost("REIKSGUARD KNIGHTS", "")

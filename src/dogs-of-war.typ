@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes all the different units used in a Dogs of War army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Dogs of War units, and these are detailed here.
 
 #namecost("BACKSTABBERS", "")
@@ -171,7 +171,7 @@ A Pavise has the following armour profile:
 ]
 = QUIRKS OF CHARACTER
 
-#columns(2)[
+#balanced-columns[
 *Models can spend points on Quirks of Character, as detailed in the army list. The points cost below refer to the cost for characters. Characters and units may take up to two Quirks of Characters each. Core Units with two Quirks count as Special Units, and Special Units with two Quirks count as Rare Units. One character and one unit may take the same Quirk of Character, but each Quirk may otherwise only be taken once unless specified.*
 
 #namecost("GRIZZLED WARRIOR", "")

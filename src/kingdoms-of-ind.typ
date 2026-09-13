@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Kingdoms of Ind army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Kingdoms of Ind units, and these are detailed here.
 
 #namecost("DEVA", "")
@@ -62,6 +63,7 @@ A unit with this special rule can benefit from either Good Karma or Bad Karma de
 - *Good Karma:* If the unit successfully destroys, breaks or panics an enemy unit, all models in it may re-roll 1's To Hit and To Wound in close combat and with missile weapons until they suffer Bad Karma.
 
 - *Bad Karma:* If the unit breaks from combat or flees as a result of a Panic test, all models in it must re-roll 6's To Hit and To Wound in close combat and with missile weapons until they gain Good Karma.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Kingdoms of Ind. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

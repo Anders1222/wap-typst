@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in an Amazon army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Amazon units, and these are detailed here.
 
 #namecost("SACRIFICIAL HUNT", "")
@@ -107,6 +108,7 @@ All missile and close combat attacks targeting a model with an Amulet of the Moo
 #namecost("ENCHANTED CHARMS", "")
 
 A model with Enchanted Charms has the Magical Ward (6+) and Magic Resistance (1) special rules.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Amazons. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

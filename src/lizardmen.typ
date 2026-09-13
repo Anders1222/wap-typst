@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Lizardmen army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Lizardmen units, and these are detailed here.
 
 #namecost("BLOOD FRENZY", "")
@@ -71,6 +72,7 @@ In addition, a unit that contains one or more models with this special rule that
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Impact Hits (1), Parry (6+), Magical Attacks, Requires Two Hands"))
 
 #note[_A model with war gauntlets gains +1 Attack._]
+]
 
 #lore("THE LORE OF GEOMANCY")[
 
@@ -104,6 +106,7 @@ In addition, a unit that contains one or more models with this special rule that
 ]
 = BLESSED SPAWNINGS
 
+#balanced-columns[
 *Characters and units that can take Blessed Spawnings are detailed in the army list. The cost below only applies to characters. Lords may take up to 3 Blessed Spawnings. Heroes, Core and Special units may take up to 2 Sacred Spawnings. Core units that take more than one Blessed Spawning count as Special units, and Special units counts as Rare units.*
 
 #namecost("BLESSED MARK OF THE OLD ONES", "10 points")
@@ -141,10 +144,11 @@ Models with this Blessed Spawning may re-roll failed Psychology tests.
 #namecost("BLESSED SPAWNING OF TZUNKI", "5 points")
 
 Models on foot only. Models with this Blessed Spawning have the Aquatic special rule and +2 Initiative.
+]
 
 = DISCIPLINES OF THE OLD ONES
 
-#columns(2)[
+#balanced-columns[
 *A Slann Mage-Priest can purchase Disciplines of the Old Ones as detailed in the Lizardmen Army List. Each Discipline of the Old Ones can only be taken once in each army (excluding Special Characters).*
 
 #namecost("THE FOCUSED RUMINATION", "30 points")

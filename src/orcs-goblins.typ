@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes all the different units used in an Orc & Goblin army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Orc & Goblin units, and these are detailed here.
 
 #namecost("ANIMOSITY", "")

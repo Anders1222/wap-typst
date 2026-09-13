@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes all the different units used in a Bretonnian army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Bretonnian units, and these are detailed here.
 
 #namecost("THE LANCE FORMATION", "")
@@ -119,7 +119,7 @@ At the start of each enemy turn, the transformed model must take a Leadership te
 
 = VIRTUES OF THE CHIVALRIC KNIGHT
 
-#columns(2)[
+#balanced-columns[
 *This section contains the rules for different Virtues used by the Bretonnians. More than one character can have the same Virtue, but to represent the rarity of this, any character that takes a Virtue another character already has must pay double the points listed below. If a third character takes the same Virtue they must pay triple, and so on.*
 
 #namecost("VIRTUE OF HEROISM", "35 points")

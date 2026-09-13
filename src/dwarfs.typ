@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 #namecost("ANCESTRAL GRUDGE", "")
 
 Dwarfs have the Hatred special rule against Orcs, Goblins and Skaven.
@@ -91,6 +92,7 @@ Models with this special rule always Wound on a To Wound roll of 4+ in close com
 #namecost("WARDS OF GRIMNIR", "")
 
 A model with Wards of Grimnir has the Magical Ward (6+) special rule against missile attacks and the Magic Resistance (2) special rule.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Dwarfs. Dwarfs may not use magic items found in the Warhammer rulebook.])
 
@@ -175,7 +177,7 @@ You may inscribe up to three runes onto an item, which will henceforth be consid
 4) Apart from the master runes other runes can be combined as you wish, to produce varied or cumulative effects. With the exception of master runes, runes can be used in multiples when specified, although whether their effects are simply added together or combine into a new power will be stated within the rune's rules. The point costs for cumulative runes can be stated as 5/10/20 for example, where the higher numbers are the cost for the second and/or third cumulative rune.
 
 #entry("WEAPON RUNES")
-#columns(2)[
+#balanced-columns[
 #namecost("MASTER RUNE OF SMITING", "35 points")
 
 A weapon engraved with the Master Rune of Smiting has the Multiple Wounds (D6) special rule.
@@ -397,7 +399,7 @@ A model with the Rune of the Furnace has the Immunity (Flaming Attacks) special 
 One use only. A model with a Rune of Luck can re-roll a single To Hit roll, To Wound roll, armour save, invulnerable save or characteristic test during the game.
 
 #entry("BANNER RUNES")
-#columns(2)[
+#balanced-columns[
 #namecost("MASTER RUNE OF GROTH ONE-EYE", "75 points")
 
 A standard bearing the Master Rune of Groth One-Eye confers the Stubborn special rule to the bearer's unit and all friendly Dwarf units within 12" of the bearer.
@@ -475,7 +477,7 @@ One use only. If the unit carrying a banner with this rune has to take a Break t
 ]
 
 #entry("ENGINEERING RUNES")
-#columns(2)[
+#balanced-columns[
 #namecost("MASTER RUNE OF BURSTING", "")
 #namecost("FLAME", "40 points")
 

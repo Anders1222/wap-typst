@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Halfling army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Halfling units, and these are detailed here.
 
 #namecost("DUCK & WEAVE", "")
@@ -68,6 +69,7 @@ Models with this upgrade gain the Fight in Extra Ranks (1) special rule.
 #namecost("TRINKETS", "")
 
 Models with this special rule may take up two Talismans and/or Enchanted Items rather than just one of each.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Halflings. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes all the different units used in a Zombie Pirate army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Zombie Pirate units, and these are detailed here.
 
 #namecost("THE GENERALS OF UNDEATH", "")
@@ -152,7 +152,7 @@ Models with this special rule must roll a D6 for every To Hit roll of 1 with mis
 ]
 = VAMPIRIC POWERS
 
-#columns(2)[
+#balanced-columns[
 *In this section you will find powers that can be bought for your Vampires. You cannot buy multiples of the same power for a single Vampire, but different Vampires in the same army can have the same powers if you wish.*
 
 #namecost("RED FURY", "30 points")

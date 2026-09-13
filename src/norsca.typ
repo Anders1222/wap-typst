@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Norscan army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Norscan units, and these are detailed here.
 
 #namecost("BLOOD RAGE", "")
@@ -56,9 +57,11 @@ Whenever a model with this special rule makes a successful charge (including Cou
 #namecost("FUR CLOAK", "")
 
 A fur cloak gives the wearer the Natural Armour (6+) special rule against missile attacks.
+]
 
 = SAGAS
 
+#balanced-columns[
 *Certain characters in the Norscan army can choose one of the Sagas on this page, as detailed in the army list. No Saga may be taken more than once per army (excluding Special Characters).*
 
 #namecost("SAGA OF THE FEARLESS LEADER", "35 points")
@@ -89,6 +92,7 @@ Once this model is reduced to 0 Wounds, roll a D6; on a 4+ the model remains fig
 #namecost("SAGA OF THE GLORIOUS HUNTER", "15 points")
 
 Model on foot only. After deployment, but before the first turn begins, select a single character or monster in your opponent’s army. This is the character’s primary quarry. The character may re-roll all failed To Hit and To Wound rolls against his primary quarry in close combat and with missile attacks.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Norscans. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Pirates of Sartosa army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Pirates of Sartosa units, and these are detailed here.
 
 #namecost("DIRTY FIGHTING", "")
@@ -83,6 +84,7 @@ All models with this special rule may re-roll failed Dangerous Terrain tests.
 #minitable(("Range", "Strength", "Special Rules"), ("18/36\"", "6", "Ponderous"))
 #namecost("VOLLEY GUN", "")
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Multiple Shots (D6), Ponderous"))
+]
 
 #lore("THE LORE OF THE DEEP")[
 

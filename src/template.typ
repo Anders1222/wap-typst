@@ -412,14 +412,20 @@
 //
 // The body is cut into records at its paragraph breaks - a magic item is its
 // name and its rules with no break between, and the blank line in the source
-// between one item and the next is the seam. Each record is measured at the
-// column's width, and the flow through the columns is then played out on paper:
-// a record that does not fit runs on into the next column at the line it
-// reached, or moves whole if less than three lines of it would have stayed
-// behind, which is about what `sticky` and the orphan rule do to it. Columns
-// come in pairs, so the pair the last record lands in is the section's last
-// page; the records on that page are split where their heights halve, and the
-// column break goes there. Pages before it are full, and full needs no help.
+// between one item and the next is the seam. A record that ends in a sticky
+// block is a name written with a blank line before its rules, which several
+// books do; `sticky` keeps the two together on the page, so they are one
+// record here too. Each record is measured at the column's width, and so is
+// each neighbouring pair, which gives the gap the page will actually set
+// between them: a paragraph's spacing after prose, a name's own `above` after
+// a name, and not one figure assumed for both. The flow through the columns is
+// then played out on paper: a record that does not fit runs on into the next
+// column at the line it reached, or moves whole if less than three lines of
+// it would have stayed behind, which is about what `sticky` and the orphan
+// rule do to it. Columns come in pairs, so the pair the last record lands in
+// is the section's last page; the records on that page are split where their
+// heights halve, and the column break goes there. Pages before it are full,
+// and full needs no help.
 //
 // It is a model of the layout, not the layout, so the two columns are level
 // to within a record - which is what a break judged by eye is, too.
@@ -439,8 +445,24 @@
   }
   if current.len() > 0 { records.push(current.join()) }
 
+  // Glue a record that ends in a sticky block to the one after it.
+  let space = [ ].func()
+  let ends-sticky(r) = {
+    let kids = (if r.has("children") { r.children } else { (r,) })
+      .filter(k => k.func() != space)
+    (kids.len() > 0 and kids.last().func() == block
+      and kids.last().fields().at("sticky", default: false))
+  }
+  let glued = ()
+  let pending = none
+  for r in records {
+    let r = if pending == none { r } else { pending + parbreak() + r }
+    if ends-sticky(r) { pending = r } else { glued.push(r); pending = none }
+  }
+  if pending != none { glued.push(pending) }
+  let records = glued
+
   let here-y = here().position().y
-  let gap = RECORD_GAP.to-absolute()
   // Three lines of body text: less than that left behind, and the record
   // moves whole.
   let min-keep = 3 * (text.size * (1 + 0.62)).to-absolute()
@@ -450,6 +472,12 @@
     let first-column = page.height - PAGE_MARGIN.bottom - here-y
     let width = (size.width - COLUMN_GUTTER * size.width) / 2
     let heights = records.map(r => measure(block(width: width, r)).height)
+    // `gaps.at(i)` is the space the page sets between record i - 1 and record
+    // i: the pair measured together, less the two on their own.
+    let gaps = (0pt,) + range(1, records.len()).map(i => calc.max(0pt,
+      measure(block(width: width,
+        records.at(i - 1) + parbreak() + records.at(i))).height
+      - heights.at(i - 1) - heights.at(i)))
 
     // Play the flow out. `starts` is the column each record starts in; a
     // record that ran on from the column before carries `carry` of its height
@@ -459,8 +487,8 @@
     let starts = ()
     let carried = ()  // height carried into each column by a split record
     let column-height(c) = if c < 2 { first-column } else { page-column }
-    for h in heights {
-      let lead = if y > 0pt { gap } else { 0pt }
+    for (i, h) in heights.enumerate() {
+      let lead = if y > 0pt { gaps.at(i) } else { 0pt }
       let room = column-height(column) - y - lead
       if h <= room {
         starts.push(column)
@@ -491,18 +519,36 @@
     let on-page = range(records.len()).filter(i => starts.at(i) >= last-page)
     let carried-in = carried.filter(((c, _)) => c == last-page)
       .map(((_, h)) => h).sum(default: 0pt)
-    let total = (carried-in + on-page.map(i => heights.at(i)).sum(default: 0pt)
-      + gap * calc.max(on-page.len() - 1, 0))
+    // A gap precedes every record on the page but one that opens the column.
+    let lead(k, i) = if k > 0 or carried-in > 0pt { gaps.at(i) } else { 0pt }
+    let total = carried-in + on-page.enumerate()
+      .map(((k, i)) => lead(k, i) + heights.at(i)).sum(default: 0pt)
     let break-at = none
     if on-page.len() > 1 {
       let acc = carried-in
       let best = none
-      for i in on-page {
+      let room-a = column-height(last-page)
+      let room-b = column-height(last-page + 1)
+      for (k, i) in on-page.enumerate() {
+        // The gap before record i is set only if i follows something in the
+        // same column; at a seam it is dropped, so it counts toward neither
+        // half's room, but it is part of the total the halfway line is
+        // measured against.
+        let before = acc
+        acc += lead(k, i)
         // The break before record i leaves `acc` in the first column and the
-        // rest in the second; take the seam nearest the halfway line.
+        // rest in the second; take the seam nearest the halfway line. Only a
+        // seam both halves fit at, though. On a page the records fill to the
+        // foot, the seam nearest halfway can lie past what the first column
+        // holds: the record before it runs on into the second column of its
+        // own accord, and a break placed after that run-on opens a third
+        // column, which is a new page with a page's worth of records left
+        // behind it. Where no seam fits, the flow is left to break itself,
+        // which on a full page it does level anyway.
         let off = calc.abs(acc - total / 2)
-        if best == none or off < best { best = off; break-at = i }
-        acc += heights.at(i) + gap
+        let fits = before <= room-a and total - acc <= room-b
+        if fits and (best == none or off < best) { best = off; break-at = i }
+        acc += heights.at(i)
       }
       // A break before the first record on the page would empty the column.
       if break-at == on-page.first() { break-at = none }
@@ -627,7 +673,9 @@
 }
 
 // A lore: its chapter title and its spells, always in two columns, as a
-// magic-item section is.
+// magic-item section is - and through `balanced-columns`, so the two come out
+// level as that section's do rather than the first running to the foot of the
+// page before the second begins.
 //
 // The title is a level-1 heading, which is what the corpus already sets a lore
 // as, so it takes its own page and its centred rule from the chapter show rule.
@@ -638,7 +686,7 @@
   // Not wrapped in a block, as `magic-item-chapter`'s intro is not: a block
   // takes `block.spacing` where a paragraph takes `par.spacing`.
   if intro != none { strong(intro) }
-  _columns(2, body)
+  balanced-columns(body)
 }
 
 // --- profiles ---------------------------------------------------------------
@@ -747,10 +795,16 @@
 )))
 
 // A diagram lifted from the source. Named `diagram` rather than `figure` so it
-// does not shadow Typst's own. The width is a fraction of the measure, so a
-// half-column diagram stays half a column whatever the margins are.
+// does not shadow Typst's own. The width is a fraction of the page's measure,
+// so a half-column diagram stays half a column whatever the margins are - and
+// of the page's measure whatever the diagram sits in: a chapter set in two
+// columns holds one at the width the source printed it, capped at the column,
+// rather than at a fraction of a fraction.
 #let diagram(path, fraction) = block(above: 1em, below: 1em, width: 100%,
-  align(center, image(path, width: fraction * 100%)),
+  align(center, context {
+    let measure = page.width - page.margin.left.length - page.margin.right.length
+    layout(size => image(path, width: calc.min(fraction * measure, size.width)))
+  }),
 )
 
 // The axis labels around a chart. In the source the row axis is set vertically

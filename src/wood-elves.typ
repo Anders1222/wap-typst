@@ -47,7 +47,7 @@
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns[
 This section of the book describes all the different units used in a Wood Elf army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the Warhammer rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules' that apply to several Wood Elf units, and these are detailed here.
 
 #namecost("AMBUSH FROM THE WORLDROOTS", "")
@@ -177,6 +177,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
 ]
 = FOREST SPITES
 
+#balanced-columns[
 *Characters may choose Spites as detailed in the army list. Each Spite may only be chosen once per army.*
 
 #namecost("A BLIGHT OF TERRORS", "25 points")
@@ -221,6 +222,7 @@ A Murder of Spites is a close combat attack that can be used in addition to the 
 #namecost("A RESPLENDENCE OF LUMINESCENTS", "10 points")
 
 A Resplendence of Luminescents gives the character and any unit they join Magical Attacks.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Wood Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

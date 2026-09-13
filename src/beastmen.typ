@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a Beastmen army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Beastmen units, and these are detailed here.
 
 #namecost("BEASTMEN BREEDS", "")
@@ -88,6 +89,7 @@ Models with this special rule have the Mighty Blow (1) special rule in any turn 
 #namecost("UNRULY", "")
 
 All models with this special rule follow the Berserk Rage rules from Frenzy. In addition, if they are forced to charge as a result of a failed Berserk Rage test, they may re-roll failed charge distance results.
+]
 
 #lore("THE LORE OF THE WILD")[
 
@@ -241,6 +243,7 @@ All models with this special rule follow the Berserk Rage rules from Frenzy. In 
 ]
 = MUTATIONS & TRAITS
 
+#balanced-columns[
 *Below are Mutations & Traits that can be bought for your characters. Each can only be chosen once per army, and no model may choose more than three.*
 
 #namecost("CROWN OF HORNS", "30 points")
@@ -314,6 +317,7 @@ Model on foot only. Enemy models targeting the character with missile attacks su
 #namecost("UNCANNY SENSES", "5 points")
 
 The character gains +2 Initiative.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Beastmen. These may be used in addition to the magic items found in the Warhammer rulebook.])
 

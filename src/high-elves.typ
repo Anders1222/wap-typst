@@ -47,6 +47,7 @@
 
 = ARMY SPECIAL RULES
 
+#balanced-columns[
 This section of the book describes all the different units used in a High Elf army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the Warhammer rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules' that apply to several High Elf units, and these are detailed here.
 
 #namecost("ELVEN GRACE", "")
@@ -97,6 +98,7 @@ Heavy armour. Models with dragon armour gain a Magical Ward (6+) and the Immunit
 #namecost("LION CLOAK", "")
 
 The bearer gains the Natural Armour (6+) special rule against missile attacks.
+]
 
 #lore("THE LORE OF HIGH MAGIC")[
 
@@ -130,6 +132,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
 ]
 = ELVEN HONOURS
 
+#balanced-columns[
 *Characters may be given one Elven Honour as detailed in the army list. Each Honour can be taken by more than one model in the army.*
 
 #namecost("ANOINTED OF ASURYAN", "50 points")
@@ -175,6 +178,7 @@ Model on foot only. The model may take no other weapons besides spear, light lan
 #namecost("TIRANOC CHARIOT MASTER", "5 points")
 
 Model on Tiranoc Chariot only. The model may roll an additional D6 for their Impact Hits and pick the highest result. In addition, they may re-roll failed Dangerous Terrain tests.
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the High Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
