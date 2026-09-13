@@ -53,7 +53,7 @@
     text(weight: "bold", size: 10.5pt, tracking: 0.04em, hyphenate: false)[
       #upper(name)
     ],
-    if cost != "" { text(size: 9.5pt, style: "italic", cost) } else { none },
+    if cost != "" { text(size: 10.5pt, style: "italic", cost) } else { none },
   )
 })
 
