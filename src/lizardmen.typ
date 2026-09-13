@@ -288,7 +288,7 @@ The Slann Mage-Priest can choose one additional spell.
 #arcane-item("COATL FAMILIAR", 5, type: "Charm", one-use: true)[This item can be used at the start of any of your Magic phases. When used, the bearer may attempt to cast any one spell from any Lore of Magic normally available to them.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("BLOOD STATUETTE OF SPITE", 35, bound: (level: 2, cast: "7+"))[This item contains a *direct damage* spell with a range of 12" that targets one enemy model, even in a unit. The target model must pass a Toughness test or suffer a Wound which Ignores Armour Saves. If the model takes a Wound from this spell, it must immediately take another Toughness test, losing another Wound if it fails again. This continues until either the model passes a Toughness test or is slain.]
 
 #enchanted-item("PRISM OF AMYNTOK", 35, only: "Slann", bound: (level: 2, cast: "8+"))[This item contains a *direct damage area* spell that uses the line template. Place it 12" in length, directly away from the caster's front arc. Each model in the way suffers a Strength 6 Hit with the Flaming Attacks special rule. This has a +1 bonus To Wound against Daemons, Undead and Vampires.]

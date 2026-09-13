@@ -441,7 +441,7 @@ No saves are allowed against Wounds caused by this weapon.
 #talisman("SHARD OF MORRSLIEB", 5, common: true)[The model gains the Immunity (Killing Blow/Poisoned Attacks/Lore of Death) special rule.]
 ]
 
-#magic-item-section("arcane", columns: 2)[
+#magic-item-section("arcane")[
 #arcane-item("WINDCATCHER PRISM", 55, type: "Relic", bound: true)[This item contains the Signature Spells from all the eight Winds of Magic. Note that you may only attempt to cast one each Magic phase.]
 
 #arcane-item("THE WHITE SISTRUM", 50, type: "Relic")[The bearer gains +1 Power Dice at the start of your Magic phase. In addition, all enemy units within 6" suffer \-1 to their Leadership.]

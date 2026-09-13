@@ -197,7 +197,8 @@ share one, set unbreakable so none of them straddles a boundary either.
 
 Entries containing stat blocks are single-column, since an eleven-column table
 cannot survive an 8cm measure and floating it would sever it from its unit.
-Entries above 3,000 characters of prose get two-column setting; shorter ones stay
-single-column so the second column is never left stranded empty. The column
-choice is made per entry rather than per chapter, because each entry has a full
-page of column height to fill or waste.
+Magic-item sections and spell lores are always set in two columns, whatever
+their length: the chapter reads as one setting from its first section to its
+last, and a short second column is the shape of a short section rather than a
+fault. Prose chapters such as the army special rules wrap themselves in
+`#columns(2)[` by hand.

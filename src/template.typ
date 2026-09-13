@@ -390,44 +390,23 @@
   if intro != none { strong(intro) }
 }
 
-// A section: its page break, its heading, and - the layer that has never had an
-// owner at all - the number of columns its items set in.
+// A section: its page break, its heading, and its items, always in two columns.
 //
-// That number used to be decided at import by counting characters: two columns
-// at 3,000 of them, one below, written into the book as a bare `#columns(2)[`.
-// It is why a chapter of six short sections and a chapter of the same material
-// in one long section come out set differently.
-//
-// Measured here instead, in the geometry the rule is actually about: `layout`
-// gives the page's measure, `measure` the height these items would take set
-// across the whole of it. Taller than the page and there is material enough to
-// fill two columns; shorter and the second stands part-empty, which reads as a
-// fault rather than a choice. Margins and type size are in the answer because
-// they are in the question - which a character count, calibrated for one page
-// geometry every book has since been free to depart from, could never manage.
-//
-// `columns:` overrides the rule where an editor knows better. It is not how the
-// books should be set; it is there so that disagreeing does not mean going back
-// to writing `#columns(2)[` into a book by hand.
-#let magic-item-section(kind, name: auto, columns: auto, first: false, body) = {
+// The column count used to be decided at import by counting characters - two
+// columns at 3,000 of them, one below, written into the book as a bare
+// `#columns(2)[` - and then by measuring whether the items would run past a
+// page set across the whole measure. Both rules existed so that a short section
+// would not leave its second column standing part-empty. The decision now is
+// that a magic-item section is two columns whatever its length, as a lore
+// already was: the chapter reads as one setting from its first section to its
+// last, and a short second column is the shape of a short section, not a fault.
+#let magic-item-section(kind, name: auto, first: false, body) = {
   _assert-kind(kind, "magic-item-section")
-  assert(columns in (auto, 1, 2),
-    message: "magic-item-section: columns must be auto, 1 or 2, not "
-      + repr(columns))
   // `entry` rather than a heading of its own, so a magic-item section breaks
   // and heads exactly as a unit entry does - one definition, not two.
   entry(if name == auto { MAGIC_ITEM_SECTIONS.at(kind) } else { name },
         first: first)
-  if columns == auto {
-    layout(size => {
-      let tall = measure(block(width: size.width, body)).height >= size.height
-      if tall { _columns(2, body) } else { body }
-    })
-  } else if columns == 2 {
-    _columns(2, body)
-  } else {
-    body
-  }
+  _columns(2, body)
 }
 
 // --- spells -----------------------------------------------------------------
@@ -507,13 +486,8 @@
   block(above: 0.28em, body)
 }
 
-// A lore: its chapter title and its spells, always in two columns.
-//
-// Not measured, as a magic-item section is. That rule exists because a chapter
-// of six sections can leave one of them with four items in it, and four items
-// do not fill two columns. A lore is not built that way - it is eight or nine
-// spells that arrive together and always run past the page - so measuring it
-// would only be an expensive way of answering two every time.
+// A lore: its chapter title and its spells, always in two columns, as a
+// magic-item section is.
 //
 // The title is a level-1 heading, which is what the corpus already sets a lore
 // as, so it takes its own page and its centred rule from the chapter show rule.

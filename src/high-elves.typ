@@ -287,7 +287,7 @@ Model on Tiranoc Chariot only. The model may roll an additional D6 for their Imp
 #arcane-item("SPELL CROWN OF DUSK", 10, type: "Relic")[The bearer of this item gains access to a randomly generated Lvl 1 spell (which may be replaced by the Signature Spell) from the Lore of High Magic.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("RADIANT GEM OF HOETH", 35)[The bearer of the Radiant Gem of Hoeth becomes a Level 1 Wizard using the Lore of High Magic.]
 
 #enchanted-item("KHAINE'S RING OF FURY", 35, bound: true)[Khaine's Ring of Fury contains the _Fury of Khaine_ spell from the Lore of High Magic.]

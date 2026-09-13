@@ -317,7 +317,7 @@ The character gains +2 Initiative.
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Beastmen. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
-#magic-item-section("weapon", columns: 2, first: true)[
+#magic-item-section("weapon", first: true)[
 #magic-weapon("AXES OF KHORGOR", 40, type: "Two hand weapons")[The bearer may re-roll all failed rolls To Hit and To Wound in close combat. In addition, he gains the Armour Piercing (1) special rule.]
 
 #magic-weapon("AXE OF MEN", 40)[The Axe of Men gives the wielder the Killing Blow special rule. In addition, if the bearer kills an enemy character in a challenge, they and any unit they are with gain the Stubborn and Terror special rule for as long as they remain with the unit.]

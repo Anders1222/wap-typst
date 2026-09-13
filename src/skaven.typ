@@ -197,7 +197,7 @@ previous target to be affected by Plague.")))
 ]
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Skaven. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
-#magic-item-section("weapon", columns: 2, first: true)[
+#magic-item-section("weapon", first: true)[
 #magic-weapon("FELLBLADE", 85, only: "Clawlord")[This foul sword gives the bearer Strength 10 and the Multiple Wounds (D6) special rule, and successful Magical Ward saves taken against Wounds inflicted by the bearer in close combat must be re-rolled. Roll a D6 at the end of each of the wielder's turns; on a 3+ there is no effect. On a roll of 1\-2 the wielder suffers 1 wound which Ignores Armour Saves.]
 
 #magic-weapon("ELECTRO-WHIP", 40, only: "Clan Moulder", common: true)[Whip. An Electro-whip gives the wielder +D3 Attacks rather than 1 as well as the Lightning Attacks special rule.]
@@ -281,7 +281,7 @@ previous target to be affected by Plague.")))
 #arcane-item("WARPSTONE TOKEN", 10, type: "Charm", one-use: true, common: true)[Multiples of this item may be taken by a single model. The model can choose to use one or more tokens whenever they cast a spell. For each token consumed, they add add an additional power dice to their casting attempt. This allows them to roll more dice than is normally allowed by their level. A spell may be cast entirely with Warpstone Tokens if you wish. However, for every Warpstone generated dice that rolls a 1 the Wizard suffers a Wound with no saves allowed.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("BRASS ORB", 40, only: "Clan Skryre", one-use: true)[The bearer can throw the Brass Orb in the Shooting phase. Place the small round template with its centre anywhere within 6" of the character and in his line of sight. The template then scatters D3". Models touched by the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound with the Ignores Armour Saves and Magical Attacks special rules.]
 
 #enchanted-item("BILIOUS BELL", 30, only: "Clan Pestilens", one-use: true)[This item can be used at the start of any of your turns. When used, all enemy units within 18" of the bearer of this item suffer a Strength 3 Hit, enemy units within 12" suffer D3 Strength 4 Hits and enemy units within 6" suffer D6 Strength 5 Hits.]

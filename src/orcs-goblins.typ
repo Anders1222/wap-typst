@@ -314,7 +314,7 @@ Remains in Play. _Curse of da Bad Moon_ is a *magical vortex* that uses the smal
 ]
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Orcs & Goblins. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
-#magic-item-section("weapon", columns: 2, first: true)[
+#magic-item-section("weapon", first: true)[
 #magic-weapon("BATTLEAXE OF THE LAST BIG WAAAGH!", 85, only: "Orcs")[Roll a D6 at the start of each round of combat – the wielder of this weapon adds that number to both his Attacks and Strength in that round. However, the bearer's Weapon Skill is lowered by an amount equal to half the dice roll (i.e. 1\-2 = \-1 Weapon Skill, 3\-4 = \-2 Weapon Skill, and 5\-6 = \-3 Weapon Skill).]
 
 #magic-weapon("WARBOSS IRONCLAW'S WAAAGH! CLEAVA", 60, only: "Common Orcs")[All hits from Warboss Ironclaw's Waaagh! Cleava Wound automatically with the Ignores Armour Saves special rule.]
@@ -408,7 +408,7 @@ Remains in Play. _Curse of da Bad Moon_ is a *magical vortex* that uses the smal
 #magic-armour("SPITEFUL SHIELD", 10, only: "Goblins", type: "Shield")[For each To Hit roll of a 1 against the bearer in close combat, the Spiteful Shield inflicts a Strength 5 Hit against the model that struck the blow.]
 ]
 
-#magic-item-section("talisman", columns: 2)[
+#magic-item-section("talisman")[
 #talisman("HEADDRESS OF MANY EYES", 30, only: "Forest Goblin on foot")[The wearer can only be hit in close combat on To Hit rolls of a natural 6.]
 
 #talisman("AMULET OF PROTECTYNESS", 25)[Whenever the bearer of the Amulet of Protectyness suffers a Wound, they count as having the same armour and Ward save as the model that caused the Wound.]
@@ -444,7 +444,7 @@ Remains in Play. _Curse of da Bad Moon_ is a *magical vortex* that uses the smal
 #talisman("GLOWY HOWZIT", 10)[This item gives the bearer the Magical Ward (5+) special rule. At the end of each phase in which the model suffered 1 or more Wounds, roll a D6 for each failed Ward save roll they made. On the roll a 1, the Glowy Howzit cannot be used for the remainder of the game.]
 ]
 
-#magic-item-section("arcane", columns: 2)[
+#magic-item-section("arcane")[
 #arcane-item("STAFF OF SNEAKY STEALIN'", 60, only: "Goblins", type: "Staff")[At the start of each of your Magic phases, the Staff of Sneaky Stealin' allows you to remove one dice from the opponent's Dispel dice pool and add it to your own Power dice pool.]
 
 #arcane-item("SKULL WAND OF KALOTH", 50, type: "Staff")[The Skull Wand unleashes a curse on a single enemy model that is in base contact with the bearer at the start of the Close Combat phase. The victim must pass a Leadership test (using its own, unmodified, Leadership) or be slain instantly, with no save of any kind allowed. In addition, the bearer of the Skull Wand causes Terror.]
@@ -485,7 +485,7 @@ Remains in Play. _Curse of da Bad Moon_ is a *magical vortex* that uses the smal
 ]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("THE CROWN OF GORK", 40, only: "Common Orc")[All friendly units within 12" of the bearer may re-roll failed Animosity tests.]
 
 #enchanted-item("SQUIGRILER PIPES", 35, only: "Night Goblins")[This item may be used in your Remaining Moves sub-phase. When used, all Squig units within 18" will immediately make a Random Move (using their normal Random Movement) directly towards the bearer of this item. If they get into base contact with the bearer, it is immediately removed as a casualty.]

@@ -329,7 +329,7 @@ The character and any unit they are with gain the Swiftstride special rule when 
 #arcane-item("WIZARDFLESH APRON", 20, only: "Wizard with the Lore of the Great Maw", type: "Relic")[At the start of each of your Magic phases, the bearer of this item can pick one additional spell from the Lore of the Great Maw of those normally available to them and cast it this turn.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("TOKENS OF THE EVERWINTER", 30, one-use: true)[This can be used at the start of any round of close combat. For the duration of this turn, the model (but not any mount) gains +1 Strength as well as the Always Strikes First and Natural Armour (5+) special rules.]
 
 #enchanted-item("BRAND OF THE SVARD", 25, only: "Mounted model")[The bearer's mount gain +1 To Hit in close combat.]

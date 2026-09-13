@@ -419,7 +419,7 @@ Model on foot only. The model gains Movement 10 and the Swiftstride special rule
 #talisman("CLOAK OF THE WAXING MOON", 15, only: "Cairn Wraith")[The wearer of this item can only be Hit on To Hit rolls of natural 6's.]
 ]
 
-#magic-item-section("arcane", columns: 2)[
+#magic-item-section("arcane")[
 #arcane-item("THE DERMAL ROBE", 70, type: "Relic")[The wearer gains a +1 casting and dispel bonus. In addition, they gain +1 to their channelling rolls.]
 
 #arcane-item("STAFF OF RAUKHAMON", 45, only: "Necrarch", type: "Staff", bound: true)[This staff contains the _Hellish Vigour_ spell from the Lore of Necromancy. Roll a D6 each time the Staff is used. On a roll of 1, the Staff is temporarily exhausted and cannot cast this bound spell for the rest of the battle. In addition, all enemy units within 6" of the Staff\`s bearer suffer a \-1 penalty on their rolls To Hit in close combat.]
@@ -457,7 +457,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 #arcane-item("STAVE OF SUFFERING", 15, type: "Staff")[The bearer of this item gains a +1 casting bonus for each spell that has successfully inflicted one or more unsaved Wounds the same Magic Phase. This bonus is cumulative.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("MIDNIGHT AMULET", 40, one-use: true)[This item can be used in any of your Magic phases. Pick one enemy unit within 12"; that unit suffers D6 Strength 4 Hits multiplied by the number of the current game turn.]
 
 #enchanted-item("THE CASKET OF AGES", 35, bound: (level: 1, cast: "6+"))[The Casket of Ages contains a *direct damage* spell that targets one enemy model in base contact. The target model suffers one Wound which Ignores Armour Saves. If the Wound is not saved, the victim must pass a Toughness test or suffer an additional Wound with no saves allowed.]

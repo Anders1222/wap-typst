@@ -169,7 +169,7 @@ Disciple of Khaine only. One use only. The model may attempt to use two Blood Ri
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Dark Elves. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
-#magic-item-section("weapon", columns: 2, first: true)[
+#magic-item-section("weapon", first: true)[
 #magic-weapon("DOOMSINGER", 65)[At the beginning of each round of close combat, roll a D3; the result is the number you may increase the wielder's Weapon Skill, Strength and Attacks by.]
 
 #magic-weapon("CHILLBLADE", 50)[Attacks made with the Chillblade wound automatically and have the Ice Attacks special rule. For each unsaved Wound suffered from the Chillblade, the target suffers \-1 to its Attacks characteristic until the end of this Close Combat phase.]
@@ -260,7 +260,7 @@ Lifetaker ignores all To Hit modifiers.
 #talisman("NULL TALISMAN", 10, common: true)[Any dispel attempt made against enemy spells targeting the model carrying this item, or any unit they are with, gains a +3 dispel bonus.]
 ]
 
-#magic-item-section("arcane", columns: 2)[
+#magic-item-section("arcane")[
 #arcane-item("BLACK STAFF", 55, type: "Staff")[Whenever the bearer casts a spell, they may add an additional free power dice to the result after rolling the dice. However, if this extra dice rolls a 1, the Wizard suffers 1 Wound which Ignores Armour Saves.]
 
 #arcane-item("SHADOW STONE", 55, type: "Relic")[When casting spells from the Lore of Shadow, the Wizard gains a +1 casting bonus and may re-roll a single roll of a natural 1 per casting attempt.]
@@ -286,7 +286,7 @@ Lifetaker ignores all To Hit modifiers.
 #arcane-item("CRYSTAL HEART", 10, type: "Relic")[The bearer of this item may choose to attempt to cast one spell twice per Magic phase. However, every time they choose to do so, roll a D6 first. On the roll of a 1, the model suffers a Wound which Ignores Armour saves.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("RUBRIC OF DARK DIMENSIONS", 35, bound: (level: 2, cast: "7+"))[The Rubric of Dark Dimensions contains a *direct damage* spell which targets all enemy models in base contact with the caster. The target models must pass a Strength test for each Wound on their profile or suffer a Wound which Ignores Armour Saves.]
 
 #enchanted-item("ASPHYXICA CENSER", 30, only: "Disciple of Khaine")[At the start of each round of close combat, all enemy models in base contact with the bearer must take a Toughness test or suffer a Wound with no saves allowed.]

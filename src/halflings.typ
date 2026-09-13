@@ -138,7 +138,7 @@ Models with this special rule may take up two Talismans and/or Enchanted Items r
 #talisman("PIDGEON PLUCKER PENDANT", 5)[This item grants the bearer a Magical Ward (4+) against Wounds caused in close combat by models that have the Fly special rule.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("WIZARDING HAT", 50)[The wearer is treated as being a Level 2 Wizard who can use a randomly chosen spell lore from any of the Winds of Magic from the _Warhammer Rulebook_ at the start of the game. However, they also have the Stupidity special rule. Note that they may not choose any Arcane Items.]
 
 #enchanted-item("OLORIN THE GREY'S KNICKKNACK", 45, bound: true)[This item contains both _The Enfeebling Foe_ and _The Withering_ spells from the Lore of Shadows. However, you may only attempt to cast one of these spells once per Magic phase.]
