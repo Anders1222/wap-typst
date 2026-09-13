@@ -1422,7 +1422,6 @@ Wounds (D6) Special rule. All other models hit by the template suffer a Strength
 )
 
 #unit("STEAM TANK",
-  breakable: true,
   profiles: (
     (name: "Steam Tank", m: "*", ws: "-", bs: "-", s: 6, t: 7, w: 10, i: "-", a: "-", ld: "-", points: 250),
     (name: "Engineer Commander", m: "-", ws: 3, bs: 3, s: 3, t: "-", w: "-", i: 3, a: 1, ld: 7, points: ""),

@@ -1235,7 +1235,6 @@ Siege Cannons do not suffer any penalties To Hit for moving and shooting. If you
 )
 
 #unit("SIEGE GIANT",
-  breakable: true,
   profiles: (
     (name: "Siege Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 200),
   ),

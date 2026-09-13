@@ -1120,7 +1120,6 @@ another victim. Roll again on this table to see what happens.")))
 )
 
 #unit("SLAVE GIANT",
-  breakable: true,
   profiles: (
     (name: "Slave Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 155),
   ),

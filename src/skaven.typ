@@ -462,7 +462,6 @@ They may use a combination of spells from both Lores. In addition, they can also
 )
 
 #unit("VERMINLORD",
-  breakable: true,
   profiles: (
     (name: "Verminlord", m: 8, ws: 8, bs: 4, s: 6, t: 6, w: 6, i: 10, a: 5, ld: 8, points: 450),
   ),
@@ -1241,7 +1240,6 @@ Attacks special rule."), ("6", "Power Failure: The Doom-flayer may not attack or
 )
 
 #unit("STORMFIEND",
-  breakable: true,
   profiles: (
     (name: "Stormfiend", m: 6, ws: 4, bs: 3, s: 5, t: 5, w: 4, i: 5, a: 4, ld: 7, points: 70),
   ),

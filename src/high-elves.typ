@@ -1007,7 +1007,6 @@ Signature Spells from the Winds of Magic.
 )
 
 #unit("FLAMESPYRE PHOENIX",
-  breakable: true,
   profiles: (
     (name: "Flamespyre Phoenix", m: 2, ws: 5, bs: 0, s: 5, t: 5, w: 5, i: 4, a: 4, ld: 8, points: 235),
     (name: "Frostheart Phoenix", m: 2, ws: 6, bs: 0, s: 5, t: 6, w: 5, i: 3, a: 3, ld: 9, points: ""),

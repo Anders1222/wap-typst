@@ -1191,7 +1191,7 @@
 
 // The settings that are the entry itself rather than one of its fields.
 #let _UNIT_SETTINGS = ("first", "compact", "profiles", "subtitle", "order",
-                      "before", "after", "labels", "solo", "breakable")
+                      "before", "after", "labels", "solo")
 
 // A named rule bullet - the `- *Impetuous:* ...` the corpus writes by hand - as a
 // record, the shape `magic-item` and `spell` already have. 872 entries carry one
@@ -1334,9 +1334,17 @@
   // page starts when the last one is full, which is how the source sets its
   // ordinary units and how a reader looks two of them up side by side. The block
   // is unbreakable so an entry that does not fit moves whole rather than
-  // straddling; `breakable` lifts that for the entries taller than a page, which
-  // have to split somewhere and would otherwise overflow the page and lose their
-  // tail silently.
+  // straddling. The entries taller than a page have to split somewhere, and
+  // unbreakable they would overflow the page and lose their tail silently; so
+  // each entry is measured against the page, and one taller than it opens a
+  // page of its own and breaks where that page ends. A page of its own, as a
+  // solo entry has, rather than the flow: left to flow, such an entry began
+  // under the foot of the entry before it and ran on over the page, so the
+  // reader met its stat line on one page and most of its rules on the next,
+  // with two units sharing the page it started on. Taller than a page, it
+  // fills that page anyway, so nothing is given up. Measured rather than
+  // declared: a `breakable: true` written into the book went stale when the
+  // measure changed and the entry came to fit, and then split for no reason.
   if args.at("compact", default: false) {
     compact-entry(name, body)
   } else if args.at("solo", default: false) {
@@ -1344,19 +1352,26 @@
     body
   } else {
     [#metadata((kind: "entry", name: name))<meta>]
-    block(
-      breakable: args.at("breakable", default: false),
-      // Entries share a page now, so the gap between two of them is the only
-      // thing telling a reader where one unit stops and the next starts. At the
-      // old 1.6em that gap measured 12pt against the 10pt *inside* an entry,
-      // between a profile and its fields - which read as one long entry rather
-      // than two. 3.2em puts about three line-heights between them.
-      above: 3.2em, below: 0.6em,
-      {
+    context {
+      let inner = {
         heading(level: 2, name)
         body
-      },
-    )
+      }
+      let page-column = page.height - PAGE_MARGIN.top - PAGE_MARGIN.bottom
+      let height = measure(block(width: _measure-width(), inner)).height
+      let fits = height <= page-column
+      if not fits { pagebreak(weak: true) }
+      block(
+        breakable: not fits,
+        // Entries share a page now, so the gap between two of them is the only
+        // thing telling a reader where one unit stops and the next starts. At the
+        // old 1.6em that gap measured 12pt against the 10pt *inside* an entry,
+        // between a profile and its fields - which read as one long entry rather
+        // than two. 3.2em puts about three line-heights between them.
+        above: 3.2em, below: 0.6em,
+        inner,
+      )
+    }
   }
 }
 

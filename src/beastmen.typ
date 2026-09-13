@@ -1151,7 +1151,6 @@ If the target unit contains one or more models mentioned in Ghostsight, you may 
 )
 
 #unit("GIANT",
-  breakable: true,
   profiles: (
     (name: "Giant", m: 6, ws: 3, bs: 3, s: 6, t: 6, w: 6, i: 3, a: "*", ld: 10, points: 180),
   ),

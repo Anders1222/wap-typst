@@ -168,14 +168,15 @@ page and a new page starts when the last one is full, in an unbreakable block so
 an entry that does not fit moves whole rather than straddling. `solo: true` gives
 it a page of its own — every entry under `= SPECIAL CHARACTERS`, where the entry
 is the spread. `compact: true` is the character mount, a stat line and two fields
-that would leave a page of its own empty. `breakable: true` lifts the no-split
-rule for the 28 entries taller than a page, which have to break somewhere and
-would otherwise overflow and lose their tail silently — so **never mark an entry
-`breakable: false` by hand without checking it fits**; the gate is a word-bag
-compare of the rendered PDF, which is what catches an overflow. A magic-item
-section decides for itself: one that fits on a page is set as one unbreakable
-block that the page places where there is room, with `SECTION_GAP` above it,
-and one longer than a page opens a page. Nothing in a book says which.
+that would leave a page of its own empty. An entry taller than a page has to
+break somewhere, and the template finds those by measuring: such an entry opens
+a page of its own and breaks where that page ends, instead of overflowing and
+losing its tail silently. There is no `breakable:` flag to write — it used to
+exist, went stale as the measure changed, and is now a compile error. A
+magic-item section decides for itself the same way: one that fits on a page is
+set as one unbreakable block that the page places where there is room, with
+`SECTION_GAP` above it, and one longer than a page opens a page. Nothing in a
+book says which.
 
 ## Commits
 
