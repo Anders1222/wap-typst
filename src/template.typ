@@ -1423,7 +1423,14 @@
 #let cover(title: "", subtitle: "", art: none) = page(footer: none, {
   v(1fr)
   align(center)[
-    #text(size: 50pt, weight: "bold", tracking: 0.12em)[#upper(title)]
+    // Both off, as they are for a chapter title and for the same reasons. A
+    // title too long for the measure breaks at a space, not at DRA-CONIS;
+    // and its first line is not spaced out across the measure, THE and ORDO
+    // pushed to the margins with the gap between them. Four covers wrapped
+    // mid-word before this: the Ordo Draconis, Ogre Kingdoms, Zombie Pirates
+    // and the rulebook.
+    #set par(justify: false)
+    #text(size: 50pt, weight: "bold", tracking: 0.12em, hyphenate: false)[#upper(title)]
     #v(0.2em)
     #line(length: 42%, stroke: 1.2pt + hair)
     #v(0.4em)

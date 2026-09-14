@@ -1,6 +1,6 @@
 # Book cover illustrations
 
-Thirty faction illustrations and one main rulebook illustration replace the books' extracted cover images.
+Thirty-one faction illustrations and one main rulebook illustration provide the books' cover art.
 
 - Files: `covers/<slug>.png`, shared by the Typst covers and the website cards.
 - Format: 1254 × 1254 PNG, RGBA, with the generated alpha channel preserved. Transparent areas contain no painted background.
@@ -13,6 +13,7 @@ The visual briefs below interpret the lore and visual references. The correspond
 | Faction | Visual brief | Lore / faction reference | Visual reference |
 |---|---|---|---|
 | Main rulebook | Empire, Dwarf and High Elf defenders facing Chaos and an Orc beneath a dragon | Core rulebook and the faction references below | The existing faction cover collection; a new ensemble composition |
+| The Ordo Draconis | Mounted vampire knight, black-drake banner, living blood wyrm and bats | [Faction manuscript](../src/ordo-draconis.typ), especially The Order and The Drakes; added 2026-09-14 | Existing Vampire Counts and Bretonnia covers, inspected for painted style and transparent composition |
 | Albion | Truthsayer, woad warrior, Ogham stone and giant | [Reference](https://whfb.lexicanum.com/wiki/Albion) | [Art / gallery](https://www.deviantart.com/dewitteillustration/art/Warhammer-Albion-Brightwoad-Bearer-794994101) |
 | Amazons | Lustrian warrior sisterhood, feathers, jade and ancient sunstaff | [Reference](https://warhammerfantasy.fandom.com/wiki/Amazons) | [Art / gallery](https://warhammerarmiesproject.blogspot.com/2015/10/) |
 | Araby | Desert commander, Arabian horse and djinn | [Reference](https://warhammerfantasy.fandom.com/wiki/Araby) | [Art / gallery](https://warhammerarmiesproject.blogspot.com/2015/10/) |

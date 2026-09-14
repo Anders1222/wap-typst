@@ -104,6 +104,10 @@
   "cover": "covers/rulebook.png"
  },
  {
+  "id": "ordo-draconis",
+  "cover": "covers/ordo-draconis.png"
+ },
+ {
   "id": "tomb-kings",
   "cover": "covers/tomb-kings.png"
  },

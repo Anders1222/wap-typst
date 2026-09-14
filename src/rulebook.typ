@@ -3963,6 +3963,14 @@ Unless both players agree to show their army lists to each other before the batt
 
 Always make sure to make it clear to your opponent what unit is which, and what equipment they have if necessary. Note down what additional Magic Items and equipment each unit might have, along with chosen spells other upgrades and where any hidden units might be deployed so this is not forgotten during the battle.
 
+#namecost("ARMIES OF INFAMY", "")
+
+*Some books offer a second way of building a force from them, called an Army of Infamy.*
+
+An Army of Infamy is chosen in place of the book's ordinary list rather than alongside it. It may move entries from one category to another, refuse you entries the book otherwise allows, add entries of its own, and lay one or more rules over the whole army. It may also change which units count towards the minimum an army must spend on Core units. Everything in the book that the Army of Infamy does not change applies as it is written.
+
+Both players should know which composition each army is using before deployment.
+
 #namecost("THE ARMY GENERAL", "")
 
 *An army must always include at least one character to be its Army General.*
