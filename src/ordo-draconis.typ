@@ -1,17 +1,13 @@
-// The Ordo Draconis - an Army of Infamy for Vampire Counts 3.0.
-//
-// Ours, and a book of its own rather than an edition of Vampire Counts. It
-// began as the single proposal in src/vampire-counts-proposal.typ and was made
-// house-official on 2026-08-28; that file and editions/proposal/vampire-counts.toml
-// went in the same commit, which is what the proposal edition's own header says
-// happens once a proposal is agreed.
+// The Ordo Draconis 1.0 - an Army of Infamy for Vampire Counts, and a book of
+// Warhammer Armies Revamped's own. Written by hand; this file is the source of
+// truth, so edit it directly. Nothing regenerates it.
 //
 // It is self-contained on purpose: an Ordo Draconis is played from this book
-// and no other. The chapters it shares with Vampire Counts 3.0 - the army
-// special rules, the Lore of Necromancy, the Vampiric Powers, the Magic Items,
-// and the twelve unit entries, three character entries and four mounts the list
-// keeps - are Mathias Eliasson's text, copied verbatim from src/vampire-counts.typ
-// and then altered only where this list removes an option. Every one of those
+// and no other. The chapters it shares with Vampire Counts - the army special
+// rules, the Lore of Necromancy, the Vampiric Powers, the Magic Items, and the
+// twelve unit entries, three character entries and four mounts the list keeps -
+// are Mathias Eliasson's text, copied from src/vampire-counts.typ and then
+// altered only where this list removes an option. Every one of those
 // alterations is set out in WHAT WAS CHANGED at the back.
 //
 // THAT COPY DOES NOT TRACK. A correction to src/vampire-counts.typ does not
@@ -19,40 +15,63 @@
 //
 // Ours: the Order chapter, the list rules, the reduced Blood Knight profile,
 // the Blood Guard, the Sworn, the Blood Wyrms, the Elder Wyrm, the Great Wyrm,
-// Emmerich,
-// Ankhara, the six Ordo items, the four Ordo powers and the closing two
-// chapters. See the colophon.
+// the Blood Heralds, the Porter, Emmerich, Ankhara, the seven Ordo items, the
+// five Ordo powers and the closing two chapters. See the colophon.
+//
+// The book came over from the Warhammer Armies Project's own repository, where
+// it was written as src/ordo-draconis/2026.1.typ; this edition's format was
+// applied to it here.
 
 #import "template.typ": *
 
 #book-meta(
   slug: "ordo-draconis",
   army: "The Ordo Draconis",
-  version: "2026.1",
+  version: "1.0",
   layout: "army",
   align: "destruction",
-  shelf: "house",
-  authored: true,
 )
 
-#show: book.with(title: "The Ordo Draconis — an Army of Infamy for Vampire Counts 3.0")
+#show: book.with(title: "Warhammer Armies Revamped — The Ordo Draconis 1.0")
 
 #cover(
   title: "The Ordo Draconis",
-  subtitle: "An Army of Infamy for Vampire Counts 3.0 · House Rules 2026.1",
+  subtitle: "Warhammer Armies Revamped · 1.0",
   art: none,
 )
 
 #colophon((
-  "This book is not the Warhammer Armies Project's. The Ordo Draconis is an Army of Infamy of our own, written for Vampire Counts 3.0 and played as part of our house rules.",
-  "It is self-contained, so the chapters it shares with that book are reproduced from it, and several of the entries in them have been altered where this list removes an option. Those alterations are listed under What Was Changed and are not marked in the body. Do not take a rule here to be the author's wording without checking that chapter.",
-  "The underlying work is the Warhammer Armies Project, written and freely distributed by Mathias Eliasson. All rules text, army design and points values not named as ours are his; the Ordo Draconis and everything written for it are ours alone, made for our own table, and carry no endorsement from him.",
-  "Warhammer, Warhammer Fantasy Battle and all associated names, races and places are trademarks of Games Workshop Limited. This document is unofficial and unaffiliated, and no challenge to their status is intended.",
-  "Typeset with Typst. Not for sale.",
+  [
+    *Warhammer Armies Revamped: The Ordo Draconis*, version 1.0 — an
+    unofficial, non-commercial fan edition. It is an Army of Infamy of this
+    edition's own, written for *Warhammer Armies Revamped: Vampire Counts*,
+    which builds on *Warhammer Armies Project: Vampire Counts*, version 3.0,
+    written and freely distributed by Mathias Eliasson.
+  ],
+  [
+    It is self-contained, so the chapters it shares with that book are
+    reproduced from it, and several of the entries in them have been altered
+    where this list removes an option. Those alterations are listed under What
+    Was Changed and are not marked in the body. Do not take a rule here to be
+    the author's wording without checking that chapter.
+  ],
+  [
+    The rules text, army design and points values descend from his work and are
+    used with gratitude; where this edition departs from them, the changes are
+    its own and not his. The Ordo Draconis and everything written for it are
+    this edition's alone, and carry no endorsement from him.
+  ],
+  [
+    Warhammer, Warhammer Fantasy Battle and all associated names, races and
+    places are trademarks of Games Workshop Limited. This document is
+    unofficial and unaffiliated, and no challenge to their status is intended.
+  ],
+  [Typeset with Typst. Not for sale.],
 ))
 
 #outline(title: [Contents], depth: 2)
 
+#two-columns[
 = THE ORDER
 
 The Ordo Draconis is the household of a single vampire lord, and it does not stay anywhere. It has no lands that appear on a map and no seat that can be visited twice. What it has is a keep that arrives, a household living inside it, a dozen scattered agreements it honours, and a habit of turning up in Bretonnia at moments when Bretonnia would rather it did not. Every account of it that has been written down was written by vampires, and every one of them calls its lord Emmerich.
@@ -340,9 +359,11 @@ The knights will discuss the warrant, the count and the four refusals, cheerfull
 Bretonnia has no view, because Bretonnia does not know. Sylvania has a view and it is wrong. The Ordo stopped correcting them about the order's own name, and it is not going to start with this.
 
 _Blood Keep, the Ordo Draconis and its black drake on a red field, Walach Harkon's remaking of the order, and the Green Knight all belong to the setting. What is ours is the lord and his four names, his arithmetic, the scattered agreements, the signal fire, the Dam and her herd, the keep that will not stand still and the mountain it was built on, the Porter in its gate, the ledger and every engagement in it, the files other realms keep on him, the sky in five sizes, the Lahmian and everything unwritten between them, and the Ordo's claim to its own name. That last one is deliberately a dispute: the surviving account credits Walach with taking the Keep and founding the order, and this book holds that the account is the one told by the vampires who inherited it. Walach gave the blood, so nothing printed in *Vampire Counts* 3.0 is contradicted._
+]
 
 = CHOOSING AN ORDO DRACONIS
 
+#balanced-columns(whole: true)[
 An *Army of Infamy* is a second way to build a force from a book that already exists. What changes is which category a unit is chosen from, what the list refuses you, and one or two rules laid over the whole army. This one goes a step further in a single place: the knights it puts in Core are a lesser draft of the Blood Knight *Vampire Counts* prints, sold at that entry's price, and the printed profile is bought back as an upgrade that leaves Core behind.
 
 The Ordo Draconis is the army *Warhammer Armies Project: Vampire Counts* is named after and cannot field: a vampire aristocracy that fights in its own person. Its knights ride and its household walks, its lord is a feudal protector rather than a butcher, and the dead are still raised as fodder, and no longer as the backbone. It gives up twenty-three of that book's thirty-three units to do it.
@@ -377,10 +398,11 @@ _What Was Changed_, at the back of this book, sets the whole of it out beside *V
 Both chapters are reproduced from *Vampire Counts* 3.0, less the parts of them an Ordo Draconis cannot buy. Every Vampire in this list is a Blood Dragon, so the powers belonging to the other four Bloodlines are gone and the Bloodline headings with them: there is one list of powers and every Vampire may take from it. The Magic Items go the same way. An item gated to another Bloodline is gone, and so is one that asks for a character of another Bloodline behind it. An item gated to a Ghoul, a Spirit or a Cairn Wraith is gone, this book fielding none of the three. And the Asp Bow is gone, since no model in this army may carry a missile weapon.
 
 Where a gate still does work it is still printed. A Wight Lord is not a Blood Dragon and a Necromancer is neither, so an item that names one of the three goes on naming it. What is printed is what can be taken.
+]
 
 = ARMY SPECIAL RULES
 
-#columns(2)[
+#balanced-columns(whole: true)[
 This section of the book describes all the different units used in a Vampire Counts army, along with any rules necessary to use them in your games of Warhammer. Where a model has a special rule that is explained in the _Warhammer_ rulebook, only the name of that rule is given. If a model has a special rule that is unique to it, that rule is detailed alongside its description. However, there are a number of commonly recurring ‘army special rules’ that apply to several Vampire Counts units, and these are detailed here.
 
 #namecost("BLOODLINES", "")
@@ -488,94 +510,55 @@ _Nothing in this list can buy the Aura of Dark Majesty, that power being von Car
 
 #spell("WIND OF UNDEATH", 4, cast: "13+")[_Wind of Undeath_ is a *direct damage aura* spell with a range of 12". Each unit within range suffer 2D6 Strength 3 Hits which Ignores Armour Saves.]
 ]
-= VAMPIRIC POWERS
+#upgrade-chapter("VAMPIRIC POWERS", intro: [*In this section you will find powers that can be bought for your Vampires. You cannot buy multiples of the same power for a single Vampire, but different Vampires in the same army can have the same powers if you wish.*])[
+#upgrade("RED FURY", 30)[For each unsaved Wound caused by the model in close combat, it can immediately make an additional Attack (to a maximum of +3 Attacks). These additional Attacks do not benefit from Red Fury.]
 
-*In this section you will find powers that can be bought for your Vampires. You cannot buy multiples of the same power for a single Vampire, but different Vampires in the same army can have the same powers if you wish.*
+#upgrade("FEAR INCARNATE", 20)[All enemy units in base contact with the model must pass a Leadership test at the start of each round of close combat or suffer \-1 To Hit this round.]
 
-#namecost("RED FURY", "30 points")
+#upgrade("FLYING HORROR", 20, only: "Model on foot")[Thе model gains the Fly (10) special rule and may join units of Fell Bats.]
 
-For each unsaved Wound caused by the model in close combat, it can immediately make an additional Attack (to a maximum of +3 Attacks). These additional Attacks do not benefit from Red Fury.
+#upgrade("DOOMRIDER", 20, only: "Cavalry")[The model and any Cavalry unit it is with can re-roll failed charge distances.]
 
-#namecost("FEAR INCARNATE", "20 points")
+#upgrade("DREAD KNIGHT", 20)[While fighting in a challenge, the model will gain +1 To Hit and To Wound.]
 
-All enemy units in base contact with the model must pass a Leadership test at the start of each round of close combat or suffer \-1 To Hit this round.
+#upgrade("WARRIOR PRIDE", 20, only: "Infantry or Cavalry")[The model can re-roll failed armour save results of 1.]
 
-#namecost("FLYING HORROR", "20 points")
+#upgrade("HEART PIERCING", 15)[The model can re-roll To Wound rolls of 1 in close combat.]
 
-Model on foot only. Thе model gains the Fly (10) special rule and may join units of Fell Bats.
+#upgrade("MASTER STRIKE", 15)[The model has the Killing Blow special rule.]
 
-#namecost("DOOMRIDER", "20 points")
+#upgrade("MIGHT OF ARMS", 15)[The model can re-roll To Hit rolls of 1 in close combat.]
 
-Cavalry only. The model and any Cavalry unit it is with can re-roll failed charge distances.
+#upgrade("STRENGTH OF STEEL", 10)[The model has the Devastating Charge and Mighty Blow (1) special rules.]
 
-#namecost("DREAD KNIGHT", "20 points")
+#upgrade("BLADEMASTER", 10)[The model gains the Parry (6+) special rule, even while mounted.]
 
-While fighting in a challenge, the model will gain +1 To Hit and To Wound.
+#upgrade("FURIOUS CHARGE", 10)[In any turn in which the model makes a successful charge, they have the Ignores Armour saves special rule.]
 
-#namecost("WARRIOR PRIDE", "20 points")
+#upgrade("HONOUR OR DEATH", 5)[After issuing or accepting a challenge with a model with this power, the enemy character must take a Leadership test. If failed, the enemy model will automatically refuse the challenge following the normal rules.]
 
-Infantry or Cavalry only. The model can re-roll failed armour save results of 1.
+#group("THE ORDO'S POWERS", note: [Five Vampiric Powers available only to a Vampire in an army chosen as an Ordo Draconis.])
 
-#namecost("HEART PIERCING", "15 points")
+#upgrade("KEPT GROUND", 25)[_A lord who cannot garrison a dozen places learned long ago to be the garrison._
 
-The model can re-roll To Wound rolls of 1 in close combat.
+The model has the Hold Your Ground (6) special rule.]
 
-#namecost("MASTER STRIKE", "15 points")
+#upgrade("ON THE TALLY", 20)[_A knight fights differently when his deeds are being entered, and stops the day the hand stops._
 
-The model has the Killing Blow special rule.
+May not be the army's General. For as long as the army's General is alive, the model adds +1 to the combat resolution of any close combat they are part of.]
 
-#namecost("MIGHT OF ARMS", "15 points")
+#upgrade("THE LONG WALK", 15)[_He has stood on the far side of a volley once, and has been crossing that field ever since._
 
-The model can re-roll To Hit rolls of 1 in close combat.
+The model has the Hatred special rule against any enemy unit containing one or more models armed with a missile weapon.]
 
-#namecost("STRENGTH OF STEEL", "10 points")
+#upgrade("DRINK DEEP", 15)[_The tithe is taken by measure. The field is the one place the measure is waived._
 
-The model has the Devastating Charge and Mighty Blow (1) special rules.
+Roll a D6 at the end of each Close Combat phase in which one or more models was slain by the model. On a 5+, the model recovers a single Wound, up to their starting value (excluding additional Wounds from mounts). This does not work against Animated Constructs, Daemons, Forest Spirits or Vampires.]
 
-#namecost("BLADEMASTER", "10 points")
+#upgrade("OLD ENOUGH", 10)[_The blood finished with him long ago; a lucky stroke finds nothing left to end._
 
-The model gains the Parry (6+) special rule, even while mounted.
-
-#namecost("FURIOUS CHARGE", "10 points")
-
-In any turn in which the model makes a successful charge, they have the Ignores Armour saves special rule.
-
-#namecost("HONOUR OR DEATH", "5 points")
-
-After issuing or accepting a challenge with a model with this power, the enemy character must take a Leadership test. If failed, the enemy model will automatically refuse the challenge following the normal rules.
-
-#entry("THE ORDO'S POWERS")
-Five Vampiric Powers available only to a Vampire in an army chosen as an Ordo Draconis.
-
-#namecost("KEPT GROUND", "25 points")
-
-_A lord who cannot garrison a dozen places learned long ago to be the garrison._
-
-The model has the Hold Your Ground (6) special rule.
-
-#namecost("ON THE TALLY", "20 points")
-
-_A knight fights differently when his deeds are being entered, and stops the day the hand stops._
-
-May not be the army's General. For as long as the army's General is alive, the model adds +1 to the combat resolution of any close combat they are part of.
-
-#namecost("THE LONG WALK", "15 points")
-
-_He has stood on the far side of a volley once, and has been crossing that field ever since._
-
-The model has the Hatred special rule against any enemy unit containing one or more models armed with a missile weapon.
-
-#namecost("DRINK DEEP", "15 points")
-
-_The tithe is taken by measure. The field is the one place the measure is waived._
-
-Roll a D6 at the end of each Close Combat phase in which one or more models was slain by the model. On a 5+, the model recovers a single Wound, up to their starting value (excluding additional Wounds from mounts). This does not work against Animated Constructs, Daemons, Forest Spirits or Vampires.
-
-#namecost("OLD ENOUGH", "10 points")
-
-_The blood finished with him long ago; a lucky stroke finds nothing left to end._
-
-The model gains the Immunity (Killing Blow, Multiple Wounds) special rule.
+The model gains the Immunity (Killing Blow, Multiple Wounds) special rule.]
+]
 
 #magic-item-chapter(intro: [This section contains the rules for some of the most iconic and powerful magical artefacts used by the Vampire Counts. These may be used in addition to the magic items found in the Warhammer rulebook.])
 
@@ -627,9 +610,17 @@ The model gains the Immunity (Killing Blow, Multiple Wounds) special rule.
 #talisman("THE GEM OF BLOOD", 25, only: "Vampires", one-use: true)[The Gem of Blood activates when the bearer suffers their first Wound in close combat (before saves). Roll a D6; on a roll of a 1 the wearer suffers the Wound as normal, and an additional Wound with no saves allowed. On a 2+ the Wound is saved, and is rebounded onto the model that caused it with no saves allowed.]
 
 #talisman("WRISTBANDS OF BLACK GOLD", 25)[The Wristbands of Black Gold gives the wearer a Magical Ward (3+) against all missile attacks.]
+
+#talisman("THE WITNESSED OATH", 25, only: "Ordo Draconis Vampire")[_An oath sworn before witnesses binds both ways: he keeps the terms, and in a challenge the terms keep him._
+
+While the bearer is fighting in a challenge, they have a Magical Ward (5+).]
+
+#talisman("THE ROAD BEHIND", 20, only: "Ordo Draconis")[_There is no outrunning a thing that arrives instead of travelling._
+
+No enemy unit that the bearer, or a unit the bearer has joined, declares a charge against may choose Flee as a Charge Reaction.]
 ]
 
-#magic-item-section("arcane", columns: 2)[
+#magic-item-section("arcane")[
 #arcane-item("THE DERMAL ROBE", 70, type: "Relic")[The wearer gains a +1 casting and dispel bonus. In addition, they gain +1 to their channelling rolls.]
 
 #arcane-item("SCEPTRE DE NOIROT", 40, type: "Staff")[The bearer of this item may re-roll one dice of their choice when determining the number of Zombies or Skeletons raised with the _Invocation of Nehek_ and _Raise Dead_ spells from the Lore of Necromancy.]
@@ -657,7 +648,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 #arcane-item("STAVE OF SUFFERING", 15, type: "Staff")[The bearer of this item gains a +1 casting bonus for each spell that has successfully inflicted one or more unsaved Wounds the same Magic Phase. This bonus is cumulative.]
 ]
 
-#magic-item-section("enchanted", columns: 2)[
+#magic-item-section("enchanted")[
 #enchanted-item("MIDNIGHT AMULET", 40, one-use: true)[This item can be used in any of your Magic phases. Pick one enemy unit within 12"; that unit suffers D6 Strength 4 Hits multiplied by the number of the current game turn.]
 
 #enchanted-item("THE CASKET OF AGES", 35, bound: (level: 1, cast: "6+"))[The Casket of Ages contains a *direct damage* spell that targets one enemy model in base contact. The target model suffers one Wound which Ignores Armour Saves. If the Wound is not saved, the victim must pass a Toughness test or suffer an additional Wound with no saves allowed.]
@@ -665,6 +656,10 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 #enchanted-item("TALON OF DEATH", 35)[All enemy models in base contact with the bearer must pass a Toughness test or suffer a Wound which Ignores Armour saves at the start of each round of combat.]
 
 #enchanted-item("DREADBOLT RING", 30)[For each unsaved Wound the bearer of this item inflicts in close combat, one enemy unit in base contact suffer D3 Strength 3 Attacks with the Flaming Attacks special rule after they have resolved their normal attacks.]
+
+#enchanted-item("THE SIGNAL FIRE", 30, only: "Ordo Draconis")[_A fire behind a cut board, read a valley away off the underside of the cloud — and what answers does not use the roads._
+
+One friendly unit with the *Draconid* keyword may deploy using the *Ambushers* special rule.]
 
 #enchanted-item("FRAGMENT OF THE KEEP", 25, only: "Blood Dragon")[The bearer gains the Always Strikes First special rule.]
 
@@ -686,6 +681,14 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 
 #enchanted-item("RUBY VIAL", 15, only: "Vampire", one-use: true)[This item can be used at the start of any of your turns. Until the start of your next turn, all enemy units within 18" of the bearer suffer \-1 to their Movement.]
 
+#enchanted-item("WEATHER OVER THE KEEP", 15, only: "Ordo Draconis")[_The bats have never applied for a position, and keep station over one man anyway._
+
+Friendly units with the *Chiropter* keyword within 12" of the bearer may use the bearer's Leadership.]
+
+#enchanted-item("THE MUSTER ROLL", 15, only: "Ordo Draconis")[_A name a man put down himself holds better than anything a necromancer says over him._
+
+Friendly units with the *Undead* special rule within 12" of the bearer suffer one fewer Wound than they normally would due to the Unstable special rule, or following the death of the army's General. This is not cumulative with the Battle Standard.]
+
 #enchanted-item("TALISMAN OF THE LYCNI", 10, only: "Vampire")[Model on foot only. The bearer of this item gains +4 to their Movement value and the Swiftstride special rule.]
 
 #enchanted-item("HEART OF THE GIANT FEAST", 10, only: "Vampire", one-use: true)[This item can be used at the start of any close combat phase. The bearer can re- roll failed To Wound rolls for the duration of the turn.]
@@ -702,6 +705,10 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 
 #magic-standard("CURSED PENNANT OF MOUSILLON", 35, only: "Blood Dragon, Skeletons, Wights or Blood Knights")[May only be taken if your army includes a Blood Dragon Vampire Character. Any enemy unit that is in base contact with the unit carrying this standard must re-roll 6's when rolling To Hit, To Wound and when taking armour saves.]
 
+#magic-standard("THE BANNER OF THE FIRST SWORN", 35, only: "Ordo Draconis, the Sworn")[_The men who follow it took the blood at the Keep, while there was still time to choose, and nothing that has happened since has been new to them._
+
+May only be taken if your army includes a Blood Dragon Vampire Character. The unit carrying this standard gains +1 Weapon Skill and +1 Initiative.]
+
 #magic-standard("BANNER OF DOOM", 25)[All Undead models (excluding mounts) in the unit carrying this standard gains the Regeneration (5+) special rule against missile attacks.]
 
 #magic-standard("BANNER OF THE DEAD LEGION", 25)[All Undead models (including mounts) in the unit carrying this standard counts as having twice their actual Unit Strength in close combat.]
@@ -712,58 +719,16 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 
 #magic-standard("THE SCREAMING BANNER", 25)[Enemy units on base contact with the unit carrying this standard must pass a Leadership test at the start of each close combat phase. If failed, they require 6’s To Hit for the duration of the phase.]
 
+#magic-standard("THE STANDING RATION", 25, only: "Ordo Draconis")[_Once a season, by measure, written down — the household does not run short._
+
+The unit carrying this standard never reduces its Thirst value.]
+
 #magic-standard("ICON OF VENGEANCE", 20)[Any Undead model (including mounts) in the unit carrying this standard that is slain in close combat may immediately make an additional Attack, even if they have already attacked this turn.]
 
 #magic-standard("BANNER OF THE ENDLESS NIGHTMARE", 10)[The unit carrying this standard counts as having one more rank than normal for the purpose of combat resolution.]
 
 #magic-standard("STANDARD OF EVERLASTING DEATH", 10)[The unit carrying this standard suffers one fewer Wound than they normally would due to the Unstable special rule.]
 ]
-
-#entry("THE ORDO'S ITEMS")
-Seven Magic Items available only to an army chosen as an Ordo Draconis, each following the rules for its own kind of item.
-
-#namecost("WEATHER OVER THE KEEP", "15 points")
-
-_The bats have never applied for a position, and keep station over one man anyway._
-
-Enchanted Item. Ordo Draconis only. Friendly units with the *Chiropter* keyword within 12" of the bearer may use the bearer's Leadership.
-
-#namecost("THE SIGNAL FIRE", "30 points")
-
-_A fire behind a cut board, read a valley away off the underside of the cloud — and what answers does not use the roads._
-
-Enchanted Item. Ordo Draconis only. One friendly unit with the *Draconid* keyword may deploy using the *Ambushers* special rule.
-
-#namecost("THE MUSTER ROLL", "15 points")
-
-_A name a man put down himself holds better than anything a necromancer says over him._
-
-Enchanted Item. Ordo Draconis only. Friendly units with the *Undead* special rule within 12" of the bearer suffer one fewer Wound than they normally would due to the Unstable special rule, or following the death of the army's General. This is not cumulative with the Battle Standard.
-
-#namecost("THE WITNESSED OATH", "25 points")
-
-_An oath sworn before witnesses binds both ways: he keeps the terms, and in a challenge the terms keep him._
-
-Talisman. Ordo Draconis only. Vampire only. While the bearer is fighting in a challenge, they have a Magical Ward (5+).
-
-#namecost("THE ROAD BEHIND", "20 points")
-
-_There is no outrunning a thing that arrives instead of travelling._
-
-Talisman. Ordo Draconis only. No enemy unit that the bearer, or a unit the bearer has joined, declares a charge against may choose Flee as a Charge Reaction.
-
-#namecost("THE BANNER OF THE", "")
-#namecost("FIRST SWORN", "35 points")
-
-_The men who follow it took the blood at the Keep, while there was still time to choose, and nothing that has happened since has been new to them._
-
-Magic Standard. Ordo Draconis only. The Sworn only. May only be taken if your army includes a Blood Dragon Vampire Character. The unit carrying this standard gains +1 Weapon Skill and +1 Initiative.
-
-#namecost("THE STANDING RATION", "25 points")
-
-_Once a season, by measure, written down — the household does not run short._
-
-Magic Standard. Ordo Draconis only. The unit carrying this standard never reduces its Thirst value.
 
 = CHARACTERS
 
@@ -1398,7 +1363,7 @@ This book is self-contained, so the chapters it shares with *Warhammer Armies Pr
   ("The Lore of Necromancy", "Reproduced entire, and one clause of one spell is altered: Fountains of Blood now adds to a Thirst value rather than to a roll"),
   ("Vampiric Powers", "Thirty-nine of the fifty-two are removed and the Bloodline headings with them, leaving one list of thirteen that every Vampire in this army may take from, with the Ordo's own five added at the end of the chapter"),
   ("Army Special Rules", "Reproduced entire but for The Red Thirst, which is rewritten as a Thirst value that rises and falls with the feeding, with the Oath of the Keep and Dread, not Slaughter added at the end of the chapter. Dread, not Slaughter denies the Wounds a completed charge inflicts on a fleeing enemy, as well as the pursuit"),
-  ("Magic Items", "Twenty-five of the eighty-six are removed, the Infernal Standard is corrected from Wight King to Wight Lord, the Armour of Blood is repriced from 30 points to 20 and made to require Drink Deep, and the Talisman of the Lycni loses the clause letting it join Dire Wolves. The Ordo's own seven are added at the end of the chapter"),
+  ("Magic Items", "Twenty-five of the eighty-six are removed, the Infernal Standard is corrected from Wight King to Wight Lord, the Armour of Blood is repriced from 30 points to 20 and made to require Drink Deep, and the Talisman of the Lycni loses the clause letting it join Dire Wolves. The Ordo's own seven are added, each in the section of its kind"),
 ))
 
 #namecost("THE POWERS AND ITEMS THAT WERE REMOVED", "")
@@ -1458,6 +1423,7 @@ What stayed is what somebody in this army can still be handed. A gate naming a V
   ("Nightmare, Hellsteed, Abyssal Terror", "Undead mounts", "Not Undead"),
 ))
 
+#two-columns[
 = THE DESIGN
 
 What follows is not rules. It is the reasoning the list was built on: the argument for its existence, what every price in it is set against, and the case against the whole thing, which is worth having written down where an opponent can read it. Nothing here changes a word of the chapters above.
@@ -1727,6 +1693,7 @@ None of the vampires are Unstable, so unlike the Skeletons behind them they take
 The characters must duel whenever a duel is offered, and are healed for winning. Nothing shoots. A quarter of the army is knights at Weapon Skill 5 with a single Attack, and no build avoids it.
 
 The dead are still there, still cost two and a half points, and no longer excuse the army from buying vampires.
+]
 
 = CREDITS
 
