@@ -30,6 +30,7 @@
   version: "1.0",
   layout: "army",
   align: "destruction",
+  cover: "covers/ordo-draconis.png",
 )
 
 #show: book.with(title: "Warhammer Armies Revamped — The Ordo Draconis 1.0")
@@ -37,7 +38,7 @@
 #cover(
   title: "The Ordo Draconis",
   subtitle: "Warhammer Armies Revamped · 1.0",
-  art: none,
+  art: "/assets/covers/ordo-draconis.png",
 )
 
 #colophon((
