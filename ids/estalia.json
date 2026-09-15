@@ -1,0 +1,930 @@
+{
+ "choices": {
+  "ALMOGAVARS": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ARQUEBUSIERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-captain": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-grand-commander": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Polearm": "polearm"
+   },
+   "missile-weapon": {
+    "Brace of pistols": "brace-of-pistols",
+    "Crossbow": "crossbow",
+    "Handgun": "handgun",
+    "Pistol": "pistol"
+   },
+   "mount": {
+    "Aurochs": "aurochs",
+    "Griffon (Grand Commander)": "griffon-grand-commander",
+    "Pegasus": "pegasus",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "CONQUISTADORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CROSSBOWMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CULVERIN": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "DIESTROS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Pistols": "pistols"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "FALCONET": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "FRANCISCO CORTEZ": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "GENITORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GRENADIERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "missile-weapon": {
+    "Blunderbusses": "blunderbusses",
+    "Pistols": "pistols"
+   }
+  },
+  "GRIFFON": {
+   "shredding-talons": {
+    "Shredding Talons": "shredding-talons"
+   },
+   "swooping-strike": {
+    "Swooping Strike": "swooping-strike"
+   }
+  },
+  "HIDALGOS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistols": {
+    "pistols": "pistols"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KNIGHTS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Heavy lances": "heavy-lances",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Knights of the Blazing Sun": "knights-of-the-blazing-sun",
+    "Knights of the Righteous Spear": "knights-of-the-righteous-spear"
+   }
+  },
+  "KNIGHTS OF THE RAGING BULL": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LOMBARD": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "MAESTRO": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Brace of pistols": "brace-of-pistols",
+    "Pistol": "pistol"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "MAGOS": {
+   "magic-items-grand-mago": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-mago": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Pegasus": "pegasus",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "MERCENARY OGRES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Addditional hand weapons": "addditional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons",
+    "Ogre handguns": "ogre-handguns",
+    "Ogre pistols": "ogre-pistols",
+    "Polearms": "polearms"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MOUNTAIN BANDITS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "MUSKETEERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PEGASUS": {
+   "iron-hard-hooves": {
+    "Iron-hard Hooves": "iron-hard-hooves"
+   },
+   "swift-as-the-wind": {
+    "Swift as the Wind": "swift-as-the-wind"
+   }
+  },
+  "PIKEMEN": {
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PRIESTS OF MYRMIDIA": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-high-priest-of-myrmidia": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-priest-of-myrmidia": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Altar of Myrmidia": "altar-of-myrmidia",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "RODELEROS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Shields": "shields"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ROYAL GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SISTERS OF FURY": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TERCIOS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "crossbows": {
+    "crossbows": "crossbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WAR ALTAR OF MYRMIDIA": {
+   "mount": {
+    "Aurochs +15 points - 2 Bulls +15 points - 4 Bulls": "aurochs-15-points-2-bulls-15-points-4-bulls"
+   }
+  },
+  "WAR DOGS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  }
+ },
+ "groups": {
+  "ALMOGAVARS": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May take javelins": "javelins",
+   "May take light armour": "light-armour",
+   "May take shields": "shields",
+   "May take spears": "spears",
+   "May upgrade one Almogavar to a Leader": "champion",
+   "May upgrade one Almogavar to a Musician": "musician",
+   "May upgrade one Almogavar to a Standard Bearer": "standard-bearer",
+   "May upgrade one Almogavar to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ARQUEBUSIERS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Arquebusier to a Leader": "champion",
+   "May upgrade one Arquebusier to a Musician": "musician",
+   "May upgrade one Arquebusier to a Standard Bearer": "standard-bearer",
+   "May upgrade one Arquebusier to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "COMMANDERS": {
+   "A Captain may take Magic Items up to a total of 50 points": "magic-items-captain",
+   "A Grand Commander may take Magic Items up to a total of 100 points": "magic-items-grand-commander",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Captain may carry the Battle Standard": "battle-standard"
+  },
+  "CONQUISTADORS": {
+   "May take medium armour": "medium-armour",
+   "May upgrade one Conquistador to a Leader": "champion",
+   "May upgrade one Conquistador to a Musician": "musician",
+   "May upgrade one Conquistador to a Standard Bearer": "standard-bearer",
+   "May upgrade one Conquistador to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CROSSBOWMEN": {
+   "May take light armour": "light-armour",
+   "May upgrade one Crossbowman to a Leader": "champion",
+   "May upgrade one Crossbowman to a Musician": "musician",
+   "May upgrade one Crossbowman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Crossbowman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "CULVERIN": {
+   "May take an additional crew": "additional-crew"
+  },
+  "DIESTROS": {
+   "May choose one of the following:": "equipment",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Duellist to a Leader": "champion"
+  },
+  "FALCONET": {
+   "May take an additional crew": "additional-crew"
+  },
+  "FRANCISCO CORTEZ": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "GENITORS": {
+   "May take javelins": "javelins",
+   "May take light lances": "light-lances",
+   "May upgrade one Genitor to a Leader": "champion",
+   "May upgrade one Genitor to a Musician": "musician",
+   "May upgrade one Genitor to a Standard Bearer": "standard-bearer",
+   "May upgrade one Genitor to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "GRENADIERS": {
+   "May choose one of the following:": "missile-weapon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Grenadier to a Leader": "champion"
+  },
+  "GRIFFON": {
+   "May take Shredding Talons": "shredding-talons",
+   "May take Swooping Strike": "swooping-strike"
+  },
+  "HIDALGOS": {
+   "May take light lances": "light-lances",
+   "May take pistols": "pistols",
+   "May upgrade one Hidalgo to a Leader": "champion",
+   "May upgrade one Hidalgo to a Musician": "musician",
+   "May upgrade one Hidalgo to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hidalgo to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "KNIGHTS": {
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "melee-weapon",
+   "May take barding": "barding",
+   "May take shields": "shields",
+   "May upgrade one Knight to a Leader": "champion",
+   "May upgrade one Knight to a Musician": "musician",
+   "May upgrade one Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "KNIGHTS OF THE RAGING BULL": {
+   "May take barding": "barding",
+   "May upgrade one Knight to a Leader": "champion",
+   "May upgrade one Knight to a Musician": "musician",
+   "May upgrade one Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "LOMBARD": {
+   "May take an additional crew": "additional-crew"
+  },
+  "MAESTRO": {
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour",
+   "May take throwing weapons": "throwing-weapons"
+  },
+  "MAGOS": {
+   "A Grand Mago may take Magic Items up to a total of 100 points": "magic-items-grand-mago",
+   "A Mago may take Magic Items up to a total of 50 points": "magic-items-mago",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "MERCENARY OGRES": {
+   "May choose one of the following:": "equipment",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "MOUNTAIN BANDITS": {
+   "May upgrade one Mountain Bandit to a Leader": "champion",
+   "May upgrade one Mountain Bandit to a Musician": "musician"
+  },
+  "MUSKETEERS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Musketeer to a Leader": "champion",
+   "May upgrade one Musketeer to a Musician": "musician",
+   "May upgrade one Musketeer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Musketeer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "PEGASUS": {
+   "May take Iron-hard Hooves": "iron-hard-hooves",
+   "May take Swift as the Wind": "swift-as-the-wind"
+  },
+  "PIKEMEN": {
+   "May replace pikes with polearms": "polearms",
+   "May take bucklers": "bucklers",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Pikeman to a Leader": "champion",
+   "May upgrade one Pikeman to a Musician": "musician",
+   "May upgrade one Pikeman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pikeman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "PRIESTS OF MYRMIDIA": {
+   "A High Priest of Myrmidia may take Magic Items up to a total of 100 points": "magic-items-high-priest-of-myrmidia",
+   "A Priest of Myrmidia may take Magic Items up to a total of 50 points": "magic-items-priest-of-myrmidia",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take a shield": "shield"
+  },
+  "RODELEROS": {
+   "May replace bucklers with one of the following:": "equipment",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Rodelero to a Leader": "champion",
+   "May upgrade one Rodelero to a Musician": "musician",
+   "May upgrade one Rodelero to a Standard Bearer": "standard-bearer",
+   "May upgrade one Rodelero to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ROYAL GUARD": {
+   "May replace polearms with great weapons": "great-weapons",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Royal Guard to a Leader": "champion",
+   "May upgrade one Royal Guard to a Musician": "musician",
+   "May upgrade one Royal Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Royal Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SISTERS OF FURY": {
+   "May upgrade one Sister of Fury to a Leader": "champion",
+   "May upgrade one Sister of Fury to a Musician": "musician",
+   "May upgrade one Sister of Fury to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sister of Fury to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "TERCIOS": {
+   "May replace handguns with crossbows": "crossbows",
+   "May replace pikes with polearms": "polearms",
+   "May upgrade one Tercio to a Leader": "champion",
+   "May upgrade one Tercio to a Musician": "musician",
+   "May upgrade one Tercio to a Standard Bearer": "standard-bearer",
+   "May upgrade one Tercio to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "WAR ALTAR OF MYRMIDIA": {
+   "May be drawn by one of the following:": "mount"
+  },
+  "WAR DOGS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May take light armour": "light-armour",
+   "May upgrade one Handler to a Musician": "musician"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  }
+ },
+ "items": {
+  "AEGIS OF THE MAIDEN": "aegis-of-the-maiden",
+  "AMPULLA OF MYRMIDIA'S WRATH": "ampulla-of-myrmidias-wrath",
+  "AMULET OF DAWN": "amulet-of-dawn",
+  "BANNER OF COURAGE": "banner-of-courage",
+  "BANNER OF SANTIAGO": "banner-of-santiago",
+  "BANNER OF THE BULL": "banner-of-the-bull",
+  "BASILISK BLADE": "basilisk-blade",
+  "BLESSED GRENADE OF AQUILIA": "blessed-grenade-of-aquilia",
+  "CAPE OF VELACRUZ": "cape-of-velacruz",
+  "COLOURS OF CONQUEST": "colours-of-conquest",
+  "CORONET OF THE CONQUEROR": "coronet-of-the-conqueror",
+  "CUIRASS OF THE BLAZING SUN": "cuirass-of-the-blazing-sun",
+  "CUSTODIA OF SANCTUARY": "custodia-of-sanctuary",
+  "FENCER'S BLADES": "fencers-blades",
+  "FIGUERA'S RAPIER": "figueras-rapier",
+  "LANCE OF RECTITUDE": "lance-of-rectitude",
+  "LIVING DEADWOOD STAFF": "living-deadwood-staff",
+  "MACE OF SACRIFICE": "mace-of-sacrifice",
+  "MISSAL OF MYRMIDIA'S WORD": "missal-of-myrmidias-word",
+  "MONSTRANCE OF DIVINE PRONOUNCEMENT": "monstrance-of-divine-pronouncement",
+  "MORION OF THE EAGLE": "morion-of-the-eagle",
+  "PISTOLS OF THE DUEL": "pistols-of-the-duel",
+  "RAT CATCHER'S CHARM": "rat-catchers-charm",
+  "RELIC SWORD": "relic-sword",
+  "RING OF THE SANCTIONED THAUMATURGE": "ring-of-the-sanctioned-thaumaturge",
+  "ROSARY OF THE MAIDEN": "rosary-of-the-maiden",
+  "SACRED ARMOUR OF PURITY": "sacred-armour-of-purity",
+  "SANCTIFIED RELIQUARY OF MYRMIDIA": "sanctified-reliquary-of-myrmidia",
+  "SCINTILLATING SHIELD": "scintillating-shield",
+  "SCRIPTURE OF TRUE INSIGHT": "scripture-of-true-insight",
+  "SHIELD OF HONOUR": "shield-of-honour",
+  "SHIELD OF THE WOLF RAMPANT": "shield-of-the-wolf-rampant",
+  "SPEAR OF RIGHTEOUSNESS": "spear-of-righteousness",
+  "STAFF OF ARCANE DRAINING": "staff-of-arcane-draining",
+  "STAFF OF TOMAS THE PURE": "staff-of-tomas-the-pure",
+  "STANDARD OF MYRMIDIA": "standard-of-myrmidia",
+  "STANDARD OF PROWESS": "standard-of-prowess",
+  "STANDARD OF SUPERIOR FORM": "standard-of-superior-form",
+  "SWORD OF FORTITUDE": "sword-of-fortitude",
+  "SWORD OF TALABARO": "sword-of-talabaro",
+  "SWORD OF THE VENDETTA": "sword-of-the-vendetta",
+  "TEMPERANCE CRYSTAL": "temperance-crystal",
+  "THE GEM OF TARANTO": "the-gem-of-taranto",
+  "TOME OF WISDOM": "tome-of-wisdom",
+  "WOLFSLAYER": "wolfslayer"
+ },
+ "lores": {},
+ "profiles": {
+  "ALMOGAVARS": {
+   "Almogavar": "almogavar"
+  },
+  "ARQUEBUSIERS": {
+   "Arquebusier": "arquebusier"
+  },
+  "AUROCHS": {
+   "Aurochs": "aurochs"
+  },
+  "COMMANDERS": {
+   "Captain": "captain",
+   "Grand Commander": "grand-commander"
+  },
+  "CONQUISTADORS": {
+   "Conquistador": "conquistador",
+   "Warhorse": "warhorse"
+  },
+  "CROSSBOWMEN": {
+   "Crossbowman": "crossbowman"
+  },
+  "CULVERIN": {
+   "Crew": "crew",
+   "Culverin": "culverin"
+  },
+  "DIEGO MONTOYA": {
+   "Diego Montoya": "diego-montoya"
+  },
+  "DIESTROS": {
+   "Diestro": "diestro"
+  },
+  "DON LOMENTE": {
+   "Don Lomente": "don-lomente",
+   "Rocinante (Warhorse)": "rocinante-warhorse"
+  },
+  "FALCONET": {
+   "Crew": "crew",
+   "Falconet": "falconet"
+  },
+  "FIRE BULLS": {
+   "Fire Bull": "fire-bull",
+   "Picador": "picador",
+   "Warhorse": "warhorse"
+  },
+  "FRANCISCO CORTEZ": {
+   "Francisco Cortez": "francisco-cortez"
+  },
+  "GENITORS": {
+   "Genitor": "genitor",
+   "Warhorse": "warhorse"
+  },
+  "GRENADIERS": {
+   "Grenadier": "grenadier"
+  },
+  "GRIFFON": {
+   "Griffon": "griffon"
+  },
+  "HIDALGOS": {
+   "Hidalgo": "hidalgo",
+   "Warhorse": "warhorse"
+  },
+  "ISABELLA GIOVANNA LUCCELLI": {
+   "Isabella Giovanna Luccelli": "isabella-giovanna-luccelli"
+  },
+  "JUAN FEDERICO": {
+   "Juan Federico": "juan-federico",
+   "Warhorse": "warhorse"
+  },
+  "KNIGHTS": {
+   "Knight": "knight",
+   "Warhorse": "warhorse"
+  },
+  "KNIGHTS OF THE RAGING BULL": {
+   "Aurochs": "aurochs",
+   "Knight": "knight"
+  },
+  "LOMBARD": {
+   "Crew": "crew",
+   "Lombard": "lombard"
+  },
+  "MAESTRO": {
+   "Maestro": "maestro"
+  },
+  "MAGOS": {
+   "Grand Mago": "grand-mago",
+   "Mago": "mago"
+  },
+  "MARIA DE SALVO": {
+   "Maria de Salvo": "maria-de-salvo"
+  },
+  "MERCENARY OGRES": {
+   "Ogre": "ogre"
+  },
+  "MOUNTAIN BANDITS": {
+   "Mountain Bandit": "mountain-bandit"
+  },
+  "MUSKETEERS": {
+   "Musketeer": "musketeer"
+  },
+  "PEGASUS": {
+   "Pegasus": "pegasus"
+  },
+  "PIKEMEN": {
+   "Pikeman": "pikeman"
+  },
+  "PRIESTS OF MYRMIDIA": {
+   "High Priest of Myrmidia": "high-priest-of-myrmidia",
+   "Priest of Myrmidia": "priest-of-myrmidia"
+  },
+  "RODELEROS": {
+   "Rodelero": "rodelero"
+  },
+  "ROYAL GUARD": {
+   "Royal Guard": "royal-guard"
+  },
+  "SANTIAGO DE VIVAR": {
+   "Babieca (Warhorse)": "babieca-warhorse",
+   "Santiago de Vivar": "santiago-de-vivar"
+  },
+  "SISTERS OF FURY": {
+   "Sister of Fury": "sister-of-fury"
+  },
+  "TERCIOS": {
+   "Tercio": "tercio"
+  },
+  "WAR ALTAR OF MYRMIDIA": {
+   "Aurochs": "aurochs",
+   "Bull": "bull",
+   "War Altar of Myrmidia": "war-altar-of-myrmidia"
+  },
+  "WAR DOGS": {
+   "Handler": "handler",
+   "War Dog": "war-dog"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  }
+ },
+ "rules": {
+  "COUNTERMARCH FIRE": "countermarch-fire",
+  "Support Fire": "support-fire",
+  "TACTICAL SUPREMACY": "tactical-supremacy",
+  "TERCIO FORMATION": "tercio-formation"
+ },
+ "units": {
+  "ALMOGAVARS": "almogavars",
+  "ARQUEBUSIERS": "arquebusiers",
+  "AUROCHS": "aurochs",
+  "COMMANDERS": "commanders",
+  "CONQUISTADORS": "conquistadors",
+  "CROSSBOWMEN": "crossbowmen",
+  "CULVERIN": "culverin",
+  "DIEGO MONTOYA": "diego-montoya",
+  "DIESTROS": "diestros",
+  "DON LOMENTE": "don-lomente",
+  "FALCONET": "falconet",
+  "FIRE BULLS": "fire-bulls",
+  "FRANCISCO CORTEZ": "francisco-cortez",
+  "GENITORS": "genitors",
+  "GRENADIERS": "grenadiers",
+  "GRIFFON": "griffon",
+  "HIDALGOS": "hidalgos",
+  "ISABELLA GIOVANNA LUCCELLI": "isabella-giovanna-luccelli",
+  "JUAN FEDERICO": "juan-federico",
+  "KNIGHTS": "knights",
+  "KNIGHTS OF THE RAGING BULL": "knights-of-the-raging-bull",
+  "LOMBARD": "lombard",
+  "MAESTRO": "maestro",
+  "MAGOS": "magos",
+  "MARIA DE SALVO": "maria-de-salvo",
+  "MERCENARY OGRES": "mercenary-ogres",
+  "MOUNTAIN BANDITS": "mountain-bandits",
+  "MUSKETEERS": "musketeers",
+  "PEGASUS": "pegasus",
+  "PIKEMEN": "pikemen",
+  "PRIESTS OF MYRMIDIA": "priests-of-myrmidia",
+  "RODELEROS": "rodeleros",
+  "ROYAL GUARD": "royal-guard",
+  "SANTIAGO DE VIVAR": "santiago-de-vivar",
+  "SISTERS OF FURY": "sisters-of-fury",
+  "TERCIOS": "tercios",
+  "WAR ALTAR OF MYRMIDIA": "war-altar-of-myrmidia",
+  "WAR DOGS": "war-dogs",
+  "WARHORSE": "warhorse"
+ },
+ "upgrades": {}
+}

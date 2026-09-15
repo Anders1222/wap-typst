@@ -1,0 +1,1391 @@
+{
+ "choices": {
+  "ASSASSINS": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Crossbow": "crossbow",
+    "Pistol": "pistol",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "BALLISTA": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "CROSSBOWMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "handguns": {
+    "handguns": "handguns"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pavises": {
+    "pavises": "pavises"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DUELLISTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Oriental longswords": "oriental-longswords",
+    "Pistols": "pistols"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "DWARF CAPTAINS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "missile-weapon": {
+    "Dwarfen crossbow": "dwarfen-crossbow",
+    "Dwarfen pistol": "dwarfen-pistol"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "DWARFS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "dwarfen-crossbows": {
+    "Dwarfen crossbows": "dwarfen-crossbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Great weapons": "great-weapons",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ELF CAPTAINS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Elven longbow": "elven-longbow",
+    "Elven shortbow": "elven-shortbow"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "ELVES": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Spears": "spears"
+   },
+   "missile-weapon": {
+    "Elven longbow": "elven-longbow",
+    "Elven shortbow": "elven-shortbow"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "FREELANCERS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GLADIATORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Nets & spears": "nets-and-spears",
+    "Shields": "shields"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   }
+  },
+  "GRIFFON": {
+   "shredding-talons": {
+    "Shredding Talons": "shredding-talons"
+   },
+   "swooping-strike": {
+    "Swooping Strike": "swooping-strike"
+   }
+  },
+  "HALFLING CAPTAINS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Shortbow": "shortbow",
+    "Sling": "sling",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "shields": {
+    "Buckler": "buckler",
+    "Shield": "shield"
+   }
+  },
+  "HALFLINGS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Shortbows": "shortbows",
+    "Slings": "slings",
+    "Spears": "spears"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HIRELING WIZARDS": {
+   "magic-items-hireling-wizard": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-hireling-wizard-lord": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Griffon": "griffon",
+    "Pegasus": "pegasus",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "HOBGOBLIN CAPTAINS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Light lance": "light-lance"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "shortbow": {
+    "shortbow": "shortbow"
+   }
+  },
+  "HOBGOBLINS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LORENZO LUPO": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "LUCREZZIA BELLADONNA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MANEATERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Brace of Ogre pistols": "brace-of-ogre-pistols",
+    "Great weapon": "great-weapon",
+    "Ironfists": "ironfists",
+    "Ogre pistol": "ogre-pistol",
+    "Oriental longsword": "oriental-longsword",
+    "Polearm": "polearm"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MARCO COLOMBO": {
+   "crossbow": {
+    "crossbow": "crossbow"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MERCENARY COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items-mercenary-captain": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-mercenary-general": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Oriental longsword": "oriental-longsword",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Brace of pistols": "brace-of-pistols",
+    "Crossbow": "crossbow",
+    "Handgun": "handgun",
+    "Pistol": "pistol",
+    "Shortbow": "shortbow"
+   },
+   "mount": {
+    "Griffon": "griffon",
+    "Pegasus": "pegasus",
+    "Warhorse": "warhorse"
+   },
+   "shields": {
+    "Buckler": "buckler",
+    "Shield": "shield"
+   }
+  },
+  "NICODEMUS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "NORSEMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Flails": "flails",
+    "Spears": "spears",
+    "dditional hand weapons": "dditional-hand-weapons",
+    "great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-axes": {
+    "throwing axes": "throwing-axes"
+   }
+  },
+  "OGRE CAPTAINS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Ironfist": "ironfist",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Brace of Ogre pistols": "brace-of-ogre-pistols",
+    "Ogre pistol": "ogre-pistol"
+   }
+  },
+  "OGRES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Gut-plates": "gut-plates",
+    "Light armour": "light-armour",
+    "Light armour & gut plates": "light-armour-and-gut-plates"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Ironfists": "ironfists"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ONAGER": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "ORC CAPTAINS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "ORCS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PAYMASTER": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm"
+   },
+   "missile-weapon": {
+    "Brace of pistols": "brace-of-pistols",
+    "Crossbow": "crossbow",
+    "Handgun": "handgun",
+    "Pistol": "pistol",
+    "Shortbow": "shortbow"
+   },
+   "money-lender": {
+    "Money Lender": "money-lender"
+   },
+   "shields": {
+    "Buckler": "buckler",
+    "Shield": "shield"
+   },
+   "upgrade": {
+    "Paycart": "paycart",
+    "Paychest": "paychest"
+   }
+  },
+  "PAYMASTER'S BODYGUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PEGASUS": {
+   "iron-hard-hooves": {
+    "Iron-hard Hooves": "iron-hard-hooves"
+   },
+   "swift-as-the-wind": {
+    "Swift as the Wind": "swift-as-the-wind"
+   }
+  },
+  "PIKEMEN": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RIBAULT": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "SCORPION": {
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "SELLSWORDS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Flails": "flails",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Shortbows": "shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SERPENTINE": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "SIMIUS GANTT": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "STRADIOTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "missile-weapon": {
+    "Crossbows": "crossbows",
+    "Handguns": "handguns",
+    "Javelins": "javelins",
+    "Shortbows": "shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "quirks-of-character": {
+    "Quirks of Character": "quirks-of-character"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ULLI & MARQUAND": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-2": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  }
+ },
+ "groups": {
+  "ASSASSINS": {
+   "May choose any of the following:": "equipment",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "BALLISTA": {
+   "May take an additional crew": "additional-crew",
+   "May take light armour": "light-armour"
+  },
+  "CROSSBOWMEN": {
+   "May replace crossbows with handguns": "handguns",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take light armour": "light-armour",
+   "May take pavises": "pavises",
+   "May upgrade one Crossbowman to a Leader": "champion",
+   "May upgrade one Crossbowman to a Musician": "musician",
+   "May upgrade one Crossbowman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Crossbowman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DUELLISTS": {
+   "May choose one of the following:": "equipment",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Duellist to a Leader": "champion"
+  },
+  "DWARF CAPTAINS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a shield": "shield"
+  },
+  "DWARFS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Dwarfen crossbows": "dwarfen-crossbows",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take shields": "shields",
+   "May upgrade one Dwarf to a Leader": "champion",
+   "May upgrade one Dwarf to a Musician": "musician",
+   "May upgrade one Dwarf to a Standard Bearer": "standard-bearer",
+   "May upgrade one Dwarf to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ELF CAPTAINS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a shield": "shield"
+  },
+  "ELVES": {
+   "May be upgraded to Skirmishers (if armed with missile weapons)": "skirmishers",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take shields (unless armed with additional hand weapons)": "shields",
+   "May upgrade one Elf to a Leader": "champion",
+   "May upgrade one Elf to a Musician": "musician",
+   "May upgrade one Elf to a Standard Bearer": "standard-bearer",
+   "May upgrade one Elf to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "FREELANCERS": {
+   "May take Quirks of Character": "quirks-of-character",
+   "May take barding": "barding",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Freelancer to a Leader": "champion",
+   "May upgrade one Freelancer to a Musician": "musician",
+   "May upgrade one Freelancer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Freelancer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GLADIATORS": {
+   "May replace bucklers with one of the following:": "equipment",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take light armour": "light-armour",
+   "May upgrade one Gladiator to a Leader": "champion"
+  },
+  "GRIFFON": {
+   "May take Shredding Talons": "shredding-talons",
+   "May take Swooping Strike": "swooping-strike"
+  },
+  "HALFLING CAPTAINS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "shields",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "HALFLINGS": {
+   "May be upgraded to Skirmishers (if armed with missile weapons)": "skirmishers",
+   "May choose one of the following:": "equipment",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take shields (unless armed with missile weapons)": "shields",
+   "May upgrade one Halfling to a Leader": "champion",
+   "May upgrade one Halfling to a Musician": "musician",
+   "May upgrade one Halfling to a Standard Bearer": "standard-bearer",
+   "May upgrade one Halfling to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HIRELING WIZARDS": {
+   "A Hireling Wizard Lord may take Quirks of Character and/or Magic Items up to a total of 100 points": "magic-items-hireling-wizard-lord",
+   "A Hireling Wizard may take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items-hireling-wizard",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "HOBGOBLIN CAPTAINS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a shield": "shield",
+   "May take a shortbow": "shortbow"
+  },
+  "HOBGOBLINS": {
+   "May take Quirks of Character": "quirks-of-character",
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take shields": "shields",
+   "May take shortbows": "shortbows",
+   "May upgrade one Hobgoblin to a Leader": "champion",
+   "May upgrade one Hobgoblin to a Musician": "musician",
+   "May upgrade one Hobgoblin to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hobgoblin to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "LORENZO LUPO": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "LUCREZZIA BELLADONNA": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "MANEATERS": {
+   "Any model may be armed with one of the following (different models may have different weapons):": "equipment",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take light armour": "light-armour",
+   "May upgrade one Maneater to a Leader": "champion",
+   "May upgrade one Maneater to a Musician": "musician",
+   "May upgrade one Maneater to a Standard Bearer": "standard-bearer",
+   "May upgrade one Maneater to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MARCO COLOMBO": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a crossbow": "crossbow"
+  },
+  "MERCENARY COMMANDERS": {
+   "A Mercenary Captain may take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items-mercenary-captain",
+   "A Mercenary General may take Quirks of Character and/or Magic Items up to a total of 100 points": "magic-items-mercenary-general",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May choose one of the following: #4": "shields"
+  },
+  "NICODEMUS": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "NORSEMEN": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May take throwing axes": "throwing-axes",
+   "May upgrade one Norseman to a Leader": "champion",
+   "May upgrade one Norseman to a Musician": "musician",
+   "May upgrade one Norseman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Norseman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "OGRE CAPTAINS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "OGRES": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "equipment",
+   "May take Quirks of Character": "quirks-of-character",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ONAGER": {
+   "May take an additional crew": "additional-crew",
+   "May take light armour": "light-armour"
+  },
+  "ORC CAPTAINS": {
+   "May choose any of the following:": "melee-weapon",
+   "May choose one of the following:": "armour",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a shield": "shield"
+  },
+  "ORCS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take light armour": "light-armour",
+   "May take shields (unless armed with great weapons)": "shields",
+   "May upgrade one Orc to a Leader": "champion",
+   "May upgrade one Orc to a Musician": "musician",
+   "May upgrade one Orc to a Standard Bearer": "standard-bearer",
+   "May upgrade one Orc to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "PAYMASTER": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May choose one of the following: #4": "shields",
+   "May take Quirks of Character and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a Money Lender": "money-lender",
+   "May take one of the following:": "upgrade"
+  },
+  "PAYMASTER'S BODYGUARD": {
+   "May take Quirks of Character": "quirks-of-character",
+   "May take heavy armour": "heavy-armour",
+   "May take shields": "shields",
+   "May upgrade one Paymaster's Bodyguard to a Leader": "champion",
+   "May upgrade one Paymaster's Bodyguard to a Musician": "musician",
+   "May upgrade one Paymaster's Bodyguard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Paymaster's Bodyguard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "PEGASUS": {
+   "May take Iron-hard Hooves": "iron-hard-hooves",
+   "May take Swift as the Wind": "swift-as-the-wind"
+  },
+  "PIKEMEN": {
+   "May choose one of the following:": "armour",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take bucklers": "bucklers",
+   "May upgrade one Pikeman to a Leader": "champion",
+   "May upgrade one Pikeman to a Musician": "musician",
+   "May upgrade one Pikeman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pikeman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "RIBAULT": {
+   "May take an additional crew": "additional-crew",
+   "May take light armour": "light-armour"
+  },
+  "SCORPION": {
+   "May take light armour": "light-armour"
+  },
+  "SELLSWORDS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take shields (unless armed with two hand weapons, flails, great weapons or shortbows)": "shields",
+   "May upgrade one Sellsword to a Leader": "champion",
+   "May upgrade one Sellsword to a Musician": "musician",
+   "May upgrade one Sellsword to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sellsword to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SERPENTINE": {
+   "May take an additional crew": "additional-crew",
+   "May take light armour": "light-armour"
+  },
+  "SIMIUS GANTT": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "STRADIOTS": {
+   "May choose one of the following:": "missile-weapon",
+   "May take Quirks of Character": "quirks-of-character",
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take shields": "shields",
+   "May upgrade one Stradiot to a Leader": "champion",
+   "May upgrade one Stradiot to a Musician": "musician",
+   "May upgrade one Stradiot to a Standard Bearer": "standard-bearer",
+   "May upgrade one Stradiot to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ULLI & MARQUAND": {
+   "Marquand may take Magic Items up to a total of 50 points": "magic-items",
+   "Ulli may take Magic Items up to a total of 50 points": "magic-items-2"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  }
+ },
+ "items": {
+  "ARCH-LIGHTNING ROD": "arch-lightning-rod",
+  "BANNER OF MIGHT": "banner-of-might",
+  "BANNER OF MONTE CASTELLO": "banner-of-monte-castello",
+  "BANNER OF SWIRLING WIND": "banner-of-swirling-wind",
+  "BECALMING ORB": "becalming-orb",
+  "BLADE OF LAST RESORT": "blade-of-last-resort",
+  "BLADE OF PRESCIENT PERFECTION": "blade-of-prescient-perfection",
+  "BOOK OF ASHUR": "book-of-ashur",
+  "CACKLING BLADE": "cackling-blade",
+  "CATHAYAN DRAGONSWORD": "cathayan-dragonsword",
+  "COLD IRON BLADE": "cold-iron-blade",
+  "DASHING CLOAK OF HEROIC RENOWN": "dashing-cloak-of-heroic-renown",
+  "DAWNSTAR SWORD": "dawnstar-sword",
+  "EAGLE BANNER": "eagle-banner",
+  "ENSIGN OF THE REMAN LEGION": "ensign-of-the-reman-legion",
+  "EYE OF THE TILEAN MUR": "eye-of-the-tilean-mur",
+  "GIANTKIN HELM": "giantkin-helm",
+  "GRUDGEBRINGER SWORD": "grudgebringer-sword",
+  "GUARDIAN AMULET": "guardian-amulet",
+  "HELM OF DISCORD": "helm-of-discord",
+  "HELM OF MYRMIDIA": "helm-of-myrmidia",
+  "HELM OF THE HEADLESS HORSEMAN": "helm-of-the-headless-horseman",
+  "HOURGLASS OF MORR": "hourglass-of-morr",
+  "HURCIO'S CLUB": "hurcios-club",
+  "HYPNOTIC EYE SCROLL": "hypnotic-eye-scroll",
+  "ICON OF FORTITUDE": "icon-of-fortitude",
+  "IRONCURSE ICON": "ironcurse-icon",
+  "IRONHIDE TALISMAN": "ironhide-talisman",
+  "JUSTINTINE'S PAYCHEST": "justintines-paychest",
+  "LEVITATING SHIELD": "levitating-shield",
+  "LIFESTONE OF ASHRAAZ": "lifestone-of-ashraaz",
+  "MACROSCOPE": "macroscope",
+  "MAMBRINIO'S GOLDEN ARMOUR": "mambrinios-golden-armour",
+  "MASTER DUELLIST'S MARK": "master-duellists-mark",
+  "METEOR HAMMER": "meteor-hammer",
+  "MONSTER HUNTER'S TAPESTRY": "monster-hunters-tapestry",
+  "MYSTIC MAZE": "mystic-maze",
+  "PAYMASTER'S COIN": "paymasters-coin",
+  "PENNANT OF LOYALTY": "pennant-of-loyalty",
+  "PIKE OF REMAS": "pike-of-remas",
+  "RING OF LIFE": "ring-of-life",
+  "ROCKCHARMER'S FLUTE": "rockcharmers-flute",
+  "SCALED BOOTS OF DELAYED ALACRITY": "scaled-boots-of-delayed-alacrity",
+  "SCROLL OF DISRUPTION": "scroll-of-disruption",
+  "SCROLL OF LYKOS": "scroll-of-lykos",
+  "SHARD OF MORRSLIEB": "shard-of-morrslieb",
+  "SHIELD OF PTOLOS": "shield-of-ptolos",
+  "SHIELD OF STUBBORN REFUSAL": "shield-of-stubborn-refusal",
+  "SILVERSTONE AXE": "silverstone-axe",
+  "SINISTER CONTRACT": "sinister-contract",
+  "SIVEJIR'S HEX SCROLL": "sivejirs-hex-scroll",
+  "STAFF OF FICKLE FORTUNE": "staff-of-fickle-fortune",
+  "STAFF OF QUIETUDE": "staff-of-quietude",
+  "SWORD OF ANTI-HEROES": "sword-of-anti-heroes",
+  "SWORD OF SORROW": "sword-of-sorrow",
+  "THE CRUCIBLE OF HORRORS": "the-crucible-of-horrors",
+  "THE LAST CHANCE": "the-last-chance",
+  "THE MYSTIC SHIELD OF BRAG": "the-mystic-shield-of-brag",
+  "THE OTHER TRICKSTER'S SHARD": "the-other-tricksters-shard",
+  "THE TERRIFYING MASK OF EEE!": "the-terrifying-mask-of-eee",
+  "THE WHITE SISTRUM": "the-white-sistrum",
+  "TOME OF SPELLCRAFT": "tome-of-spellcraft",
+  "TORMENTOR SWORD": "tormentor-sword",
+  "TRICKSTER'S SHARD": "tricksters-shard",
+  "WARDS OF BATTLE": "wards-of-battle",
+  "WARRIOR BANE": "warrior-bane",
+  "WINDCATCHER PRISM": "windcatcher-prism",
+  "WYSSAN'S WEIGHTED DICE": "wyssans-weighted-dice"
+ },
+ "lores": {
+  "LORE OF BATTLE MAGIC": "lore-of-battle-magic"
+ },
+ "profiles": {
+  "AENUR": {
+   "Aenur": "aenur"
+  },
+  "ASSASSINS": {
+   "Assassin": "assassin"
+  },
+  "BALLISTA": {
+   "Ballista": "ballista",
+   "Crew": "crew"
+  },
+  "BORGIO THE BESIEGER": {
+   "Borgio the Besieger": "borgio-the-besieger",
+   "Warhorse": "warhorse"
+  },
+  "CROSSBOWMEN": {
+   "Crossbowman": "crossbowman"
+  },
+  "DUELLISTS": {
+   "Duellist": "duellist"
+  },
+  "DWARF CAPTAINS": {
+   "Dwarf Captain": "dwarf-captain"
+  },
+  "DWARFS": {
+   "Dwarf": "dwarf"
+  },
+  "ELF CAPTAINS": {
+   "Elf Captain": "elf-captain"
+  },
+  "ELVES": {
+   "Elves": "elves"
+  },
+  "FREELANCERS": {
+   "Freelancer": "freelancer",
+   "Warhorse": "warhorse"
+  },
+  "GHAZAK KHAN": {
+   "Ghazak Khan": "ghazak-khan",
+   "Warghan (Giant Wolf)": "warghan-giant-wolf"
+  },
+  "GIANT": {
+   "Giant": "giant"
+  },
+  "GLADIATORS": {
+   "Gladiator": "gladiator"
+  },
+  "GRIFFON": {
+   "Griffon": "griffon"
+  },
+  "HALFLING CAPTAINS": {
+   "Halfling Captain": "halfling-captain"
+  },
+  "HALFLINGS": {
+   "Halfling": "halfling"
+  },
+  "HIRELING WIZARDS": {
+   "Hireling Wizard": "hireling-wizard",
+   "Hireling Wizard Lord": "hireling-wizard-lord"
+  },
+  "HOBGOBLIN CAPTAINS": {
+   "Giant Wolf": "giant-wolf",
+   "Hobgoblin Captain": "hobgoblin-captain"
+  },
+  "HOBGOBLINS": {
+   "Giant Wolf": "giant-wolf",
+   "Hobgoblin": "hobgoblin"
+  },
+  "HOT POT": {
+   "Crew": "crew",
+   "Hot Pot": "hot-pot"
+  },
+  "JOHANN THE KNIFE": {
+   "Johann the Knife": "johann-the-knife"
+  },
+  "LEONARDO DA MIRAGLIANO": {
+   "Leonardo da Miragliano": "leonardo-da-miragliano"
+  },
+  "LIETPOLD THE BLACK": {
+   "Lietpold the Black": "lietpold-the-black",
+   "Warhorse": "warhorse"
+  },
+  "LORENZO LUPO": {
+   "Lorenzo Lupo": "lorenzo-lupo"
+  },
+  "LUCREZZIA BELLADONNA": {
+   "Lucrezzia Belladonna": "lucrezzia-belladonna",
+   "Warhorse": "warhorse"
+  },
+  "MANEATERS": {
+   "Maneater": "maneater"
+  },
+  "MARCO COLOMBO": {
+   "Marco Colombo": "marco-colombo"
+  },
+  "MARIANNA CHEVAUX": {
+   "Marianna Chevaux": "marianna-chevaux"
+  },
+  "MARIENBURG LAND SHIP": {
+   "Crew": "crew",
+   "Land Ship": "land-ship"
+  },
+  "MERCENARY COMMANDERS": {
+   "Mercenary Captain": "mercenary-captain",
+   "Mercenary General": "mercenary-general"
+  },
+  "MYDAS THE MEAN": {
+   "Mydas the Mean": "mydas-the-mean",
+   "Sheikh Yadosh": "sheikh-yadosh"
+  },
+  "NICODEMUS": {
+   "Nicodemus": "nicodemus"
+  },
+  "NORSEMEN": {
+   "Norseman": "norseman"
+  },
+  "OGRE CAPTAINS": {
+   "Ogre Captain": "ogre-captain"
+  },
+  "OGRES": {
+   "Ogre": "ogre"
+  },
+  "ONAGER": {
+   "Crew": "crew",
+   "Onager": "onager"
+  },
+  "ORC CAPTAINS": {
+   "Orc Captain": "orc-captain"
+  },
+  "ORCS": {
+   "Orc": "orc"
+  },
+  "PAYCART": {
+   "Mule": "mule",
+   "Paycart": "paycart"
+  },
+  "PAYCHEST": {
+   "Paychest Bodyguards": "paychest-bodyguards"
+  },
+  "PAYMASTER": {
+   "Money Lender": "money-lender",
+   "Paymaster": "paymaster"
+  },
+  "PAYMASTER'S BODYGUARD": {
+   "Paymaster's Bodyguard": "paymasters-bodyguard"
+  },
+  "PEGASUS": {
+   "Pegasus": "pegasus"
+  },
+  "PIKEMEN": {
+   "Pikeman": "pikeman"
+  },
+  "RIBAULT": {
+   "Crew": "crew",
+   "Ribault": "ribault"
+  },
+  "SCORPION": {
+   "Crew": "crew",
+   "Scorpion": "scorpion"
+  },
+  "SELLSWORDS": {
+   "Sellsword": "sellsword"
+  },
+  "SERPENTINE": {
+   "Crew": "crew",
+   "Serpentine": "serpentine"
+  },
+  "SIMIUS GANTT": {
+   "Simius Gantt": "simius-gantt"
+  },
+  "STRADIOTS": {
+   "Stradiot": "stradiot",
+   "Warhorse": "warhorse"
+  },
+  "ULLI & MARQUAND": {
+   "Marquand": "marquand",
+   "Ulli": "ulli"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  }
+ },
+ "rules": {
+  "BACKSTABBERS": "backstabbers",
+  "COWARDLY DESPOILERS": "cowardly-despoilers",
+  "CUNNING RETREAT": "cunning-retreat",
+  "DED SHOOTY": "ded-shooty",
+  "DUCK & WEAVE": "duck-and-weave",
+  "DWARFEN CROSSBOW": "dwarfen-crossbow",
+  "DWARFEN PISTOL": "dwarfen-pistol",
+  "ELVEN GRACE": "elven-grace",
+  "ELVEN LONGBOW": "elven-longbow",
+  "ELVEN SHORTBOW": "elven-shortbow",
+  "GUT-PLATE": "gut-plate",
+  "IRONFIST": "ironfist",
+  "MERCENARIES": "mercenaries",
+  "OGRE CHARGE": "ogre-charge",
+  "OGRE PISTOLS": "ogre-pistols",
+  "ORIENTAL LONGSWORD": "oriental-longsword",
+  "PAVISE": "pavise",
+  "RACIAL DISTRUST": "racial-distrust",
+  "RELENTLESS": "relentless",
+  "RESOLUTE": "resolute"
+ },
+ "units": {
+  "AENUR": "aenur",
+  "ASSASSINS": "assassins",
+  "BALLISTA": "ballista",
+  "BORGIO THE BESIEGER": "borgio-the-besieger",
+  "CROSSBOWMEN": "crossbowmen",
+  "DUELLISTS": "duellists",
+  "DWARF CAPTAINS": "dwarf-captains",
+  "DWARFS": "dwarfs",
+  "ELF CAPTAINS": "elf-captains",
+  "ELVES": "elves",
+  "FREELANCERS": "freelancers",
+  "GHAZAK KHAN": "ghazak-khan",
+  "GIANT": "giant",
+  "GLADIATORS": "gladiators",
+  "GRIFFON": "griffon",
+  "HALFLING CAPTAINS": "halfling-captains",
+  "HALFLINGS": "halflings",
+  "HIRELING WIZARDS": "hireling-wizards",
+  "HOBGOBLIN CAPTAINS": "hobgoblin-captains",
+  "HOBGOBLINS": "hobgoblins",
+  "HOT POT": "hot-pot",
+  "JOHANN THE KNIFE": "johann-the-knife",
+  "LEONARDO DA MIRAGLIANO": "leonardo-da-miragliano",
+  "LIETPOLD THE BLACK": "lietpold-the-black",
+  "LORENZO LUPO": "lorenzo-lupo",
+  "LUCREZZIA BELLADONNA": "lucrezzia-belladonna",
+  "MANEATERS": "maneaters",
+  "MARCO COLOMBO": "marco-colombo",
+  "MARIANNA CHEVAUX": "marianna-chevaux",
+  "MARIENBURG LAND SHIP": "marienburg-land-ship",
+  "MERCENARY COMMANDERS": "mercenary-commanders",
+  "MYDAS THE MEAN": "mydas-the-mean",
+  "NICODEMUS": "nicodemus",
+  "NORSEMEN": "norsemen",
+  "OGRE CAPTAINS": "ogre-captains",
+  "OGRES": "ogres",
+  "ONAGER": "onager",
+  "ORC CAPTAINS": "orc-captains",
+  "ORCS": "orcs",
+  "PAYCART": "paycart",
+  "PAYCHEST": "paychest",
+  "PAYMASTER": "paymaster",
+  "PAYMASTER'S BODYGUARD": "paymasters-bodyguard",
+  "PEGASUS": "pegasus",
+  "PIKEMEN": "pikemen",
+  "RIBAULT": "ribault",
+  "SCORPION": "scorpion",
+  "SELLSWORDS": "sellswords",
+  "SERPENTINE": "serpentine",
+  "SIMIUS GANTT": "simius-gantt",
+  "STRADIOTS": "stradiots",
+  "ULLI & MARQUAND": "ulli-and-marquand",
+  "WARHORSE": "warhorse"
+ },
+ "upgrades": {
+  "BATTLE-EAGER": "battle-eager",
+  "BEASTSLAYER": "beastslayer",
+  "BERSERKER": "berserker",
+  "BLADEMASTER": "blademaster",
+  "BLOOD FEUD": "blood-feud",
+  "CHARISMATIC LEADER": "charismatic-leader",
+  "DEFIANT": "defiant",
+  "DIPLOMAT": "diplomat",
+  "DRILLED": "drilled",
+  "EAGLE EYE": "eagle-eye",
+  "EXECUTIONER": "executioner",
+  "FEARLESS": "fearless",
+  "FEARSOME REPUTATION": "fearsome-reputation",
+  "FLEET-FOOTED": "fleet-footed",
+  "FURIOUS CHARGER": "furious-charger",
+  "GREEDY": "greedy",
+  "GRIZZLED WARRIOR": "grizzled-warrior",
+  "HARD HITTER": "hard-hitter",
+  "MARKSMAN": "marksman",
+  "POISONER": "poisoner",
+  "PRECISION STRIKER": "precision-striker",
+  "QUICK DRAW": "quick-draw",
+  "RAIDER": "raider",
+  "RANGER": "ranger",
+  "STEADY AIM": "steady-aim",
+  "TACTICIAN": "tactician",
+  "VETERAN": "veteran",
+  "WEALTHY": "wealthy"
+ }
+}

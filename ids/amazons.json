@@ -1,0 +1,731 @@
+{
+ "choices": {
+  "ANCIENT SENTINELS": {
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   }
+  },
+  "ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "COLD ONE RIDERS": {
+   "amulets-of-the-moon": {
+    "Amulets of the Moon": "amulets-of-the-moon"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "koka": {
+    "Koka": "koka"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CULCHAN RIDERS": {
+   "amulets-of-the-moon": {
+    "Amulets of the Moon": "amulets-of-the-moon"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "missile-weapon": {
+    "javelins": "javelins",
+    "shortbows": "shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "EAGLE WARRIORS": {
+   "amulets-of-the-moon": {
+    "Amulets of the Moon": "amulets-of-the-moon"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "koka": {
+    "Koka": "koka"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "sunstaffs": {
+    "Sunstaffs": "sunstaffs"
+   }
+  },
+  "GOROLS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "HUNTRESSES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Shortbows": "shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "JAGUAR WARRIORS": {
+   "amulets-of-the-moon": {
+    "Amulets of the Moon": "amulets-of-the-moon"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "koka": {
+    "Koka": "koka"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Claws of the Old Ones": "claws-of-the-old-ones",
+    "paired Claws of the Old Ones": "paired-claws-of-the-old-ones"
+   }
+  },
+  "MATRIACHS": {
+   "amulet-of-the-moon": {
+    "Amulet of the Moon": "amulet-of-the-moon"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Shortbow": "shortbow",
+    "Sun Gauntlet": "sun-gauntlet",
+    "Sunstaff": "sunstaff"
+   },
+   "koka": {
+    "Koka": "koka"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-matriarch": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-mistress": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Claw of the Old Ones": "claw-of-the-old-ones",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Cold One": "cold-one",
+    "Culchan": "culchan",
+    "Great Wyrm": "great-wyrm",
+    "Jaguar": "jaguar",
+    "Stegadon": "stegadon",
+    "Terradon": "terradon"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "PIRANHA WARRIORS": {
+   "amulets-of-the-moon": {
+    "Amulets of the Moon": "amulets-of-the-moon"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "equipment": {
+    "Sun Gauntlets": "sun-gauntlets",
+    "Upgrade javelins to have Poisoned Attacks": "upgrade-javelins-to-have-poisoned-attacks"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PYTHON WARRIORS": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "amulets-of-the-moon": {
+    "Amulets of the Moon": "amulets-of-the-moon"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "SERPENT GUARD": {
+   "amulets-of-the-moon": {
+    "Amulets of the Moon": "amulets-of-the-moon"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "claws-of-the-old-ones": {
+    "Claws of the Old Ones": "claws-of-the-old-ones"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "koka": {
+    "Koka": "koka"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Sun Gauntlets": "sun-gauntlets",
+    "Sunstaffs": "sunstaffs"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SERPENT PRIESTESSES": {
+   "amulet-of-the-moon": {
+    "Amulet of the Moon": "amulet-of-the-moon"
+   },
+   "claw-of-the-old-ones": {
+    "Claw of the Old Ones": "claw-of-the-old-ones"
+   },
+   "enchanted-charms": {
+    "Enchanted Charms": "enchanted-charms"
+   },
+   "koka": {
+    "Koka": "koka"
+   },
+   "magic-items-serpent-high-priestess": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-serpent-priestess": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Sun Gauntlet": "sun-gauntlet",
+    "Sunstaff": "sunstaff"
+   },
+   "mount": {
+    "Cold One": "cold-one",
+    "Culchan": "culchan",
+    "Great Wyrm": "great-wyrm",
+    "Jaguar": "jaguar",
+    "Stegadon": "stegadon",
+    "Terradon": "terradon"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SKIRMISHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "missile-weapon": {
+    "Upgrade javelins to have Poisoned Attacks": "upgrade-javelins-to-have-poisoned-attacks",
+    "blowpipes": "blowpipes",
+    "slings": "slings"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  },
+  "STEGADON": {
+   "bows": {
+    "bows": "bows"
+   },
+   "gyroscope-of-eternal-radiance": {
+    "Gyroscope of Eternal Radiance": "gyroscope-of-eternal-radiance"
+   },
+   "upgrade": {
+    "Sharpened Horns": "sharpened-horns",
+    "Unstoppable Stampede": "unstoppable-stampede"
+   }
+  },
+  "TERRADON RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Light lances": "light-lances",
+    "Shortbows": "shortbows"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  },
+  "THALESTRIS": {
+   "shield": {
+    "shield": "shield"
+   },
+   "shortbow": {
+    "shortbow": "shortbow"
+   }
+  },
+  "WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Spears": "spears",
+    "dditional hand weapons": "dditional-hand-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ANCIENT SENTINELS": {
+   "May take great weapons": "great-weapons"
+  },
+  "ARCHERS": {
+   "May upgrade one Archer to a Leader": "champion",
+   "May upgrade one Archer to a Musician": "musician",
+   "May upgrade one Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "COLD ONE RIDERS": {
+   "May take Amulets of the Moon": "amulets-of-the-moon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take Koka": "koka",
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May upgrade one Noblewoman to a Leader": "champion",
+   "May upgrade one Noblewoman to a Musician": "musician",
+   "May upgrade one Noblewoman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Noblewoman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CULCHAN RIDERS": {
+   "May choose one of the following:": "missile-weapon",
+   "May take Amulets of the Moon": "amulets-of-the-moon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May upgrade one Culchan Rider to a Leader": "champion",
+   "May upgrade one Culchan Rider to a Musician": "musician",
+   "May upgrade one Culchan Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Culchan Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "EAGLE WARRIORS": {
+   "May replace spears with Sunstaffs": "sunstaffs",
+   "May take Amulets of the Moon": "amulets-of-the-moon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take Koka": "koka",
+   "May upgrade one Eagle Warrior to a Leader": "champion",
+   "May upgrade one Eagle Warrior to a Musician": "musician",
+   "May upgrade one Eagle Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Eagle Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GOROLS": {
+   "May take great weapons": "great-weapons",
+   "May take light armour": "light-armour",
+   "May upgrade one Gorol to a Leader": "champion"
+  },
+  "HUNTRESSES": {
+   "May replace light lances with one of the following:": "missile-weapon",
+   "May take shields (unless armed with shortbows)": "shields",
+   "May upgrade one Huntress to a Leader": "champion",
+   "May upgrade one Huntress to a Musician": "musician",
+   "May upgrade one Huntress to a Standard Bearer": "standard-bearer",
+   "May upgrade one Huntress to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "JAGUAR WARRIORS": {
+   "May choose one of the following:": "upgrade",
+   "May take Amulets of the Moon": "amulets-of-the-moon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take Koka": "koka",
+   "May upgrade one Jaguar Warrior to a Leader": "champion",
+   "May upgrade one Jaguar Warrior to a Musician": "musician",
+   "May upgrade one Jaguar Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Jaguar Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MATRIACHS": {
+   "A Matriarch may take Magic Items up to a total of 100 points": "magic-items-matriarch",
+   "A Mistress may take Magic Items up to a total of 50 points": "magic-items-mistress",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "equipment",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take Koka": "koka",
+   "May take a shield": "shield",
+   "May take an Amulet of the Moon": "amulet-of-the-moon",
+   "May take light armour": "light-armour",
+   "One Mistress may carry the Battle Standard": "battle-standard"
+  },
+  "PIRANHA WARRIORS": {
+   "May choose one of the following:": "equipment",
+   "May take Amulets of the Moon": "amulets-of-the-moon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take shields": "shields",
+   "May upgrade one Piranha Warrior to a Leader": "champion",
+   "May upgrade one Piranha Warrior to a Musician": "musician",
+   "May upgrade one Piranha Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Piranha Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "PYTHON WARRIORS": {
+   "May take Amulets of the Moon": "amulets-of-the-moon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May upgrade one Python Warrior to a Leader": "champion",
+   "May upgrade one Python Warrior to a Musician": "musician"
+  },
+  "SERPENT GUARD": {
+   "May choose one of the following:": "melee-weapon",
+   "May replace polearms with Claws of the Old Ones": "claws-of-the-old-ones",
+   "May take Amulets of the Moon": "amulets-of-the-moon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take Koka": "koka",
+   "May upgrade one Serpent Guard to a Leader": "champion",
+   "May upgrade one Serpent Guard to a Musician": "musician",
+   "May upgrade one Serpent Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Serpent Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SERPENT PRIESTESSES": {
+   "A Serpent High Priestess may take Magic Items up to a total of 100 points": "magic-items-serpent-high-priestess",
+   "A Serpent Priestess may take Magic Items up to a total of 50 points": "magic-items-serpent-priestess",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take Enchanted Charms": "enchanted-charms",
+   "May take Koka": "koka",
+   "May take a Claw of the Old Ones": "claw-of-the-old-ones",
+   "May take an Amulet of the Moon": "amulet-of-the-moon",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "SKIRMISHERS": {
+   "May choose one of the following:": "missile-weapon",
+   "May take shields (unless armed with blowpipes)": "shields",
+   "May upgrade one Skirmisher to a Leader": "champion",
+   "May upgrade one Skirmisher to a Musician": "musician"
+  },
+  "STEGADON": {
+   "May choose any of the following:": "upgrade",
+   "May replace giant bow with a Gyroscope of Eternal Radiance": "gyroscope-of-eternal-radiance",
+   "May replace javelins with bows": "bows"
+  },
+  "TERRADON RIDERS": {
+   "May choose one of the following:": "equipment",
+   "May take shields": "shields",
+   "May upgrade one Terradon Rider to a Leader": "champion"
+  },
+  "THALESTRIS": {
+   "May take a shield": "shield",
+   "May take a shortbow": "shortbow"
+  },
+  "WARRIORS": {
+   "May choose one of the following:": "melee-weapon",
+   "May upgrade one Warrior to a Leader": "champion",
+   "May upgrade one Warrior to a Musician": "musician",
+   "May upgrade one Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  }
+ },
+ "items": {
+  "ARC CLAWS": "arc-claws",
+  "ARMOUR OF THE SWAMP DRAKE": "armour-of-the-swamp-drake",
+  "ASPECT OF AXLBERYN": "aspect-of-axlberyn",
+  "AUGUR SKULL": "augur-skull",
+  "BANNER OF THE FIRST QUEEN": "banner-of-the-first-queen",
+  "BLUE STUMP BREW": "blue-stump-brew",
+  "BRIGHT STAFF": "bright-staff",
+  "BRIGHT WAND OF XOLOC": "bright-wand-of-xoloc",
+  "CRYSTALLINE ARMOUR": "crystalline-armour",
+  "DEATH WHISTLE": "death-whistle",
+  "EAGLE BANNER": "eagle-banner",
+  "ELIXIR OF LIFE": "elixir-of-life",
+  "EMERALD OF THE MOON": "emerald-of-the-moon",
+  "EYE OF TZCALLI": "eye-of-tzcalli",
+  "FIERY WINGS": "fiery-wings",
+  "HAND OF RIGG": "hand-of-rigg",
+  "HUANCHI'S JAGUAR HEADDRESS": "huanchis-jaguar-headdress",
+  "ITZL'S BEAST-WARD": "itzls-beast-ward",
+  "JAGUAR MACE": "jaguar-mace",
+  "JAGUAR STANDARD": "jaguar-standard",
+  "LOCKET OF RIGG": "locket-of-rigg",
+  "MAGIC FEATHERS OF NATALINA": "magic-feathers-of-natalina",
+  "METEOR SPEAR": "meteor-spear",
+  "MIRAGE OF AMAXONIA": "mirage-of-amaxonia",
+  "MOONBLADE": "moonblade",
+  "PENNANT OF SERENA": "pennant-of-serena",
+  "PIRANHA TOTEM": "piranha-totem",
+  "PLAQUE OF THE OLD ONES": "plaque-of-the-old-ones",
+  "ROAR OF CHOTEC": "roar-of-chotec",
+  "SHIELD AMULET": "shield-amulet",
+  "SHIELD OF FEATHER IRON": "shield-of-feather-iron",
+  "SIGN OF POTEC": "sign-of-potec",
+  "SKYPIERCER": "skypiercer",
+  "STAR SWORD": "star-sword",
+  "STATUE OF SOTEK": "statue-of-sotek",
+  "TAPESTRY OF INHAMEX": "tapestry-of-inhamex",
+  "THE COBRA STAFF": "the-cobra-staff",
+  "TIARA OF SERENA": "tiara-of-serena",
+  "WARRIOR'S SUN RING": "warriors-sun-ring"
+ },
+ "lores": {},
+ "profiles": {
+  "AMAXON SWAMP PYTHON": {
+   "Amaxon Swamp Python": "amaxon-swamp-python"
+  },
+  "ANCIENT SENTINELS": {
+   "Ancient Sentinel": "ancient-sentinel"
+  },
+  "ARCHERS": {
+   "Archer": "archer"
+  },
+  "AVATAR OF RIGG": {
+   "Avatar of Rigg": "avatar-of-rigg"
+  },
+  "AZURA": {
+   "Azura": "azura"
+  },
+  "BOLT THROWER": {
+   "Bolt Thrower": "bolt-thrower",
+   "Crew": "crew"
+  },
+  "COLD ONE": {
+   "Cold One": "cold-one"
+  },
+  "COLD ONE RIDERS": {
+   "Cold One": "cold-one",
+   "Noblewoman": "noblewoman"
+  },
+  "CULCHAN": {
+   "Culchan": "culchan"
+  },
+  "CULCHAN RIDERS": {
+   "Culchan": "culchan",
+   "Culchan Rider": "culchan-rider"
+  },
+  "EAGLE WARRIORS": {
+   "Eagle Warrior": "eagle-warrior"
+  },
+  "GOROLS": {
+   "Gorol": "gorol"
+  },
+  "GREAT WYRM": {
+   "Great Wyrm": "great-wyrm"
+  },
+  "HUNTRESSES": {
+   "Huntress": "huntress",
+   "Jaguar": "jaguar"
+  },
+  "JAGUAR": {
+   "Jaguar": "jaguar"
+  },
+  "JAGUAR HUNTING PACK": {
+   "Beastmistress": "beastmistress",
+   "Jaguar": "jaguar"
+  },
+  "JAGUAR WARRIORS": {
+   "Jaguar Warrior": "jaguar-warrior"
+  },
+  "LWAXANA": {
+   "Lwaxana": "lwaxana"
+  },
+  "LYSIPPE": {
+   "Blackfang": "blackfang",
+   "Lysippe": "lysippe"
+  },
+  "MATRIACHS": {
+   "Matriarch": "matriarch",
+   "Mistress": "mistress"
+  },
+  "MELANDRA HAWKEYE": {
+   "Melandra Hawkeye": "melandra-hawkeye"
+  },
+  "PENTHESILEA": {
+   "Penthesilea": "penthesilea"
+  },
+  "PIRANHA WARRIORS": {
+   "Piranha Warrior": "piranha-warrior"
+  },
+  "PYTHON WARRIORS": {
+   "Python Warrior": "python-warrior"
+  },
+  "SERPENT GUARD": {
+   "Serpent Guard": "serpent-guard"
+  },
+  "SERPENT PRIESTESSES": {
+   "Serpent High Priestess": "serpent-high-priestess",
+   "Serpent Priestess": "serpent-priestess"
+  },
+  "SKIRMISHERS": {
+   "Skirmisher": "skirmisher"
+  },
+  "SNAKE SWARMS": {
+   "Snake Swarm": "snake-swarm"
+  },
+  "STEGADON": {
+   "Crew": "crew",
+   "Stegadon": "stegadon"
+  },
+  "TERRADON": {
+   "Terradon": "terradon"
+  },
+  "TERRADON RIDERS": {
+   "Terradon": "terradon",
+   "Terradon Rider": "terradon-rider"
+  },
+  "THALESTRIS": {
+   "Thalestris": "thalestris"
+  },
+  "WARRIORS": {
+   "Warrior": "warrior"
+  }
+ },
+ "rules": {
+  "AMULET OF THE MOON": "amulet-of-the-moon",
+  "CLAW OF THE OLD ONES": "claw-of-the-old-ones",
+  "ENCHANTED CHARMS": "enchanted-charms",
+  "GUERRILLA WARFARE": "guerrilla-warfare",
+  "Hunter's Step": "hunters-step",
+  "KOKA": "koka",
+  "PAIRED CLAWS OF THE OLD ONES": "paired-claws-of-the-old-ones",
+  "Predator's Feint": "predators-feint",
+  "SACRIFICIAL HUNT": "sacrificial-hunt",
+  "SUN GAUNTLET": "sun-gauntlet",
+  "SUNSTAFF": "sunstaff",
+  "Serpent's Strike": "serpents-strike"
+ },
+ "units": {
+  "AMAXON SWAMP PYTHON": "amaxon-swamp-python",
+  "ANCIENT SENTINELS": "ancient-sentinels",
+  "ARCHERS": "archers",
+  "AVATAR OF RIGG": "avatar-of-rigg",
+  "AZURA": "azura",
+  "BOLT THROWER": "bolt-thrower",
+  "COLD ONE": "cold-one",
+  "COLD ONE RIDERS": "cold-one-riders",
+  "CULCHAN": "culchan",
+  "CULCHAN RIDERS": "culchan-riders",
+  "EAGLE WARRIORS": "eagle-warriors",
+  "GOROLS": "gorols",
+  "GREAT WYRM": "great-wyrm",
+  "HUNTRESSES": "huntresses",
+  "JAGUAR": "jaguar",
+  "JAGUAR HUNTING PACK": "jaguar-hunting-pack",
+  "JAGUAR WARRIORS": "jaguar-warriors",
+  "LWAXANA": "lwaxana",
+  "LYSIPPE": "lysippe",
+  "MATRIACHS": "matriachs",
+  "MELANDRA HAWKEYE": "melandra-hawkeye",
+  "PENTHESILEA": "penthesilea",
+  "PIRANHA WARRIORS": "piranha-warriors",
+  "PYTHON WARRIORS": "python-warriors",
+  "SERPENT GUARD": "serpent-guard",
+  "SERPENT PRIESTESSES": "serpent-priestesses",
+  "SKIRMISHERS": "skirmishers",
+  "SNAKE SWARMS": "snake-swarms",
+  "STEGADON": "stegadon",
+  "TERRADON": "terradon",
+  "TERRADON RIDERS": "terradon-riders",
+  "THALESTRIS": "thalestris",
+  "WARRIORS": "warriors"
+ },
+ "upgrades": {}
+}

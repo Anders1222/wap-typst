@@ -1,0 +1,1013 @@
+{
+ "choices": {
+  "ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BALE TAURUS": {
+   "bloodrage": {
+    "Bloodrage": "bloodrage"
+   },
+   "flaming-breath": {
+    "Flaming Breath": "flaming-breath"
+   }
+  },
+  "BLACK ORCS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Shields": "shields",
+    "Spears": "spears"
+   },
+   "equipment-2": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Shields": "shields",
+    "Spears": "spears"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BULL CENTAUR RENDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BULL CENTAUR TAUR'RUK": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "BULL CENTAURS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CUTTHROATS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "DAEMONSMITH": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Blunderbuss": "blunderbuss",
+    "Fireglaive": "fireglaive",
+    "Pistol": "pistol"
+   },
+   "naptha-bombs": {
+    "Naptha Bombs": "naptha-bombs"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard"
+   }
+  },
+  "DEATHSHRIEKER ROCKET LAUNCHER": {
+   "hellbound": {
+    "Hellbound": "hellbound"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "DESPOTS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Fireglaive": "fireglaive",
+    "Great weapon": "great-weapon"
+   },
+   "magic-items-overlord": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-overseer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-standard-with-no-points": {
+    "Magic Standard with no points limit in addition to any other Magic Items they might have.": "magic-standard-with-no-points-limit-in-addition-to-any-other-magic-items-they-might-have"
+   },
+   "missile-weapon": {
+    "Blunderbuss": "blunderbuss",
+    "Crossbow": "crossbow",
+    "Pistol": "pistol"
+   },
+   "mount": {
+    "Bale Taurus": "bale-taurus",
+    "Great Taurus": "great-taurus"
+   },
+   "notes": {
+    "NOTES": "notes"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "DEVASTATORS": {
+   "melee-weapon": {
+    "Bazuka": "bazuka",
+    "Earthshaker Mortar": "earthshaker-mortar",
+    "Inferno Gun": "inferno-gun"
+   }
+  },
+  "DREADQUAKE MORTAR": {
+   "hellbound": {
+    "Hellbound": "hellbound"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "slave-ogre": {
+    "Slave Ogre": "slave-ogre"
+   }
+  },
+  "GOBLIN SLAVES": {
+   "hobgoblin-overseer": {
+    "Hobgoblin Overseer": "hobgoblin-overseer"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "spears": {
+    "spears": "spears"
+   }
+  },
+  "GORDUZ BACKSTABBER": {
+   "mount": {
+    "Giant Wolf": "giant-wolf"
+   }
+  },
+  "GREAT TAURUS": {
+   "bloodrage": {
+    "Bloodrage": "bloodrage"
+   },
+   "flaming-breath": {
+    "Flaming Breath": "flaming-breath"
+   }
+  },
+  "HELLCANNON": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "HOBGOBLIN CHIEFTAIN": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Light lance": "light-lance"
+   },
+   "mount": {
+    "Giant Wolf": "giant-wolf"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "shortbow": {
+    "shortbow": "shortbow"
+   }
+  },
+  "IMMORTALS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "INFERNAL GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Fireglaives": "fireglaives",
+    "Great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "IRON DAEMON": {
+   "hellbound": {
+    "Hellbound": "hellbound"
+   },
+   "skullcracker": {
+    "Skullcracker": "skullcracker"
+   }
+  },
+  "JUGGERNAUT SIEGE TOWER": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   }
+  },
+  "K'DAAI DESTROYER": {
+   "upgrade": {
+    "Brazen Wings": "brazen-wings",
+    "Dark Colossus": "dark-colossus",
+    "Flaming Breath": "flaming-breath",
+    "Gore Blades": "gore-blades",
+    "Razor Horns": "razor-horns"
+   }
+  },
+  "K'DAAI FIREBORN": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "KOLOSSUS": {
+   "breath-of-contempt": {
+    "Breath of Contempt": "breath-of-contempt"
+   },
+   "greed-pistons": {
+    "Greed Pistons": "greed-pistons"
+   },
+   "immolation-cannons": {
+    "immolation cannons": "immolation-cannons"
+   },
+   "overdrive-switch": {
+    "Overdrive Switch": "overdrive-switch"
+   }
+  },
+  "LAMMASU": {
+   "mace-tail": {
+    "Mace Tail": "mace-tail"
+   },
+   "sorcerous-exhalation": {
+    "Sorcerous Exhalation": "sorcerous-exhalation"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "MAGMA CANNON": {
+   "hellbound": {
+    "Hellbound": "hellbound"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "OGRE SLAVES": {
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons"
+   },
+   "hobgoblin-overseer": {
+    "Hobgoblin Overseer": "hobgoblin-overseer"
+   }
+  },
+  "ORC SLAVES": {
+   "hobgoblin-overseer": {
+    "Hobgoblin Overseer": "hobgoblin-overseer"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Spears": "spears"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  },
+  "RAZERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Crossbows": "crossbows",
+    "Flamehurlers": "flamehurlers"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RYKARTH THE UNBREAKABLE": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "SIEGE GIANT": {
+   "runes-of-hates": {
+    "Runes of Hates": "runes-of-hates"
+   },
+   "scaling-spikes": {
+    "Scaling Spikes": "scaling-spikes"
+   }
+  },
+  "SNEAKY GITS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "scouts": {
+    "Scouts": "scouts"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   }
+  },
+  "SORCERERS OF HASHUT": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items-sorcerer-priest": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-sorcerer-prophet": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Altar of Hashut": "altar-of-hashut",
+    "Bale Taurus": "bale-taurus",
+    "Great Taurus": "great-taurus",
+    "Lammasu": "lammasu",
+    "Palanquin": "palanquin"
+   },
+   "naptha-bombs": {
+    "Naptha Bombs": "naptha-bombs"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Great weapons": "great-weapons",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WOLF RAIDERS": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ZEALOT BERZERKERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ARCHERS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Archer to a Leader": "champion",
+   "May upgrade one Archer to a Musician": "musician",
+   "May upgrade one Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BALE TAURUS": {
+   "May take Bloodrage": "bloodrage",
+   "May take Flaming Breath": "flaming-breath"
+  },
+  "BLACK ORCS": {
+   "May take heavy armour": "heavy-armour",
+   "May take one of the following:": "equipment-2",
+   "May upgrade one Black Orc to a Leader": "champion",
+   "May upgrade one Black Orc to a Musician": "musician",
+   "May upgrade one Black Orc to a Standard Bearer": "standard-bearer",
+   "May upgrade one Black Orc to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
+   "Must take one of the following:": "equipment"
+  },
+  "BULL CENTAUR RENDERS": {
+   "May replace shields with one of the following:": "melee-weapon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Bull Centaur Render to a Leader": "champion",
+   "May upgrade one Bull Centaur Render to a Musician": "musician",
+   "May upgrade one Bull Centaur Render to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bull Centaur Render to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "BULL CENTAUR TAUR'RUK": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a shield": "shield"
+  },
+  "BULL CENTAURS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take medium armour": "medium-armour",
+   "May take shields": "shields",
+   "May upgrade one Bull Centaur to a Leader": "champion",
+   "May upgrade one Bull Centaur to a Musician": "musician",
+   "May upgrade one Bull Centaur to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bull Centaur to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CUTTHROATS": {
+   "May take light armour": "light-armour",
+   "May take spears": "spears",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Cutthroat to a Leader": "champion",
+   "May upgrade one Cutthroat to a Musician": "musician",
+   "May upgrade one Cutthroat to a Standard Bearer": "standard-bearer",
+   "May upgrade one Cutthroat to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DAEMONSMITH": {
+   "May be upgraded to a Level 1 Wizard": "wizard-level",
+   "May choose one of the following:": "missile-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take Naptha Bombs": "naptha-bombs"
+  },
+  "DEATHSHRIEKER ROCKET LAUNCHER": {
+   "May be given the Hellbound special rule": "hellbound",
+   "May take medium armour": "medium-armour"
+  },
+  "DESPOTS": {
+   "An Overlord may take Magic Items up to a total of 100 points": "magic-items-overlord",
+   "An Overseer may take Magic Items up to a total of 50 points": "magic-items-overseer",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "NOTES:": "notes",
+   "One Overseer may carry the Battle Standard": "battle-standard",
+   "The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.": "magic-standard-with-no-points"
+  },
+  "DEVASTATORS": {
+   "Must choose one of the following:": "melee-weapon"
+  },
+  "DREADQUAKE MORTAR": {
+   "May be given the Hellbound special rule": "hellbound",
+   "May take a Slave Ogre": "slave-ogre",
+   "May take medium armour": "medium-armour"
+  },
+  "GOBLIN SLAVES": {
+   "May include one Hobgoblin Overseer": "hobgoblin-overseer",
+   "May take shields": "shields",
+   "May take spears": "spears"
+  },
+  "GORDUZ BACKSTABBER": {
+   "May be mounted on a Giant Wolf": "mount"
+  },
+  "GREAT TAURUS": {
+   "May take Bloodrage": "bloodrage",
+   "May take Flaming Breath": "flaming-breath"
+  },
+  "HELLCANNON": {
+   "May take medium armour (Handlers only)": "medium-armour"
+  },
+  "HOBGOBLIN CHIEFTAIN": {
+   "May be mounted on a Giant Wolf": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Magic Items up to a total of 25 points": "magic-items",
+   "May take a shield": "shield",
+   "May take a shortbow": "shortbow"
+  },
+  "IMMORTALS": {
+   "May upgrade one Immortal to a Leader": "champion",
+   "May upgrade one Immortal to a Musician": "musician",
+   "May upgrade one Immortal to a Standard Bearer": "standard-bearer",
+   "May upgrade one Immortal to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "INFERNAL GUARD": {
+   "May replace shields with one of the following:": "equipment",
+   "May upgrade one Infernal Guard to a Leader": "champion",
+   "May upgrade one Infernal Guard to a Musician": "musician",
+   "May upgrade one Infernal Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Infernal Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "IRON DAEMON": {
+   "May be given the Hellbound special rule": "hellbound",
+   "May replace Steam Cannonade with a Skullcracker": "skullcracker"
+  },
+  "JUGGERNAUT SIEGE TOWER": {
+   "May take up to 7 additional Crew": "additional-crew"
+  },
+  "K'DAAI DESTROYER": {
+   "May take up to two of the following:": "upgrade"
+  },
+  "K'DAAI FIREBORN": {
+   "May upgrade one K'daai Fireborn to a Leader": "champion"
+  },
+  "KOLOSSUS": {
+   "May replace bane maces with immolation cannons": "immolation-cannons",
+   "May take Breath of Contempt": "breath-of-contempt",
+   "May take Greed Pistons": "greed-pistons",
+   "May take Overdrive Switch": "overdrive-switch"
+  },
+  "LAMMASU": {
+   "May take Mace Tail": "mace-tail",
+   "May take Sorcerous Exhalation": "sorcerous-exhalation",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "MAGMA CANNON": {
+   "May be given the Hellbound special rule": "hellbound",
+   "May take medium armour": "medium-armour"
+  },
+  "OGRE SLAVES": {
+   "May choose one of the following:": "equipment",
+   "May include one Hobgoblin Overseer": "hobgoblin-overseer"
+  },
+  "ORC SLAVES": {
+   "May choose one of the following:": "melee-weapon",
+   "May include one Hobgoblin Overseer": "hobgoblin-overseer",
+   "May take shields (unless armed with additional hand weapons or great weapons)": "shields"
+  },
+  "RAZERS": {
+   "May replace blunderbusses with one of the following:": "equipment",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Blunderbusser to a Leader": "champion",
+   "May upgrade one Blunderbusser to a Musician": "musician",
+   "May upgrade one Blunderbusser to a Standard Bearer": "standard-bearer",
+   "May upgrade one Blunderbusser to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "RYKARTH THE UNBREAKABLE": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "SIEGE GIANT": {
+   "May take Runes of Hates": "runes-of-hates",
+   "May take Scaling Spikes": "scaling-spikes"
+  },
+  "SNEAKY GITS": {
+   "May be upgraded to Scouts": "scouts",
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Sneaky Git to a Leader": "champion"
+  },
+  "SORCERERS OF HASHUT": {
+   "A Sorcerer-Priest may take Magic Items up to a total of 50 points": "magic-items-sorcerer-priest",
+   "A Sorcerer-Prophet may take Magic Items up to a total of 100 points": "magic-items-sorcerer-prophet",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "armour",
+   "May take Naptha Bombs": "naptha-bombs",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "WARRIORS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take shields": "shields",
+   "May upgrade one Warrior to a Leader": "champion",
+   "May upgrade one Warrior to a Musician": "musician",
+   "May upgrade one Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "WOLF RAIDERS": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take shields": "shields",
+   "May take shortbows": "shortbows",
+   "May upgrade one Wolf Raider to a Leader": "champion",
+   "May upgrade one Wolf Raider to a Musician": "musician",
+   "May upgrade one Wolf Raider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wolf Raider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ZEALOT BERZERKERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Zealot Berzerker to a Leader": "champion",
+   "May upgrade one Zealot Berzerker to a Musician": "musician",
+   "May upgrade one Zealot Berzerker to a Standard Bearer": "standard-bearer",
+   "May upgrade one Zealot Berzerker to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  }
+ },
+ "items": {
+  "ARMOUR OF BAZHERAK THE CRUEL": "armour-of-bazherak-the-cruel",
+  "ARMOUR OF THE FORGE": "armour-of-the-forge",
+  "ASHEN BANNER": "ashen-banner",
+  "BANNER OF SLAVERY": "banner-of-slavery",
+  "BANNER OF THE KHANATE": "banner-of-the-khanate",
+  "BLACK GEM OF GNAR": "black-gem-of-gnar",
+  "BLOOD OF HASHUT": "blood-of-hashut",
+  "BREATH OF HASHUT": "breath-of-hashut",
+  "CHALICE OF BLOOD AND DARKNESS": "chalice-of-blood-and-darkness",
+  "CROWN OF THE K'DAAI": "crown-of-the-kdaai",
+  "CRUCIBLE OF SPITE": "crucible-of-spite",
+  "DAEMON FLASK OF ASHAK": "daemon-flask-of-ashak",
+  "DAEMONBINDER ARMOUR": "daemonbinder-armour",
+  "DAEMONIC FAMILIAR": "daemonic-familiar",
+  "DARK MACE OF DEATH": "dark-mace-of-death",
+  "DWEOMER LEACH ORB": "dweomer-leach-orb",
+  "EYE OF HASHUT": "eye-of-hashut",
+  "FURNACE BLAST GEM": "furnace-blast-gem",
+  "GAUNTLETS OF GAZRAKH": "gauntlets-of-gazrakh",
+  "GAUNTLETS OF PUNISHMENT": "gauntlets-of-punishment",
+  "GIFT OF HASHUT": "gift-of-hashut",
+  "HASHUT'S BLADE OF GREED": "hashuts-blade-of-greed",
+  "HELLBOUND STANDARD": "hellbound-standard",
+  "HELLFORGED AMULET": "hellforged-amulet",
+  "INFERNAL CHARM": "infernal-charm",
+  "INFERNO GLAIVE OF HASHUT": "inferno-glaive-of-hashut",
+  "LASH OF SHURZZHAK": "lash-of-shurzzhak",
+  "LIFE BANE BLADE": "life-bane-blade",
+  "MAGMA ARMOUR": "magma-armour",
+  "MALIGNANT TOTEM": "malignant-totem",
+  "OATH OF CONTEMPT": "oath-of-contempt",
+  "OBSIDIAN BLADE": "obsidian-blade",
+  "OBSIDIAN VAMBRACES": "obsidian-vambraces",
+  "OVERSEER'S SIGIL": "overseers-sigil",
+  "POSSESSED AMULET": "possessed-amulet",
+  "SCROLL OF BINDING": "scroll-of-binding",
+  "SCROLL OF PETRIFICATION": "scroll-of-petrification",
+  "SHIELD OF CONTEMPT": "shield-of-contempt",
+  "SHROUD OF THE ANCESTOR": "shroud-of-the-ancestor",
+  "SPELL-WROUGHT SCEPTRE": "spell-wrought-sceptre",
+  "STANDARD OF ZHARR": "standard-of-zharr",
+  "TALISMAN OF OBSIDIAN": "talisman-of-obsidian",
+  "THE LAMMASU'S BEARD": "the-lammasus-beard",
+  "THE MASK OF THE FURNACE": "the-mask-of-the-furnace",
+  "VIAL OF LAMMASU BLOOD": "vial-of-lammasu-blood",
+  "VISAGE OF THE GREAT BULL": "visage-of-the-great-bull",
+  "VOLCANIC HAMMER": "volcanic-hammer"
+ },
+ "lores": {
+  "THE LORE OF HASHUT": "the-lore-of-hashut"
+ },
+ "profiles": {
+  "ALTAR OF HASHUT": {
+   "Altar": "altar",
+   "Altar Guard": "altar-guard"
+  },
+  "ARCHERS": {
+   "Archer": "archer"
+  },
+  "ASTRAGOTH IRONHAND": {
+   "Astragoth Ironhand": "astragoth-ironhand"
+  },
+  "BALE TAURUS": {
+   "Bale Taurus": "bale-taurus"
+  },
+  "BLACK ORCS": {
+   "Black Orc": "black-orc"
+  },
+  "BOLT THROWA": {
+   "Bolt Throwa": "bolt-throwa",
+   "Crew": "crew"
+  },
+  "BULL CENTAUR RENDERS": {
+   "Bull Centaur Render": "bull-centaur-render"
+  },
+  "BULL CENTAUR TAUR'RUK": {
+   "Bull Centaur Taur'ruk": "bull-centaur-taurruk"
+  },
+  "BULL CENTAURS": {
+   "Bull Centaur": "bull-centaur"
+  },
+  "CUTTHROATS": {
+   "Cutthroat": "cutthroat"
+  },
+  "DAEMONSMITH": {
+   "Daemonsmith": "daemonsmith"
+  },
+  "DEATHSHRIEKER ROCKET LAUNCHER": {
+   "Crew": "crew",
+   "Rocket Launcher": "rocket-launcher"
+  },
+  "DESPOTS": {
+   "Overlord": "overlord",
+   "Overseer": "overseer"
+  },
+  "DEVASTATORS": {
+   "Devastator": "devastator"
+  },
+  "DRAZHOATH THE ASHEN": {
+   "Cinderbreath (Bale Taurus)": "cinderbreath-bale-taurus",
+   "Drazhoath the Ashen": "drazhoath-the-ashen"
+  },
+  "DREADQUAKE MORTAR": {
+   "Crew": "crew",
+   "Dreadquake Mortar": "dreadquake-mortar",
+   "Ogre Slave": "ogre-slave"
+  },
+  "GIANT WOLF": {
+   "Giant Wolf": "giant-wolf"
+  },
+  "GOBLIN SLAVES": {
+   "Goblin Slave": "goblin-slave",
+   "Overseer": "overseer"
+  },
+  "GORDUZ BACKSTABBER": {
+   "Gorduz Backstabber": "gorduz-backstabber"
+  },
+  "GREAT TAURUS": {
+   "Great Taurus": "great-taurus"
+  },
+  "HELLCANNON": {
+   "Chaos Dwarf Handler": "chaos-dwarf-handler",
+   "Hellcannon": "hellcannon"
+  },
+  "HOBGOBLIN CHIEFTAIN": {
+   "Hobgoblin Chieftain": "hobgoblin-chieftain"
+  },
+  "IMMORTALS": {
+   "Immortal": "immortal"
+  },
+  "INFERNAL GUARD": {
+   "Infernal Guard": "infernal-guard"
+  },
+  "IRON DAEMON": {
+   "Crew": "crew",
+   "Iron Daemon": "iron-daemon"
+  },
+  "JUGGERNAUT SIEGE TOWER": {
+   "Crew": "crew",
+   "Juggernaut Siege Tower": "juggernaut-siege-tower"
+  },
+  "K'DAAI DESTROYER": {
+   "K'daai Destroyer": "kdaai-destroyer"
+  },
+  "K'DAAI FIREBORN": {
+   "K'daai Fireborn": "kdaai-fireborn"
+  },
+  "KOLOSSUS": {
+   "Kolossus": "kolossus"
+  },
+  "LAMMASU": {
+   "Lammasu": "lammasu"
+  },
+  "MAGMA CANNON": {
+   "Crew": "crew",
+   "Magma Cannon": "magma-cannon"
+  },
+  "OGRE SLAVES": {
+   "Hobgoblin Overseer": "hobgoblin-overseer",
+   "Ogre Slave": "ogre-slave"
+  },
+  "ORC SLAVES": {
+   "Orc Slave": "orc-slave",
+   "Overseer": "overseer"
+  },
+  "PALANQUIN": {
+   "Palanquin": "palanquin"
+  },
+  "RAZERS": {
+   "Razer": "razer"
+  },
+  "RYKARTH THE UNBREAKABLE": {
+   "Rykarth": "rykarth"
+  },
+  "SHAR'TOR THE EXECUTIONER": {
+   "Shar'tor the Executioner": "shartor-the-executioner"
+  },
+  "SIEGE GIANT": {
+   "Siege Giant": "siege-giant"
+  },
+  "SNEAKY GITS": {
+   "Sneaky Git": "sneaky-git"
+  },
+  "SORCERERS OF HASHUT": {
+   "Sorcerer-Priest": "sorcerer-priest",
+   "Sorcerer-Prophet": "sorcerer-prophet"
+  },
+  "WARRIORS": {
+   "Warrior": "warrior"
+  },
+  "WHIRLWIND/TENDERISER": {
+   "Bull Centaur": "bull-centaur",
+   "Whirlwind/Tenderizer": "whirlwind-tenderizer"
+  },
+  "WOLF RAIDERS": {
+   "Giant Wolf": "giant-wolf",
+   "Wolf Raider": "wolf-raider"
+  },
+  "ZEALOT BERZERKERS": {
+   "Zealot Berzerker": "zealot-berzerker"
+  },
+  "ZHATAN THE BLACK": {
+   "Zhatan the Black": "zhatan-the-black"
+  }
+ },
+ "rules": {
+  "ANIMOSITY": "animosity",
+  "BACKSTABBERS": "backstabbers",
+  "BLACKSHARD ARMOUR": "blackshard-armour",
+  "BLAZING BODY": "blazing-body",
+  "CONTEMPT": "contempt",
+  "COWARDLY DESPOILERS": "cowardly-despoilers",
+  "DAEMONIC": "daemonic",
+  "FIREGLAIVE": "fireglaive",
+  "FLAMEHURLER": "flamehurler",
+  "HELLBOUND": "hellbound",
+  "NAPTHA BOMBS": "naptha-bombs",
+  "RELENTLESS": "relentless",
+  "RESOLUTE": "resolute",
+  "SORCERER'S CURSE": "sorcerers-curse",
+  "TREACHEROUS GITS": "treacherous-gits"
+ },
+ "units": {
+  "ALTAR OF HASHUT": "altar-of-hashut",
+  "ARCHERS": "archers",
+  "ASTRAGOTH IRONHAND": "astragoth-ironhand",
+  "BALE TAURUS": "bale-taurus",
+  "BLACK ORCS": "black-orcs",
+  "BOLT THROWA": "bolt-throwa",
+  "BULL CENTAUR RENDERS": "bull-centaur-renders",
+  "BULL CENTAUR TAUR'RUK": "bull-centaur-taurruk",
+  "BULL CENTAURS": "bull-centaurs",
+  "CUTTHROATS": "cutthroats",
+  "DAEMONSMITH": "daemonsmith",
+  "DEATHSHRIEKER ROCKET LAUNCHER": "deathshrieker-rocket-launcher",
+  "DESPOTS": "despots",
+  "DEVASTATORS": "devastators",
+  "DRAZHOATH THE ASHEN": "drazhoath-the-ashen",
+  "DREADQUAKE MORTAR": "dreadquake-mortar",
+  "GIANT WOLF": "giant-wolf",
+  "GOBLIN SLAVES": "goblin-slaves",
+  "GORDUZ BACKSTABBER": "gorduz-backstabber",
+  "GREAT TAURUS": "great-taurus",
+  "HELLCANNON": "hellcannon",
+  "HOBGOBLIN CHIEFTAIN": "hobgoblin-chieftain",
+  "IMMORTALS": "immortals",
+  "INFERNAL GUARD": "infernal-guard",
+  "IRON DAEMON": "iron-daemon",
+  "JUGGERNAUT SIEGE TOWER": "juggernaut-siege-tower",
+  "K'DAAI DESTROYER": "kdaai-destroyer",
+  "K'DAAI FIREBORN": "kdaai-fireborn",
+  "KOLOSSUS": "kolossus",
+  "LAMMASU": "lammasu",
+  "MAGMA CANNON": "magma-cannon",
+  "OGRE SLAVES": "ogre-slaves",
+  "ORC SLAVES": "orc-slaves",
+  "PALANQUIN": "palanquin",
+  "RAZERS": "razers",
+  "RYKARTH THE UNBREAKABLE": "rykarth-the-unbreakable",
+  "SHAR'TOR THE EXECUTIONER": "shartor-the-executioner",
+  "SIEGE GIANT": "siege-giant",
+  "SNEAKY GITS": "sneaky-gits",
+  "SORCERERS OF HASHUT": "sorcerers-of-hashut",
+  "WARRIORS": "warriors",
+  "WHIRLWIND/TENDERISER": "whirlwind-tenderiser",
+  "WOLF RAIDERS": "wolf-raiders",
+  "ZEALOT BERZERKERS": "zealot-berzerkers",
+  "ZHATAN THE BLACK": "zhatan-the-black"
+ },
+ "upgrades": {}
+}

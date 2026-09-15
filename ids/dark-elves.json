@@ -1,0 +1,998 @@
+{
+ "choices": {
+  "BEASTMASTER": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Manticore": "manticore",
+    "Scourgerunner Chariot": "scourgerunner-chariot"
+   },
+   "sea-dragon-cloak": {
+    "Sea Dragon Cloak": "sea-dragon-cloak"
+   }
+  },
+  "BLACK ARK CORSAIRS": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "repeater-handbows": {
+    "repeater handbows": "repeater-handbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BLACK ARK FLEETMASTER": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Repeater handbow": "repeater-handbow"
+   },
+   "sea-dragon-cloak": {
+    "Sea Dragon Cloak": "sea-dragon-cloak"
+   }
+  },
+  "BLACK GUARD OF NAGGAROND": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BLEAKSWORDS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BLOOD HAGS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "COLD ONE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "COLD ONE CHARIOT": {
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   }
+  },
+  "COLD ONE KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "deathrain-crossbow": {
+    "Deathrain crossbow": "deathrain-crossbow"
+   },
+   "magic-items-dreadlord": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-dreadmaster": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Black Dragon": "black-dragon",
+    "Cold One": "cold-one",
+    "Cold One Chariot": "cold-one-chariot",
+    "Dark Pegasus": "dark-pegasus",
+    "Dark Steed": "dark-steed",
+    "Manticore": "manticore"
+   },
+   "sea-dragon-cloak": {
+    "Sea Dragon Cloak": "sea-dragon-cloak"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "CRONE HELLEBRON": {
+   "mount": {
+    "Cauldron of Blood": "cauldron-of-blood",
+    "Manticore": "manticore"
+   }
+  },
+  "DARK RIDERS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "deathrain-crossbows": {
+    "Deathrain crossbows": "deathrain-crossbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DARK STEED": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "DARKSHARDS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DISCIPLE OF KHAINE": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "DOOMFIRE WARLOCKS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "DREADSPEARS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HAGS OF KHAINE": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-death-hag": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-hag-queen": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Polearm": "polearm"
+   },
+   "mount": {
+    "Cauldron of Blood": "cauldron-of-blood"
+   }
+  },
+  "HAR GANETH EXECUTIONERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HARPIES": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "HIGH GLADIATRIX": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler",
+    "Polearm": "polearm"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "KHAINITE ASSASSIN": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "equipment": {
+    "Repeater handbow": "repeater-handbow",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "KHINERAI": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   }
+  },
+  "MALEKITH": {
+   "mount": {
+    "Cold One": "cold-one",
+    "Cold One Chariot": "cold-one-chariot",
+    "Seraphon (Black Dragon)": "seraphon-black-dragon"
+   }
+  },
+  "MALUS DARKBLADE": {
+   "mount": {
+    "Spite (Cold One)": "spite-cold-one"
+   }
+  },
+  "MANTICORE": {
+   "bloodrage": {
+    "Bloodrage": "bloodrage"
+   },
+   "iron-hard-skin": {
+    "Iron-hard Skin": "iron-hard-skin"
+   },
+   "rending-fangs": {
+    "Rending Fangs": "rending-fangs"
+   },
+   "venom-tail": {
+    "Venom Tail": "venom-tail"
+   }
+  },
+  "MELUSAI": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "heartseeker-bows": {
+    "Heartseeker Bows": "heartseeker-bows"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "MELUSAI IRONSCALE": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MORATHI": {
+   "mount": {
+    "Sulephet (Dark Pegasus)": "sulephet-dark-pegasus"
+   }
+  },
+  "REAPER BOLT THROWER": {
+   "additional-crew-10-points": {
+    "additional Crew 10 points": "additional-crew-10-points"
+   }
+  },
+  "SHADES": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "SHADOWSTALKERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "repeater-handbows": {
+    "repeater handbows": "repeater-handbows"
+   }
+  },
+  "SISTERS OF SLAUGHTER": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SORCERESSES": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-sorceress": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-supreme-sorceress": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Black Dragon": "black-dragon",
+    "Cold One": "cold-one",
+    "Dark Pegasus": "dark-pegasus",
+    "Dark Steed": "dark-steed",
+    "Manticore": "manticore"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "WAR HYDRA": {
+   "upgrade": {
+    "Acid Breath": "acid-breath",
+    "Fiery Breath": "fiery-breath",
+    "Spit Fire": "spit-fire"
+   },
+   "upgrade-2": {
+    "Armour Plates": "armour-plates",
+    "Battle Lover": "battle-lover",
+    "Bloodthirsty": "bloodthirsty",
+    "Chameleon Skin": "chameleon-skin",
+    "Daerlythe's Aura": "daerlythes-aura"
+   }
+  },
+  "WITCH ELVES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "BEASTMASTER": {
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a Sea Dragon Cloak": "sea-dragon-cloak",
+   "May take light armour": "light-armour"
+  },
+  "BLACK ARK CORSAIRS": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May replace one hand weapon with repeater handbows": "repeater-handbows",
+   "May upgrade one Corsair to a Leader": "champion",
+   "May upgrade one Corsair to a Musician": "musician",
+   "May upgrade one Corsair to a Standard Bearer": "standard-bearer",
+   "May upgrade one Corsair to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BLACK ARK FLEETMASTER": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a Sea Dragon Cloak": "sea-dragon-cloak",
+   "May take light armour": "light-armour"
+  },
+  "BLACK GUARD OF NAGGAROND": {
+   "May upgrade one Black Guard to a Leader": "champion",
+   "May upgrade one Black Guard to a Musician": "musician",
+   "May upgrade one Black Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Black Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "BLEAKSWORDS": {
+   "May upgrade one Bleaksword to a Leader": "champion",
+   "May upgrade one Bleaksword to a Musician": "musician",
+   "May upgrade one Bleaksword to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bleaksword to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BLOOD HAGS": {
+   "May upgrade one Blood Hag to a Leader": "champion",
+   "May upgrade one Blood Hag to a Musician": "musician",
+   "May upgrade one Blood Hag to a Standard Bearer": "standard-bearer",
+   "May upgrade one Blood Hag to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "COLD ONE": {
+   "May take barding": "barding"
+  },
+  "COLD ONE CHARIOT": {
+   "May be upgraded to a standard bearer": "standard-bearer"
+  },
+  "COLD ONE KNIGHTS": {
+   "May upgrade one Cold One Knight to a Leader": "champion",
+   "May upgrade one Cold One Knight to a Musician": "musician",
+   "May upgrade one Cold One Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Cold One Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "COMMANDERS": {
+   "A Dreadlord may take Magic Items up to a total of 100 points": "magic-items-dreadlord",
+   "A Dreadmaster may take Magic Items up to a total of 50 points": "magic-items-dreadmaster",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take a Deathrain crossbow": "deathrain-crossbow",
+   "May take a Sea Dragon Cloak": "sea-dragon-cloak",
+   "May take a shield": "shield",
+   "One Dreadmaster may carry the Battle Standard": "battle-standard"
+  },
+  "CRONE HELLEBRON": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "DARK RIDERS": {
+   "May take Deathrain crossbows": "deathrain-crossbows",
+   "May take barding": "barding",
+   "May take shields": "shields",
+   "May upgrade one Dark Rider to a Leader": "champion",
+   "May upgrade one Dark Rider to a Musician": "musician",
+   "May upgrade one Dark Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Dark Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DARK STEED": {
+   "May take barding": "barding"
+  },
+  "DARKSHARDS": {
+   "May upgrade one Darkshard to a Leader": "champion",
+   "May upgrade one Darkshard to a Musician": "musician",
+   "May upgrade one Darkshard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Darkshard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DISCIPLE OF KHAINE": {
+   "May choose one of the following:": "armour",
+   "May take Magic Items and/or Gifts of Khaine up to a total of 50 points": "magic-items",
+   "May take an additional hand weapon": "additional-hand-weapon"
+  },
+  "DOOMFIRE WARLOCKS": {
+   "May take barding": "barding",
+   "May upgrade one Doomfire Warlock to a Leader": "champion"
+  },
+  "DREADSPEARS": {
+   "May upgrade one Dreadspear to a Leader": "champion",
+   "May upgrade one Dreadspear to a Musician": "musician",
+   "May upgrade one Dreadspear to a Standard Bearer": "standard-bearer",
+   "May upgrade one Dreadspear to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HAGS OF KHAINE": {
+   "A Death Hag may take Magic Items and/or Gifts of Khaine up to a total of 50 points": "magic-items-death-hag",
+   "A Hag Queen may take Magic Items and/or Gifts of Khaine up to a total of 100 points": "magic-items-hag-queen",
+   "May be mounted on a Cauldron of Blood (Hag Queen only, replacing the Keeper of the Cauldron)": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take light armour": "light-armour",
+   "One Death Hag may carry the Battle Standard": "battle-standard"
+  },
+  "HAR GANETH EXECUTIONERS": {
+   "May upgrade one Executioner to a Leader": "champion",
+   "May upgrade one Executioner to a Musician": "musician",
+   "May upgrade one Executioner to a Standard Bearer": "standard-bearer",
+   "May upgrade one Executioner to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "HARPIES": {
+   "May upgrade one Harpy to a Leader": "champion"
+  },
+  "HIGH GLADIATRIX": {
+   "May choose one of the following:": "equipment",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "KHAINITE ASSASSIN": {
+   "May choose one of the following:": "equipment",
+   "May take Magic Items and/or Gifts of Khaine up to a total of 50 points": "magic-items",
+   "May take an additional hand weapon": "additional-hand-weapon",
+   "May take light armour": "light-armour"
+  },
+  "KHINERAI": {
+   "May take javelins": "javelins",
+   "May upgrade one Khinerai to a Leader": "champion"
+  },
+  "MALEKITH": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "MALUS DARKBLADE": {
+   "May be mounted on Spite (Cold One)": "mount"
+  },
+  "MANTICORE": {
+   "May take Bloodrage": "bloodrage",
+   "May take Iron-hard Skin": "iron-hard-skin",
+   "May take Rending Fangs": "rending-fangs",
+   "May take Venom Tail": "venom-tail"
+  },
+  "MELUSAI": {
+   "May replace Heartshard Glaives with Heartseeker Bows": "heartseeker-bows",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Melusai to a Leader": "champion"
+  },
+  "MELUSAI IRONSCALE": {
+   "May choose one of the following:": "armour",
+   "May take Magic Items and/or Gifts of Khaine up to a total of 50 points": "magic-items"
+  },
+  "MORATHI": {
+   "May be mounted on Sulephet (Dark Pegasus)": "mount"
+  },
+  "REAPER BOLT THROWER": {
+   "May take an additional Crew 10 points": "additional-crew-10-points"
+  },
+  "SHADES": {
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May take light armour": "light-armour",
+   "May upgrade one Shade to a Leader": "champion"
+  },
+  "SHADOWSTALKERS": {
+   "May replace throwing weapons with repeater handbows": "repeater-handbows",
+   "May upgrade one Shadowstalker to a Leader": "champion"
+  },
+  "SISTERS OF SLAUGHTER": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Sister of Slaughter to a Leader": "champion",
+   "May upgrade one Sister of Slaughter to a Musician": "musician",
+   "May upgrade one Sister of Slaughter to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sister of Slaughter to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SORCERESSES": {
+   "A Sorceress may take Magic Items up to a total of 50 points": "magic-items-sorceress",
+   "A Supreme Sorceress may take Magic Items up to a total of 100 points": "magic-items-supreme-sorceress",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take light armour": "light-armour"
+  },
+  "WAR HYDRA": {
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "upgrade-2"
+  },
+  "WITCH ELVES": {
+   "May take light armour": "light-armour",
+   "May upgrade one Witch Elf to a Leader": "champion",
+   "May upgrade one Witch Elf to a Musician": "musician",
+   "May upgrade one Witch Elf to a Standard Bearer": "standard-bearer",
+   "May upgrade one Witch Elf to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  }
+ },
+ "items": {
+  "AMBER AMULET": "amber-amulet",
+  "ANKLET OF EPIPHANY": "anklet-of-epiphany",
+  "ARMOUR OF DARKNESS": "armour-of-darkness",
+  "ARMOUR OF ETERNAL SERVITUDE": "armour-of-eternal-servitude",
+  "ARMOUR OF LIVING DEATH": "armour-of-living-death",
+  "ASPHYXICA CENSER": "asphyxica-censer",
+  "BANNER OF COLD BLOOD": "banner-of-cold-blood",
+  "BANNER OF MURDER": "banner-of-murder",
+  "BANNER OF NAGARYTHE": "banner-of-nagarythe",
+  "BLACK DRAGON EGG": "black-dragon-egg",
+  "BLACK STAFF": "black-staff",
+  "BLADE OF SPITE": "blade-of-spite",
+  "BLOOD ARMOUR": "blood-armour",
+  "BLOOD BLADES": "blood-blades",
+  "CALEDOR'S BANE": "caledors-bane",
+  "CHARM OF HOTEK": "charm-of-hotek",
+  "CHILLBLADE": "chillblade",
+  "CLOAK OF HAG GRAEF": "cloak-of-hag-graef",
+  "CLOAK OF TWILIGHT": "cloak-of-twilight",
+  "CRONE BLADE": "crone-blade",
+  "CROWN OF BLACK IRON": "crown-of-black-iron",
+  "CROWN OF WOE": "crown-of-woe",
+  "CRYSTAL HEART": "crystal-heart",
+  "CRYSTAL OF MIDNIGHT": "crystal-of-midnight",
+  "DAGGER OF HOTEK": "dagger-of-hotek",
+  "DARKSTAR CLOAK": "darkstar-cloak",
+  "DEATHMASK": "deathmask",
+  "DEATHPIERCER": "deathpiercer",
+  "DECANTER OF EGOS": "decanter-of-egos",
+  "DOOMSINGER": "doomsinger",
+  "DRAICH OF DARK POWER": "draich-of-dark-power",
+  "DREAD BANNER": "dread-banner",
+  "EXECUTIONER'S AXE": "executioners-axe",
+  "FOCUS FAMILIAR": "focus-familiar",
+  "GEM OF NIGHTMARES": "gem-of-nightmares",
+  "HEART-STONE OF DARKNESS": "heart-stone-of-darkness",
+  "HEARTSEEKER": "heartseeker",
+  "HYDRA BANNER": "hydra-banner",
+  "HYDRA BLADE": "hydra-blade",
+  "INCORPOREAL RETAINER": "incorporeal-retainer",
+  "LIFETAKER": "lifetaker",
+  "NULL TALISMAN": "null-talisman",
+  "ORB OF GHROND": "orb-of-ghrond",
+  "PEARL OF INFINITE BLEAKNESS": "pearl-of-infinite-bleakness",
+  "PENDANT OF KHAELETH": "pendant-of-khaeleth",
+  "RING OF DARKNESS": "ring-of-darkness",
+  "RING OF HOTEK": "ring-of-hotek",
+  "RUBRIC OF DARK DIMENSIONS": "rubric-of-dark-dimensions",
+  "SACRIFICIAL BANNER": "sacrificial-banner",
+  "SEA SERPENT STANDARD": "sea-serpent-standard",
+  "SEAL OF GHROND": "seal-of-ghrond",
+  "SEVENFOLD SHADOW": "sevenfold-shadow",
+  "SHADE CLAW": "shade-claw",
+  "SHADESLIVER": "shadesliver",
+  "SHADOW STONE": "shadow-stone",
+  "SHADOWSHROUD RING": "shadowshroud-ring",
+  "SHADRACAR'S FANG": "shadracars-fang",
+  "SHIELD OF GHROND": "shield-of-ghrond",
+  "SOUL SHADOWS STANDARD": "soul-shadows-standard",
+  "SOULRENDER": "soulrender",
+  "SOULSTONE": "soulstone",
+  "STANDARD OF HAG GRAEF": "standard-of-hag-graef",
+  "STANDARD OF HAR GANETH": "standard-of-har-ganeth",
+  "STANDARD OF SLAUGHTER": "standard-of-slaughter",
+  "SWORD OF RUIN": "sword-of-ruin",
+  "THE BLACK AMULET": "the-black-amulet",
+  "THE BLOOD BANNER": "the-blood-banner",
+  "THE CLOAK OF DARK SOULS": "the-cloak-of-dark-souls",
+  "THE GEM OF SPITE": "the-gem-of-spite",
+  "THE GUIDING EYE": "the-guiding-eye",
+  "THE HYDRA'S TEETH": "the-hydras-teeth",
+  "THE MIRROR GLAIVE": "the-mirror-glaive",
+  "THE SACRIFICIAL DAGGER": "the-sacrificial-dagger",
+  "TOME OF FURION": "tome-of-furion",
+  "TRAITOR'S BANNER": "traitors-banner",
+  "VENOMFANG BLADE": "venomfang-blade",
+  "WAND OF THE KHARAIDON": "wand-of-the-kharaidon",
+  "WEB OF SHADOWS": "web-of-shadows"
+ },
+ "lores": {
+  "THE LORE OF DARK MAGIC": "the-lore-of-dark-magic"
+ },
+ "profiles": {
+  "AVATAR OF KHAINE": {
+   "Avatar of Khaine": "avatar-of-khaine"
+  },
+  "BEASTMASTER": {
+   "Beastmaster": "beastmaster"
+  },
+  "BLACK ARK CORSAIRS": {
+   "Corsair": "corsair"
+  },
+  "BLACK ARK FLEETMASTER": {
+   "Fleetmaster": "fleetmaster"
+  },
+  "BLACK DRAGON": {
+   "Black Dragon": "black-dragon"
+  },
+  "BLACK GUARD OF NAGGAROND": {
+   "Black Guard": "black-guard"
+  },
+  "BLEAKSWORDS": {
+   "Bleaksword": "bleaksword"
+  },
+  "BLOOD HAGS": {
+   "Blood Hag": "blood-hag"
+  },
+  "BLOODWRACK MEDUSA": {
+   "Bloodwrack Medusa": "bloodwrack-medusa"
+  },
+  "BLOODWRACK SHRINE": {
+   "Bloodwrack Medusa": "bloodwrack-medusa",
+   "Bloodwrack Shrine": "bloodwrack-shrine",
+   "Shrinekeeper": "shrinekeeper"
+  },
+  "CAULDRON OF BLOOD": {
+   "Cauldron of Blood": "cauldron-of-blood",
+   "Guardian": "guardian",
+   "Keeper of the Cauldron": "keeper-of-the-cauldron"
+  },
+  "COLD ONE": {
+   "Cold One": "cold-one"
+  },
+  "COLD ONE CHARIOT": {
+   "Charioteer": "charioteer",
+   "Cold One": "cold-one",
+   "Cold One Chariot": "cold-one-chariot"
+  },
+  "COLD ONE KNIGHTS": {
+   "Cold One": "cold-one",
+   "Cold One Knight": "cold-one-knight"
+  },
+  "COMMANDERS": {
+   "Dreadlord": "dreadlord",
+   "Dreadmaster": "dreadmaster"
+  },
+  "CRONE HELLEBRON": {
+   "Crone Hellebron": "crone-hellebron"
+  },
+  "DARK PEGASUS": {
+   "Dark Pegasus": "dark-pegasus"
+  },
+  "DARK RIDERS": {
+   "Dark Rider": "dark-rider",
+   "Dark Steed": "dark-steed"
+  },
+  "DARK STEED": {
+   "Dark Steed": "dark-steed"
+  },
+  "DARKSHARDS": {
+   "Darkshard": "darkshard"
+  },
+  "DISCIPLE OF KHAINE": {
+   "Disciple of Khaine": "disciple-of-khaine"
+  },
+  "DOOMFIRE WARLOCKS": {
+   "Dark Steed": "dark-steed",
+   "Doomfire Warlock": "doomfire-warlock"
+  },
+  "DREADSPEARS": {
+   "Dreadspear": "dreadspear"
+  },
+  "HAGS OF KHAINE": {
+   "Death Hag": "death-hag",
+   "Hag Queen": "hag-queen"
+  },
+  "HAR GANETH EXECUTIONERS": {
+   "Executioner": "executioner"
+  },
+  "HARPIES": {
+   "Harpy": "harpy"
+  },
+  "HIGH GLADIATRIX": {
+   "High Gladiatrix": "high-gladiatrix"
+  },
+  "KHAINITE ASSASSIN": {
+   "Khainite Assassin": "khainite-assassin"
+  },
+  "KHARIBDYSS": {
+   "Beastmaster Apprentice": "beastmaster-apprentice",
+   "Kharibdyss": "kharibdyss"
+  },
+  "KHINERAI": {
+   "Khinerai": "khinerai"
+  },
+  "KOURAN DARKHAND": {
+   "Kouran Darkhand": "kouran-darkhand"
+  },
+  "KRETHUSA THE CRONESEER": {
+   "Krethusa": "krethusa"
+  },
+  "LOKHIR FELLHEART": {
+   "Lokhir Fellheart": "lokhir-fellheart"
+  },
+  "MALEKITH": {
+   "Malekith": "malekith",
+   "Seraphon (Black Dragon)": "seraphon-black-dragon"
+  },
+  "MALUS DARKBLADE": {
+   "Malus Darkblade": "malus-darkblade",
+   "Spite": "spite"
+  },
+  "MANTICORE": {
+   "Manticore": "manticore"
+  },
+  "MELUSAI": {
+   "Melusai": "melusai"
+  },
+  "MELUSAI IRONSCALE": {
+   "Melusai Ironscale": "melusai-ironscale"
+  },
+  "MORATHI": {
+   "Morathi": "morathi",
+   "Sulephet (Dark Pegasus)": "sulephet-dark-pegasus"
+  },
+  "RAKARTH": {
+   "Bracchus (Black Dragon)": "bracchus-black-dragon",
+   "Rakarth": "rakarth"
+  },
+  "REAPER BOLT THROWER": {
+   "Crew": "crew",
+   "Reaper Bolt Thrower": "reaper-bolt-thrower"
+  },
+  "SCOURGERUNNER CHARIOT": {
+   "Beastmaster Crew": "beastmaster-crew",
+   "Dark Steed": "dark-steed",
+   "Scourgerunner Chariot": "scourgerunner-chariot"
+  },
+  "SHADES": {
+   "Shade": "shade"
+  },
+  "SHADOWBLADE": {
+   "Shadowblade": "shadowblade"
+  },
+  "SHADOWSTALKERS": {
+   "Shadowstalker": "shadowstalker"
+  },
+  "SISTERS OF SLAUGHTER": {
+   "Sister of Slaughter": "sister-of-slaughter"
+  },
+  "SLAVES": {
+   "Slave": "slave",
+   "Slavemaster": "slavemaster"
+  },
+  "SORCERESSES": {
+   "Sorceress": "sorceress",
+   "Supreme Sorceress": "supreme-sorceress"
+  },
+  "TULLARIS DREADBRINGER": {
+   "Tullaris Dreadbringer": "tullaris-dreadbringer"
+  },
+  "WAR HYDRA": {
+   "Beastmaster Apprentice": "beastmaster-apprentice",
+   "War Hydra": "war-hydra"
+  },
+  "WITCH ELVES": {
+   "Witch Elf": "witch-elf"
+  }
+ },
+ "rules": {
+  "DEATHRAIN CROSSBOW": "deathrain-crossbow",
+  "ELVEN GRACE": "elven-grace",
+  "ETERNAL HATRED": "eternal-hatred",
+  "HEKARTI'S BLESSING": "hekartis-blessing",
+  "KHAINITE": "khainite",
+  "MURDEROUS PROWESS": "murderous-prowess",
+  "REPEATER HANDBOW": "repeater-handbow",
+  "SEA DRAGON CLOAK": "sea-dragon-cloak"
+ },
+ "units": {
+  "AVATAR OF KHAINE": "avatar-of-khaine",
+  "BEASTMASTER": "beastmaster",
+  "BLACK ARK CORSAIRS": "black-ark-corsairs",
+  "BLACK ARK FLEETMASTER": "black-ark-fleetmaster",
+  "BLACK DRAGON": "black-dragon",
+  "BLACK GUARD OF NAGGAROND": "black-guard-of-naggarond",
+  "BLEAKSWORDS": "bleakswords",
+  "BLOOD HAGS": "blood-hags",
+  "BLOODWRACK MEDUSA": "bloodwrack-medusa",
+  "BLOODWRACK SHRINE": "bloodwrack-shrine",
+  "CAULDRON OF BLOOD": "cauldron-of-blood",
+  "COLD ONE": "cold-one",
+  "COLD ONE CHARIOT": "cold-one-chariot",
+  "COLD ONE KNIGHTS": "cold-one-knights",
+  "COMMANDERS": "commanders",
+  "CRONE HELLEBRON": "crone-hellebron",
+  "DARK PEGASUS": "dark-pegasus",
+  "DARK RIDERS": "dark-riders",
+  "DARK STEED": "dark-steed",
+  "DARKSHARDS": "darkshards",
+  "DISCIPLE OF KHAINE": "disciple-of-khaine",
+  "DOOMFIRE WARLOCKS": "doomfire-warlocks",
+  "DREADSPEARS": "dreadspears",
+  "HAGS OF KHAINE": "hags-of-khaine",
+  "HAR GANETH EXECUTIONERS": "har-ganeth-executioners",
+  "HARPIES": "harpies",
+  "HIGH GLADIATRIX": "high-gladiatrix",
+  "KHAINITE ASSASSIN": "khainite-assassin",
+  "KHARIBDYSS": "kharibdyss",
+  "KHINERAI": "khinerai",
+  "KOURAN DARKHAND": "kouran-darkhand",
+  "KRETHUSA THE CRONESEER": "krethusa-the-croneseer",
+  "LOKHIR FELLHEART": "lokhir-fellheart",
+  "MALEKITH": "malekith",
+  "MALUS DARKBLADE": "malus-darkblade",
+  "MANTICORE": "manticore",
+  "MELUSAI": "melusai",
+  "MELUSAI IRONSCALE": "melusai-ironscale",
+  "MORATHI": "morathi",
+  "RAKARTH": "rakarth",
+  "REAPER BOLT THROWER": "reaper-bolt-thrower",
+  "SCOURGERUNNER CHARIOT": "scourgerunner-chariot",
+  "SHADES": "shades",
+  "SHADOWBLADE": "shadowblade",
+  "SHADOWSTALKERS": "shadowstalkers",
+  "SISTERS OF SLAUGHTER": "sisters-of-slaughter",
+  "SLAVES": "slaves",
+  "SORCERESSES": "sorceresses",
+  "TULLARIS DREADBRINGER": "tullaris-dreadbringer",
+  "WAR HYDRA": "war-hydra",
+  "WITCH ELVES": "witch-elves"
+ },
+ "upgrades": {
+  "BLACK LOTUS": "black-lotus",
+  "BLOOD SIGIL": "blood-sigil",
+  "CRY OF WAR": "cry-of-war",
+  "DANCE OF DOOM": "dance-of-doom",
+  "DARK VENOM": "dark-venom",
+  "HAND OF KHAINE": "hand-of-khaine",
+  "KHAINITE PENDANT": "khainite-pendant",
+  "MANBANE": "manbane",
+  "RENDING STARS": "rending-stars",
+  "RUNE OF KHAINE": "rune-of-khaine",
+  "TOUCH OF DEATH": "touch-of-death",
+  "WITCHBREW": "witchbrew"
+ }
+}

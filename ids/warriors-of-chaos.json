@@ -1,0 +1,1670 @@
+{
+ "choices": {
+  "ARCHAON THE EVERCHOSEN": {
+   "mount": {
+    "Dorghar": "dorghar"
+   }
+  },
+  "ATARUS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "CHAMPIONS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-aspiring-champion": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-exalted-champion": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-warlord": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Polearm": "polearm"
+   },
+   "mount": {
+    "Chaos Dragon": "chaos-dragon",
+    "Daemonic Steed": "daemonic-steed",
+    "Disc of Tzeentch": "disc-of-tzeentch",
+    "Juggernaut of Khorne": "juggernaut-of-khorne",
+    "Karkadrak": "karkadrak",
+    "Manticore": "manticore",
+    "Palanquin of Nurgle": "palanquin-of-nurgle",
+    "Rot Beast of Nurgle": "rot-beast-of-nurgle",
+    "Rot Fly of Nurgle": "rot-fly-of-nurgle",
+    "Serpent of Slaanesh": "serpent-of-slaanesh",
+    "Steed of Slaanesh": "steed-of-slaanesh",
+    "War Chariot": "war-chariot",
+    "Warsteed": "warsteed"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "CHIMERA": {
+   "fiend-tail": {
+    "Fiend Tail": "fiend-tail"
+   },
+   "flaming-breath": {
+    "Flaming Breath": "flaming-breath"
+   },
+   "iron-hard-skin": {
+    "Iron-hard Skin": "iron-hard-skin"
+   },
+   "regenerating-flesh": {
+    "Regenerating Flesh": "regenerating-flesh"
+   },
+   "venomous-ooze": {
+    "Venomous Ooze": "venomous-ooze"
+   }
+  },
+  "CHOSEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Ensorcelled Weapons": "ensorcelled-weapons",
+    "Flails": "flails",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "CULTISTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Shields": "shields"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DAEMON PRINCE": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "fly": {
+    "Fly (8)": "fly-8"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "upgrade": {
+    "Daemon of Khorne": "daemon-of-khorne",
+    "Daemon of Nurgle": "daemon-of-nurgle",
+    "Daemon of Slaanesh": "daemon-of-slaanesh",
+    "Daemon of Tzeentch": "daemon-of-tzeentch"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard",
+    "Level 3 Wizard": "level-3-wizard",
+    "Level 4 Wizard": "level-4-wizard"
+   }
+  },
+  "DAEMONIC STEED": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "DRAGON OGRE SHAGGOTH": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   }
+  },
+  "DRAGON OGRES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Polearm": "polearm"
+   }
+  },
+  "FATEMASTERS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "FESTUS THE LEECHLORD": {
+   "mount": {
+    "Gathoblyt": "gathoblyt"
+   }
+  },
+  "FLAYERKIN": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "FORSAKEN": {
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "GIANT": {
+   "upgrade": {
+    "Giant of Khorne": "giant-of-khorne",
+    "Giant of Nurgle": "giant-of-nurgle",
+    "Giant of Slaanesh": "giant-of-slaanesh",
+    "Giant of Tzeentch": "giant-of-tzeentch"
+   }
+  },
+  "GIANT SPAWN": {
+   "upgrade": {
+    "Spawn of Khorne": "spawn-of-khorne",
+    "Spawn of Nurgle": "spawn-of-nurgle",
+    "Spawn of Slaanesh": "spawn-of-slaanesh",
+    "Spawn of Tzeentch": "spawn-of-tzeentch"
+   }
+  },
+  "GIANT SPINEHOUND": {
+   "upgrade": {
+    "Beast of Khorne": "beast-of-khorne",
+    "Beast of Nurgle": "beast-of-nurgle",
+    "Beast of Slaanesh": "beast-of-slaanesh",
+    "Beast of Tzeentch": "beast-of-tzeentch"
+   }
+  },
+  "GUTROT SPUME": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "HELLCANNON": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "HELLSTRIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "hellscourges": {
+    "hellscourges": "hellscourges"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KARKADRAK": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "chaos-armour": {
+    "Chaos Armour": "chaos-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Ensorcelled Weapons": "ensorcelled-weapons",
+    "Heavy lances": "heavy-lances",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "MANTICORE": {
+   "bloodrage": {
+    "Bloodrage": "bloodrage"
+   },
+   "iron-hard-skin": {
+    "Iron-hard Skin": "iron-hard-skin"
+   },
+   "rending-fangs": {
+    "Rending Fangs": "rending-fangs"
+   },
+   "venom-tail": {
+    "Venom Tail": "venom-tail"
+   }
+  },
+  "MARAKARR BLOOD-SKY": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MARAUDER CHARIOT": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "MARAUDER CHIEFTAIN": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Shortbow": "shortbow",
+    "Throwing axes": "throwing-axes"
+   },
+   "mount": {
+    "Marauder Chariot": "marauder-chariot",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "MARAUDER HORSEMEN": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "marauder-champions": {
+    "Marauder Champions": "marauder-champions"
+   },
+   "melee-weapon": {
+    "Light lances": "light-lances",
+    "flails": "flails"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Shortbows": "shortbows",
+    "Throwing axes": "throwing-axes"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "MARAUDER HUNTERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Shortbows": "shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "MARAUDERS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "marauder-champions": {
+    "Marauder Champions": "marauder-champions"
+   },
+   "melee-weapon": {
+    "Spears": "spears",
+    "dditional hand weapons": "dditional-hand-weapons",
+    "flails": "flails",
+    "great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "OGRES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "PUSGOYLE BLIGHTLORDS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "death-heads": {
+    "Death Heads": "death-heads"
+   }
+  },
+  "PUTRID BLIGHTKINGS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ROT KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Ensorcelled weapons": "ensorcelled-weapons",
+    "Heavy lances": "heavy-lances",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKIN WOLVES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "SKULLCRUSHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Ensorcelled Weapons": "ensorcelled-weapons",
+    "Heavy lances": "heavy-lances",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKULLREAPERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "ensorcelled-weapons": {
+    "Ensorcelled Weapons": "ensorcelled-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SLAUGHTERBRUTE": {
+   "extra-claws": {
+    "Extra Claws": "extra-claws"
+   }
+  },
+  "SLAUGHTERPRIEST OF KHORNE": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "mount": {
+    "Chaos Warshrine of Khorne": "chaos-warshrine-of-khorne"
+   }
+  },
+  "SLICKBLADE SEEKERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "shortbows-and-poisoned-attacks": {
+    "shortbows & Poisoned Attacks": "shortbows-and-poisoned-attacks"
+   }
+  },
+  "SORCERERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Chaos Dragon": "chaos-dragon",
+    "Daemonic Steed": "daemonic-steed",
+    "Disc of Tzeentch": "disc-of-tzeentch",
+    "Manticore": "manticore",
+    "Palanquin of Nurgle": "palanquin-of-nurgle",
+    "Steed of Slaanesh": "steed-of-slaanesh",
+    "War Chariot": "war-chariot",
+    "Warsteed": "warsteed"
+   },
+   "upgrade": {
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SPAWN": {
+   "upgrade": {
+    "Spawn of Khorne": "spawn-of-khorne",
+    "Spawn of Nurgle": "spawn-of-nurgle",
+    "Spawn of Slaanesh": "spawn-of-slaanesh",
+    "Spawn of Tzeentch": "spawn-of-tzeentch"
+   }
+  },
+  "STYRKAAR OF THE SORTSVINAER": {
+   "mount": {
+    "Serpent of Slaanesh": "serpent-of-slaanesh",
+    "Steed of Slaanesh": "steed-of-slaanesh"
+   }
+  },
+  "TAMURKHAN": {
+   "mount": {
+    "Bubebolos": "bubebolos"
+   }
+  },
+  "TROLLS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "VARANGUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Heavy lances": "heavy-lances",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "VARDEK CROM": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "WAR CHARIOT": {
+   "chaos-armour": {
+    "Chaos Armour": "chaos-armour"
+   },
+   "gorebeast": {
+    "Gorebeast": "gorebeast"
+   },
+   "melee-weapon": {
+    "Flails": "flails",
+    "Great weapons": "great-weapons"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "WAR MAMMOTH": {
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "WARHOUNDS": {
+   "natural-armour-6": {
+    "Natural Armour (6+)": "natural-armour-6"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   }
+  },
+  "WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Flails": "flails",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "WARSHRINE": {
+   "upgrade": {
+    "Mark of Khorne": "mark-of-khorne",
+    "Mark of Nurgle": "mark-of-nurgle",
+    "Mark of Slaanesh": "mark-of-slaanesh",
+    "Mark of Tzeentch": "mark-of-tzeentch"
+   }
+  },
+  "WARSTEED": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "WRATHMONGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ARCHAON THE EVERCHOSEN": {
+   "May be mounted on Dorghar": "mount"
+  },
+  "ATARUS": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "CHAMPIONS": {
+   "A Warlord may take Gifts of the Gods and/or Magic Items up to a total of 100 points": "magic-items-warlord",
+   "An Aspiring Champion may take Gifts of the Gods and/or Magic Items up to a total of 50 points": "magic-items-aspiring-champion",
+   "An Exalted Champion may take Gifts of the Gods and/or Magic Items up to a total of 75 points": "magic-items-exalted-champion",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Aspiring Champion may carry the Battle Standard": "battle-standard"
+  },
+  "CHIMERA": {
+   "May take Fiend Tail": "fiend-tail",
+   "May take Flaming Breath": "flaming-breath",
+   "May take Iron-hard Skin": "iron-hard-skin",
+   "May take Regenerating Flesh": "regenerating-flesh",
+   "May take Venomous Ooze": "venomous-ooze"
+  },
+  "CHOSEN": {
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May take shields (unless armed with flails or great weapons)": "shields",
+   "May upgrade one Chosen to a Leader": "champion",
+   "May upgrade one Chosen to a Musician": "musician",
+   "May upgrade one Chosen to a Standard Bearer": "standard-bearer",
+   "May upgrade one Chosen to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CULTISTS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Cultist to a Leader": "champion",
+   "May upgrade one Cultist to a Musician": "musician",
+   "May upgrade one Cultist to a Standard Bearer": "standard-bearer"
+  },
+  "DAEMON PRINCE": {
+   "May be upgraded to one of the following (except Daemon Princes of Khorne):": "wizard-level",
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "armour",
+   "May have the Fly (8) special rule": "fly",
+   "May take Gifts of the Gods and/or Magic Items up to a total of 100 points": "magic-items"
+  },
+  "DAEMONIC STEED": {
+   "May take barding": "barding"
+  },
+  "DRAGON OGRE SHAGGOTH": {
+   "May choose one of the following:": "melee-weapon",
+   "May take medium armour": "medium-armour"
+  },
+  "DRAGON OGRES": {
+   "May choose one of the following:": "melee-weapon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Dragon Ogre to a Leader": "champion"
+  },
+  "FATEMASTERS": {
+   "May upgrade one Fatemaster to a Leader": "champion"
+  },
+  "FESTUS THE LEECHLORD": {
+   "May be mounted on Gathoblyt": "mount"
+  },
+  "FLAYERKIN": {
+   "May upgrade one Flayerkin to a Leader": "champion"
+  },
+  "FORSAKEN": {
+   "May choose one of the following:": "upgrade"
+  },
+  "GIANT": {
+   "May choose one of the following:": "upgrade"
+  },
+  "GIANT SPAWN": {
+   "May choose one of the following:": "upgrade"
+  },
+  "GIANT SPINEHOUND": {
+   "May choose one of the following:": "upgrade"
+  },
+  "GUTROT SPUME": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "HELLCANNON": {
+   "May take medium armour (Handlers only)": "medium-armour"
+  },
+  "HELLSTRIDERS": {
+   "May replace light lances with hellscourges": "hellscourges",
+   "May upgrade one Hellstrider to a Leader": "champion",
+   "May upgrade one Hellstrider to a Musician": "musician",
+   "May upgrade one Hellstrider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hellstrider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "KARKADRAK": {
+   "May take barding": "barding"
+  },
+  "KNIGHTS": {
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May take Chaos Armour": "chaos-armour",
+   "May upgrade one Knight to a Leader": "champion",
+   "May upgrade one Knight to a Musician": "musician",
+   "May upgrade one Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MANTICORE": {
+   "May take Bloodrage": "bloodrage",
+   "May take Iron-hard Skin": "iron-hard-skin",
+   "May take Rending Fangs": "rending-fangs",
+   "May take Venom Tail": "venom-tail"
+  },
+  "MARAKARR BLOOD-SKY": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "MARAUDER CHARIOT": {
+   "May choose one of the following:": "upgrade",
+   "May take light armour": "light-armour",
+   "May upgrade one Marauder Chariot to a Standard Bearer": "standard-bearer"
+  },
+  "MARAUDER CHIEFTAIN": {
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May choose one of the following: #3": "missile-weapon",
+   "May choose one of the following: #4": "armour",
+   "May take Gifts of the Gods and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a shield": "shield",
+   "One Marauder Chieftain may carry the Battle Standard": "battle-standard"
+  },
+  "MARAUDER HORSEMEN": {
+   "May be upgraded to Marauder Champions": "marauder-champions",
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May choose one of the following: #3": "missile-weapon",
+   "May choose one of the following: #4": "armour",
+   "May upgrade one Marauder Horseman to a Leader": "champion",
+   "May upgrade one Marauder Horseman to a Musician": "musician",
+   "May upgrade one Marauder Horseman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Marauder Horseman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "MARAUDER HUNTERS": {
+   "May choose one of the following:": "upgrade",
+   "May replace throwing axes with one of the following:": "missile-weapon",
+   "May take shields (if armed with javelins)": "shields",
+   "May upgrade one Marauder Hunter to a Leader": "champion",
+   "May upgrade one Marauder Hunter to a Musician": "musician",
+   "May upgrade one Marauder Hunter to a Standard Bearer": "standard-bearer"
+  },
+  "MARAUDERS": {
+   "May be upgraded to Marauder Champions": "marauder-champions",
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May choose one of the following: #3": "armour",
+   "May upgrade one Marauder to a Leader": "champion",
+   "May upgrade one Marauder to a Musician": "musician",
+   "May upgrade one Marauder to a Standard Bearer": "standard-bearer",
+   "May upgrade one Marauder to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "OGRES": {
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "equipment",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "PUSGOYLE BLIGHTLORDS": {
+   "May take Death Heads": "death-heads",
+   "May upgrade one Pusgoyle Blightlord to a Leader": "champion"
+  },
+  "PUTRID BLIGHTKINGS": {
+   "May upgrade one Putrid Blightking to a Leader": "champion",
+   "May upgrade one Putrid Blightking to a Musician": "musician",
+   "May upgrade one Putrid Blightking to a Standard Bearer": "standard-bearer",
+   "May upgrade one Putrid Blightking to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "ROT KNIGHTS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take shields": "shields",
+   "May upgrade one Rot Knight to a Leader": "champion",
+   "May upgrade one Rot Knight to a Musician": "musician",
+   "May upgrade one Rot Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Rot Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SKIN WOLVES": {
+   "May choose one of the following:": "upgrade",
+   "May upgrade one Skin Wolf to a Leader": "champion"
+  },
+  "SKULLCRUSHERS": {
+   "May choose one of the following:": "melee-weapon",
+   "May upgrade one Skullcrusher to a Leader": "champion",
+   "May upgrade one Skullcrusher to a Musician": "musician",
+   "May upgrade one Skullcrusher to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skullcrusher to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SKULLREAPERS": {
+   "May take Ensorcelled Weapons": "ensorcelled-weapons",
+   "May upgrade one Skullreaper to a Leader": "champion",
+   "May upgrade one Skullreaper to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skullreaper to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SLAUGHTERBRUTE": {
+   "May take Extra Claws": "extra-claws"
+  },
+  "SLAUGHTERPRIEST OF KHORNE": {
+   "May be mounted upon a Chaos Warshrine of Khorne (replacing the Shrinemaster)": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take Gifts of the Gods and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take medium armour": "medium-armour"
+  },
+  "SLICKBLADE SEEKERS": {
+   "May replace polearms & Killing Blow with shortbows & Poisoned Attacks": "shortbows-and-poisoned-attacks",
+   "May upgrade one Seeker to a Leader": "champion"
+  },
+  "SORCERERS": {
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "armour",
+   "May take Gifts of the Gods and/or Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "SPAWN": {
+   "May choose one of the following:": "upgrade"
+  },
+  "STYRKAAR OF THE SORTSVINAER": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "TAMURKHAN": {
+   "May be mounted on Bubebolos": "mount"
+  },
+  "TROLLS": {
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May take light armour": "light-armour"
+  },
+  "VARANGUARD": {
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May upgrade one Varanguard to a Leader": "champion",
+   "May upgrade one Varanguard to a Musician": "musician",
+   "May upgrade one Varanguard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Varanguard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "VARDEK CROM": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "WAR CHARIOT": {
+   "May be upgraded to a Standard Bearer": "standard-bearer",
+   "May choose one of the following:": "upgrade",
+   "May replace Warsteeds with Gorebeast": "gorebeast",
+   "May replace polearms with one of the following:": "melee-weapon",
+   "May take Chaos Armour": "chaos-armour"
+  },
+  "WAR MAMMOTH": {
+   "May take light armour": "light-armour"
+  },
+  "WARHOUNDS": {
+   "May have Natural Armour (6+)": "natural-armour-6",
+   "May have Poisoned Attacks": "poisoned-attacks"
+  },
+  "WARRIORS": {
+   "May choose one of the following:": "upgrade",
+   "May choose one of the following: #2": "melee-weapon",
+   "May take shields (unless armed with flails or great weapons)": "shields",
+   "May upgrade one Warrior to a Leader": "champion",
+   "May upgrade one Warrior to a Musician": "musician",
+   "May upgrade one Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "WARSHRINE": {
+   "May choose one of the following:": "upgrade"
+  },
+  "WARSTEED": {
+   "May take barding": "barding"
+  },
+  "WRATHMONGERS": {
+   "May upgrade one Wrathmonger to a Leader": "champion",
+   "May upgrade one Wrathmonger to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wrathmonger to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  }
+ },
+ "items": {
+  "AETHERSWORD": "aethersword",
+  "AMBITION'S END": "ambitions-end",
+  "ARMOUR OF MORRSLIEB": "armour-of-morrslieb",
+  "ARMOUR OF THE DAMNED": "armour-of-the-damned",
+  "ARMOUR OF TORTURED SOULS": "armour-of-tortured-souls",
+  "AXE OF KHORNE": "axe-of-khorne",
+  "BANE SPEAR": "bane-spear",
+  "BANNER OF BLOOD": "banner-of-blood",
+  "BANNER OF RAGE": "banner-of-rage",
+  "BANNER OF SCREAMING FLESH": "banner-of-screaming-flesh",
+  "BANNER OF THE DEMAGOGUE": "banner-of-the-demagogue",
+  "BANNER OF THE GODS": "banner-of-the-gods",
+  "BANNER OF WRATH": "banner-of-wrath",
+  "BERSERKER SWORD": "berserker-sword",
+  "BINDINGS OF SLAANESH": "bindings-of-slaanesh",
+  "BLADE OF BLOOD": "blade-of-blood",
+  "BLADE OF ECSTASY": "blade-of-ecstasy",
+  "BLADE OF ENDLESS BLOODSHED": "blade-of-endless-bloodshed",
+  "BLASPHEMOUS AMULET": "blasphemous-amulet",
+  "BLASPHEMOUS ICON": "blasphemous-icon",
+  "BLASTED STANDARD": "blasted-standard",
+  "BLOOD OF TZEENTCH": "blood-of-tzeentch",
+  "BLOOD RUNE": "blood-rune",
+  "BLOODSKULL PENDANT": "bloodskull-pendant",
+  "BREATHTAKER": "breathtaker",
+  "BRONZE ARMOUR OF ZHRAKK": "bronze-armour-of-zhrakk",
+  "CAMEO OF THE DARK PRINCE": "cameo-of-the-dark-prince",
+  "CHALICE OF CHAOS": "chalice-of-chaos",
+  "CHAOS DAEMONSWORD": "chaos-daemonsword",
+  "CRIMSON ARMOUR OF DARGAN": "crimson-armour-of-dargan",
+  "CROWN OF EVERLASTING CONQUEST": "crown-of-everlasting-conquest",
+  "CRYSTAL PENDANT": "crystal-pendant",
+  "DAEMON-FORGED BARDING": "daemon-forged-barding",
+  "DAEMONHEART": "daemonheart",
+  "DAGGER OF THE DARK PANTHEON": "dagger-of-the-dark-pantheon",
+  "DESECRATOR GAUNTLETS": "desecrator-gauntlets",
+  "DOOM TOTEM": "doom-totem",
+  "DOOMBRINGER BLADE": "doombringer-blade",
+  "ERODING ICON": "eroding-icon",
+  "FAITHLESS CHARM": "faithless-charm",
+  "FAVOUR OF THE GODS": "favour-of-the-gods",
+  "FESTERING SHROUD": "festering-shroud",
+  "FILTH MACE": "filth-mace",
+  "FLESH PEALER": "flesh-pealer",
+  "FRACTURED CLASP": "fractured-clasp",
+  "FUSED ARMOUR": "fused-armour",
+  "GAZE OF THE GODS": "gaze-of-the-gods",
+  "GILELLION'S SOULNETTER": "gilellions-soulnetter",
+  "GLAIVE OF PUTREFACTION": "glaive-of-putrefaction",
+  "GLAMOUR FETISH": "glamour-fetish",
+  "GOLDEN EYE OF TZEENTCH": "golden-eye-of-tzeentch",
+  "GORECLEAVER": "gorecleaver",
+  "GRIMOIRE OF OGVOLD": "grimoire-of-ogvold",
+  "HELLFIRE SWORD": "hellfire-sword",
+  "HELM OF ELDRITCH COMMAND": "helm-of-eldritch-command",
+  "HELM OF MANY EYES": "helm-of-many-eyes",
+  "HELM OF THE OPPRESSOR": "helm-of-the-oppressor",
+  "ICON OF DARKNESS": "icon-of-darkness",
+  "ICON OF INFINITE EXCESS": "icon-of-infinite-excess",
+  "IDOLATROUS PLACKART": "idolatrous-plackart",
+  "INFERNAL PUPPET": "infernal-puppet",
+  "JEWEL OF DENIAL": "jewel-of-denial",
+  "MARK OF THE ALL-FAVOURED": "mark-of-the-all-favoured",
+  "MARK OF THE DESTROYER": "mark-of-the-destroyer",
+  "MIRROR OF KNOWLEDGE": "mirror-of-knowledge",
+  "NEXUS STAFF": "nexus-staff",
+  "NULL PLATE": "null-plate",
+  "OBSIDIAN DREAD-GLAIVE": "obsidian-dread-glaive",
+  "PARADOXICAL SHIELD": "paradoxical-shield",
+  "PENDANT OF DAMNATION": "pendant-of-damnation",
+  "PENDANT OF SLAANESH": "pendant-of-slaanesh",
+  "RAPTUROUS STANDARD": "rapturous-standard",
+  "REALMWARPER'S TWIST-RUNE": "realmwarpers-twist-rune",
+  "RENDING SWORD": "rending-sword",
+  "RING OF SENSATION": "ring-of-sensation",
+  "ROD OF CORRUPTION": "rod-of-corruption",
+  "ROD OF THE DAMNED": "rod-of-the-damned",
+  "RUSTFANG": "rustfang",
+  "SCEPTRE OF DOMINATION": "sceptre-of-domination",
+  "SCEPTRE OF POWER": "sceptre-of-power",
+  "SECRET-EATER": "secret-eater",
+  "SHIELD OF TEETH": "shield-of-teeth",
+  "SKINHIDDEN PLATE": "skinhidden-plate",
+  "SLAANESH'S BLADE": "slaaneshs-blade",
+  "SOUL CLEAVER": "soul-cleaver",
+  "SOULDRAUGHT": "souldraught",
+  "SPELLEATER SHIELD": "spelleater-shield",
+  "SPORE CENSER": "spore-censer",
+  "STAFF OF CHANGE": "staff-of-change",
+  "STAR OF CHAOS": "star-of-chaos",
+  "TALISMAN OF BURNING BLOOD": "talisman-of-burning-blood",
+  "TASKMASTER'S SCOURGE": "taskmasters-scourge",
+  "THE BEGUILING GEM": "the-beguiling-gem",
+  "THE BILEHEART": "the-bileheart",
+  "THE BLACK TONGUE": "the-black-tongue",
+  "THE BLOOD-FORGED ARMOUR": "the-blood-forged-armour",
+  "THE BOOK OF SECRETS": "the-book-of-secrets",
+  "THE BRAZEN RUNE": "the-brazen-rune",
+  "THE CARRION DIRGE": "the-carrion-dirge",
+  "THE CROWN OF DARK SECRETS": "the-crown-of-dark-secrets",
+  "THE EYE OF NURGLE": "the-eye-of-nurgle",
+  "THE FATHER OF BLADES": "the-father-of-blades",
+  "THE FECUND FLASK": "the-fecund-flask",
+  "THE FOETID SHROUD": "the-foetid-shroud",
+  "THE ROD OF MISRULE": "the-rod-of-misrule",
+  "THE SHIELD OF GROWTHS": "the-shield-of-growths",
+  "THE SKULL-HELM OF KHORNE": "the-skull-helm-of-khorne",
+  "THE SPLITHORN HELM": "the-splithorn-helm",
+  "TIMESLIP PENDANT": "timeslip-pendant",
+  "TOME OF THE DARK GODS": "tome-of-the-dark-gods",
+  "VAMPIRIC AXE": "vampiric-axe",
+  "VOID ARMOUR": "void-armour",
+  "WARP MIRROR": "warp-mirror",
+  "WEIRD PLATE": "weird-plate",
+  "WHIP OF PLEASURE": "whip-of-pleasure",
+  "WHIP OF SUBVERSION": "whip-of-subversion",
+  "WICKED SHARD": "wicked-shard"
+ },
+ "lores": {
+  "THE LORE OF CHAOS": "the-lore-of-chaos",
+  "THE LORE OF NURGLE": "the-lore-of-nurgle",
+  "THE LORE OF SLAANESH": "the-lore-of-slaanesh",
+  "THE LORE OF TZEENTCH": "the-lore-of-tzeentch"
+ },
+ "profiles": {
+  "ABRAXIA": {
+   "Abraxia": "abraxia",
+   "Thanatorg (Karkadrak)": "thanatorg-karkadrak"
+  },
+  "AEKOLD HELBRASS": {
+   "Aekold Helbrass": "aekold-helbrass"
+  },
+  "ARBAAL THE UNDEFEATED": {
+   "Arbaal": "arbaal",
+   "Hound of Khorne": "hound-of-khorne"
+  },
+  "ARCHAON THE EVERCHOSEN": {
+   "Archaon the Everchosen": "archaon-the-everchosen",
+   "Dorghar (Daemonic Steed)": "dorghar-daemonic-steed"
+  },
+  "ATARUS": {
+   "Atarus": "atarus",
+   "Drakocephalus (Daemonic Steed)": "drakocephalus-daemonic-steed"
+  },
+  "CHAMPIONS": {
+   "Aspiring Champion": "aspiring-champion",
+   "Exalted Champion": "exalted-champion",
+   "Warlord": "warlord"
+  },
+  "CHAOS DRAGON": {
+   "Chaos Dragon": "chaos-dragon"
+  },
+  "CHIMERA": {
+   "Chimera": "chimera"
+  },
+  "CHOSEN": {
+   "Chosen": "chosen"
+  },
+  "COUNT MORDREK": {
+   "Mordrek": "mordrek",
+   "Warsteed": "warsteed"
+  },
+  "CULTISTS": {
+   "Cultist": "cultist"
+  },
+  "DAEMON PRINCE": {
+   "Daemon Prince": "daemon-prince"
+  },
+  "DAEMONIC STEED": {
+   "Daemonic Steed": "daemonic-steed"
+  },
+  "DECHALA": {
+   "Dechala": "dechala"
+  },
+  "DISC OF TZEENTCH": {
+   "Disc of Tzeentch": "disc-of-tzeentch"
+  },
+  "DRAGON OGRE SHAGGOTH": {
+   "Dragon Ogre Shaggoth": "dragon-ogre-shaggoth"
+  },
+  "DRAGON OGRES": {
+   "Dragon Ogre": "dragon-ogre"
+  },
+  "EGRIMM VAN HORSTMANN": {
+   "Baudros (Chaos Dragon)": "baudros-chaos-dragon",
+   "Egrimm van Horstmann": "egrimm-van-horstmann"
+  },
+  "FATEMASTERS": {
+   "Disc of Tzeentch": "disc-of-tzeentch",
+   "Fatemaster": "fatemaster"
+  },
+  "FESTUS THE LEECHLORD": {
+   "Festus the Leechlord": "festus-the-leechlord",
+   "Gathoblyt (Daemonic Mount)": "gathoblyt-daemonic-mount"
+  },
+  "FLAYERKIN": {
+   "Flayerkin": "flayerkin"
+  },
+  "FOMOROID CRUSHER": {
+   "Fomoroid Crusher": "fomoroid-crusher"
+  },
+  "FORSAKEN": {
+   "Forsaken": "forsaken"
+  },
+  "FRYDAAL THE CHAINMAKER": {
+   "Frydaal": "frydaal"
+  },
+  "GALRAUCH": {
+   "Galrauch": "galrauch"
+  },
+  "GELGUS PUST": {
+   "Gelgus Pust": "gelgus-pust"
+  },
+  "GIANT": {
+   "Giant": "giant"
+  },
+  "GIANT SPAWN": {
+   "Giant Spawn": "giant-spawn"
+  },
+  "GIANT SPINEHOUND": {
+   "Giant Spinehound": "giant-spinehound"
+  },
+  "GLUTOS ORSCOLLION": {
+   "Glutos Orscollion": "glutos-orscollion",
+   "Lashmaster Vhyssk": "lashmaster-vhyssk",
+   "Painbringer Kyazu": "painbringer-kyazu",
+   "Palanquin": "palanquin",
+   "Palanquin Bearers": "palanquin-bearers",
+   "Priestess Dolece": "priestess-dolece"
+  },
+  "GUTROT SPUME": {
+   "Gutrot Spume": "gutrot-spume"
+  },
+  "HARALD HAMMERSTORM": {
+   "Harald Hammerstorm": "harald-hammerstorm"
+  },
+  "HELLCANNON": {
+   "Chaos Dwarf Handler": "chaos-dwarf-handler",
+   "Hellcannon": "hellcannon"
+  },
+  "HELLSTRIDERS": {
+   "Hellstrider": "hellstrider",
+   "Steed of Slaanesh": "steed-of-slaanesh"
+  },
+  "JUGGERNAUT OF KHORNE": {
+   "Juggernaut of Khorne": "juggernaut-of-khorne"
+  },
+  "KARKADRAK": {
+   "Karkadrak": "karkadrak"
+  },
+  "KAYZK THE BEFOULED": {
+   "Kayzk the Befouled": "kayzk-the-befouled",
+   "Rot Beast of Nurgle": "rot-beast-of-nurgle"
+  },
+  "KHAZEK": {
+   "Khazek": "khazek",
+   "Nazgharoth": "nazgharoth"
+  },
+  "KHOLEK SUNEATER": {
+   "Kholek Suneater": "kholek-suneater"
+  },
+  "KHORGOS KHUL": {
+   "Grizzlemaw": "grizzlemaw",
+   "Khorgos Khul": "khorgos-khul"
+  },
+  "KNIGHTS": {
+   "Knight": "knight",
+   "Warsteed": "warsteed"
+  },
+  "LOKJAR BJOERGIR": {
+   "Lokjar Bjoergir": "lokjar-bjoergir"
+  },
+  "MANTICORE": {
+   "Manticore": "manticore"
+  },
+  "MARAKARR BLOOD-SKY": {
+   "Marakarr Blood-Sky": "marakarr-blood-sky"
+  },
+  "MARAUDER CHARIOT": {
+   "Charioteer": "charioteer",
+   "Marauder Chariot": "marauder-chariot",
+   "Warhorse": "warhorse"
+  },
+  "MARAUDER CHIEFTAIN": {
+   "Marauder Chieftain": "marauder-chieftain"
+  },
+  "MARAUDER HORSEMEN": {
+   "Marauder Champion": "marauder-champion",
+   "Marauder Horseman": "marauder-horseman",
+   "Warhorse": "warhorse"
+  },
+  "MARAUDER HUNTERS": {
+   "Marauder Hunter": "marauder-hunter"
+  },
+  "MARAUDERS": {
+   "Marauder": "marauder",
+   "Marauder Champion": "marauder-champion"
+  },
+  "MINDSTEALER SPHIRANX": {
+   "Mindstealer Sphiranx": "mindstealer-sphiranx"
+  },
+  "MUTALITH VORTEX BEAST": {
+   "Mutalith Vortex Beast": "mutalith-vortex-beast"
+  },
+  "OGRES": {
+   "Ogre": "ogre"
+  },
+  "PALANQUIN OF NURGLE": {
+   "Palanquin of Nurgle": "palanquin-of-nurgle"
+  },
+  "PUSGOYLE BLIGHTLORDS": {
+   "Pusgoyle Blightlord": "pusgoyle-blightlord",
+   "Rot Fly of Nurgle": "rot-fly-of-nurgle"
+  },
+  "PUTRID BLIGHTKINGS": {
+   "Putrid Blightking": "putrid-blightking"
+  },
+  "ROT BEAST OF NURGLE": {
+   "Rot Beast of Nurgle": "rot-beast-of-nurgle"
+  },
+  "ROT FLY OF NURGLE": {
+   "Rot Fly of Nurgle": "rot-fly-of-nurgle"
+  },
+  "ROT KNIGHTS": {
+   "Rot Beast of Nurgle": "rot-beast-of-nurgle",
+   "Rot Knight": "rot-knight"
+  },
+  "SAYL THE FAITHLESS": {
+   "Nightmaw (Chaos Spawn)": "nightmaw-chaos-spawn",
+   "Sayl the Faithless": "sayl-the-faithless"
+  },
+  "SCYLA ANFINGRIMM": {
+   "Scyla Anfingrimm": "scyla-anfingrimm"
+  },
+  "SERPENT OF SLAANESH": {
+   "Serpent of Slaanesh": "serpent-of-slaanesh"
+  },
+  "SIGVALD THE MAGNIFICENT": {
+   "Sigvald the Magnificent": "sigvald-the-magnificent"
+  },
+  "SKARR BLOODWRATH": {
+   "Skarr Bloodwrath": "skarr-bloodwrath"
+  },
+  "SKIN WOLVES": {
+   "Skin Wolf": "skin-wolf"
+  },
+  "SKULLCRUSHERS": {
+   "Juggernaut of Khorne": "juggernaut-of-khorne",
+   "Skullcrusher": "skullcrusher"
+  },
+  "SKULLREAPERS": {
+   "Skullreaper": "skullreaper"
+  },
+  "SLAUGHTERBRUTE": {
+   "Slaughterbrute": "slaughterbrute"
+  },
+  "SLAUGHTERPRIEST OF KHORNE": {
+   "Slaughterpriest": "slaughterpriest"
+  },
+  "SLICKBLADE SEEKERS": {
+   "Exalted Steed of Slaanesh": "exalted-steed-of-slaanesh",
+   "Seeker": "seeker"
+  },
+  "SORCERERS": {
+   "Maledictor": "maledictor",
+   "Soulflayer": "soulflayer"
+  },
+  "SPAWN": {
+   "Spawn": "spawn"
+  },
+  "STEED OF SLAANESH": {
+   "Steed of Slaanesh": "steed-of-slaanesh"
+  },
+  "STYRKAAR OF THE SORTSVINAER": {
+   "Styrkaar": "styrkaar"
+  },
+  "TAMURKHAN": {
+   "Body of Karaka Breakmountain": "body-of-karaka-breakmountain",
+   "Body of Sargath the Vain": "body-of-sargath-the-vain",
+   "Bubebolos (Toad Dragon)": "bubebolos-toad-dragon",
+   "Possessor": "possessor"
+  },
+  "THE GLOTTKIN": {
+   "Ethrac Glott": "ethrac-glott",
+   "Ghurk Glott": "ghurk-glott",
+   "Otto Glott": "otto-glott"
+  },
+  "THE MAGGOTH LORDS": {
+   "Bloab Rotspawned": "bloab-rotspawned",
+   "Morbidex Twiceborn": "morbidex-twiceborn",
+   "Orghotts Daemonspew": "orghotts-daemonspew",
+   "Pox Maggoth": "pox-maggoth"
+  },
+  "THROGG WINTERTOOTH": {
+   "Throgg Wintertooth": "throgg-wintertooth"
+  },
+  "TOAD DRAGON": {
+   "Toad Dragon": "toad-dragon"
+  },
+  "TROLLS": {
+   "Troll": "troll"
+  },
+  "VALKIA THE BLOODY": {
+   "Valkia": "valkia"
+  },
+  "VALNIR THE REAPER": {
+   "Valnir the Reaper": "valnir-the-reaper"
+  },
+  "VARANGUARD": {
+   "Daemonic Steed": "daemonic-steed",
+   "Varanguard": "varanguard"
+  },
+  "VARDEK CROM": {
+   "Vardek Crom": "vardek-crom"
+  },
+  "VILITCH THE CURSELING": {
+   "Vilitch the Curseling": "vilitch-the-curseling"
+  },
+  "VORGAROTH THE SCARRED": {
+   "Skalok (Chaos Dragon)": "skalok-chaos-dragon",
+   "Vorgaroth": "vorgaroth"
+  },
+  "WAR CHARIOT": {
+   "Charioteer": "charioteer",
+   "Gorebeast": "gorebeast",
+   "War Chariot": "war-chariot",
+   "Warsteed": "warsteed"
+  },
+  "WAR MAMMOTH": {
+   "Marauder Crew": "marauder-crew",
+   "War Mammoth": "war-mammoth"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WARHOUNDS": {
+   "Warhound": "warhound"
+  },
+  "WARPFIRE DRAGON": {
+   "Warpfire Dragon": "warpfire-dragon"
+  },
+  "WARRIORS": {
+   "Warrior": "warrior"
+  },
+  "WARSHRINE": {
+   "Shrine Bearers": "shrine-bearers",
+   "Shrinemaster": "shrinemaster",
+   "Warshrine": "warshrine"
+  },
+  "WARSTEED": {
+   "Warsteed": "warsteed"
+  },
+  "WILDERFIEND": {
+   "Wilderfiend": "wilderfiend"
+  },
+  "WRATHMONGERS": {
+   "Wrathmonger": "wrathmonger"
+  },
+  "WULFRIK THE WANDERER": {
+   "Wulfrik": "wulfrik"
+  }
+ },
+ "rules": {
+  "CHAOS ARMOUR": "chaos-armour",
+  "DAEMONIC": "daemonic",
+  "ENSORCELLED WEAPONS": "ensorcelled-weapons",
+  "EYE OF THE GODS": "eye-of-the-gods",
+  "MARKS OF CHAOS": "marks-of-chaos",
+  "WILL OF CHAOS": "will-of-chaos"
+ },
+ "units": {
+  "ABRAXIA": "abraxia",
+  "AEKOLD HELBRASS": "aekold-helbrass",
+  "ARBAAL THE UNDEFEATED": "arbaal-the-undefeated",
+  "ARCHAON THE EVERCHOSEN": "archaon-the-everchosen",
+  "ATARUS": "atarus",
+  "CHAMPIONS": "champions",
+  "CHAOS DRAGON": "chaos-dragon",
+  "CHIMERA": "chimera",
+  "CHOSEN": "chosen",
+  "COUNT MORDREK": "count-mordrek",
+  "CULTISTS": "cultists",
+  "DAEMON PRINCE": "daemon-prince",
+  "DAEMONIC STEED": "daemonic-steed",
+  "DECHALA": "dechala",
+  "DISC OF TZEENTCH": "disc-of-tzeentch",
+  "DRAGON OGRE SHAGGOTH": "dragon-ogre-shaggoth",
+  "DRAGON OGRES": "dragon-ogres",
+  "EGRIMM VAN HORSTMANN": "egrimm-van-horstmann",
+  "FATEMASTERS": "fatemasters",
+  "FESTUS THE LEECHLORD": "festus-the-leechlord",
+  "FLAYERKIN": "flayerkin",
+  "FOMOROID CRUSHER": "fomoroid-crusher",
+  "FORSAKEN": "forsaken",
+  "FRYDAAL THE CHAINMAKER": "frydaal-the-chainmaker",
+  "GALRAUCH": "galrauch",
+  "GELGUS PUST": "gelgus-pust",
+  "GIANT": "giant",
+  "GIANT SPAWN": "giant-spawn",
+  "GIANT SPINEHOUND": "giant-spinehound",
+  "GLUTOS ORSCOLLION": "glutos-orscollion",
+  "GUTROT SPUME": "gutrot-spume",
+  "HARALD HAMMERSTORM": "harald-hammerstorm",
+  "HELLCANNON": "hellcannon",
+  "HELLSTRIDERS": "hellstriders",
+  "JUGGERNAUT OF KHORNE": "juggernaut-of-khorne",
+  "KARKADRAK": "karkadrak",
+  "KAYZK THE BEFOULED": "kayzk-the-befouled",
+  "KHAZEK": "khazek",
+  "KHOLEK SUNEATER": "kholek-suneater",
+  "KHORGOS KHUL": "khorgos-khul",
+  "KNIGHTS": "knights",
+  "LOKJAR BJOERGIR": "lokjar-bjoergir",
+  "MANTICORE": "manticore",
+  "MARAKARR BLOOD-SKY": "marakarr-blood-sky",
+  "MARAUDER CHARIOT": "marauder-chariot",
+  "MARAUDER CHIEFTAIN": "marauder-chieftain",
+  "MARAUDER HORSEMEN": "marauder-horsemen",
+  "MARAUDER HUNTERS": "marauder-hunters",
+  "MARAUDERS": "marauders",
+  "MINDSTEALER SPHIRANX": "mindstealer-sphiranx",
+  "MUTALITH VORTEX BEAST": "mutalith-vortex-beast",
+  "OGRES": "ogres",
+  "PALANQUIN OF NURGLE": "palanquin-of-nurgle",
+  "PUSGOYLE BLIGHTLORDS": "pusgoyle-blightlords",
+  "PUTRID BLIGHTKINGS": "putrid-blightkings",
+  "ROT BEAST OF NURGLE": "rot-beast-of-nurgle",
+  "ROT FLY OF NURGLE": "rot-fly-of-nurgle",
+  "ROT KNIGHTS": "rot-knights",
+  "SAYL THE FAITHLESS": "sayl-the-faithless",
+  "SCYLA ANFINGRIMM": "scyla-anfingrimm",
+  "SERPENT OF SLAANESH": "serpent-of-slaanesh",
+  "SIGVALD THE MAGNIFICENT": "sigvald-the-magnificent",
+  "SKARR BLOODWRATH": "skarr-bloodwrath",
+  "SKIN WOLVES": "skin-wolves",
+  "SKULLCRUSHERS": "skullcrushers",
+  "SKULLREAPERS": "skullreapers",
+  "SLAUGHTERBRUTE": "slaughterbrute",
+  "SLAUGHTERPRIEST OF KHORNE": "slaughterpriest-of-khorne",
+  "SLICKBLADE SEEKERS": "slickblade-seekers",
+  "SORCERERS": "sorcerers",
+  "SPAWN": "spawn",
+  "STEED OF SLAANESH": "steed-of-slaanesh",
+  "STYRKAAR OF THE SORTSVINAER": "styrkaar-of-the-sortsvinaer",
+  "TAMURKHAN": "tamurkhan",
+  "THE GLOTTKIN": "the-glottkin",
+  "THE MAGGOTH LORDS": "the-maggoth-lords",
+  "THROGG WINTERTOOTH": "throgg-wintertooth",
+  "TOAD DRAGON": "toad-dragon",
+  "TROLLS": "trolls",
+  "VALKIA THE BLOODY": "valkia-the-bloody",
+  "VALNIR THE REAPER": "valnir-the-reaper",
+  "VARANGUARD": "varanguard",
+  "VARDEK CROM": "vardek-crom",
+  "VILITCH THE CURSELING": "vilitch-the-curseling",
+  "VORGAROTH THE SCARRED": "vorgaroth-the-scarred",
+  "WAR CHARIOT": "war-chariot",
+  "WAR MAMMOTH": "war-mammoth",
+  "WARHORSE": "warhorse",
+  "WARHOUNDS": "warhounds",
+  "WARPFIRE DRAGON": "warpfire-dragon",
+  "WARRIORS": "warriors",
+  "WARSHRINE": "warshrine",
+  "WARSTEED": "warsteed",
+  "WILDERFIEND": "wilderfiend",
+  "WRATHMONGERS": "wrathmongers",
+  "WULFRIK THE WANDERER": "wulfrik-the-wanderer"
+ },
+ "upgrades": {
+  "ACID ICHOR": "acid-ichor",
+  "ALLURE OF SLAANESH": "allure-of-slaanesh",
+  "AURA OF CHAOS": "aura-of-chaos",
+  "BESTIAL VISAGE": "bestial-visage",
+  "BLOOD FEVER": "blood-fever",
+  "BLOODCURDLING ROAR": "bloodcurdling-roar",
+  "BURNING BODY": "burning-body",
+  "CHAOS FAMILIAR": "chaos-familiar",
+  "CLOVEN HOOVES": "cloven-hooves",
+  "COMMAND OF THE GODS": "command-of-the-gods",
+  "CONJOINED HOMUNCULUS": "conjoined-homunculus",
+  "DAEMON-FLESH": "daemon-flesh",
+  "DARK FURY": "dark-fury",
+  "DEAFENING BELLOW": "deafening-bellow",
+  "DIABOLIC SPLENDOUR": "diabolic-splendour",
+  "DISTENDABLE MAW": "distendable-maw",
+  "ENCHANTING AURA": "enchanting-aura",
+  "EXTRA ARM": "extra-arm",
+  "FEARSOME AURA": "fearsome-aura",
+  "FLAMES OF CHAOS": "flames-of-chaos",
+  "FLAMING BREATH": "flaming-breath",
+  "FURY OF THE BLOOD GOD": "fury-of-the-blood-god",
+  "HELLSHRIEK": "hellshriek",
+  "HORNS": "horns",
+  "MANTLE OF CHAOS": "mantle-of-chaos",
+  "MASSIVE BULK": "massive-bulk",
+  "MASTER OF MORTALS": "master-of-mortals",
+  "MURDEROUS MUTATION": "murderous-mutation",
+  "NURGLE'S ROT": "nurgles-rot",
+  "NURGLING INFESTATION": "nurgling-infestation",
+  "POISONOUS SLIME": "poisonous-slime",
+  "PROTEAN FORM": "protean-form",
+  "SCALED SKIN": "scaled-skin",
+  "SECONDARY JAWS": "secondary-jaws",
+  "SERPENT BODY": "serpent-body",
+  "SLAUGHTERER'S STRENGTH": "slaughterers-strength",
+  "SOPORIFIC MUSK": "soporific-musk",
+  "SOUL FEEDER": "soul-feeder",
+  "STREAM OF CORRUPTION": "stream-of-corruption",
+  "TENDRILS OF TZEENTCH": "tendrils-of-tzeentch",
+  "TENTACLE": "tentacle",
+  "TERRIFYING APPEARANCE": "terrifying-appearance",
+  "THIRD EYE OF TZEENTCH": "third-eye-of-tzeentch",
+  "UNHOLY RESILIENCE": "unholy-resilience",
+  "UNHOLY STRIKE": "unholy-strike",
+  "WINGS": "wings",
+  "WORD OF AGONY": "word-of-agony"
+ }
+}

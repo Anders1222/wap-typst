@@ -1,0 +1,1137 @@
+{
+ "choices": {
+  "BLOOD CHARIOT": {
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BLOODCRUSHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BLOODLETTERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "BLOODMASTER": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "great-weapon": {
+    "great weapon": "great-weapon"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Blood Throne": "blood-throne",
+    "Juggernaut": "juggernaut"
+   }
+  },
+  "BLOODTHIRSTER": {
+   "great-weapon": {
+    "great weapon": "great-weapon"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "BRIMSTONE HORRORS": {
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "BRUTES": {
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "upgrade": {
+    "Daemon of Khorne": "daemon-of-khorne",
+    "Daemon of Nurgle": "daemon-of-nurgle",
+    "Daemon of Slaanesh": "daemon-of-slaanesh",
+    "Daemon of Tzeentch": "daemon-of-tzeentch"
+   }
+  },
+  "BURNING CHARIOT": {
+   "blue-horror-crew": {
+    "Blue Horror crew": "blue-horror-crew"
+   }
+  },
+  "CHANGEBRINGERS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "CHANGECASTER": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Burning Chariot": "burning-chariot",
+    "Disc of Tzeentch": "disc-of-tzeentch"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "CHAOS FURIES": {
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   },
+   "upgrade": {
+    "Daemon of Khorne": "daemon-of-khorne",
+    "Daemon of Nurgle": "daemon-of-nurgle",
+    "Daemon of Slaanesh": "daemon-of-slaanesh",
+    "Daemon of Tzeentch": "daemon-of-tzeentch"
+   }
+  },
+  "DAEMON PRINCE": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "fly": {
+    "Fly (8)": "fly-8"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "upgrade": {
+    "Daemon of Khorne": "daemon-of-khorne",
+    "Daemon of Nurgle": "daemon-of-nurgle",
+    "Daemon of Slaanesh": "daemon-of-slaanesh",
+    "Daemon of Tzeentch": "daemon-of-tzeentch"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard",
+    "Level 3 Wizard": "level-3-wizard",
+    "Level 4 Wizard": "level-4-wizard"
+   }
+  },
+  "DAEMONETTES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "EXALTED DAEMON": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "fly": {
+    "Fly (8)": "fly-8"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "upgrade": {
+    "Daemon of Khorne": "daemon-of-khorne",
+    "Daemon of Nurgle": "daemon-of-nurgle",
+    "Daemon of Slaanesh": "daemon-of-slaanesh",
+    "Daemon of Tzeentch": "daemon-of-tzeentch"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  },
+  "FIENDS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "FLAMERS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "FLESH HOUNDS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "GAUNT SUMMONER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level +35 points May be mounted on a Disc of Tzeentch": "additional-wizard-level-35-points-may-be-mounted-on-a-disc-of-tzeentch"
+   }
+  },
+  "GREAT UNCLEAN ONE": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "Level 2 Wizard": "level-2-wizard",
+    "Level 3 Wizard": "level-3-wizard",
+    "Level 4 Wizard": "level-4-wizard"
+   }
+  },
+  "IMP SWARMS": {
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   },
+   "upgrade": {
+    "Daemon of Khorne": "daemon-of-khorne",
+    "Daemon of Nurgle": "daemon-of-nurgle",
+    "Daemon of Slaanesh": "daemon-of-slaanesh",
+    "Daemon of Tzeentch": "daemon-of-tzeentch"
+   }
+  },
+  "INFERNAL ENRAPTURESS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "KEEPER OF SECRETS": {
+   "buckler": {
+    "buckler": "buckler"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "Level 2 Wizard": "level-2-wizard",
+    "Level 3 Wizard": "level-3-wizard",
+    "Level 4 Wizard": "level-4-wizard"
+   }
+  },
+  "LORD OF CHANGE": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "Level 3 Wizard": "level-3-wizard",
+    "Level 4 Wizard": "level-4-wizard"
+   }
+  },
+  "NURGLINGS": {
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "PINK HORRORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "PLAGUE CHARIOT": {
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PLAGUE DRONES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "death-heads": {
+    "Death Heads": "death-heads"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PLAGUE TOADS": {
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "PLAGUEBEARERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "PLEASURESEEKERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "POX RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "POXBRINGER": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Palanquin": "palanquin",
+    "Plague Toad": "plague-toad",
+    "Rot Fly": "rot-fly"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  },
+  "SCREAMERS": {
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "SEEKERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "summoned-from-beyond": {
+    "Summoned from Beyond": "summoned-from-beyond"
+   }
+  },
+  "SLOPPITY BILEPIPER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "SOUL GRINDER": {
+   "daemonbone-claw": {
+    "Daemonbone Claw": "daemonbone-claw"
+   },
+   "melee-weapon": {
+    "Baleful Torrent": "baleful-torrent",
+    "Phlegm Bombardment": "phlegm-bombardment",
+    "Warp Gaze": "warp-gaze"
+   },
+   "upgrade": {
+    "Daemon of Khorne": "daemon-of-khorne",
+    "Daemon of Nurgle": "daemon-of-nurgle",
+    "Daemon of Slaanesh": "daemon-of-slaanesh",
+    "Daemon of Tzeentch": "daemon-of-tzeentch"
+   }
+  },
+  "SPOILPOX SCRIVENER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "U'ZHUL THE SKULLTAKER": {
+   "mount": {
+    "Blood Throne": "blood-throne",
+    "Khul'tayran (Juggernaut)": "khultayran-juggernaut"
+   }
+  },
+  "VICELEADER": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Exalted Chariot": "exalted-chariot",
+    "Serpent of Slaanesh": "serpent-of-slaanesh",
+    "Steed of Slaanesh": "steed-of-slaanesh"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  }
+ },
+ "groups": {
+  "BLOOD CHARIOT": {
+   "May be upgraded to a Standard Bearer": "standard-bearer"
+  },
+  "BLOODCRUSHERS": {
+   "May upgrade one Bloodcrusher to a Leader": "champion",
+   "May upgrade one Bloodcrusher to a Musician": "musician",
+   "May upgrade one Bloodcrusher to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bloodcrusher to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "BLOODLETTERS": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May take great weapons": "great-weapons",
+   "May upgrade one Bloodletter to a Leader": "champion",
+   "May upgrade one Bloodletter to a Musician": "musician",
+   "May upgrade one Bloodletter to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bloodletter to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "BLOODMASTER": {
+   "May be mounted on one of the following:": "mount",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a great weapon": "great-weapon",
+   "May take light armour": "light-armour",
+   "One Bloodmaster may carry the Battle Standard": "battle-standard"
+  },
+  "BLOODTHIRSTER": {
+   "May replace hand weapons with great weapon": "great-weapon",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 100 points": "magic-items"
+  },
+  "BRIMSTONE HORRORS": {
+   "May be Summoned from Beyond": "summoned-from-beyond"
+  },
+  "BRUTES": {
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "melee-weapon"
+  },
+  "BURNING CHARIOT": {
+   "May take 3 Blue Horror crew": "blue-horror-crew"
+  },
+  "CHANGEBRINGERS": {
+   "May upgrade one Changebringer to a Leader": "champion"
+  },
+  "CHANGECASTER": {
+   "May be mounted on one of the following:": "mount",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level",
+   "One Changecaster may carry the Battle Standard": "battle-standard"
+  },
+  "CHAOS FURIES": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May be upgraded to one of the following:": "upgrade"
+  },
+  "DAEMON PRINCE": {
+   "May be upgraded to one of the following (unless they are a Daemon of Khorne):": "wizard-level",
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "armour",
+   "May have the Fly (8) special rule": "fly",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 100 points": "magic-items"
+  },
+  "DAEMONETTES": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May upgrade one Daemonette to a Leader": "champion",
+   "May upgrade one Daemonette to a Musician": "musician",
+   "May upgrade one Daemonette to a Standard Bearer": "standard-bearer",
+   "May upgrade one Daemonette to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "EXALTED DAEMON": {
+   "May be upgraded to one of the following (unless they are a Daemon of Khorne):": "wizard-level",
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "armour",
+   "May have the Fly (8) special rule": "fly",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items",
+   "One Exalted Daemon may carry the Battle Standard": "battle-standard"
+  },
+  "FIENDS": {
+   "May upgrade one Fiend to a Leader": "champion"
+  },
+  "FLAMERS": {
+   "May upgrade one Flamer to a Leader": "champion"
+  },
+  "FLESH HOUNDS": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May upgrade one Flesh Hound to a Leader": "champion"
+  },
+  "GAUNT SUMMONER": {
+   "May take Daemonic Gifts and/or Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional Wizard Level +35 points May be mounted on a Disc of Tzeentch": "wizard-level"
+  },
+  "GREAT UNCLEAN ONE": {
+   "May be upgraded to one of the following:": "wizard-level",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional hand weapon": "additional-hand-weapon"
+  },
+  "IMP SWARMS": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May be upgraded to one of the following:": "upgrade"
+  },
+  "INFERNAL ENRAPTURESS": {
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "KEEPER OF SECRETS": {
+   "May be upgraded to one of the following:": "wizard-level",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 100 points": "magic-items",
+   "May take a buckler": "buckler"
+  },
+  "LORD OF CHANGE": {
+   "May be upgraded to one of the following:": "wizard-level",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 100 points": "magic-items"
+  },
+  "NURGLINGS": {
+   "May be Summoned from Beyond": "summoned-from-beyond"
+  },
+  "PINK HORRORS": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May upgrade one Pink Horror to a Leader": "champion",
+   "May upgrade one Pink Horror to a Musician": "musician",
+   "May upgrade one Pink Horror to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pink Horror to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "PLAGUE CHARIOT": {
+   "May be upgraded to a Standard Bearer": "standard-bearer"
+  },
+  "PLAGUE DRONES": {
+   "May take Death Heads": "death-heads",
+   "May upgrade one Plaguebearer to a Leader": "champion",
+   "May upgrade one Plaguebearer to a Musician": "musician",
+   "May upgrade one Plaguebearer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Plaguebearer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "PLAGUE TOADS": {
+   "May be Summoned from Beyond": "summoned-from-beyond"
+  },
+  "PLAGUEBEARERS": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May upgrade one Plaguebearer to a Leader": "champion",
+   "May upgrade one Plaguebearer to a Musician": "musician",
+   "May upgrade one Plaguebearer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Plaguebearer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "PLEASURESEEKERS": {
+   "May upgrade one Pleasureseeker to a Leader": "champion",
+   "May upgrade one Pleasureseeker to a Musician": "musician",
+   "May upgrade one Pleasureseeker to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pleasureseeker to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "POX RIDERS": {
+   "May upgrade one Pox Rider to a Leader": "champion",
+   "May upgrade one Pox Rider to a Musician": "musician",
+   "May upgrade one Pox Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pox Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "POXBRINGER": {
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "wizard-level",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items",
+   "One Poxbringer may carry the Battle Standard": "battle-standard"
+  },
+  "SCREAMERS": {
+   "May be Summoned from Beyond": "summoned-from-beyond"
+  },
+  "SEEKERS": {
+   "May be Summoned from Beyond": "summoned-from-beyond",
+   "May upgrade one Seeker to a Leader": "champion",
+   "May upgrade one Seeker to a Musician": "musician",
+   "May upgrade one Seeker to a Standard Bearer": "standard-bearer",
+   "May upgrade one Seeker to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SLOPPITY BILEPIPER": {
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "SOUL GRINDER": {
+   "May be upgraded to one of the following:": "upgrade",
+   "May replace the Harvester Cannon with one of the following:": "melee-weapon",
+   "May take a Daemonbone Claw": "daemonbone-claw"
+  },
+  "SPOILPOX SCRIVENER": {
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "U'ZHUL THE SKULLTAKER": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "VICELEADER": {
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "wizard-level",
+   "May take Daemonic Gifts and/or Magic Items up to a total of 50 points": "magic-items",
+   "One Viceleader may carry the Battle Standard": "battle-standard"
+  }
+ },
+ "items": {
+  "ABHORRENT LODESTONE": "abhorrent-lodestone",
+  "AR'GATH, THE KING OF BLADES": "argath-the-king-of-blades",
+  "ARMOUR OF KHORNE": "armour-of-khorne",
+  "ARMOUR OF SCORN": "armour-of-scorn",
+  "AXE OF KHORNE": "axe-of-khorne",
+  "BALESWORD": "balesword",
+  "BANNER OF CHANGE": "banner-of-change",
+  "BANNER OF ECSTASY": "banner-of-ecstasy",
+  "BANNER OF INFERNAL FIRE": "banner-of-infernal-fire",
+  "BANNER OF UNHOLY VICTORY": "banner-of-unholy-victory",
+  "BEACON OF MUTABILITY": "beacon-of-mutability",
+  "BEHEMOTH'S BANE": "behemoths-bane",
+  "BILEBLADE": "bileblade",
+  "BLADE OF BLOOD": "blade-of-blood",
+  "BLADE OF FATE": "blade-of-fate",
+  "BLOODSTONE": "bloodstone",
+  "CRIMSON SOULSTONE": "crimson-soulstone",
+  "DAEMONIC ROBES": "daemonic-robes",
+  "DEATHDEALER": "deathdealer",
+  "DOOMSDAY BELL": "doomsday-bell",
+  "ENRAPTURING CIRCLET": "enrapturing-circlet",
+  "ETHERBLADE": "etherblade",
+  "FALLACIOUS GIFT": "fallacious-gift",
+  "FIRESTORM BLADE": "firestorm-blade",
+  "FLESH PEELER": "flesh-peeler",
+  "GIRDLE OF THE REALM-RACER": "girdle-of-the-realm-racer",
+  "GREAT ICON OF DESPAIR": "great-icon-of-despair",
+  "GREAT STANDARD OF SUNDERING": "great-standard-of-sundering",
+  "HARVESTER OF SKULLS": "harvester-of-skulls",
+  "ICON OF ENDLESS WAR": "icon-of-endless-war",
+  "ICON OF ETERNAL VIRULENCE": "icon-of-eternal-virulence",
+  "ICON OF SORCERY": "icon-of-sorcery",
+  "KHARTOTH THE BLOODHUNGER": "khartoth-the-bloodhunger",
+  "LASH OF DESPAIR": "lash-of-despair",
+  "MARK OF THE BLOODREAPER": "mark-of-the-bloodreaper",
+  "MARK OF THE SLAYER": "mark-of-the-slayer",
+  "MASK OF SPITEFUL BEAUTY": "mask-of-spiteful-beauty",
+  "NINE-EYED TOME": "nine-eyed-tome",
+  "NURGLE'S NAIL": "nurgles-nail",
+  "PLAGUE FLAIL": "plague-flail",
+  "PYROFYRE STAVE": "pyrofyre-stave",
+  "SIREN STANDARD": "siren-standard",
+  "SKULL TOTEM": "skull-totem",
+  "STAFF OF CHANGE": "staff-of-change",
+  "STAFF OF NURGLE": "staff-of-nurgle",
+  "STANDARD OF BEGUILEMENT": "standard-of-beguilement",
+  "STANDARD OF CHAOS GLORY": "standard-of-chaos-glory",
+  "STANDARD OF CONJURATION": "standard-of-conjuration",
+  "STANDARD OF ETERNAL WRATH": "standard-of-eternal-wrath",
+  "STANDARD OF FECUNDITY": "standard-of-fecundity",
+  "STANDARD OF SEEPING DECAY": "standard-of-seeping-decay",
+  "STANDARD OF TRANSMOGRIFICATION": "standard-of-transmogrification",
+  "STANDARD OF TWISTED GRACE": "standard-of-twisted-grace",
+  "THE BLOODY SHACKLE": "the-bloody-shackle",
+  "THE CHROMATIC TOME": "the-chromatic-tome",
+  "THE CRIMSON CROWN": "the-crimson-crown",
+  "THE ETERNAL BLADE": "the-eternal-blade",
+  "THE ETERNAL SHROUD": "the-eternal-shroud",
+  "THE PORTALGLYPH": "the-portalglyph",
+  "THE ROCK OF INEVITABILITY": "the-rock-of-inevitability",
+  "THE VIRULENT BLADE": "the-virulent-blade",
+  "THE WITHERSTAVE": "the-witherstave",
+  "THRENODY VOICEBOX": "threnody-voicebox",
+  "TOME OF A THOUSAND POXES": "tome-of-a-thousand-poxes",
+  "TORMENT BLADE": "torment-blade",
+  "WAND OF WHIMSY": "wand-of-whimsy",
+  "WARPFIRE BLADE": "warpfire-blade",
+  "WARPTONGUE BLADE": "warptongue-blade"
+ },
+ "lores": {
+  "THE LORE OF CHAOS": "the-lore-of-chaos",
+  "THE LORE OF NURGLE": "the-lore-of-nurgle",
+  "THE LORE OF SLAANESH": "the-lore-of-slaanesh",
+  "THE LORE OF TZEENTCH": "the-lore-of-tzeentch"
+ },
+ "profiles": {
+  "AMON 'CHAKAI": {
+   "Amon 'Chakai": "amon-chakai"
+  },
+  "AZAZEL": {
+   "Azazel": "azazel"
+  },
+  "BE'LAKOR": {
+   "Be'lakor": "belakor"
+  },
+  "BEASTS OF NURGLE": {
+   "Beast of Nurgle": "beast-of-nurgle"
+  },
+  "BLOOD CHARIOT": {
+   "Blood Chariot": "blood-chariot",
+   "Bloodletter": "bloodletter",
+   "Juggernaut": "juggernaut"
+  },
+  "BLOOD THRONE": {
+   "Blood Throne": "blood-throne",
+   "Bloodletter": "bloodletter"
+  },
+  "BLOODBEASTS": {
+   "Bloodbeast": "bloodbeast"
+  },
+  "BLOODCRUSHERS": {
+   "Bloodletter": "bloodletter",
+   "Juggernaut": "juggernaut"
+  },
+  "BLOODLETTERS": {
+   "Bloodletter": "bloodletter"
+  },
+  "BLOODMASTER": {
+   "Bloodmaster": "bloodmaster"
+  },
+  "BLOODTHIRSTER": {
+   "Bloodthirster": "bloodthirster"
+  },
+  "BRIMSTONE HORRORS": {
+   "Brimstone Horrors": "brimstone-horrors"
+  },
+  "BRUTES": {
+   "Brute": "brute"
+  },
+  "BURNING CHARIOT": {
+   "Blue Horror": "blue-horror",
+   "Burning Chariot": "burning-chariot",
+   "Exalted Flamer": "exalted-flamer",
+   "Screamer": "screamer"
+  },
+  "CHANGEBRINGERS": {
+   "Disc of Tzeentch": "disc-of-tzeentch",
+   "Flamer": "flamer"
+  },
+  "CHANGECASTER": {
+   "Changecaster": "changecaster"
+  },
+  "CHAOS FURIES": {
+   "Chaos Fury": "chaos-fury"
+  },
+  "CONTORTED EPITOME": {
+   "Alluress": "alluress",
+   "Contorted Epitome": "contorted-epitome"
+  },
+  "DAEMON PRINCE": {
+   "Daemon Prince": "daemon-prince"
+  },
+  "DAEMONETTES": {
+   "Daemonette": "daemonette"
+  },
+  "DEXCESSA": {
+   "Dexcessa": "dexcessa"
+  },
+  "DISC OF TZEENTCH": {
+   "Disc of Tzeentch": "disc-of-tzeentch"
+  },
+  "EPIDEMUS": {
+   "Epidemius": "epidemius",
+   "Palanquin": "palanquin"
+  },
+  "EXALTED DAEMON": {
+   "Exalted Daemon": "exalted-daemon"
+  },
+  "EXALTED FLAMER": {
+   "Exalted Flamer": "exalted-flamer"
+  },
+  "EXALTED SEEKER CHARIOT": {
+   "Alluress": "alluress",
+   "Daemonette": "daemonette",
+   "Exalted Chariot": "exalted-chariot",
+   "Steed of Slaanesh": "steed-of-slaanesh"
+  },
+  "FIENDS": {
+   "Fiend": "fiend"
+  },
+  "FIREWYRMS": {
+   "Firewyrm": "firewyrm"
+  },
+  "FLAMERS": {
+   "Flamer": "flamer"
+  },
+  "FLESH HOUNDS": {
+   "Flesh Hound": "flesh-hound"
+  },
+  "GAUNT SUMMONER": {
+   "Gaunt Summoner": "gaunt-summoner"
+  },
+  "GREAT UNCLEAN ONE": {
+   "Great Unclean One": "great-unclean-one"
+  },
+  "HELLFLAYER": {
+   "Alluress": "alluress",
+   "Daemonette": "daemonette",
+   "Exalted Chariot": "exalted-chariot",
+   "Steed of Slaanesh": "steed-of-slaanesh"
+  },
+  "HORTICULOUS SLIMUX": {
+   "Horticulous": "horticulous",
+   "Mulch": "mulch"
+  },
+  "IMP SWARMS": {
+   "Imp Swarm": "imp-swarm"
+  },
+  "INFERNAL ENRAPTURESS": {
+   "Infernal Enrapturess": "infernal-enrapturess"
+  },
+  "JUGGERNAUT": {
+   "Juggernaut": "juggernaut"
+  },
+  "KAIROS FATEWEAVER": {
+   "Kairos Fateweaver": "kairos-fateweaver"
+  },
+  "KARANAK": {
+   "Karanak": "karanak"
+  },
+  "KEEPER OF SECRETS": {
+   "Keeper of Secrets": "keeper-of-secrets"
+  },
+  "KU'GATH PLAGUEFATHER": {
+   "Ku'gath Plaguefather": "kugath-plaguefather",
+   "Palanquin of Nurgle": "palanquin-of-nurgle"
+  },
+  "LORD OF CHANGE": {
+   "Lord of Change": "lord-of-change"
+  },
+  "MAZARALL THE BUTCHER": {
+   "Mazarall the Butcher": "mazarall-the-butcher"
+  },
+  "N'KARI": {
+   "N'Kari": "nkari"
+  },
+  "NURGLINGS": {
+   "Nurglings": "nurglings"
+  },
+  "PALANQUIN OF NURGLE": {
+   "Palanquin of Nurgle": "palanquin-of-nurgle"
+  },
+  "PINK HORRORS": {
+   "Blue Horror": "blue-horror",
+   "Pink Horror": "pink-horror"
+  },
+  "PLAGUE CHARIOT": {
+   "Beast of Nurgle": "beast-of-nurgle",
+   "Plague Chariot": "plague-chariot",
+   "Plaguebearer": "plaguebearer"
+  },
+  "PLAGUE DRONES": {
+   "Plaguebearer": "plaguebearer",
+   "Rot Fly": "rot-fly"
+  },
+  "PLAGUE TOAD": {
+   "Plague Toad": "plague-toad"
+  },
+  "PLAGUE TOADS": {
+   "Plague Toad": "plague-toad"
+  },
+  "PLAGUEBEARERS": {
+   "Plaguebearer": "plaguebearer"
+  },
+  "PLEASURESEEKERS": {
+   "Daemonette": "daemonette",
+   "Serpent of Slaanesh": "serpent-of-slaanesh"
+  },
+  "POX RIDERS": {
+   "Plague Toad": "plague-toad",
+   "Plaguebearer": "plaguebearer"
+  },
+  "POXBRINGER": {
+   "Poxbringer": "poxbringer"
+  },
+  "ROT FLY": {
+   "Rot Fly": "rot-fly"
+  },
+  "ROTIGUS": {
+   "Rotigus": "rotigus"
+  },
+  "SCREAMERS": {
+   "Screamer": "screamer"
+  },
+  "SEEKER CHARIOT": {
+   "Alluress": "alluress",
+   "Daemonette": "daemonette",
+   "Seeker Chariot": "seeker-chariot",
+   "Steed of Slaanesh": "steed-of-slaanesh"
+  },
+  "SEEKERS": {
+   "Daemonette": "daemonette",
+   "Steed of Slaanesh": "steed-of-slaanesh"
+  },
+  "SERPENT OF SLAANESH": {
+   "Serpent of Slaanesh": "serpent-of-slaanesh"
+  },
+  "SHALAXI HELBANE": {
+   "Shalaxi Helbane": "shalaxi-helbane"
+  },
+  "SKAARAC THE BLOODBORN": {
+   "Skaarac": "skaarac"
+  },
+  "SKARBRAND": {
+   "Skarbrand": "skarbrand"
+  },
+  "SKULL CANNON": {
+   "Bloodletter": "bloodletter",
+   "Skull Cannon": "skull-cannon"
+  },
+  "SLOPPITY BILEPIPER": {
+   "Sloppity Bilepiper": "sloppity-bilepiper"
+  },
+  "SOUL GRINDER": {
+   "Soul Grinder": "soul-grinder"
+  },
+  "SPOILPOX SCRIVENER": {
+   "Spoilpox Scrivener": "spoilpox-scrivener"
+  },
+  "STEED OF SLAANESH": {
+   "Steed of Slaanesh": "steed-of-slaanesh"
+  },
+  "SYLL'ESSKE": {
+   "Esske": "esske",
+   "Syll": "syll"
+  },
+  "SYNESSA": {
+   "Synessa": "synessa"
+  },
+  "THE BLUE SCRIBES": {
+   "Disc of Tzeentch": "disc-of-tzeentch",
+   "The Blue Scribes": "the-blue-scribes"
+  },
+  "THE CHANGELING": {
+   "The Changeling": "the-changeling"
+  },
+  "THE MASQUE OF SLAANESH": {
+   "Masque of Slaanesh": "masque-of-slaanesh"
+  },
+  "U'ZHUL THE SKULLTAKER": {
+   "Khul'tayran (Juggernaut)": "khultayran-juggernaut",
+   "Skulltaker": "skulltaker"
+  },
+  "VICELEADER": {
+   "Viceleader": "viceleader"
+  }
+ },
+ "rules": {
+  "DAEMONIC": "daemonic",
+  "Daemonic Alignment": "daemonic-alignment",
+  "Daemonic Animosity": "daemonic-animosity",
+  "Daemonic Instability": "daemonic-instability",
+  "REIGN OF CHAOS": "reign-of-chaos",
+  "SUMMONED FROM BEYOND": "summoned-from-beyond"
+ },
+ "units": {
+  "AMON 'CHAKAI": "amon-chakai",
+  "AZAZEL": "azazel",
+  "BE'LAKOR": "belakor",
+  "BEASTS OF NURGLE": "beasts-of-nurgle",
+  "BLOOD CHARIOT": "blood-chariot",
+  "BLOOD THRONE": "blood-throne",
+  "BLOODBEASTS": "bloodbeasts",
+  "BLOODCRUSHERS": "bloodcrushers",
+  "BLOODLETTERS": "bloodletters",
+  "BLOODMASTER": "bloodmaster",
+  "BLOODTHIRSTER": "bloodthirster",
+  "BRIMSTONE HORRORS": "brimstone-horrors",
+  "BRUTES": "brutes",
+  "BURNING CHARIOT": "burning-chariot",
+  "CHANGEBRINGERS": "changebringers",
+  "CHANGECASTER": "changecaster",
+  "CHAOS FURIES": "chaos-furies",
+  "CONTORTED EPITOME": "contorted-epitome",
+  "DAEMON PRINCE": "daemon-prince",
+  "DAEMONETTES": "daemonettes",
+  "DEXCESSA": "dexcessa",
+  "DISC OF TZEENTCH": "disc-of-tzeentch",
+  "EPIDEMUS": "epidemus",
+  "EXALTED DAEMON": "exalted-daemon",
+  "EXALTED FLAMER": "exalted-flamer",
+  "EXALTED SEEKER CHARIOT": "exalted-seeker-chariot",
+  "FIENDS": "fiends",
+  "FIREWYRMS": "firewyrms",
+  "FLAMERS": "flamers",
+  "FLESH HOUNDS": "flesh-hounds",
+  "GAUNT SUMMONER": "gaunt-summoner",
+  "GREAT UNCLEAN ONE": "great-unclean-one",
+  "HELLFLAYER": "hellflayer",
+  "HORTICULOUS SLIMUX": "horticulous-slimux",
+  "IMP SWARMS": "imp-swarms",
+  "INFERNAL ENRAPTURESS": "infernal-enrapturess",
+  "JUGGERNAUT": "juggernaut",
+  "KAIROS FATEWEAVER": "kairos-fateweaver",
+  "KARANAK": "karanak",
+  "KEEPER OF SECRETS": "keeper-of-secrets",
+  "KU'GATH PLAGUEFATHER": "kugath-plaguefather",
+  "LORD OF CHANGE": "lord-of-change",
+  "MAZARALL THE BUTCHER": "mazarall-the-butcher",
+  "N'KARI": "nkari",
+  "NURGLINGS": "nurglings",
+  "PALANQUIN OF NURGLE": "palanquin-of-nurgle",
+  "PINK HORRORS": "pink-horrors",
+  "PLAGUE CHARIOT": "plague-chariot",
+  "PLAGUE DRONES": "plague-drones",
+  "PLAGUE TOAD": "plague-toad",
+  "PLAGUE TOADS": "plague-toads",
+  "PLAGUEBEARERS": "plaguebearers",
+  "PLEASURESEEKERS": "pleasureseekers",
+  "POX RIDERS": "pox-riders",
+  "POXBRINGER": "poxbringer",
+  "ROT FLY": "rot-fly",
+  "ROTIGUS": "rotigus",
+  "SCREAMERS": "screamers",
+  "SEEKER CHARIOT": "seeker-chariot",
+  "SEEKERS": "seekers",
+  "SERPENT OF SLAANESH": "serpent-of-slaanesh",
+  "SHALAXI HELBANE": "shalaxi-helbane",
+  "SKAARAC THE BLOODBORN": "skaarac-the-bloodborn",
+  "SKARBRAND": "skarbrand",
+  "SKULL CANNON": "skull-cannon",
+  "SLOPPITY BILEPIPER": "sloppity-bilepiper",
+  "SOUL GRINDER": "soul-grinder",
+  "SPOILPOX SCRIVENER": "spoilpox-scrivener",
+  "STEED OF SLAANESH": "steed-of-slaanesh",
+  "SYLL'ESSKE": "syllesske",
+  "SYNESSA": "synessa",
+  "THE BLUE SCRIBES": "the-blue-scribes",
+  "THE CHANGELING": "the-changeling",
+  "THE MASQUE OF SLAANESH": "the-masque-of-slaanesh",
+  "U'ZHUL THE SKULLTAKER": "uzhul-the-skulltaker",
+  "VICELEADER": "viceleader"
+ },
+ "upgrades": {
+  "ALL-SEEING EYE": "all-seeing-eye",
+  "ALLURE OF SLAANESH": "allure-of-slaanesh",
+  "ARCH-SLAUGHTERER": "arch-slaughterer",
+  "ASPECT OF DEATH": "aspect-of-death",
+  "ASPECT OF TZEENTCH": "aspect-of-tzeentch",
+  "AURA OF DISRUPTION": "aura-of-disruption",
+  "AURA OF FURY": "aura-of-fury",
+  "AWESOME STRENGTH": "awesome-strength",
+  "BARRAGE OF KNOWLEDGE": "barrage-of-knowledge",
+  "BATTLEMASTER": "battlemaster",
+  "BRINGER OF THE SWARM": "bringer-of-the-swarm",
+  "CHAOS DISRUPTION": "chaos-disruption",
+  "CLEAVING BLOW": "cleaving-blow",
+  "CORPULENCE": "corpulence",
+  "CRUSHING MASS": "crushing-mass",
+  "CURSED ICHOR": "cursed-ichor",
+  "DAEMONIC ARROGANCE": "daemonic-arrogance",
+  "DARK BLESSING": "dark-blessing",
+  "DARK INSANITY": "dark-insanity",
+  "DARK MAGISTER": "dark-magister",
+  "DEVASTATING BLOW": "devastating-blow",
+  "DIABOLIC SPLENDOUR": "diabolic-splendour",
+  "ENRAPTURING GAZE": "enrapturing-gaze",
+  "EXTREME CONTAGION": "extreme-contagion",
+  "FLAMES OF TZEENTCH": "flames-of-tzeentch",
+  "GIFT OF FEBRILE FRENZY": "gift-of-febrile-frenzy",
+  "HELLFIRE": "hellfire",
+  "IMMORTAL FURY": "immortal-fury",
+  "IMPENETRABLE HIDE": "impenetrable-hide",
+  "INCORPOREAL STRIKE": "incorporeal-strike",
+  "INVIGORATED BY PAIN": "invigorated-by-pain",
+  "IRIDESCENT CORONA": "iridescent-corona",
+  "LORD OF FLUX": "lord-of-flux",
+  "MARK OF THE CONJURER": "mark-of-the-conjurer",
+  "MASSIVE MIGHT": "massive-might",
+  "MASTER OF SORCERY": "master-of-sorcery",
+  "MIGHT OF KHORNE": "might-of-khorne",
+  "NOXIOUS BREATH": "noxious-breath",
+  "NOXIOUS VAPOURS": "noxious-vapours",
+  "NURGLE'S ROT": "nurgles-rot",
+  "NURGLING INFESTATION": "nurgling-infestation",
+  "PESTILENT BREATH": "pestilent-breath",
+  "PESTILENT MUCUS": "pestilent-mucus",
+  "POWER VORTEX": "power-vortex",
+  "RADIANCE OF DARK GLORY": "radiance-of-dark-glory",
+  "RAGE UNCHAINED": "rage-unchained",
+  "RELENTLESS HUNTER": "relentless-hunter",
+  "SENSUAL BARRAGE": "sensual-barrage",
+  "SIREN SONG": "siren-song",
+  "SKILL SWALLOWER": "skill-swallower",
+  "SLAUGHTERBORN": "slaughterborn",
+  "SLIME TRAIL": "slime-trail",
+  "SOPORIFIC MUSK": "soporific-musk",
+  "SORCEROUS LODESTONE": "sorcerous-lodestone",
+  "SOUL HUNGER": "soul-hunger",
+  "SOULEATER": "souleater",
+  "SPELL BREAKER": "spell-breaker",
+  "SPELL DESTROYER": "spell-destroyer",
+  "SPIRIT SWALLOWER": "spirit-swallower",
+  "STREAM OF BILE": "stream-of-bile",
+  "SYMPHONIAC": "symphoniac",
+  "TEMPTATOR": "temptator",
+  "THE BOUNTIFUL SWARM": "the-bountiful-swarm",
+  "THE ENDLESS GIFT": "the-endless-gift",
+  "TORMENTOR": "tormentor",
+  "TRAPPINGS OF NURGLE": "trappings-of-nurgle",
+  "TWIN HEADS": "twin-heads",
+  "TZEENTCH'S WILL": "tzeentchs-will",
+  "UNBREAKABLE SKIN": "unbreakable-skin",
+  "UNHOLY FLURRY": "unholy-flurry",
+  "UNHOLY SACRIFICE": "unholy-sacrifice",
+  "UNNATURAL SWIFTNESS": "unnatural-swiftness",
+  "UNRIVALLED BATTLE-LUST": "unrivalled-battle-lust",
+  "WARD OF CHAOS": "ward-of-chaos",
+  "WELLSPRING OF ARCANE MIGHT": "wellspring-of-arcane-might",
+  "WITHERING GAZE": "withering-gaze"
+ }
+}

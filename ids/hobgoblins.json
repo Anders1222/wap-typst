@@ -1,0 +1,633 @@
+{
+ "choices": {
+  "ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CUTTHROATS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "DREAD MAW": {
+   "clawed-mandibles": {
+    "Clawed Mandibles": "clawed-mandibles"
+   },
+   "hooked-spines": {
+    "Hooked Spines": "hooked-spines"
+   },
+   "poisonous-blood": {
+    "Poisonous Blood": "poisonous-blood"
+   },
+   "slime-spray": {
+    "Slime Spray": "slime-spray"
+   }
+  },
+  "GIANT WOLF": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "HOBGOBLA KHAN": {
+   "mount": {
+    "Giant Wolf": "giant-wolf",
+    "Snarlfang": "snarlfang",
+    "Wolf Chariot": "wolf-chariot"
+   }
+  },
+  "KHARASH": {
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "KHESHIG SNARLFANG RIDERS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KHESHIG WOLF RIDERS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MAGLAH KHAN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MANGUDAI": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "NERGUI": {
+   "mount": {
+    "Corpseripper Vulture": "corpseripper-vulture",
+    "Giant Wolf": "giant-wolf",
+    "Snarlfang": "snarlfang"
+   }
+  },
+  "RAVAGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SHAMANS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-great-shaman": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-shaman": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Corpseripper Vulture": "corpseripper-vulture",
+    "Giant Wolf": "giant-wolf",
+    "Snarlfang": "snarlfang"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SNARLFANG": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "SNEAKY GITS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "scouts": {
+    "Scouts": "scouts"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   }
+  },
+  "SOBUTAI": {
+   "barding": {
+    "barding": "barding"
+   },
+   "snarlfang": {
+    "Snarlfang": "snarlfang"
+   }
+  },
+  "THROAT-SLASHER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "WAR WAGON": {
+   "additional-giant-wolf": {
+    "additional Giant Wolf": "additional-giant-wolf"
+   },
+   "missile-weapon": {
+    "Bows": "bows",
+    "Shortbows": "shortbows"
+   }
+  },
+  "WARLORDS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-khan": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-orlok": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Giant Wolf": "giant-wolf",
+    "Snarlfang": "snarlfang",
+    "Wolf Chariot": "wolf-chariot"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "shortbow": {
+    "shortbow": "shortbow"
+   }
+  },
+  "WOLF CHARIOT": {
+   "additional-giant-wolf": {
+    "additional Giant Wolf": "additional-giant-wolf"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "missile-weapon": {
+    "Bows": "bows",
+    "Shortbows": "shortbows"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   }
+  },
+  "WOLF RAIDERS": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ARCHERS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Archer to a Leader": "champion",
+   "May upgrade one Archer to a Musician": "musician",
+   "May upgrade one Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "CUTTHROATS": {
+   "May take light armour": "light-armour",
+   "May take spears": "spears",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Cutthroat to a Leader": "champion",
+   "May upgrade one Cutthroat to a Musician": "musician",
+   "May upgrade one Cutthroat to a Standard Bearer": "standard-bearer",
+   "May upgrade one Cutthroat to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DREAD MAW": {
+   "May take Clawed Mandibles": "clawed-mandibles",
+   "May take Hooked Spines": "hooked-spines",
+   "May take Poisonous Blood": "poisonous-blood",
+   "May take Slime Spray": "slime-spray"
+  },
+  "GIANT WOLF": {
+   "May take barding": "barding"
+  },
+  "HOBGOBLA KHAN": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "KHARASH": {
+   "May take throwing weapons": "throwing-weapons"
+  },
+  "KHESHIG SNARLFANG RIDERS": {
+   "May take Poisoned Attacks (close combat only)": "poisoned-attacks",
+   "May take barding": "barding",
+   "May take shortbows": "shortbows",
+   "May upgrade one Kheshig to a Leader": "champion",
+   "May upgrade one Kheshig to a Musician": "musician",
+   "May upgrade one Kheshig to a Standard Bearer": "standard-bearer",
+   "May upgrade one Kheshig to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "KHESHIG WOLF RIDERS": {
+   "May take Poisoned Attacks (close combat only)": "poisoned-attacks",
+   "May take barding": "barding",
+   "May take shortbows": "shortbows",
+   "May upgrade one Kheshig to a Leader": "champion",
+   "May upgrade one Kheshig to a Musician": "musician",
+   "May upgrade one Kheshig to a Standard Bearer": "standard-bearer",
+   "May upgrade one Kheshig to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MAGLAH KHAN": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "MANGUDAI": {
+   "May take Poisoned Attacks": "poisoned-attacks",
+   "May take light armour": "light-armour",
+   "May upgrade one Mangudai to a Leader": "champion",
+   "May upgrade one Mangudai to a Musician": "musician",
+   "May upgrade one Mangudai to a Standard Bearer": "standard-bearer",
+   "May upgrade one Mangudai to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "NERGUI": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "RAVAGERS": {
+   "May take Poisoned Attacks": "poisoned-attacks",
+   "May upgrade one Ravager to a Leader": "champion",
+   "May upgrade one Ravager to a Musician": "musician",
+   "May upgrade one Ravager to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ravager to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SHAMANS": {
+   "A Great Shaman may take Magic Items up to a total of 100 points": "magic-items-great-shaman",
+   "A Shaman may take Magic Items up to a total of 50 points": "magic-items-shaman",
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "SNARLFANG": {
+   "May take barding": "barding"
+  },
+  "SNEAKY GITS": {
+   "May be upgraded to Scouts": "scouts",
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Sneaky Git to a Leader": "champion"
+  },
+  "SOBUTAI": {
+   "May replace Giant Wolf with Snarlfang": "snarlfang",
+   "May take barding": "barding"
+  },
+  "THROAT-SLASHER": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "WAR WAGON": {
+   "May choose one of the following:": "missile-weapon",
+   "May take an additional Giant Wolf": "additional-giant-wolf"
+  },
+  "WARLORDS": {
+   "A Khan may take Magic Items up to a total of 100 points": "magic-items-khan",
+   "An Orlok may take Magic Items up to a total of 50 points": "magic-items-orlok",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take a shield": "shield",
+   "May take a shortbow": "shortbow",
+   "One Orlok may carry the Battle Standard": "battle-standard"
+  },
+  "WOLF CHARIOT": {
+   "May be upgraded to a standard bearer ´": "standard-bearer",
+   "May choose one of the following:": "missile-weapon",
+   "May take an additional Giant Wolf": "additional-giant-wolf",
+   "May take light lances": "light-lances",
+   "May take scythes": "scythes"
+  },
+  "WOLF RAIDERS": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take shields": "shields",
+   "May take shortbows": "shortbows",
+   "May upgrade one Wolf Raider to a Leader": "champion",
+   "May upgrade one Wolf Raider to a Musician": "musician",
+   "May upgrade one Wolf Raider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wolf Raider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  }
+ },
+ "items": {
+  "ARMOUR OF THE WIND FORTRESS": "armour-of-the-wind-fortress",
+  "AXE HEADROOM": "axe-headroom",
+  "BAG O' SNEAKY TRICKS": "bag-o-sneaky-tricks",
+  "BANNER OF THE GREAT WOLF": "banner-of-the-great-wolf",
+  "BLOOD DEBT TOKEN": "blood-debt-token",
+  "CLOAK OF SORCERY": "cloak-of-sorcery",
+  "COMET BOW": "comet-bow",
+  "CRAVEN BANNER": "craven-banner",
+  "CRIMSON JADE PENDANT": "crimson-jade-pendant",
+  "DEATHSEEKER GEM": "deathseeker-gem",
+  "EVERSHIFTING MAP": "evershifting-map",
+  "FENDRIZZ' ORB OF THEFT": "fendrizz-orb-of-theft",
+  "HIDE OF THE FALLEN TYRANT": "hide-of-the-fallen-tyrant",
+  "LAUGHING SKULL BANNER": "laughing-skull-banner",
+  "LIGHTNING SPEAR": "lightning-spear",
+  "LUCKY'S PAW": "luckys-paw",
+  "OUTRIDER'S MACE": "outriders-mace",
+  "SABRETUSK CLAW GAUNTLETS": "sabretusk-claw-gauntlets",
+  "SCORPION SHIELD": "scorpion-shield",
+  "SCROLL OF TAUNTS": "scroll-of-taunts",
+  "SERPENT'S FANG": "serpents-fang",
+  "SHIELD OF THE INHOSPITABLE STEPPES": "shield-of-the-inhospitable-steppes",
+  "SPIDER SILK SHIRT": "spider-silk-shirt",
+  "SPIRIT AMULET": "spirit-amulet",
+  "SPIRIT BANNER": "spirit-banner",
+  "SPIRIT TOTEM STAFF": "spirit-totem-staff",
+  "STANDARD OF THE DEVOURING WOLF": "standard-of-the-devouring-wolf",
+  "STANDARD OF THE GREAT KHAN": "standard-of-the-great-khan",
+  "STANDARD OF THE OPEN STEPPE": "standard-of-the-open-steppe",
+  "STEALER OF THUNDER": "stealer-of-thunder",
+  "TAUNTING EFFIGY": "taunting-effigy",
+  "TELLING BONES": "telling-bones",
+  "THE BLACK BOW": "the-black-bow",
+  "THE HIDDEN SHEATH": "the-hidden-sheath",
+  "VAZZAK'S STAFF OF PROCRASTINATION": "vazzaks-staff-of-procrastination",
+  "WAR BANNER OF MORK-KHAN": "war-banner-of-mork-khan",
+  "WARPSTONE SCIMITAR": "warpstone-scimitar",
+  "WINDRIDER BANNER": "windrider-banner",
+  "WOLF-HOWL HELM": "wolf-howl-helm",
+  "WYRDSTONE CROWN": "wyrdstone-crown",
+  "YATZSUP'S THUMB RING": "yatzsups-thumb-ring",
+  "ZANZILL'S THREE-SECTION STAFF": "zanzills-three-section-staff"
+ },
+ "lores": {
+  "LORE OF DA HIIYAAARRGHH!": "lore-of-da-hiiyaaarrghh"
+ },
+ "profiles": {
+  "ALMASLAR": {
+   "Almas": "almas"
+  },
+  "ARCHERS": {
+   "Archer": "archer"
+  },
+  "BOLT THROWA": {
+   "Bolt Throwa": "bolt-throwa",
+   "Crew": "crew"
+  },
+  "CORPSERIPPER VULTURE": {
+   "Corpseripper Vulture": "corpseripper-vulture"
+  },
+  "CUTTHROATS": {
+   "Cutthroat": "cutthroat"
+  },
+  "DREAD MAW": {
+   "Dread Maw": "dread-maw"
+  },
+  "GHAZAK KHAN": {
+   "Ghazak Khan": "ghazak-khan",
+   "Warghan (Giant Wolf)": "warghan-giant-wolf"
+  },
+  "GIANT": {
+   "Giant": "giant"
+  },
+  "GIANT SCORPIONS": {
+   "Giant Scorpion": "giant-scorpion",
+   "Scorpion Herder": "scorpion-herder"
+  },
+  "GIANT WOLF": {
+   "Giant Wolf": "giant-wolf"
+  },
+  "HOBGOBLA KHAN": {
+   "Hobgobla Khan": "hobgobla-khan"
+  },
+  "HOBHOUNDS": {
+   "Hobhound": "hobhound",
+   "Packmaster": "packmaster"
+  },
+  "KHARASH": {
+   "Kharash": "kharash",
+   "Slavedriver": "slavedriver"
+  },
+  "KHESHIG SNARLFANG RIDERS": {
+   "Kheshig": "kheshig",
+   "Snarlfang": "snarlfang"
+  },
+  "KHESHIG WOLF RIDERS": {
+   "Giant Wolf": "giant-wolf",
+   "Kheshig": "kheshig"
+  },
+  "MAGLAH KHAN": {
+   "Giant Wolf": "giant-wolf",
+   "Maglah Khan": "maglah-khan"
+  },
+  "MANGUDAI": {
+   "Giant Wolf": "giant-wolf",
+   "Mangudai": "mangudai"
+  },
+  "NERGUI": {
+   "Nergui": "nergui"
+  },
+  "RAVAGERS": {
+   "Hobhound": "hobhound",
+   "Ravager": "ravager"
+  },
+  "ROKKIT LAUNCHA": {
+   "Crew": "crew",
+   "Rokkit Launcha": "rokkit-launcha"
+  },
+  "SHAMANS": {
+   "Great Shaman": "great-shaman",
+   "Shaman": "shaman"
+  },
+  "SNARLFANG": {
+   "Snarlfang": "snarlfang"
+  },
+  "SNEAKY GITS": {
+   "Sneaky Git": "sneaky-git"
+  },
+  "SOBUTAI": {
+   "Giant Wolf": "giant-wolf",
+   "Sobutai": "sobutai"
+  },
+  "THROAT-SLASHER": {
+   "Throat-Slasher": "throat-slasher"
+  },
+  "WAR WAGON": {
+   "Giant Wolf": "giant-wolf",
+   "Hobgoblin": "hobgoblin",
+   "War Wagon": "war-wagon"
+  },
+  "WARLORDS": {
+   "Khan": "khan",
+   "Orlok": "orlok"
+  },
+  "WIND DAEMONS": {
+   "Wind Daemon": "wind-daemon"
+  },
+  "WOLF CHARIOT": {
+   "Giant Wolf": "giant-wolf",
+   "Hobgoblin": "hobgoblin",
+   "Wolf Chariot": "wolf-chariot"
+  },
+  "WOLF RAIDERS": {
+   "Giant Wolf": "giant-wolf",
+   "Wolf Raider": "wolf-raider"
+  }
+ },
+ "rules": {
+  "BACKSTABBERS": "backstabbers",
+  "COWARDLY DESPOILERS": "cowardly-despoilers",
+  "CUNNING RETREAT": "cunning-retreat",
+  "DED SHOOTY": "ded-shooty",
+  "HIIYAAARRGHH!": "hiiyaaarrghh",
+  "QUELL TREACHERY": "quell-treachery",
+  "TREACHEROUS GITS": "treacherous-gits"
+ },
+ "units": {
+  "ALMASLAR": "almaslar",
+  "ARCHERS": "archers",
+  "BOLT THROWA": "bolt-throwa",
+  "CORPSERIPPER VULTURE": "corpseripper-vulture",
+  "CUTTHROATS": "cutthroats",
+  "DREAD MAW": "dread-maw",
+  "GHAZAK KHAN": "ghazak-khan",
+  "GIANT": "giant",
+  "GIANT SCORPIONS": "giant-scorpions",
+  "GIANT WOLF": "giant-wolf",
+  "HOBGOBLA KHAN": "hobgobla-khan",
+  "HOBHOUNDS": "hobhounds",
+  "KHARASH": "kharash",
+  "KHESHIG SNARLFANG RIDERS": "kheshig-snarlfang-riders",
+  "KHESHIG WOLF RIDERS": "kheshig-wolf-riders",
+  "MAGLAH KHAN": "maglah-khan",
+  "MANGUDAI": "mangudai",
+  "NERGUI": "nergui",
+  "RAVAGERS": "ravagers",
+  "ROKKIT LAUNCHA": "rokkit-launcha",
+  "SHAMANS": "shamans",
+  "SNARLFANG": "snarlfang",
+  "SNEAKY GITS": "sneaky-gits",
+  "SOBUTAI": "sobutai",
+  "THROAT-SLASHER": "throat-slasher",
+  "WAR WAGON": "war-wagon",
+  "WARLORDS": "warlords",
+  "WIND DAEMONS": "wind-daemons",
+  "WOLF CHARIOT": "wolf-chariot",
+  "WOLF RAIDERS": "wolf-raiders"
+ },
+ "upgrades": {}
+}

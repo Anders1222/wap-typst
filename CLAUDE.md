@@ -36,10 +36,12 @@ typst compile --ignore-system-fonts --root . src/lizardmen.typ out/lizardmen.pdf
 python emit.py
 
 # Export the whole edition as one JSON file for the army builder
-# (dkma26709/Warhammer_Calculator_Edition), into build/war.json. --check is
-# its gate: every record the source declares is in the file, every string
-# field is byte-identical to the source, and every line of exported text is
-# on the rendered page in out/ (so build first). Needs pymupdf for --check.
+# (dkma26709/Warhammer_Calculator_Edition), into build/war.json, formatVersion
+# 2 (docs/format.md). --check is its gate: every record the source declares is
+# in the file, every string field is byte-identical to the source, every
+# option line is in optionGroups exactly once, every line of exported text is
+# on the rendered page in out/ (so build first), and the file conforms to
+# schema/war.schema.json. It then prints the build report. Needs pymupdf.
 python export.py --check
 
 # The bundle ships by copy, on a release, not from here: build/ is gitignored
@@ -96,6 +98,19 @@ Four things read *out* of that, none write back into it:
   that. The template is the schema: a new `UNIT_FIELDS` key is exported
   without touching the script. The metadata is invisible on the page, and
   a template change there must stay so — prove it with `render_glyphs.py`.
+  The formatVersion 2 additions live in **`exporter/`**: `options.py`
+  classifies each printed option line into a typed `optionGroups` entry by
+  wording and vocabulary, `composition.py` reads CHOOSING YOUR ARMY and unit
+  NOTES into data, `ids.py` mints the stable ids, `schema.py` validates
+  against `schema/war.schema.json`. Nothing there parses Typst either.
+- **`ids/<slug>.json`** is the committed id map of one book: source name to
+  id, by table. The export reads it, adds names it has not seen and never
+  renames an entry, so a name corrected in `src/` arrives as a new entry
+  with a fresh id, and keeping saved army lists working means pointing the
+  new name at the old id by hand and dropping the stale one. The build
+  report lists new entries; review them, then commit the map with the
+  source change that caused them. Do not delete a map to "reset" it: every
+  id in it is one the builder may have stored.
 
 **`extract/`** is the one-way import path: `extract.py` recovers structure from
 the PDFs, `batch.py` orchestrates extract → coverage → welds into `build/`, and
@@ -131,8 +146,15 @@ assumed:
   build all of it rather than the one book you touched.
 - Changed `#book-meta`, or added/removed/renamed a book → `python emit.py`, and
   commit the resulting `site/index.html` and `build/render.json`.
-- Changed a record's metadata in `template.typ`, or `export.py` → `python
-  export.py --check` after the build, and confirm `check: ok`.
+- Changed a record's metadata in `template.typ`, `export.py`, anything under
+  `exporter/`, or `schema/war.schema.json` → `python export.py --check` after
+  the build, and confirm `check: ok`. Read the build report under it: a new
+  `unclassified` line or a jump in suffixed ids is a regression the gate does
+  not fail on.
+- Renamed a unit, option, item or upgrade in a book, or added one → `python
+  export.py --check` writes the new names into `ids/<slug>.json` and lists
+  them; for a rename, move the old id to the new name in the map, then
+  commit the map with the book.
 - Changed anything under `extract/` → the gates need the source PDFs, which are
   not in the repo. If you don't have them, say so rather than reporting the
   change as verified.

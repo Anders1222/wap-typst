@@ -1,0 +1,1228 @@
+{
+ "choices": {
+  "ALCHEMISTS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-alchemist": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-grand-alchemist": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "ASTROMANCERS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-astromancer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-supreme-astromancer": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Warhorse": "warhorse",
+    "Wu Xing War Compass": "wu-xing-war-compass"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "BLADEMASTER": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Celestial blade": "celestial-blade",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   }
+  },
+  "CELESTIAL COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-celestial-captain": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-celestial-general": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Celestial blade": "celestial-blade",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Crossbow": "crossbow",
+    "Dragon fire pistol": "dragon-fire-pistol",
+    "Handgun": "handgun",
+    "Longbow": "longbow",
+    "Repeater crossbow": "repeater-crossbow",
+    "Shortbow": "shortbow"
+   },
+   "mount": {
+    "Celestial Lion": "celestial-lion",
+    "Great Moon Bird": "great-moon-bird",
+    "Great Spirit Longma": "great-spirit-longma",
+    "Jade Longma": "jade-longma",
+    "War Chariot": "war-chariot",
+    "Warhorse": "warhorse"
+   }
+  },
+  "CELESTIAL DRAGON GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Dragon crossbows": "dragon-crossbows",
+    "Great weapons": "great-weapons"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CELESTIAL DRAGON LANCERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "fire-lances": {
+    "fire lances": "fire-lances"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Flails": "flails",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CELESTIAL DRAGON MONKS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Polearms": "polearms"
+   }
+  },
+  "CRANE GUNNERS": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "DRAGON CANNON": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   }
+  },
+  "DRAGON DESCENDANT": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Celestial blade": "celestial-blade",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "DRAGON-BLOODED SHUGENGAN": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "dragon-fire-pistol": {
+    "dragon fire pistol": "dragon-fire-pistol"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Celestial blade": "celestial-blade",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Celestial Lion": "celestial-lion",
+    "Great Moon Bird": "great-moon-bird",
+    "Great Spirit Longma": "great-spirit-longma",
+    "Jade Longma": "jade-longma",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "FIRE RAIN ROCKET": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "ogre-loader": {
+    "Ogre Loader": "ogre-loader"
+   }
+  },
+  "GATE MASTERS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-gate-keeper": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-gate-master": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Crossbow": "crossbow",
+    "Longbow": "longbow",
+    "Repeater crossbow": "repeater-crossbow",
+    "Shortbow": "shortbow"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "GRAND CANNON": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "ogre-loader": {
+    "Ogre Loader": "ogre-loader"
+   }
+  },
+  "GRENADIERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "sky-rockets": {
+    "sky rockets": "sky-rockets"
+   }
+  },
+  "GUAN FEI": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "HILL TRIBESMEN": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Javelins": "javelins",
+    "Shortbows": "shortbows",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HUA GONGZHU": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "IRON HAIL GUNNERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Handguns": "handguns",
+    "Three-eyed guns": "three-eyed-guns"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "JADE BOWMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "missile-weapon": {
+    "Crossbows": "crossbows",
+    "Longbows": "longbows",
+    "Repeater crossbows": "repeater-crossbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "JADE HORSEMEN": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Crossbows": "crossbows",
+    "Flails": "flails",
+    "Light lances & shields": "light-lances-and-shields",
+    "Polearms": "polearms",
+    "Shortbows": "shortbows",
+    "Three-eyed guns": "three-eyed-guns"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "JADE WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Pikes": "pikes",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LONGMA RIDERS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LUI YUN": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "MAGISTRATES": {
+   "dragon-fire-bombs": {
+    "dragon fire bombs": "dragon-fire-bombs"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-lord-magistrate": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-magistrate": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Sky Lantern": "sky-lantern",
+    "Warhorse": "warhorse"
+   }
+  },
+  "MERCENARY OGRES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Addditional hand weapons": "addditional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MONKEY WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Blowpipes": "blowpipes"
+   }
+  },
+  "ONYX CROWMEN": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "PEASANT BOWMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "missile-weapon": {
+    "Crossbows": "crossbows",
+    "Longbows": "longbows",
+    "Repeater crossbows": "repeater-crossbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PEASANT HORSEMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Crossbows": "crossbows",
+    "Javelins": "javelins",
+    "Light lances": "light-lances",
+    "Shortbows": "shortbows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PEASANT MILITIA": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "melee-weapon": {
+    "Pikes": "pikes",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKY LANTERN": {
+   "blunderbusses-and-gunpowder-bombs": {
+    "blunderbusses & gunpowder bombs": "blunderbusses-and-gunpowder-bombs"
+   },
+   "sky-bombs": {
+    "sky bombs": "sky-bombs"
+   }
+  },
+  "SKY-JUNK": {
+   "blunderbusses-and-gunpowder-bombs": {
+    "blunderbusses & gunpowder bombs": "blunderbusses-and-gunpowder-bombs"
+   }
+  },
+  "STORMHURLER CROSSBOW": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   }
+  },
+  "TERRACOTTA SENTINEL": {
+   "upgrade": {
+    "Granite Sentinel": "granite-sentinel",
+    "Jade Sentinel": "jade-sentinel",
+    "Obsidian Sentinel": "obsidian-sentinel",
+    "Warpstone Sentinel": "warpstone-sentinel"
+   }
+  },
+  "TERRACOTTA WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Crossbows": "crossbows",
+    "Polearms": "polearms",
+    "Shortbows": "shortbows",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TIAN SHI": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "mount": {
+    "Warhorse": "warhorse",
+    "Wu Xing War Compass": "wu-xing-war-compass"
+   }
+  },
+  "WAR CHARIOT": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   },
+   "crossbows": {
+    "crossbows": "crossbows"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   },
+   "two-additional-warhorses": {
+    "two additional Warhorses": "two-additional-warhorses"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "ZHANGU WAR DRUM": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "ZHUGE YI": {
+   "mount": {
+    "Sky Lantern": "sky-lantern",
+    "Warhorse": "warhorse"
+   }
+  }
+ },
+ "groups": {
+  "ALCHEMISTS": {
+   "A Grand Alchemist may take Magic Items up to a total of 100 points": "magic-items-grand-alchemist",
+   "An Alchemist may take Magic Items up to a total of 50 points": "magic-items-alchemist",
+   "May be mounted on a Warhorse": "mount",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take light armour": "light-armour"
+  },
+  "ASTROMANCERS": {
+   "A Supreme Astromancer may take Magic Items up to a total of 100 points": "magic-items-supreme-astromancer",
+   "An Astromancer may take Magic Items up to a total of 50 points": "magic-items-astromancer",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take light armour": "light-armour"
+  },
+  "BLADEMASTER": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "CELESTIAL COMMANDERS": {
+   "A Celestial Captain may take Magic Items up to a total of 50 points": "magic-items-celestial-captain",
+   "A Celestial General may take Magic Items up to a total of 100 points": "magic-items-celestial-general",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "One Celestial Captain may carry the Battle Standard": "battle-standard"
+  },
+  "CELESTIAL DRAGON GUARD": {
+   "May replace polearms with one of the following:": "equipment",
+   "May take heavy armour": "heavy-armour",
+   "May take shields (if armed with polearms)": "shields",
+   "May upgrade one Celestial Dragon Guard to a Leader": "champion",
+   "May upgrade one Celestial Dragon Guard to a Musician": "musician",
+   "May upgrade one Celestial Dragon Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Celestial Dragon Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CELESTIAL DRAGON LANCERS": {
+   "May replace light lances & shields with one of the following:": "melee-weapon",
+   "May take fire lances (if armed with light lances)": "fire-lances",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Celestial Dragon Lancer to a Leader": "champion",
+   "May upgrade one Celestial Dragon Lancer to a Musician": "musician",
+   "May upgrade one Celestial Dragon Lancer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Celestial Dragon Lancer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CELESTIAL DRAGON MONKS": {
+   "May take one of the following:": "melee-weapon",
+   "May upgrade one Celestial Dragon Monk to a Leader": "champion"
+  },
+  "CRANE GUNNERS": {
+   "May upgrade to medium armour": "medium-armour"
+  },
+  "DRAGON CANNON": {
+   "May choose one of the following:": "armour"
+  },
+  "DRAGON DESCENDANT": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take light armour": "light-armour"
+  },
+  "DRAGON-BLOODED SHUGENGAN": {
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take a dragon fire pistol": "dragon-fire-pistol",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "FIRE RAIN ROCKET": {
+   "May choose one of the following:": "armour",
+   "May have an Ogre Loader": "ogre-loader"
+  },
+  "GATE MASTERS": {
+   "A Gate Keeper may take Magic Items up to a total of 50 points": "magic-items-gate-keeper",
+   "A Gate Master may take Magic Items up to a total of 100 points": "magic-items-gate-master",
+   "May be mounted on a Warhorse": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Gate Keeper may carry the Battle Standard": "battle-standard"
+  },
+  "GRAND CANNON": {
+   "May choose one of the following:": "armour",
+   "May have an Ogre Loader": "ogre-loader"
+  },
+  "GRENADIERS": {
+   "May replace gunpowder bombs with sky rockets": "sky-rockets",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Grenadier to a Leader": "champion"
+  },
+  "GUAN FEI": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "HILL TRIBESMEN": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May choose one of the following:": "equipment",
+   "May take shields (unless they have two hand weapon or shortbows)": "shields",
+   "May upgrade one Hill Tribesman to a Leader": "champion",
+   "May upgrade one Hill Tribesman to a Musician": "musician",
+   "May upgrade one Hill Tribesman to a Standard Bearer": "standard-bearer"
+  },
+  "HUA GONGZHU": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "IRON HAIL GUNNERS": {
+   "May replace blunderbusses with one of the following:": "equipment",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Iron Hail Gunner to a Leader": "champion",
+   "May upgrade one Iron Hail Gunner to a Musician": "musician",
+   "May upgrade one Iron Hail Gunner to a Standard Bearer": "standard-bearer",
+   "May upgrade one Iron Hail Gunner to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "JADE BOWMEN": {
+   "May replace shortbows with one of the following:": "missile-weapon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Jade Bowman to a Leader": "champion",
+   "May upgrade one Jade Bowman to a Musician": "musician",
+   "May upgrade one Jade Bowman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Jade Bowman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "JADE HORSEMEN": {
+   "May choose one of the following:": "equipment",
+   "May take barding": "barding",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Jade Horseman to a Leader": "champion",
+   "May upgrade one Jade Horseman to a Musician": "musician",
+   "May upgrade one Jade Horseman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Jade Horseman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "JADE WARRIORS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take medium armour": "medium-armour",
+   "May take shields (unless they have pikes)": "shields",
+   "May upgrade one Jade Warrior to a Leader": "champion",
+   "May upgrade one Jade Warrior to a Musician": "musician",
+   "May upgrade one Jade Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Jade Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "LONGMA RIDERS": {
+   "May replace light lances & shields with polearms": "polearms",
+   "May take barding": "barding",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Longma Rider to a Leader": "champion",
+   "May upgrade one Longma Rider to a Musician": "musician",
+   "May upgrade one Longma Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Longma Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "LUI YUN": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "MAGISTRATES": {
+   "A Lord Magistrate may take Magic Items up to a total of 100 points": "magic-items-lord-magistrate",
+   "A Magistrate may take Magic Items up to a total of 50 points": "magic-items-magistrate",
+   "May be mounted on one of the following": "mount",
+   "May take dragon fire bombs": "dragon-fire-bombs",
+   "May take light armour": "light-armour"
+  },
+  "MERCENARY OGRES": {
+   "May choose one of the following:": "equipment",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "MONKEY WARRIORS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Monkey Warrior to a Leader": "champion"
+  },
+  "ONYX CROWMEN": {
+   "May upgrade one Onyx Crowman to a Leader": "champion"
+  },
+  "PEASANT BOWMEN": {
+   "May replace bows with one of the following:": "missile-weapon",
+   "May take light armour": "light-armour",
+   "May upgrade one Peasant Bowmen to a Leader": "champion",
+   "May upgrade one Peasant Bowmen to a Musician": "musician",
+   "May upgrade one Peasant Bowmen to a Standard Bearer": "standard-bearer"
+  },
+  "PEASANT HORSEMEN": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May take shields (unless armed with shortbows or crossbows)": "shields",
+   "May upgrade one Peasant Horseman to a Leader": "champion",
+   "May upgrade one Peasant Horseman to a Musician": "musician",
+   "May upgrade one Peasant Horseman to a Standard Bearer": "standard-bearer"
+  },
+  "PEASANT MILITIA": {
+   "May choose one of the following:": "melee-weapon",
+   "May take light armour": "light-armour",
+   "May take shields (unless armed with pikes)": "shields",
+   "May upgrade one Peasant Militiaman to a Leader": "champion",
+   "May upgrade one Peasant Militiaman to a Musician": "musician",
+   "May upgrade one Peasant Militiaman to a Standard Bearer": "standard-bearer"
+  },
+  "SKY LANTERN": {
+   "May replace crane guns with blunderbusses & gunpowder bombs": "blunderbusses-and-gunpowder-bombs",
+   "May take sky bombs": "sky-bombs"
+  },
+  "SKY-JUNK": {
+   "May replace crane guns with blunderbusses & gunpowder bombs": "blunderbusses-and-gunpowder-bombs"
+  },
+  "STORMHURLER CROSSBOW": {
+   "May choose one of the following:": "armour"
+  },
+  "TERRACOTTA SENTINEL": {
+   "May be upgraded to one of the following:": "upgrade"
+  },
+  "TERRACOTTA WARRIORS": {
+   "May choose one of the following:": "equipment",
+   "May take shields (unless armed with bows or crossbows)": "shields",
+   "May upgrade one Terracotta Warrior to a Leader": "champion",
+   "May upgrade one Terracotta Warrior to a Musician": "musician",
+   "May upgrade one Terracotta Warrior to a Standard Bearer": "standard-bearer"
+  },
+  "TIAN SHI": {
+   "May be mounted on one of the following:": "mount",
+   "May take light armour": "light-armour"
+  },
+  "WAR CHARIOT": {
+   "May replace bows with crossbows": "crossbows",
+   "May replace light lances with polearms": "polearms",
+   "May take medium armour": "medium-armour",
+   "May take scythes": "scythes",
+   "May take two additional Warhorses": "two-additional-warhorses",
+   "May take up to two additional Crew": "additional-crew",
+   "May upgrade one War Chariot to a standard bearer": "standard-bearer"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  },
+  "ZHANGU WAR DRUM": {
+   "May take medium armour": "medium-armour"
+  },
+  "ZHUGE YI": {
+   "May be mounted on one of the following": "mount"
+  }
+ },
+ "items": {
+  "ALCHEMIST'S ELIXIR OF IRON SKIN": "alchemists-elixir-of-iron-skin",
+  "ALCHEMIST'S ELIXIR OF PUISSANCE": "alchemists-elixir-of-puissance",
+  "ALCHEMIST'S ELIXIR OF VENOM": "alchemists-elixir-of-venom",
+  "ALCHEMIST'S MASK": "alchemists-mask",
+  "ARMOUR OF THE WARBIRD": "armour-of-the-warbird",
+  "ASCENDANT CELESTIAL ARMOUR": "ascendant-celestial-armour",
+  "ASCENDANT CELESTIAL BLADE": "ascendant-celestial-blade",
+  "ASTROMANCER'S SPYGLASS": "astromancers-spyglass",
+  "BANNER OF FENG SHI": "banner-of-feng-shi",
+  "BANNER OF THE DRAGON'S WRATH": "banner-of-the-dragons-wrath",
+  "BANNER OF THE EMPRESS' EYE": "banner-of-the-empress-eye",
+  "BANNER OF THE MOON EMPRESS": "banner-of-the-moon-empress",
+  "BANNER OF XEN WUN": "banner-of-xen-wun",
+  "BASTION STANDARD": "bastion-standard",
+  "BLADE OF XEN WU": "blade-of-xen-wu",
+  "CATALYTIC KILN": "catalytic-kiln",
+  "CELESTIAL SILK ROBE": "celestial-silk-robe",
+  "CLEANSING WATER": "cleansing-water",
+  "CLOAK OF PO MEI": "cloak-of-po-mei",
+  "CLOAK OF THE MOON WIND": "cloak-of-the-moon-wind",
+  "CLOCKWORK COMPASS": "clockwork-compass",
+  "CRACKLEBLAZE": "crackleblaze",
+  "CROWN OF JADE": "crown-of-jade",
+  "CRYSTAL OF KUNLAN": "crystal-of-kunlan",
+  "DAWN GLAIVE": "dawn-glaive",
+  "DRAGON'S EYE BANNER": "dragons-eye-banner",
+  "FAN OF THE MAGISTER": "fan-of-the-magister",
+  "FIRES OF NAN-GAU": "fires-of-nan-gau",
+  "FLAG OF GRAND CATHAY": "flag-of-grand-cathay",
+  "GOLDEN LION": "golden-lion",
+  "GUARDIAN FENG SHI BO": "guardian-feng-shi-bo",
+  "ICON OF THE SPIRIT DRAGON": "icon-of-the-spirit-dragon",
+  "JADE AMULET": "jade-amulet",
+  "JADE ARMOUR OF BEICHAI": "jade-armour-of-beichai",
+  "JADE BANNER": "jade-banner",
+  "JADE BLADE OF THE GREAT FLEET": "jade-blade-of-the-great-fleet",
+  "JADE BLOOD PENDANT": "jade-blood-pendant",
+  "JAR OF ALL SOULS": "jar-of-all-souls",
+  "JET AMULET": "jet-amulet",
+  "KITE OF THE UTTERMOST AIRS": "kite-of-the-uttermost-airs",
+  "LAMINATE SHIELD": "laminate-shield",
+  "MANTLE OF HEAVEN": "mantle-of-heaven",
+  "MAW SHARD": "maw-shard",
+  "NUKU CHO'S CROSSBOW": "nuku-chos-crossbow",
+  "QUICKSILVER ARMOUR": "quicksilver-armour",
+  "REVERED BANNER OF THE ANCESTORS": "revered-banner-of-the-ancestors",
+  "ROBES OF SHANG YANG": "robes-of-shang-yang",
+  "SCALES OF THE CELESTIAL COURT": "scales-of-the-celestial-court",
+  "SCROLLS OF ASTROMANCY": "scrolls-of-astromancy",
+  "SCROLLS OF WEI-JIN": "scrolls-of-wei-jin",
+  "SEAL OF XING PO": "seal-of-xing-po",
+  "SERENE CLOUD PRAYER FLAG": "serene-cloud-prayer-flag",
+  "SERPENT FANG": "serpent-fang",
+  "SHIELD OF NAN-GAU": "shield-of-nan-gau",
+  "SIGIL OF SMOKE & POWDER": "sigil-of-smoke-and-powder",
+  "SILVER MOON BOW": "silver-moon-bow",
+  "SPIRIT LANTERN": "spirit-lantern",
+  "SPIRIT LONGMA SPEAR": "spirit-longma-spear",
+  "STAFF OF WU XING": "staff-of-wu-xing",
+  "STANDARD OF HEAVENLY FURY": "standard-of-heavenly-fury",
+  "STANDARD OF NAN-GAU": "standard-of-nan-gau",
+  "STANDARD OF SHANG-YANG": "standard-of-shang-yang",
+  "STANDARD OF WEI JIN": "standard-of-wei-jin",
+  "SUN & MOON BLADES": "sun-and-moon-blades",
+  "SWORD OF NAN-GAU": "sword-of-nan-gau",
+  "THE BRAZEN BLADE": "the-brazen-blade",
+  "THE GREAT CELESTIAL BANNER": "the-great-celestial-banner",
+  "THE SWORD OF REASON": "the-sword-of-reason",
+  "VERMILLION BLADE": "vermillion-blade",
+  "VERMILLION QUILLS": "vermillion-quills",
+  "VORPAL SHARD": "vorpal-shard",
+  "WRATH OF XEN YANG": "wrath-of-xen-yang"
+ },
+ "lores": {
+  "THE LORE OF YANG": "the-lore-of-yang",
+  "THE LORE OF YIN": "the-lore-of-yin"
+ },
+ "profiles": {
+  "ALCHEMISTS": {
+   "Alchemist": "alchemist",
+   "Grand Alchemist": "grand-alchemist"
+  },
+  "ASTROMANCERS": {
+   "Astromancer": "astromancer",
+   "Supreme Astromancer": "supreme-astromancer"
+  },
+  "BLADEMASTER": {
+   "Blademaster": "blademaster"
+  },
+  "CELESTIAL COMMANDERS": {
+   "Celestial Captain": "celestial-captain",
+   "Celestial General": "celestial-general"
+  },
+  "CELESTIAL DRAGON GUARD": {
+   "Celestial Dragon Guard": "celestial-dragon-guard"
+  },
+  "CELESTIAL DRAGON LANCERS": {
+   "Celestial Dragon Lancer": "celestial-dragon-lancer",
+   "Warhorse": "warhorse"
+  },
+  "CELESTIAL DRAGON MONKS": {
+   "Celestial Dragon Monk": "celestial-dragon-monk"
+  },
+  "CELESTIAL LION": {
+   "Celestial Lion": "celestial-lion"
+  },
+  "CHENG LONG": {
+   "Cheng Long": "cheng-long"
+  },
+  "CRANE GUNNERS": {
+   "Crane Gunner": "crane-gunner"
+  },
+  "DRAGON CANNON": {
+   "Crew": "crew",
+   "Dragon Cannon": "dragon-cannon"
+  },
+  "DRAGON DESCENDANT": {
+   "Dragon Form": "dragon-form",
+   "Human Form": "human-form"
+  },
+  "DRAGON-BLOODED SHUGENGAN": {
+   "Dragon-Blooded Shugengan": "dragon-blooded-shugengan"
+  },
+  "FIRE RAIN ROCKET": {
+   "Crew": "crew",
+   "Fire Rain Rocket": "fire-rain-rocket",
+   "Ogre Loader": "ogre-loader"
+  },
+  "FLAMETHROWER": {
+   "Flamethrower": "flamethrower"
+  },
+  "GATE MASTERS": {
+   "Gate Keeper": "gate-keeper",
+   "Gate Master": "gate-master"
+  },
+  "GRAND CANNON": {
+   "Crew": "crew",
+   "Grand Cannon": "grand-cannon",
+   "Ogre Loader": "ogre-loader"
+  },
+  "GREAT MOON BIRD": {
+   "Great Moon Bird": "great-moon-bird"
+  },
+  "GREAT SPIRIT LONGMA": {
+   "Great Spirit Longma": "great-spirit-longma"
+  },
+  "GRENADIERS": {
+   "Grenadier": "grenadier"
+  },
+  "GUAN FEI": {
+   "Guan Fei": "guan-fei"
+  },
+  "GUARDIAN LION": {
+   "Guardian Lion": "guardian-lion"
+  },
+  "HILL TRIBESMEN": {
+   "Hill Tribesman": "hill-tribesman"
+  },
+  "HUA GONGZHU": {
+   "Hua Gongzhu": "hua-gongzhu"
+  },
+  "IRON HAIL GUNNERS": {
+   "Iron Hail Gunner": "iron-hail-gunner"
+  },
+  "JADE BOWMEN": {
+   "Jade Bowman": "jade-bowman"
+  },
+  "JADE HORSEMEN": {
+   "Jade Horseman": "jade-horseman",
+   "Warhorse": "warhorse"
+  },
+  "JADE LONGMA": {
+   "Jade Longma": "jade-longma"
+  },
+  "JADE WARRIORS": {
+   "Jade Warrior": "jade-warrior"
+  },
+  "LONGMA RIDERS": {
+   "Longma": "longma",
+   "Longma Rider": "longma-rider"
+  },
+  "LUI YUN": {
+   "Liu Yun": "liu-yun"
+  },
+  "MAGISTRATES": {
+   "Lord Magistrate": "lord-magistrate",
+   "Magistrate": "magistrate"
+  },
+  "MERCENARY OGRES": {
+   "Ogre": "ogre"
+  },
+  "MIAO YING": {
+   "Dragon Form": "dragon-form",
+   "Human Form": "human-form"
+  },
+  "MONKEY WARRIORS": {
+   "Monkey Warrior": "monkey-warrior"
+  },
+  "ONYX CROWMEN": {
+   "Onyx Crowman": "onyx-crowman"
+  },
+  "PEASANT BOWMEN": {
+   "Peasant Bowmen": "peasant-bowmen"
+  },
+  "PEASANT HORSEMEN": {
+   "Peasant Horseman": "peasant-horseman",
+   "Warhorse": "warhorse"
+  },
+  "PEASANT MILITIA": {
+   "Peasant Militiaman": "peasant-militiaman"
+  },
+  "SAYTANG THE WATCHER": {
+   "Saytang the Watcher": "saytang-the-watcher"
+  },
+  "SKY LANTERN": {
+   "Crew": "crew",
+   "Sky Lantern": "sky-lantern"
+  },
+  "SKY-JUNK": {
+   "Crew": "crew",
+   "Sky-junk": "sky-junk"
+  },
+  "STORMHURLER CROSSBOW": {
+   "Crew": "crew",
+   "Stormhurler Crossbow": "stormhurler-crossbow"
+  },
+  "TEMPLE DOGS": {
+   "Temple Dog": "temple-dog"
+  },
+  "TERRACOTTA SENTINEL": {
+   "Terracotta Sentinel": "terracotta-sentinel"
+  },
+  "TERRACOTTA WARRIORS": {
+   "Terracotta Warrior": "terracotta-warrior"
+  },
+  "THE MONKEY KING": {
+   "The Monkey King": "the-monkey-king"
+  },
+  "TIAN SHI": {
+   "Tian Shi": "tian-shi"
+  },
+  "WAR CHARIOT": {
+   "Crew": "crew",
+   "War Chariot": "war-chariot",
+   "Warhorse": "warhorse"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WU XING WAR COMPASS": {
+   "Apprentice Astromancer": "apprentice-astromancer",
+   "Warhorse": "warhorse",
+   "Wu Xing War Compass": "wu-xing-war-compass"
+  },
+  "YUAN BO": {
+   "Dragon Form": "dragon-form",
+   "Human Form": "human-form"
+  },
+  "ZHANGU WAR DRUM": {
+   "Crew": "crew",
+   "Warhorse": "warhorse",
+   "Zhangu War Drum": "zhangu-war-drum"
+  },
+  "ZHAO MING": {
+   "Dragon Form": "dragon-form",
+   "Human Form": "human-form"
+  },
+  "ZHUGE YI": {
+   "Zhuge Yi": "zhuge-yi"
+  }
+ },
+ "rules": {
+  "CELESTIAL BLADE": "celestial-blade",
+  "CELESTIAL FORGED ARMOUR": "celestial-forged-armour",
+  "CRANE GUN": "crane-gun",
+  "DRAGON FIRE BOMBS": "dragon-fire-bombs",
+  "DRAGON FIRE PISTOLS": "dragon-fire-pistols",
+  "HARMONY": "harmony",
+  "MASTERY OF THE ELEMENTAL WINDS": "mastery-of-the-elemental-winds",
+  "REPEATER CROSSBOW": "repeater-crossbow",
+  "THREE-EYED GUN": "three-eyed-gun",
+  "WILL OF THE DRAGONS": "will-of-the-dragons"
+ },
+ "units": {
+  "ALCHEMISTS": "alchemists",
+  "ASTROMANCERS": "astromancers",
+  "BLADEMASTER": "blademaster",
+  "CELESTIAL COMMANDERS": "celestial-commanders",
+  "CELESTIAL DRAGON GUARD": "celestial-dragon-guard",
+  "CELESTIAL DRAGON LANCERS": "celestial-dragon-lancers",
+  "CELESTIAL DRAGON MONKS": "celestial-dragon-monks",
+  "CELESTIAL LION": "celestial-lion",
+  "CHENG LONG": "cheng-long",
+  "CRANE GUNNERS": "crane-gunners",
+  "DRAGON CANNON": "dragon-cannon",
+  "DRAGON DESCENDANT": "dragon-descendant",
+  "DRAGON-BLOODED SHUGENGAN": "dragon-blooded-shugengan",
+  "FIRE RAIN ROCKET": "fire-rain-rocket",
+  "FLAMETHROWER": "flamethrower",
+  "GATE MASTERS": "gate-masters",
+  "GRAND CANNON": "grand-cannon",
+  "GREAT MOON BIRD": "great-moon-bird",
+  "GREAT SPIRIT LONGMA": "great-spirit-longma",
+  "GRENADIERS": "grenadiers",
+  "GUAN FEI": "guan-fei",
+  "GUARDIAN LION": "guardian-lion",
+  "HILL TRIBESMEN": "hill-tribesmen",
+  "HUA GONGZHU": "hua-gongzhu",
+  "IRON HAIL GUNNERS": "iron-hail-gunners",
+  "JADE BOWMEN": "jade-bowmen",
+  "JADE HORSEMEN": "jade-horsemen",
+  "JADE LONGMA": "jade-longma",
+  "JADE WARRIORS": "jade-warriors",
+  "LONGMA RIDERS": "longma-riders",
+  "LUI YUN": "lui-yun",
+  "MAGISTRATES": "magistrates",
+  "MERCENARY OGRES": "mercenary-ogres",
+  "MIAO YING": "miao-ying",
+  "MONKEY WARRIORS": "monkey-warriors",
+  "ONYX CROWMEN": "onyx-crowmen",
+  "PEASANT BOWMEN": "peasant-bowmen",
+  "PEASANT HORSEMEN": "peasant-horsemen",
+  "PEASANT MILITIA": "peasant-militia",
+  "SAYTANG THE WATCHER": "saytang-the-watcher",
+  "SKY LANTERN": "sky-lantern",
+  "SKY-JUNK": "sky-junk",
+  "STORMHURLER CROSSBOW": "stormhurler-crossbow",
+  "TEMPLE DOGS": "temple-dogs",
+  "TERRACOTTA SENTINEL": "terracotta-sentinel",
+  "TERRACOTTA WARRIORS": "terracotta-warriors",
+  "THE MONKEY KING": "the-monkey-king",
+  "TIAN SHI": "tian-shi",
+  "WAR CHARIOT": "war-chariot",
+  "WARHORSE": "warhorse",
+  "WU XING WAR COMPASS": "wu-xing-war-compass",
+  "YUAN BO": "yuan-bo",
+  "ZHANGU WAR DRUM": "zhangu-war-drum",
+  "ZHAO MING": "zhao-ming",
+  "ZHUGE YI": "zhuge-yi"
+ },
+ "upgrades": {}
+}

@@ -1,0 +1,855 @@
+{
+ "choices": {
+  "ABDUL ALHAZRED": {
+   "genie": {
+    "Genie": "genie"
+   }
+  },
+  "ARABYAN STEED": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "BLADEDANCERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BOWMEN": {
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "crossbows": {
+    "crossbows": "crossbows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CAMEL RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CANNON": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   }
+  },
+  "CLERIC OF THE ONE": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Arabyan Steed": "arabyan-steed",
+    "Camel": "camel"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-emir": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-sheikh": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Handgun": "handgun",
+    "Shortbow": "shortbow"
+   },
+   "mount": {
+    "Arabyan Steed": "arabyan-steed",
+    "Camel": "camel",
+    "Flying Carpet": "flying-carpet",
+    "Radiant Pegasus": "radiant-pegasus",
+    "War Elephant": "war-elephant"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "CORSAIRS": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "dditional-hand-weapons": {
+    "dditional hand weapons": "dditional-hand-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "DESERT RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HASHISHIN": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "killing-blow": {
+    "Killing Blow": "killing-blow"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   }
+  },
+  "JANISSARIES": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Handguns": "handguns",
+    "Polearms": "polearms",
+    "Shields": "shields",
+    "Shortbows": "shortbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MAMELUKES": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MONSTER BOMBARD": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   }
+  },
+  "NAFFATUN": {
+   "replace-their-naphtha-bombs-with-naphtha-siphon": {
+    "replace their naphtha bombs with naphtha siphon": "replace-their-naphtha-bombs-with-naphtha-siphon"
+   }
+  },
+  "NOMAD SCOUTS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "PALACE GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PEGASUS GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SALAH AD-DIN": {
+   "mount": {
+    "Arabyan Steed": "arabyan-steed"
+   }
+  },
+  "SILENT GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SIPAHIS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SLAVE LEVIES": {
+   "shields": {
+    "shields": "shields"
+   },
+   "spears": {
+    "spears": "spears"
+   }
+  },
+  "SORCERERS": {
+   "genie": {
+    "Genie": "genie"
+   },
+   "genies": {
+    "Genies": "genies"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-2": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Arabyan Steed": "arabyan-steed",
+    "Camel": "camel",
+    "Flying Carpet": "flying-carpet",
+    "Radiant Pegasus": "radiant-pegasus"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "TRIBAL SKIRMISHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "slings": {
+    "slings": "slings"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WAR ELEPHANT": {
+   "barding": {
+    "barding": "barding"
+   },
+   "bows": {
+    "bows": "bows"
+   },
+   "extra-crew": {
+    "extra Crew": "extra-crew"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "mahout-expert": {
+    "Mahout Expert": "mahout-expert"
+   },
+   "spike-chains": {
+    "Spike Chains": "spike-chains"
+   },
+   "spiked-tusks": {
+    "Spiked Tusks": "spiked-tusks"
+   }
+  },
+  "WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WHIRLING DERVISHES": {
+   "champion": {
+    "Leader": "leader"
+   }
+  }
+ },
+ "groups": {
+  "ABDUL ALHAZRED": {
+   "May be accompanied by a Genie": "genie"
+  },
+  "ARABYAN STEED": {
+   "May take barding": "barding"
+  },
+  "BLADEDANCERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May have Poisoned Attacks": "poisoned-attacks",
+   "May upgrade one Bladedancer to a Leader": "champion",
+   "May upgrade one Bladedancer to a Musician": "musician",
+   "May upgrade one Bladedancer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bladedancer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "BOWMEN": {
+   "May replace shortbows with crossbows": "crossbows",
+   "May take bucklers": "bucklers",
+   "May take light armour": "light-armour",
+   "May upgrade one Bowman to a Leader": "champion",
+   "May upgrade one Bowman to a Musician": "musician",
+   "May upgrade one Bowman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bowman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "CAMEL RIDERS": {
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take shields": "shields",
+   "May take shortbows": "shortbows",
+   "May upgrade one Camel Rider to a Leader": "champion",
+   "May upgrade one Camel Rider to a Musician": "musician",
+   "May upgrade one Camel Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Camel Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "CANNON": {
+   "May take an additional Crew": "additional-crew"
+  },
+  "CLERIC OF THE ONE": {
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "COMMANDERS": {
+   "A Sheikh may take Magic Items up to a total of 50 points": "magic-items-sheikh",
+   "An Emir may take Magic Items up to a total of 100 points": "magic-items-emir",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Sheikh may carry the Battle Standard": "battle-standard"
+  },
+  "CORSAIRS": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May replace bucklers with additional hand weapons": "dditional-hand-weapons",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Corsair to a Leader": "champion",
+   "May upgrade one Corsair to a Musician": "musician",
+   "May upgrade one Corsair to a Standard Bearer": "standard-bearer",
+   "May upgrade one Corsair to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DESERT RIDERS": {
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take shields": "shields",
+   "May take shortbows": "shortbows",
+   "May upgrade one Desert Rider to a Leader": "champion",
+   "May upgrade one Desert Rider to a Musician": "musician",
+   "May upgrade one Desert Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Desert Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HASHISHIN": {
+   "May have the Killing Blow special rule": "killing-blow",
+   "May have the Poisoned Attacks special rule": "poisoned-attacks",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take an additional hand weapon": "additional-hand-weapon"
+  },
+  "JANISSARIES": {
+   "May choose one of the following:": "armour",
+   "May replace bucklers with one of the following:": "equipment",
+   "May upgrade one Janissary to a Leader": "champion",
+   "May upgrade one Janissary to a Musician": "musician",
+   "May upgrade one Janissary to a Standard Bearer": "standard-bearer",
+   "May upgrade one Janissary to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MAMELUKES": {
+   "May take barding": "barding",
+   "May take heavy armour": "heavy-armour",
+   "May take shortbows": "shortbows",
+   "May upgrade one Mameluke to a Leader": "champion",
+   "May upgrade one Mameluke to a Musician": "musician",
+   "May upgrade one Mameluke to a Standard Bearer": "standard-bearer",
+   "May upgrade one Mameluke to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MONSTER BOMBARD": {
+   "May take up to two additional Crew": "additional-crew"
+  },
+  "NAFFATUN": {
+   "One model may replace their naphtha bombs with naphtha siphon": "replace-their-naphtha-bombs-with-naphtha-siphon"
+  },
+  "NOMAD SCOUTS": {
+   "May upgrade one Nomad Scout to a Leader": "champion"
+  },
+  "PALACE GUARD": {
+   "May upgrade one Palace Guard to a Leader": "champion",
+   "May upgrade one Palace Guard to a Musician": "musician",
+   "May upgrade one Palace Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Palace Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "PEGASUS GUARD": {
+   "May take shortbows": "shortbows",
+   "May upgrade one Pegasus Guard to a Leader": "champion",
+   "May upgrade one Pegasus Guard to a Musician": "musician",
+   "May upgrade one Pegasus Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pegasus Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SALAH AD-DIN": {
+   "May be mounted on an Arabyan Steed": "mount"
+  },
+  "SILENT GUARD": {
+   "May upgrade one Silent Guard to a Leader": "champion",
+   "May upgrade one Silent Guard to a Musician": "musician",
+   "May upgrade one Silent Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Silent Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SIPAHIS": {
+   "May take light lances": "light-lances",
+   "May take medium armour": "medium-armour",
+   "May take shortbows": "shortbows",
+   "May upgrade one Sipahi to a Leader": "champion",
+   "May upgrade one Sipahi to a Musician": "musician",
+   "May upgrade one Sipahi to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sipahi to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SLAVE LEVIES": {
+   "May take shields": "shields",
+   "May take spears": "spears"
+  },
+  "SORCERERS": {
+   "A Battle Wizard Lord may take Magic Items up to a total of 100 points": "magic-items-2",
+   "A Battle Wizard may take Magic Items up to a total of 50 points": "magic-items",
+   "A Magus may be accompanied by up to two Genies": "genies",
+   "A Sahir may be accompanied by one Genie": "genie",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "TRIBAL SKIRMISHERS": {
+   "May replace javelins with slings": "slings",
+   "May take shields": "shields",
+   "May upgrade one Tribal Skirmisher to a Leader": "champion",
+   "May upgrade one Tribal Skirmisher to a Musician": "musician",
+   "May upgrade one Tribal Skirmisher to a Standard Bearer": "standard-bearer"
+  },
+  "WAR ELEPHANT": {
+   "May replace shortbows with bows": "bows",
+   "May take Mahout Expert": "mahout-expert",
+   "May take Spike Chains": "spike-chains",
+   "May take Spiked Tusks": "spiked-tusks",
+   "May take barding": "barding",
+   "May take light armour": "light-armour",
+   "May take up to two extra Crew": "extra-crew"
+  },
+  "WARRIORS": {
+   "May take light armour": "light-armour",
+   "May take spears": "spears",
+   "May upgrade one Warrior to a Leader": "champion",
+   "May upgrade one Warrior to a Musician": "musician",
+   "May upgrade one Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "WHIRLING DERVISHES": {
+   "May upgrade one Dervish to a Leader": "champion"
+  }
+ },
+ "items": {
+  "ABODE OF DJINN": "abode-of-djinn",
+  "ARCANE WINDGLASS": "arcane-windglass",
+  "ARMOUR OF DEFLECTION": "armour-of-deflection",
+  "BANNER OF HOLY FERVOUR": "banner-of-holy-fervour",
+  "BANNER OF THE DESERT": "banner-of-the-desert",
+  "BANNER OF THE DJINN": "banner-of-the-djinn",
+  "BANNER OF THE JEWELLED OASIS": "banner-of-the-jewelled-oasis",
+  "BEDAYAH": "bedayah",
+  "BLADE OF HOLY WRATH": "blade-of-holy-wrath",
+  "BOOK OF HIDDEN THINGS": "book-of-hidden-things",
+  "BOOK OF IDOLS": "book-of-idols",
+  "BOW OF SEEKING": "bow-of-seeking",
+  "BRACERS OF THE SNAKE": "bracers-of-the-snake",
+  "CHALICE OF PAIN": "chalice-of-pain",
+  "CLOAK OF SHADOWS": "cloak-of-shadows",
+  "CROWN OF SULTAN SHADDAD": "crown-of-sultan-shaddad",
+  "DHAMI, THE BLACK SWORD OF ANTAR": "dhami-the-black-sword-of-antar",
+  "EBONY BOW": "ebony-bow",
+  "ECHO OF THE HATIF": "echo-of-the-hatif",
+  "EFREET'S BLADE": "efreets-blade",
+  "ENCHANTED PUZZLEBOX": "enchanted-puzzlebox",
+  "FIRE EATER": "fire-eater",
+  "HABOOB CLOAK": "haboob-cloak",
+  "HAND OF FATIMA": "hand-of-fatima",
+  "HELM OF THE SUN'S WRATH": "helm-of-the-suns-wrath",
+  "HORN OF SHADHAVAR": "horn-of-shadhavar",
+  "HORN OF THE AL-MIRAJ": "horn-of-the-al-miraj",
+  "ICON OF THE BLESSED WALI": "icon-of-the-blessed-wali",
+  "LAMP OF ALA UD-DIN": "lamp-of-ala-ud-din",
+  "MASK OF THE FAITH": "mask-of-the-faith",
+  "NAZAR AMULET": "nazar-amulet",
+  "ORB OF ILLUSION": "orb-of-illusion",
+  "RING OF ALI AL-MAWLA": "ring-of-ali-al-mawla",
+  "RING OF DIVINE HEALING": "ring-of-divine-healing",
+  "ROPE OF KADIZAR": "rope-of-kadizar",
+  "SCALES OF AL-TINNIN": "scales-of-al-tinnin",
+  "SCORPION ARMOUR": "scorpion-armour",
+  "SCROLLS OF RUQYAH": "scrolls-of-ruqyah",
+  "SHIELD OF FAITH": "shield-of-faith",
+  "STANDARD OF AL-HAIKK": "standard-of-al-haikk",
+  "STANDARD OF BEL-ALIAD": "standard-of-bel-aliad",
+  "STANDARD OF THE STEED": "standard-of-the-steed",
+  "SUNSPEAR": "sunspear",
+  "TALISMANIC TUNIC OF THE ONE": "talismanic-tunic-of-the-one",
+  "THE AIM OF THE SAGE": "the-aim-of-the-sage",
+  "THE DAGGER OF THE GRAND MASTER": "the-dagger-of-the-grand-master",
+  "THE GOLDEN CARAFE": "the-golden-carafe",
+  "THE SUN OF KNOWLEDGE": "the-sun-of-knowledge",
+  "THE THIRSTING BLADE": "the-thirsting-blade",
+  "TOME OF OMENS": "tome-of-omens"
+ },
+ "lores": {},
+ "profiles": {
+  "ABDUL ALHAZRED": {
+   "Abdul Alhazred": "abdul-alhazred"
+  },
+  "ARABYAN STEED": {
+   "Arabyan Steed": "arabyan-steed"
+  },
+  "BLADEDANCERS": {
+   "Bladedancer": "bladedancer"
+  },
+  "BOWMEN": {
+   "Bowman": "bowman"
+  },
+  "CAMEL": {
+   "Camel": "camel"
+  },
+  "CAMEL RIDERS": {
+   "Camel": "camel",
+   "Camel Rider": "camel-rider"
+  },
+  "CANNON": {
+   "Cannon": "cannon",
+   "Crew": "crew"
+  },
+  "CLERIC OF THE ONE": {
+   "Cleric": "cleric"
+  },
+  "COMMANDERS": {
+   "Emir": "emir",
+   "Sheikh": "sheikh"
+  },
+  "CORSAIRS": {
+   "Corsair": "corsair"
+  },
+  "DESERT RIDERS": {
+   "Arabyan Steed": "arabyan-steed",
+   "Desert Rider": "desert-rider"
+  },
+  "FLYING CARPET": {
+   "Flying Carpet": "flying-carpet"
+  },
+  "FLYING CARPET RIDERS": {
+   "Carpet Rider": "carpet-rider"
+  },
+  "GENIES": {
+   "Dao": "dao",
+   "Djinn": "djinn",
+   "Efreet": "efreet",
+   "Marid": "marid"
+  },
+  "HASHISHIN": {
+   "Hashishin": "hashishin"
+  },
+  "JANISSARIES": {
+   "Janissary": "janissary"
+  },
+  "KASSIM": {
+   "Kassim": "kassim"
+  },
+  "KHALIL AL-ZAHIR": {
+   "Khalil al-Zahir": "khalil-al-zahir",
+   "Thronebearers": "thronebearers"
+  },
+  "KHAR-MEL": {
+   "Khar-mel": "khar-mel"
+  },
+  "LAYLA BINT SURAYA": {
+   "Layla bint Suraya": "layla-bint-suraya",
+   "Silvermane (Arabyan Steed)": "silvermane-arabyan-steed"
+  },
+  "MALIK IBN LA'AHAD": {
+   "Malik Ibn La'Ahad": "malik-ibn-laahad"
+  },
+  "MAMELUKES": {
+   "Arabyan Steed": "arabyan-steed",
+   "Mameluke": "mameluke"
+  },
+  "MEHMED AGHA": {
+   "Mehmed Agha": "mehmed-agha"
+  },
+  "MONSTER BOMBARD": {
+   "Crew": "crew",
+   "Monster Bombard": "monster-bombard"
+  },
+  "NAFFATUN": {
+   "Naffatah": "naffatah"
+  },
+  "NOMAD SCOUTS": {
+   "Nomad Scout": "nomad-scout"
+  },
+  "PALACE GUARD": {
+   "Palace Guard": "palace-guard"
+  },
+  "PEGASUS GUARD": {
+   "Pegasus Guard": "pegasus-guard",
+   "Radiant Pegasus": "radiant-pegasus"
+  },
+  "QAMAR SANDGLASS": {
+   "Crew": "crew",
+   "Qamar Sandglass": "qamar-sandglass"
+  },
+  "RADIANT PEGASUS": {
+   "Radiant Pegasus": "radiant-pegasus"
+  },
+  "ROC": {
+   "Roc": "roc"
+  },
+  "SALAH AD-DIN": {
+   "Salâh ad-Dîn": "salah-ad-din"
+  },
+  "SILENT GUARD": {
+   "Silent Guard": "silent-guard"
+  },
+  "SINDABAD": {
+   "Sindabad": "sindabad"
+  },
+  "SIPAHIS": {
+   "Arabyan Steed": "arabyan-steed",
+   "Sipahi": "sipahi"
+  },
+  "SLAVE LEVIES": {
+   "Slave": "slave",
+   "Slavemaster": "slavemaster"
+  },
+  "SORCERERS": {
+   "Magus": "magus",
+   "Sahir": "sahir"
+  },
+  "SULTAN JAFFAR": {
+   "Jaffar": "jaffar"
+  },
+  "THE GOLDEN MAGUS": {
+   "The Golden Magus": "the-golden-magus"
+  },
+  "TRIBAL SKIRMISHERS": {
+   "Tribal Skirmisher": "tribal-skirmisher"
+  },
+  "WAR ELEPHANT": {
+   "Crew": "crew",
+   "War Elephant": "war-elephant"
+  },
+  "WARRIORS": {
+   "Warrior": "warrior"
+  },
+  "WHIRLING DERVISHES": {
+   "Dervish": "dervish"
+  }
+ },
+ "rules": {
+  "TACTICAL WITHDRAWAL": "tactical-withdrawal",
+  "ZEALOTRY": "zealotry"
+ },
+ "units": {
+  "ABDUL ALHAZRED": "abdul-alhazred",
+  "ARABYAN STEED": "arabyan-steed",
+  "BLADEDANCERS": "bladedancers",
+  "BOWMEN": "bowmen",
+  "CAMEL": "camel",
+  "CAMEL RIDERS": "camel-riders",
+  "CANNON": "cannon",
+  "CLERIC OF THE ONE": "cleric-of-the-one",
+  "COMMANDERS": "commanders",
+  "CORSAIRS": "corsairs",
+  "DESERT RIDERS": "desert-riders",
+  "FLYING CARPET": "flying-carpet",
+  "FLYING CARPET RIDERS": "flying-carpet-riders",
+  "GENIES": "genies",
+  "HASHISHIN": "hashishin",
+  "JANISSARIES": "janissaries",
+  "KASSIM": "kassim",
+  "KHALIL AL-ZAHIR": "khalil-al-zahir",
+  "KHAR-MEL": "khar-mel",
+  "LAYLA BINT SURAYA": "layla-bint-suraya",
+  "MALIK IBN LA'AHAD": "malik-ibn-laahad",
+  "MAMELUKES": "mamelukes",
+  "MEHMED AGHA": "mehmed-agha",
+  "MONSTER BOMBARD": "monster-bombard",
+  "NAFFATUN": "naffatun",
+  "NOMAD SCOUTS": "nomad-scouts",
+  "PALACE GUARD": "palace-guard",
+  "PEGASUS GUARD": "pegasus-guard",
+  "QAMAR SANDGLASS": "qamar-sandglass",
+  "RADIANT PEGASUS": "radiant-pegasus",
+  "ROC": "roc",
+  "SALAH AD-DIN": "salah-ad-din",
+  "SILENT GUARD": "silent-guard",
+  "SINDABAD": "sindabad",
+  "SIPAHIS": "sipahis",
+  "SLAVE LEVIES": "slave-levies",
+  "SORCERERS": "sorcerers",
+  "SULTAN JAFFAR": "sultan-jaffar",
+  "THE GOLDEN MAGUS": "the-golden-magus",
+  "TRIBAL SKIRMISHERS": "tribal-skirmishers",
+  "WAR ELEPHANT": "war-elephant",
+  "WARRIORS": "warriors",
+  "WHIRLING DERVISHES": "whirling-dervishes"
+ },
+ "upgrades": {}
+}

@@ -1,0 +1,752 @@
+{
+ "choices": {
+  "AONBARR HORSE WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "BONEGRINDER GIANT": {
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   }
+  },
+  "CENTAURS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "bows": "bows",
+    "dditional hand weapon": "dditional-hand-weapon",
+    "great weapons": "great-weapons"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Throwing axes": "throwing-axes"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "CHARIOTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "DRUID ELDERS": {
+   "magic-items-truthsayer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-wyrd-druid": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Polearm": "polearm"
+   },
+   "mount": {
+    "Chariot": "chariot",
+    "Elk": "elk",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "DRUID NEOPHYTES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Polearms": "polearms"
+   }
+  },
+  "DURAL DURAK": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Chariot": "chariot",
+    "Elk": "elk",
+    "Warhorse": "warhorse"
+   }
+  },
+  "FENBEASTS": {
+   "upgrade": {
+    "Born of Bloodmarsh": "born-of-bloodmarsh",
+    "Fly-Infested Rotweed": "fly-infested-rotweed",
+    "Leechloam": "leechloam",
+    "Lifebloom Silt": "lifebloom-silt"
+   }
+  },
+  "FENHULK": {
+   "upgrade": {
+    "Born of Bloodmarsh": "born-of-bloodmarsh",
+    "Fly-Infested Rotweed": "fly-infested-rotweed",
+    "Leechloam": "leechloam",
+    "Lifebloom Silt": "lifebloom-silt"
+   }
+  },
+  "GIANT": {
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "throw-rocks": {
+    "Throw Rocks": "throw-rocks"
+   }
+  },
+  "GWENLAEN": {
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "mount": {
+    "Chariot": "chariot",
+    "Elk": "elk",
+    "Shieldbearers": "shieldbearers",
+    "Warhorse": "warhorse"
+   }
+  },
+  "HALF GIANTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Shields": "shields"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HEARTHGUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "HUNTERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   },
+   "war-hawks": {
+    "War Hawks": "war-hawks"
+   }
+  },
+  "STONE THROWER": {
+   "fire-pots": {
+    "Fire Pots": "fire-pots"
+   }
+  },
+  "SWORDMAIDENS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "VIRIDIAN LORDS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   }
+  },
+  "WARLEADERS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-champion": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-chieftain": {
+    "Magic Items": "magic-items"
+   },
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Shortbow": "shortbow"
+   },
+   "mount": {
+    "Chariot": "chariot",
+    "Elk": "elk",
+    "Mastodon": "mastodon",
+    "Shieldbearers": "shieldbearers",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Spears": "spears",
+    "great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "WARRIORS OF DANU": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "WOAD RAIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Spears": "spears",
+    "dditional hand weapons": "dditional-hand-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  },
+  "YOUNGBLOODS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "slings": {
+    "slings": "slings"
+   },
+   "tribal-affiliation": {
+    "Tribal Affiliation": "tribal-affiliation"
+   }
+  }
+ },
+ "groups": {
+  "AONBARR HORSE WARRIORS": {
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May take javelins": "javelins",
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Aonbarr Horse Warrior to a Leader": "champion",
+   "May upgrade one Aonbarr Horse Warrior to a Musician": "musician",
+   "May upgrade one Aonbarr Horse Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Aonbarr Horse Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BONEGRINDER GIANT": {
+   "May have a Magical Ward (6+)": "magical-ward"
+  },
+  "CENTAURS": {
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "missile-weapon",
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May take light armour": "light-armour",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Centaur to a Leader": "champion",
+   "May upgrade one Centaur to a Musician": "musician",
+   "May upgrade one Centaur to a Standard Bearer": "standard-bearer",
+   "May upgrade one Centaur to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "CHARIOTS": {
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May take light armour": "light-armour",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May take scythes": "scythes",
+   "May take shields": "shields",
+   "May upgrade one Chariot to a Leader": "champion",
+   "May upgrade one Chariot to a Musician": "musician",
+   "May upgrade one Chariot to a Standard Bearer": "standard-bearer",
+   "May upgrade one Chariot to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DRUID ELDERS": {
+   "A Truthsayer may take Magic Items up to a total of 100 points": "magic-items-truthsayer",
+   "A Wyrd Druid may take Magic Items up to a total of 50 points": "magic-items-wyrd-druid",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "DRUID NEOPHYTES": {
+   "May choose one of the following:": "melee-weapon",
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May upgrade one Druid Neophyte to a Leader": "champion"
+  },
+  "DURAL DURAK": {
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "FENBEASTS": {
+   "May choose one of the following:": "upgrade"
+  },
+  "FENHULK": {
+   "May choose one of the following:": "upgrade"
+  },
+  "GIANT": {
+   "May be upgraded to Throw Rocks": "throw-rocks",
+   "May have a Magical Ward (6+)": "magical-ward"
+  },
+  "GWENLAEN": {
+   "May be mounted on one of the following:": "mount",
+   "May take javelins": "javelins",
+   "May take light armour": "light-armour"
+  },
+  "HALF GIANTS": {
+   "May choose one of the following:": "equipment",
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May take javelins": "javelins",
+   "May take light armour": "light-armour",
+   "May upgrade one Half Giant to a Leader": "champion",
+   "May upgrade one Half Giant to a Musician": "musician",
+   "May upgrade one Half Giant to a Standard Bearer": "standard-bearer",
+   "May upgrade one Half Giant to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HEARTHGUARD": {
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May replace shields with great weapons": "great-weapons",
+   "May take javelins": "javelins",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Hearthguard to a Leader": "champion",
+   "May upgrade one Hearthguard to a Musician": "musician",
+   "May upgrade one Hearthguard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hearthguard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "HUNTERS": {
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May replace javelins with shortbows": "shortbows",
+   "May take War Hawks": "war-hawks",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Hunter to a Leader": "champion",
+   "May upgrade one Hunter to a Musician": "musician"
+  },
+  "STONE THROWER": {
+   "May take Fire Pots": "fire-pots"
+  },
+  "SWORDMAIDENS": {
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Swordmaiden to a Leader": "champion",
+   "May upgrade one Swordmaiden to a Musician": "musician",
+   "May upgrade one Swordmaiden to a Standard Bearer": "standard-bearer",
+   "May upgrade one Swordmaiden to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "VIRIDIAN LORDS": {
+   "May replace hand weapons with great weapons": "great-weapons",
+   "May upgrade one Viridian Lord to a Leader": "champion"
+  },
+  "WARLEADERS": {
+   "A Champion may take Magic Items up to a total of 50 points": "magic-items-champion",
+   "A Chieftain may take Magic Items up to a total of 100 points": "magic-items-chieftain",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May have a Magical Ward (6+)": "magical-ward",
+   "May take a shield": "shield",
+   "May take light armour": "light-armour",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "One Champion may carry the Battle Standard": "battle-standard"
+  },
+  "WARRIORS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take javelins": "javelins",
+   "May take light armour": "light-armour",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Warrior to a Leader": "champion",
+   "May upgrade one Warrior to a Musician": "musician",
+   "May upgrade one Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "WARRIORS OF DANU": {
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Warrior of Danu to a Leader": "champion"
+  },
+  "WOAD RAIDERS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take javelins": "javelins",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May upgrade one Woad Raider to a Leader": "champion",
+   "May upgrade one Woad Raider to a Musician": "musician",
+   "May upgrade one Woad Raider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Woad Raider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "YOUNGBLOODS": {
+   "May replace javelins with slings": "slings",
+   "May take one Tribal Affiliation": "tribal-affiliation",
+   "May take shields": "shields",
+   "May upgrade one Youngblood to a Leader": "champion",
+   "May upgrade one Youngblood to a Musician": "musician"
+  }
+ },
+ "items": {
+  "ARDAGH CHALICE": "ardagh-chalice",
+  "BANNER OF THE ANCIENTS": "banner-of-the-ancients",
+  "BANNER OF THE MISTS": "banner-of-the-mists",
+  "BANNER OF THE SUN KING": "banner-of-the-sun-king",
+  "BRACELET OF PURITY": "bracelet-of-purity",
+  "CAULDRON OF REBIRTH": "cauldron-of-rebirth",
+  "CHARIOT OF MORGAN MWYNFAWR": "chariot-of-morgan-mwynfawr",
+  "CRANE-SKIN BAG OF CUMHAIL": "crane-skin-bag-of-cumhail",
+  "FIMIR-SKIN CLOAK": "fimir-skin-cloak",
+  "HARP OF DAGDA": "harp-of-dagda",
+  "HELM OF PRIDWEN": "helm-of-pridwen",
+  "HONOUR BELT OF CONSTITUTION": "honour-belt-of-constitution",
+  "HORN OF BORABU": "horn-of-borabu",
+  "MAD MARSH WADERS": "mad-marsh-waders",
+  "MAGIC CATCHER": "magic-catcher",
+  "MOOR ARMOUR": "moor-armour",
+  "OGHAM ARMOUR": "ogham-armour",
+  "OGHAM SHARD": "ogham-shard",
+  "POTION OF KNOWLEDGE": "potion-of-knowledge",
+  "RED-BACKED": "red-backed",
+  "RING OF ELUNED THE FORTUNATE": "ring-of-eluned-the-fortunate",
+  "RORY MOR'S HORN": "rory-mors-horn",
+  "SICKLE SWORDS OF HORDEK": "sickle-swords-of-hordek",
+  "SPEAR OF FIACHA": "spear-of-fiacha",
+  "STAFF OF LIGHT": "staff-of-light",
+  "STAFF OF SUMMONING": "staff-of-summoning",
+  "STANDARD OF FIONN MAC CUMHAILL": "standard-of-fionn-mac-cumhaill",
+  "SWIFT TO HAND": "swift-to-hand",
+  "THE ANSWERER": "the-answerer",
+  "THE BARBED SPEAR": "the-barbed-spear",
+  "THE BOG STANDARD": "the-bog-standard",
+  "THE EAR OF BEAUTY": "the-ear-of-beauty",
+  "THE FAIRY FLAG OF DUNVEGAN": "the-fairy-flag-of-dunvegan",
+  "THE GREAT STAFF": "the-great-staff",
+  "THE LIGHTNING SPEAR": "the-lightning-spear",
+  "THE SINGING SWORD": "the-singing-sword",
+  "THE TRISKELE": "the-triskele",
+  "VIRIDIAN STANDARD": "viridian-standard",
+  "WHETSTONE OF TUDWAL TUDGLYD": "whetstone-of-tudwal-tudglyd",
+  "WHITE HILT": "white-hilt",
+  "YSBADDADAN'S JAVELINS": "ysbaddadans-javelins"
+ },
+ "lores": {},
+ "profiles": {
+  "AGUM THE WATCHER": {
+   "Agum the Watcher": "agum-the-watcher"
+  },
+  "AMANTHAS": {
+   "Amanthas": "amanthas"
+  },
+  "AONBARR HORSE WARRIORS": {
+   "Aonbarr Horse Warrior": "aonbarr-horse-warrior",
+   "Warhorse": "warhorse"
+  },
+  "BONEGRINDER GIANT": {
+   "Bonegrinder Giant": "bonegrinder-giant"
+  },
+  "CENTAURS": {
+   "Centaur": "centaur"
+  },
+  "CHARIOTS": {
+   "Chariot": "chariot",
+   "Charioteer": "charioteer",
+   "Warhorse": "warhorse"
+  },
+  "CONOR MAC FEUD": {
+   "Conor Mac Feud": "conor-mac-feud"
+  },
+  "CORMAC CHATH": {
+   "Cormac Chath": "cormac-chath"
+  },
+  "DRUID ELDERS": {
+   "Truthsayer": "truthsayer",
+   "Wyrd Druid": "wyrd-druid"
+  },
+  "DRUID NEOPHYTES": {
+   "Druid Neophyte": "druid-neophyte"
+  },
+  "DURAL DURAK": {
+   "Dural Durak": "dural-durak"
+  },
+  "ELK": {
+   "Elk": "elk"
+  },
+  "FENBEASTS": {
+   "Fenbeast": "fenbeast"
+  },
+  "FENHULK": {
+   "Fenhulk": "fenhulk"
+  },
+  "GIANT": {
+   "Giant": "giant"
+  },
+  "GWENLAEN": {
+   "Gwenlaen": "gwenlaen"
+  },
+  "HALF GIANTS": {
+   "Half Giant": "half-giant"
+  },
+  "HEARTHGUARD": {
+   "Hearthguard": "hearthguard"
+  },
+  "HUNTERS": {
+   "Hunter": "hunter"
+  },
+  "MASTODON": {
+   "Crew": "crew",
+   "Mastodon": "mastodon"
+  },
+  "MORRIGAN": {
+   "Morrigan": "morrigan"
+  },
+  "PIXIE SWARMS": {
+   "Pixie Swarm": "pixie-swarm"
+  },
+  "ROTH MAC LYR": {
+   "Roth Mac Lyr": "roth-mac-lyr"
+  },
+  "SHIELDBEARERS": {
+   "Shieldbearers": "shieldbearers"
+  },
+  "STONE THROWER": {
+   "Crew": "crew",
+   "Stone Thrower": "stone-thrower"
+  },
+  "SWORDMAIDENS": {
+   "Swordmaiden": "swordmaiden"
+  },
+  "VIRIDIAN LORDS": {
+   "Viridian Lord": "viridian-lord"
+  },
+  "WAR HOUNDS": {
+   "Handler": "handler",
+   "War Hound": "war-hound"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WARLEADERS": {
+   "Champion": "champion",
+   "Chieftain": "chieftain"
+  },
+  "WARRIORS": {
+   "Warrior": "warrior"
+  },
+  "WARRIORS OF DANU": {
+   "Warrior of Danu": "warrior-of-danu"
+  },
+  "WOAD RAIDERS": {
+   "Woad Raider": "woad-raider"
+  },
+  "YOUNGBLOODS": {
+   "Youngblood": "youngblood"
+  }
+ },
+ "rules": {
+  "BATTLE CRY": "battle-cry",
+  "TRIBAL AFFILIATION": "tribal-affiliation",
+  "WAR FURY": "war-fury"
+ },
+ "units": {
+  "AGUM THE WATCHER": "agum-the-watcher",
+  "AMANTHAS": "amanthas",
+  "AONBARR HORSE WARRIORS": "aonbarr-horse-warriors",
+  "BONEGRINDER GIANT": "bonegrinder-giant",
+  "CENTAURS": "centaurs",
+  "CHARIOTS": "chariots",
+  "CONOR MAC FEUD": "conor-mac-feud",
+  "CORMAC CHATH": "cormac-chath",
+  "DRUID ELDERS": "druid-elders",
+  "DRUID NEOPHYTES": "druid-neophytes",
+  "DURAL DURAK": "dural-durak",
+  "ELK": "elk",
+  "FENBEASTS": "fenbeasts",
+  "FENHULK": "fenhulk",
+  "GIANT": "giant",
+  "GWENLAEN": "gwenlaen",
+  "HALF GIANTS": "half-giants",
+  "HEARTHGUARD": "hearthguard",
+  "HUNTERS": "hunters",
+  "MASTODON": "mastodon",
+  "MORRIGAN": "morrigan",
+  "PIXIE SWARMS": "pixie-swarms",
+  "ROTH MAC LYR": "roth-mac-lyr",
+  "SHIELDBEARERS": "shieldbearers",
+  "STONE THROWER": "stone-thrower",
+  "SWORDMAIDENS": "swordmaidens",
+  "VIRIDIAN LORDS": "viridian-lords",
+  "WAR HOUNDS": "war-hounds",
+  "WARHORSE": "warhorse",
+  "WARLEADERS": "warleaders",
+  "WARRIORS": "warriors",
+  "WARRIORS OF DANU": "warriors-of-danu",
+  "WOAD RAIDERS": "woad-raiders",
+  "YOUNGBLOODS": "youngbloods"
+ },
+ "upgrades": {}
+}

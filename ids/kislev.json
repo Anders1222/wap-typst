@@ -1,0 +1,909 @@
+{
+ "choices": {
+  "BORIS URSUS": {
+   "mount": {
+    "Urskin": "urskin"
+   }
+  },
+  "BROTHERHOOD OF THE BEAR": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CHEKISTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CITY MILITIA": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears-and-shields": {
+    "spears & shields": "spears-and-shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-ataman": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-boyar": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Polearm": "polearm"
+   },
+   "missile-weapon": {
+    "Brace of Pistols": "brace-of-pistols",
+    "Handgun": "handgun",
+    "Pistol": "pistol",
+    "Shortbow": "shortbow"
+   },
+   "mount": {
+    "Great Bear": "great-bear",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "DROYASKA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "DRUZHINA": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GREAT BEAR": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "GRYPHON LEGION": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistols": {
+    "pistols": "pistols"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HAGS": {
+   "magic-items-hag-mother": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-hag-witch": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Light War Sled": "light-war-sled"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "ICE GUARD": {
+   "bows": {
+    "bows": "bows"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Polearms": "polearms",
+    "Spears & shields": "spears-and-shields"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ICE WITCHES": {
+   "magic-items-frost-maiden": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-ice-witch": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Great Bear": "great-bear",
+    "Heavy War Sled": "heavy-war-sled",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "IGOR THE TERRIBLE": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "KOSSARS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Spears": "spears"
+   },
+   "missile-weapon": {
+    "Pistols": "pistols",
+    "Shortbows": "shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KOSTALTYN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Great Bear": "great-bear",
+    "Warhorse": "warhorse"
+   }
+  },
+  "KREML GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MISKA THE SLAUGHTERER": {
+   "mount": {
+    "Heavy War Sled": "heavy-war-sled"
+   }
+  },
+  "MOTHER OSTANKYA": {
+   "chicken-legged-hut": {
+    "Chicken-Legged Hut": "chicken-legged-hut"
+   },
+   "mount": {
+    "Flying Mortar & Pestle": "flying-mortar-and-pestle",
+    "Light War Sled": "light-war-sled"
+   }
+  },
+  "NARYSKA LEYSA": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "PATRIARCHS": {
+   "magic-items-patriarch": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-supreme-patriarch": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Great Bear": "great-bear",
+    "Warhorse": "warhorse"
+   }
+  },
+  "RANGER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   }
+  },
+  "SHAMAN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SIBYRIAN HUNTERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "crossbows": {
+    "crossbows": "crossbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "throwing-axes": {
+    "throwing axes": "throwing-axes"
+   }
+  },
+  "STRELTSI": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TZAR SALTAN": {
+   "mount": {
+    "Great Bear": "great-bear",
+    "Warhorse": "warhorse"
+   }
+  },
+  "TZARINA KATARIN BOKHA": {
+   "mount": {
+    "Great Bear": "great-bear",
+    "Heavy War Sled": "heavy-war-sled",
+    "Warhorse": "warhorse"
+   }
+  },
+  "ULRIKA MAGDOVA STRAGHOV": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "UNGOLS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Shortbows": "shortbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WAR BEAR RIDERS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Heavy lances": "heavy-lances",
+    "polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistols": {
+    "pistols": "pistols"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WAR BEARS": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "WAR WAGON": {
+   "melee-weapon": {
+    "Flails": "flails",
+    "Polearms": "polearms"
+   },
+   "missile-weapon": {
+    "Crossbows": "crossbows",
+    "Handguns": "handguns",
+    "Shortbows": "shortbows"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "WINGED LANCERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistols": {
+    "pistols": "pistols"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "YURI BARKHOV": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Great Bear": "great-bear",
+    "Warhorse": "warhorse"
+   }
+  }
+ },
+ "groups": {
+  "BORIS URSUS": {
+   "May be mounted on Urskin": "mount"
+  },
+  "BROTHERHOOD OF THE BEAR": {
+   "May take light armour": "light-armour",
+   "May upgrade one Ranger Templar to a Leader": "champion",
+   "May upgrade one Ranger Templar to a Musician": "musician",
+   "May upgrade one Ranger Templar to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ranger Templar to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CHEKISTS": {
+   "May upgrade one Chekist to a Leader": "champion",
+   "May upgrade one Chekist to a Musician": "musician",
+   "May upgrade one Chekist to a Standard Bearer": "standard-bearer",
+   "May upgrade one Chekist to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CITY MILITIA": {
+   "May replace polearms with spears & shields": "spears-and-shields",
+   "May upgrade one Militiaman to a Leader": "champion",
+   "May upgrade one Militiaman to a Musician": "musician",
+   "May upgrade one Militiaman to a Standard Bearer": "standard-bearer"
+  },
+  "COMMANDERS": {
+   "A Boyar may take Magic Items up to a total of 100 points": "magic-items-boyar",
+   "An Ataman may take Magic Items up to a total of 50 points": "magic-items-ataman",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Ataman may carry the Battle Standard": "battle-standard"
+  },
+  "DROYASKA": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "DRUZHINA": {
+   "May take barding": "barding",
+   "May take javelins": "javelins",
+   "May take light lances": "light-lances",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Druzhinnik to a Leader": "champion",
+   "May upgrade one Druzhinnik to a Musician": "musician",
+   "May upgrade one Druzhinnik to a Standard Bearer": "standard-bearer",
+   "May upgrade one Druzhinnik to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "GREAT BEAR": {
+   "May take barding": "barding"
+  },
+  "GRYPHON LEGION": {
+   "May take barding": "barding",
+   "May take heavy armour": "heavy-armour",
+   "May take pistols": "pistols",
+   "May upgrade one Gryphon Legionnaire to a Leader": "champion",
+   "May upgrade one Gryphon Legionnaire to a Musician": "musician",
+   "May upgrade one Gryphon Legionnaire to a Standard Bearer": "standard-bearer",
+   "May upgrade one Gryphon Legionnaire to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "HAGS": {
+   "A Hag Mother may take Magic Items up to a total of 100 points": "magic-items-hag-mother",
+   "A Hag Witch may take Magic Items up to a total of 50 points": "magic-items-hag-witch",
+   "May be mounted on a Light War Sled (Hag Mother only, replacing the crew)": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "ICE GUARD": {
+   "May choose one of the following:": "equipment",
+   "May take bows": "bows",
+   "May take light armour": "light-armour",
+   "May upgrade one Ice Guard to a Leader": "champion",
+   "May upgrade one Ice Guard to a Musician": "musician",
+   "May upgrade one Ice Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ice Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "ICE WITCHES": {
+   "A Frost Maiden may take Magic Items up to a total of 50 points": "magic-items-frost-maiden",
+   "An Ice Witch may take Magic Items up to a total of 100 points": "magic-items-ice-witch",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "IGOR THE TERRIBLE": {
+   "May be mounted on a Warhorse": "mount",
+   "May take Magic Items up to a total of 75 points": "magic-items"
+  },
+  "KOSSARS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take light armour": "light-armour",
+   "May take shields (if armed with a hand weapon or spear)": "shields",
+   "May upgrade one Kossar to a Leader": "champion",
+   "May upgrade one Kossar to a Musician": "musician",
+   "May upgrade one Kossar to a Standard Bearer": "standard-bearer",
+   "May upgrade one Kossar to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "KOSTALTYN": {
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "KREML GUARD": {
+   "May replace shields with great weapons": "great-weapons",
+   "May upgrade one Kreml Guard to a Leader": "champion",
+   "May upgrade one Kreml Guard to a Musician": "musician",
+   "May upgrade one Kreml Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Kreml Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MISKA THE SLAUGHTERER": {
+   "May be mounted on a Heavy War Sled (replacing the crew)": "mount"
+  },
+  "MOTHER OSTANKYA": {
+   "May be accompanied by the Chicken-Legged Hut": "chicken-legged-hut",
+   "May be mounted on one of the following:": "mount"
+  },
+  "NARYSKA LEYSA": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "PATRIARCHS": {
+   "A Patriarch may take Magic Items up to a total of 50 points": "magic-items-patriarch",
+   "A Supreme Patriarch may take Magic Items up to a total of 100 points": "magic-items-supreme-patriarch",
+   "May be mounted on one of the following:": "mount"
+  },
+  "RANGER": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take one of the following:": "melee-weapon"
+  },
+  "SHAMAN": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "SIBYRIAN HUNTERS": {
+   "May replace longbows with crossbows": "crossbows",
+   "May take throwing axes": "throwing-axes",
+   "May upgrade one Hunter to a Leader": "champion",
+   "May upgrade one Hunter to a Musician": "musician"
+  },
+  "STRELTSI": {
+   "May take light armour": "light-armour",
+   "May upgrade one Strelets to a Leader": "champion",
+   "May upgrade one Strelets to a Musician": "musician",
+   "May upgrade one Strelets to a Standard Bearer": "standard-bearer",
+   "May upgrade one Strelets to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "TZAR SALTAN": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "TZARINA KATARIN BOKHA": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "ULRIKA MAGDOVA STRAGHOV": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "UNGOLS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Ungol to a Leader": "champion",
+   "May upgrade one Ungol to a Musician": "musician",
+   "May upgrade one Ungol to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ungol to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "WAR BEAR RIDERS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take barding": "barding",
+   "May take heavy armour": "heavy-armour",
+   "May take pistols": "pistols",
+   "May upgrade one War Bear Rider to a Leader": "champion",
+   "May upgrade one War Bear Rider to a Musician": "musician",
+   "May upgrade one War Bear Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one War Bear Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "WAR BEARS": {
+   "May take barding": "barding"
+  },
+  "WAR WAGON": {
+   "The crew may choose one of the following:": "missile-weapon",
+   "The crew may choose one of the following: #2": "melee-weapon"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  },
+  "WINGED LANCERS": {
+   "May take pistols": "pistols",
+   "May upgrade one Winged Lancer to a Leader": "champion",
+   "May upgrade one Winged Lancer to a Musician": "musician",
+   "May upgrade one Winged Lancer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Winged Lancer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "YURI BARKHOV": {
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  }
+ },
+ "items": {
+  "APPLE OF KISLEV": "apple-of-kislev",
+  "ARMOUR OF ALEXANDR": "armour-of-alexandr",
+  "AXE OF TOR": "axe-of-tor",
+  "BALALAIKA OF THE ARARI": "balalaika-of-the-arari",
+  "BANNER OF PRAAG": "banner-of-praag",
+  "BANNER OF THE ORTHODOXY": "banner-of-the-orthodoxy",
+  "BLIZZARD BROACH": "blizzard-broach",
+  "BLOOD OF THE MOTHERLAND": "blood-of-the-motherland",
+  "BOOTS OF SEVEN LEAGUES": "boots-of-seven-leagues",
+  "DAZH'S BRAZIER": "dazhs-brazier",
+  "DAZH'S FLINT": "dazhs-flint",
+  "EVER-FULL KOVSH": "ever-full-kovsh",
+  "FATHER NIKLAS' MANTLE": "father-niklas-mantle",
+  "FROST SHARD ARMOUR": "frost-shard-armour",
+  "FROST SHARD GLAIVE": "frost-shard-glaive",
+  "GASTUVA'S EGG": "gastuvas-egg",
+  "GREAT BEAR PELT": "great-bear-pelt",
+  "HOLY AXE OF MISKA": "holy-axe-of-miska",
+  "HOLY ICON OF MISKA": "holy-icon-of-miska",
+  "ICE-ARMOUR OF JEKATERINA": "ice-armour-of-jekaterina",
+  "IRON ICE ARMOUR": "iron-ice-armour",
+  "MIRROR OF THE ICE QUEEN": "mirror-of-the-ice-queen",
+  "NJEVSKI'S SCREECHING BACK BANNERS": "njevskis-screeching-back-banners",
+  "PISTOLS OF PRINCE BOYDINOV": "pistols-of-prince-boydinov",
+  "SAINT ANNUSHKA'S FINGER BONE": "saint-annushkas-finger-bone",
+  "SCEPTRE OF SHOIKA": "sceptre-of-shoika",
+  "SHIELD OF SACRIFICE": "shield-of-sacrifice",
+  "SNOWFLAKE PENDANT": "snowflake-pendant",
+  "STANDARD OF THE EMPTY STEPPE": "standard-of-the-empty-steppe",
+  "STAR-IRON RING": "star-iron-ring",
+  "STEPPE HUNTER'S HORN": "steppe-hunters-horn",
+  "THE CROWN OF KISLEV": "the-crown-of-kislev",
+  "THE RIME BLADE": "the-rime-blade",
+  "URSUN'S CLAWS": "ursuns-claws",
+  "WYRM HARNESS": "wyrm-harness",
+  "WYRMSPIKE": "wyrmspike",
+  "YAKOV'S KVAS": "yakovs-kvas"
+ },
+ "lores": {
+  "THE LORE OF ICE": "the-lore-of-ice",
+  "THE LORE OF TEMPEST": "the-lore-of-tempest",
+  "THE LORE OF THE HAGS": "the-lore-of-the-hags"
+ },
+ "profiles": {
+  "BORIS URSUS": {
+   "Boris Ursus": "boris-ursus",
+   "Urskin (Great Bear)": "urskin-great-bear"
+  },
+  "BROTHERHOOD OF THE BEAR": {
+   "Ranger Templar": "ranger-templar",
+   "Warhorse": "warhorse"
+  },
+  "CANNON": {
+   "Cannon": "cannon",
+   "Crew": "crew"
+  },
+  "CHEKISTS": {
+   "Chekist": "chekist",
+   "Warhorse": "warhorse"
+  },
+  "CITY MILITIA": {
+   "Militiaman": "militiaman"
+  },
+  "COMMANDERS": {
+   "Ataman": "ataman",
+   "Boyar": "boyar"
+  },
+  "DROYASKA": {
+   "Droyaska": "droyaska"
+  },
+  "DRUZHINA": {
+   "Druzhinnik": "druzhinnik",
+   "Warhorse": "warhorse"
+  },
+  "ELEMENTAL BEAR": {
+   "Elemental Bear": "elemental-bear"
+  },
+  "FROST WYRM": {
+   "Frost Wyrm": "frost-wyrm"
+  },
+  "GREAT BEAR": {
+   "Great Bear": "great-bear"
+  },
+  "GRYPHON LEGION": {
+   "Gryphon Legionnaire": "gryphon-legionnaire",
+   "Warhorse": "warhorse"
+  },
+  "HAGS": {
+   "Hag Mother": "hag-mother",
+   "Hag Witch": "hag-witch"
+  },
+  "HEAVY WAR SLED": {
+   "Crew": "crew",
+   "Heavy War Sled": "heavy-war-sled",
+   "War Bear": "war-bear"
+  },
+  "ICE GUARD": {
+   "Ice Guard": "ice-guard"
+  },
+  "ICE WITCHES": {
+   "Frost Maiden": "frost-maiden",
+   "Ice Witch": "ice-witch"
+  },
+  "IGOR THE TERRIBLE": {
+   "Igor the Terrible": "igor-the-terrible"
+  },
+  "ILJA OF MUROVA": {
+   "Ilja of Murova": "ilja-of-murova"
+  },
+  "KOSSARS": {
+   "Kossar": "kossar"
+  },
+  "KOSTALTYN": {
+   "Kostaltyn": "kostaltyn"
+  },
+  "KREML GUARD": {
+   "Kreml Guard": "kreml-guard"
+  },
+  "KVASSNICS": {
+   "Kvassnic": "kvassnic"
+  },
+  "LIGHT WAR SLED": {
+   "Crew": "crew",
+   "Light War Sled": "light-war-sled",
+   "Warhorse": "warhorse"
+  },
+  "MISKA THE SLAUGHTERER": {
+   "Miska the Slaughterer": "miska-the-slaughterer"
+  },
+  "MOTHER OSTANKYA": {
+   "Chicken-Legged Hut": "chicken-legged-hut",
+   "Mother Ostankya": "mother-ostankya"
+  },
+  "NARYSKA LEYSA": {
+   "Naryska Leysa": "naryska-leysa"
+  },
+  "PATRIARCHS": {
+   "Patriarch": "patriarch",
+   "Supreme Patriarch": "supreme-patriarch"
+  },
+  "RANGER": {
+   "Ranger": "ranger"
+  },
+  "SHAMAN": {
+   "Shaman": "shaman"
+  },
+  "SIBYRIAN HUNTERS": {
+   "Hunter": "hunter"
+  },
+  "SNOW LEOPARDS": {
+   "Snow Leopard": "snow-leopard"
+  },
+  "STEPAN RASIN": {
+   "Stepan Rasin": "stepan-rasin",
+   "Warhorse": "warhorse"
+  },
+  "STRELTSI": {
+   "Strelets": "strelets"
+  },
+  "TORDIMIR LUBOVASYN": {
+   "Seraphima (Warhorse)": "seraphima-warhorse",
+   "Tordimir Lubovasyn": "tordimir-lubovasyn"
+  },
+  "TZAR CANNON": {
+   "Crew": "crew",
+   "Tzar Cannon": "tzar-cannon",
+   "War Bear": "war-bear"
+  },
+  "TZAR SALTAN": {
+   "Tzar Saltan": "tzar-saltan"
+  },
+  "TZARINA KATARIN BOKHA": {
+   "Tzarina Katarin": "tzarina-katarin"
+  },
+  "ULRIKA MAGDOVA STRAGHOV": {
+   "Ulrika Magdova Staghov": "ulrika-magdova-staghov"
+  },
+  "UNGOLS": {
+   "Ungol": "ungol",
+   "Warhorse": "warhorse"
+  },
+  "URUGAN CANNON": {
+   "Crew": "crew",
+   "Urugan Cannon": "urugan-cannon"
+  },
+  "WAR BEAR RIDERS": {
+   "War Bear": "war-bear",
+   "Winged Lancer": "winged-lancer"
+  },
+  "WAR BEARS": {
+   "Bear Tamer": "bear-tamer",
+   "War Bear": "war-bear"
+  },
+  "WAR WAGON": {
+   "Crew": "crew",
+   "War Wagon": "war-wagon",
+   "Warhorse": "warhorse"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WINGED LANCERS": {
+   "Warhorse": "warhorse",
+   "Winged Lancer": "winged-lancer"
+  },
+  "YURI BARKHOV": {
+   "Yuri Barkhov": "yuri-barkhov"
+  }
+ },
+ "rules": {
+  "BY OUR BLOOD": "by-our-blood",
+  "FURY OF URSUN": "fury-of-ursun",
+  "GLORIOUS CHARGE": "glorious-charge",
+  "STEADY IN THE RANKS": "steady-in-the-ranks"
+ },
+ "units": {
+  "BORIS URSUS": "boris-ursus",
+  "BROTHERHOOD OF THE BEAR": "brotherhood-of-the-bear",
+  "CANNON": "cannon",
+  "CHEKISTS": "chekists",
+  "CITY MILITIA": "city-militia",
+  "COMMANDERS": "commanders",
+  "DROYASKA": "droyaska",
+  "DRUZHINA": "druzhina",
+  "ELEMENTAL BEAR": "elemental-bear",
+  "FROST WYRM": "frost-wyrm",
+  "GREAT BEAR": "great-bear",
+  "GRYPHON LEGION": "gryphon-legion",
+  "HAGS": "hags",
+  "HEAVY WAR SLED": "heavy-war-sled",
+  "ICE GUARD": "ice-guard",
+  "ICE WITCHES": "ice-witches",
+  "IGOR THE TERRIBLE": "igor-the-terrible",
+  "ILJA OF MUROVA": "ilja-of-murova",
+  "KOSSARS": "kossars",
+  "KOSTALTYN": "kostaltyn",
+  "KREML GUARD": "kreml-guard",
+  "KVASSNICS": "kvassnics",
+  "LIGHT WAR SLED": "light-war-sled",
+  "MISKA THE SLAUGHTERER": "miska-the-slaughterer",
+  "MOTHER OSTANKYA": "mother-ostankya",
+  "NARYSKA LEYSA": "naryska-leysa",
+  "PATRIARCHS": "patriarchs",
+  "RANGER": "ranger",
+  "SHAMAN": "shaman",
+  "SIBYRIAN HUNTERS": "sibyrian-hunters",
+  "SNOW LEOPARDS": "snow-leopards",
+  "STEPAN RASIN": "stepan-rasin",
+  "STRELTSI": "streltsi",
+  "TORDIMIR LUBOVASYN": "tordimir-lubovasyn",
+  "TZAR CANNON": "tzar-cannon",
+  "TZAR SALTAN": "tzar-saltan",
+  "TZARINA KATARIN BOKHA": "tzarina-katarin-bokha",
+  "ULRIKA MAGDOVA STRAGHOV": "ulrika-magdova-straghov",
+  "UNGOLS": "ungols",
+  "URUGAN CANNON": "urugan-cannon",
+  "WAR BEAR RIDERS": "war-bear-riders",
+  "WAR BEARS": "war-bears",
+  "WAR WAGON": "war-wagon",
+  "WARHORSE": "warhorse",
+  "WINGED LANCERS": "winged-lancers",
+  "YURI BARKHOV": "yuri-barkhov"
+ },
+ "upgrades": {}
+}

@@ -1,0 +1,1118 @@
+{
+ "choices": {
+  "ASHIGARU ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "equipment": {
+    "Mantlets": "mantlets",
+    "Medium armour": "medium-armour"
+   },
+   "handguns": {
+    "handguns": "handguns"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ASHIGARU SLINGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "ASHIGARU SPEARMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Pikes": "pikes",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CANNON": {
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "equipment": {
+    "Buckler": "buckler",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear",
+    "Two hand weapons": "two-hand-weapons"
+   },
+   "horo-cloak": {
+    "Horo cloak": "horo-cloak"
+   },
+   "magic-items-daimyo": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-taisho": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Handgun": "handgun",
+    "Longbow": "longbow",
+    "Pistol": "pistol"
+   },
+   "mount": {
+    "Kirin": "kirin",
+    "Komainu": "komainu",
+    "Mizuchi": "mizuchi",
+    "Warhorse": "warhorse"
+   }
+  },
+  "DAWATE TADAMUNE": {
+   "mount": {
+    "Kirin": "kirin",
+    "Komainu": "komainu",
+    "Mizuchi": "mizuchi",
+    "Warhorse": "warhorse"
+   }
+  },
+  "FIRE ROCKETS": {
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   }
+  },
+  "FLAMING ARROW": {
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   }
+  },
+  "GREAT GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "horo-cloaks": {
+    "Horo cloaks": "horo-cloaks"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Light lances": "light-lances",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HATAMOTO": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "battle-standard-2": {
+    "Battle Standard": "battle-standard"
+   },
+   "horo-cloak": {
+    "Horo cloak": "horo-cloak"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear",
+    "Two hand weapons": "two-hand-weapons"
+   },
+   "missile-weapon": {
+    "Handgun": "handgun",
+    "Longbow": "longbow",
+    "Pistol": "pistol"
+   },
+   "mount": {
+    "Komainu": "komainu",
+    "Warhorse": "warhorse"
+   }
+  },
+  "HITOMI GOZEN": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "KABUKI DOLLS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   }
+  },
+  "KENSAI": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "two-hand-weapons": {
+    "two hand weapons": "two-hand-weapons"
+   }
+  },
+  "KOMAINU": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "KOMAINU RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "Longbows": "longbows",
+    "Polearms": "polearms"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "horo-cloaks": {
+    "Horo cloaks": "horo-cloaks"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MANGONEL": {
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   }
+  },
+  "NINJA": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "upgrade": {
+    "Blowpipe": "blowpipe",
+    "Caltrops": "caltrops",
+    "Grappling hooks": "grappling-hooks",
+    "Poisoned Attacks": "poisoned-attacks",
+    "Smoke bombs": "smoke-bombs"
+   }
+  },
+  "ODARI NOBUHIDE": {
+   "mount": {
+    "Kirin": "kirin",
+    "Komainu": "komainu",
+    "Mizuchi": "mizuchi",
+    "Warhorse": "warhorse"
+   }
+  },
+  "ONI": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   }
+  },
+  "ONMYOJI": {
+   "magic-items-master-onmyoji": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-onmyoji": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Kirin": "kirin",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "ONNA BUSHI": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "katanas-and-longbows": {
+    "katanas & longbows": "katanas-and-longbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "mantlets": {
+    "mantlets": "mantlets"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "OZUTSU ASHIGARU": {
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "mantlets": {
+    "mantlets": "mantlets"
+   }
+  },
+  "PEASANT LEVY": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "spears": {
+    "spears": "spears"
+   }
+  },
+  "RONIN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "dditional-hand-weapons": {
+    "dditional hand weapons": "dditional-hand-weapons"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "longbows": {
+    "longbows": "longbows"
+   }
+  },
+  "SAMURAI ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "equipment": {
+    "Heavy armour": "heavy-armour",
+    "Mantlets": "mantlets"
+   },
+   "handguns": {
+    "handguns": "handguns"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SAMURAI CAVALRY": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "Longbows": "longbows",
+    "Polearms": "polearms"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "horo-cloaks": {
+    "Horo cloaks": "horo-cloaks"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SAMURAI WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SHINOBI": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "upgrade": {
+    "Blowpipe": "blowpipe",
+    "Caltrops": "caltrops",
+    "Grappling hook": "grappling-hook",
+    "Smoke bombs": "smoke-bombs"
+   },
+   "upgrade-2": {
+    "Fauntei Shi": "fauntei-shi",
+    "Night Milk": "night-milk",
+    "Snake Venom": "snake-venom",
+    "Spider Venom": "spider-venom"
+   }
+  },
+  "SUMO WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TAIKO DRUM": {
+   "additional-drummer": {
+    "additional Drummer": "additional-drummer"
+   }
+  },
+  "TAKAI KATSUYORI": {
+   "mount": {
+    "Kirin": "kirin",
+    "Komainu": "komainu",
+    "Mizuchi": "mizuchi",
+    "Warhorse": "warhorse"
+   }
+  },
+  "TENGU": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   }
+  },
+  "TOKUDAIRA IEYASU": {
+   "mount": {
+    "Kirin": "kirin",
+    "Komainu": "komainu",
+    "Mizuchi": "mizuchi",
+    "Warhorse": "warhorse"
+   }
+  },
+  "UESIGO NORIMASA": {
+   "mount": {
+    "Kirin": "kirin",
+    "Komainu": "komainu",
+    "Mizuchi": "mizuchi",
+    "Warhorse": "warhorse"
+   }
+  },
+  "WAKO PIRATES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Handguns": "handguns",
+    "Longbows": "longbows",
+    "Spears": "spears"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "WARRIOR MONK CAVALRY": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "missile-weapon": {
+    "Handguns": "handguns",
+    "Longbows": "longbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WARRIOR MONKS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "missile-weapon": {
+    "Handguns": "handguns",
+    "Longbows": "longbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "YABUSAME": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "clan-mon": {
+    "Clan Mon": "clan-mon"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "YAMABUSHI": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "equipment": {
+    "Great weapon": "great-weapon",
+    "Handgun": "handgun",
+    "Longbow": "longbow",
+    "Polearm": "polearm"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  }
+ },
+ "groups": {
+  "ASHIGARU ARCHERS": {
+   "May choose one of the following:": "equipment",
+   "May replace longbows with handguns": "handguns",
+   "May take a Clan Mon": "clan-mon",
+   "May upgrade one Ashigaru to a Leader": "champion",
+   "May upgrade one Ashigaru to a Musician": "musician",
+   "May upgrade one Ashigaru to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ashigaru to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ASHIGARU SLINGERS": {
+   "May take a Clan Mon": "clan-mon",
+   "May upgrade one Ashigaru to a Leader": "champion",
+   "May upgrade one Ashigaru to a Musician": "musician"
+  },
+  "ASHIGARU SPEARMEN": {
+   "May replace spears with one of the following:": "melee-weapon",
+   "May take a Clan Mon": "clan-mon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Ashigaru to a Leader": "champion",
+   "May upgrade one Ashigaru to a Musician": "musician",
+   "May upgrade one Ashigaru to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ashigaru to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "CANNON": {
+   "May take a Clan Mon": "clan-mon"
+  },
+  "COMMANDERS": {
+   "A Daimyo may take one Clan Mon and/or Magic Items up to a total of 100 points": "magic-items-daimyo",
+   "A Taisho may take one Clan Mon and/or Magic Items up to a total of 50 points": "magic-items-taisho",
+   "May be mounted on one of the following": "mount",
+   "May choose one of the following:": "missile-weapon",
+   "May choose one of the following: #2": "armour",
+   "May replace katana with one of the following:": "equipment",
+   "May take a Horo cloak": "horo-cloak"
+  },
+  "DAWATE TADAMUNE": {
+   "May be mounted on one of the following": "mount"
+  },
+  "FIRE ROCKETS": {
+   "May take heavy armour": "heavy-armour"
+  },
+  "FLAMING ARROW": {
+   "May take a Clan Mon": "clan-mon"
+  },
+  "GREAT GUARD": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Horo cloaks": "horo-cloaks",
+   "May take a Clan Mon": "clan-mon",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Great Guard to a Leader": "champion",
+   "May upgrade one Great Guard to a Musician": "musician",
+   "May upgrade one Great Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Great Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "HATAMOTO": {
+   "May be mounted on one of the following": "mount",
+   "May choose one of the following:": "missile-weapon",
+   "May choose one of the following: #2": "armour",
+   "May replace katana with one of the following:": "melee-weapon",
+   "May take a Horo cloak": "horo-cloak",
+   "May take one Clan Mon and/or Magic Items up to a total of 50 points": "magic-items",
+   "One Hatamoto may carry the Battle Standard": "battle-standard",
+   "One Hatamoto may carry the Battle Standard #2": "battle-standard-2"
+  },
+  "HITOMI GOZEN": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "KABUKI DOLLS": {
+   "May take a Clan Mon": "clan-mon",
+   "May upgrade one Kabuki Doll to a Leader": "champion"
+  },
+  "KENSAI": {
+   "May replace katana with two hand weapons": "two-hand-weapons",
+   "May take one Clan Mon and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "KOMAINU": {
+   "May take barding": "barding"
+  },
+  "KOMAINU RIDERS": {
+   "May choose one of the following:": "equipment",
+   "May take Horo cloaks": "horo-cloaks",
+   "May take a Clan Mon": "clan-mon",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Samurai to a Leader": "champion",
+   "May upgrade one Samurai to a Musician": "musician",
+   "May upgrade one Samurai to a Standard Bearer": "standard-bearer",
+   "May upgrade one Samurai to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MANGONEL": {
+   "May take a Clan Mon": "clan-mon"
+  },
+  "NINJA": {
+   "May choose any of the following:": "upgrade",
+   "May take a Clan Mon": "clan-mon",
+   "May upgrade one Ninja to a Leader": "champion"
+  },
+  "ODARI NOBUHIDE": {
+   "May be mounted on one of the following": "mount"
+  },
+  "ONI": {
+   "May choose any of the following:": "melee-weapon",
+   "May take light armour": "light-armour",
+   "May upgrade one Oni to a Leader": "champion"
+  },
+  "ONMYOJI": {
+   "A Master Onmyoji may take Magic Items up to a total of 100 points": "magic-items-master-onmyoji",
+   "A Onmyoji may take Magic Items up to a total of 50 points": "magic-items-onmyoji",
+   "May be mounted on one of the following": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "ONNA BUSHI": {
+   "May choose one of the following:": "armour",
+   "May replace polearms with katanas & longbows": "katanas-and-longbows",
+   "May take a Clan Mon": "clan-mon",
+   "May take mantlets": "mantlets",
+   "May upgrade one Onna Bushi to a Leader": "champion",
+   "May upgrade one Onna Bushi to a Musician": "musician",
+   "May upgrade one Onna Bushi to a Standard Bearer": "standard-bearer",
+   "May upgrade one Onna Bushi to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "OZUTSU ASHIGARU": {
+   "May take a Clan Mon": "clan-mon",
+   "May take mantlets": "mantlets"
+  },
+  "PEASANT LEVY": {
+   "May take spears": "spears",
+   "May upgrade one Peasant to a Leader": "champion"
+  },
+  "RONIN": {
+   "May replace katanas with additional hand weapons": "dditional-hand-weapons",
+   "May take light armour": "light-armour",
+   "May take longbows": "longbows",
+   "May upgrade one Ronin to a Leader": "champion"
+  },
+  "SAMURAI ARCHERS": {
+   "May choose one of the following:": "equipment",
+   "May replace longbows with handguns": "handguns",
+   "May take a Clan Mon": "clan-mon",
+   "May upgrade one Samurai to a Leader": "champion",
+   "May upgrade one Samurai to a Musician": "musician",
+   "May upgrade one Samurai to a Standard Bearer": "standard-bearer",
+   "May upgrade one Samurai to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SAMURAI CAVALRY": {
+   "May choose one of the following:": "equipment",
+   "May take Horo cloaks": "horo-cloaks",
+   "May take a Clan Mon": "clan-mon",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Samurai to a Leader": "champion",
+   "May upgrade one Samurai to a Musician": "musician",
+   "May upgrade one Samurai to a Standard Bearer": "standard-bearer",
+   "May upgrade one Samurai to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SAMURAI WARRIORS": {
+   "May replace katanas with one of the following:": "melee-weapon",
+   "May take a Clan Mon": "clan-mon",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Samurai to a Leader": "champion",
+   "May upgrade one Samurai to a Musician": "musician",
+   "May upgrade one Samurai to a Standard Bearer": "standard-bearer",
+   "May upgrade one Samurai to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SHINOBI": {
+   "May choose any of the following:": "upgrade",
+   "May choose one of the following:": "upgrade-2",
+   "May take one Clan Mon and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "SUMO WARRIORS": {
+   "May take a Clan Mon": "clan-mon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Warrior Monk to a Leader": "champion",
+   "May upgrade one Warrior Monk to a Musician": "musician",
+   "May upgrade one Warrior Monk to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior Monk to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "TAIKO DRUM": {
+   "May take an additional Drummer": "additional-drummer"
+  },
+  "TAKAI KATSUYORI": {
+   "May be mounted on one of the following": "mount"
+  },
+  "TENGU": {
+   "May take light armour": "light-armour",
+   "May take polearms": "polearms"
+  },
+  "TOKUDAIRA IEYASU": {
+   "May be mounted on one of the following": "mount"
+  },
+  "UESIGO NORIMASA": {
+   "May be mounted on one of the following": "mount"
+  },
+  "WAKO PIRATES": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Wako Pirate to a Leader": "champion",
+   "May upgrade one Wako Pirate to a Musician": "musician",
+   "May upgrade one Wako Pirate to a Standard Bearer": "standard-bearer"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  },
+  "WARRIOR MONK CAVALRY": {
+   "May replace polearms with katanas and one of the following:": "missile-weapon",
+   "May take a Clan Mon": "clan-mon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Warrior Monk to a Leader": "champion",
+   "May upgrade one Warrior Monk to a Musician": "musician",
+   "May upgrade one Warrior Monk to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior Monk to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "WARRIOR MONKS": {
+   "May replace polearms with katanas and one of the following:": "missile-weapon",
+   "May take a Clan Mon": "clan-mon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Warrior Monk to a Leader": "champion",
+   "May upgrade one Warrior Monk to a Musician": "musician",
+   "May upgrade one Warrior Monk to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior Monk to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "YABUSAME": {
+   "May take a Clan Mon": "clan-mon",
+   "May upgrade one Yabusame to a Leader": "champion",
+   "May upgrade one Yabusame to a Musician": "musician",
+   "May upgrade one Yabusame to a Standard Bearer": "standard-bearer",
+   "May upgrade one Yabusame to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "YAMABUSHI": {
+   "May be mounted on a Warhorse": "mount",
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "armour",
+   "May take one Clan Mon and/or Magic Items up to a total of 50 points": "magic-items"
+  }
+ },
+ "items": {
+  "ANCESTRAL WAR STANDARD": "ancestral-war-standard",
+  "ARMOUR OF IMPERIAL RULE": "armour-of-imperial-rule",
+  "ARMOUR OF OSANO-WO": "armour-of-osano-wo",
+  "AUTUMN RAIN": "autumn-rain",
+  "BANNER OF AMATERASU": "banner-of-amaterasu",
+  "BANNER OF THE ROARING TEMPEST": "banner-of-the-roaring-tempest",
+  "BONSAI PINE OF IUCHI RAMATSU": "bonsai-pine-of-iuchi-ramatsu",
+  "BRASS GONG OF OTAKU MASERO": "brass-gong-of-otaku-masero",
+  "BRONZE TOKEN": "bronze-token",
+  "CANDLE OF THE VOID": "candle-of-the-void",
+  "CHIME OF HARMONY": "chime-of-harmony",
+  "CRESENT MOON BLADE": "cresent-moon-blade",
+  "CURSE OF THE MIDNIGHT FLIES": "curse-of-the-midnight-flies",
+  "DAEMON CUTTER": "daemon-cutter",
+  "DIVINE SLASHING BLADE": "divine-slashing-blade",
+  "DRAGON CLAW KATANA": "dragon-claw-katana",
+  "DRAGON PEARL": "dragon-pearl",
+  "DRUM OF WATER": "drum-of-water",
+  "FAN OF COMMAND": "fan-of-command",
+  "GRASS-CUTTING SWORD": "grass-cutting-sword",
+  "HAKAMA OF THE IDE FAMILY": "hakama-of-the-ide-family",
+  "HEAVENLY NAGINATA": "heavenly-naginata",
+  "HENSHIN'S AMULET": "henshins-amulet",
+  "IKOMA'S WARFAN": "ikomas-warfan",
+  "IMPERIAL STANDARD": "imperial-standard",
+  "INCENSE OF CONCENTRATION": "incense-of-concentration",
+  "ISAWA'S HELM": "isawas-helm",
+  "JADE MIRROR": "jade-mirror",
+  "MANTLE OF FIRE": "mantle-of-fire",
+  "MASAMUNE'S WAKIZASHI": "masamunes-wakizashi",
+  "MEISHODO AMULET": "meishodo-amulet",
+  "MEMPO OF HONOUR": "mempo-of-honour",
+  "MIRUMOTO'S BATTLE STANDARD": "mirumotos-battle-standard",
+  "SACRED MAGATAMA": "sacred-magatama",
+  "SERENITY LANTERNS": "serenity-lanterns",
+  "STANDARD OF THE IRON CRANE": "standard-of-the-iron-crane",
+  "STANDARD OF THE VERMILLION BIRD": "standard-of-the-vermillion-bird",
+  "THE RAINBOW CLOAK": "the-rainbow-cloak",
+  "YARI OF RIGHTEOUSNESS": "yari-of-righteousness",
+  "YORITOMO'S ARMOUR": "yoritomos-armour"
+ },
+ "lores": {},
+ "profiles": {
+  "AKASHI SHO": {
+   "Akashi Sho": "akashi-sho"
+  },
+  "ASHIGARU ARCHERS": {
+   "Ashigaru": "ashigaru"
+  },
+  "ASHIGARU SLINGERS": {
+   "Ashigaru": "ashigaru"
+  },
+  "ASHIGARU SPEARMEN": {
+   "Ashigaru": "ashigaru"
+  },
+  "CANNON": {
+   "Cannon": "cannon",
+   "Crew": "crew"
+  },
+  "COMMANDERS": {
+   "Daimyo": "daimyo",
+   "Taisho": "taisho"
+  },
+  "DAWATE TADAMUNE": {
+   "Dawate Tadamune": "dawate-tadamune"
+  },
+  "EMPRESS HIMIKO": {
+   "Empress Himiko": "empress-himiko"
+  },
+  "FIRE ROCKETS": {
+   "Samurai": "samurai"
+  },
+  "FLAMING ARROW": {
+   "Crew": "crew",
+   "Flaming Arrow": "flaming-arrow"
+  },
+  "GREAT GUARD": {
+   "Great Guard": "great-guard",
+   "Kirin": "kirin"
+  },
+  "HATAMOTO": {
+   "Hatamoto": "hatamoto"
+  },
+  "HITOMI GOZEN": {
+   "Hitomi Gozen": "hitomi-gozen"
+  },
+  "KABUKI DOLLS": {
+   "Kabuki Doll": "kabuki-doll"
+  },
+  "KENSAI": {
+   "Kensai": "kensai"
+  },
+  "KIRIN": {
+   "Kirin": "kirin"
+  },
+  "KITSUNE": {
+   "Kitsune": "kitsune"
+  },
+  "KOMAINU": {
+   "Komainu": "komainu"
+  },
+  "KOMAINU RIDERS": {
+   "Komainu": "komainu",
+   "Samurai": "samurai"
+  },
+  "MANGONEL": {
+   "Crew": "crew",
+   "Mangonel": "mangonel"
+  },
+  "MIKOSHI SHRINE": {
+   "Mikoshi Shrine": "mikoshi-shrine"
+  },
+  "MINAMOTO KENSHIN": {
+   "Minamoto Kenshin": "minamoto-kenshin"
+  },
+  "MIZUCHI": {
+   "Mizuchi": "mizuchi"
+  },
+  "NINJA": {
+   "Ninja": "ninja"
+  },
+  "O-SAYUMI": {
+   "O-Sayumi": "o-sayumi"
+  },
+  "ODARI NOBUHIDE": {
+   "Odari Nobuhide": "odari-nobuhide"
+  },
+  "ONI": {
+   "Oni": "oni"
+  },
+  "ONMYOJI": {
+   "Master Onmyoji": "master-onmyoji",
+   "Onmyoji": "onmyoji"
+  },
+  "ONNA BUSHI": {
+   "Onna Bushi": "onna-bushi"
+  },
+  "OZUTSU ASHIGARU": {
+   "Ashigaru": "ashigaru"
+  },
+  "PEASANT LEVY": {
+   "Peasant": "peasant"
+  },
+  "RONIN": {
+   "Ronin": "ronin"
+  },
+  "SAMURAI ARCHERS": {
+   "Samurai": "samurai"
+  },
+  "SAMURAI CAVALRY": {
+   "Samurai": "samurai",
+   "Warhorse": "warhorse"
+  },
+  "SAMURAI WARRIORS": {
+   "Samurai": "samurai"
+  },
+  "SANADA NAOMASA": {
+   "Sanada Naomasa": "sanada-naomasa",
+   "Warhorse": "warhorse"
+  },
+  "SARUTORI HANZO": {
+   "Sarutori Hanzo": "sarutori-hanzo"
+  },
+  "SHINOBI": {
+   "Shinobi": "shinobi"
+  },
+  "SUMO WARRIORS": {
+   "Sumo Warrior": "sumo-warrior"
+  },
+  "TAIKO DRUM": {
+   "Drummer": "drummer",
+   "Taiko Drum": "taiko-drum"
+  },
+  "TAKAI KATSUYORI": {
+   "Takai Katsuyori": "takai-katsuyori"
+  },
+  "TENGU": {
+   "Tengu": "tengu"
+  },
+  "TOKUDAIRA IEYASU": {
+   "Tokudaira Ieyasu": "tokudaira-ieyasu"
+  },
+  "UESIGO NORIMASA": {
+   "Uesigo Norimasa": "uesigo-norimasa"
+  },
+  "WAKO PIRATES": {
+   "Wako Pirate": "wako-pirate"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WARRIOR MONK CAVALRY": {
+   "Warhorse": "warhorse",
+   "Warrior Monk": "warrior-monk"
+  },
+  "WARRIOR MONKS": {
+   "Warrior Monk": "warrior-monk"
+  },
+  "YABUSAME": {
+   "Warhorse": "warhorse",
+   "Yabusame": "yabusame"
+  },
+  "YAMABUSHI": {
+   "Yamabushi": "yamabushi"
+  }
+ },
+ "rules": {
+  "CALTROPS": "caltrops",
+  "DEATH BEFORE DISHONOUR": "death-before-dishonour",
+  "GRAPPLING HOOKS": "grappling-hooks",
+  "HORO CLOAK": "horo-cloak",
+  "KATANA": "katana",
+  "MANTLETS": "mantlets",
+  "SMOKE BOMBS": "smoke-bombs",
+  "WAY OF THE WARRIOR": "way-of-the-warrior"
+ },
+ "units": {
+  "AKASHI SHO": "akashi-sho",
+  "ASHIGARU ARCHERS": "ashigaru-archers",
+  "ASHIGARU SLINGERS": "ashigaru-slingers",
+  "ASHIGARU SPEARMEN": "ashigaru-spearmen",
+  "CANNON": "cannon",
+  "COMMANDERS": "commanders",
+  "DAWATE TADAMUNE": "dawate-tadamune",
+  "EMPRESS HIMIKO": "empress-himiko",
+  "FIRE ROCKETS": "fire-rockets",
+  "FLAMING ARROW": "flaming-arrow",
+  "GREAT GUARD": "great-guard",
+  "HATAMOTO": "hatamoto",
+  "HITOMI GOZEN": "hitomi-gozen",
+  "KABUKI DOLLS": "kabuki-dolls",
+  "KENSAI": "kensai",
+  "KIRIN": "kirin",
+  "KITSUNE": "kitsune",
+  "KOMAINU": "komainu",
+  "KOMAINU RIDERS": "komainu-riders",
+  "MANGONEL": "mangonel",
+  "MIKOSHI SHRINE": "mikoshi-shrine",
+  "MINAMOTO KENSHIN": "minamoto-kenshin",
+  "MIZUCHI": "mizuchi",
+  "NINJA": "ninja",
+  "O-SAYUMI": "o-sayumi",
+  "ODARI NOBUHIDE": "odari-nobuhide",
+  "ONI": "oni",
+  "ONMYOJI": "onmyoji",
+  "ONNA BUSHI": "onna-bushi",
+  "OZUTSU ASHIGARU": "ozutsu-ashigaru",
+  "PEASANT LEVY": "peasant-levy",
+  "RONIN": "ronin",
+  "SAMURAI ARCHERS": "samurai-archers",
+  "SAMURAI CAVALRY": "samurai-cavalry",
+  "SAMURAI WARRIORS": "samurai-warriors",
+  "SANADA NAOMASA": "sanada-naomasa",
+  "SARUTORI HANZO": "sarutori-hanzo",
+  "SHINOBI": "shinobi",
+  "SUMO WARRIORS": "sumo-warriors",
+  "TAIKO DRUM": "taiko-drum",
+  "TAKAI KATSUYORI": "takai-katsuyori",
+  "TENGU": "tengu",
+  "TOKUDAIRA IEYASU": "tokudaira-ieyasu",
+  "UESIGO NORIMASA": "uesigo-norimasa",
+  "WAKO PIRATES": "wako-pirates",
+  "WARHORSE": "warhorse",
+  "WARRIOR MONK CAVALRY": "warrior-monk-cavalry",
+  "WARRIOR MONKS": "warrior-monks",
+  "YABUSAME": "yabusame",
+  "YAMABUSHI": "yamabushi"
+ },
+ "upgrades": {
+  "MON OF THE CHOTOSA CLAN": "mon-of-the-chotosa-clan",
+  "MON OF THE DAWATE CLAN": "mon-of-the-dawate-clan",
+  "MON OF THE HATTIGA CLAN": "mon-of-the-hattiga-clan",
+  "MON OF THE HOJIZU CLAN": "mon-of-the-hojizu-clan",
+  "MON OF THE ODARI CLAN": "mon-of-the-odari-clan",
+  "MON OF THE SHISUMA CLAN": "mon-of-the-shisuma-clan",
+  "MON OF THE TAKAI CLAN": "mon-of-the-takai-clan",
+  "MON OF THE UESIGO CLAN": "mon-of-the-uesigo-clan"
+ }
+}

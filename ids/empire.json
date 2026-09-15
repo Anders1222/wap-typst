@@ -1,0 +1,1586 @@
+{
+ "choices": {
+  "ALDEBRAND LUDENHOF": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BALTHASAR GELT": {
+   "mount": {
+    "Quicksilver (Pegasus)": "quicksilver-pegasus"
+   }
+  },
+  "BATTLE WIZARDS": {
+   "magic-items-battle-wizard": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-battle-wizard-lord": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Celestial Hurricanum": "celestial-hurricanum",
+    "Griffon": "griffon",
+    "Imperial Griffon": "imperial-griffon",
+    "Luminark of Hysh": "luminark-of-hysh",
+    "Pegasus": "pegasus",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "BERTHA BESTRAUFRUNG": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "BORIS TODBRINGER": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "full-plate": {
+    "Full Plate": "full-plate"
+   },
+   "magic-items-captain": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-general": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Crossbow": "crossbow",
+    "Handgun": "handgun",
+    "Longbow": "longbow",
+    "Pistol": "pistol",
+    "Repeater handgun": "repeater-handgun",
+    "Repeater pistol": "repeater-pistol"
+   },
+   "mount": {
+    "Griffon": "griffon",
+    "Imperial Griffon": "imperial-griffon",
+    "Pegasus": "pegasus",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "CROSSBOWMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DEMIGRYPH": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "DEMIGRYPH KNIGHTS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-lances": {
+    "heavy lances": "heavy-lances"
+   },
+   "knightly-orders": {
+    "Knightly Order": "knightly-order"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DEMILANCERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistols": {
+    "pistols": "pistols"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DWARFS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Crossbows": "crossbows",
+    "Great weapons": "great-weapons",
+    "Handguns": "handguns",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ELSPETH VON DRAKEN": {
+   "mount": {
+    "Carmine Dragon": "carmine-dragon",
+    "Warhorse": "warhorse"
+   }
+  },
+  "EMIL VALGEIR": {
+   "mount": {
+    "War Altar of Ulric": "war-altar-of-ulric"
+   }
+  },
+  "FLAGELLANTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Flails": "flails"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "FOOT KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "inner-circle-knights": {
+    "Inner Circle Knights": "inner-circle-knights"
+   },
+   "knightly-orders": {
+    "Knightly Order": "knightly-order"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Cavalry hammers": "cavalry-hammers",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "FREE COMPANY MILITIA": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Bucklers": "bucklers",
+    "Crossbows": "crossbows",
+    "Longbows": "longbows",
+    "Pistols": "pistols"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GREAT CANNON": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "GREATSWORDS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GRIFFON": {
+   "shredding-talons": {
+    "Shredding Talons": "shredding-talons"
+   },
+   "swooping-strike": {
+    "Swooping Strike": "swooping-strike"
+   }
+  },
+  "HALBERDIERS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HALFLINGS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Shortbows": "shortbows",
+    "Spears": "spears"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HANDGUNNERS": {
+   "brace-of-pistols": {
+    "Brace of pistols": "brace-of-pistols"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "hochland-long-rifle": {
+    "Hochland long rifle": "hochland-long-rifle"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "repeater-handgun": {
+    "Repeater handgun": "repeater-handgun"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HANS VON LOWENHACKE": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "HARALD GEMUNSEN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "HELBLASTER VOLLEY GUN": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "HELSTORM ROCKET BATTERY": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "HUNTSMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "IMPERIAL GRIFFON": {
+   "barding": {
+    "barding": "barding"
+   },
+   "bloodroar": {
+    "Bloodroar": "bloodroar"
+   },
+   "razorbeak": {
+    "Razorbeak": "razorbeak"
+   },
+   "shrike-talons": {
+    "Shrike Talons": "shrike-talons"
+   },
+   "two-heads": {
+    "Two Heads": "two-heads"
+   }
+  },
+  "JUBAL FALK": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "KARL FRANZ": {
+   "ghal-maraz": {
+    "Ghal Maraz": "ghal-maraz"
+   },
+   "mount": {
+    "Deathclaw (Imperial Griffon)": "deathclaw-imperial-griffon",
+    "Griffon": "griffon",
+    "Pegasus": "pegasus",
+    "Warhorse": "warhorse"
+   }
+  },
+  "KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "inner-circle-knights": {
+    "Inner Circle Knights": "inner-circle-knights"
+   },
+   "knightly-orders": {
+    "Knightly Order": "knightly-order"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Cavalry hammers": "cavalry-hammers",
+    "Great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LUDWIG SCHWARZHELM": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "MAGNUS THE PIOUS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "MARIUS LEITDORF": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Daisy": "daisy"
+   }
+  },
+  "MARKUS WULFHART": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MASTER ENGINEER": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Grenade launching blunderbuss": "grenade-launching-blunderbuss",
+    "Hochland long rifle": "hochland-long-rifle",
+    "Repeater handgun": "repeater-handgun",
+    "Repeater pistol": "repeater-pistol"
+   },
+   "mount": {
+    "Mechanical Steed": "mechanical-steed"
+   },
+   "pigeon-bombs": {
+    "pigeon bombs": "pigeon-bombs"
+   }
+  },
+  "MASTERS OF THE KNIGHTLY ORDERS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "knightly-orders": {
+    "Knightly Order": "knightly-order"
+   },
+   "magic-items-chapter-master": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-grand-master": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Cavalry hammer": "cavalry-hammer",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Polearm": "polearm"
+   },
+   "mount": {
+    "Demigryph": "demigryph",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "MORTAR": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "OGRES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons",
+    "Ogre handguns": "ogre-handguns",
+    "Ogre pistols": "ogre-pistols",
+    "Polearms": "polearms"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "OUTRIDERS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "brace-of-pistols-including-one-repeater-pistol": {
+    "Brace of pistols including one repeater pistol": "brace-of-pistols-including-one-repeater-pistol"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "grenade-launching-blunderbuss": {
+    "Grenade launching blunderbuss": "grenade-launching-blunderbuss"
+   },
+   "hochland-long-rifle": {
+    "Hochland long rifle": "hochland-long-rifle"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "PEGASUS": {
+   "iron-hard-hooves": {
+    "Iron-hard Hooves": "iron-hard-hooves"
+   },
+   "swift-as-the-wind": {
+    "Swift as the Wind": "swift-as-the-wind"
+   }
+  },
+  "PISTOLIERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "repeater-pistol": {
+    "repeater pistol": "repeater-pistol"
+   }
+  },
+  "ROADWARDENS": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "SISTERS OF SIGMAR": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "augur": {
+    "Augur": "augur"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons",
+    "Shields": "shields"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SPEARMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Shields": "shields",
+    "pikes": "pikes"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "STEAM TANK": {
+   "hochland-long-rifle": {
+    "Hochland long rifle": "hochland-long-rifle"
+   },
+   "upgrade": {
+    "Implacable": "implacable",
+    "Old Reliable": "old-reliable",
+    "Sigmar's Hammer": "sigmars-hammer",
+    "Von Zeppel": "von-zeppel"
+   }
+  },
+  "SWORDSMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "THEODORE BRUCKNER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Reaper": "reaper"
+   }
+  },
+  "THYRUS GORMANN": {
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "VALMIR VON RAUKOV": {
+   "mount": {
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "VALTEN": {
+   "armour": {
+    "Ghal Maraz & Armour of the Heldenhammer": "ghal-maraz-and-armour-of-the-heldenhammer",
+    "Ghal Maraz & heavy armour": "ghal-maraz-and-heavy-armour"
+   },
+   "mount": {
+    "Althandin": "althandin",
+    "Warhorse": "warhorse"
+   }
+  },
+  "VOLKMAR THE GRIM": {
+   "mount": {
+    "War Altar of Sigmar": "war-altar-of-sigmar"
+   }
+  },
+  "WAR ALTAR OF SIGMAR": {
+   "horn-of-sigismund": {
+    "Horn of Sigismund": "horn-of-sigismund"
+   }
+  },
+  "WAR WAGON": {
+   "equipment": {
+    "Mortar": "mortar",
+    "handguns": "handguns"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "two-additional-crew": {
+    "two additional crew": "two-additional-crew"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "WARRIOR PRIESTS OF SIGMAR": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items-arch-lector": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-warrior-priest": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "mount": {
+    "The War Altar of Sigmar": "the-war-altar-of-sigmar",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "WITCH HUNTERS": {
+   "brace-of-pistols": {
+    "brace of pistols": "brace-of-pistols"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-witch-hunter-captain": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-witch-hunter-general": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "missile-weapon": {
+    "Crossbow": "crossbow",
+    "Handgun": "handgun"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  }
+ },
+ "groups": {
+  "ALDEBRAND LUDENHOF": {
+   "May be mounted on a Warhorse (with barding)": "mount",
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "ARCHERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May take light armour": "light-armour",
+   "May upgrade one Archer to a Leader": "champion",
+   "May upgrade one Archer to a Musician": "musician",
+   "May upgrade one Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BALTHASAR GELT": {
+   "May be mounted on Quicksilver (Pegasus)": "mount"
+  },
+  "BATTLE WIZARDS": {
+   "A Battle Wizard Lord may take Magic Items up to a total of 100 points": "magic-items-battle-wizard-lord",
+   "A Battle Wizard may take Magic Items up to a total of 50 points": "magic-items-battle-wizard",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "BERTHA BESTRAUFRUNG": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "BORIS TODBRINGER": {
+   "May be mounted on a Warhorse (with barding)": "mount"
+  },
+  "COMMANDERS": {
+   "A Captain may take Magic Items up to a total of 50 points": "magic-items-captain",
+   "A General may take Magic Items up to a total of 100 points": "magic-items-general",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded with the Full Plate special rule for": "full-plate",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Captain may carry the Battle Standard": "battle-standard"
+  },
+  "CROSSBOWMEN": {
+   "May take light armour": "light-armour",
+   "May upgrade one Crossbowman to a Leader": "champion",
+   "May upgrade one Crossbowman to a Musician": "musician",
+   "May upgrade one Crossbowman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Crossbowman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DEMIGRYPH": {
+   "May take barding": "barding"
+  },
+  "DEMIGRYPH KNIGHTS": {
+   "May be upgraded to a Knightly Order": "knightly-orders",
+   "May replace polearms with heavy lances": "heavy-lances",
+   "May take barding": "barding",
+   "May upgrade one Inner Circle Knight to a Leader": "champion",
+   "May upgrade one Inner Circle Knight to a Musician": "musician",
+   "May upgrade one Inner Circle Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Inner Circle Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "DEMILANCERS": {
+   "May take medium armour": "medium-armour",
+   "May take pistols": "pistols",
+   "May upgrade one Demilancer to a Leader": "champion",
+   "May upgrade one Demilancer to a Musician": "musician",
+   "May upgrade one Demilancer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Demilancer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DWARFS": {
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "armour",
+   "May take shields (if armed with hand weapons, spears or polearms)": "shields",
+   "May upgrade one Dwarf to a Leader": "champion",
+   "May upgrade one Dwarf to a Musician": "musician",
+   "May upgrade one Dwarf to a Standard Bearer": "standard-bearer",
+   "May upgrade one Dwarf to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ELSPETH VON DRAKEN": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "EMIL VALGEIR": {
+   "May be mounted on the War Altar of Ulric": "mount"
+  },
+  "FLAGELLANTS": {
+   "May choose one of the following:": "melee-weapon",
+   "May upgrade one Flagellant to a Leader": "champion",
+   "May upgrade one Flagellant to a Musician": "musician",
+   "May upgrade one Flagellant to a Standard Bearer": "standard-bearer"
+  },
+  "FOOT KNIGHTS": {
+   "May be upgraded to Inner Circle Knights (see notes)": "inner-circle-knights",
+   "May be upgraded to a Knightly Order": "knightly-orders",
+   "May replace shields with one of the following:": "melee-weapon",
+   "May upgrade one Knight to a Leader": "champion",
+   "May upgrade one Knight to a Leader > Leader > May take a pistol": "pistol",
+   "May upgrade one Knight to a Musician": "musician",
+   "May upgrade one Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "FREE COMPANY MILITIA": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Militia Fighter to a Leader": "champion",
+   "May upgrade one Militia Fighter to a Musician": "musician",
+   "May upgrade one Militia Fighter to a Standard Bearer": "standard-bearer"
+  },
+  "GREAT CANNON": {
+   "May take an additional crew": "additional-crew"
+  },
+  "GREATSWORDS": {
+   "May choose one of the following:": "armour",
+   "May upgrade one Greatsword to a Leader": "champion",
+   "May upgrade one Greatsword to a Leader > Leader > May take a pistol": "pistol",
+   "May upgrade one Greatsword to a Musician": "musician",
+   "May upgrade one Greatsword to a Standard Bearer": "standard-bearer",
+   "May upgrade one Greatsword to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GRIFFON": {
+   "May take Shredding Talons": "shredding-talons",
+   "May take Swooping Strike": "swooping-strike"
+  },
+  "HALBERDIERS": {
+   "May choose one of the following:": "armour",
+   "May take shields": "shields",
+   "May upgrade one Halberdier to a Leader": "champion",
+   "May upgrade one Halberdier to a Leader > Leader > May take a pistol": "pistol",
+   "May upgrade one Halberdier to a Musician": "musician",
+   "May upgrade one Halberdier to a Standard Bearer": "standard-bearer",
+   "May upgrade one Halberdier to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HALFLINGS": {
+   "May choose one of the following:": "equipment",
+   "May take shields (unless armed with shortbows)": "shields",
+   "May upgrade one Halfling to a Leader": "champion",
+   "May upgrade one Halfling to a Musician": "musician",
+   "May upgrade one Halfling to a Standard Bearer": "standard-bearer",
+   "May upgrade one Halfling to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HANDGUNNERS": {
+   "Brace of pistols": "brace-of-pistols",
+   "Hochland long rifle": "hochland-long-rifle",
+   "May take light armour": "light-armour",
+   "May upgrade one Handgunner to a Leader": "champion",
+   "May upgrade one Handgunner to a Leader > Leader > May replace handgun with one of the following:": "equipment",
+   "May upgrade one Handgunner to a Musician": "musician",
+   "May upgrade one Handgunner to a Standard Bearer": "standard-bearer",
+   "May upgrade one Handgunner to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "Repeater handgun": "repeater-handgun"
+  },
+  "HANS VON LOWENHACKE": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "HARALD GEMUNSEN": {
+   "May take Magic Items up to a total of 75 points": "magic-items"
+  },
+  "HELBLASTER VOLLEY GUN": {
+   "May take an additional crew": "additional-crew"
+  },
+  "HELSTORM ROCKET BATTERY": {
+   "May take an additional crew": "additional-crew"
+  },
+  "HUNTSMEN": {
+   "May upgrade one Huntsman to a Leader": "champion",
+   "May upgrade one Huntsman to a Musician": "musician"
+  },
+  "IMPERIAL GRIFFON": {
+   "May take Bloodroar": "bloodroar",
+   "May take Razorbeak": "razorbeak",
+   "May take Shrike Talons": "shrike-talons",
+   "May take Two Heads": "two-heads",
+   "May take barding": "barding"
+  },
+  "JUBAL FALK": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "KARL FRANZ": {
+   "May be mounted on one of the following:": "mount",
+   "May replace Dragon Tooth with Ghal Maraz": "ghal-maraz"
+  },
+  "KNIGHTS": {
+   "May be upgraded to Inner Circle Knights": "inner-circle-knights",
+   "May be upgraded to a Knightly Order": "knightly-orders",
+   "May replace heavy lances with one of the following:": "melee-weapon",
+   "May take shields (if armed with heavy lances)": "shields",
+   "May upgrade one Knight to a Leader": "champion",
+   "May upgrade one Knight to a Musician": "musician",
+   "May upgrade one Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "LUDWIG SCHWARZHELM": {
+   "May be mounted on a Warhorse (with barding)": "mount"
+  },
+  "MAGNUS THE PIOUS": {
+   "May be mounted on a Warhorse (with barding)": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "MARIUS LEITDORF": {
+   "May be mounted on Daisy (with barding)": "mount",
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "MARKUS WULFHART": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "MASTER ENGINEER": {
+   "May be mounted on a Mechanical Steed": "mount",
+   "May choose one of the following:": "missile-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour",
+   "May take pigeon bombs": "pigeon-bombs"
+  },
+  "MASTERS OF THE KNIGHTLY ORDERS": {
+   "A Chapter Master may take Magic Items up to a total of 50 points": "magic-items-chapter-master",
+   "A Grand Master may take Magic Items up to a total of 100 points": "magic-items-grand-master",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to a Knightly Order": "knightly-orders",
+   "May choose one of the following:": "melee-weapon",
+   "May take a shield": "shield",
+   "May take heavy armour": "heavy-armour",
+   "One Chapter Master may carry the Battle Standard": "battle-standard"
+  },
+  "MORTAR": {
+   "May take an additional crew": "additional-crew"
+  },
+  "OGRES": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "OUTRIDERS": {
+   "Brace of pistols including one repeater pistol": "brace-of-pistols-including-one-repeater-pistol",
+   "Grenade launching blunderbuss": "grenade-launching-blunderbuss",
+   "Hochland long rifle": "hochland-long-rifle",
+   "May take barding": "barding",
+   "May upgrade one Outrider to a Leader": "champion",
+   "May upgrade one Outrider to a Leader > Leader > May replace repeater handgun with one of the following:": "equipment",
+   "May upgrade one Outrider to a Musician": "musician"
+  },
+  "PEGASUS": {
+   "May take Iron-hard Hooves": "iron-hard-hooves",
+   "May take Swift as the Wind": "swift-as-the-wind"
+  },
+  "PISTOLIERS": {
+   "May upgrade one Pistolier to a Leader": "champion",
+   "May upgrade one Pistolier to a Leader > Leader > May replace one pistol with a repeater pistol": "repeater-pistol",
+   "May upgrade one Pistolier to a Musician": "musician"
+  },
+  "ROADWARDENS": {
+   "May be upgraded to Ambushers": "ambushers",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Roadwarden to a Leader": "champion",
+   "May upgrade one Roadwarden to a Musician": "musician"
+  },
+  "SISTERS OF SIGMAR": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "armour",
+   "May upgrade one Sister of Sigmar to a Leader": "champion",
+   "May upgrade one Sister of Sigmar to a Musician": "musician",
+   "May upgrade one Sister of Sigmar to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sister of Sigmar to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "May upgrade one Sister of Sigmar to an Augur": "augur"
+  },
+  "SPEARMEN": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Spearman to a Leader": "champion",
+   "May upgrade one Spearman to a Leader > Leader > May take a pistol": "pistol",
+   "May upgrade one Spearman to a Musician": "musician",
+   "May upgrade one Spearman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Spearman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "STEAM TANK": {
+   "May be upgraded to one of the following:": "upgrade",
+   "May take a Hochland long rifle (unless upgraded)": "hochland-long-rifle"
+  },
+  "SWORDSMEN": {
+   "May take light armour": "light-armour",
+   "May upgrade one Swordsman to a Leader": "champion",
+   "May upgrade one Swordsman to a Leader > Leader > May take a pistol": "pistol",
+   "May upgrade one Swordsman to a Musician": "musician",
+   "May upgrade one Swordsman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Swordsman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "THEODORE BRUCKNER": {
+   "May take Magic Items up to a total of 25 points": "magic-items",
+   "May take Stormlance and be mounted on Reaper": "mount"
+  },
+  "THYRUS GORMANN": {
+   "May be mounted on a Warhorse": "mount"
+  },
+  "VALMIR VON RAUKOV": {
+   "May be mounted on a Warhorse (with barding)": "mount",
+   "May take a shield": "shield"
+  },
+  "VALTEN": {
+   "May be mounted on one of the following (if armed with Ghal Maraz):": "mount",
+   "May replace two hand weapons with one of the following:": "armour"
+  },
+  "VOLKMAR THE GRIM": {
+   "May be mounted on the War Altar of Sigmar": "mount"
+  },
+  "WAR ALTAR OF SIGMAR": {
+   "May take the Horn of Sigismund": "horn-of-sigismund"
+  },
+  "WAR WAGON": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May take two additional crew (if armed with handguns)": "two-additional-crew"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  },
+  "WARRIOR PRIESTS OF SIGMAR": {
+   "A Warrior Priest may take Magic Items up to a total of 50 points": "magic-items-warrior-priest",
+   "An Arch Lector may take Magic Items up to a total of 100 points": "magic-items-arch-lector",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take a shield": "shield"
+  },
+  "WITCH HUNTERS": {
+   "A Witch Hunter Captain may take Magic Items up to a total of 50 points": "magic-items-witch-hunter-captain",
+   "A Witch Hunter General may take Magic Items up to a total of 100 points": "magic-items-witch-hunter-general",
+   "May be mounted on a Warhorse": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take a brace of pistols": "brace-of-pistols",
+   "May take light armour": "light-armour"
+  }
+ },
+ "items": {
+  "ALDRED'S CASKET OF SORCERY": "aldreds-casket-of-sorcery",
+  "AMBER FANG": "amber-fang",
+  "AMULET OF THRICE-BLESSED COPPER": "amulet-of-thrice-blessed-copper",
+  "ANTLER OF THE BLUE STAG": "antler-of-the-blue-stag",
+  "ARMOUR OF RIGHTEOUS FURY": "armour-of-righteous-fury",
+  "ARMOUR OF SKOLL": "armour-of-skoll",
+  "ARMOUR OF TARNUS": "armour-of-tarnus",
+  "ARMOUR OF THE KNIGHT ETERNAL": "armour-of-the-knight-eternal",
+  "BALESTORM ORB": "balestorm-orb",
+  "BANE OF THE CRAVEN": "bane-of-the-craven",
+  "BANNER OF DUTY": "banner-of-duty",
+  "BANNER OF MIDDENHEIM": "banner-of-middenheim",
+  "BANNER OF SIGISMUND": "banner-of-sigismund",
+  "BANNER OF THE KNIGHTS PANTHER": "banner-of-the-knights-panther",
+  "BANNER OF THE WARRIOR TRUE": "banner-of-the-warrior-true",
+  "BANNER OF VALOUR": "banner-of-valour",
+  "BEAST SLAYER, THE DRAKWALD RUNEFANG": "beast-slayer-the-drakwald-runefang",
+  "BLACK POMANDER": "black-pomander",
+  "BLADE OF SILVERED STEEL": "blade-of-silvered-steel",
+  "BLESSED SILVER HAMMER": "blessed-silver-hammer",
+  "BOOK OF UNCOMMON PRAYER": "book-of-uncommon-prayer",
+  "BOOTS OF BOVVA": "boots-of-bovva",
+  "BRAZIER OF HOLY FLAME": "brazier-of-holy-flame",
+  "BRONZE SIGIL SWORD": "bronze-sigil-sword",
+  "CHALICE OF FATE": "chalice-of-fate",
+  "CLAW TOTEM": "claw-totem",
+  "CLOAK OF ANRAHEIR": "cloak-of-anraheir",
+  "CRYSTAL BALL": "crystal-ball",
+  "DAEMONSLAYER BLADE": "daemonslayer-blade",
+  "DOOMFIRE RING": "doomfire-ring",
+  "EICHELBAUM'S SCROLL": "eichelbaums-scroll",
+  "FANG OF THE WINTER WOLF": "fang-of-the-winter-wolf",
+  "FAUSCHLAG RING": "fauschlag-ring",
+  "FLAG OF THE CONQUEROR": "flag-of-the-conqueror",
+  "FOZZRIK'S FOLDING FORTRESS": "fozzriks-folding-fortress",
+  "GREY WAND": "grey-wand",
+  "GRIFFON STANDARD": "griffon-standard",
+  "HAMMER OF JUDGEMENT": "hammer-of-judgement",
+  "HEART OF MIDDENHEIM": "heart-of-middenheim",
+  "HELM OF THE SKAVENSLAYER": "helm-of-the-skavenslayer",
+  "HELSTURM'S STAFF": "helsturms-staff",
+  "HORN OF THE WHITE WOLF": "horn-of-the-white-wolf",
+  "ICE DAGGER": "ice-dagger",
+  "ICON OF MAGNUS": "icon-of-magnus",
+  "ICON OF SIGMAR": "icon-of-sigmar",
+  "JADE AMULET": "jade-amulet",
+  "MAGNIFIER": "magnifier",
+  "MANTLE OF ILLUSIONS": "mantle-of-illusions",
+  "ORB OF THUNDER": "orb-of-thunder",
+  "PEARL DAGGERS": "pearl-daggers",
+  "PELT OF HORROS": "pelt-of-horros",
+  "POWDERS OF THRICE-DAMNED OSSK": "powders-of-thrice-damned-ossk",
+  "RANALD'S COIN": "ranalds-coin",
+  "RELIQUARY OF LECTOR OSTRANALD": "reliquary-of-lector-ostranald",
+  "RING OF FORTUNE": "ring-of-fortune",
+  "RING OF ST. HORST": "ring-of-st-horst",
+  "RING OF TAAL": "ring-of-taal",
+  "RING OF VOLANS": "ring-of-volans",
+  "ROD OF POWER": "rod-of-power",
+  "SANCTIFIED SHARD OF LICHEBONE": "sanctified-shard-of-lichebone",
+  "SANCTIFIED SILVER BULLETS": "sanctified-silver-bullets",
+  "SEAL OF DESTRUCTION": "seal-of-destruction",
+  "SHARD OF SKOLL": "shard-of-skoll",
+  "SHEEN OF TRUESILVER": "sheen-of-truesilver",
+  "SHEMTEK'S GRIMOIRE": "shemteks-grimoire",
+  "SHIELD OF THE GORGON": "shield-of-the-gorgon",
+  "SHROUD OF MAGNUS": "shroud-of-magnus",
+  "SIGIL OF SIGMAR": "sigil-of-sigmar",
+  "SKULL CHARM": "skull-charm",
+  "SLAYER'S HOURGLASS": "slayers-hourglass",
+  "SPEAR OF THE HIEROPHANT": "spear-of-the-hierophant",
+  "STANDARD OF ARCANE WARDING": "standard-of-arcane-warding",
+  "STANDARD OF THE WHITE WOLF": "standard-of-the-white-wolf",
+  "STEEL STANDARD": "steel-standard",
+  "STORM HAMMER": "storm-hammer",
+  "SWORD OF FATE": "sword-of-fate",
+  "SWORD OF RIGHTEOUS STEEL": "sword-of-righteous-steel",
+  "SWORD OF SIGISMUND": "sword-of-sigismund",
+  "TAPESTRY OF SIGMAR'S TRIUMPH": "tapestry-of-sigmars-triumph",
+  "THE ARMOUR OF METEORIC IRON": "the-armour-of-meteoric-iron",
+  "THE BANNER OF ULRIC": "the-banner-of-ulric",
+  "THE CRIMSON AMULET": "the-crimson-amulet",
+  "THE FANG OF ORSKA": "the-fang-of-orska",
+  "THE GILDED ARMOUR": "the-gilded-armour",
+  "THE IMPERIAL BANNER": "the-imperial-banner",
+  "THE MACE OF HELSTURM": "the-mace-of-helsturm",
+  "THE SILVER HORN": "the-silver-horn",
+  "THE WHITE CLOAK OF ULRIC": "the-white-cloak-of-ulric",
+  "TOME OF MIDNIGHT": "tome-of-midnight",
+  "TWICE-BLESSED ARMOUR": "twice-blessed-armour",
+  "TWIN-TAILED WAND": "twin-tailed-wand",
+  "VAN HORSTMANN'S SPECULUM": "van-horstmanns-speculum",
+  "VON MECKLENBURG'S ENCHANTED SHOT": "von-mecklenburgs-enchanted-shot",
+  "VON TRICKSCHOTTE'S WONDROUS ARQUEBUS": "von-trickschottes-wondrous-arquebus",
+  "WINTER'S BITE": "winters-bite",
+  "WITCH HUNTER'S WARD": "witch-hunters-ward",
+  "WIZARD'S STAFF": "wizards-staff",
+  "WOLF HELM OF THE TEUTOGENS": "wolf-helm-of-the-teutogens",
+  "WOLFSHEAD EMBLEM": "wolfshead-emblem",
+  "WYRMSLAYER SWORD": "wyrmslayer-sword"
+ },
+ "lores": {},
+ "profiles": {
+  "ALDEBRAND LUDENHOF": {
+   "Aldebrand Ludenhof": "aldebrand-ludenhof",
+   "Warhorse": "warhorse"
+  },
+  "ARCHERS": {
+   "Archer": "archer"
+  },
+  "BALTHASAR GELT": {
+   "Balthasar Gelt": "balthasar-gelt",
+   "Quicksilver (Pegasus)": "quicksilver-pegasus"
+  },
+  "BATTLE WIZARDS": {
+   "Battle Wizard": "battle-wizard",
+   "Battle Wizard Lord": "battle-wizard-lord"
+  },
+  "BERTHA BESTRAUFRUNG": {
+   "Bertha Bestraufrung": "bertha-bestraufrung"
+  },
+  "BORIS TODBRINGER": {
+   "Boris Todbringer": "boris-todbringer",
+   "Warhorse": "warhorse"
+  },
+  "CELESTIAL HURRICANUM": {
+   "Acolyte": "acolyte",
+   "Celestial Hurricanum": "celestial-hurricanum",
+   "Warhorse": "warhorse"
+  },
+  "COMMANDERS": {
+   "Captain": "captain",
+   "General": "general"
+  },
+  "CROSSBOWMEN": {
+   "Crossbowman": "crossbowman"
+  },
+  "DEMIGRYPH": {
+   "Demigryph": "demigryph"
+  },
+  "DEMIGRYPH KNIGHTS": {
+   "Demigryph": "demigryph",
+   "Inner Circle Knight": "inner-circle-knight"
+  },
+  "DEMILANCERS": {
+   "Demilancer": "demilancer",
+   "Warhorse": "warhorse"
+  },
+  "DWARFS": {
+   "Dwarf": "dwarf"
+  },
+  "ELSPETH VON DRAKEN": {
+   "Carmine Dragon": "carmine-dragon",
+   "Elspeth von Draken": "elspeth-von-draken"
+  },
+  "EMIL VALGEIR": {
+   "Emil Valgeir": "emil-valgeir"
+  },
+  "FLAGELLANTS": {
+   "Flagellant": "flagellant"
+  },
+  "FOOT KNIGHTS": {
+   "Knight": "knight"
+  },
+  "FREE COMPANY MILITIA": {
+   "Militia Fighter": "militia-fighter"
+  },
+  "GREAT CANNON": {
+   "Crew": "crew",
+   "Great Cannon": "great-cannon"
+  },
+  "GREATSWORDS": {
+   "Greatsword": "greatsword"
+  },
+  "GRIFFON": {
+   "Griffon": "griffon"
+  },
+  "HALBERDIERS": {
+   "Halberdier": "halberdier"
+  },
+  "HALFLINGS": {
+   "Halfling": "halfling"
+  },
+  "HANDGUNNERS": {
+   "Handgunner": "handgunner"
+  },
+  "HANS VON LOWENHACKE": {
+   "Hans von Löwenhacke": "hans-von-lowenhacke"
+  },
+  "HARALD GEMUNSEN": {
+   "Harald Gemunsen": "harald-gemunsen",
+   "Warhorse": "warhorse"
+  },
+  "HELBLASTER VOLLEY GUN": {
+   "Crew": "crew",
+   "Helblaster Volley Gun": "helblaster-volley-gun"
+  },
+  "HELSTORM ROCKET BATTERY": {
+   "Crew": "crew",
+   "Helstorm Rocket Battery": "helstorm-rocket-battery"
+  },
+  "HUNTING HOUNDS": {
+   "Hunt Master": "hunt-master",
+   "Hunting Hound": "hunting-hound",
+   "Warhorse": "warhorse"
+  },
+  "HUNTSMEN": {
+   "Huntsman": "huntsman"
+  },
+  "IMPERIAL GRIFFON": {
+   "Imperial Griffon": "imperial-griffon"
+  },
+  "JUBAL FALK": {
+   "Jubal Falk": "jubal-falk"
+  },
+  "KARL FRANZ": {
+   "Deathclaw (Imperial Griffon)": "deathclaw-imperial-griffon",
+   "Karl Franz": "karl-franz"
+  },
+  "KNIGHTS": {
+   "Knight": "knight",
+   "Warhorse": "warhorse"
+  },
+  "KURT HELBORG": {
+   "Krieglust (Warhorse)": "krieglust-warhorse",
+   "Kurt Helborg": "kurt-helborg"
+  },
+  "LUDWIG SCHWARZHELM": {
+   "Ludwig Schwarzhelm": "ludwig-schwarzhelm"
+  },
+  "LUMINARK OF HYSH": {
+   "Acolyte": "acolyte",
+   "Luminark of Hysh": "luminark-of-hysh",
+   "Warhorse": "warhorse"
+  },
+  "LUTHOR HUSS": {
+   "Luthor Huss": "luthor-huss",
+   "Warhorse": "warhorse"
+  },
+  "MAGNUS THE PIOUS": {
+   "Magnus the Pious": "magnus-the-pious"
+  },
+  "MARIUS LEITDORF": {
+   "Daisy (Warhorse)": "daisy-warhorse",
+   "Marius Leitdorf": "marius-leitdorf"
+  },
+  "MARKUS WULFHART": {
+   "Markus Wulfhart": "markus-wulfhart"
+  },
+  "MASTER ENGINEER": {
+   "Master Engineer": "master-engineer"
+  },
+  "MASTERS OF THE KNIGHTLY ORDERS": {
+   "Chapter Master": "chapter-master",
+   "Grand Master": "grand-master"
+  },
+  "MECHANICAL STEED": {
+   "Mechanical Steed": "mechanical-steed"
+  },
+  "MORTAR": {
+   "Crew": "crew",
+   "Mortar": "mortar"
+  },
+  "OGRES": {
+   "Ogre": "ogre"
+  },
+  "OUTRIDERS": {
+   "Outrider": "outrider",
+   "Warhorse": "warhorse"
+  },
+  "PEGASUS": {
+   "Pegasus": "pegasus"
+  },
+  "PISTOLIERS": {
+   "Pistolier": "pistolier",
+   "Warhorse": "warhorse"
+  },
+  "ROADWARDENS": {
+   "Roadwarden": "roadwarden",
+   "Warhorse": "warhorse"
+  },
+  "SISTERS OF SIGMAR": {
+   "Sister of Sigmar": "sister-of-sigmar"
+  },
+  "SPEARMEN": {
+   "Spearman": "spearman"
+  },
+  "STEAM TANK": {
+   "Engineer Commander": "engineer-commander",
+   "Steam Tank": "steam-tank"
+  },
+  "SWORDSMEN": {
+   "Swordsman": "swordsman"
+  },
+  "THEODORE BRUCKNER": {
+   "Reaper (Demigryph)": "reaper-demigryph",
+   "Theodore Bruckner": "theodore-bruckner"
+  },
+  "THYRUS GORMANN": {
+   "Thyrus Gormann": "thyrus-gormann",
+   "Warhorse": "warhorse"
+  },
+  "VALMIR VON RAUKOV": {
+   "Valmir von Raukov": "valmir-von-raukov",
+   "Warhorse": "warhorse"
+  },
+  "VALTEN": {
+   "Althandin (Elven Steed)": "althandin-elven-steed",
+   "Valten": "valten"
+  },
+  "VOLKMAR THE GRIM": {
+   "Volkmar the Grim": "volkmar-the-grim"
+  },
+  "WAR ALTAR OF SIGMAR": {
+   "War Altar of Sigmar": "war-altar-of-sigmar",
+   "Warhorse": "warhorse"
+  },
+  "WAR WAGON": {
+   "Crew": "crew",
+   "War Wagon": "war-wagon",
+   "Warhorse": "warhorse"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WARRIOR PRIESTS OF SIGMAR": {
+   "Arch Lector": "arch-lector",
+   "Warrior Priest": "warrior-priest"
+  },
+  "WITCH HUNTERS": {
+   "Witch Hunter Captain": "witch-hunter-captain",
+   "Witch Hunter General": "witch-hunter-general"
+  }
+ },
+ "rules": {
+  "CAVALRY HAMMER": "cavalry-hammer",
+  "FULL PLATE": "full-plate",
+  "GRENADE LAUNCHING BLUNDERBUSS": "grenade-launching-blunderbuss",
+  "HOCHLAND LONG RIFLE": "hochland-long-rifle",
+  "REPEATER HANDGUN": "repeater-handgun",
+  "REPEATER PISTOL": "repeater-pistol",
+  "STATE TROOPS": "state-troops"
+ },
+ "units": {
+  "ALDEBRAND LUDENHOF": "aldebrand-ludenhof",
+  "ARCHERS": "archers",
+  "BALTHASAR GELT": "balthasar-gelt",
+  "BATTLE WIZARDS": "battle-wizards",
+  "BERTHA BESTRAUFRUNG": "bertha-bestraufrung",
+  "BORIS TODBRINGER": "boris-todbringer",
+  "CELESTIAL HURRICANUM": "celestial-hurricanum",
+  "COMMANDERS": "commanders",
+  "CROSSBOWMEN": "crossbowmen",
+  "DEMIGRYPH": "demigryph",
+  "DEMIGRYPH KNIGHTS": "demigryph-knights",
+  "DEMILANCERS": "demilancers",
+  "DWARFS": "dwarfs",
+  "ELSPETH VON DRAKEN": "elspeth-von-draken",
+  "EMIL VALGEIR": "emil-valgeir",
+  "FLAGELLANTS": "flagellants",
+  "FOOT KNIGHTS": "foot-knights",
+  "FREE COMPANY MILITIA": "free-company-militia",
+  "GREAT CANNON": "great-cannon",
+  "GREATSWORDS": "greatswords",
+  "GRIFFON": "griffon",
+  "HALBERDIERS": "halberdiers",
+  "HALFLINGS": "halflings",
+  "HANDGUNNERS": "handgunners",
+  "HANS VON LOWENHACKE": "hans-von-lowenhacke",
+  "HARALD GEMUNSEN": "harald-gemunsen",
+  "HELBLASTER VOLLEY GUN": "helblaster-volley-gun",
+  "HELSTORM ROCKET BATTERY": "helstorm-rocket-battery",
+  "HUNTING HOUNDS": "hunting-hounds",
+  "HUNTSMEN": "huntsmen",
+  "IMPERIAL GRIFFON": "imperial-griffon",
+  "JUBAL FALK": "jubal-falk",
+  "KARL FRANZ": "karl-franz",
+  "KNIGHTS": "knights",
+  "KURT HELBORG": "kurt-helborg",
+  "LUDWIG SCHWARZHELM": "ludwig-schwarzhelm",
+  "LUMINARK OF HYSH": "luminark-of-hysh",
+  "LUTHOR HUSS": "luthor-huss",
+  "MAGNUS THE PIOUS": "magnus-the-pious",
+  "MARIUS LEITDORF": "marius-leitdorf",
+  "MARKUS WULFHART": "markus-wulfhart",
+  "MASTER ENGINEER": "master-engineer",
+  "MASTERS OF THE KNIGHTLY ORDERS": "masters-of-the-knightly-orders",
+  "MECHANICAL STEED": "mechanical-steed",
+  "MORTAR": "mortar",
+  "OGRES": "ogres",
+  "OUTRIDERS": "outriders",
+  "PEGASUS": "pegasus",
+  "PISTOLIERS": "pistoliers",
+  "ROADWARDENS": "roadwardens",
+  "SISTERS OF SIGMAR": "sisters-of-sigmar",
+  "SPEARMEN": "spearmen",
+  "STEAM TANK": "steam-tank",
+  "SWORDSMEN": "swordsmen",
+  "THEODORE BRUCKNER": "theodore-bruckner",
+  "THYRUS GORMANN": "thyrus-gormann",
+  "VALMIR VON RAUKOV": "valmir-von-raukov",
+  "VALTEN": "valten",
+  "VOLKMAR THE GRIM": "volkmar-the-grim",
+  "WAR ALTAR OF SIGMAR": "war-altar-of-sigmar",
+  "WAR WAGON": "war-wagon",
+  "WARHORSE": "warhorse",
+  "WARRIOR PRIESTS OF SIGMAR": "warrior-priests-of-sigmar",
+  "WITCH HUNTERS": "witch-hunters"
+ },
+ "upgrades": {
+  "BLACK GUARD OF MORR": "black-guard-of-morr",
+  "KNIGHTS ENCARMINE": "knights-encarmine",
+  "KNIGHTS GRIFFON": "knights-griffon",
+  "KNIGHTS OF SIGMAR'S BLOOD": "knights-of-sigmars-blood",
+  "KNIGHTS OF THE BLACK BEAR": "knights-of-the-black-bear",
+  "KNIGHTS OF THE BLAZING SUN": "knights-of-the-blazing-sun",
+  "KNIGHTS OF THE EVERLASTING LIGHT": "knights-of-the-everlasting-light",
+  "KNIGHTS OF THE TWIN-TAILED ORB": "knights-of-the-twin-tailed-orb",
+  "KNIGHTS OF THE WHITE WOLF": "knights-of-the-white-wolf",
+  "KNIGHTS PANTHER": "knights-panther",
+  "REIKSGUARD KNIGHTS": "reiksguard-knights",
+  "SONS OF MANANN": "sons-of-manann"
+ }
+}

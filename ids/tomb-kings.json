@@ -1,0 +1,742 @@
+{
+ "choices": {
+  "ARKHAN THE BLACK": {
+   "mount": {
+    "Chariot of the Liche King": "chariot-of-the-liche-king"
+   }
+  },
+  "BONE THROWER": {
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "GRAND HIEROPHANT KHATEP": {
+   "mount": {
+    "Casket of Souls": "casket-of-souls",
+    "Necrolith Bone Dragon": "necrolith-bone-dragon",
+    "Skeletal Steed": "skeletal-steed",
+    "Tomb Barque": "tomb-barque"
+   }
+  },
+  "HIGH QUEEN KHALIDA NEFERHER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Necroserpent": "necroserpent"
+   }
+  },
+  "KHEMRIAN WARSPHINX": {
+   "envenomed-sting": {
+    "Envenomed Sting": "envenomed-sting"
+   },
+   "fiery-roar": {
+    "Fiery Roar": "fiery-roar"
+   }
+  },
+  "LICHE PRIESTS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-liche-high-priest": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-liche-priest": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Casket of Souls": "casket-of-souls",
+    "Necrolith Bone Dragon": "necrolith-bone-dragon",
+    "Skeletal Steed": "skeletal-steed",
+    "Tomb Barque": "tomb-barque"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "NECROLITH COLOSSUS": {
+   "equipment": {
+    "Bolt thrower": "bolt-thrower",
+    "Great weapon": "great-weapon",
+    "Shield": "shield"
+   }
+  },
+  "NECROPOLIS KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "NECROSPHINX": {
+   "envenomed-sting": {
+    "Envenomed Sting": "envenomed-sting"
+   }
+  },
+  "NECROTECTS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "PRINCE TUTANKHANUT": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Skeleton Chariot": "skeleton-chariot"
+   }
+  },
+  "RAMHOTEP THE VISIONARY": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "SCREAMING SKULL CATAPULT": {
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "SKELETAL STEED": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "SKELETON ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKELETON CHARIOT": {
+   "barding": {
+    "barding": "barding"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   }
+  },
+  "SKELETON CHARIOTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKELETON HORSEMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Light lances": "light-lances",
+    "shortbows": "shortbows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKELETON SKIRMISHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "replace-javelins-with-slings": {
+    "replace javelins with slings": "replace-javelins-with-slings"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  },
+  "SKELETON WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "THE HERALD NEKAPH": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Necroserpent": "necroserpent",
+    "Skeletal Steed": "skeletal-steed",
+    "Skeleton Chariot": "skeleton-chariot"
+   }
+  },
+  "TOMB GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TOMB GUARD CHARIOTS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Light lances": "light-lances",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TOMB HERALDS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Necroserpent": "necroserpent",
+    "Skeletal Steed": "skeletal-steed",
+    "Skeleton Chariot": "skeleton-chariot"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "TOMB MONARCHS": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-tomb-king": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-tomb-prince": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Khemrian Warsphinx": "khemrian-warsphinx",
+    "Necrolith Bone Dragon": "necrolith-bone-dragon",
+    "Necroserpent": "necroserpent",
+    "Skeletal Steed": "skeletal-steed",
+    "Skeleton Chariot": "skeleton-chariot"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "USHABTI": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Great weapons": "great-weapons",
+    "Greatbows": "greatbows",
+    "Polearms": "polearms"
+   },
+   "upgrade": {
+    "Aspect of Asaph": "aspect-of-asaph",
+    "Aspect of Djaf": "aspect-of-djaf",
+    "Aspect of Geheb": "aspect-of-geheb",
+    "Aspect of Phakth": "aspect-of-phakth",
+    "Aspect of Sobk": "aspect-of-sobk"
+   }
+  }
+ },
+ "groups": {
+  "ARKHAN THE BLACK": {
+   "May be mounted on a Chariot of the Liche King": "mount"
+  },
+  "BONE THROWER": {
+   "May take light armour": "light-armour"
+  },
+  "GRAND HIEROPHANT KHATEP": {
+   "May be mounted on one of the following": "mount"
+  },
+  "HIGH QUEEN KHALIDA NEFERHER": {
+   "May be mounted on a Necroserpent": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "KHEMRIAN WARSPHINX": {
+   "May take Envenomed Sting": "envenomed-sting",
+   "May take Fiery Roar": "fiery-roar"
+  },
+  "LICHE PRIESTS": {
+   "A Liche High Priest may take Magic Items up to a total of 100 points": "magic-items-liche-high-priest",
+   "A Liche Priest may take Magic Items up to a total of 50 points": "magic-items-liche-priest",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take light armour": "light-armour"
+  },
+  "NECROLITH COLOSSUS": {
+   "May replace one hand weapon with one of the following:": "equipment"
+  },
+  "NECROPOLIS KNIGHTS": {
+   "May take shields": "shields",
+   "May upgrade one Necropolis Knight to a Leader": "champion",
+   "May upgrade one Necropolis Knight to a Musician": "musician",
+   "May upgrade one Necropolis Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Necropolis Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "NECROSPHINX": {
+   "May take Envenomed Sting": "envenomed-sting"
+  },
+  "NECROTECTS": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "PRINCE TUTANKHANUT": {
+   "May be mounted on a Skeleton Chariot": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "RAMHOTEP THE VISIONARY": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "SCREAMING SKULL CATAPULT": {
+   "May take light armour": "light-armour"
+  },
+  "SKELETAL STEED": {
+   "May take barding": "barding"
+  },
+  "SKELETON ARCHERS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Skeleton Warrior to a Leader": "champion",
+   "May upgrade one Skeleton Warrior to a Musician": "musician",
+   "May upgrade one Skeleton Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKELETON CHARIOT": {
+   "May take barding": "barding",
+   "May take scythes": "scythes"
+  },
+  "SKELETON CHARIOTS": {
+   "May take light armour": "light-armour",
+   "May take scythes": "scythes",
+   "May upgrade one Skeleton Chariot to a Leader": "champion",
+   "May upgrade one Skeleton Chariot to a Musician": "musician",
+   "May upgrade one Skeleton Chariot to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Chariot to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKELETON HORSEMEN": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Skeleton Horseman to a Leader": "champion",
+   "May upgrade one Skeleton Horseman to a Musician": "musician",
+   "May upgrade one Skeleton Horseman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Horseman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKELETON SKIRMISHERS": {
+   "May take replace javelins with slings": "replace-javelins-with-slings",
+   "May take shields": "shields",
+   "May upgrade one Skeleton Skirmisher to a Leader": "champion",
+   "May upgrade one Skeleton Skirmisher to a Musician": "musician"
+  },
+  "SKELETON WARRIORS": {
+   "May take light armour": "light-armour",
+   "May take spears": "spears",
+   "May upgrade one Skeleton Warrior to a Leader": "champion",
+   "May upgrade one Skeleton Warrior to a Musician": "musician",
+   "May upgrade one Skeleton Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "THE HERALD NEKAPH": {
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "TOMB GUARD": {
+   "May take polearms": "polearms",
+   "May upgrade one Tomb Guard to a Leader": "champion",
+   "May upgrade one Tomb Guard to a Musician": "musician",
+   "May upgrade one Tomb Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Tomb Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "TOMB GUARD CHARIOTS": {
+   "May take barding": "barding",
+   "May take one of the following:": "melee-weapon",
+   "May take scythes": "scythes",
+   "May upgrade one Skeleton Chariot to a Leader": "champion",
+   "May upgrade one Skeleton Chariot to a Musician": "musician",
+   "May upgrade one Skeleton Chariot to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Chariot to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "TOMB HERALDS": {
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a shield": "shield",
+   "May take light armour": "light-armour",
+   "One Tomb Herald may carry the Battle Standard": "battle-standard"
+  },
+  "TOMB MONARCHS": {
+   "A Tomb King may take Magic Items up to a total of 100 points": "magic-items-tomb-king",
+   "A Tomb Prince may take Magic Items up to a total of 50 points": "magic-items-tomb-prince",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take a shield": "shield",
+   "May take light armour": "light-armour"
+  },
+  "USHABTI": {
+   "May choose one of the following:": "upgrade",
+   "May replace one hand weapon with one of the following:": "equipment",
+   "May upgrade one Ushabti to a Leader": "champion"
+  }
+ },
+ "items": {
+  "AMULET OF PHA-STAH": "amulet-of-pha-stah",
+  "AMULET OF THE SERPENT": "amulet-of-the-serpent",
+  "ARMOUR OF ETERNITY": "armour-of-eternity",
+  "ARMOUR OF THE AGES": "armour-of-the-ages",
+  "BANNER OF THE DESERT WINDS": "banner-of-the-desert-winds",
+  "BANNER OF THE HIDDEN DEAD": "banner-of-the-hidden-dead",
+  "BLADE OF MOURNING": "blade-of-mourning",
+  "BLADE OF SETEP": "blade-of-setep",
+  "BLADES OF HONOURABLE DEMISE": "blades-of-honourable-demise",
+  "BLUE KHEPRA": "blue-khepra",
+  "BROOCH OF THE GREAT DESERT": "brooch-of-the-great-desert",
+  "CHARIOT OF FIRE": "chariot-of-fire",
+  "CLOAK OF THE DUNES": "cloak-of-the-dunes",
+  "COLLAR OF SHAPESH": "collar-of-shapesh",
+  "CROOK AND FLAIL OF RADIANCE": "crook-and-flail-of-radiance",
+  "CROWN OF KINGS": "crown-of-kings",
+  "CURSE-WEAVER WAND": "curse-weaver-wand",
+  "DAGGER OF BOUND SOULS": "dagger-of-bound-souls",
+  "DESTROYER OF ETERNITIES": "destroyer-of-eternities",
+  "ENKHIL'S KANOPI": "enkhils-kanopi",
+  "GAUNTLET OF HRAKLONESH": "gauntlet-of-hraklonesh",
+  "GOLDEN ANKHRA": "golden-ankhra",
+  "GOLDEN DEATH MASK OF KHARNUTT": "golden-death-mask-of-kharnutt",
+  "GOLDEN EYE OF RAH-NUTT": "golden-eye-of-rah-nutt",
+  "HIERATIC JAR": "hieratic-jar",
+  "ICON OF RAKAPH": "icon-of-rakaph",
+  "ICON OF RULERSHIP": "icon-of-rulership",
+  "ICON OF THE SACRED EYE": "icon-of-the-sacred-eye",
+  "KARITAMEN'S DEATH MASK": "karitamens-death-mask",
+  "MIRAGE STANDARD": "mirage-standard",
+  "NEFERRA'S SCROLLS OF MIGHTY INCANTATIONS": "neferras-scrolls-of-mighty-incantations",
+  "ORB OF PTRA": "orb-of-ptra",
+  "PHAKTH'S BLADES OF JUSTICE": "phakths-blades-of-justice",
+  "PHAZERAKT'S KANOPI": "phazerakts-kanopi",
+  "RELIC OF THE DESERT SUN": "relic-of-the-desert-sun",
+  "ROYAL MANTLE": "royal-mantle",
+  "ROYAL STANDARD OF SETTRA": "royal-standard-of-settra",
+  "SCARAB BROOCH": "scarab-brooch",
+  "SCORPION ARMOUR": "scorpion-armour",
+  "SERPENT STAFF": "serpent-staff",
+  "SHIELD OF PTRA": "shield-of-ptra",
+  "SIGIL OF CENTURIES": "sigil-of-centuries",
+  "SPEAR OF ANTARHAK": "spear-of-antarhak",
+  "STAFF OF AEONS": "staff-of-aeons",
+  "STAFF OF AWAKENING": "staff-of-awakening",
+  "STAFF OF MASTERY": "staff-of-mastery",
+  "STAFF OF OSIRIS": "staff-of-osiris",
+  "STAFF OF RAVENING": "staff-of-ravening",
+  "STANDARD OF THE CURSING WORD": "standard-of-the-cursing-word",
+  "STANDARD OF THE SANDS": "standard-of-the-sands",
+  "STANDARD OF THE UNDYING LEGION": "standard-of-the-undying-legion",
+  "TABLET OF TAHOTH": "tablet-of-tahoth",
+  "TAPESTRY OF CONQUERED LANDS": "tapestry-of-conquered-lands",
+  "THE CONQUEROR'S BLADE": "the-conquerors-blade",
+  "VAMBRACES OF THE SUN": "vambraces-of-the-sun",
+  "WARDING SPLINT": "warding-splint"
+ },
+ "lores": {
+  "THE LORE OF NEHEKHARA": "the-lore-of-nehekhara"
+ },
+ "profiles": {
+  "AMMUT": {
+   "Ammut": "ammut"
+  },
+  "ARKHAN THE BLACK": {
+   "Arkhan the Black": "arkhan-the-black"
+  },
+  "BASTETHI": {
+   "Bastethi": "bastethi"
+  },
+  "BONE THROWER": {
+   "Bone Thrower": "bone-thrower",
+   "Skeleton Crew": "skeleton-crew"
+  },
+  "CARRION": {
+   "Carrion": "carrion"
+  },
+  "CASKET OF SOULS": {
+   "Casket Guard": "casket-guard",
+   "Casket of Souls": "casket-of-souls",
+   "Keeper of the Casket": "keeper-of-the-casket"
+  },
+  "GRAND HIEROPHANT KHATEP": {
+   "Khatep": "khatep"
+  },
+  "HIEROTITAN": {
+   "Hierotitan": "hierotitan"
+  },
+  "HIGH QUEEN KHALIDA NEFERHER": {
+   "High Queen Khalida": "high-queen-khalida"
+  },
+  "KHEMRIAN WARSPHINX": {
+   "Khemrian Warsphinx": "khemrian-warsphinx",
+   "Tomb Guard Crew": "tomb-guard-crew"
+  },
+  "KHEMRIC TITAN": {
+   "Khemric Titan": "khemric-titan"
+  },
+  "LICHE PRIESTS": {
+   "Liche High Priest": "liche-high-priest",
+   "Liche Priest": "liche-priest"
+  },
+  "MUMMIES": {
+   "Mummy": "mummy"
+  },
+  "NECROLITH BONE DRAGON": {
+   "Necrolith Bone Dragon": "necrolith-bone-dragon"
+  },
+  "NECROLITH COLOSSUS": {
+   "Necrolith Colossus": "necrolith-colossus"
+  },
+  "NECROPOLIS KNIGHTS": {
+   "Necropolis Knight": "necropolis-knight",
+   "Necroserpent": "necroserpent"
+  },
+  "NECROSERPENT": {
+   "Necroserpent": "necroserpent"
+  },
+  "NECROSPHINX": {
+   "Necrosphinx": "necrosphinx"
+  },
+  "NECROTECTS": {
+   "Necrotect": "necrotect"
+  },
+  "PRINCE APOPHAS": {
+   "Prince Apophas": "prince-apophas"
+  },
+  "PRINCE TUTANKHANUT": {
+   "Tutankhanut": "tutankhanut"
+  },
+  "RAMHOTEP THE VISIONARY": {
+   "Ramhotep the Visionary": "ramhotep-the-visionary"
+  },
+  "SCREAMING SKULL CATAPULT": {
+   "Screaming Skull Catapult": "screaming-skull-catapult",
+   "Skeleton Crew": "skeleton-crew"
+  },
+  "SEHENESMET": {
+   "Sehenesmet": "sehenesmet"
+  },
+  "SEPULCHRAL STALKERS": {
+   "Sepulchral Stalker": "sepulchral-stalker"
+  },
+  "SETTRA THE IMPERISHABLE": {
+   "Chariot of the Gods": "chariot-of-the-gods",
+   "Settra the Imperishable": "settra-the-imperishable",
+   "Skeletal Steed": "skeletal-steed"
+  },
+  "SKELETAL STEED": {
+   "Skeletal Steed": "skeletal-steed"
+  },
+  "SKELETON ARCHERS": {
+   "Skeleton Archer": "skeleton-archer"
+  },
+  "SKELETON CHARIOT": {
+   "Skeletal Steed": "skeletal-steed",
+   "Skeleton Chariot": "skeleton-chariot"
+  },
+  "SKELETON CHARIOTS": {
+   "Skeletal Steed": "skeletal-steed",
+   "Skeleton Chariot": "skeleton-chariot",
+   "Skeleton Charioteer": "skeleton-charioteer"
+  },
+  "SKELETON HORSEMEN": {
+   "Skeletal Steed": "skeletal-steed",
+   "Skeleton Horseman": "skeleton-horseman"
+  },
+  "SKELETON SKIRMISHERS": {
+   "Skeleton Skirmisher": "skeleton-skirmisher"
+  },
+  "SKELETON WARRIORS": {
+   "Skeleton Warrior": "skeleton-warrior"
+  },
+  "THE HERALD NEKAPH": {
+   "The Herald Nekaph": "the-herald-nekaph"
+  },
+  "TOMB BARQUE": {
+   "Skeleton Crew": "skeleton-crew",
+   "Tomb Barque": "tomb-barque"
+  },
+  "TOMB GUARD": {
+   "Tomb Guard": "tomb-guard"
+  },
+  "TOMB GUARD CHARIOTS": {
+   "Skeletal Steed": "skeletal-steed",
+   "Skeleton Chariot": "skeleton-chariot",
+   "Tomb Guard Charioteer": "tomb-guard-charioteer"
+  },
+  "TOMB HERALDS": {
+   "Tomb Herald": "tomb-herald"
+  },
+  "TOMB MONARCHS": {
+   "Tomb King": "tomb-king",
+   "Tomb Prince": "tomb-prince"
+  },
+  "TOMB SCORPION": {
+   "Tomb Scorpion": "tomb-scorpion"
+  },
+  "TOMB SWARMS": {
+   "Tomb Swarm": "tomb-swarm"
+  },
+  "USHABTI": {
+   "Ushabti": "ushabti"
+  }
+ },
+ "rules": {
+  "ARROWS OF ASAPH": "arrows-of-asaph",
+  "BANNER OF THE KING": "banner-of-the-king",
+  "CURSE OF THE NECROPOLIS": "curse-of-the-necropolis",
+  "ENTOMBED BENEATH THE SANDS": "entombed-beneath-the-sands",
+  "INDOMITABLE": "indomitable",
+  "MY WILL BE DONE": "my-will-be-done",
+  "THE HIEROPHANT": "the-hierophant",
+  "UNDEAD": "undead"
+ },
+ "units": {
+  "AMMUT": "ammut",
+  "ARKHAN THE BLACK": "arkhan-the-black",
+  "BASTETHI": "bastethi",
+  "BONE THROWER": "bone-thrower",
+  "CARRION": "carrion",
+  "CASKET OF SOULS": "casket-of-souls",
+  "GRAND HIEROPHANT KHATEP": "grand-hierophant-khatep",
+  "HIEROTITAN": "hierotitan",
+  "HIGH QUEEN KHALIDA NEFERHER": "high-queen-khalida-neferher",
+  "KHEMRIAN WARSPHINX": "khemrian-warsphinx",
+  "KHEMRIC TITAN": "khemric-titan",
+  "LICHE PRIESTS": "liche-priests",
+  "MUMMIES": "mummies",
+  "NECROLITH BONE DRAGON": "necrolith-bone-dragon",
+  "NECROLITH COLOSSUS": "necrolith-colossus",
+  "NECROPOLIS KNIGHTS": "necropolis-knights",
+  "NECROSERPENT": "necroserpent",
+  "NECROSPHINX": "necrosphinx",
+  "NECROTECTS": "necrotects",
+  "PRINCE APOPHAS": "prince-apophas",
+  "PRINCE TUTANKHANUT": "prince-tutankhanut",
+  "RAMHOTEP THE VISIONARY": "ramhotep-the-visionary",
+  "SCREAMING SKULL CATAPULT": "screaming-skull-catapult",
+  "SEHENESMET": "sehenesmet",
+  "SEPULCHRAL STALKERS": "sepulchral-stalkers",
+  "SETTRA THE IMPERISHABLE": "settra-the-imperishable",
+  "SKELETAL STEED": "skeletal-steed",
+  "SKELETON ARCHERS": "skeleton-archers",
+  "SKELETON CHARIOT": "skeleton-chariot",
+  "SKELETON CHARIOTS": "skeleton-chariots",
+  "SKELETON HORSEMEN": "skeleton-horsemen",
+  "SKELETON SKIRMISHERS": "skeleton-skirmishers",
+  "SKELETON WARRIORS": "skeleton-warriors",
+  "THE HERALD NEKAPH": "the-herald-nekaph",
+  "TOMB BARQUE": "tomb-barque",
+  "TOMB GUARD": "tomb-guard",
+  "TOMB GUARD CHARIOTS": "tomb-guard-chariots",
+  "TOMB HERALDS": "tomb-heralds",
+  "TOMB MONARCHS": "tomb-monarchs",
+  "TOMB SCORPION": "tomb-scorpion",
+  "TOMB SWARMS": "tomb-swarms",
+  "USHABTI": "ushabti"
+ },
+ "upgrades": {}
+}
