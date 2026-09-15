@@ -78,11 +78,11 @@ Each Hit from a grenade launching blunderbuss is multiplied into D6 Hits.
 #minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (3), Quick Shot, Rapid Fire"))
 
 #note[_A repeater pistol can be used in combination with a regular pistol as a brace of pistols, in which case they fire Multiple Shots (4), but do not have Rapid Fire._]
-]
 
 #namecost("FULL PLATE", "")
 
 Models with heavy armor only. The model gains a +1 modifier to their armour save.
+]
 
 = THE CULT OF ULRIC
 
