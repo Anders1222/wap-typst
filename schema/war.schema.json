@@ -1,0 +1,378 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://anders1222.github.io/warhammer-armies-revamped/schema/war.schema.json",
+ "title": "Warhammer Armies Revamped bundle, formatVersion 2",
+ "description": "The edition as one JSON file for the army builder: the rulebook, the composition rules as data, and every faction with its records. docs/format.md describes the fields; this schema is what `python export.py --check` validates the file against. It is written to the keyword subset exporter/schema.py implements, so that the gate needs no dependency.",
+ "type": "object",
+ "required": ["formatVersion", "system", "version", "source", "rulebook", "composition", "factions"],
+ "additionalProperties": false,
+ "properties": {
+  "formatVersion": {"const": 2},
+  "system": {"const": "war"},
+  "version": {"type": "string"},
+  "source": {"type": ["string", "null"], "description": "The git commit the file was exported from."},
+  "rulebook": {"$ref": "#/$defs/rulebook"},
+  "composition": {"$ref": "#/$defs/composition"},
+  "factions": {
+   "type": "object",
+   "patternProperties": {"^[a-z0-9-]+$": {"$ref": "#/$defs/faction"}},
+   "additionalProperties": false
+  }
+ },
+ "$defs": {
+  "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+  "nullableId": {"type": ["string", "null"], "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+  "points": {"type": ["number", "null"]},
+
+  "rulebook": {
+   "type": "object",
+   "description": "Unchanged from formatVersion 1: the whole book as a heading tree, with the parts the builder wants lifted out.",
+   "required": ["name", "version", "rules", "items", "lores", "weapons", "chapters"],
+   "properties": {
+    "name": {"type": "string"},
+    "version": {"type": "string"},
+    "rules": {"type": "object", "additionalProperties": {"type": "string"}},
+    "items": {"type": "array", "items": {"$ref": "#/$defs/item"}},
+    "lores": {"type": "array", "items": {"$ref": "#/$defs/lore"}},
+    "weapons": {"type": "array", "items": {"type": "object"}},
+    "chapters": {"type": "array", "items": {"$ref": "#/$defs/chapter"}}
+   }
+  },
+  "chapter": {
+   "type": "object",
+   "required": ["title", "level", "text", "heads", "children"],
+   "properties": {
+    "title": {"type": "string"},
+    "level": {"type": "integer"},
+    "text": {"type": "string"},
+    "heads": {"type": "array", "items": {"$ref": "#/$defs/head"}},
+    "children": {"type": "array", "items": {"$ref": "#/$defs/chapter"}}
+   }
+  },
+  "head": {
+   "type": "object",
+   "required": ["name", "text"],
+   "properties": {
+    "name": {"type": "string"},
+    "text": {"type": "string"},
+    "cost": {"type": "string"},
+    "tables": {
+     "type": "array",
+     "description": "Each table of the head's text, as rows of cells.",
+     "items": {"type": "array", "items": {"type": "array", "items": {"type": "string"}}}
+    }
+   }
+  },
+
+  "composition": {
+   "type": "object",
+   "description": "CHOOSING YOUR ARMY as data. A value the chapter does not state is absent. `sources` holds the sentence each value was read from.",
+   "required": ["pointsCategories"],
+   "additionalProperties": false,
+   "properties": {
+    "pointsCategories": {
+     "type": "object",
+     "additionalProperties": false,
+     "patternProperties": {
+      "^(characters|lords|heroes|core|special|rare)$": {
+       "type": "object",
+       "additionalProperties": false,
+       "properties": {
+        "maxPercent": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+        "minPercent": {"type": "number", "minimum": 0, "maximum": 1},
+        "expendable": {
+         "type": "object",
+         "required": ["requiresOtherCore"],
+         "properties": {"requiresOtherCore": {"type": "integer", "minimum": 1}}
+        }
+       }
+      }
+     }
+    },
+    "singleUnitMaxPercent": {"type": "number", "minimum": 0, "maximum": 1},
+    "general": {"type": "object", "properties": {"required": {"type": "boolean"}}},
+    "battleStandard": {"type": "object", "properties": {"max": {"type": "integer"}}},
+    "specialCharacters": {"type": "object", "properties": {"maxEach": {"type": "integer"}}},
+    "duplicates": {
+     "type": "object",
+     "additionalProperties": false,
+     "patternProperties": {
+      "^(special|rare|core|characters)$": {
+       "type": "object",
+       "required": ["bands", "beyond"],
+       "properties": {
+        "bands": {
+         "type": "array",
+         "minItems": 1,
+         "items": {
+          "type": "object",
+          "required": ["minPoints", "maxPoints", "max"],
+          "properties": {
+           "minPoints": {"type": "integer"},
+           "maxPoints": {"type": "integer"},
+           "max": {"type": "integer"}
+          }
+         }
+        },
+        "beyond": {
+         "type": ["object", "null"],
+         "required": ["everyPoints", "add"],
+         "properties": {"everyPoints": {"type": "integer"}, "add": {"type": "integer"}}
+        }
+       }
+      }
+     }
+    },
+    "sources": {"type": "object", "additionalProperties": {"type": "string"}}
+   }
+  },
+
+  "faction": {
+   "type": "object",
+   "required": ["id", "name", "version", "align", "rules", "items", "upgrades", "lores", "prose", "units"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "name": {"type": "string"},
+    "version": {"type": "string"},
+    "align": {"type": ["string", "null"]},
+    "rules": {"type": "array", "items": {"$ref": "#/$defs/rule"}},
+    "items": {"type": "array", "items": {"$ref": "#/$defs/item"}},
+    "upgrades": {"type": "array", "items": {"$ref": "#/$defs/upgrade"}},
+    "lores": {"type": "array", "items": {"$ref": "#/$defs/lore"}},
+    "prose": {"type": "array", "items": {"$ref": "#/$defs/head"}},
+    "composition": {
+     "type": "object",
+     "required": ["unitConstraints"],
+     "additionalProperties": false,
+     "properties": {
+      "unitConstraints": {"type": "array", "items": {"$ref": "#/$defs/unitConstraint"}}
+     }
+    },
+    "units": {"type": "array", "items": {"$ref": "#/$defs/unit"}}
+   }
+  },
+  "rule": {
+   "type": "object",
+   "required": ["id", "name", "text"],
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "name": {"type": "string"},
+    "text": {"type": "string"},
+    "cost": {"type": "string"},
+    "tables": {"type": "array"}
+   }
+  },
+  "item": {
+   "type": "object",
+   "required": ["category", "name", "cost", "type", "only", "bound", "oneUse", "common", "chapter", "text"],
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "category": {"type": "string"},
+    "name": {"type": "string"},
+    "cost": {"type": ["integer", "number", "string", "null", "array"]},
+    "type": {"type": ["string", "null"]},
+    "only": {"type": ["string", "null"]},
+    "bound": {"description": "A bound spell: its level, or the spell record, as the template gives it."},
+    "oneUse": {"type": "boolean"},
+    "common": {"type": "boolean"},
+    "chapter": {"type": "string"},
+    "text": {"type": "string"}
+   }
+  },
+  "upgrade": {
+   "type": "object",
+   "required": ["id", "chapter", "group", "name", "cost", "only", "bound", "oneUse", "text"],
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "chapter": {"type": "string"},
+    "group": {"type": ["string", "null"]},
+    "name": {"type": "string"},
+    "cost": {"type": ["integer", "number", "string", "null", "array"]},
+    "only": {"type": ["string", "null"]},
+    "bound": {"description": "A bound spell: its level, or the spell record, as the template gives it."},
+    "oneUse": {"type": "boolean"},
+    "text": {"type": "string"}
+   }
+  },
+  "lore": {
+   "type": "object",
+   "required": ["name", "spells"],
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "name": {"type": "string"},
+    "spells": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": ["name", "level", "cast", "text"],
+      "properties": {
+       "name": {"type": "string"},
+       "level": {"type": ["string", "integer"]},
+       "cast": {"type": ["string", "integer", "null"]},
+       "text": {"type": "string"}
+      }
+     }
+    }
+   }
+  },
+
+  "profile": {
+   "type": "object",
+   "required": ["name", "M", "WS", "BS", "S", "T", "W", "I", "A", "Ld", "points", "id"],
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "name": {"type": "string"},
+    "M": {"type": ["integer", "string", "null"]},
+    "WS": {"type": ["integer", "string", "null"]},
+    "BS": {"type": ["integer", "string", "null"]},
+    "S": {"type": ["integer", "string", "null"]},
+    "T": {"type": ["integer", "string", "null"]},
+    "W": {"type": ["integer", "string", "null"]},
+    "I": {"type": ["integer", "string", "null"]},
+    "A": {"type": ["integer", "string", "null"]},
+    "Ld": {"type": ["integer", "string", "null"]},
+    "points": {"type": ["integer", "number", "string", "null"]}
+   }
+  },
+  "namedRule": {
+   "type": "object",
+   "required": ["name", "text"],
+   "properties": {"name": {"type": "string"}, "text": {"type": "string"}}
+  },
+  "option": {
+   "type": "object",
+   "description": "formatVersion 1: one printed option line, the price parsed off its end.",
+   "required": ["raw", "text"],
+   "properties": {
+    "raw": {"type": "string"},
+    "text": {"type": "string"},
+    "cost": {"type": "number"},
+    "perModel": {"type": "boolean"},
+    "limit": {"type": "integer"},
+    "sub": {"type": "array", "items": {"$ref": "#/$defs/option"}}
+   }
+  },
+  "unit": {
+   "type": "object",
+   "description": "The formatVersion 1 record with its camelCased fields, and the formatVersion 2 fields beside them. Fields other than those listed are the template's UNIT_FIELDS in camelCase (unitSize, troopType, mount, crew, baseSize, equipment, magic, specialRules, upgrades, options, notes, the *Body companions and the book-specific gift lists), each a string, a list of strings, a list of named rules, or option lines.",
+   "required": ["id", "name", "chapter", "category", "section", "tier", "named", "profiles", "optionGroups"],
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "name": {"type": "string"},
+    "chapter": {"type": "string"},
+    "category": {"type": "string"},
+    "section": {"type": ["string", "null"], "enum": ["characters", "core", "special", "rare", "mounts", null]},
+    "tier": {"type": ["string", "null"], "enum": ["lord", "hero", null]},
+    "named": {"type": "boolean"},
+    "subtitle": {"type": "string"},
+    "solo": {"type": "boolean"},
+    "compact": {"type": "boolean"},
+    "profiles": {"type": "array", "items": {"$ref": "#/$defs/profile"}},
+    "unitSize": {"type": "string"},
+    "unitSizeParsed": {
+     "type": "object",
+     "required": ["min", "max"],
+     "additionalProperties": false,
+     "properties": {"min": {"type": "integer", "minimum": 0}, "max": {"type": ["integer", "null"], "minimum": 0}}
+    },
+    "equipment": {"type": ["string", "array"]},
+    "equipmentList": {"type": "array", "items": {"type": "string"}},
+    "specialRules": {"type": ["string", "array"]},
+    "specialRulesList": {"type": "array", "items": {"type": "string"}},
+    "options": {
+     "anyOf": [
+      {"type": "string"},
+      {"type": "array", "items": {"$ref": "#/$defs/option"}}
+     ]
+    },
+    "optionGroups": {"type": "array", "items": {"$ref": "#/$defs/optionGroup"}},
+    "notes": {"type": ["string", "array"]}
+   }
+  },
+
+  "optionGroup": {
+   "type": "object",
+   "description": "One printed option line, typed. A menu head's choices are the lines under it; any other line is a group of one choice, itself.",
+   "required": ["id", "kind", "select", "min", "max", "appliesTo", "raw", "choices"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "kind": {
+     "type": "string",
+     "enum": ["equipment", "mount", "command", "magicStandard", "magicItems", "battleStandard", "wizardLevel", "factionUpgrade", "specialRule", "upgrade"]
+    },
+    "select": {"type": "string", "enum": ["one", "any", "count"]},
+    "min": {"type": "integer", "minimum": 0},
+    "max": {"type": ["integer", "null"], "minimum": 0},
+    "appliesTo": {"$ref": "#/$defs/nullableId"},
+    "raw": {"type": "string"},
+    "condition": {"type": "string", "description": "A parenthetical that conditions the line and names no profile: \"if armed with heavy lances\"."},
+    "role": {"type": "string", "enum": ["champion", "musician", "standardBearer"]},
+    "pointsLimit": {"type": ["integer", "null"]},
+    "itemTypes": {"type": ["array", "null"], "items": {"type": "string", "enum": ["weapon", "armour", "talisman", "arcane", "enchanted", "standard"]}},
+    "families": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+    "points": {"$ref": "#/$defs/points"},
+    "family": {"$ref": "#/$defs/id"},
+    "rule": {"type": ["string", "null"]},
+    "unclassified": {"const": true},
+    "choices": {"type": "array", "items": {"$ref": "#/$defs/choice"}}
+   }
+  },
+  "choice": {
+   "type": "object",
+   "required": ["id", "name", "points", "perModel", "raw"],
+   "additionalProperties": false,
+   "properties": {
+    "id": {"$ref": "#/$defs/id"},
+    "name": {"type": "string"},
+    "points": {"$ref": "#/$defs/points"},
+    "perModel": {"type": "boolean"},
+    "per": {"type": "string", "description": "\"+6 points/Crew\": what the price is per, when it is not the model."},
+    "raw": {"type": "string"},
+    "appliesTo": {"$ref": "#/$defs/id"},
+    "condition": {"type": "string"},
+    "replaces": {"type": "string"},
+    "level": {"type": ["integer", "null"]},
+    "levelDelta": {"type": "integer"},
+    "rule": {"type": "string"},
+    "unitId": {"$ref": "#/$defs/id", "description": "A mount choice that names a unit of the book."},
+    "min": {"type": "integer", "minimum": 0},
+    "max": {"type": ["integer", "null"]},
+    "everyModels": {"type": "integer", "minimum": 1},
+    "options": {"type": "array", "items": {"$ref": "#/$defs/optionGroup"}}
+   }
+  },
+
+  "unitConstraint": {
+   "type": "object",
+   "required": ["type", "unitIds", "raw"],
+   "additionalProperties": false,
+   "properties": {
+    "type": {"type": "string", "enum": ["max", "perSlot", "ratio", "general", "handlers"]},
+    "unitIds": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/id"}},
+    "raw": {"type": "string"},
+    "profileId": {"$ref": "#/$defs/id"},
+    "max": {"type": "integer", "minimum": 0},
+    "perSlot": {
+     "type": "object",
+     "required": ["min", "max"],
+     "properties": {"min": {"type": "integer"}, "max": {"type": "integer"}}
+    },
+    "section": {"type": "string"},
+    "perUnit": {"type": "boolean"},
+    "requires": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+    "requiresNames": {"type": "array", "items": {"type": "string"}},
+    "requiresAny": {"type": "boolean"},
+    "requiresRule": {"type": "string"},
+    "mustBeGeneral": {"type": "boolean"},
+    "mayBeGeneral": {"type": "boolean"},
+    "handlers": {
+     "type": "object",
+     "required": ["name", "per"],
+     "properties": {"name": {"type": "string"}, "per": {"type": "integer", "minimum": 1}}
+    }
+   }
+  }
+ }
+}

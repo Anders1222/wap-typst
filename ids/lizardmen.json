@@ -1,0 +1,874 @@
+{
+ "choices": {
+  "AGGRADON RIDERS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ARCANADON": {
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   }
+  },
+  "BASTILADON": {
+   "additional-skink": {
+    "additional Skink": "additional-skink"
+   },
+   "ark-of-sotek": {
+    "Revivification Crystal": "revivification-crystal",
+    "Solar Engine": "solar-engine"
+   },
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   }
+  },
+  "CARNOSAUR": {
+   "upgrade": {
+    "Bloodroar": "bloodroar",
+    "Loping Stride": "loping-stride"
+   }
+  },
+  "CHAMELEON SKINKS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "slings-and-shields": {
+    "slings & shields": "slings-and-shields"
+   }
+  },
+  "CHAMELEON STALKER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "shields": {
+    "Javelins & shield": "javelins-and-shield",
+    "Sling & shield": "sling-and-shield"
+   }
+  },
+  "COLD ONE RIDERS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DREAD SAURIAN": {
+   "howdah": {
+    "Howdah": "howdah"
+   },
+   "upgrade": {
+    "Quetzl's Flawless Heartstone": "quetzls-flawless-heartstone",
+    "Tepok's Crystalline Eye": "tepoks-crystalline-eye",
+    "The Blazing Configuration of Chotec": "the-blazing-configuration-of-chotec",
+    "The Golden Shroud of Tlazcotl": "the-golden-shroud-of-tlazcotl",
+    "The Shadow Rebus of Huanchi": "the-shadow-rebus-of-huanchi"
+   }
+  },
+  "HORNED ONE RIDERS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KROXIGOR ANCIENT": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "war-gauntlets": {
+    "war gauntlets": "war-gauntlets"
+   }
+  },
+  "KROXIGORS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "war-gauntlets": {
+    "war gauntlets": "war-gauntlets"
+   }
+  },
+  "LORD KROAK": {
+   "skink-attendant": {
+    "Skink Attendant": "skink-attendant"
+   }
+  },
+  "OXYOTL": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "RAPTADON RIDERS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   },
+   "javelins": {
+    "javelins": "javelins"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RIPPERDACTYL RIDERS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "SAURUS LEADERS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-oldblood": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-scar-veteran": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Aggradon": "aggradon",
+    "Carnosaur": "carnosaur",
+    "Cold One": "cold-one",
+    "Horned One": "horned-one"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "SAURUS WARRIORS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKINK CHIEFS": {
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-chief": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-high-chief": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Blowpipe": "blowpipe",
+    "Javelins": "javelins",
+    "Shortbow": "shortbow",
+    "Sling": "sling"
+   },
+   "mount": {
+    "Horned One": "horned-one",
+    "Raptadon": "raptadon",
+    "Ripperdactyl": "ripperdactyl",
+    "Stegadon": "stegadon",
+    "Terradon": "terradon"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "SKINK COHORT": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Spears": "spears",
+    "shortbows": "shortbows"
+   },
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKINK PRIESTS": {
+   "magic-items-high-priest": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-priest": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Coatl": "coatl",
+    "Stegadon with an Engine of the Gods": "stegadon-with-an-engine-of-the-gods",
+    "Terradon": "terradon",
+    "Troglodon": "troglodon"
+   },
+   "wizard-level": {
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  },
+  "SKINK SKIRMISHERS": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "Javelins & shields": "javelins-and-shields",
+    "Slings & shields": "slings-and-shields"
+   }
+  },
+  "SLANN MAGE-PRIEST": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "upgrade": {
+    "Skink Attendant": "skink-attendant",
+    "Temple Guard Palanquin": "temple-guard-palanquin"
+   }
+  },
+  "STEGADON": {
+   "equipment": {
+    "Engine of the Gods": "engine-of-the-gods",
+    "Giant blowpipes": "giant-blowpipes"
+   },
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   },
+   "upgrade": {
+    "Ancient": "ancient",
+    "Sharpened Horns": "sharpened-horns",
+    "Unstoppable Stampede": "unstoppable-stampede"
+   }
+  },
+  "TEHENHAUIN": {
+   "mount": {
+    "Stegadon with an Engine of the Gods": "stegadon-with-an-engine-of-the-gods"
+   }
+  },
+  "TEMPLE GUARD": {
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TERRADON RIDERS": {
+   "additional-skink": {
+    "additional Skink": "additional-skink"
+   },
+   "blessed-spawnings": {
+    "Blessed Spawning": "blessed-spawning"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Fireleech bolas": "fireleech-bolas",
+    "Javelins": "javelins",
+    "Shortbows": "shortbows"
+   },
+   "firefly-frog-venom": {
+    "Firefly Frog Venom": "firefly-frog-venom"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  }
+ },
+ "groups": {
+  "AGGRADON RIDERS": {
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May take light lances": "light-lances",
+   "May upgrade one Aggradon Rider to a Leader": "champion",
+   "May upgrade one Aggradon Rider to a Musician": "musician",
+   "May upgrade one Aggradon Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Aggradon Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "ARCANADON": {
+   "May take Firefly Frog Venom": "firefly-frog-venom"
+  },
+  "BASTILADON": {
+   "May replace the Ark of Sotek with one of the following:": "ark-of-sotek",
+   "May take Firefly Frog Venom": "firefly-frog-venom",
+   "May take an additional Skink": "additional-skink"
+  },
+  "CARNOSAUR": {
+   "May choose any of the following:": "upgrade"
+  },
+  "CHAMELEON SKINKS": {
+   "May replace blowpipes with slings & shields": "slings-and-shields",
+   "May take Firefly Frog Venom": "firefly-frog-venom",
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May upgrade one Chameleon Skink to a Leader": "champion",
+   "May upgrade one Chameleon Skink to a Musician": "musician"
+  },
+  "CHAMELEON STALKER": {
+   "May replace blowpipe with one of the following:": "shields",
+   "May take Blessed Spawnings and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "COLD ONE RIDERS": {
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May take light lances": "light-lances",
+   "May upgrade one Cold One Rider to a Leader": "champion",
+   "May upgrade one Cold One Rider to a Musician": "musician",
+   "May upgrade one Cold One Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Cold One Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "DREAD SAURIAN": {
+   "May choose one of the following:": "upgrade",
+   "May take a Howdah": "howdah"
+  },
+  "HORNED ONE RIDERS": {
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May upgrade one Great Crested Skink to a Leader": "champion",
+   "May upgrade one Great Crested Skink to a Musician": "musician",
+   "May upgrade one Great Crested Skink to a Standard Bearer": "standard-bearer",
+   "May upgrade one Great Crested Skink to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "KROXIGOR ANCIENT": {
+   "May replace great weapons with war gauntlets": "war-gauntlets",
+   "May take Blessed Spawnings and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "KROXIGORS": {
+   "May replace great weapons with war gauntlets": "war-gauntlets",
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May upgrade one Kroxigor to a Leader": "champion"
+  },
+  "LORD KROAK": {
+   "May have a Skink Attendant": "skink-attendant"
+  },
+  "OXYOTL": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "RAPTADON RIDERS": {
+   "May replace light lances with javelins": "javelins",
+   "May take Firefly Frog Venom": "firefly-frog-venom",
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May upgrade one Raptadon Rider to a Leader": "champion",
+   "May upgrade one Raptadon Rider to a Musician": "musician",
+   "May upgrade one Raptadon Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Raptadon Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "RIPPERDACTYL RIDERS": {
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May upgrade one Ripperdactyl Rider to a Leader": "champion"
+  },
+  "SAURUS LEADERS": {
+   "A Scar-Veteran may take Blessed Spawnings and/or Magic Items up to a total of 50 points": "magic-items-scar-veteran",
+   "An Oldblood may take Blessed Spawnings and/or Magic Items up to a total of 100 points": "magic-items-oldblood",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take Blessed Spawnings and/or Magic Items up to a total of 100 points": "magic-items",
+   "May take a shield": "shield",
+   "May take light armour": "light-armour",
+   "One Scar-Veteran may carry the Battle Standard": "battle-standard"
+  },
+  "SAURUS WARRIORS": {
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May take spears": "spears",
+   "May upgrade one Saurus Warrior to a Leader": "champion",
+   "May upgrade one Saurus Warrior to a Musician": "musician",
+   "May upgrade one Saurus Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Saurus Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SKINK CHIEFS": {
+   "A Chief may take Blessed Spawnings and/or Magic Items up to a total of 50 points": "magic-items-chief",
+   "A High Chief may take Blessed Spawnings and/or Magic Items up to a total of 100 points": "magic-items-high-chief",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take Firefly Frog Venom": "firefly-frog-venom",
+   "May take a shield": "shield",
+   "May take light armour": "light-armour"
+  },
+  "SKINK COHORT": {
+   "May choose one of the following:": "equipment",
+   "May take Firefly Frog Venom": "firefly-frog-venom",
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May upgrade one Skink to a Leader": "champion",
+   "May upgrade one Skink to a Musician": "musician",
+   "May upgrade one Skink to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skink to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKINK PRIESTS": {
+   "A High Priest may take Blessed Spawnings and/or Magic Items up to a total of 100 points": "magic-items-high-priest",
+   "A Priest may take Blessed Spawnings and/or Magic Items up to a total of 50 points": "magic-items-priest",
+   "A Skink Priest may be upgraded to Level 2 Wizard": "wizard-level",
+   "May be mounted on one of the following:": "mount"
+  },
+  "SKINK SKIRMISHERS": {
+   "May replace blowpipes with one of the following:": "shields",
+   "May take Firefly Frog Venom": "firefly-frog-venom",
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May upgrade one Skink to a Leader": "champion",
+   "May upgrade one Skink to a Musician": "musician"
+  },
+  "SLANN MAGE-PRIEST": {
+   "May choose one of the following:": "upgrade",
+   "May take Magic Items and/or Disciplines of the Old Ones up to a total of 100 points": "magic-items",
+   "One Slann Mage-Priest may carry the Battle Standard": "battle-standard"
+  },
+  "STEGADON": {
+   "May choose any of the following:": "upgrade",
+   "May replace giant bow with one of the following:": "equipment",
+   "May take Firefly Frog Venom": "firefly-frog-venom"
+  },
+  "TEHENHAUIN": {
+   "May be mounted on a Stegadon with an Engine of the Gods (replacing one of the crew)": "mount"
+  },
+  "TEMPLE GUARD": {
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May take light armour": "light-armour",
+   "May upgrade one Temple Guard to a Leader": "champion",
+   "May upgrade one Temple Guard to a Musician": "musician",
+   "May upgrade one Temple Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Temple Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "TERRADON RIDERS": {
+   "May replace light lances with one of the following:": "equipment",
+   "May take Firefly Frog Venom": "firefly-frog-venom",
+   "May take a Blessed Spawning": "blessed-spawnings",
+   "May take an additional Skink": "additional-skink",
+   "May take shields": "shields",
+   "May upgrade one Terradon Rider to a Leader": "champion"
+  }
+ },
+ "items": {
+  "AMULET OF ITZL": "amulet-of-itzl",
+  "AURA OF QUETZL": "aura-of-quetzl",
+  "BANE HEAD": "bane-head",
+  "BLADE OF REALITIES": "blade-of-realities",
+  "BLADE OF REVERED TZUNKI": "blade-of-revered-tzunki",
+  "BLOOD STATUETTE OF SPITE": "blood-statuette-of-spite",
+  "BURNING BLADE OF CHOTEC": "burning-blade-of-chotec",
+  "CARNOSAUR PENDANT": "carnosaur-pendant",
+  "CHARM OF THE JAGUAR WARRIOR": "charm-of-the-jaguar-warrior",
+  "CLOTH OF CHOTEC": "cloth-of-chotec",
+  "COATL FAMILIAR": "coatl-familiar",
+  "CORONAL SHIELD": "coronal-shield",
+  "CRYSTALLINE SKULL": "crystalline-skull",
+  "CUBE OF DARKNESS": "cube-of-darkness",
+  "CUPPED HANDS OF THE OLD ONES": "cupped-hands-of-the-old-ones",
+  "CURSE-CHARM OF TEPOK": "curse-charm-of-tepok",
+  "DAGGER OF SOTEK": "dagger-of-sotek",
+  "DIADEM OF POWER": "diadem-of-power",
+  "DIVINE PLAQUE OF PROTECTION": "divine-plaque-of-protection",
+  "DRAGONFLY OF QUICKSILVER": "dragonfly-of-quicksilver",
+  "GLEAMING PENDANT OF CHOTEC": "gleaming-pendant-of-chotec",
+  "GLYPH NECKLACE": "glyph-necklace",
+  "HIDE OF THE COLD ONES": "hide-of-the-cold-ones",
+  "HUANCHI'S BLESSED TOTEM": "huanchis-blessed-totem",
+  "INCANDESCENT RECTRICES": "incandescent-rectrices",
+  "PLAQUE OF DOMINION": "plaque-of-dominion",
+  "PLAQUE OF FATE": "plaque-of-fate",
+  "PLAQUE OF TEPEE": "plaque-of-tepee",
+  "PLAQUE OF TEPOK": "plaque-of-tepok",
+  "PLAQUE OF XOLOC": "plaque-of-xoloc",
+  "PRISM OF AMYNTOK": "prism-of-amyntok",
+  "RELOCATION ORB": "relocation-orb",
+  "ROD OF THE STORM": "rod-of-the-storm",
+  "SACRED STEGADON HELM OF ITZA": "sacred-stegadon-helm-of-itza",
+  "SCIMITAR OF THE SUN RESPLENDENT": "scimitar-of-the-sun-resplendent",
+  "SHIELD OF CHAQUA": "shield-of-chaqua",
+  "SHIELD OF THE MIRRORED POOL": "shield-of-the-mirrored-pool",
+  "SIGN OF SOTEK": "sign-of-sotek",
+  "SKAVENPELT BANNER": "skavenpelt-banner",
+  "SOTEK'S GAZE": "soteks-gaze",
+  "STAFF OF SOTEK": "staff-of-sotek",
+  "STAFF OF THE LOST SUN": "staff-of-the-lost-sun",
+  "STAR TABLET": "star-tablet",
+  "STEGADON WAR-SPEAR": "stegadon-war-spear",
+  "SUN STANDARD OF CHOTEC": "sun-standard-of-chotec",
+  "SWORD OF THE HORNET": "sword-of-the-hornet",
+  "THE CLOAK OF FEATHERS": "the-cloak-of-feathers",
+  "THE EGG OF QUANGO": "the-egg-of-quango",
+  "THE HORN OF KYGOR": "the-horn-of-kygor",
+  "THE INCANTATION OF XETLIPOCUTZL": "the-incantation-of-xetlipocutzl",
+  "THE JAGUAR STANDARD": "the-jaguar-standard",
+  "THE LASH OF ITZAOTYL": "the-lash-of-itzaotyl",
+  "THE MAIMING SHIELD": "the-maiming-shield",
+  "THE PIRANHA BLADE": "the-piranha-blade",
+  "THE TETRAGON OF TECTONIC DISPLACEMENT": "the-tetragon-of-tectonic-displacement",
+  "THRONE OF THE LOST GODS": "throne-of-the-lost-gods",
+  "TOTEM OF PROPHECY": "totem-of-prophecy",
+  "WAR DRUM OF XAHUTEC": "war-drum-of-xahutec",
+  "ZOETIC DIAL": "zoetic-dial"
+ },
+ "lores": {
+  "SPECIAL CHARACTERS": "special-characters",
+  "THE LORE OF GEOMANCY": "the-lore-of-geomancy"
+ },
+ "profiles": {
+  "AGGRADON": {
+   "Aggradon": "aggradon"
+  },
+  "AGGRADON RIDERS": {
+   "Aggradon": "aggradon",
+   "Saurus": "saurus"
+  },
+  "ANCIENT SALAMANDER": {
+   "Ancient Salamander": "ancient-salamander",
+   "Skink": "skink"
+  },
+  "ARCANADON": {
+   "Arcanadon": "arcanadon",
+   "Skink": "skink"
+  },
+  "BASTILADON": {
+   "Bastiladon": "bastiladon",
+   "Skink": "skink"
+  },
+  "CARNOSAUR": {
+   "Carnosaur": "carnosaur"
+  },
+  "CHAKAX": {
+   "Chakax": "chakax"
+  },
+  "CHAMELEON SKINKS": {
+   "Chameleon Skink": "chameleon-skink"
+  },
+  "CHAMELEON STALKER": {
+   "Stalker": "stalker"
+  },
+  "COATL": {
+   "Coatl": "coatl"
+  },
+  "COLD ONE": {
+   "Cold One": "cold-one"
+  },
+  "COLD ONE RIDERS": {
+   "Cold One": "cold-one",
+   "Saurus": "saurus"
+  },
+  "DREAD SAURIAN": {
+   "Dread Saurian": "dread-saurian"
+  },
+  "GOR-ROK": {
+   "Gor-Rok": "gor-rok"
+  },
+  "HORNED ONE": {
+   "Horned One": "horned-one"
+  },
+  "HORNED ONE RIDERS": {
+   "Great Crested Skink": "great-crested-skink",
+   "Horned One": "horned-one"
+  },
+  "JUNGLE SWARMS": {
+   "Jungle Swarm": "jungle-swarm"
+  },
+  "KROQ-GAR": {
+   "Grymloq (Carnosaur)": "grymloq-carnosaur",
+   "Kroq-Gar": "kroq-gar"
+  },
+  "KROXIGOR ANCIENT": {
+   "Ancient": "ancient"
+  },
+  "KROXIGORS": {
+   "Kroxigor": "kroxigor"
+  },
+  "LORD KROAK": {
+   "Lord Kroak": "lord-kroak",
+   "Skink Attendant": "skink-attendant"
+  },
+  "LORD MAZDAMUNDI": {
+   "Lord Mazdamundi": "lord-mazdamundi",
+   "Zlaaq (Stegadon)": "zlaaq-stegadon"
+  },
+  "NAKAI THE WANDERER": {
+   "Nakai": "nakai"
+  },
+  "OXYOTL": {
+   "Oxyotl": "oxyotl"
+  },
+  "RAPTADON": {
+   "Raptadon": "raptadon"
+  },
+  "RAPTADON RIDERS": {
+   "Raptadon": "raptadon",
+   "Skink": "skink"
+  },
+  "RAZORDON": {
+   "Razordon": "razordon",
+   "Skink": "skink"
+  },
+  "RIPPERDACTYL": {
+   "Ripperdactyl": "ripperdactyl"
+  },
+  "RIPPERDACTYL RIDERS": {
+   "Ripperdactyl": "ripperdactyl",
+   "Skink Brave": "skink-brave"
+  },
+  "SALAMANDER": {
+   "Salamander": "salamander",
+   "Skink": "skink"
+  },
+  "SAURUS LEADERS": {
+   "Oldblood": "oldblood",
+   "Scar-Veteran": "scar-veteran"
+  },
+  "SAURUS WARRIORS": {
+   "Saurus Warrior": "saurus-warrior"
+  },
+  "SKINK CHIEFS": {
+   "Chief": "chief",
+   "High Chief": "high-chief"
+  },
+  "SKINK COHORT": {
+   "Skink": "skink"
+  },
+  "SKINK PRIESTS": {
+   "High Priest": "high-priest",
+   "Priest": "priest"
+  },
+  "SKINK SKIRMISHERS": {
+   "Skink": "skink"
+  },
+  "SLANN MAGE-PRIEST": {
+   "Skink Attendant": "skink-attendant",
+   "Slann Mage-Priest": "slann-mage-priest"
+  },
+  "STEGADON": {
+   "Skink Crew": "skink-crew",
+   "Stegadon": "stegadon"
+  },
+  "TEHENHAUIN": {
+   "Tehenhauin": "tehenhauin"
+  },
+  "TEMPLE GUARD": {
+   "Temple Guard": "temple-guard"
+  },
+  "TEMPLE GUARD PALANQUIN": {
+   "Temple Guard": "temple-guard"
+  },
+  "TERRADON": {
+   "Terradon": "terradon"
+  },
+  "TERRADON RIDERS": {
+   "Skink": "skink",
+   "Terradon": "terradon"
+  },
+  "TERRAWINGS": {
+   "Terrawing": "terrawing"
+  },
+  "TETTO'EKO": {
+   "Tetto'eko": "tettoeko"
+  },
+  "TIKTAQ'TO": {
+   "Tiktaq'to": "tiktaqto",
+   "Zwup (Terradon)": "zwup-terradon"
+  },
+  "TROGLODON": {
+   "Oracle": "oracle",
+   "Troglodon": "troglodon"
+  }
+ },
+ "rules": {
+  "BLOOD FRENZY": "blood-frenzy",
+  "CHAMELEON": "chameleon",
+  "FIREFLY FROG VENOM": "firefly-frog-venom",
+  "PREDATORY FIGHTER": "predatory-fighter",
+  "WAR GAUNTLETS": "war-gauntlets"
+ },
+ "units": {
+  "AGGRADON": "aggradon",
+  "AGGRADON RIDERS": "aggradon-riders",
+  "ANCIENT SALAMANDER": "ancient-salamander",
+  "ARCANADON": "arcanadon",
+  "BASTILADON": "bastiladon",
+  "CARNOSAUR": "carnosaur",
+  "CHAKAX": "chakax",
+  "CHAMELEON SKINKS": "chameleon-skinks",
+  "CHAMELEON STALKER": "chameleon-stalker",
+  "COATL": "coatl",
+  "COLD ONE": "cold-one",
+  "COLD ONE RIDERS": "cold-one-riders",
+  "DREAD SAURIAN": "dread-saurian",
+  "GOR-ROK": "gor-rok",
+  "HORNED ONE": "horned-one",
+  "HORNED ONE RIDERS": "horned-one-riders",
+  "JUNGLE SWARMS": "jungle-swarms",
+  "KROQ-GAR": "kroq-gar",
+  "KROXIGOR ANCIENT": "kroxigor-ancient",
+  "KROXIGORS": "kroxigors",
+  "LORD KROAK": "lord-kroak",
+  "LORD MAZDAMUNDI": "lord-mazdamundi",
+  "NAKAI THE WANDERER": "nakai-the-wanderer",
+  "OXYOTL": "oxyotl",
+  "RAPTADON": "raptadon",
+  "RAPTADON RIDERS": "raptadon-riders",
+  "RAZORDON": "razordon",
+  "RIPPERDACTYL": "ripperdactyl",
+  "RIPPERDACTYL RIDERS": "ripperdactyl-riders",
+  "SALAMANDER": "salamander",
+  "SAURUS LEADERS": "saurus-leaders",
+  "SAURUS WARRIORS": "saurus-warriors",
+  "SKINK CHIEFS": "skink-chiefs",
+  "SKINK COHORT": "skink-cohort",
+  "SKINK PRIESTS": "skink-priests",
+  "SKINK SKIRMISHERS": "skink-skirmishers",
+  "SLANN MAGE-PRIEST": "slann-mage-priest",
+  "STEGADON": "stegadon",
+  "TEHENHAUIN": "tehenhauin",
+  "TEMPLE GUARD": "temple-guard",
+  "TEMPLE GUARD PALANQUIN": "temple-guard-palanquin",
+  "TERRADON": "terradon",
+  "TERRADON RIDERS": "terradon-riders",
+  "TERRAWINGS": "terrawings",
+  "TETTO'EKO": "tettoeko",
+  "TIKTAQ'TO": "tiktaqto",
+  "TROGLODON": "troglodon"
+ },
+ "upgrades": {
+  "BECALMING COGITATION": "becalming-cogitation",
+  "BLESSED MARK OF THE OLD ONES": "blessed-mark-of-the-old-ones",
+  "BLESSED SPAWNING OF CHOTEC": "blessed-spawning-of-chotec",
+  "BLESSED SPAWNING OF HUANCHI": "blessed-spawning-of-huanchi",
+  "BLESSED SPAWNING OF ITZL": "blessed-spawning-of-itzl",
+  "BLESSED SPAWNING OF QUETZL": "blessed-spawning-of-quetzl",
+  "BLESSED SPAWNING OF SOTEK": "blessed-spawning-of-sotek",
+  "BLESSED SPAWNING OF TEPOK": "blessed-spawning-of-tepok",
+  "BLESSED SPAWNING OF TLAZCOTL": "blessed-spawning-of-tlazcotl",
+  "BLESSED SPAWNING OF TZUNKI": "blessed-spawning-of-tzunki",
+  "DEEP CONTEMPLATIONS": "deep-contemplations",
+  "FOCUS OF MYSTERY": "focus-of-mystery",
+  "HARMONIC ALIGNMENT": "harmonic-alignment",
+  "HIGHER STATE OF CONSCIOUSNESS": "higher-state-of-consciousness",
+  "RESERVOIR OF ELDRITCH ENERGY": "reservoir-of-eldritch-energy",
+  "SOUL OF STONE": "soul-of-stone",
+  "THE FOCUSED RUMINATION": "the-focused-rumination",
+  "THE HARROWING SCRUTINY": "the-harrowing-scrutiny",
+  "TRANSCENDENT HEALING": "transcendent-healing",
+  "UNFATHOMABLE PRESENCE": "unfathomable-presence",
+  "VAST INTELLECT": "vast-intellect",
+  "WANDERING DELIBERATIONS": "wandering-deliberations"
+ }
+}

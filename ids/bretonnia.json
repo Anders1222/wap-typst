@@ -1,0 +1,996 @@
+{
+ "choices": {
+  "ALBERIC OF BORDELEAUX": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Tempete": "tempete",
+    "Warhorse": "warhorse"
+   }
+  },
+  "BALLISTA": {
+   "additional-peasant-crew": {
+    "additional Peasant Crew": "additional-peasant-crew"
+   },
+   "wall-warden": {
+    "Wall Warden": "wall-warden"
+   }
+  },
+  "BATTLE PILGRIMS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "grail-reliquae": {
+    "Grail Reliquae": "grail-reliquae"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BIDOWERS": {
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "slings": {
+    "slings": "slings"
+   }
+  },
+  "BOMBARD": {
+   "additional-peasant-crew": {
+    "additional Peasant Crew": "additional-peasant-crew"
+   },
+   "wall-warden": {
+    "Wall Warden": "wall-warden"
+   }
+  },
+  "BRIGANDS": {
+   "ambushers": {
+    "Ambushers": "ambushers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "missile-weapon": {
+    "Crossbows": "crossbows",
+    "Handguns": "handguns"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "FACELESS": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "FIELD TREBUCHET": {
+   "additional-peasant-crew": {
+    "additional Peasant Crew": "additional-peasant-crew"
+   },
+   "wall-warden": {
+    "Wall Warden": "wall-warden"
+   }
+  },
+  "FOOT KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "crusaders-vow": {
+    "Crusader's Vow": "crusaders-vow"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GRAIL KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HANDMAIDENS OF THE LADY": {
+   "magic-items-grail-damsel": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-prophetess": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Pegasus": "pegasus",
+    "Unicorn": "unicorn",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "HERRIMAULTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "HIPPOGRYPH KNIGHTS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "crusaders-vow": {
+    "Crusader's Vow": "crusaders-vow"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KNIGHT OF THE REALM": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "crusaders-vow": {
+    "Crusader's Vow": "crusaders-vow"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KNIGHTS ERRANT": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "crusaders-vow": {
+    "Crusader's Vow": "crusaders-vow"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LONGBOWMEN": {
+   "braziers": {
+    "braziers": "braziers"
+   },
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "defensive-stakes": {
+    "defensive stakes": "defensive-stakes"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LORDS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "knights-vow": {
+    "The Crusader's Vow": "the-crusaders-vow",
+    "The Grail Vow": "the-grail-vow",
+    "The Questing Vow": "the-questing-vow"
+   },
+   "magic-items-baron": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-paladin": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Polearm": "polearm"
+   },
+   "mount": {
+    "Pegasus": "pegasus",
+    "Royal Hippogryph": "royal-hippogryph",
+    "Royal Pegasus": "royal-pegasus",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "LOUEN LEONCOEUR": {
+   "mount": {
+    "Beaquis": "beaquis",
+    "Pegasus": "pegasus",
+    "Royal Pegasus": "royal-pegasus",
+    "Warhorse": "warhorse"
+   }
+  },
+  "MEN-AT-ARMS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "grail-monk": {
+    "Grail Monk": "grail-monk"
+   },
+   "melee-weapon": {
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MORGIANA THE FAY": {
+   "mount": {
+    "Silvaron (Unicorn)": "silvaron-unicorn"
+   }
+  },
+  "ODO OF OUTREMER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "PEASANT MOB": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Flails": "flails",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PEGASUS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "iron-hard-hooves": {
+    "Iron-hard Hooves": "iron-hard-hooves"
+   },
+   "swift-as-the-wind": {
+    "Swift as the Wind": "swift-as-the-wind"
+   }
+  },
+  "PEGASUS KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "crusaders-vow": {
+    "Crusader's Vow": "crusaders-vow"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PRIESTESSES OF SHALLYA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "QUESTING KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "REPANSE OF LYONESSE": {
+   "heavy-lance": {
+    "heavy lance": "heavy-lance"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "ROYAL HIPPOGRYPH": {
+   "barding": {
+    "barding": "barding"
+   },
+   "bloodrage": {
+    "Bloodrage": "bloodrage"
+   },
+   "serrated-maw": {
+    "Serrated Maw": "serrated-maw"
+   },
+   "shredding-talons": {
+    "Shredding Talons": "shredding-talons"
+   },
+   "swooping-strike": {
+    "Swooping Strike": "swooping-strike"
+   }
+  },
+  "ROYAL PEGASUS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "iron-hard-hooves": {
+    "Iron-hard Hooves": "iron-hard-hooves"
+   },
+   "swift-as-the-wind": {
+    "Swift as the Wind": "swift-as-the-wind"
+   }
+  },
+  "SERGEANTS-AT-ARMS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "melee-weapon": {
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm"
+   },
+   "missile-weapon": {
+    "Crossbow": "crossbow",
+    "Longbow": "longbow",
+    "Shortbow": "shortbow"
+   },
+   "mount": {
+    "Horse": "horse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "SQUIRES": {
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TRISTAN THE TROBADOUR": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "YEOMEN": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "missile-weapon": {
+    "Crossbows": "crossbows",
+    "Shortbows": "shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ALBERIC OF BORDELEAUX": {
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "BALLISTA": {
+   "May take an additional Peasant Crew": "additional-peasant-crew",
+   "May upgrade one Peasant Crew to a Wall Warden": "wall-warden"
+  },
+  "BATTLE PILGRIMS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Battle Pilgrim to a Leader": "champion",
+   "May upgrade one Battle Pilgrim to a Musician": "musician",
+   "May upgrade one Battle Pilgrim to a Standard Bearer": "standard-bearer",
+   "May upgrade six Battle Pilgrim to a Grail Reliquae": "grail-reliquae"
+  },
+  "BIDOWERS": {
+   "May replace javelins with slings": "slings",
+   "May take bucklers": "bucklers",
+   "May upgrade one Bidower to a Leader": "champion",
+   "May upgrade one Bidower to a Musician": "musician"
+  },
+  "BOMBARD": {
+   "May take an additional Peasant Crew": "additional-peasant-crew",
+   "May upgrade one Peasant Crew to a Wall Warden": "wall-warden"
+  },
+  "BRIGANDS": {
+   "May be upgraded to Ambushers (unless armed with missile weapons)": "ambushers",
+   "May replace great weapons with one of the following:": "missile-weapon",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Brigand to a Leader": "champion",
+   "May upgrade one Brigand to a Musician": "musician",
+   "May upgrade one Brigand to a Standard Bearer": "standard-bearer"
+  },
+  "FACELESS": {
+   "May take an additional hand weapon": "additional-hand-weapon",
+   "May take light armour": "light-armour"
+  },
+  "FIELD TREBUCHET": {
+   "May take an additional Peasant Crew": "additional-peasant-crew",
+   "May upgrade one Peasant Crew to a Wall Warden": "wall-warden"
+  },
+  "FOOT KNIGHTS": {
+   "May choose one of the following:": "melee-weapon",
+   "May replace the Knight's Vow with the Crusader's Vow": "crusaders-vow",
+   "May take shields": "shields",
+   "May upgrade one Foot Knight to a Leader": "champion",
+   "May upgrade one Foot Knight to a Musician": "musician",
+   "May upgrade one Foot Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Foot Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GRAIL KNIGHTS": {
+   "May upgrade one Grail Knight to a Leader": "champion",
+   "May upgrade one Grail Knight to a Musician": "musician",
+   "May upgrade one Grail Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Grail Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "HANDMAIDENS OF THE LADY": {
+   "A Grail Damsel may take Magic Items up to a total of 50 points": "magic-items-grail-damsel",
+   "A Prophetess may take Magic Items up to a total of 100 points": "magic-items-prophetess",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "HERRIMAULTS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Herrimault to a Leader": "champion",
+   "May upgrade one Herrimault to a Musician": "musician"
+  },
+  "HIPPOGRYPH KNIGHTS": {
+   "May replace the Knight's Vow with the Crusader's Vow": "crusaders-vow",
+   "May take barding": "barding",
+   "May upgrade one Hippogryph Knight to a Leader": "champion",
+   "May upgrade one Hippogryph Knight to a Musician": "musician",
+   "May upgrade one Hippogryph Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hippogryph Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "KNIGHT OF THE REALM": {
+   "May replace the Knight's Vow with the Crusader's Vow": "crusaders-vow",
+   "May upgrade one Knight of the Realm to a Leader": "champion",
+   "May upgrade one Knight of the Realm to a Musician": "musician",
+   "May upgrade one Knight of the Realm to a Standard Bearer": "standard-bearer",
+   "May upgrade one Knight of the Realm to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "KNIGHTS ERRANT": {
+   "May replace the Knight's Vow with the Crusader's Vow": "crusaders-vow",
+   "May upgrade one Knight Errant to a Leader": "champion",
+   "May upgrade one Knight Errant to a Musician": "musician",
+   "May upgrade one Knight Errant to a Standard Bearer": "standard-bearer",
+   "May upgrade one Knight Errant to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "LONGBOWMEN": {
+   "May take braziers": "braziers",
+   "May take bucklers": "bucklers",
+   "May take defensive stakes": "defensive-stakes",
+   "May take light armour": "light-armour",
+   "May upgrade one Longbowman to a Leader": "champion",
+   "May upgrade one Longbowman to a Musician": "musician",
+   "May upgrade one Longbowman to a Standard Bearer": "standard-bearer"
+  },
+  "LORDS": {
+   "A Baron may take one Virtue and/or Magic Items up to a total of 100 points": "magic-items-baron",
+   "A Paladin may take one Virtue and/or Magic Items up to a total of 50 points": "magic-items-paladin",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May replace the Knights Vow with one of the following:": "knights-vow",
+   "May take a shield": "shield",
+   "May take heavy armour": "heavy-armour",
+   "One Paladin may carry the Battle Standard": "battle-standard"
+  },
+  "LOUEN LEONCOEUR": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "MEN-AT-ARMS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take shields": "shields",
+   "May upgrade one Man-at-Arms to a Grail Monk": "grail-monk",
+   "May upgrade one Man-at-Arms to a Leader": "champion",
+   "May upgrade one Man-at-Arms to a Musician": "musician",
+   "May upgrade one Man-at-Arms to a Standard Bearer": "standard-bearer"
+  },
+  "MORGIANA THE FAY": {
+   "May be mounted on Silvaron (Unicorn)": "mount"
+  },
+  "ODO OF OUTREMER": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "PEASANT MOB": {
+   "May choose one of the following:": "melee-weapon",
+   "May take shields (if armed with spears)": "shields",
+   "May upgrade one Peasant to a Leader": "champion",
+   "May upgrade one Peasant to a Musician": "musician",
+   "May upgrade one Peasant to a Standard Bearer": "standard-bearer"
+  },
+  "PEGASUS": {
+   "May take Iron-hard Hooves": "iron-hard-hooves",
+   "May take Swift as the Wind": "swift-as-the-wind",
+   "May take barding": "barding"
+  },
+  "PEGASUS KNIGHTS": {
+   "May replace the Knight's Vow with the Crusader's Vow": "crusaders-vow",
+   "May upgrade one Pegasus Knight to a Leader": "champion",
+   "May upgrade one Pegasus Knight to a Musician": "musician",
+   "May upgrade one Pegasus Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pegasus Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "PRIESTESSES OF SHALLYA": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "QUESTING KNIGHTS": {
+   "May upgrade one Questing Knight to a Leader": "champion",
+   "May upgrade one Questing Knight to a Musician": "musician",
+   "May upgrade one Questing Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Questing Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "REPANSE OF LYONESSE": {
+   "May be mounted on a Warhorse": "mount",
+   "May take a heavy lance": "heavy-lance",
+   "May take a shield": "shield"
+  },
+  "ROYAL HIPPOGRYPH": {
+   "May take Bloodrage": "bloodrage",
+   "May take Serrated Maw": "serrated-maw",
+   "May take Shredding Talons": "shredding-talons",
+   "May take Swooping Strike": "swooping-strike",
+   "May take barding": "barding"
+  },
+  "ROYAL PEGASUS": {
+   "May take Iron-hard Hooves": "iron-hard-hooves",
+   "May take Swift as the Wind": "swift-as-the-wind",
+   "May take barding": "barding"
+  },
+  "SERGEANTS-AT-ARMS": {
+   "May be mounted on a Horse": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield"
+  },
+  "SQUIRES": {
+   "May take bucklers": "bucklers",
+   "May take light armour": "light-armour",
+   "May upgrade one Squire to a Leader": "champion",
+   "May upgrade one Squire to a Musician": "musician",
+   "May upgrade one Squire to a Standard Bearer": "standard-bearer"
+  },
+  "TRISTAN THE TROBADOUR": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  },
+  "YEOMEN": {
+   "May choose one of the following:": "missile-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take light lances": "light-lances",
+   "May take shields": "shields",
+   "May upgrade one Yeoman to a Leader": "champion",
+   "May upgrade one Yeoman to a Musician": "musician",
+   "May upgrade one Yeoman to a Standard Bearer": "standard-bearer"
+  }
+ },
+ "items": {
+  "ANOINTED ARMOUR": "anointed-armour",
+  "ANTLERS OF THE GREAT HUNT": "antlers-of-the-great-hunt",
+  "ARMOUR OF AGILULF": "armour-of-agilulf",
+  "ARMOUR OF THE MIDSUMMER SUN": "armour-of-the-midsummer-sun",
+  "BANNER OF DEFENCE": "banner-of-defence",
+  "BANNER OF HONOURABLE WARFARE": "banner-of-honourable-warfare",
+  "BANNER OF THE LADY": "banner-of-the-lady",
+  "BANNER OF THE LADY'S GRACE": "banner-of-the-ladys-grace",
+  "BANNER OF THE ZEALOUS KNIGHT": "banner-of-the-zealous-knight",
+  "BANNERS OF CHALONS": "banners-of-chalons",
+  "BATTLE STONE OF THE MARQUIS": "battle-stone-of-the-marquis",
+  "BIRTH-SWORD OF CARCASSONNE": "birth-sword-of-carcassonne",
+  "CHALICE OF MALFLEUR": "chalice-of-malfleur",
+  "CLAW OF MALGRIMACE": "claw-of-malgrimace",
+  "CONQUEROR'S TAPESTRY": "conquerors-tapestry",
+  "CRUSADER'S CLARION": "crusaders-clarion",
+  "CRUSADER'S LANCE": "crusaders-lance",
+  "CRUSADER'S TAPESTRY": "crusaders-tapestry",
+  "CUIRASS OF FORTUNE": "cuirass-of-fortune",
+  "DIADEM OF POWER": "diadem-of-power",
+  "DRAGON SLAYING SWORD": "dragon-slaying-sword",
+  "ERRANTRY BANNER": "errantry-banner",
+  "FALCON-HORN OF FREDEMUND": "falcon-horn-of-fredemund",
+  "FLAMESTRIKE WAND": "flamestrike-wand",
+  "FOEBREAKER": "foebreaker",
+  "FRONTIER AXE": "frontier-axe",
+  "GAUNTLET OF THE DUEL": "gauntlet-of-the-duel",
+  "GILDED CUIRASS": "gilded-cuirass",
+  "GRAIL PENDANT": "grail-pendant",
+  "GROMRIL GREAT HELM": "gromril-great-helm",
+  "HEART OF THE WILDS": "heart-of-the-wilds",
+  "HEARTWOOD LANCE": "heartwood-lance",
+  "HELM OF THE DRAGON SLAYER": "helm-of-the-dragon-slayer",
+  "HOLY ICON": "holy-icon",
+  "INSIGNIA OF THE QUEST": "insignia-of-the-quest",
+  "IRONSPIKE SHIELD": "ironspike-shield",
+  "LANCE OF ARTOIS": "lance-of-artois",
+  "LUCKY HEIRLOOM": "lucky-heirloom",
+  "MANTLE OF THE DAMSEL ELENA": "mantle-of-the-damsel-elena",
+  "ORCBANE SHIELD": "orcbane-shield",
+  "POTION SACRE": "potion-sacre",
+  "PRAYER ICON OF QUENELLES": "prayer-icon-of-quenelles",
+  "SACRAMENT OF THE LADY": "sacrament-of-the-lady",
+  "SILVER LANCE OF THE BLESSED": "silver-lance-of-the-blessed",
+  "SIRIENNE'S LOCKET": "siriennes-locket",
+  "SWORD OF HEROES": "sword-of-heroes",
+  "SWORD OF THE LADY'S CHAMPION": "sword-of-the-ladys-champion",
+  "SWORD OF THE QUEST": "sword-of-the-quest",
+  "SWORD OF THE STOUT HEARTED": "sword-of-the-stout-hearted",
+  "THE GRAIL BANNER": "the-grail-banner",
+  "THE GRAIL SHIELD": "the-grail-shield",
+  "THE MANE OF THE PUREBREED": "the-mane-of-the-purebreed",
+  "THE RUBY GOBLET": "the-ruby-goblet",
+  "THE SEAL OF PARRAVON": "the-seal-of-parravon",
+  "THE SILVER MIRROR": "the-silver-mirror",
+  "THE VERDANT HEART": "the-verdant-heart",
+  "THE VIRTUOUS LANCE": "the-virtuous-lance",
+  "TOKEN OF THE DAMSEL": "token-of-the-damsel",
+  "TRESS OF ISOULDE": "tress-of-isoulde",
+  "TWILIGHT BANNER": "twilight-banner",
+  "VALOROUS STANDARD": "valorous-standard",
+  "WYRMBREATH VIAL": "wyrmbreath-vial",
+  "WYRMLANCE": "wyrmlance"
+ },
+ "lores": {
+  "THE LORE OF THE LADY": "the-lore-of-the-lady"
+ },
+ "profiles": {
+  "ALBERIC OF BORDELEAUX": {
+   "Alberic of Bordeleaux": "alberic-of-bordeleaux",
+   "Tempete (Royal Hippogryph)": "tempete-royal-hippogryph"
+  },
+  "BALLISTA": {
+   "Ballista": "ballista",
+   "Peasant Crew": "peasant-crew",
+   "Wall Warden": "wall-warden"
+  },
+  "BATTLE PILGRIMS": {
+   "Battle Pilgrim": "battle-pilgrim",
+   "Grail Reliquae": "grail-reliquae"
+  },
+  "BERTRAND THE BRIGAND": {
+   "Bertrand": "bertrand",
+   "Gui the Great": "gui-the-great",
+   "Little Hugo": "little-hugo"
+  },
+  "BIDOWERS": {
+   "Bidower": "bidower"
+  },
+  "BOHEMUND THE BEASTSLAYER": {
+   "Bohemond the Beastslayer": "bohemond-the-beastslayer",
+   "Warhorse": "warhorse"
+  },
+  "BOMBARD": {
+   "Bombard": "bombard",
+   "Peasant Crew": "peasant-crew",
+   "Wall Warden": "wall-warden"
+  },
+  "BRIGANDS": {
+   "Brigand": "brigand"
+  },
+  "CECIL GASTONNE": {
+   "Cecil Gastonne": "cecil-gastonne"
+  },
+  "FACELESS": {
+   "Faceless": "faceless"
+  },
+  "FIELD TREBUCHET": {
+   "Field Trebuchet": "field-trebuchet",
+   "Peasant Crew": "peasant-crew",
+   "Wall Warden": "wall-warden"
+  },
+  "FOOT KNIGHTS": {
+   "Foot Knight": "foot-knight"
+  },
+  "GRAIL KNIGHTS": {
+   "Grail Knight": "grail-knight",
+   "Warhorse": "warhorse"
+  },
+  "HANDMAIDENS OF THE LADY": {
+   "Grail Damsel": "grail-damsel",
+   "Prophetess": "prophetess"
+  },
+  "HERRIMAULTS": {
+   "Herrimault": "herrimault"
+  },
+  "HIPPOGRYPH KNIGHTS": {
+   "Hippogryph": "hippogryph",
+   "Hippogryph Knight": "hippogryph-knight"
+  },
+  "HORSE": {
+   "Horse": "horse"
+  },
+  "KNIGHT OF THE REALM": {
+   "Knight of the Realm": "knight-of-the-realm",
+   "Warhorse": "warhorse"
+  },
+  "KNIGHTS ERRANT": {
+   "Knight Errant": "knight-errant",
+   "Warhorse": "warhorse"
+  },
+  "LADY ELISE DUCHARD": {
+   "Ariandir (Unicorn)": "ariandir-unicorn",
+   "Élise Duchard": "elise-duchard"
+  },
+  "LONGBOWMEN": {
+   "Longbowman": "longbowman"
+  },
+  "LORDS": {
+   "Baron": "baron",
+   "Paladin": "paladin"
+  },
+  "LOUEN LEONCOEUR": {
+   "Beaquis (Royal Hippogryph)": "beaquis-royal-hippogryph",
+   "Louen Leoncoeur": "louen-leoncoeur"
+  },
+  "MEN-AT-ARMS": {
+   "Man-at-Arms": "man-at-arms"
+  },
+  "MORGIANA THE FAY": {
+   "Morgiana the Fay": "morgiana-the-fay",
+   "Silvaron (Unicorn)": "silvaron-unicorn"
+  },
+  "ODO OF OUTREMER": {
+   "Odo of Outremer": "odo-of-outremer",
+   "Suliman the Saracen": "suliman-the-saracen",
+   "Warhorse": "warhorse"
+  },
+  "PEASANT MOB": {
+   "Peasant": "peasant"
+  },
+  "PEGASUS": {
+   "Pegasus": "pegasus"
+  },
+  "PEGASUS KNIGHTS": {
+   "Pegasus": "pegasus",
+   "Pegasus Knight": "pegasus-knight"
+  },
+  "PRIESTESSES OF SHALLYA": {
+   "Priestess of Shallya": "priestess-of-shallya"
+  },
+  "QUESTING KNIGHTS": {
+   "Questing Knight": "questing-knight",
+   "Warhorse": "warhorse"
+  },
+  "REPANSE OF LYONESSE": {
+   "Repanse of Lyonesse": "repanse-of-lyonesse"
+  },
+  "ROYAL HIPPOGRYPH": {
+   "Royal Hippogryph": "royal-hippogryph"
+  },
+  "ROYAL PEGASUS": {
+   "Royal Pegasus": "royal-pegasus"
+  },
+  "SERGEANTS-AT-ARMS": {
+   "Sergeant-at-Arms": "sergeant-at-arms"
+  },
+  "SQUIRES": {
+   "Hunting Hound": "hunting-hound",
+   "Squire": "squire"
+  },
+  "TANCRED II": {
+   "Tancred II": "tancred-ii",
+   "Warhorse": "warhorse"
+  },
+  "THE GREEN KNIGHT": {
+   "The Green Knight": "the-green-knight",
+   "The Shadow Steed": "the-shadow-steed"
+  },
+  "THE HERMIT KNIGHT OF MALMONT": {
+   "The Hermit Knight": "the-hermit-knight"
+  },
+  "TRISTAN THE TROBADOUR": {
+   "Jules the Jester": "jules-the-jester",
+   "Tristan the Trobadour": "tristan-the-trobadour",
+   "Warhorse": "warhorse"
+  },
+  "UNICORN": {
+   "Unicorn": "unicorn"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "YEOMEN": {
+   "Horse": "horse",
+   "Yeoman": "yeoman"
+  }
+ },
+ "rules": {
+  "CHIVALROUS VOWS": "chivalrous-vows",
+  "PUREBRED WARHORSE": "purebred-warhorse",
+  "THE BLESSING OF THE LADY": "the-blessing-of-the-lady",
+  "THE LANCE FORMATION": "the-lance-formation",
+  "THE PEASANT'S DUTY": "the-peasants-duty",
+  "The Crusader's Vow": "the-crusaders-vow",
+  "The Grail Vow": "the-grail-vow",
+  "The Knight's Vow": "the-knights-vow",
+  "The Questing Vow": "the-questing-vow"
+ },
+ "units": {
+  "ALBERIC OF BORDELEAUX": "alberic-of-bordeleaux",
+  "BALLISTA": "ballista",
+  "BATTLE PILGRIMS": "battle-pilgrims",
+  "BERTRAND THE BRIGAND": "bertrand-the-brigand",
+  "BIDOWERS": "bidowers",
+  "BOHEMUND THE BEASTSLAYER": "bohemund-the-beastslayer",
+  "BOMBARD": "bombard",
+  "BRIGANDS": "brigands",
+  "CECIL GASTONNE": "cecil-gastonne",
+  "FACELESS": "faceless",
+  "FIELD TREBUCHET": "field-trebuchet",
+  "FOOT KNIGHTS": "foot-knights",
+  "GRAIL KNIGHTS": "grail-knights",
+  "HANDMAIDENS OF THE LADY": "handmaidens-of-the-lady",
+  "HERRIMAULTS": "herrimaults",
+  "HIPPOGRYPH KNIGHTS": "hippogryph-knights",
+  "HORSE": "horse",
+  "KNIGHT OF THE REALM": "knight-of-the-realm",
+  "KNIGHTS ERRANT": "knights-errant",
+  "LADY ELISE DUCHARD": "lady-elise-duchard",
+  "LONGBOWMEN": "longbowmen",
+  "LORDS": "lords",
+  "LOUEN LEONCOEUR": "louen-leoncoeur",
+  "MEN-AT-ARMS": "men-at-arms",
+  "MORGIANA THE FAY": "morgiana-the-fay",
+  "ODO OF OUTREMER": "odo-of-outremer",
+  "PEASANT MOB": "peasant-mob",
+  "PEGASUS": "pegasus",
+  "PEGASUS KNIGHTS": "pegasus-knights",
+  "PRIESTESSES OF SHALLYA": "priestesses-of-shallya",
+  "QUESTING KNIGHTS": "questing-knights",
+  "REPANSE OF LYONESSE": "repanse-of-lyonesse",
+  "ROYAL HIPPOGRYPH": "royal-hippogryph",
+  "ROYAL PEGASUS": "royal-pegasus",
+  "SERGEANTS-AT-ARMS": "sergeants-at-arms",
+  "SQUIRES": "squires",
+  "TANCRED II": "tancred-ii",
+  "THE GREEN KNIGHT": "the-green-knight",
+  "THE HERMIT KNIGHT OF MALMONT": "the-hermit-knight-of-malmont",
+  "TRISTAN THE TROBADOUR": "tristan-the-trobadour",
+  "UNICORN": "unicorn",
+  "WARHORSE": "warhorse",
+  "YEOMEN": "yeomen"
+ },
+ "upgrades": {
+  "VIRTUE OF AUDACITY": "virtue-of-audacity",
+  "VIRTUE OF CONFIDENCE": "virtue-of-confidence",
+  "VIRTUE OF DEVOTION": "virtue-of-devotion",
+  "VIRTUE OF DISCIPLINE": "virtue-of-discipline",
+  "VIRTUE OF DUTY": "virtue-of-duty",
+  "VIRTUE OF EMPATHY": "virtue-of-empathy",
+  "VIRTUE OF HEROISM": "virtue-of-heroism",
+  "VIRTUE OF KNIGHTLY ARDOUR": "virtue-of-knightly-ardour",
+  "VIRTUE OF KNIGHTLY TEMPER": "virtue-of-knightly-temper",
+  "VIRTUE OF NOBLE DISDAIN": "virtue-of-noble-disdain",
+  "VIRTUE OF PURITY": "virtue-of-purity",
+  "VIRTUE OF STOICISM": "virtue-of-stoicism",
+  "VIRTUE OF THE IDEAL": "virtue-of-the-ideal",
+  "VIRTUE OF THE IMPETUOUS KNIGHT": "virtue-of-the-impetuous-knight",
+  "VIRTUE OF THE JOUST": "virtue-of-the-joust",
+  "VIRTUE OF THE PENITENT": "virtue-of-the-penitent",
+  "VIRTUE OF UTTER SERENTIY": "virtue-of-utter-serentiy"
+ }
+}

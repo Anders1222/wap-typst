@@ -1,0 +1,921 @@
+{
+ "choices": {
+  "BOLT THROWER": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "runic-items": {
+    "engineering runes up to 50 points": "engineering-runes-up-to-50-points"
+   }
+  },
+  "BREWMASTER": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "great-weapon": {
+    "great weapon": "great-weapon"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Beer Cart": "beer-cart"
+   }
+  },
+  "BURLOK DAMMINSON": {
+   "upgrade": {
+    "Burlok's Ingenious Offensive New-matic Integrated Constrictor Arm": "burloks-ingenious-offensive-new-matic-integrated-constrictor-arm",
+    "Range Finding Optics & Rivet Gun": "range-finding-optics-and-rivet-gun"
+   }
+  },
+  "CANNON": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "runic-items": {
+    "engineering runes up to 50 points": "engineering-runes-up-to-50-points"
+   }
+  },
+  "FIRE THROWER": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "FLAME CANNON": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "runic-items": {
+    "engineering runes up to 50 points": "engineering-runes-up-to-50-points"
+   }
+  },
+  "GIANT SLAYERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GRUDGE THROWER": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "runic-items": {
+    "engineering runes up to 50 points": "engineering-runes-up-to-50-points"
+   }
+  },
+  "GYROBOMBER": {
+   "melee-weapon": {
+    "Brimstone gun": "brimstone-gun",
+    "Clattergun": "clattergun"
+   }
+  },
+  "GYROCOPTER": {
+   "melee-weapon": {
+    "Brimstone gun": "brimstone-gun",
+    "Clattergun": "clattergun"
+   }
+  },
+  "HAMMERERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "IRONBREAKERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "cinderblast-bombs": {
+    "cinderblast bombs": "cinderblast-bombs"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "IRONDRAKES": {
+   "brace-of-drakefire-pistols": {
+    "Brace of drakefire pistols": "brace-of-drakefire-pistols"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "cinderblast-bombs": {
+    "cinderblast bombs": "cinderblast-bombs"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "trollhammer-torpedo": {
+    "Trollhammer torpedo": "trollhammer-torpedo"
+   }
+  },
+  "JOSEF BUGMAN": {
+   "dwarfen-crossbow": {
+    "Dwarfen crossbow": "dwarfen-crossbow"
+   }
+  },
+  "LONGBEARDS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Great weapons": "great-weapons",
+    "Shields": "shields"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LORDS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-king": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-thane": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "missile-weapon": {
+    "Dwarfen crossbow": "dwarfen-crossbow",
+    "Dwarfen handgun": "dwarfen-handgun",
+    "Dwarfen pistol": "dwarfen-pistol"
+   },
+   "mount": {
+    "Oathstone": "oathstone",
+    "Shieldbearers": "shieldbearers"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "MASTER ENGINEER": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "great-weapon": {
+    "great weapon": "great-weapon"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Dwarfen brace of pistols": "dwarfen-brace-of-pistols",
+    "Dwarfen handgun": "dwarfen-handgun",
+    "Dwarfen pistol": "dwarfen-pistol"
+   }
+  },
+  "MINERS": {
+   "blasting-charges": {
+    "blasting charges": "blasting-charges"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "miners-cart": {
+    "Miner's Cart": "miners-cart"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "steam-drill": {
+    "steam drill": "steam-drill"
+   }
+  },
+  "ORGAN GUN": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "runic-items": {
+    "engineering runes up to 50 points": "engineering-runes-up-to-50-points"
+   }
+  },
+  "QUARRELLERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "Bucklers": "bucklers",
+    "Shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RANGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Dwarfen crossbows": "dwarfen-crossbows",
+    "Great weapons": "great-weapons",
+    "Throwing axes": "throwing-axes"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RUNE GUARDIANS": {
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "runic-items": {
+    "Rune of Cleaving": "rune-of-cleaving",
+    "Rune of Fury": "rune-of-fury",
+    "Rune of Stone": "rune-of-stone",
+    "Rune of Striking": "rune-of-striking",
+    "Rune of Warding": "rune-of-warding"
+   }
+  },
+  "RUNESMITHS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "great-weapon": {
+    "great weapon": "great-weapon"
+   },
+   "magic-items-runelord": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-runesmith": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Anvil of Doom": "anvil-of-doom"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "SHIELDBEARERS": {
+   "additional-shieldbearer": {
+    "additional shieldbearer": "additional-shieldbearer"
+   }
+  },
+  "SLAYERS OF LEGEND": {
+   "magic-items-daemon-slayer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-dragon-slayer": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "upgrade": {
+    "Beast Slayer": "beast-slayer",
+    "Killing Blow": "killing-blow",
+    "Skaven Slayer": "skaven-slayer",
+    "Vampire Slayer": "vampire-slayer"
+   },
+   "wards-of-grimnir": {
+    "Wards of Grimnir": "wards-of-grimnir"
+   }
+  },
+  "THUNDERERS": {
+   "brace-of-dwarfen-pistols": {
+    "brace of Dwarfen pistols": "brace-of-dwarfen-pistols"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "Bucklers": "bucklers",
+    "Shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TROLL SLAYERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Great weapons": "great-weapons",
+    "Shields": "shields"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "BOLT THROWER": {
+   "May take engineering runes up to 50 points": "runic-items",
+   "May take light armour": "light-armour"
+  },
+  "BREWMASTER": {
+   "May be mounted on a Beer Cart": "mount",
+   "May choose one of the following:": "armour",
+   "May take Magic Items and/or Runic Items up to a total of 50 points": "magic-items",
+   "May take a great weapon": "great-weapon"
+  },
+  "BURLOK DAMMINSON": {
+   "Must take one of the following:": "upgrade"
+  },
+  "CANNON": {
+   "May take engineering runes up to 50 points": "runic-items",
+   "May take light armour": "light-armour"
+  },
+  "FIRE THROWER": {
+   "May take medium armour": "medium-armour"
+  },
+  "FLAME CANNON": {
+   "May take engineering runes up to 50 points": "runic-items",
+   "May take light armour": "light-armour"
+  },
+  "GIANT SLAYERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May choose any of the following:": "melee-weapon",
+   "May upgrade one Giant Slayer to a Leader": "champion",
+   "May upgrade one Giant Slayer to a Musician": "musician",
+   "May upgrade one Giant Slayer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Giant Slayer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GRUDGE THROWER": {
+   "May take engineering runes up to 50 points": "runic-items",
+   "May take light armour": "light-armour"
+  },
+  "GYROBOMBER": {
+   "May replace steam gun with one of the following:": "melee-weapon"
+  },
+  "GYROCOPTER": {
+   "May replace steam gun with one of the following:": "melee-weapon"
+  },
+  "HAMMERERS": {
+   "May take shields": "shields",
+   "May upgrade one Hammerer to a Leader": "champion",
+   "May upgrade one Hammerer to a Musician": "musician",
+   "May upgrade one Hammerer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hammerer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "IRONBREAKERS": {
+   "May upgrade one Ironbreaker to a Leader": "champion",
+   "May upgrade one Ironbreaker to a Leader > Leader > May take cinderblast bombs": "cinderblast-bombs",
+   "May upgrade one Ironbreaker to a Musician": "musician",
+   "May upgrade one Ironbreaker to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ironbreaker to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "IRONDRAKES": {
+   "Brace of drakefire pistols": "brace-of-drakefire-pistols",
+   "May upgrade one Irondrake to a Leader": "champion",
+   "May upgrade one Irondrake to a Leader > Leader > May replace drakegun with one of the following:": "equipment",
+   "May upgrade one Irondrake to a Leader > Leader > May take cinderblast bombs (see Ironbreakers)": "cinderblast-bombs",
+   "May upgrade one Irondrake to a Musician": "musician",
+   "May upgrade one Irondrake to a Standard Bearer": "standard-bearer",
+   "May upgrade one Irondrake to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
+   "Trollhammer torpedo": "trollhammer-torpedo"
+  },
+  "JOSEF BUGMAN": {
+   "May take a Dwarfen crossbow": "dwarfen-crossbow"
+  },
+  "LONGBEARDS": {
+   "May upgrade one Longbeard to a Leader": "champion",
+   "May upgrade one Longbeard to a Musician": "musician",
+   "May upgrade one Longbeard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Longbeard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
+   "Must choose at least one of the following:": "equipment"
+  },
+  "LORDS": {
+   "A King may take Magic Items and/or Runic Items up to a total of 100 points": "magic-items-king",
+   "A Thane may take Magic Items and/or Runic Items up to a total of 50 points": "magic-items-thane",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Thane may carry the Battle Standard": "battle-standard"
+  },
+  "MASTER ENGINEER": {
+   "May choose any of the following:": "missile-weapon",
+   "May choose one of the following:": "armour",
+   "May take Magic Items and/or Runic Items up to a total of 50 points": "magic-items",
+   "May take a great weapon": "great-weapon"
+  },
+  "MINERS": {
+   "May take blasting charges": "blasting-charges",
+   "May take blasting charges > blasting charges > May take a Miner's Cart": "miners-cart",
+   "May upgrade one Miner to a Leader": "champion",
+   "May upgrade one Miner to a Leader > Leader > May replace great weapon with steam drill": "steam-drill",
+   "May upgrade one Miner to a Musician": "musician",
+   "May upgrade one Miner to a Standard Bearer": "standard-bearer",
+   "May upgrade one Miner to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ORGAN GUN": {
+   "May take engineering runes up to 50 points": "runic-items",
+   "May take light armour": "light-armour"
+  },
+  "QUARRELLERS": {
+   "May choose one of the following:": "shields",
+   "May take great weapons": "great-weapons",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Quarreller to a Leader": "champion",
+   "May upgrade one Quarreller to a Musician": "musician",
+   "May upgrade one Quarreller to a Standard Bearer": "standard-bearer",
+   "May upgrade one Quarreller to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "RANGERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May choose any of the following:": "equipment",
+   "May take medium armour": "medium-armour",
+   "May take shields": "shields",
+   "May upgrade one Ranger to a Leader": "champion",
+   "May upgrade one Ranger to a Musician": "musician",
+   "May upgrade one Ranger to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ranger to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "RUNE GUARDIANS": {
+   "May choose up to two of the following:": "runic-items",
+   "Must choose one of the following:": "melee-weapon"
+  },
+  "RUNESMITHS": {
+   "A Runelord may take Magic Items and/or Runic Items up to a total of 100 points": "magic-items-runelord",
+   "A Runesmith may take Magic Items and/or Runic Items up to a total of 50 points": "magic-items-runesmith",
+   "May be mounted on an Anvil of Doom (Runelord only)": "mount",
+   "May choose one of the following:": "armour",
+   "May take a great weapon": "great-weapon",
+   "May take a shield": "shield"
+  },
+  "SHIELDBEARERS": {
+   "May take an additional shieldbearer": "additional-shieldbearer"
+  },
+  "SLAYERS OF LEGEND": {
+   "A Daemon Slayer may take Magic Items and/or Runic Items up to a total of 100 points": "magic-items-daemon-slayer",
+   "A Dragon Slayer may take Magic Items and/or Runic Items up to a total of 50 points": "magic-items-dragon-slayer",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "upgrade",
+   "May have Wards of Grimnir": "wards-of-grimnir"
+  },
+  "THUNDERERS": {
+   "May choose one of the following:": "shields",
+   "May take medium armour": "medium-armour",
+   "May upgrade one Thunderer to a Leader": "champion",
+   "May upgrade one Thunderer to a Leader > Leader > May replace Dwarfen handgun with brace of Dwarfen pistols": "brace-of-dwarfen-pistols",
+   "May upgrade one Thunderer to a Musician": "musician",
+   "May upgrade one Thunderer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Thunderer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "TROLL SLAYERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May choose any of the following:": "melee-weapon",
+   "May upgrade one Troll Slayer to a Leader": "champion",
+   "May upgrade one Troll Slayer to a Musician": "musician",
+   "May upgrade one Troll Slayer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Troll Slayer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "WARRIORS": {
+   "May upgrade one Warrior to a Leader": "champion",
+   "May upgrade one Warrior to a Musician": "musician",
+   "May upgrade one Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "Must choose at least one of the following:": "equipment"
+  }
+ },
+ "items": {
+  "BANNER OF LOST HOLDS": "banner-of-lost-holds",
+  "EVER-BURNING HELMET OF GRUNGNI": "ever-burning-helmet-of-grungni",
+  "FIERY RING OF THORI": "fiery-ring-of-thori",
+  "FOCAL LENS OF MORGRIM": "focal-lens-of-morgrim",
+  "GOLDEN BANDS OF GRIMNIR": "golden-bands-of-grimnir",
+  "GOLDEN SCEPTRE OF NORGRIM": "golden-sceptre-of-norgrim",
+  "HAMMER OF KARAK DRAZH": "hammer-of-karak-drazh",
+  "HAMMER OF SMEDNIR": "hammer-of-smednir",
+  "HEALING SALVE OF VALAYA": "healing-salve-of-valaya",
+  "HEAVY METAL INGOT": "heavy-metal-ingot",
+  "HELMET OF THE ANVIL": "helmet-of-the-anvil",
+  "KRAGGIS' ANCESTRAL PICKAXE": "kraggis-ancestral-pickaxe",
+  "MAGNIFICENT ARMOUR OF BOREK BEETLEBROW": "magnificent-armour-of-borek-beetlebrow",
+  "RED AXE OF KARAK EIGHT PEAKS": "red-axe-of-karak-eight-peaks",
+  "RESOUNDING GROMRIL HORN": "resounding-gromril-horn",
+  "RUNIC BRACERS OF SKAVOR": "runic-bracers-of-skavor",
+  "RUNIC TABLET OF THUNGNI": "runic-tablet-of-thungni",
+  "SILVER HORN OF VENGEANCE": "silver-horn-of-vengeance",
+  "TEARDROP OF GRUNGNI": "teardrop-of-grungni"
+ },
+ "lores": {},
+ "profiles": {
+  "ALRIK RANULFSSON": {
+   "Alrik Ranulfsson": "alrik-ranulfsson",
+   "Shieldbearers": "shieldbearers"
+  },
+  "ANVIL OF DOOM": {
+   "Anvil Guard": "anvil-guard",
+   "Anvil of Doom": "anvil-of-doom"
+  },
+  "BEER CART": {
+   "Beer Cart": "beer-cart",
+   "Draft Pony": "draft-pony"
+  },
+  "BELEGAR IRONHAMMER": {
+   "Belegar Ironhammer": "belegar-ironhammer"
+  },
+  "BOLT THROWER": {
+   "Bolt Thrower": "bolt-thrower",
+   "Crew": "crew"
+  },
+  "BREWMASTER": {
+   "Brewmaster": "brewmaster"
+  },
+  "BURLOK DAMMINSON": {
+   "Burlok Damminson": "burlok-damminson"
+  },
+  "CANNON": {
+   "Cannon": "cannon",
+   "Crew": "crew"
+  },
+  "DEATHROLLER": {
+   "Deathroller": "deathroller",
+   "Driver": "driver"
+  },
+  "DOOMSEEKERS": {
+   "Doomseeker": "doomseeker"
+  },
+  "FIRE THROWER": {
+   "Fire Thrower": "fire-thrower"
+  },
+  "FLAME CANNON": {
+   "Crew": "crew",
+   "Flame Cannon": "flame-cannon"
+  },
+  "GARAGRIM IRONFIST": {
+   "Garagrim Ironfist": "garagrim-ironfist"
+  },
+  "GIANT SLAYERS": {
+   "Giant Slayer": "giant-slayer"
+  },
+  "GRIMM BURLOKSSON": {
+   "Grimm Burloksson": "grimm-burloksson"
+  },
+  "GROMBRINDAL": {
+   "Grombrindal": "grombrindal"
+  },
+  "GRUDGE THROWER": {
+   "Crew": "crew",
+   "Grudge Thrower": "grudge-thrower"
+  },
+  "GRUDGEBREAKER": {
+   "Grudgebreaker": "grudgebreaker"
+  },
+  "GYROBOMBER": {
+   "Gyrocopter": "gyrocopter",
+   "Pilot": "pilot"
+  },
+  "GYROCOPTER": {
+   "Gyrocopter": "gyrocopter",
+   "Pilot": "pilot"
+  },
+  "HAMMERERS": {
+   "Hammerer": "hammerer"
+  },
+  "IRONBREAKERS": {
+   "Ironbreaker": "ironbreaker"
+  },
+  "IRONDRAKES": {
+   "Irondrake": "irondrake"
+  },
+  "JOSEF BUGMAN": {
+   "Josef Bugman": "josef-bugman"
+  },
+  "KAZADOR THUNDERHORN": {
+   "Kazador": "kazador"
+  },
+  "LONGBEARDS": {
+   "Longbeard": "longbeard"
+  },
+  "LORDS": {
+   "King": "king",
+   "Thane": "thane"
+  },
+  "MASTER ENGINEER": {
+   "Master Engineer": "master-engineer"
+  },
+  "MINERS": {
+   "Draft Pony": "draft-pony",
+   "Miner": "miner",
+   "Miner's Cart": "miners-cart"
+  },
+  "ORGAN GUN": {
+   "Crew": "crew",
+   "Organ Gun": "organ-gun"
+  },
+  "QUARRELLERS": {
+   "Quarreller": "quarreller"
+  },
+  "RANGERS": {
+   "Ranger": "ranger"
+  },
+  "RUNE GUARDIANS": {
+   "Rune Guardian": "rune-guardian"
+  },
+  "RUNESMITHS": {
+   "Runelord": "runelord",
+   "Runesmith": "runesmith"
+  },
+  "SHIELDBEARERS": {
+   "Shieldbearers": "shieldbearers"
+  },
+  "SLAYERS OF LEGEND": {
+   "Daemon Slayer": "daemon-slayer",
+   "Dragon Slayer": "dragon-slayer"
+  },
+  "THOREK IRONBROW": {
+   "Anvil Guard": "anvil-guard",
+   "Anvil of Doom": "anvil-of-doom",
+   "Kraggi": "kraggi",
+   "Thorek Ironbrow": "thorek-ironbrow"
+  },
+  "THORGRIM GRUDGEBEARER": {
+   "Thorgrim": "thorgrim",
+   "Thronebearers": "thronebearers"
+  },
+  "THUNDERBARGE": {
+   "Crew": "crew",
+   "Thunderbarge": "thunderbarge"
+  },
+  "THUNDERERS": {
+   "Thunderer": "thunderer"
+  },
+  "TROLL SLAYERS": {
+   "Troll Slayer": "troll-slayer"
+  },
+  "UNGRIM IRONFIST": {
+   "Ungrim Ironfist": "ungrim-ironfist"
+  },
+  "WARRIORS": {
+   "Warrior": "warrior"
+  }
+ },
+ "rules": {
+  "ANCESTRAL GRUDGE": "ancestral-grudge",
+  "DEATHBLOW": "deathblow",
+  "DWARFEN CROSSBOW": "dwarfen-crossbow",
+  "DWARFEN HANDGUN": "dwarfen-handgun",
+  "DWARFEN PISTOL": "dwarfen-pistol",
+  "GROMRIL ARMOUR": "gromril-armour",
+  "OATH STONES": "oath-stones",
+  "RELENTLESS": "relentless",
+  "RESOLUTE": "resolute",
+  "SLAYER": "slayer",
+  "WARDS OF GRIMNIR": "wards-of-grimnir"
+ },
+ "units": {
+  "ALRIK RANULFSSON": "alrik-ranulfsson",
+  "ANVIL OF DOOM": "anvil-of-doom",
+  "BEER CART": "beer-cart",
+  "BELEGAR IRONHAMMER": "belegar-ironhammer",
+  "BOLT THROWER": "bolt-thrower",
+  "BREWMASTER": "brewmaster",
+  "BURLOK DAMMINSON": "burlok-damminson",
+  "CANNON": "cannon",
+  "DEATHROLLER": "deathroller",
+  "DOOMSEEKERS": "doomseekers",
+  "FIRE THROWER": "fire-thrower",
+  "FLAME CANNON": "flame-cannon",
+  "GARAGRIM IRONFIST": "garagrim-ironfist",
+  "GIANT SLAYERS": "giant-slayers",
+  "GRIMM BURLOKSSON": "grimm-burloksson",
+  "GROMBRINDAL": "grombrindal",
+  "GRUDGE THROWER": "grudge-thrower",
+  "GRUDGEBREAKER": "grudgebreaker",
+  "GYROBOMBER": "gyrobomber",
+  "GYROCOPTER": "gyrocopter",
+  "HAMMERERS": "hammerers",
+  "IRONBREAKERS": "ironbreakers",
+  "IRONDRAKES": "irondrakes",
+  "JOSEF BUGMAN": "josef-bugman",
+  "KAZADOR THUNDERHORN": "kazador-thunderhorn",
+  "LONGBEARDS": "longbeards",
+  "LORDS": "lords",
+  "MASTER ENGINEER": "master-engineer",
+  "MINERS": "miners",
+  "ORGAN GUN": "organ-gun",
+  "QUARRELLERS": "quarrellers",
+  "RANGERS": "rangers",
+  "RUNE GUARDIANS": "rune-guardians",
+  "RUNESMITHS": "runesmiths",
+  "SHIELDBEARERS": "shieldbearers",
+  "SLAYERS OF LEGEND": "slayers-of-legend",
+  "THOREK IRONBROW": "thorek-ironbrow",
+  "THORGRIM GRUDGEBEARER": "thorgrim-grudgebearer",
+  "THUNDERBARGE": "thunderbarge",
+  "THUNDERERS": "thunderers",
+  "TROLL SLAYERS": "troll-slayers",
+  "UNGRIM IRONFIST": "ungrim-ironfist",
+  "WARRIORS": "warriors"
+ },
+ "upgrades": {
+  "ANCESTOR RUNE": "ancestor-rune",
+  "ENCHANTED RUNE": "enchanted-rune",
+  "FLAKKSON'S RUNE OF SEEKING": "flakksons-rune-of-seeking",
+  "GRUDGE RUNE": "grudge-rune",
+  "MASTER RUNE OF ADAMANT": "master-rune-of-adamant",
+  "MASTER RUNE OF ALARIC THE MAD": "master-rune-of-alaric-the-mad",
+  "MASTER RUNE OF BALANCE": "master-rune-of-balance",
+  "MASTER RUNE OF BANISHMENT": "master-rune-of-banishment",
+  "MASTER RUNE OF BREAKING": "master-rune-of-breaking",
+  "MASTER RUNE OF BURSTING FLAME": "master-rune-of-bursting-flame",
+  "MASTER RUNE OF CHALLENGE": "master-rune-of-challenge",
+  "MASTER RUNE OF DEATH": "master-rune-of-death",
+  "MASTER RUNE OF DEFENCE": "master-rune-of-defence",
+  "MASTER RUNE OF DISGUISE": "master-rune-of-disguise",
+  "MASTER RUNE OF DRAGON SLAYING": "master-rune-of-dragon-slaying",
+  "MASTER RUNE OF FEAR": "master-rune-of-fear",
+  "MASTER RUNE OF FLIGHT": "master-rune-of-flight",
+  "MASTER RUNE OF GRIMNIR": "master-rune-of-grimnir",
+  "MASTER RUNE OF GROMRIL": "master-rune-of-gromril",
+  "MASTER RUNE OF GROTH ONE-EYE": "master-rune-of-groth-one-eye",
+  "MASTER RUNE OF GRUNGNI": "master-rune-of-grungni",
+  "MASTER RUNE OF IMMOLATION": "master-rune-of-immolation",
+  "MASTER RUNE OF KINGSHIP": "master-rune-of-kingship",
+  "MASTER RUNE OF KRAGG THE GRIM": "master-rune-of-kragg-the-grim",
+  "MASTER RUNE OF PASSAGE": "master-rune-of-passage",
+  "MASTER RUNE OF SKALF BLACKHAMMER": "master-rune-of-skalf-blackhammer",
+  "MASTER RUNE OF SKEWERING": "master-rune-of-skewering",
+  "MASTER RUNE OF SLAYING": "master-rune-of-slaying",
+  "MASTER RUNE OF SMITING": "master-rune-of-smiting",
+  "MASTER RUNE OF SNORRI SPANGELHELM": "master-rune-of-snorri-spangelhelm",
+  "MASTER RUNE OF SPELLBINDING": "master-rune-of-spellbinding",
+  "MASTER RUNE OF SPITE": "master-rune-of-spite",
+  "MASTER RUNE OF STEEL": "master-rune-of-steel",
+  "MASTER RUNE OF STROMNI REDBEARD": "master-rune-of-stromni-redbeard",
+  "MASTER RUNE OF SWIFTNESS": "master-rune-of-swiftness",
+  "MASTER RUNE OF VALAYA": "master-rune-of-valaya",
+  "RUNE OF ACCURACY": "rune-of-accuracy",
+  "RUNE OF BATTLE": "rune-of-battle",
+  "RUNE OF BLAZING FURY": "rune-of-blazing-fury",
+  "RUNE OF BROTHERHOOD": "rune-of-brotherhood",
+  "RUNE OF BURNING": "rune-of-burning",
+  "RUNE OF CLEAVING": "rune-of-cleaving",
+  "RUNE OF CONCUSSIVE FORCE": "rune-of-concussive-force",
+  "RUNE OF COURAGE": "rune-of-courage",
+  "RUNE OF DAEMON SLAYING": "rune-of-daemon-slaying",
+  "RUNE OF DETERMINATION": "rune-of-determination",
+  "RUNE OF DISMAY": "rune-of-dismay",
+  "RUNE OF ENDLESS BATTLE": "rune-of-endless-battle",
+  "RUNE OF FATE": "rune-of-fate",
+  "RUNE OF FIRE": "rune-of-fire",
+  "RUNE OF FORGING": "rune-of-forging",
+  "RUNE OF FORTITUDE": "rune-of-fortitude",
+  "RUNE OF FORTUNE": "rune-of-fortune",
+  "RUNE OF FURY": "rune-of-fury",
+  "RUNE OF GRIT": "rune-of-grit",
+  "RUNE OF GUARDING": "rune-of-guarding",
+  "RUNE OF IMPACT": "rune-of-impact",
+  "RUNE OF IRON": "rune-of-iron",
+  "RUNE OF KADRIN": "rune-of-kadrin",
+  "RUNE OF LUCK": "rune-of-luck",
+  "RUNE OF MIGHT": "rune-of-might",
+  "RUNE OF PARRYING": "rune-of-parrying",
+  "RUNE OF PENETRATING": "rune-of-penetrating",
+  "RUNE OF PRESERVATION": "rune-of-preservation",
+  "RUNE OF RAPID FIRE": "rune-of-rapid-fire",
+  "RUNE OF RELOADING": "rune-of-reloading",
+  "RUNE OF RESISTANCE": "rune-of-resistance",
+  "RUNE OF SANCTUARY": "rune-of-sanctuary",
+  "RUNE OF SHIELDING": "rune-of-shielding",
+  "RUNE OF SLOWNESS": "rune-of-slowness",
+  "RUNE OF SPEED": "rune-of-speed",
+  "RUNE OF SPELLBREAKING": "rune-of-spellbreaking",
+  "RUNE OF STOICISM": "rune-of-stoicism",
+  "RUNE OF STONE": "rune-of-stone",
+  "RUNE OF STRIKING": "rune-of-striking",
+  "RUNE OF THE DAUNTLESS": "rune-of-the-dauntless",
+  "RUNE OF THE DISHONOURED": "rune-of-the-dishonoured",
+  "RUNE OF THE FURNACE": "rune-of-the-furnace",
+  "RUNE OF THE HATEFUL": "rune-of-the-hateful",
+  "RUNE OF THE RECKLESS": "rune-of-the-reckless",
+  "RUNE OF WARDING": "rune-of-warding",
+  "RUNE OF WRATH": "rune-of-wrath",
+  "STALWART RUNE": "stalwart-rune",
+  "STROLLAZ' RUNE": "strollaz-rune",
+  "WARRIOR'S RUNE": "warriors-rune"
+ }
+}

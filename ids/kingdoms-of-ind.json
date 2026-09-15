@@ -1,0 +1,999 @@
+{
+ "choices": {
+  "ARCHERS": {
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "AVATAR OF BRAHAMBHU": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "Level 3 Wizard": "level-3-wizard",
+    "Level 4 Wizard": "level-4-wizard"
+   }
+  },
+  "AVATAR OF SHIDRA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "AVATAR OF VISHYANA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "BEASTMASTER": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Bow": "bow",
+    "Javelins": "javelins",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "mount": {
+    "Bengal Tiger": "bengal-tiger"
+   }
+  },
+  "BENGAL RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DARAHMA": {
+   "mount": {
+    "Royal Chariot": "royal-chariot"
+   }
+  },
+  "ETERNALS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GANESHAS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Shields": "shields"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GARUDAS": {
+   "bows": {
+    "bows": "bows"
+   },
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "GREAT CANNON": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   }
+  },
+  "KALARATRIS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KARISHNA": {
+   "mount": {
+    "Royal Chariot": "royal-chariot"
+   }
+  },
+  "MAIDEN GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Spears": "spears",
+    "polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MANTRIKS": {
+   "magic-items-mantrik": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-mantrik-lord": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "MARUTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "NAGAS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-bows": {
+    "great bows": "great-bows"
+   }
+  },
+  "PINDARIS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Light lances": "light-lances",
+    "shortbows": "shortbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RAJAHS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-maharajah": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-rajah": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Longbow": "longbow",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "mount": {
+    "Royal Chariot": "royal-chariot",
+    "Royal Elephant": "royal-elephant",
+    "Thronebearers": "thronebearers",
+    "Vimana Chariot": "vimana-chariot",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "RAJPUTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Light lances": "light-lances",
+    "flails": "flails"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RAKSHASHAS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "ROYAL CHARIOT": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   },
+   "javelins-free": {
+    "javelins +free": "javelins-free"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   },
+   "two-additional-warhorses": {
+    "two additional Warhorses": "two-additional-warhorses"
+   }
+  },
+  "ROYAL ELEPHANT": {
+   "barding": {
+    "barding": "barding"
+   },
+   "extra-crew": {
+    "extra Crew": "extra-crew"
+   },
+   "mahout-expert": {
+    "Mahout Expert": "mahout-expert"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Longbows": "longbows",
+    "Shortbows": "shortbows"
+   },
+   "spike-chains": {
+    "Spike Chains": "spike-chains"
+   },
+   "spiked-tusks": {
+    "Spiked Tusks": "spiked-tusks"
+   }
+  },
+  "SADHU": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "SEPOYS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKIRMISHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Shortbows": "shortbows",
+    "Slings": "slings"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "Bucklers": "bucklers",
+    "Shields": "shields"
+   }
+  },
+  "SOWARS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Light lances": "light-lances",
+    "shortbows": "shortbows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "URJANA": {
+   "mount": {
+    "Royal Chariot": "royal-chariot"
+   }
+  },
+  "URUMI SWORDSMEN": {
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "VANARAS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Blowpipes": "blowpipes"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "VIMANA CHARIOT": {
+   "giant-bow": {
+    "giant bow": "giant-bow"
+   }
+  },
+  "VISHKANYA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "WAR ELEPHANT": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   },
+   "barding": {
+    "barding": "barding"
+   },
+   "equipment": {
+    "Giant bow": "giant-bow",
+    "Jingal": "jingal"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "mahout-expert": {
+    "Mahout Expert": "mahout-expert"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Longbows": "longbows",
+    "Shortbows": "shortbows"
+   },
+   "spike-chains": {
+    "Spike Chains": "spike-chains"
+   },
+   "spiked-tusks": {
+    "Spiked Tusks": "spiked-tusks"
+   }
+  },
+  "WAR ROCKET": {
+   "additional-crew": {
+    "additional Crew": "additional-crew"
+   }
+  },
+  "WARHORSE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "WARRIORS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Spears": "spears",
+    "dditional hand weapons": "dditional-hand-weapons",
+    "great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "YAKSHAS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ZAMBURAKS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ARCHERS": {
+   "May take bucklers": "bucklers",
+   "May upgrade one Archer to a Leader": "champion",
+   "May upgrade one Archer to a Musician": "musician",
+   "May upgrade one Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "AVATAR OF BRAHAMBHU": {
+   "May be upgraded to one of the following:": "wizard-level",
+   "May take Magic Items up to a total of 100 points": "magic-items"
+  },
+  "AVATAR OF SHIDRA": {
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "AVATAR OF VISHYANA": {
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "BEASTMASTER": {
+   "May be mounted on a Bengal Tiger": "mount",
+   "May choose one of the following:": "missile-weapon",
+   "May take Magic Items up to a total of 25 points": "magic-items",
+   "May take an additional hand weapon": "additional-hand-weapon"
+  },
+  "BENGAL RIDERS": {
+   "May choose one of the following:": "melee-weapon",
+   "May upgrade one Bengal Rider to a Leader": "champion",
+   "May upgrade one Bengal Rider to a Musician": "musician",
+   "May upgrade one Bengal Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bengal Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DARAHMA": {
+   "May be mounted on a Royal Chariot (replacing one of the crew)": "mount"
+  },
+  "ETERNALS": {
+   "May upgrade one Eternal to a Leader": "champion",
+   "May upgrade one Eternal to a Musician": "musician",
+   "May upgrade one Eternal to a Standard Bearer": "standard-bearer",
+   "May upgrade one Eternal to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GANESHAS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Ganesha to a Leader": "champion",
+   "May upgrade one Ganesha to a Musician": "musician",
+   "May upgrade one Ganesha to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ganesha to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GARUDAS": {
+   "May take bows": "bows",
+   "May upgrade one Garuda to a Leader": "champion"
+  },
+  "GREAT CANNON": {
+   "May take an additional Crew": "additional-crew"
+  },
+  "KALARATRIS": {
+   "May upgrade one Kalaratri to a Leader": "champion",
+   "May upgrade one Kalaratri to a Musician": "musician",
+   "May upgrade one Kalaratri to a Standard Bearer": "standard-bearer",
+   "May upgrade one Kalaratri to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "KARISHNA": {
+   "May be mounted on a Royal Chariot (replacing one of the crew)": "mount"
+  },
+  "MAIDEN GUARD": {
+   "May choose one of the following:": "melee-weapon",
+   "May replace bucklers with shields": "shields",
+   "May take light armour": "light-armour",
+   "May upgrade one Maiden Guard to a Leader": "champion",
+   "May upgrade one Maiden Guard to a Musician": "musician",
+   "May upgrade one Maiden Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Maiden Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MANTRIKS": {
+   "A Mantrik Lord may take Magic Items up to a total of 100 points": "magic-items-mantrik-lord",
+   "A Mantrik may take Magic Items up to a total of 50 points": "magic-items-mantrik",
+   "May be mounted on a Warhorse": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "MARUTS": {
+   "May upgrade one Marut to a Leader": "champion",
+   "May upgrade one Marut to a Musician": "musician",
+   "May upgrade one Marut to a Standard Bearer": "standard-bearer",
+   "May upgrade one Marut to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "NAGAS": {
+   "May take great bows": "great-bows",
+   "May upgrade one Naga to a Leader": "champion"
+  },
+  "PINDARIS": {
+   "May choose one of the following:": "equipment",
+   "May replace bucklers with shields": "shields",
+   "May upgrade one Pindari to a Leader": "champion",
+   "May upgrade one Pindari to a Musician": "musician",
+   "May upgrade one Pindari to a Standard Bearer": "standard-bearer",
+   "May upgrade one Pindari to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "RAJAHS": {
+   "A Maharajah may take Magic Items up to a total of 100 points": "magic-items-maharajah",
+   "A Rajah may take Magic Items up to a total of 50 points": "magic-items-rajah",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Rajah may carry the Battle Standard": "battle-standard"
+  },
+  "RAJPUTS": {
+   "May choose one of the following:": "melee-weapon",
+   "May replace bucklers with shields": "shields",
+   "May upgrade one Rajput to a Leader": "champion",
+   "May upgrade one Rajput to a Musician": "musician",
+   "May upgrade one Rajput to a Standard Bearer": "standard-bearer",
+   "May upgrade one Rajput to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "RAKSHASHAS": {
+   "May replace hand weapons with great weapons": "great-weapons",
+   "May upgrade one Rakshasa to a Leader": "champion",
+   "May upgrade one Rakshasa to a Musician": "musician"
+  },
+  "ROYAL CHARIOT": {
+   "May replace bows with javelins +free": "javelins-free",
+   "May take light armour": "light-armour",
+   "May take two additional Warhorses": "two-additional-warhorses",
+   "May take up to three additional Crew": "additional-crew",
+   "May upgrade one Royal Chariot to a standard bearer": "standard-bearer"
+  },
+  "ROYAL ELEPHANT": {
+   "May choose one of the following:": "missile-weapon",
+   "May take Mahout Expert": "mahout-expert",
+   "May take Spike Chains": "spike-chains",
+   "May take Spiked Tusks": "spiked-tusks",
+   "May take barding": "barding",
+   "May take up to two extra Crew": "extra-crew"
+  },
+  "SADHU": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "SEPOYS": {
+   "May upgrade one Sepoy to a Leader": "champion",
+   "May upgrade one Sepoy to a Musician": "musician",
+   "May upgrade one Sepoy to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sepoy to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKIRMISHERS": {
+   "May choose one of the following (javelins only):": "shields",
+   "May replace throwing weapons one of the following:": "missile-weapon",
+   "May upgrade one Skirmisher to a Leader": "champion",
+   "May upgrade one Skirmisher to a Musician": "musician"
+  },
+  "SOWARS": {
+   "May choose one of the following:": "equipment",
+   "May replace bucklers with shields": "shields",
+   "May take light armour": "light-armour",
+   "May upgrade one Sowar to a Leader": "champion",
+   "May upgrade one Sowar to a Musician": "musician",
+   "May upgrade one Sowar to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sowar to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "URJANA": {
+   "May be mounted on a Royal Chariot (replacing one of the crew)": "mount"
+  },
+  "URUMI SWORDSMEN": {
+   "May take bucklers": "bucklers",
+   "May upgrade one Urumi Swordsman to a Leader": "champion"
+  },
+  "VANARAS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Vanara to a Leader": "champion",
+   "May upgrade one Vanara to a Musician": "musician"
+  },
+  "VIMANA CHARIOT": {
+   "May take a giant bow": "giant-bow"
+  },
+  "VISHKANYA": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "WAR ELEPHANT": {
+   "May choose one of the following:": "missile-weapon",
+   "May choose one of the following: #2": "equipment",
+   "May take Mahout Expert": "mahout-expert",
+   "May take Spike Chains": "spike-chains",
+   "May take Spiked Tusks": "spiked-tusks",
+   "May take barding": "barding",
+   "May take light armour": "light-armour",
+   "May take one additional Crew": "additional-crew"
+  },
+  "WAR ROCKET": {
+   "May take an additional Crew": "additional-crew"
+  },
+  "WARHORSE": {
+   "May take barding": "barding"
+  },
+  "WARRIORS": {
+   "May choose one of the following:": "melee-weapon",
+   "May replace bucklers with shields": "shields",
+   "May take light armour": "light-armour",
+   "May upgrade one Warrior to a Leader": "champion",
+   "May upgrade one Warrior to a Musician": "musician",
+   "May upgrade one Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "YAKSHAS": {
+   "May upgrade one Yaksha to a Leader": "champion",
+   "May upgrade one Yaksha to a Musician": "musician",
+   "May upgrade one Yaksha to a Standard Bearer": "standard-bearer",
+   "May upgrade one Yaksha to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "ZAMBURAKS": {
+   "May upgrade one Zamburak to a Leader": "champion",
+   "May upgrade one Zamburak to a Musician": "musician",
+   "May upgrade one Zamburak to a Standard Bearer": "standard-bearer",
+   "May upgrade one Zamburak to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  }
+ },
+ "items": {
+  "ASHWATHAMA'S GEM": "ashwathamas-gem",
+  "BLESSED ANKUSHA": "blessed-ankusha",
+  "CROWN OF SHAMBHALA": "crown-of-shambhala",
+  "DIVINE THUNDERBOLT": "divine-thunderbolt",
+  "ELEPHANT BREASTPLATE": "elephant-breastplate",
+  "FLAIL OF THE DEATH GODDESS": "flail-of-the-death-goddess",
+  "GARLAND OF VICTORY": "garland-of-victory",
+  "GAUNTLETS OF THE FIRE LORD": "gauntlets-of-the-fire-lord",
+  "HOLY STANDARD OF THE DEVAS": "holy-standard-of-the-devas",
+  "KARKADANN ARMOUR": "karkadann-armour",
+  "MACE OF GODLY MIGHT": "mace-of-godly-might",
+  "MAHAKALI'S BOW": "mahakalis-bow",
+  "MAKARA EARRING": "makara-earring",
+  "MARUTVANT BANNER": "marutvant-banner",
+  "MASK OF GOOD FORTUNE": "mask-of-good-fortune",
+  "NECKLACE OF SKULLS": "necklace-of-skulls",
+  "NECTAR OF THE GODS": "nectar-of-the-gods",
+  "ORB OF THE DEVA": "orb-of-the-deva",
+  "PADMA ARMOUR": "padma-armour",
+  "PARIJATA WREATH": "parijata-wreath",
+  "PENNANT OF ENDURING KARMA": "pennant-of-enduring-karma",
+  "PRAYER BEADS": "prayer-beads",
+  "SHANKHA SHELL HORN": "shankha-shell-horn",
+  "SHESHA BLADE": "shesha-blade",
+  "SKULL-CUP OF TRANSCENDENCE": "skull-cup-of-transcendence",
+  "SPEAR OF VICTORY": "spear-of-victory",
+  "SRIVATSA SHIELD": "srivatsa-shield",
+  "STAFF OF BRAHAMBHU": "staff-of-brahambhu",
+  "STANDARD OF DIVINE INCANDESCENCE": "standard-of-divine-incandescence",
+  "THE CELESTIAL DIADEM": "the-celestial-diadem",
+  "THE KAVACHA": "the-kavacha",
+  "THE PRIMORDIAL SWORD": "the-primordial-sword",
+  "THE STAR JEWEL": "the-star-jewel",
+  "THE SUN JEWEL": "the-sun-jewel",
+  "THE WISH GEM": "the-wish-gem",
+  "TOTEM OF BRAHAMBHU": "totem-of-brahambhu",
+  "TRIDENT OF DESTRUCTION": "trident-of-destruction"
+ },
+ "lores": {},
+ "profiles": {
+  "ARCHERS": {
+   "Archer": "archer"
+  },
+  "AVATAR OF BRAHAMBHU": {
+   "Avatar of Brahambhu": "avatar-of-brahambhu"
+  },
+  "AVATAR OF SHIDRA": {
+   "Avatar of Shidra": "avatar-of-shidra"
+  },
+  "AVATAR OF VISHYANA": {
+   "Avatar of Vishyana": "avatar-of-vishyana"
+  },
+  "BEASTMASTER": {
+   "Beastmaster": "beastmaster",
+   "Tiger": "tiger"
+  },
+  "BENGAL RIDERS": {
+   "Bengal Rider": "bengal-rider",
+   "Bengal Tiger": "bengal-tiger"
+  },
+  "BENGAL TIGER": {
+   "Bengal Tiger": "bengal-tiger"
+  },
+  "DARAHMA": {
+   "Darahma": "darahma"
+  },
+  "ETERNALS": {
+   "Eternals": "eternals"
+  },
+  "GANESHAS": {
+   "Ganesha": "ganesha"
+  },
+  "GARUDAS": {
+   "Garuda": "garuda"
+  },
+  "GREAT CANNON": {
+   "Crew": "crew",
+   "Great Cannon": "great-cannon"
+  },
+  "KALARATRIS": {
+   "Kalaratri": "kalaratri"
+  },
+  "KARISHNA": {
+   "Karishna": "karishna"
+  },
+  "MAIDEN GUARD": {
+   "Maiden Guard": "maiden-guard"
+  },
+  "MAKARA": {
+   "Makara": "makara"
+  },
+  "MANTRIKS": {
+   "Mantrik": "mantrik",
+   "Mantrik Lord": "mantrik-lord"
+  },
+  "MARUTS": {
+   "Marut": "marut"
+  },
+  "MHOGLI": {
+   "Mhogli": "mhogli",
+   "Sher Khana": "sher-khana"
+  },
+  "NAGAS": {
+   "Naga": "naga"
+  },
+  "PARASHURUMA": {
+   "Parashuruma": "parashuruma"
+  },
+  "PINDARIS": {
+   "Pindari": "pindari",
+   "Warhorse": "warhorse"
+  },
+  "RAJAHS": {
+   "Maharajah": "maharajah",
+   "Rajah": "rajah"
+  },
+  "RAJPUTS": {
+   "Rajput": "rajput",
+   "Warhorse": "warhorse"
+  },
+  "RAKSHASHAS": {
+   "Rakshasa": "rakshasa"
+  },
+  "ROYAL CHARIOT": {
+   "Charioteer": "charioteer",
+   "Royal Chariot": "royal-chariot",
+   "Warhorse": "warhorse"
+  },
+  "ROYAL ELEPHANT": {
+   "Crew": "crew",
+   "Royal Elephant": "royal-elephant"
+  },
+  "SADHU": {
+   "Sadhu": "sadhu"
+  },
+  "SEPOYS": {
+   "Sepoy": "sepoy"
+  },
+  "SHESHA": {
+   "Shesha": "shesha"
+  },
+  "SKIRMISHERS": {
+   "Skirmisher": "skirmisher"
+  },
+  "SNAKE SWARMS": {
+   "Snake Charmer": "snake-charmer",
+   "Snake Swarm": "snake-swarm"
+  },
+  "SOWARS": {
+   "Camel": "camel",
+   "Sowar": "sowar"
+  },
+  "TEMPLE CHARIOT": {
+   "Temple Chariot": "temple-chariot"
+  },
+  "THRONEBEARERS": {
+   "Thronebearers": "thronebearers"
+  },
+  "URJANA": {
+   "Urjana": "urjana"
+  },
+  "URUMI SWORDSMEN": {
+   "Urumi Swordsman": "urumi-swordsman"
+  },
+  "VANARAS": {
+   "Vanara": "vanara"
+  },
+  "VIMANA CHARIOT": {
+   "Charioteer": "charioteer",
+   "Vimana Chariot": "vimana-chariot"
+  },
+  "VISHKANYA": {
+   "Vishkanya": "vishkanya"
+  },
+  "WAR ELEPHANT": {
+   "Crew": "crew",
+   "War Elephant": "war-elephant"
+  },
+  "WAR ROCKET": {
+   "Crew": "crew",
+   "War Rocket": "war-rocket"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WARRIORS": {
+   "Warrior": "warrior"
+  },
+  "YAKSHAS": {
+   "Yaksha": "yaksha"
+  },
+  "YALI": {
+   "Yali": "yali"
+  },
+  "ZAMBURAKS": {
+   "Camel": "camel",
+   "Zamburak": "zamburak"
+  }
+ },
+ "rules": {
+  "DEVA": "deva",
+  "KARMA": "karma"
+ },
+ "units": {
+  "ARCHERS": "archers",
+  "AVATAR OF BRAHAMBHU": "avatar-of-brahambhu",
+  "AVATAR OF SHIDRA": "avatar-of-shidra",
+  "AVATAR OF VISHYANA": "avatar-of-vishyana",
+  "BEASTMASTER": "beastmaster",
+  "BENGAL RIDERS": "bengal-riders",
+  "BENGAL TIGER": "bengal-tiger",
+  "DARAHMA": "darahma",
+  "ETERNALS": "eternals",
+  "GANESHAS": "ganeshas",
+  "GARUDAS": "garudas",
+  "GREAT CANNON": "great-cannon",
+  "KALARATRIS": "kalaratris",
+  "KARISHNA": "karishna",
+  "MAIDEN GUARD": "maiden-guard",
+  "MAKARA": "makara",
+  "MANTRIKS": "mantriks",
+  "MARUTS": "maruts",
+  "MHOGLI": "mhogli",
+  "NAGAS": "nagas",
+  "PARASHURUMA": "parashuruma",
+  "PINDARIS": "pindaris",
+  "RAJAHS": "rajahs",
+  "RAJPUTS": "rajputs",
+  "RAKSHASHAS": "rakshashas",
+  "ROYAL CHARIOT": "royal-chariot",
+  "ROYAL ELEPHANT": "royal-elephant",
+  "SADHU": "sadhu",
+  "SEPOYS": "sepoys",
+  "SHESHA": "shesha",
+  "SKIRMISHERS": "skirmishers",
+  "SNAKE SWARMS": "snake-swarms",
+  "SOWARS": "sowars",
+  "TEMPLE CHARIOT": "temple-chariot",
+  "THRONEBEARERS": "thronebearers",
+  "URJANA": "urjana",
+  "URUMI SWORDSMEN": "urumi-swordsmen",
+  "VANARAS": "vanaras",
+  "VIMANA CHARIOT": "vimana-chariot",
+  "VISHKANYA": "vishkanya",
+  "WAR ELEPHANT": "war-elephant",
+  "WAR ROCKET": "war-rocket",
+  "WARHORSE": "warhorse",
+  "WARRIORS": "warriors",
+  "YAKSHAS": "yakshas",
+  "YALI": "yali",
+  "ZAMBURAKS": "zamburaks"
+ },
+ "upgrades": {}
+}

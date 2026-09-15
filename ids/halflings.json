@@ -1,0 +1,644 @@
+{
+ "choices": {
+  "ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DEPUTIES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "piggyback-riders": {
+    "Piggyback Riders": "piggyback-riders"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "FIELDWARDENS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GAMEKEEPERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "HERBALIST": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "HISME STOUTHEART": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "mount": {
+    "Farm Animal": "farm-animal"
+   }
+  },
+  "HOBILARS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Light lances": "light-lances",
+    "shortbows": "shortbows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HOUSEWIVES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "piggyback-riders": {
+    "Piggyback Riders": "piggyback-riders"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LUMPIN CROOP": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MASTER CHEF": {
+   "buckler": {
+    "buckler": "buckler"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "missile-weapon": {
+    "Shortbow": "shortbow",
+    "Sling": "sling",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "mount": {
+    "Chuck Wagon": "chuck-wagon"
+   }
+  },
+  "MASTER THIEF": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "buckler": {
+    "buckler": "buckler"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Shortbow": "shortbow",
+    "Sling": "sling",
+    "Throwing weapons": "throwing-weapons"
+   }
+  },
+  "MILITIA": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Fails": "fails",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "piggyback-riders": {
+    "Piggyback Riders": "piggyback-riders"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "MOOT OGRES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "NICHOLAS WARFOOT": {
+   "mount": {
+    "Farm Animal": "farm-animal"
+   }
+  },
+  "OFFICIALS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-moot-elder": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-sheriff": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Shortbow": "shortbow",
+    "Sling": "sling",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "mount": {
+    "Farm Animal": "farm-animal",
+    "Giant Swan": "giant-swan",
+    "Ogre Bodyguard": "ogre-bodyguard"
+   },
+   "shields": {
+    "Buckler": "buckler",
+    "Shield": "shield"
+   }
+  },
+  "OGGLETHORPE BULNHELM": {
+   "mount": {
+    "Chuck Wagon": "chuck-wagon"
+   }
+  },
+  "OGRE BODYGUARD": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "REAPER": {
+   "flails": {
+    "flails": "flails"
+   }
+  },
+  "SHEARER": {
+   "flails": {
+    "flails": "flails"
+   }
+  },
+  "SWAN RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "Shortbows": "shortbows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "THIEVES": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "missile-weapon": {
+    "Shortbows": "shortbows",
+    "Slings": "slings",
+    "Throwing weapons": "throwing-weapons"
+   }
+  }
+ },
+ "groups": {
+  "ARCHERS": {
+   "May upgrade one Archer to a Leader": "champion",
+   "May upgrade one Archer to a Musician": "musician",
+   "May upgrade one Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "DEPUTIES": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Piggyback Riders": "piggyback-riders",
+   "May take light armour": "light-armour",
+   "May take shields": "shields",
+   "May upgrade one Deputy to a Leader": "champion",
+   "May upgrade one Deputy to a Musician": "musician",
+   "May upgrade one Deputy to a Standard Bearer": "standard-bearer",
+   "May upgrade one Deputy to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "FIELDWARDENS": {
+   "May upgrade one Fieldwarden to a Leader": "champion",
+   "May upgrade one Fieldwarden to a Musician": "musician",
+   "May upgrade one Fieldwarden to a Standard Bearer": "standard-bearer",
+   "May upgrade one Fieldwarden to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "GAMEKEEPERS": {
+   "May upgrade one Gamekeeper to a Leader": "champion",
+   "May upgrade one Gamekeeper to a Musician": "musician"
+  },
+  "HERBALIST": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "HISME STOUTHEART": {
+   "May be mounted on a Farm Animal": "mount",
+   "May choose one of the following:": "armour"
+  },
+  "HOBILARS": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Hobilar to a Leader": "champion",
+   "May upgrade one Hobilar to a Musician": "musician",
+   "May upgrade one Hobilar to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hobilar to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HOUSEWIVES": {
+   "May take Piggyback Riders": "piggyback-riders",
+   "May upgrade one Housewife to a Leader": "champion",
+   "May upgrade one Housewife to a Musician": "musician",
+   "May upgrade one Housewife to a Standard Bearer": "standard-bearer",
+   "May upgrade one Housewife to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "LUMPIN CROOP": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "MASTER CHEF": {
+   "May be mounted on a Chuck Wagon (replacing one of the crew)": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a buckler": "buckler"
+  },
+  "MASTER THIEF": {
+   "May choose one of the following:": "missile-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a buckler": "buckler",
+   "May take an additional hand weapon": "additional-hand-weapon",
+   "May take light armour": "light-armour"
+  },
+  "MILITIA": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Piggyback Riders": "piggyback-riders",
+   "May take shields (unless armed with flails)": "shields",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Militiaman to a Leader": "champion",
+   "May upgrade one Militiaman to a Musician": "musician",
+   "May upgrade one Militiaman to a Standard Bearer": "standard-bearer"
+  },
+  "MOOT OGRES": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "NICHOLAS WARFOOT": {
+   "May be mounted on a Farm Animal": "mount"
+  },
+  "OFFICIALS": {
+   "A Moot Elder may take Magic Items up to a total of 100 points": "magic-items-moot-elder",
+   "A Sheriff may take Magic Items up to a total of 50 points": "magic-items-sheriff",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May choose one of the following: #4": "shields",
+   "One Sheriff may carry the Battle Standard": "battle-standard"
+  },
+  "OGGLETHORPE BULNHELM": {
+   "May be mounted on a Chuck Wagon (replacing one of the crew)": "mount"
+  },
+  "OGRE BODYGUARD": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour"
+  },
+  "REAPER": {
+   "May take flails": "flails"
+  },
+  "SHEARER": {
+   "May take flails": "flails"
+  },
+  "SWAN RIDERS": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May take shields": "shields",
+   "May upgrade one Swan Rider to a Leader": "champion",
+   "May upgrade one Swan Rider to a Musician": "musician",
+   "May upgrade one Swan Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Swan Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "THIEVES": {
+   "May choose one of the following:": "missile-weapon",
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May upgrade one Thief to a Leader": "champion"
+  }
+ },
+ "items": {
+  "AMULET OF HOKERY-POKERY": "amulet-of-hokery-pokery",
+  "BLACK PEPPER SPRAY": "black-pepper-spray",
+  "BOW OF APPLE OAK": "bow-of-apple-oak",
+  "BOW OF CORNGOLD": "bow-of-corngold",
+  "CLOAK OF ILLUSION": "cloak-of-illusion",
+  "COCKERELL SCROLL": "cockerell-scroll",
+  "COOKING POT HELM": "cooking-pot-helm",
+  "DARCIE'S MAGICAL THINGIMABOB": "darcies-magical-thingimabob",
+  "DIMMINU'S LOCKPICK": "dimminus-lockpick",
+  "DRAGONBANE GEM": "dragonbane-gem",
+  "ENCHANTED HONING STEEL": "enchanted-honing-steel",
+  "ESMERALDA'S LOCKET": "esmeraldas-locket",
+  "EVERLASTING SCRUMPING BASKET": "everlasting-scrumping-basket",
+  "FLAMING PINWHEEL": "flaming-pinwheel",
+  "FOUR-LEAF CLOVER": "four-leaf-clover",
+  "GILDED LADLE": "gilded-ladle",
+  "HONEYCOMB BANNER": "honeycomb-banner",
+  "HORN OF RIBALD TOMFOOLERY": "horn-of-ribald-tomfoolery",
+  "JADE SICKLE": "jade-sickle",
+  "KNEECAPPING HAMMER": "kneecapping-hammer",
+  "LARGO'S LEATHER JERKIN": "largos-leather-jerkin",
+  "LUCKY CHARM": "lucky-charm",
+  "LUCKY'S COLLAR": "luckys-collar",
+  "MIDSUMMER POLE": "midsummer-pole",
+  "OLD HOPEFUL": "old-hopeful",
+  "OLORIN THE GREY'S KNICKKNACK": "olorin-the-greys-knickknack",
+  "OUTLANDISH UNIFORM": "outlandish-uniform",
+  "PARRYING POT LID": "parrying-pot-lid",
+  "PENNANT OF THE HOPPING HORSE": "pennant-of-the-hopping-horse",
+  "PIDGEON PLUCKER PENDANT": "pidgeon-plucker-pendant",
+  "RABBIT'S FOOT": "rabbits-foot",
+  "RING OF INVISIBILITY": "ring-of-invisibility",
+  "SAM'S SPELLPOUCH": "sams-spellpouch",
+  "SCARECROW BANNER": "scarecrow-banner",
+  "SPEAR OF JUSTICE": "spear-of-justice",
+  "SPELLBINDING STANDARD": "spellbinding-standard",
+  "STANDARD OF THE MOOT": "standard-of-the-moot",
+  "TERRANCE CHUBBLY'S ENCHANTED ARROWS": "terrance-chubblys-enchanted-arrows",
+  "TERRY'S EYE-POKING STICK": "terrys-eye-poking-stick",
+  "THE BANNER OF THE JOLLY HALFLING": "the-banner-of-the-jolly-halfling",
+  "THE BEEFUP BAUBLE": "the-beefup-bauble",
+  "THE BLADDERWHACK": "the-bladderwhack",
+  "THE EMERALD LODE": "the-emerald-lode",
+  "THE EPIC FLAIL": "the-epic-flail",
+  "THE GLOVE OF SNEAKY PINCHING": "the-glove-of-sneaky-pinching",
+  "THE OAKGNARL": "the-oakgnarl",
+  "THE REAPER SCYTHE": "the-reaper-scythe",
+  "THE WHEATSHIELD": "the-wheatshield",
+  "TIMBER AXE OF JONNO THE SLICK": "timber-axe-of-jonno-the-slick",
+  "TRAILBLAZER'S HAUBERK": "trailblazers-hauberk",
+  "TRICKSTER'S ARMOUR": "tricksters-armour",
+  "WAR CLUB OF ELDER BANDO": "war-club-of-elder-bando",
+  "WASHING LINE": "washing-line",
+  "WIZARDING HAT": "wizarding-hat"
+ },
+ "lores": {},
+ "profiles": {
+  "ARCHERS": {
+   "Archer": "archer"
+  },
+  "BEEKEEPERS": {
+   "Beekeeper": "beekeeper"
+  },
+  "CHUCK WAGON": {
+   "Chuck Wagon": "chuck-wagon",
+   "Cook": "cook",
+   "Farm Animal": "farm-animal"
+  },
+  "CLEGG THE INDOMITABLE": {
+   "Clegg": "clegg"
+  },
+  "DEPUTIES": {
+   "Deputy": "deputy"
+  },
+  "FARM ANIMAL": {
+   "Farm Animal": "farm-animal"
+  },
+  "FIELDWARDENS": {
+   "Fieldwarden": "fieldwarden"
+  },
+  "FIREWORKS CART": {
+   "Crew": "crew",
+   "Fireworks Cart": "fireworks-cart"
+  },
+  "GABBO FLUGBEND": {
+   "Gabbo Flugbend": "gabbo-flugbend",
+   "Greywing (Pegasus)": "greywing-pegasus"
+  },
+  "GAMEKEEPERS": {
+   "Gamekeeper": "gamekeeper"
+  },
+  "GIANT SWAN": {
+   "Giant Swan": "giant-swan"
+  },
+  "HERBALIST": {
+   "Herbalist": "herbalist"
+  },
+  "HISME STOUTHEART": {
+   "Hisme Stoutheart": "hisme-stoutheart"
+  },
+  "HOBILARS": {
+   "Farm Animal": "farm-animal",
+   "Hobilar": "hobilar"
+  },
+  "HOT POT": {
+   "Crew": "crew",
+   "Hot Pot": "hot-pot"
+  },
+  "HOUSEWIVES": {
+   "Housewife": "housewife"
+  },
+  "JOLLY BOLBOTTOM": {
+   "Jolly Bolbottom": "jolly-bolbottom"
+  },
+  "LUMPIN CROOP": {
+   "Lumpin Croop": "lumpin-croop",
+   "Ned Hamfist": "ned-hamfist"
+  },
+  "MASTER CHEF": {
+   "Master Chef": "master-chef"
+  },
+  "MASTER THIEF": {
+   "Master Thief": "master-thief"
+  },
+  "MILITIA": {
+   "Militiaman": "militiaman"
+  },
+  "MOOT OGRES": {
+   "Ogre": "ogre"
+  },
+  "NICHOLAS WARFOOT": {
+   "Nicholas Warfoot": "nicholas-warfoot"
+  },
+  "OFFICIALS": {
+   "Moot Elder": "moot-elder",
+   "Sheriff": "sheriff"
+  },
+  "OGGLETHORPE BULNHELM": {
+   "Ogglethorpe Bulnhelm": "ogglethorpe-bulnhelm"
+  },
+  "OGRE BODYGUARD": {
+   "Ogre Bodyguard": "ogre-bodyguard"
+  },
+  "REAPER": {
+   "Farm Animal": "farm-animal",
+   "Farmer": "farmer",
+   "Reaper": "reaper"
+  },
+  "SHEARER": {
+   "Farm Animal": "farm-animal",
+   "Farmer": "farmer",
+   "Shearer": "shearer"
+  },
+  "SWAN RIDERS": {
+   "Giant Swan": "giant-swan",
+   "Swan Rider": "swan-rider"
+  },
+  "THIEVES": {
+   "Thief": "thief"
+  },
+  "TREEMAN": {
+   "Treeman": "treeman"
+  }
+ },
+ "rules": {
+  "DUCK & WEAVE": "duck-and-weave",
+  "HOMESTEADERS": "homesteaders",
+  "NATURAL RESISTANCE": "natural-resistance",
+  "PIGGYBACK RIDERS": "piggyback-riders",
+  "TRINKETS": "trinkets"
+ },
+ "units": {
+  "ARCHERS": "archers",
+  "BEEKEEPERS": "beekeepers",
+  "CHUCK WAGON": "chuck-wagon",
+  "CLEGG THE INDOMITABLE": "clegg-the-indomitable",
+  "DEPUTIES": "deputies",
+  "FARM ANIMAL": "farm-animal",
+  "FIELDWARDENS": "fieldwardens",
+  "FIREWORKS CART": "fireworks-cart",
+  "GABBO FLUGBEND": "gabbo-flugbend",
+  "GAMEKEEPERS": "gamekeepers",
+  "GIANT SWAN": "giant-swan",
+  "HERBALIST": "herbalist",
+  "HISME STOUTHEART": "hisme-stoutheart",
+  "HOBILARS": "hobilars",
+  "HOT POT": "hot-pot",
+  "HOUSEWIVES": "housewives",
+  "JOLLY BOLBOTTOM": "jolly-bolbottom",
+  "LUMPIN CROOP": "lumpin-croop",
+  "MASTER CHEF": "master-chef",
+  "MASTER THIEF": "master-thief",
+  "MILITIA": "militia",
+  "MOOT OGRES": "moot-ogres",
+  "NICHOLAS WARFOOT": "nicholas-warfoot",
+  "OFFICIALS": "officials",
+  "OGGLETHORPE BULNHELM": "ogglethorpe-bulnhelm",
+  "OGRE BODYGUARD": "ogre-bodyguard",
+  "REAPER": "reaper",
+  "SHEARER": "shearer",
+  "SWAN RIDERS": "swan-riders",
+  "THIEVES": "thieves",
+  "TREEMAN": "treeman"
+ },
+ "upgrades": {}
+}

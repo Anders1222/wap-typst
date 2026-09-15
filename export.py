@@ -14,24 +14,34 @@ have no record form - an army's special rules, and the rulebook's prose - are
 exported from the chapter body the column code drops, cut at the heads the
 way `balanced-columns(whole: true)` cuts it.
 
-Shape, top down:
+Shape, top down (docs/format.md has the full description and worked examples):
 
-  system, source            the edition and the commit it was exported from
+  formatVersion             2
+  system, version, source   the edition, the rulebook's version, the commit
   rulebook
     rules        {name: text}   every headed rule under SPECIAL RULES
     items        [..]           the common magic items, by category
     lores        [..]           the eight lores, spells with level and cast
     weapons      [..]           WEAPONS & ARMOUR heads with their profile rows
     chapters     [..]           the whole book as a heading tree, for the rest
+  composition               CHOOSING YOUR ARMY as data: percentages, duplicates
   factions {slug:
-    name, version, align
-    rules        [{name, text}]         ARMY SPECIAL RULES
-    items        [{category, name, cost, type, only, bound, oneUse, common, text}]
-    upgrades     [{chapter, group, name, cost, only, bound, oneUse, text}]
-    lores        [{name, spells: [{name, level, cast, text}]}]
+    id, name, version, align
+    rules        [{id, name, text}]         ARMY SPECIAL RULES
+    items        [{id, category, name, cost, type, only, bound, oneUse, common, text}]
+    upgrades     [{id, chapter, group, name, cost, only, bound, oneUse, text}]
+    lores        [{id, name, spells: [{name, level, cast, text}]}]
     prose        [{chapter, name, text}]  heads of any other prose chapter
-    units        [{name, chapter, category, profiles, <fields>..}]
+    composition  {unitConstraints: [..]}  the book's own limits, from unit notes
+    units        [{id, name, chapter, category, section, tier, named, profiles,
+                   unitSizeParsed, equipmentList, specialRulesList,
+                   optionGroups, <fields>..}]
   }
+
+formatVersion 2 added the ids, the typed `optionGroups` beside `options`, the
+parsed unit size and list forms, and `composition`. Every formatVersion 1
+field kept its value; the new data is in new fields beside it. Ids are read
+from `ids/<slug>.json`, one committed map per book (exporter/ids.py).
 
 A unit's fields keep the template's vocabulary in camelCase: `unit-size` is
 `unitSize`, and a companion `special-rules-body` is `specialRulesBody`. A
@@ -50,7 +60,11 @@ by " | ".
 
 `--check` is the gate: every unit, item, spell, upgrade and rule head the
 source declares is in the file, every string field is byte-identical to the
-source, and every word of exported text is a word on the rendered page.
+source, every printed option line is in `optionGroups` exactly once and is
+in the source, every word of exported text is a word on the rendered page,
+and the file conforms to schema/war.schema.json. It then prints the build
+report: groups and choices per faction, what stayed unclassified, unit
+sizes that did not parse, ids that needed a suffix, id-map entries added.
 """
 
 from __future__ import annotations
@@ -65,11 +79,19 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from exporter import schema as war_schema
+from exporter.composition import rulebook_composition, unit_constraints
+from exporter.ids import IdMap, slug
+from exporter.options import (Context, family_patterns, lines_of, norm_rule, option_groups,
+                              raws_of_groups)
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).parent
 TYPST = os.environ.get("TYPST", "typst")
+FORMAT_VERSION = 2
+SCHEMA = ROOT / "schema" / "war.schema.json"
 
 # Everything the export needs from a book, in document order: the headings,
 # so a record knows the chapter it is in, and every record's metadata.
@@ -446,6 +468,102 @@ def build_unit(ev: dict, chapter: str) -> dict:
     return unit
 
 
+# --- formatVersion 2: the fields beside the record's own ------------------------
+
+# The army-list slot a category fills, and what else the category says.
+SECTIONS = {"Characters": ("characters", None, False),
+            "Lords": ("characters", "lord", False),
+            "Heroes": ("characters", "hero", False),
+            "Special Characters": ("characters", None, True),
+            "Core": ("core", None, False), "Special": ("special", None, False),
+            "Rare": ("rare", None, False), "Mounts": ("mounts", None, False)}
+
+UNIT_SIZE = re.compile(r"^\s*(\d+)\s*(?:-\s*(\d+)|(\+))?\s*$")
+
+
+def unit_size_parsed(text: str) -> dict | None:
+    """"15-45" -> {min: 15, max: 45}; "10+" -> {min: 10, max: None}; "1" -> {1, 1}."""
+    m = UNIT_SIZE.match(text or "")
+    if not m:
+        return None
+    lo = int(m.group(1))
+    if m.group(2):
+        return {"min": lo, "max": int(m.group(2))}
+    if m.group(3):
+        return {"min": lo, "max": None}
+    return {"min": lo, "max": lo}
+
+
+def split_list(text: str) -> list[str]:
+    """A comma-joined field as its items, a comma inside brackets left alone."""
+    return [p.strip() for p in re.split(r",\s*(?![^()]*\))", text) if p.strip()]
+
+
+def rule_names_of(unit: dict) -> dict[str, str]:
+    """The rules the unit defines itself, in any field of named records."""
+    out: dict[str, str] = {}
+    for v in unit.values():
+        if isinstance(v, list):
+            for r in v:
+                if isinstance(r, dict) and "name" in r and "text" in r:
+                    out[norm_rule(r["name"])] = r["name"]
+    return out
+
+
+class Vocab:
+    """What the rulebook and a faction lend the option classifier."""
+
+    def __init__(self, rulebook: dict) -> None:
+        self.rules = {norm_rule(n) for n in rulebook["rules"]}
+        self.gear = {w["name"].casefold() for w in rulebook["weapons"]
+                     if w["name"].isupper() and not re.search(r"chart|firing|resolving", w["name"], re.I)}
+
+
+def enrich_unit(unit: dict, ids: IdMap, vocab: Vocab, fac: dict, families, upgrade_names,
+                report: dict) -> None:
+    """The formatVersion 2 fields of a unit, added beside the record's own."""
+    unit["id"] = ids.assign(("units",), unit["name"])
+    section, tier, named = SECTIONS.get(unit["category"], (None, None, False))
+    unit["section"], unit["tier"], unit["named"] = section, tier, named
+    seen: dict[str, int] = {}
+    for row in unit["profiles"]:
+        n = seen.get(row["name"], 0) + 1
+        seen[row["name"]] = n
+        key = row["name"] if n == 1 else f"{row['name']} #{n}"
+        row["id"] = ids.assign(("profiles", unit["name"]), key)
+    if isinstance(unit.get("unitSize"), str):
+        parsed = unit_size_parsed(unit["unitSize"])
+        if parsed:
+            unit["unitSizeParsed"] = parsed
+        else:
+            report["unparsedSize"].append(f"{fac['id']}/{unit['name']}: {unit['unitSize']!r}")
+    if isinstance(unit.get("equipment"), str):
+        unit["equipmentList"] = split_list(unit["equipment"])
+    if isinstance(unit.get("specialRules"), str):
+        unit["specialRulesList"] = split_list(unit["specialRules"])
+    profiles = sorted(((r["name"], r["id"]) for r in unit["profiles"]), key=lambda p: -len(p[0]))
+    ctx = Context(profiles=profiles,
+                  rules=vocab.rules | {norm_rule(r["name"]) for r in fac["rules"]},
+                  unit_rules=rule_names_of(unit), gear=vocab.gear,
+                  families=families, upgrade_names=upgrade_names)
+    unit["optionGroups"] = option_groups(unit.get("options"), ctx, ids, unit["name"], report)
+    report["units"] += 1
+
+
+def link_mounts(groups: list[dict], by_name: dict[str, str]) -> None:
+    """A mount choice that names a unit of the book points at it."""
+    for g in groups:
+        for ch in g["choices"]:
+            if g["kind"] == "mount":
+                name = re.sub(r"^(?:a|an|the)\s+", "", ch["name"], flags=re.I).casefold()
+                m = re.match(r"^(.+?)\s*\((.+)\)$", name)
+                for cand in (name, m.group(1) if m else None, m.group(2) if m else None):
+                    if cand and cand in by_name:
+                        ch["unitId"] = by_name[cand]
+                        break
+            link_mounts(ch.get("options", []), by_name)
+
+
 # --- books --------------------------------------------------------------------
 
 def item_of(ev: dict, chapter: str) -> dict:
@@ -497,9 +615,9 @@ def is_lore(title: str) -> bool:
     return "LORE" in title.upper()
 
 
-def build_faction(book: dict) -> dict:
+def build_faction(book: dict, ids: IdMap, vocab: Vocab, report: dict) -> dict:
     meta = book["meta"]
-    fac: dict = {"name": meta["army"], "version": meta["version"],
+    fac: dict = {"id": meta["slug"], "name": meta["army"], "version": meta["version"],
                  "align": meta.get("align"), "rules": [], "items": [],
                  "upgrades": [], "lores": [], "prose": [], "units": []}
     chapter = ""
@@ -537,6 +655,22 @@ def build_faction(book: dict) -> dict:
             else:
                 for r in records:
                     fac["prose"].append({"chapter": chapter, **r})
+
+    # formatVersion 2: ids on every record, then the units' typed fields, which
+    # need the faction's rules and upgrade families to classify against.
+    for table in ("rules", "items", "upgrades", "lores"):
+        for rec in fac[table]:
+            rec["id"] = ids.assign((table,), rec["name"])
+    families, upgrade_names = family_patterns(fac["upgrades"])
+    for unit in fac["units"]:
+        enrich_unit(unit, ids, vocab, fac, families, upgrade_names, report)
+    by_name = {u["name"].casefold(): u["id"] for u in fac["units"]}
+    constraints = []
+    for unit in fac["units"]:
+        link_mounts(unit["optionGroups"], by_name)
+        constraints.extend(unit_constraints(unit, fac["units"]))
+    if constraints:
+        fac["composition"] = {"unitConstraints": constraints}
     return fac
 
 
@@ -668,25 +802,40 @@ def git_head() -> str | None:
         return None
 
 
-def export() -> tuple[dict, dict[str, dict]]:
-    """The export, and the raw probe of each book by slug, for the gate."""
+def new_report() -> dict:
+    return {"units": 0, "groups": 0, "choices": 0, "unclassified": 0,
+            "unparsedSize": [], "suffixed": [], "newIds": []}
+
+
+def export() -> tuple[dict, dict[str, dict], dict]:
+    """The export, the raw probe of each book by slug for the gate, and the report."""
     paths = sorted(p for p in ROOT.glob("src/*.typ") if p.name != "template.typ")
     with ThreadPoolExecutor() as pool:
         books = list(pool.map(read_book, paths))
-    data: dict = {"system": "war", "source": git_head(), "rulebook": None,
-                  "factions": {}}
-    raw: dict[str, dict] = {}
-    for path, book in zip(paths, books):
-        meta = book["meta"]
-        raw[meta["slug"]] = book
-        if meta["layout"] == "rules":
-            data["rulebook"] = build_rulebook(book)
-            data["version"] = meta["version"]
-        else:
-            data["factions"][meta["slug"]] = build_faction(book)
-    if data["rulebook"] is None:
+    raw: dict[str, dict] = {b["meta"]["slug"]: b for b in books}
+    rules_books = [b for b in books if b["meta"]["layout"] == "rules"]
+    if not rules_books:
         raise SystemExit("export: no book declares layout: \"rules\"")
-    return data, raw
+    rulebook = build_rulebook(rules_books[0])
+    data: dict = {"formatVersion": FORMAT_VERSION, "system": "war",
+                  "version": rules_books[0]["meta"]["version"], "source": git_head(),
+                  "rulebook": rulebook, "composition": rulebook_composition(rulebook),
+                  "factions": {}}
+    vocab = Vocab(rulebook)
+    report: dict = {"factions": {}, "mapsWritten": []}
+    for book in books:
+        meta = book["meta"]
+        if meta["layout"] == "rules":
+            continue
+        ids = IdMap(ROOT / "ids" / f"{meta['slug']}.json")
+        rep = new_report()
+        data["factions"][meta["slug"]] = build_faction(book, ids, vocab, rep)
+        rep["suffixed"] = ids.suffixed_in_map()
+        rep["newIds"] = ids.new
+        if ids.save():
+            report["mapsWritten"].append(ids.path.name)
+        report["factions"][meta["slug"]] = rep
+    return data, raw, report
 
 
 # --- the gate -----------------------------------------------------------------
@@ -700,19 +849,50 @@ def words(text: str) -> list[str]:
     return re.findall(r"[a-z]+", text.lower())
 
 
+# Keys whose value is data the export made up, not words from the page: ids,
+# kinds and the slugs that point at other records.
+NOT_TEXT = {"tables", "id", "kind", "select", "role", "family", "families", "appliesTo",
+            "section", "tier", "itemTypes", "unitIds", "profileId", "requires", "type",
+            "unitId", "per"}
+
+
 def texts_of(value) -> list[str]:
-    """Every string anywhere in a JSON value.
+    """Every string anywhere in a JSON value that came from the page.
 
     A record's `tables` restate its `text` cell by cell, so they are skipped:
-    the text is checked, and a lone cell has no row to say it is one.
+    the text is checked, and a lone cell has no row to say it is one. The
+    ids and kinds of formatVersion 2 are skipped for the plainer reason that
+    they are not on the page.
     """
     if isinstance(value, str):
         return [value]
     if isinstance(value, dict):
-        return [t for k, v in value.items() if k != "tables" for t in texts_of(v)]
+        return [t for k, v in value.items() if k not in NOT_TEXT for t in texts_of(v)]
     if isinstance(value, list):
         return [t for v in value for t in texts_of(v)]
     return []
+
+
+def unescape_markup(typst_src: str) -> str:
+    """Typst markup escapes undone: `1\\-2` is printed 1-2, `\\*` is an asterisk."""
+    return re.sub(r"\\([^A-Za-z0-9\s])", r"\1", typst_src)
+
+
+def option_records(value) -> dict[str, tuple[str, str]]:
+    """The lines an opt()/optgroup() list prints, each with the two strings it joins."""
+    out: dict[str, tuple[str, str]] = {}
+    if not isinstance(value, list):
+        return out
+    for r in value:
+        if not isinstance(r, dict):
+            continue
+        if r.get("kind") == "opt":
+            out[f"{r['desc']} {r['cost']}".strip()] = (r["desc"], r["cost"])
+        elif r.get("kind") == "group":
+            cost = r.get("cost") or ""
+            out[f"{r['head']} {cost}".strip()] = (r["head"], cost)
+            out.update(option_records(r.get("subs")))
+    return out
 
 
 def letters(text: str) -> str:
@@ -773,7 +953,7 @@ TEXT_PARTS = ("rules", "items", "upgrades", "lores", "prose", "units",
               "weapons", "chapters")
 
 
-def check(data: dict, raw: dict[str, dict]) -> int:
+def check(data: dict, raw: dict[str, dict], report: dict) -> int:
     """Verify the export against the source and the render. Returns failures."""
     failures = 0
 
@@ -783,10 +963,19 @@ def check(data: dict, raw: dict[str, dict]) -> int:
         print("  FAIL " + msg)
 
     slugs = sorted(data["factions"])
-    print(f"{len(slugs)} factions, rulebook {data['rulebook']['version']}")
+    print(f"{len(slugs)} factions, rulebook {data['rulebook']['version']}, "
+          f"formatVersion {data['formatVersion']}")
     totals = Counter()
     unresolved: Counter = Counter()
     rulebook_rules = {k.casefold() for k in data["rulebook"]["rules"]}
+
+    # 0. The file conforms to the schema.
+    if SCHEMA.exists():
+        errors = war_schema.validate(data, war_schema.load(SCHEMA))
+        for e in errors:
+            fail(f"schema: {e}")
+    else:
+        fail(f"schema: {SCHEMA.relative_to(ROOT)} is missing")
 
     for slug in slugs + ["rulebook"]:
         src_path = ROOT / "src" / f"{slug}.typ"
@@ -820,6 +1009,7 @@ def check(data: dict, raw: dict[str, dict]) -> int:
         # 2. Every field written as a string is byte-identical to the source,
         # and every profile row is the row the source wrote.
         plain = unescape(src)
+        plain_markup = unescape_markup(src)
         units = [e for e in raw[slug]["events"] if e.get("kind") == "unit"]
         for ev, unit in zip(units, book.get("units", []), strict=False):
             if ev["name"] != unit["name"]:
@@ -831,11 +1021,54 @@ def check(data: dict, raw: dict[str, dict]) -> int:
                     out = unit.get("subtitle") if key == "subtitle" else unit.get(camel(key))
                     if out != value:
                         fail(f"{slug}: {unit['name']} {key} exported as {out!r}")
-            if [profile_row(r) for r in ev["args"].get("profiles", [])] != unit["profiles"]:
+            rows = [{k: v for k, v in r.items() if k != "id"} for r in unit["profiles"]]
+            if [profile_row(r) for r in ev["args"].get("profiles", [])] != rows:
                 fail(f"{slug}: {unit['name']} profiles differ from source")
             for row in unit["profiles"]:
                 if row["name"] not in plain:
                     fail(f"{slug}: profile row {row['name']!r} not in source")
+
+            # 2b. formatVersion 2: the typed view holds every printed option
+            # line exactly once, and each line is in the source - whole, as a
+            # markup list item, or as the two strings an opt(..) record joins.
+            v1 = Counter(lines_of(unit.get("options")))
+            v2 = Counter(raws_of_groups(unit.get("optionGroups", [])))
+            if v1 != v2:
+                lost = list((v1 - v2).elements())[:3]
+                extra = list((v2 - v1).elements())[:3]
+                fail(f"{slug}: {unit['name']} optionGroups differ from options: "
+                     f"lost {lost!r}, extra {extra!r}")
+            # OPTIONS that arrived as text (two entries) are rendered prose and
+            # table rows, held to the page below, not to the source here.
+            records = option_records(ev["args"].get("options"))
+            for line in v1 if not isinstance(unit.get("options"), str) else []:
+                if line in plain_markup:
+                    continue
+                parts = records.get(line)
+                if parts and all(p in plain for p in parts):
+                    continue
+                fail(f"{slug}: {unit['name']} option line not in source: {line[:60]!r}")
+
+        # 2c. formatVersion 2: every unit constraint is a note the unit prints.
+        if slug != "rulebook":
+            by_id = {u["id"]: u for u in book["units"]}
+            for c in book.get("composition", {}).get("unitConstraints", []):
+                for uid in c["unitIds"]:
+                    unit = by_id.get(uid)
+                    if unit is None:
+                        fail(f"{slug}: constraint names no unit {uid!r}")
+                        continue
+                    notes = unit.get("notes")
+                    notes = notes if isinstance(notes, str) else "\n".join(
+                        n if isinstance(n, str) else n.get("text", "") for n in notes or [])
+                    if c["raw"] not in notes:
+                        fail(f"{slug}: constraint {c['raw'][:50]!r} is not a note of {unit['name']}")
+                    if c["raw"] not in plain_markup:
+                        fail(f"{slug}: constraint {c['raw'][:50]!r} not in source")
+        else:
+            for key, sentence in data["composition"].get("sources", {}).items():
+                if sentence not in plain_markup:
+                    fail(f"rulebook: composition {key} sentence not in source: {sentence[:50]!r}")
 
         # 3. Every line of exported text is on the rendered page.
         pdf = ROOT / "out" / f"{slug}.pdf"
@@ -844,8 +1077,11 @@ def check(data: dict, raw: dict[str, dict]) -> int:
             # A table's row is tested a cell at a time: a cell holding a
             # paragraph is read whole by the PDF, but not in step with the
             # cell beside it.
+            parts = {k: book[k] for k in TEXT_PARTS + ("composition",) if k in book}
+            if slug == "rulebook":
+                parts["composition"] = data["composition"]
             lines = [(cell, " | " in ln)
-                     for t in texts_of({k: book[k] for k in TEXT_PARTS if k in book})
+                     for t in texts_of(parts)
                      for ln in t.split("\n") for cell in ln.split(" | ") if cell.strip()]
             missing = [ln for ln, cell in lines if not page.has(ln, cell)]
             if missing:
@@ -874,8 +1110,43 @@ def check(data: dict, raw: dict[str, dict]) -> int:
         print(f"note: {sum(unresolved.values())} special-rule citations name no defined rule "
               f"({len(unresolved)} distinct); most common: "
               + ", ".join(f"{n} ({c})" for n, c in unresolved.most_common(8)))
+    print_report(report)
     print("check: " + ("ok" if failures == 0 else f"{failures} failures"))
     return failures
+
+
+def print_report(report: dict) -> None:
+    """The build report: what formatVersion 2 made of each book."""
+    print("report:")
+    print(f"  {'faction':<20} {'units':>5} {'groups':>6} {'choices':>7} {'unclassified':>12}")
+    tot = Counter()
+    for slug, rep in sorted(report["factions"].items()):
+        print(f"  {slug:<20} {rep['units']:>5} {rep['groups']:>6} {rep['choices']:>7} "
+              f"{rep['unclassified']:>12}")
+        for k in ("units", "groups", "choices", "unclassified"):
+            tot[k] += rep[k]
+    print(f"  {'total':<20} {tot['units']:>5} {tot['groups']:>6} {tot['choices']:>7} "
+          f"{tot['unclassified']:>12}")
+    unparsed = [u for rep in report["factions"].values() for u in rep["unparsedSize"]]
+    print(f"  unit sizes not parsed: {len(unparsed)}"
+          + (" - " + ", ".join(unparsed[:8]) if unparsed else ""))
+    suffixed = [f"{slug} {s}" for slug, rep in sorted(report["factions"].items())
+                for s in rep["suffixed"]]
+    print(f"  ids that needed a suffix: {len(suffixed)}")
+    for s in suffixed[:12]:
+        print("    " + s)
+    if len(suffixed) > 12:
+        print(f"    .. and {len(suffixed) - 12} more")
+    new = [(slug, n) for slug, rep in sorted(report["factions"].items()) for n in rep["newIds"]]
+    print(f"  new id-map entries: {len(new)}"
+          + (f" (written: {', '.join(report['mapsWritten'])})" if report["mapsWritten"] else ""))
+    by_book = Counter(slug for slug, _ in new)
+    for slug, n in sorted(by_book.items()):
+        print(f"    ids/{slug}.json +{n}")
+    for slug, n in new[:8]:
+        print(f"    {slug} {n}")
+    if len(new) > 8:
+        print(f"    .. and {len(new) - 8} more; review the map before committing")
 
 
 def cited(rules: str) -> list[str]:
@@ -894,14 +1165,14 @@ def main() -> None:
                     help="verify the export against src/ and the renders in out/")
     args = ap.parse_args()
 
-    data, raw = export()
+    data, raw, report = export()
     args.out.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(data, ensure_ascii=False, indent=1)
     args.out.write_text(text, encoding="utf-8", newline="\n")
     print(f"wrote {args.out} ({len(text.encode('utf-8')) / 1e6:.1f} MB, "
-          f"{len(data['factions'])} factions)")
+          f"{len(data['factions'])} factions, formatVersion {data['formatVersion']})")
     if args.check:
-        sys.exit(1 if check(data, raw) else 0)
+        sys.exit(1 if check(data, raw, report) else 0)
 
 
 if __name__ == "__main__":

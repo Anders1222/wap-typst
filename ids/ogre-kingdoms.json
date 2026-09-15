@@ -1,0 +1,899 @@
+{
+ "choices": {
+  "BRAGG THE GUTSMAN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "BULLS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "look-out-gnoblar-5-points": {
+    "Look-out Gnoblar 5 points": "look-out-gnoblar-5-points"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Ironfists": "ironfists"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BUTCHERS": {
+   "great-mawpot": {
+    "Great Mawpot": "great-mawpot"
+   },
+   "gut-plate": {
+    "gut-plate": "gut-plate"
+   },
+   "magic-items-butcher": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-slaughtermaster": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "scalp-gnoblars": {
+    "Scalp-Gnoblars": "scalp-gnoblars"
+   },
+   "tooth-gnoblars": {
+    "Tooth-Gnoblars": "tooth-gnoblars"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "CHIEFTAINS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "gut-plate": {
+    "gut-plate": "gut-plate"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "luck-gnoblar": {
+    "Luck-Gnoblar": "luck-gnoblar"
+   },
+   "magic-items-bruiser": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-tyrant": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Ironfist": "ironfist",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Brace of Ogre pistols": "brace-of-ogre-pistols",
+    "Ogre pistol": "ogre-pistol"
+   },
+   "mount": {
+    "Grimhorn Rhinox": "grimhorn-rhinox",
+    "Mournfang": "mournfang",
+    "Rhinox Chariot": "rhinox-chariot"
+   },
+   "name-gnoblars": {
+    "Name-Gnoblars": "name-gnoblars"
+   },
+   "sword-gnoblars": {
+    "Sword-Gnoblars": "sword-gnoblars"
+   }
+  },
+  "CLEAVERS": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "FIREBELLY": {
+   "gut-plate": {
+    "gut-plate": "gut-plate"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "FLINGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   }
+  },
+  "GHARK IRONSKIN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "GORGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   }
+  },
+  "GRIMHORN RHINOX RIDERS": {
+   "brace-of-ogre-pistols-6-points": {
+    "brace of Ogre Pistols 6 points": "brace-of-ogre-pistols-6-points"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "look-out-gnoblar-5-points": {
+    "Look-out Gnoblar 5 points": "look-out-gnoblar-5-points"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Ironfists": "ironfists"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GROINBITERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Shields": "shields"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "GROTH ONEFINGER": {
+   "great-mawpot": {
+    "Great Mawpot": "great-mawpot"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "scalp-gnoblars": {
+    "Scalp-Gnoblars": "scalp-gnoblars"
+   },
+   "tooth-gnoblars": {
+    "Tooth-Gnoblars": "tooth-gnoblars"
+   }
+  },
+  "HONCHO": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Shield": "shield"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Sling": "sling",
+    "Throwing weapons": "throwing-weapons"
+   }
+  },
+  "HUNTERS": {
+   "blood-vulture": {
+    "Blood Vulture": "blood-vulture"
+   },
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "HUNTMASTER": {
+   "gut-plate": {
+    "gut-plate": "gut-plate"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Stonehorn": "stonehorn",
+    "Thundertusk": "thundertusk"
+   },
+   "upgrade": {
+    "Blood Vulture": "blood-vulture",
+    "Chaintrap": "chaintrap",
+    "Harpoon launcher": "harpoon-launcher",
+    "Javelins": "javelins"
+   }
+  },
+  "ICE MAMMOTH": {
+   "additional-beast-rider": {
+    "additional Beast Rider": "additional-beast-rider"
+   },
+   "upgrade": {
+    "Blood Vulture": "blood-vulture",
+    "Chaintrap": "chaintrap",
+    "Harpoon launcher": "harpoon-launcher"
+   }
+  },
+  "IRONGUTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "look-out-gnoblar-5-points": {
+    "Look-out Gnoblar 5 points": "look-out-gnoblar-5-points"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "JHARED THE RED": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "LEADBELCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "look-out-gnoblar-5-points": {
+    "Look-out Gnoblar 5 points": "look-out-gnoblar-5-points"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "MANEATERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Brace of Ogre pistols": "brace-of-ogre-pistols",
+    "Great weapon": "great-weapon",
+    "Ironfists": "ironfists",
+    "Ogre pistol": "ogre-pistol",
+    "Oriental longsword": "oriental-longsword",
+    "Polearm": "polearm"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "look-out-gnoblar-5-points": {
+    "Look-out Gnoblar 5 points": "look-out-gnoblar-5-points"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Armour Piercing (1)": "armour-piercing-1",
+    "Devastating Charge": "devastating-charge",
+    "Hatred": "hatred",
+    "Killing Blow": "killing-blow",
+    "Mighty Blow (1)": "mighty-blow-1",
+    "Multiple Wounds (2)": "multiple-wounds-2",
+    "Parry (6+)": "parry-6",
+    "Poisoned Attacks": "poisoned-attacks"
+   }
+  },
+  "MOURNFANG CAVALRY": {
+   "blood-vulture": {
+    "Blood Vulture": "blood-vulture"
+   },
+   "brace-of-ogre-pistols": {
+    "brace of Ogre Pistols": "brace-of-ogre-pistols"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Great weapons": "great-weapons",
+    "Harpoon launchers": "harpoon-launchers",
+    "Ironfists": "ironfists",
+    "Light lances": "light-lances"
+   },
+   "look-out-gnoblar-5-points": {
+    "Look-out Gnoblar 5 points": "look-out-gnoblar-5-points"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PIGBACK RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "RIMESPEAKER": {
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   }
+  },
+  "SABRETUSKS": {
+   "upgrade": {
+    "Ambushers": "ambushers",
+    "Killing Blow": "killing-blow",
+    "Scouts": "scouts"
+   }
+  },
+  "STONEHORN": {
+   "additional-beast-rider": {
+    "additional Beast Rider": "additional-beast-rider"
+   },
+   "belligerent-charger": {
+    "Belligerent Charger": "belligerent-charger"
+   },
+   "equipment": {
+    "Blood Vulture": "blood-vulture",
+    "Chaintrap": "chaintrap",
+    "Harpoon launcher": "harpoon-launcher"
+   },
+   "rockmane-elder": {
+    "Rockmane Elder": "rockmane-elder"
+   }
+  },
+  "THUNDERTUSK": {
+   "additional-beast-rider": {
+    "additional Beast Rider": "additional-beast-rider"
+   },
+   "equipment": {
+    "Blood Vulture": "blood-vulture",
+    "Chaintrap": "chaintrap",
+    "Harpoon launcher": "harpoon-launcher"
+   },
+   "fleshgreed": {
+    "Fleshgreed": "fleshgreed"
+   },
+   "rimefrost-hide": {
+    "Rimefrost Hide": "rimefrost-hide"
+   }
+  },
+  "TRAPPERS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "YHETEES": {
+   "champion": {
+    "Leader": "leader"
+   }
+  }
+ },
+ "groups": {
+  "BRAGG THE GUTSMAN": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "BULLS": {
+   "May choose one of the following:": "melee-weapon",
+   "May upgrade one Bull to a Leader": "champion",
+   "May upgrade one Bull to a Musician": "musician",
+   "May upgrade one Bull to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bull to a Standard Bearer > Standard Bearer > May take a Look-out Gnoblar 5 points": "look-out-gnoblar-5-points",
+   "May upgrade one Bull to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BUTCHERS": {
+   "A Butcher may take Magic Items up to a total of 50 points": "magic-items-butcher",
+   "A Slaughtermaster may take Magic Items up to a total of 100 points": "magic-items-slaughtermaster",
+   "May choose one of the following:": "melee-weapon",
+   "May take a Great Mawpot (Slaughtermaster only)": "great-mawpot",
+   "May take a gut-plate": "gut-plate",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take up to 2 Scalp-Gnoblars": "scalp-gnoblars",
+   "May take up to 2 Tooth-Gnoblars": "tooth-gnoblars"
+  },
+  "CHIEFTAINS": {
+   "A Bruiser may take Big Names and/or Magic Items up to a total of 50 points": "magic-items-bruiser",
+   "A Tyrant may take Big Names and/or Magic Items up to a total of 100 points": "magic-items-tyrant",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take a Luck-Gnoblar": "luck-gnoblar",
+   "May take a gut-plate": "gut-plate",
+   "May take light armour": "light-armour",
+   "May take up to 2 Name-Gnoblars": "name-gnoblars",
+   "May take up to 2 Sword-Gnoblars": "sword-gnoblars",
+   "One Bruiser may carry the Battle Standard": "battle-standard"
+  },
+  "CLEAVERS": {
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May upgrade one Cleaver to a Leader": "champion"
+  },
+  "FIREBELLY": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a gut-plate": "gut-plate",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "FLINGERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Flinger to a Leader": "champion",
+   "May upgrade one Groinbiter to a Musician": "musician"
+  },
+  "GHARK IRONSKIN": {
+   "May take Magic Items up to a total of 75 points": "magic-items"
+  },
+  "GORGERS": {
+   "May choose one of the following:": "melee-weapon",
+   "May upgrade one Gorger to a Leader": "champion"
+  },
+  "GRIMHORN RHINOX RIDERS": {
+   "May choose one of the following:": "melee-weapon",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Leader > Leader > May take a brace of Ogre Pistols 6 points": "brace-of-ogre-pistols-6-points",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Look-out Gnoblar 5 points": "look-out-gnoblar-5-points",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GROINBITERS": {
+   "May choose one of the following:": "equipment",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Groinbiter to a Leader": "champion",
+   "May upgrade one Groinbiter to a Musician": "musician",
+   "May upgrade one Groinbiter to a Standard Bearer": "standard-bearer"
+  },
+  "GROTH ONEFINGER": {
+   "May take Magic Items up to a total of 75 points": "magic-items",
+   "May take a Great Mawpot": "great-mawpot",
+   "May take up to 2 Scalp-Gnoblars": "scalp-gnoblars",
+   "May take up to 2 Tooth-Gnoblars": "tooth-gnoblars"
+  },
+  "HONCHO": {
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take Magic Items up to a total of 25 points": "magic-items",
+   "May take light armour": "light-armour"
+  },
+  "HUNTERS": {
+   "May upgrade one Hunter to a Leader": "champion",
+   "May upgrade one Hunter to a Leader > Leader > May take a Blood Vulture": "blood-vulture"
+  },
+  "HUNTMASTER": {
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "upgrade",
+   "May take Big Names and/or Magic Items up to a total of 50 points": "magic-items",
+   "May take a gut-plate": "gut-plate"
+  },
+  "ICE MAMMOTH": {
+   "Each Beast Rider may choose one of the following:": "upgrade",
+   "May take an additional Beast Rider": "additional-beast-rider"
+  },
+  "IRONGUTS": {
+   "May upgrade one Irongut to a Leader": "champion",
+   "May upgrade one Irongut to a Musician": "musician",
+   "May upgrade one Irongut to a Standard Bearer": "standard-bearer",
+   "May upgrade one Irongut to a Standard Bearer > Standard Bearer > May take a Look-out Gnoblar 5 points": "look-out-gnoblar-5-points",
+   "May upgrade one Irongut to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "JHARED THE RED": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "LEADBELCHERS": {
+   "May upgrade one Leadbelcher to a Leader": "champion",
+   "May upgrade one Leadbelcher to a Musician": "musician",
+   "May upgrade one Leadbelcher to a Standard Bearer": "standard-bearer",
+   "May upgrade one Leadbelcher to a Standard Bearer > Standard Bearer > May take a Look-out Gnoblar 5 points": "look-out-gnoblar-5-points",
+   "May upgrade one Leadbelcher to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "MANEATERS": {
+   "Any model may be armed with one of the following (different models may have different weapons):": "equipment",
+   "Any model may choose one of the following (different models may have different special rules):": "upgrade",
+   "May take light armour": "light-armour",
+   "May upgrade one Maneater to a Leader": "champion",
+   "May upgrade one Maneater to a Musician": "musician",
+   "May upgrade one Maneater to a Standard Bearer": "standard-bearer",
+   "May upgrade one Maneater to a Standard Bearer > Standard Bearer > May take a Look-out Gnoblar 5 points": "look-out-gnoblar-5-points",
+   "May upgrade one Maneater to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MOURNFANG CAVALRY": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Leader > Leader > May take a Blood Vulture": "blood-vulture",
+   "May upgrade one Ogre to a Leader > Leader > May take a brace of Ogre Pistols": "brace-of-ogre-pistols",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Look-out Gnoblar 5 points": "look-out-gnoblar-5-points",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "PIGBACK RIDERS": {
+   "May upgrade one Pigback Rider to a Leader": "champion",
+   "May upgrade one Pigback Rider to a Musician": "musician",
+   "May upgrade one Pigback Rider to a Standard Bearer": "standard-bearer"
+  },
+  "RIMESPEAKER": {
+   "May choose one of the following:": "melee-weapon"
+  },
+  "SABRETUSKS": {
+   "May choose one of the following:": "upgrade"
+  },
+  "STONEHORN": {
+   "Each Beast Rider may replace light lance with one of the following:": "equipment",
+   "May take Belligerent Charger": "belligerent-charger",
+   "May take Rockmane Elder": "rockmane-elder",
+   "May take an additional Beast Rider": "additional-beast-rider"
+  },
+  "THUNDERTUSK": {
+   "Each Beast Rider may replace light lance with one of the following:": "equipment",
+   "May take Fleshgreed": "fleshgreed",
+   "May take Rimefrost Hide": "rimefrost-hide",
+   "May take an additional Beast Rider": "additional-beast-rider"
+  },
+  "TRAPPERS": {
+   "May upgrade one Trapper to a Leader": "champion"
+  },
+  "YHETEES": {
+   "May upgrade one Yhetee to a Leader": "champion"
+  }
+ },
+ "items": {
+  "ALVAGR RUNE-TOKENS": "alvagr-rune-tokens",
+  "BANGSTICK": "bangstick",
+  "BANNER OF THE GREAT MAW": "banner-of-the-great-maw",
+  "BATTERED TALISMAN": "battered-talisman",
+  "BATTLE BREW": "battle-brew",
+  "BELLOWING BLADE": "bellowing-blade",
+  "BLADE OF ALL-FROST": "blade-of-all-frost",
+  "BLEEDING SKULL OF DRAGAAR": "bleeding-skull-of-dragaar",
+  "BLOODCLEAVER": "bloodcleaver",
+  "BLOODROCK TALISMAN": "bloodrock-talisman",
+  "BRAHMIR STATUE": "brahmir-statue",
+  "BRAND OF THE SVARD": "brand-of-the-svard",
+  "BULL STANDARD": "bull-standard",
+  "BULLGUT": "bullgut",
+  "CANNIBAL TOTEM": "cannibal-totem",
+  "CARVALOX FLANK": "carvalox-flank",
+  "CATHAYAN JET PENDANT": "cathayan-jet-pendant",
+  "DRAGON HEART": "dragon-heart",
+  "DRAGONHIDE BANNER": "dragonhide-banner",
+  "ELIXIR OF THE FROSTWYRM": "elixir-of-the-frostwyrm",
+  "FISTFUL OF LAURELS": "fistful-of-laurels",
+  "FLASK OF CONGEALED MAW-JUICES": "flask-of-congealed-maw-juices",
+  "FLASK OF STONEHORN BLOOD": "flask-of-stonehorn-blood",
+  "FROST-TALON SHARDBOLTS": "frost-talon-shardbolts",
+  "FROSTFANG": "frostfang",
+  "FROSTSHARD JAVELINS": "frostshard-javelins",
+  "FUNNY TRINKET": "funny-trinket",
+  "GNOBLAR BLAST KEG": "gnoblar-blast-keg",
+  "GNOBLAR THIEFSTONE": "gnoblar-thiefstone",
+  "GRAWL'S GUT-PLATE": "grawls-gut-plate",
+  "GREASE-SMEARED TUSKS": "grease-smeared-tusks",
+  "GREATSKULL": "greatskull",
+  "GREEDY FIST": "greedy-fist",
+  "GREYBACK PELT": "greyback-pelt",
+  "GRUBBI'S DICE BAG": "grubbis-dice-bag",
+  "GRUESOME TROPHY RACK": "gruesome-trophy-rack",
+  "GRUT'S SICKLE": "gruts-sickle",
+  "GUT MAW": "gut-maw",
+  "HALFLING COOKBOOK": "halfling-cookbook",
+  "HEADSMASHER": "headsmasher",
+  "HELLHEART": "hellheart",
+  "ICE MAMMOTH SKULL PLATE": "ice-mammoth-skull-plate",
+  "JADE LION": "jade-lion",
+  "KATTANAK BROWPLATE": "kattanak-browplate",
+  "MASTODON ARMOUR": "mastodon-armour",
+  "OGRE TOOTH": "ogre-tooth",
+  "RAGBANNER": "ragbanner",
+  "RED STONE": "red-stone",
+  "ROCK EYE": "rock-eye",
+  "RUNE MAW": "rune-maw",
+  "SHATTERSTONE": "shatterstone",
+  "SHRUNKEN PRIEST HEAD": "shrunken-priest-head",
+  "SIEGEBREAKER": "siegebreaker",
+  "SKULLMANTLE": "skullmantle",
+  "SKULLPLUCKER": "skullplucker",
+  "SKY-TITAN SCATTER PISTOLS": "sky-titan-scatter-pistols",
+  "SPANGLESHARD": "spangleshard",
+  "SPLATTER-CLEAVER": "splatter-cleaver",
+  "THE FANG OF GHUR": "the-fang-of-ghur",
+  "THE HUNGRY MAW": "the-hungry-maw",
+  "THE PELT OF CHARNGAR": "the-pelt-of-charngar",
+  "THE PURPLE ROCK": "the-purple-rock",
+  "THE RIME SHROUD": "the-rime-shroud",
+  "THE SEAT OF ALVAGR": "the-seat-of-alvagr",
+  "THE TENDERISER": "the-tenderiser",
+  "THUNDERMACE": "thundermace",
+  "TOKENS OF THE EVERWINTER": "tokens-of-the-everwinter",
+  "WIZARDFLESH APRON": "wizardflesh-apron",
+  "WYRDSTONE NECKLACE": "wyrdstone-necklace"
+ },
+ "lores": {
+  "THE LORE OF THE GREAT MAW": "the-lore-of-the-great-maw"
+ },
+ "profiles": {
+  "BRAGG THE GUTSMAN": {
+   "Bragg the Gutsman": "bragg-the-gutsman"
+  },
+  "BRAUGH SLAVELORD": {
+   "Braugh Slavelord": "braugh-slavelord",
+   "Slave": "slave"
+  },
+  "BULLS": {
+   "Bull": "bull"
+  },
+  "BUTCHERS": {
+   "Butcher": "butcher",
+   "Slaughtermaster": "slaughtermaster"
+  },
+  "CHIEFTAINS": {
+   "Bruiser": "bruiser",
+   "Tyrant": "tyrant"
+  },
+  "CLEAVERS": {
+   "Cleaver": "cleaver"
+  },
+  "CRAGBEASTS": {
+   "Cragbeast": "cragbeast"
+  },
+  "FIREBELLY": {
+   "Firebelly": "firebelly"
+  },
+  "FLINGERS": {
+   "Flinger": "flinger"
+  },
+  "GHARK IRONSKIN": {
+   "Ghark Ironskin": "ghark-ironskin",
+   "Iron Rhinox": "iron-rhinox"
+  },
+  "GORGERS": {
+   "Gorger": "gorger"
+  },
+  "GREASUS GOLDTOOTH": {
+   "Greasus Goldtooth": "greasus-goldtooth"
+  },
+  "GREAT MAWPOT": {
+   "Great Mawpot": "great-mawpot"
+  },
+  "GRIMHORN RHINOX": {
+   "Grimhorn Rhinox": "grimhorn-rhinox"
+  },
+  "GRIMHORN RHINOX RIDERS": {
+   "Grimhorn Rhinox": "grimhorn-rhinox",
+   "Ogre": "ogre"
+  },
+  "GROINBITERS": {
+   "Groinbiter": "groinbiter"
+  },
+  "GROTH ONEFINGER": {
+   "Groth Onefinger": "groth-onefinger"
+  },
+  "HONCHO": {
+   "Honcho": "honcho"
+  },
+  "HUNTERS": {
+   "Hunter": "hunter"
+  },
+  "HUNTMASTER": {
+   "Huntmaster": "huntmaster"
+  },
+  "ICE MAMMOTH": {
+   "Beast Rider": "beast-rider",
+   "Ice Mammoth": "ice-mammoth"
+  },
+  "IRONBLASTER": {
+   "Ironblaster": "ironblaster",
+   "Leadbelcher": "leadbelcher",
+   "Scrapper": "scrapper",
+   "Young Rhinox": "young-rhinox"
+  },
+  "IRONGUTS": {
+   "Irongut": "irongut"
+  },
+  "JHARED THE RED": {
+   "Jhared the Red": "jhared-the-red"
+  },
+  "LEADBELCHERS": {
+   "Leadbelcher": "leadbelcher"
+  },
+  "MANEATERS": {
+   "Maneater": "maneater"
+  },
+  "MORG MAGMABORN": {
+   "Morg Magmaborn": "morg-magmaborn"
+  },
+  "MOURNFANG": {
+   "Mournfang": "mournfang"
+  },
+  "MOURNFANG CAVALRY": {
+   "Mournfang": "mournfang",
+   "Ogre": "ogre"
+  },
+  "PIGBACK RIDERS": {
+   "Pigback Rider": "pigback-rider"
+  },
+  "RHINOX CHARIOT": {
+   "Charioteer": "charioteer",
+   "Rhinox Chariot": "rhinox-chariot",
+   "Young Rhinox": "young-rhinox"
+  },
+  "RIMESPEAKER": {
+   "Rimespeaker": "rimespeaker"
+  },
+  "SABRETUSKS": {
+   "Sabretusk": "sabretusk"
+  },
+  "SCRAPLAUNCHER": {
+   "Scraplauncher": "scraplauncher",
+   "Scrapper": "scrapper",
+   "Young Rhinox": "young-rhinox"
+  },
+  "SKEWERSLINGER": {
+   "Scrapper": "scrapper",
+   "Skewerslinger": "skewerslinger",
+   "Young Rhinox": "young-rhinox"
+  },
+  "SKRAG THE SLAUGHTERER": {
+   "Skrag the Slaughterer": "skrag-the-slaughterer"
+  },
+  "SLAVE GIANT": {
+   "Slave Giant": "slave-giant"
+  },
+  "STONEHORN": {
+   "Beast Rider": "beast-rider",
+   "Stonehorn": "stonehorn"
+  },
+  "THUNDERTUSK": {
+   "Beast Rider": "beast-rider",
+   "Thundertusk": "thundertusk"
+  },
+  "TRAPPERS": {
+   "Trapper": "trapper"
+  },
+  "YHETEES": {
+   "Yhetee": "yhetee"
+  }
+ },
+ "rules": {
+  "BENEATH CONTEMPT": "beneath-contempt",
+  "BICKER": "bicker",
+  "BLOOD VULTURE": "blood-vulture",
+  "CHAINTRAP": "chaintrap",
+  "GUT-PLATE": "gut-plate",
+  "HARPOON LAUNCHER": "harpoon-launcher",
+  "IRONFIST": "ironfist",
+  "LOOK-OUT GNOBLAR": "look-out-gnoblar",
+  "LUCK-GNOBLAR": "luck-gnoblar",
+  "NAME-GNOBLAR": "name-gnoblar",
+  "OGRE CHARGE": "ogre-charge",
+  "OGRE PISTOL": "ogre-pistol",
+  "ORIENTAL LONGSWORD": "oriental-longsword",
+  "SCALP-GNOBLAR": "scalp-gnoblar",
+  "SWORD-GNOBLAR": "sword-gnoblar",
+  "TOOTH-GNOBLAR": "tooth-gnoblar"
+ },
+ "units": {
+  "BRAGG THE GUTSMAN": "bragg-the-gutsman",
+  "BRAUGH SLAVELORD": "braugh-slavelord",
+  "BULLS": "bulls",
+  "BUTCHERS": "butchers",
+  "CHIEFTAINS": "chieftains",
+  "CLEAVERS": "cleavers",
+  "CRAGBEASTS": "cragbeasts",
+  "FIREBELLY": "firebelly",
+  "FLINGERS": "flingers",
+  "GHARK IRONSKIN": "ghark-ironskin",
+  "GORGERS": "gorgers",
+  "GREASUS GOLDTOOTH": "greasus-goldtooth",
+  "GREAT MAWPOT": "great-mawpot",
+  "GRIMHORN RHINOX": "grimhorn-rhinox",
+  "GRIMHORN RHINOX RIDERS": "grimhorn-rhinox-riders",
+  "GROINBITERS": "groinbiters",
+  "GROTH ONEFINGER": "groth-onefinger",
+  "HONCHO": "honcho",
+  "HUNTERS": "hunters",
+  "HUNTMASTER": "huntmaster",
+  "ICE MAMMOTH": "ice-mammoth",
+  "IRONBLASTER": "ironblaster",
+  "IRONGUTS": "ironguts",
+  "JHARED THE RED": "jhared-the-red",
+  "LEADBELCHERS": "leadbelchers",
+  "MANEATERS": "maneaters",
+  "MORG MAGMABORN": "morg-magmaborn",
+  "MOURNFANG": "mournfang",
+  "MOURNFANG CAVALRY": "mournfang-cavalry",
+  "PIGBACK RIDERS": "pigback-riders",
+  "RHINOX CHARIOT": "rhinox-chariot",
+  "RIMESPEAKER": "rimespeaker",
+  "SABRETUSKS": "sabretusks",
+  "SCRAPLAUNCHER": "scraplauncher",
+  "SKEWERSLINGER": "skewerslinger",
+  "SKRAG THE SLAUGHTERER": "skrag-the-slaughterer",
+  "SLAVE GIANT": "slave-giant",
+  "STONEHORN": "stonehorn",
+  "THUNDERTUSK": "thundertusk",
+  "TRAPPERS": "trappers",
+  "YHETEES": "yhetees"
+ },
+ "upgrades": {
+  "BEASTKILLER": "beastkiller",
+  "BRAWLERGUTS": "brawlerguts",
+  "DAEMONKILLER": "daemonkiller",
+  "DEATHCHEATER": "deathcheater",
+  "GIANTBREAKER": "giantbreaker",
+  "GUTSLUGGER": "gutslugger",
+  "KINEATER": "kineater",
+  "LONGSTRIDER": "longstrider",
+  "MAGESWALLOWER": "mageswallower",
+  "MAWSEEKER": "mawseeker",
+  "MONSTERWRESTLER": "monsterwrestler",
+  "MOUNTAINEATER": "mountaineater",
+  "NECKWRINGER": "neckwringer",
+  "STEEDEATER": "steedeater",
+  "WALLCRUSHER": "wallcrusher"
+ }
+}

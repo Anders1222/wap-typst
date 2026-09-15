@@ -1,0 +1,837 @@
+{
+ "choices": {
+  "BEASTMASTER": {
+   "fur-cloak": {
+    "fur cloak": "fur-cloak"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Throwing axes": "throwing-axes"
+   }
+  },
+  "BERSERKERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BONDSMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BOWMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CURSED ETTIN": {
+   "gibberer": {
+    "Gibberer": "gibberer"
+   },
+   "scaled-horror": {
+    "Scaled Horror": "scaled-horror"
+   },
+   "upgrade": {
+    "Man Scyther": "man-scyther",
+    "Rune Caller": "rune-caller"
+   }
+  },
+  "FROST GIANT": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Shield": "shield"
+   }
+  },
+  "HORSEMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Light lances": "light-lances",
+    "Throwing axes": "throwing-axes",
+    "flails": "flails"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HUNTERS": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "HUSCARLS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-axes": {
+    "throwing axes": "throwing-axes"
+   }
+  },
+  "MARAUDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Spears": "spears",
+    "dditional hand weapons": "dditional-hand-weapons",
+    "flails": "flails",
+    "great weapons": "great-weapons"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-axes": {
+    "throwing axes": "throwing-axes"
+   }
+  },
+  "REAVERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "dditional-hand-weapons": {
+    "dditional hand weapons": "dditional-hand-weapons"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-axes": {
+    "throwing axes": "throwing-axes"
+   }
+  },
+  "SHAMANS": {
+   "fur-cloak": {
+    "fur cloak": "fur-cloak"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-seer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-vitki": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "War Wolf Chariot": "war-wolf-chariot",
+    "Warhorse": "warhorse"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SHIELDMAIDENS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Javelins": "javelins",
+    "Spears": "spears"
+   },
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKALD": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "fur-cloak": {
+    "fur cloak": "fur-cloak"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Throwing axes": "throwing-axes"
+   },
+   "mount": {
+    "Warhorse": "warhorse"
+   }
+  },
+  "SKIN WOLVES": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "SNOW TROLLS": {
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   }
+  },
+  "THRALLS": {
+   "equipment": {
+    "Javelins": "javelins",
+    "Slings": "slings",
+    "Spears": "spears"
+   },
+   "slaver": {
+    "Slaver": "slaver"
+   }
+  },
+  "ULFJARL": {
+   "magic-items": {
+    "Talismans": "talismans"
+   }
+  },
+  "ULFWERENAR": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   }
+  },
+  "VALKYRIE": {
+   "fur-cloak": {
+    "fur cloak": "fur-cloak"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "spear": {
+    "spear": "spear"
+   }
+  },
+  "WAR MAMMOTH": {
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "WAR WOLF CHARIOT": {
+   "fur-cloaks": {
+    "fur cloaks": "fur-cloaks"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   },
+   "throwing-axes": {
+    "throwing axes": "throwing-axes"
+   }
+  },
+  "WARLEADERS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "fur-cloak": {
+    "fur cloak": "fur-cloak"
+   },
+   "magic-items-hersir": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-jarl": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Javelins": "javelins",
+    "Throwing axes": "throwing-axes"
+   },
+   "mount": {
+    "War Mammoth": "war-mammoth",
+    "War Wolf Chariot": "war-wolf-chariot",
+    "Warhorse": "warhorse"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "WEREBEAST": {
+   "knitting-flesh": {
+    "Knitting Flesh": "knitting-flesh"
+   },
+   "scaly-hide": {
+    "Scaly Hide": "scaly-hide"
+   },
+   "snarling-fangs": {
+    "Snarling Fangs": "snarling-fangs"
+   },
+   "steel-hard-claws": {
+    "Steel-hard Claws": "steel-hard-claws"
+   }
+  },
+  "WHALERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  }
+ },
+ "groups": {
+  "BEASTMASTER": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take Magic Items up to a total of 25 points": "magic-items",
+   "May take a fur cloak": "fur-cloak"
+  },
+  "BERSERKERS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May replace shields with one of the following:": "melee-weapon",
+   "May upgrade one Berserker to a Leader": "champion",
+   "May upgrade one Berserker to a Musician": "musician",
+   "May upgrade one Berserker to a Standard Bearer": "standard-bearer",
+   "May upgrade one Berserker to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "BONDSMEN": {
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May take spears": "spears",
+   "May upgrade one Bondsman to a Leader": "champion",
+   "May upgrade one Bondsman to a Musician": "musician",
+   "May upgrade one Bondsman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bondsman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BOWMEN": {
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May upgrade one Bowman to a Leader": "champion",
+   "May upgrade one Bowman to a Musician": "musician",
+   "May upgrade one Bowman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Bowman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "CURSED ETTIN": {
+   "May choose one of the following:": "upgrade",
+   "May take Gibberer": "gibberer",
+   "May take Scaled Horror": "scaled-horror"
+  },
+  "FROST GIANT": {
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "armour"
+  },
+  "HORSEMEN": {
+   "May choose one of the following:": "equipment",
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May take shields": "shields",
+   "May upgrade one Horseman to a Leader": "champion",
+   "May upgrade one Horseman to a Musician": "musician",
+   "May upgrade one Horseman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Horseman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "HUNTERS": {
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May take fur cloaks": "fur-cloaks",
+   "May upgrade one Hunter to a Leader": "champion",
+   "May upgrade one Hunter to a Musician": "musician"
+  },
+  "HUSCARLS": {
+   "May take fur cloaks": "fur-cloaks",
+   "May take great weapons": "great-weapons",
+   "May take medium armour": "medium-armour",
+   "May take throwing axes": "throwing-axes",
+   "May upgrade one Huscarl to a Leader": "champion",
+   "May upgrade one Huscarl to a Musician": "musician",
+   "May upgrade one Huscarl to a Standard Bearer": "standard-bearer",
+   "May upgrade one Huscarl to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "MARAUDERS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May take throwing axes": "throwing-axes",
+   "May upgrade one Marauder to a Leader": "champion",
+   "May upgrade one Marauder to a Musician": "musician",
+   "May upgrade one Marauder to a Standard Bearer": "standard-bearer",
+   "May upgrade one Marauder to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "REAVERS": {
+   "May replace shields with additional hand weapons": "dditional-hand-weapons",
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May take throwing axes": "throwing-axes",
+   "May upgrade one Reaver to a Leader": "champion",
+   "May upgrade one Reaver to a Musician": "musician",
+   "May upgrade one Reaver to a Standard Bearer": "standard-bearer",
+   "May upgrade one Reaver to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SHAMANS": {
+   "A Seer may take Magic Items up to a total of 50 points": "magic-items-seer",
+   "A Vitki may take Magic Items up to a total of 100 points": "magic-items-vitki",
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take a fur cloak": "fur-cloak",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "SHIELDMAIDENS": {
+   "May choose one of the following:": "equipment",
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May upgrade one Shieldmaiden to a Leader": "champion",
+   "May upgrade one Shieldmaiden to a Musician": "musician",
+   "May upgrade one Shieldmaiden to a Standard Bearer": "standard-bearer",
+   "May upgrade one Shieldmaiden to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKALD": {
+   "May be mounted on a Warhorse": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take a fur cloak": "fur-cloak",
+   "May take light armour": "light-armour",
+   "May take one Saga and/or Magic Items up to a total of 50 points": "magic-items",
+   "One Skald may carry the Battle Standard": "battle-standard"
+  },
+  "SKIN WOLVES": {
+   "May upgrade one Skin Wolf to a Leader": "champion"
+  },
+  "SNOW TROLLS": {
+   "May choose one of the following:": "melee-weapon"
+  },
+  "THRALLS": {
+   "May choose one of the following:": "equipment",
+   "May include a Slaver": "slaver"
+  },
+  "ULFJARL": {
+   "May take Talismans up to a total of 50 points": "magic-items"
+  },
+  "ULFWERENAR": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Ulfwerenar to a Leader": "champion"
+  },
+  "VALKYRIE": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a fur cloak": "fur-cloak",
+   "May take a shield": "shield",
+   "May take a spear": "spear",
+   "May take light armour": "light-armour"
+  },
+  "WAR MAMMOTH": {
+   "May take light armour": "light-armour"
+  },
+  "WAR WOLF CHARIOT": {
+   "May be upgrade to a standard bearer": "standard-bearer",
+   "May replace javelins with throwing axes": "throwing-axes",
+   "May take fur cloaks": "fur-cloaks",
+   "May take light armour": "light-armour",
+   "May take scythes": "scythes"
+  },
+  "WARLEADERS": {
+   "A Hersir may take one Saga and/or Magic Items up to a total of 50 points": "magic-items-hersir",
+   "A Jarl may take one Saga and/or Magic Items up to a total of 100 points": "magic-items-jarl",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a fur cloak": "fur-cloak",
+   "May take a shield": "shield",
+   "One Hersir may carry the Battle Standard": "battle-standard"
+  },
+  "WEREBEAST": {
+   "May take Knitting Flesh": "knitting-flesh",
+   "May take Scaly Hide": "scaly-hide",
+   "May take Snarling Fangs": "snarling-fangs",
+   "May take Steel-hard Claws": "steel-hard-claws"
+  },
+  "WHALERS": {
+   "May take shields": "shields",
+   "May upgrade one Whaler to a Leader": "champion",
+   "May upgrade one Whaler to a Musician": "musician"
+  }
+ },
+ "items": {
+  "ANCIENT FROST-WYRM SCALE": "ancient-frost-wyrm-scale",
+  "ARMOUR OF BEOWULF": "armour-of-beowulf",
+  "ARMOUR-RIPPER OF SKORLM": "armour-ripper-of-skorlm",
+  "BANNER OF THE BAYING HOUND": "banner-of-the-baying-hound",
+  "BANNER OF THE VALKYRIE": "banner-of-the-valkyrie",
+  "BERSERKER HELM": "berserker-helm",
+  "BONE OF ULLR": "bone-of-ullr",
+  "CHIEFTAIN'S BLADE": "chieftains-blade",
+  "FLAMING AXE OF CORMAC": "flaming-axe-of-cormac",
+  "GARMR & GORMR": "garmr-and-gormr",
+  "GIRDLE OF MIGHT": "girdle-of-might",
+  "GJERMUNDBU MAIL SHIRT": "gjermundbu-mail-shirt",
+  "HENBANE POTION": "henbane-potion",
+  "HRUNGNIR'S HEART": "hrungnirs-heart",
+  "HUSKARL PLATES": "huskarl-plates",
+  "IDUNN'S APPLE": "idunns-apple",
+  "KAOSFAENIR": "kaosfaenir",
+  "MIGHTY SERPENT'S SCALEMAIL": "mighty-serpents-scalemail",
+  "NAEGLING": "naegling",
+  "RAVEN BANNER": "raven-banner",
+  "REAVER'S HELM": "reavers-helm",
+  "SEA RAIDER'S CREST": "sea-raiders-crest",
+  "SHIELD OF SVALINN": "shield-of-svalinn",
+  "SKALLAGRIM'S BANNER": "skallagrims-banner",
+  "SKAR'S KRAKEN-KILLER": "skars-kraken-killer",
+  "SWORD OF RAGE": "sword-of-rage",
+  "TALISMAN OF THE CARRION CROW": "talisman-of-the-carrion-crow",
+  "TALISMAN OF THE SOARING EAGLE": "talisman-of-the-soaring-eagle",
+  "THE CRUSHER": "the-crusher",
+  "THE GLEAMING TORC": "the-gleaming-torc",
+  "THE HOLLERING HORN": "the-hollering-horn",
+  "THE SWAYING SPEAR": "the-swaying-spear",
+  "THE WEB OF WYRD": "the-web-of-wyrd",
+  "TROLL-FANG DAGGER": "troll-fang-dagger",
+  "TYRFANG": "tyrfang",
+  "VEGVISIR": "vegvisir",
+  "VIAL OF TROLL BLOOD": "vial-of-troll-blood",
+  "WOLF-TEETH AMULET": "wolf-teeth-amulet"
+ },
+ "lores": {},
+ "profiles": {
+  "BEASTMASTER": {
+   "Beastmaster": "beastmaster"
+  },
+  "BERSERKERS": {
+   "Berserker": "berserker"
+  },
+  "BONDSMEN": {
+   "Bondsman": "bondsman"
+  },
+  "BOWMEN": {
+   "Bowman": "bowman"
+  },
+  "BRAGI STURLUSON": {
+   "Bragi Sturluson": "bragi-sturluson"
+  },
+  "CURSED ETTIN": {
+   "Cursed Ettin": "cursed-ettin"
+  },
+  "DRENOK JOHANSEN": {
+   "Drenok Johansen": "drenok-johansen"
+  },
+  "ERIK REDAXE": {
+   "Erik Redaxe": "erik-redaxe"
+  },
+  "FENRIR WOLFCLAW": {
+   "Fenrir Wolfclaw": "fenrir-wolfclaw"
+  },
+  "FLOKI 'LOSTSON'": {
+   "Cold One": "cold-one",
+   "Flóki 'Lostson'": "floki-lostson"
+  },
+  "FROST GIANT": {
+   "Frost Giant": "frost-giant"
+  },
+  "HORSEMEN": {
+   "Horseman": "horseman",
+   "Warhorse": "warhorse"
+  },
+  "HUNTERS": {
+   "Hunter": "hunter"
+  },
+  "HUSCARLS": {
+   "Huscarl": "huscarl"
+  },
+  "ICE DRAKE": {
+   "Ice Drake": "ice-drake"
+  },
+  "ICE WOLVES": {
+   "Ice Wolf": "ice-wolf"
+  },
+  "JORA AND BJORN": {
+   "Bjorn": "bjorn",
+   "Jora": "jora"
+  },
+  "KEORL THUNDERHAND": {
+   "Keorl Thunderhand": "keorl-thunderhand"
+  },
+  "MARAUDERS": {
+   "Marauder": "marauder"
+  },
+  "NJAL TROELSON": {
+   "Njal Troelson": "njal-troelson"
+  },
+  "REAVERS": {
+   "Reaver": "reaver"
+  },
+  "SHAMANS": {
+   "Seer": "seer",
+   "Vitki": "vitki"
+  },
+  "SHIELDMAIDENS": {
+   "Shieldmaiden": "shieldmaiden"
+  },
+  "SIGRUN THE PROUD": {
+   "Sigrun the Proud": "sigrun-the-proud"
+  },
+  "SKALD": {
+   "Skald": "skald"
+  },
+  "SKIN WOLVES": {
+   "Skin Wolf": "skin-wolf"
+  },
+  "SNOW TROLLS": {
+   "Snow Troll": "snow-troll"
+  },
+  "STURMJARL": {
+   "Sturmjarl": "sturmjarl"
+  },
+  "STYRMIR RIMEFROST": {
+   "Styrmir Rimefrost": "styrmir-rimefrost"
+  },
+  "THE RAVENSWYRD": {
+   "Ravenswyrd": "ravenswyrd"
+  },
+  "THRALLS": {
+   "Slaver": "slaver",
+   "Thrall": "thrall"
+  },
+  "ULFJARL": {
+   "Ulfjarl": "ulfjarl"
+  },
+  "ULFWERENAR": {
+   "Ulfwerenar": "ulfwerenar"
+  },
+  "VALKYRIE": {
+   "Valkyrie": "valkyrie"
+  },
+  "WAR MAMMOTH": {
+   "Marauder Crew": "marauder-crew",
+   "War Mammoth": "war-mammoth"
+  },
+  "WAR WOLF CHARIOT": {
+   "Marauder Crew": "marauder-crew",
+   "War Wolf": "war-wolf",
+   "War Wolf Chariot": "war-wolf-chariot"
+  },
+  "WAR WOLVES": {
+   "War Wolf": "war-wolf"
+  },
+  "WARHORSE": {
+   "Warhorse": "warhorse"
+  },
+  "WARLEADERS": {
+   "Hersir": "hersir",
+   "Jarl": "jarl"
+  },
+  "WEREBEAST": {
+   "Werebeast": "werebeast"
+  },
+  "WHALERS": {
+   "Whaler": "whaler"
+  }
+ },
+ "rules": {
+  "BLOOD RAGE": "blood-rage",
+  "FUR CLOAK": "fur-cloak"
+ },
+ "units": {
+  "BEASTMASTER": "beastmaster",
+  "BERSERKERS": "berserkers",
+  "BONDSMEN": "bondsmen",
+  "BOWMEN": "bowmen",
+  "BRAGI STURLUSON": "bragi-sturluson",
+  "CURSED ETTIN": "cursed-ettin",
+  "DRENOK JOHANSEN": "drenok-johansen",
+  "ERIK REDAXE": "erik-redaxe",
+  "FENRIR WOLFCLAW": "fenrir-wolfclaw",
+  "FLOKI 'LOSTSON'": "floki-lostson",
+  "FROST GIANT": "frost-giant",
+  "HORSEMEN": "horsemen",
+  "HUNTERS": "hunters",
+  "HUSCARLS": "huscarls",
+  "ICE DRAKE": "ice-drake",
+  "ICE WOLVES": "ice-wolves",
+  "JORA AND BJORN": "jora-and-bjorn",
+  "KEORL THUNDERHAND": "keorl-thunderhand",
+  "MARAUDERS": "marauders",
+  "NJAL TROELSON": "njal-troelson",
+  "REAVERS": "reavers",
+  "SHAMANS": "shamans",
+  "SHIELDMAIDENS": "shieldmaidens",
+  "SIGRUN THE PROUD": "sigrun-the-proud",
+  "SKALD": "skald",
+  "SKIN WOLVES": "skin-wolves",
+  "SNOW TROLLS": "snow-trolls",
+  "STURMJARL": "sturmjarl",
+  "STYRMIR RIMEFROST": "styrmir-rimefrost",
+  "THE RAVENSWYRD": "the-ravenswyrd",
+  "THRALLS": "thralls",
+  "ULFJARL": "ulfjarl",
+  "ULFWERENAR": "ulfwerenar",
+  "VALKYRIE": "valkyrie",
+  "WAR MAMMOTH": "war-mammoth",
+  "WAR WOLF CHARIOT": "war-wolf-chariot",
+  "WAR WOLVES": "war-wolves",
+  "WARHORSE": "warhorse",
+  "WARLEADERS": "warleaders",
+  "WEREBEAST": "werebeast",
+  "WHALERS": "whalers"
+ },
+ "upgrades": {
+  "SAGA OF THE BEASTSLAYER": "saga-of-the-beastslayer",
+  "SAGA OF THE ETERNAL WARRIOR": "saga-of-the-eternal-warrior",
+  "SAGA OF THE EVER-VIGILANT": "saga-of-the-ever-vigilant",
+  "SAGA OF THE FEARLESS LEADER": "saga-of-the-fearless-leader",
+  "SAGA OF THE GLORIOUS HUNTER": "saga-of-the-glorious-hunter",
+  "SAGA OF THE RELENTLESS WARRIOR": "saga-of-the-relentless-warrior",
+  "SAGA OF THE SHINING HERO": "saga-of-the-shining-hero"
+ }
+}

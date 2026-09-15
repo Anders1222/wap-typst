@@ -1,0 +1,1080 @@
+{
+ "choices": {
+  "ALTERS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "ARALOTH THE BOLD": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "ARCH-REVENANT": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "BRANCHWRAITH": {
+   "great-weapon": {
+    "great weapon": "great-weapon"
+   },
+   "spites-up-to-a-total": {
+    "Spites up to a total of 50 points": "spites-up-to-a-total-of-50-points"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard"
+   }
+  },
+  "DEEPWOOD SCOUTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "elven-longbows": {
+    "Elven longbows": "elven-longbows"
+   },
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "DRYADS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   }
+  },
+  "DRYCHA": {
+   "spites-up-to-a-total": {
+    "Spites up to a total of 50 points": "spites-up-to-a-total-of-50-points"
+   }
+  },
+  "DURTHU OAKHEART": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "ETERNAL GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GLADE ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GLADE GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GLADE RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "missile-weapon": {
+    "Elven longbows": "elven-longbows",
+    "Elven shortbows": "elven-shortbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GOSSAMID ARCHERS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "GREAT EAGLE": {
+   "shredding-talons": {
+    "Shredding Talons": "shredding-talons"
+   },
+   "swiftsense": {
+    "Swiftsense": "swiftsense"
+   }
+  },
+  "GREAT STAG KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GROVE GUARDIAN": {
+   "spites-up-to-a-total": {
+    "Spites up to a total of 100 points": "spites-up-to-a-total-of-100-points"
+   }
+  },
+  "HIGHBORNS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-glade-captain": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-glade-lord": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Elven longbow": "elven-longbow",
+    "Elven shortbow": "elven-shortbow"
+   },
+   "mount": {
+    "Elven Steed": "elven-steed",
+    "Forest Dragon": "forest-dragon",
+    "Great Eagle": "great-eagle",
+    "Great Stag": "great-stag",
+    "Meadow Chariot": "meadow-chariot",
+    "Warhawk": "warhawk"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "MEADOW CHARIOT": {
+   "elven-longbows": {
+    "Elven longbows": "elven-longbows"
+   },
+   "two-additional-charioteers": {
+    "two additional Charioteers": "two-additional-charioteers"
+   },
+   "two-additional-elven-steeds": {
+    "two additional Elven Steeds": "two-additional-elven-steeds"
+   }
+  },
+  "NAESTRA & ARAHAN": {
+   "mount": {
+    "Ceithin-Har": "ceithin-har",
+    "Gwindalor": "gwindalor"
+   }
+  },
+  "ORION": {
+   "two-hounds-of-orion": {
+    "two Hounds of Orion": "two-hounds-of-orion"
+   }
+  },
+  "SCARLOC": {
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "SHADOWDANCER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Saerath": "saerath"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard"
+   }
+  },
+  "SISTERS OF THE THORN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SPELLSINGERS": {
+   "magic-items-spellsinger": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-spellweaver": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Elven Steed": "elven-steed",
+    "Great Eagle": "great-eagle",
+    "Unicorn": "unicorn",
+    "Warhawk": "warhawk"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SPITE REVENANTS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "SPITERIDER REVENANTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TREE KIN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Great weapons": "great-weapons",
+    "Greatbows": "greatbows",
+    "Polearms": "polearms"
+   }
+  },
+  "TREE REVENANTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TREELORD": {
+   "strangleroots": {
+    "Strangleroots": "strangleroots"
+   }
+  },
+  "TREELORD ANCIENT": {
+   "spites-up-to-a-total": {
+    "Spites up to a total of 100 points": "spites-up-to-a-total-of-100-points"
+   },
+   "strangleroots": {
+    "Strangleroots": "strangleroots"
+   },
+   "wizard-level": {
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  },
+  "WARDANCERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Saeraths": "saeraths"
+   }
+  },
+  "WARHAWK RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "elven-longbows": {
+    "Elven longbows": "elven-longbows"
+   },
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  },
+  "WARSONG REVENANT": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "WAYSTALKER": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "elven-longbow": {
+    "Elven longbow": "elven-longbow"
+   },
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "WAYWATCHERS": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "elven-longbows": {
+    "Elven longbows": "elven-longbows"
+   },
+   "equipment": {
+    "Arcane Bodkins": "arcane-bodkins",
+    "Hagbane Tips": "hagbane-tips",
+    "Moonfire Shot": "moonfire-shot",
+    "Starfire Shafts": "starfire-shafts",
+    "Swiftshiver Shards": "swiftshiver-shards",
+    "Trueflight Arrows": "trueflight-arrows"
+   },
+   "traps": {
+    "traps": "traps"
+   }
+  },
+  "WILD HUNTER": {
+   "elven-steed": {
+    "Great Stag": "great-stag",
+    "Steed of Kurnous": "steed-of-kurnous"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "WILD RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "steeds-of-kurnous": {
+    "Steeds of Kurnous": "steeds-of-kurnous"
+   }
+  },
+  "WILDWOOD RANGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ZOAT": {
+   "wizard-level": {
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  }
+ },
+ "groups": {
+  "ALTERS": {
+   "May upgrade one Alter to a Leader": "champion"
+  },
+  "ARALOTH THE BOLD": {
+   "May take one Spite and/or Magic Items up to a total of 75 points": "magic-items"
+  },
+  "ARCH-REVENANT": {
+   "May take one Spite and/or Magic Items up to a total of 100 points": "magic-items"
+  },
+  "BRANCHWRAITH": {
+   "May be upgraded to a Level 1 Wizard": "wizard-level",
+   "May take Spites up to a total of 50 points": "spites-up-to-a-total",
+   "May take a great weapon": "great-weapon"
+  },
+  "DEEPWOOD SCOUTS": {
+   "May choose one of the following:": "equipment",
+   "May replace Elven shortbows with Elven longbows": "elven-longbows",
+   "May upgrade one Deepwood Scout to a Leader": "champion",
+   "May upgrade one Deepwood Scout to a Musician": "musician",
+   "May upgrade one Deepwood Scout to a Standard Bearer": "standard-bearer",
+   "May upgrade one Deepwood Scout to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 25 points": "magic-standard"
+  },
+  "DRYADS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Dryad to a Leader": "champion"
+  },
+  "DRYCHA": {
+   "May take Spites up to a total of 50 points": "spites-up-to-a-total"
+  },
+  "DURTHU OAKHEART": {
+   "May take one Spite and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "ETERNAL GUARD": {
+   "May take shields": "shields",
+   "May upgrade one Eternal Guard to a Leader": "champion",
+   "May upgrade one Eternal Guard to a Musician": "musician",
+   "May upgrade one Eternal Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Eternal Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard"
+  },
+  "GLADE ARCHERS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Glade Archer to a Leader": "champion",
+   "May upgrade one Glade Archer to a Musician": "musician",
+   "May upgrade one Glade Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Glade Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 25 points": "magic-standard"
+  },
+  "GLADE GUARD": {
+   "May upgrade one Glade Guard to a Leader": "champion",
+   "May upgrade one Glade Guard to a Musician": "musician",
+   "May upgrade one Glade Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Glade Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 25 points": "magic-standard"
+  },
+  "GLADE RIDERS": {
+   "May choose one of the following:": "missile-weapon",
+   "May choose one of the following: #2": "equipment",
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May take shields (if armed with light lances)": "shields",
+   "May upgrade one Glade Rider to a Leader": "champion",
+   "May upgrade one Glade Rider to a Musician": "musician",
+   "May upgrade one Glade Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Glade Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 25 points": "magic-standard"
+  },
+  "GOSSAMID ARCHERS": {
+   "May upgrade one Gossamid Archer to a Leader": "champion"
+  },
+  "GREAT EAGLE": {
+   "May take Shredding Talons": "shredding-talons",
+   "May take Swiftsense": "swiftsense"
+  },
+  "GREAT STAG KNIGHTS": {
+   "May take light armour": "light-armour",
+   "May take shields": "shields",
+   "May upgrade one Great Stag Knight to a Leader": "champion",
+   "May upgrade one Great Stag Knight to a Musician": "musician",
+   "May upgrade one Great Stag Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Great Stag Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard"
+  },
+  "GROVE GUARDIAN": {
+   "May take Spites up to a total of 100 points": "spites-up-to-a-total"
+  },
+  "HIGHBORNS": {
+   "A Glade Captain may take one Spite and/or Magic Items up to a total of 50 points": "magic-items-glade-captain",
+   "A Glade Lord may take one Spite and/or Magic Items up to a total of 100 points": "magic-items-glade-lord",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "equipment",
+   "May take a shield": "shield",
+   "May take light armour": "light-armour",
+   "One Glade Captain may carry the Battle Standard": "battle-standard"
+  },
+  "MEADOW CHARIOT": {
+   "May replace Elven shortbows with Elven longbows": "elven-longbows",
+   "May take two additional Charioteers": "two-additional-charioteers",
+   "May take two additional Elven Steeds": "two-additional-elven-steeds"
+  },
+  "NAESTRA & ARAHAN": {
+   "Must be mounted on one of the following:": "mount"
+  },
+  "ORION": {
+   "May take two Hounds of Orion": "two-hounds-of-orion"
+  },
+  "SCARLOC": {
+   "May choose one of the following:": "equipment",
+   "May take one Spite and/or Magic Items up to a total of 25 points": "magic-items"
+  },
+  "SHADOWDANCER": {
+   "May be upgraded to a Level 1 Wizard": "wizard-level",
+   "May choose one of the following:": "melee-weapon",
+   "May take one Spite and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "SISTERS OF THE THORN": {
+   "May upgrade one Sister of the Thorn to a Leader": "champion",
+   "May upgrade one Sister of the Thorn to a Musician": "musician",
+   "May upgrade one Sister of the Thorn to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sister of the Thorn to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard"
+  },
+  "SPELLSINGERS": {
+   "A Spellsinger may take one Spite and/or Magic Items up to a total of 50 points": "magic-items-spellsinger",
+   "A Spellweaver take one Spite and/or Magic Items up to a total of 100 points": "magic-items-spellweaver",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "SPITE REVENANTS": {
+   "May upgrade one Spite Revenant to a Leader": "champion"
+  },
+  "SPITERIDER REVENANTS": {
+   "May take light lances": "light-lances",
+   "May upgrade one Spiterider Revenant to a Leader": "champion",
+   "May upgrade one Spiterider Revenant to a Musician": "musician",
+   "May upgrade one Spiterider Revenant to a Standard Bearer": "standard-bearer",
+   "May upgrade one Spiterider Revenant to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard"
+  },
+  "TREE KIN": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Tree Kin to a Leader": "champion"
+  },
+  "TREE REVENANTS": {
+   "May upgrade one Tree Revenant to a Leader": "champion",
+   "May upgrade one Tree Revenant to a Musician": "musician",
+   "May upgrade one Tree Revenant to a Standard Bearer": "standard-bearer",
+   "May upgrade one Tree Revenant to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard"
+  },
+  "TREELORD": {
+   "May take Strangleroots": "strangleroots"
+  },
+  "TREELORD ANCIENT": {
+   "May be upgraded to a Level 2 Wizard": "wizard-level",
+   "May take Spites up to a total of 100 points": "spites-up-to-a-total",
+   "May take Strangleroots": "strangleroots"
+  },
+  "WARDANCERS": {
+   "May upgrade one Wardancer to a Leader": "champion",
+   "May upgrade one Wardancer to a Musician": "musician",
+   "May upgrade one Wardancer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wardancer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard",
+   "Must choose at least one of the following:": "upgrade"
+  },
+  "WARHAWK RIDERS": {
+   "May choose one of the following:": "equipment",
+   "May replace Elven shortbows with Elven longbows": "elven-longbows",
+   "May take shields": "shields",
+   "May upgrade one Warhawk Rider to a Leader": "champion"
+  },
+  "WARSONG REVENANT": {
+   "May take one Spite and/or Magic Items up to a total of 100 points": "magic-items"
+  },
+  "WAYSTALKER": {
+   "May choose one of the following:": "equipment",
+   "May replace Elven shortbow with Elven longbow": "elven-longbow",
+   "May take an additional hand weapon": "additional-hand-weapon",
+   "May take one Spite and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "WAYWATCHERS": {
+   "May choose one of the following:": "equipment",
+   "May replace Elven shortbows with Elven longbows": "elven-longbows",
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May take traps": "traps",
+   "May upgrade one Waywatcher to a Leader": "champion"
+  },
+  "WILD HUNTER": {
+   "May replace Elven Steed with one of the following:": "elven-steed",
+   "May take a shield": "shield",
+   "May take light armour": "light-armour",
+   "May take one Spite and/or Magic Items up to a total of 50 points": "magic-items"
+  },
+  "WILD RIDERS": {
+   "May replace Elven Steeds with Steeds of Kurnous": "steeds-of-kurnous",
+   "May take light armour": "light-armour",
+   "May take shields": "shields",
+   "May upgrade one Wild Rider to a Leader": "champion",
+   "May upgrade one Wild Rider to a Musician": "musician",
+   "May upgrade one Wild Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wild Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard"
+  },
+  "WILDWOOD RANGERS": {
+   "May upgrade one Wildwood Ranger to a Leader": "champion",
+   "May upgrade one Wildwood Ranger to a Musician": "musician",
+   "May upgrade one Wildwood Ranger to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wildwood Ranger to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up 50 points": "magic-standard"
+  },
+  "ZOAT": {
+   "May be upgraded to a Level 2 Wizard": "wizard-level"
+  }
+ },
+ "items": {
+  "AECH, THE BANNER OF SPRINGTIDE": "aech-the-banner-of-springtide",
+  "AMARANTHINE BROOCH": "amaranthine-brooch",
+  "AMBER ARMOUR": "amber-armour",
+  "AMBER PENDANT": "amber-pendant",
+  "ARMOUR OF THE FEY": "armour-of-the-fey",
+  "ARROWS OF POTENCY": "arrows-of-potency",
+  "ASYENDI'S BANE": "asyendis-bane",
+  "BANNER OF MIDSUMMER'S EVE": "banner-of-midsummers-eve",
+  "BANNER OF THE ETERNAL QUEEN": "banner-of-the-eternal-queen",
+  "BANNER OF THE HUNTER KING": "banner-of-the-hunter-king",
+  "BANNER OF THE WILD HUNT": "banner-of-the-wild-hunt",
+  "BANNER OF THE WILDWOOD": "banner-of-the-wildwood",
+  "BATTLE STANDARD OF ATHEL LOREN": "battle-standard-of-athel-loren",
+  "BLADES OF LOEC": "blades-of-loec",
+  "BLIGHT-TIPPED ARROWS": "blight-tipped-arrows",
+  "BRIARSHEATH": "briarsheath",
+  "CALAINGOR'S STAVE": "calaingors-stave",
+  "CALLACH'S CLAW": "callachs-claw",
+  "CLOAK OF TUMBLING LEAVES": "cloak-of-tumbling-leaves",
+  "CROWN OF ANTLERS": "crown-of-antlers",
+  "CROWN OF FELL BOWERS": "crown-of-fell-bowers",
+  "DAITH'S REAPER": "daiths-reaper",
+  "DAWNSPEAR": "dawnspear",
+  "DEEPMIRE CLOAK": "deepmire-cloak",
+  "DEEPWOOD SPHERE": "deepwood-sphere",
+  "DIVINATION ORB": "divination-orb",
+  "DRAGONTOOTH ARROWS": "dragontooth-arrows",
+  "ELF CHARM": "elf-charm",
+  "ELYNETT'S BROOCH": "elynetts-brooch",
+  "FAOGHIR, THE BANNER OF DWINDLING": "faoghir-the-banner-of-dwindling",
+  "FIMBULWINTER SHARD": "fimbulwinter-shard",
+  "FORGET-ME-KNOT": "forget-me-knot",
+  "GAEMRATH, THE BANNER OF MIDWINTER": "gaemrath-the-banner-of-midwinter",
+  "GLAMOURWEAVE BROOCH": "glamourweave-brooch",
+  "GREENWOOD GLADIUS": "greenwood-gladius",
+  "GWYTHERC'S HORN": "gwythercs-horn",
+  "HAIL OF DOOM ARROW": "hail-of-doom-arrow",
+  "HEARTWOOD PENDANT": "heartwood-pendant",
+  "HORN OF THE ASRAI": "horn-of-the-asrai",
+  "HUNT MASTER'S PRIDE": "hunt-masters-pride",
+  "MERCIW'S LOCUS": "merciws-locus",
+  "MOONSTONE OF THE HIDDEN WAYS": "moonstone-of-the-hidden-ways",
+  "OAKEN STAVE": "oaken-stave",
+  "ORB OF MIDSUMMER": "orb-of-midsummer",
+  "ORION'S FAVOUR": "orions-favour",
+  "RAGETH'S WILDFIRE BLADES": "rageths-wildfire-blades",
+  "RAILARIAN'S MANTLE": "railarians-mantle",
+  "RANU'S HEARTSTIONE": "ranus-heartstione",
+  "RHYMER'S HARP": "rhymers-harp",
+  "SAEMRATH, THE BANNER OF ZENITH": "saemrath-the-banner-of-zenith",
+  "SIGIL OF THE MAGE QUEEN": "sigil-of-the-mage-queen",
+  "SILVERWOOD CIRCLET": "silverwood-circlet",
+  "SPEAR OF DAITH": "spear-of-daith",
+  "SPEAR OF THE HUNT": "spear-of-the-hunt",
+  "SPEAR OF TWILIGHT": "spear-of-twilight",
+  "SPLINTERBIRCH BLADE": "splinterbirch-blade",
+  "STANDARD OF MORNING'S CHILL": "standard-of-mornings-chill",
+  "STARCASTER LONGBOW": "starcaster-longbow",
+  "STONE OF REBIRTH": "stone-of-rebirth",
+  "STONE OF THE CRYSTAL MERE": "stone-of-the-crystal-mere",
+  "SWORD OF A THOUSAND WINTERS": "sword-of-a-thousand-winters",
+  "TALISMAN OF QWARR": "talisman-of-qwarr",
+  "TAPESTRY OF TALSYN": "tapestry-of-talsyn",
+  "THE BOW OF LOREN": "the-bow-of-loren",
+  "THE HELM OF THE HUNT": "the-helm-of-the-hunt",
+  "THE HUNTER'S TALON": "the-hunters-talon",
+  "THE OAKEN ARMOUR": "the-oaken-armour",
+  "THE SPIRIT SWORD": "the-spirit-sword",
+  "VAUL'S WRATH": "vauls-wrath",
+  "VESPERAL GEM": "vesperal-gem",
+  "VIRIDESCENT SHAWL": "viridescent-shawl",
+  "WAILING ARROWS": "wailing-arrows",
+  "WARDROTH HORN": "wardroth-horn",
+  "WARSONG STAVE": "warsong-stave",
+  "WAYSTALKER'S CLOAK": "waystalkers-cloak",
+  "WENDING WAND": "wending-wand",
+  "WRAITHSTONE": "wraithstone"
+ },
+ "lores": {
+  "THE LORE OF ATHEL LOREN": "the-lore-of-athel-loren"
+ },
+ "profiles": {
+  "ALTERS": {
+   "Alter": "alter"
+  },
+  "ARALOTH THE BOLD": {
+   "Araloth": "araloth"
+  },
+  "ARCH-REVENANT": {
+   "Arch-Revenant": "arch-revenant"
+  },
+  "ARIEL": {
+   "Ariel": "ariel"
+  },
+  "BELTHANOS": {
+   "Belthanos": "belthanos",
+   "Carnelian Greatspite": "carnelian-greatspite"
+  },
+  "BRANCHWRAITH": {
+   "Branchwraith": "branchwraith"
+  },
+  "DEEPWOOD SCOUTS": {
+   "Deepwood Scout": "deepwood-scout"
+  },
+  "DRYADS": {
+   "Dryad": "dryad"
+  },
+  "DRYCHA": {
+   "Drycha": "drycha"
+  },
+  "DURTHU OAKHEART": {
+   "Durthu": "durthu"
+  },
+  "ELVEN STEED": {
+   "Elven Steed": "elven-steed"
+  },
+  "ETERNAL GUARD": {
+   "Eternal Guard": "eternal-guard"
+  },
+  "FOREST DRAGON": {
+   "Forest Dragon": "forest-dragon"
+  },
+  "GLADE ARCHERS": {
+   "Glade Archer": "glade-archer"
+  },
+  "GLADE GUARD": {
+   "Glade Guard": "glade-guard"
+  },
+  "GLADE RIDERS": {
+   "Elven Steed": "elven-steed",
+   "Glade Rider": "glade-rider"
+  },
+  "GOSSAMID ARCHERS": {
+   "Gossamid Archer": "gossamid-archer"
+  },
+  "GREAT EAGLE": {
+   "Great Eagle": "great-eagle"
+  },
+  "GREAT STAG": {
+   "Great Stag": "great-stag"
+  },
+  "GREAT STAG KNIGHTS": {
+   "Great Stag": "great-stag",
+   "Wild Rider": "wild-rider"
+  },
+  "GROVE GUARDIAN": {
+   "Grove Guardian": "grove-guardian"
+  },
+  "GRUARTH": {
+   "Claw": "claw",
+   "Fang": "fang",
+   "Gruarth": "gruarth"
+  },
+  "HIGHBORNS": {
+   "Glade Captain": "glade-captain",
+   "Glade Lord": "glade-lord"
+  },
+  "MEADOW CHARIOT": {
+   "Charioteer": "charioteer",
+   "Elven Steed": "elven-steed",
+   "Meadow Chariot": "meadow-chariot"
+  },
+  "NAESTRA & ARAHAN": {
+   "Arahan": "arahan",
+   "Ceithin-Har (Forest Dragon)": "ceithin-har-forest-dragon",
+   "Gwindalor (Great Eagle)": "gwindalor-great-eagle",
+   "Naestra": "naestra"
+  },
+  "NAIETH THE PROPHETESS": {
+   "Naieth": "naieth"
+  },
+  "ORION": {
+   "Hound of Orion": "hound-of-orion",
+   "Orion": "orion"
+  },
+  "SCARLOC": {
+   "Scarloc": "scarloc"
+  },
+  "SHADOWDANCER": {
+   "Shadowdancer": "shadowdancer"
+  },
+  "SISTERS OF THE THORN": {
+   "Sister of the Thorn": "sister-of-the-thorn",
+   "Steed of Isha": "steed-of-isha"
+  },
+  "SKAW": {
+   "Skaw": "skaw"
+  },
+  "SPELLSINGERS": {
+   "Spellsinger": "spellsinger",
+   "Spellweaver": "spellweaver"
+  },
+  "SPITE REVENANTS": {
+   "Spite Revenant": "spite-revenant"
+  },
+  "SPITE SWARMS": {
+   "Spite Swarm": "spite-swarm"
+  },
+  "SPITERIDER REVENANTS": {
+   "Dragonspite": "dragonspite",
+   "Spiterider Revenant": "spiterider-revenant"
+  },
+  "STEED OF KURNOUS": {
+   "Steed of Kurnous": "steed-of-kurnous"
+  },
+  "THE LADY OF VINES": {
+   "The Lady of Vines": "the-lady-of-vines"
+  },
+  "TREE KIN": {
+   "Tree Kin": "tree-kin"
+  },
+  "TREE REVENANTS": {
+   "Tree Revenant": "tree-revenant"
+  },
+  "TREELORD": {
+   "Treelord": "treelord"
+  },
+  "TREELORD ANCIENT": {
+   "Treelord Ancient": "treelord-ancient"
+  },
+  "TREEMAN": {
+   "Treeman": "treeman"
+  },
+  "UNICORN": {
+   "Unicorn": "unicorn"
+  },
+  "WARDANCERS": {
+   "Wardancer": "wardancer"
+  },
+  "WARHAWK": {
+   "Warhawk": "warhawk"
+  },
+  "WARHAWK RIDERS": {
+   "Warhawk": "warhawk",
+   "Warhawk Rider": "warhawk-rider"
+  },
+  "WARSONG REVENANT": {
+   "Warsong Revenant": "warsong-revenant"
+  },
+  "WAYSTALKER": {
+   "Waystalker": "waystalker"
+  },
+  "WAYWATCHERS": {
+   "Waywatcher": "waywatcher"
+  },
+  "WILD HUNTER": {
+   "Elven Steed": "elven-steed",
+   "Wild Hunter": "wild-hunter"
+  },
+  "WILD RIDERS": {
+   "Elven Steed": "elven-steed",
+   "Steed of Kurnous": "steed-of-kurnous",
+   "Wild Rider": "wild-rider"
+  },
+  "WILDWOOD RANGERS": {
+   "Wildwood Ranger": "wildwood-ranger"
+  },
+  "WYCHWETHYL": {
+   "Wychwethyl": "wychwethyl"
+  },
+  "ZOAT": {
+   "Zoat": "zoat"
+  }
+ },
+ "rules": {
+  "AMBUSH FROM THE WORLDROOTS": "ambush-from-the-worldroots",
+  "ASRAI ARCHERY": "asrai-archery",
+  "BLESSINGS OF THE ANCIENTS": "blessings-of-the-ancients",
+  "ELVEN GRACE": "elven-grace",
+  "ELVEN LONGBOW": "elven-longbow",
+  "ELVEN SHORTBOW": "elven-shortbow",
+  "ENCHANTED ARROWS": "enchanted-arrows",
+  "FOREST SPIRIT": "forest-spirit",
+  "FOREST STALKER": "forest-stalker",
+  "LETHAL SHOT": "lethal-shot",
+  "MARTIAL MEMORIES": "martial-memories",
+  "SAEARATH": "saearath",
+  "SHADOW DANCES OF LOEC": "shadow-dances-of-loec",
+  "TREE ASPECTS": "tree-aspects",
+  "TREE WHACK": "tree-whack"
+ },
+ "units": {
+  "ALTERS": "alters",
+  "ARALOTH THE BOLD": "araloth-the-bold",
+  "ARCH-REVENANT": "arch-revenant",
+  "ARIEL": "ariel",
+  "BELTHANOS": "belthanos",
+  "BRANCHWRAITH": "branchwraith",
+  "DEEPWOOD SCOUTS": "deepwood-scouts",
+  "DRYADS": "dryads",
+  "DRYCHA": "drycha",
+  "DURTHU OAKHEART": "durthu-oakheart",
+  "ELVEN STEED": "elven-steed",
+  "ETERNAL GUARD": "eternal-guard",
+  "FOREST DRAGON": "forest-dragon",
+  "GLADE ARCHERS": "glade-archers",
+  "GLADE GUARD": "glade-guard",
+  "GLADE RIDERS": "glade-riders",
+  "GOSSAMID ARCHERS": "gossamid-archers",
+  "GREAT EAGLE": "great-eagle",
+  "GREAT STAG": "great-stag",
+  "GREAT STAG KNIGHTS": "great-stag-knights",
+  "GROVE GUARDIAN": "grove-guardian",
+  "GRUARTH": "gruarth",
+  "HIGHBORNS": "highborns",
+  "MEADOW CHARIOT": "meadow-chariot",
+  "NAESTRA & ARAHAN": "naestra-and-arahan",
+  "NAIETH THE PROPHETESS": "naieth-the-prophetess",
+  "ORION": "orion",
+  "SCARLOC": "scarloc",
+  "SHADOWDANCER": "shadowdancer",
+  "SISTERS OF THE THORN": "sisters-of-the-thorn",
+  "SKAW": "skaw",
+  "SPELLSINGERS": "spellsingers",
+  "SPITE REVENANTS": "spite-revenants",
+  "SPITE SWARMS": "spite-swarms",
+  "SPITERIDER REVENANTS": "spiterider-revenants",
+  "STEED OF KURNOUS": "steed-of-kurnous",
+  "THE LADY OF VINES": "the-lady-of-vines",
+  "TREE KIN": "tree-kin",
+  "TREE REVENANTS": "tree-revenants",
+  "TREELORD": "treelord",
+  "TREELORD ANCIENT": "treelord-ancient",
+  "TREEMAN": "treeman",
+  "UNICORN": "unicorn",
+  "WARDANCERS": "wardancers",
+  "WARHAWK": "warhawk",
+  "WARHAWK RIDERS": "warhawk-riders",
+  "WARSONG REVENANT": "warsong-revenant",
+  "WAYSTALKER": "waystalker",
+  "WAYWATCHERS": "waywatchers",
+  "WILD HUNTER": "wild-hunter",
+  "WILD RIDERS": "wild-riders",
+  "WILDWOOD RANGERS": "wildwood-rangers",
+  "WYCHWETHYL": "wychwethyl",
+  "ZOAT": "zoat"
+ },
+ "upgrades": {
+  "A BEFUDDLEMENT OF MISCHIEFS": "a-befuddlement-of-mischiefs",
+  "A BLIGHT OF TERRORS": "a-blight-of-terrors",
+  "A CLUSTER OF RADIANTS": "a-cluster-of-radiants",
+  "A LAMENTATION OF DESPAIRS": "a-lamentation-of-despairs",
+  "A MURDER OF SPITES": "a-murder-of-spites",
+  "A MUSTER OF MALEVOLENTS": "a-muster-of-malevolents",
+  "A PAGEANT OF SHRIKES": "a-pageant-of-shrikes",
+  "A RESPLENDENCE OF LUMINESCENTS": "a-resplendence-of-luminescents",
+  "AN ANNOYANCE OF NETLINGS": "an-annoyance-of-netlings",
+  "HAGBANE SPITE": "hagbane-spite"
+ }
+}

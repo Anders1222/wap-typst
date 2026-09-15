@@ -1,0 +1,1335 @@
+{
+ "choices": {
+  "ABYSSAL TERROR": {
+   "poisonous-tail": {
+    "Poisonous Tail": "poisonous-tail"
+   },
+   "sword-claws": {
+    "Sword-claws": "sword-claws"
+   }
+  },
+  "BARROW CHARIOT": {
+   "barding": {
+    "barding": "barding"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   }
+  },
+  "BLACK COACH": {
+   "spectres": {
+    "Spectres": "spectres"
+   },
+   "two-additional-nightmares": {
+    "two additional Nightmares": "two-additional-nightmares"
+   }
+  },
+  "BLACK KNIGHTS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BLOOD DRAGONS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-items-kastellan": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-lord": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance"
+   },
+   "mount": {
+    "Abyssal Terror": "abyssal-terror",
+    "Hellsteed": "hellsteed",
+    "Nightmare": "nightmare",
+    "Zombie Dragon": "zombie-dragon"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  },
+  "BLOOD KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CAIRN WRAITH": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   },
+   "mount": {
+    "Skeletal Steed": "skeletal-steed"
+   }
+  },
+  "CORPSE CART": {
+   "upgrade": {
+    "Balefire": "balefire",
+    "Unholy Lodestone": "unholy-lodestone"
+   }
+  },
+  "CRYPT GHAST": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm"
+   }
+  },
+  "CRYPT GHOULS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   }
+  },
+  "CRYPT GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "CRYPT HORRORS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "DIRE WOLVES": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "GRAVE GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "HELMAN GHORST": {
+   "mount": {
+    "Corpse Cart": "corpse-cart"
+   }
+  },
+  "HEXWRAITHS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "LAHMIAN HANDMAIDENS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "LAHMIANS": {
+   "additional-hand-weapon": {
+    "additional hand weapon": "additional-hand-weapon"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-courtesan": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-lady": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Coven Throne": "coven-throne",
+    "Hellsteed": "hellsteed",
+    "Nightmare": "nightmare"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "shortbow": {
+    "shortbow": "shortbow"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard",
+    "Level 3 Wizard": "level-3-wizard"
+   }
+  },
+  "LICHE LORD": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Mortis Engine replacing the (Corpsemaster)": "mortis-engine-replacing-the-corpsemaster"
+   }
+  },
+  "MANNFRED VON CARSTEIN": {
+   "mount": {
+    "Abyssal Terror": "abyssal-terror",
+    "Hellsteed": "hellsteed",
+    "Nightmare": "nightmare",
+    "Zombie Dragon": "zombie-dragon"
+   }
+  },
+  "MORBHEG KNIGHTS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "NECRARCHS": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-acolyte": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-master": {
+    "Magic Items": "magic-items"
+   },
+   "master-of-the-dead": {
+    "Master of the Dead": "master-of-the-dead"
+   },
+   "mount": {
+    "Abyssal Terror": "abyssal-terror",
+    "Hellsteed": "hellsteed",
+    "Nightmare": "nightmare",
+    "Zombie Dragon": "zombie-dragon"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "NECROFEX COLOSSUS": {
+   "corpse-killers": {
+    "Corpse Killers": "corpse-killers"
+   },
+   "dark-soul": {
+    "Dark Soul": "dark-soul"
+   },
+   "scythes-and-barbs": {
+    "Scythes and Barbs": "scythes-and-barbs"
+   },
+   "vampire-blood": {
+    "Vampire Blood": "vampire-blood"
+   }
+  },
+  "NECROMANCERS": {
+   "magic-items-master-necromancer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-necromancer": {
+    "Magic Items": "magic-items"
+   },
+   "master-of-the-dead": {
+    "Master of the Dead": "master-of-the-dead"
+   },
+   "mount": {
+    "Abyssal Terror": "abyssal-terror",
+    "Corpse Cart": "corpse-cart",
+    "Hellsteed": "hellsteed",
+    "Nightmare": "nightmare"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "NEFERATA": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "mount": {
+    "Abyssal Terror": "abyssal-terror",
+    "Coven Throne": "coven-throne",
+    "Hellsteed": "hellsteed",
+    "Nightmare": "nightmare"
+   }
+  },
+  "NIGHTMARE": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "SKELETAL STEED": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "SKELETON ARCHERS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "missile-weapon": {
+    "Crossbows": "crossbows",
+    "Longbows": "longbows"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKELETON CATAPULT": {
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "SKELETON CHARIOT": {
+   "barding": {
+    "barding": "barding"
+   },
+   "bows": {
+    "bows": "bows"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "shields": {
+    "shields": "shields"
+   }
+  },
+  "SKELETON HORSEMEN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "bows": "bows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SKELETON WARRIORS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "STRIGANY": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "skirmishers": {
+    "Skirmishers": "skirmishers"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "STRIGANY MYSTIC": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "STRIGOI": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-ghoul-king": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-ghoul-prince": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Terrorgheist": "terrorgheist"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard"
+   }
+  },
+  "SWAIN": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "SYLVANIAN LEVY": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Crossbows": "crossbows",
+    "Longbows": "longbows",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TERRORGHEIST": {
+   "infested": {
+    "Infested": "infested"
+   },
+   "rancid-maw": {
+    "Rancid Maw": "rancid-maw"
+   }
+  },
+  "VARGHEISTS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "VON CARSTEINS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-count": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-scion": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Polearm": "polearm"
+   },
+   "mount": {
+    "Abyssal Terror": "abyssal-terror",
+    "Hellsteed": "hellsteed",
+    "Nightmare": "nightmare",
+    "Zombie Dragon": "zombie-dragon"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard",
+    "Level 3 Wizard": "level-3-wizard"
+   }
+  },
+  "WIGHT LORDS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-wight-king": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-wight-lord": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance"
+   },
+   "mount": {
+    "Barrow Chariot": "barrow-chariot",
+    "Skeletal Steed": "skeletal-steed"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "WRAITHWISPS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Crossbows": "crossbows",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ZOMBIES": {
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ABYSSAL TERROR": {
+   "May take Poisonous Tail": "poisonous-tail",
+   "May take Sword-claws": "sword-claws"
+  },
+  "BARROW CHARIOT": {
+   "May take barding": "barding",
+   "May take scythes": "scythes"
+  },
+  "BLACK COACH": {
+   "May take Spectres": "spectres",
+   "May take two additional Nightmares": "two-additional-nightmares"
+  },
+  "BLACK KNIGHTS": {
+   "May take barding": "barding",
+   "May take heavy armour": "heavy-armour",
+   "May upgrade one Black Knight to a Leader": "champion",
+   "May upgrade one Black Knight to a Musician": "musician",
+   "May upgrade one Black Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Black Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "BLOOD DRAGONS": {
+   "A Kastellan may take Vampiric Powers and/or Magic Items up to a total of 50 points": "magic-items-kastellan",
+   "A Lord may take Vampiric Powers and/or Magic Items up to a total of 100 points": "magic-items-lord",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "wizard-level",
+   "May choose one of the following:": "melee-weapon",
+   "May take a shield": "shield",
+   "May take heavy armour": "heavy-armour",
+   "One Kastellan may carry the Battle Standard": "battle-standard"
+  },
+  "BLOOD KNIGHTS": {
+   "May upgrade one Blood Knight to a Leader": "champion",
+   "May upgrade one Blood Knight to a Musician": "musician",
+   "May upgrade one Blood Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Blood Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "CAIRN WRAITH": {
+   "May be mounted on a Skeletal Steed": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "CORPSE CART": {
+   "May choose one of the following:": "upgrade"
+  },
+  "CRYPT GHAST": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "One Crypt Ghast may carry the Battle Standard": "battle-standard"
+  },
+  "CRYPT GHOULS": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May upgrade one Crypt Ghoul to a Leader": "champion"
+  },
+  "CRYPT GUARD": {
+   "May take polearms": "polearms",
+   "May upgrade one Crypt Guard to a Leader": "champion",
+   "May upgrade one Crypt Guard to a Musician": "musician",
+   "May upgrade one Crypt Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Crypt Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "CRYPT HORRORS": {
+   "May upgrade one Crypt Horror to a Leader": "champion"
+  },
+  "DIRE WOLVES": {
+   "May upgrade one Dire Wolf to a Leader": "champion"
+  },
+  "GRAVE GUARD": {
+   "May choose one of the following:": "melee-weapon",
+   "May take heavy armour": "heavy-armour",
+   "May take shields (unless armed with great weapons)": "shields",
+   "May upgrade one Grave Guard to a Leader": "champion",
+   "May upgrade one Grave Guard to a Musician": "musician",
+   "May upgrade one Grave Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Grave Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "HELMAN GHORST": {
+   "May be mounted on a Corpse Cart (replacing the Corpsemaster)": "mount"
+  },
+  "HEXWRAITHS": {
+   "May upgrade one Hexwraith to a Leader": "champion"
+  },
+  "LAHMIAN HANDMAIDENS": {
+   "May have Poisoned Attacks": "poisoned-attacks",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Handmaiden to a Leader": "champion"
+  },
+  "LAHMIANS": {
+   "A Courtesan may take Vampiric Powers and/or Magic Items up to a total of 50 points": "magic-items-courtesan",
+   "A Lady may take Vampiric Powers and/or Magic Items up to a total of 100 points": "magic-items-lady",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "wizard-level",
+   "May have Poisoned Attacks": "poisoned-attacks",
+   "May take Vampiric Powers and/or Magic Items up to a total of 100 points": "magic-items",
+   "May take a shortbow": "shortbow",
+   "May take an additional hand weapon": "additional-hand-weapon",
+   "May take light armour": "light-armour",
+   "May take throwing weapons": "throwing-weapons",
+   "One Courtesan may carry the Battle Standard": "battle-standard"
+  },
+  "LICHE LORD": {
+   "May be mounted on a Mortis Engine replacing the (Corpsemaster)": "mount",
+   "May choose one of the following:": "armour",
+   "May take Magic Items up to a total of 100 points": "magic-items"
+  },
+  "MANNFRED VON CARSTEIN": {
+   "May be mounted on one of the following:": "mount"
+  },
+  "MORBHEG KNIGHTS": {
+   "May upgrade one Morbheg Knight to a Leader": "champion",
+   "May upgrade one Morbheg Knight to a Musician": "musician",
+   "May upgrade one Morbheg Knight to a Standard Bearer": "standard-bearer",
+   "May upgrade one Morbheg Knight to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "NECRARCHS": {
+   "A Master may take Vampiric Powers and/or Magic Items up to a total of 100 points": "magic-items-master",
+   "An Acolyte may take Vampiric Powers and/or Magic Items up to a total of 50 points": "magic-items-acolyte",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to a Master of the Dead": "master-of-the-dead",
+   "May take an additional Wizard Level": "wizard-level",
+   "One Acolyte may carry the Battle Standard": "battle-standard"
+  },
+  "NECROFEX COLOSSUS": {
+   "May take Corpse Killers": "corpse-killers",
+   "May take Dark Soul": "dark-soul",
+   "May take Scythes and Barbs": "scythes-and-barbs",
+   "May take Vampire Blood": "vampire-blood"
+  },
+  "NECROMANCERS": {
+   "A Master Necromancer may take Magic Items up to a total of 100 points": "magic-items-master-necromancer",
+   "A Necromancer may take Magic Items up to a total of 50 points": "magic-items-necromancer",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to a Master of the Dead": "master-of-the-dead",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "NEFERATA": {
+   "May be mounted on one of the following:": "mount",
+   "May take medium armour": "medium-armour"
+  },
+  "NIGHTMARE": {
+   "May take barding": "barding"
+  },
+  "SKELETAL STEED": {
+   "May take barding": "barding"
+  },
+  "SKELETON ARCHERS": {
+   "May choose one of the following:": "armour",
+   "May replace shortbows with one of the following:": "missile-weapon",
+   "May upgrade one Skeleton Archer to a Leader": "champion",
+   "May upgrade one Skeleton Archer to a Musician": "musician",
+   "May upgrade one Skeleton Archer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Archer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKELETON CATAPULT": {
+   "May take light armour": "light-armour"
+  },
+  "SKELETON CHARIOT": {
+   "May take barding": "barding",
+   "May take bows": "bows",
+   "May take light lances": "light-lances",
+   "May take scythes": "scythes",
+   "May take shields": "shields"
+  },
+  "SKELETON HORSEMEN": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May upgrade one Skeleton Horseman to a Leader": "champion",
+   "May upgrade one Skeleton Horseman to a Musician": "musician",
+   "May upgrade one Skeleton Horseman to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Horseman to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SKELETON WARRIORS": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take shields (unless they are armed with great weapons)": "shields",
+   "May upgrade one Skeleton Warrior to a Leader": "champion",
+   "May upgrade one Skeleton Warrior to a Musician": "musician",
+   "May upgrade one Skeleton Warrior to a Standard Bearer": "standard-bearer",
+   "May upgrade one Skeleton Warrior to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "STRIGANY": {
+   "May be upgraded to Skirmishers": "skirmishers",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Strigany to a Leader": "champion",
+   "May upgrade one Strigany to a Musician": "musician",
+   "May upgrade one Strigany to a Standard Bearer": "standard-bearer"
+  },
+  "STRIGANY MYSTIC": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "STRIGOI": {
+   "A Ghoul King may take Vampiric Powers and/or Magic Items up to a total of 100 points": "magic-items-ghoul-king",
+   "A Ghoul Prince may take Vampiric Powers and/or Magic Items up to a total of 50 points": "magic-items-ghoul-prince",
+   "May be mounted on a Terrorgheist (Ghoul King only)": "mount",
+   "May be upgraded to one of the following:": "wizard-level",
+   "One Ghoul Prince may carry the Battle Standard": "battle-standard"
+  },
+  "SWAIN": {
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a pistol": "pistol",
+   "May take a shield": "shield"
+  },
+  "SYLVANIAN LEVY": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Peasant to a Leader": "champion",
+   "May upgrade one Peasant to a Musician": "musician",
+   "May upgrade one Peasant to a Standard Bearer": "standard-bearer"
+  },
+  "TERRORGHEIST": {
+   "May take Infested": "infested",
+   "May take Rancid Maw": "rancid-maw"
+  },
+  "VARGHEISTS": {
+   "May upgrade one Vargheist to a Leader": "champion"
+  },
+  "VON CARSTEINS": {
+   "A Count may take Vampiric Powers and/or Magic Items up to a total of 100 points": "magic-items-count",
+   "A Scion may take Vampiric Powers and/or Magic Items up to a total of 50 points": "magic-items-scion",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "wizard-level",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "One Scion may carry the Battle Standard": "battle-standard"
+  },
+  "WIGHT LORDS": {
+   "A Wight King may take Magic Items up to a total of 100 points": "magic-items-wight-king",
+   "A Wight Lord may take Magic Items up to a total of 50 points": "magic-items-wight-lord",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take a shield": "shield",
+   "One Wight Lord may carry the Battle Standard": "battle-standard"
+  },
+  "WRAITHWISPS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Wraithwisp to a Leader": "champion",
+   "May upgrade one Wraithwisp to a Musician": "musician",
+   "May upgrade one Wraithwisp to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wraithwisp to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "ZOMBIES": {
+   "May upgrade one Zombie to a Musician": "musician",
+   "May upgrade one Zombie to a Standard Bearer": "standard-bearer"
+  }
+ },
+ "items": {
+  "AMULET OF SCREAMS": "amulet-of-screams",
+  "ARMOUR OF BONE": "armour-of-bone",
+  "ARMOUR OF NIGHT": "armour-of-night",
+  "ASP BOW": "asp-bow",
+  "BANNER OF DOOM": "banner-of-doom",
+  "BANNER OF HELLFIRE": "banner-of-hellfire",
+  "BANNER OF THE BARROWS": "banner-of-the-barrows",
+  "BANNER OF THE DEAD LEGION": "banner-of-the-dead-legion",
+  "BANNER OF THE ENDLESS NIGHTMARE": "banner-of-the-endless-nightmare",
+  "BLACK PERIAPT": "black-periapt",
+  "BLASPHEMOUS TOME": "blasphemous-tome",
+  "BLOOD RIVER CHALICE": "blood-river-chalice",
+  "BOOK OF ARKHAN": "book-of-arkhan",
+  "BRAZIER OF NAGASHIZZAR": "brazier-of-nagashizzar",
+  "BREATH OF THE VOID MAW": "breath-of-the-void-maw",
+  "CARRION WAND": "carrion-wand",
+  "CHIROPTERAN CLOAK": "chiropteran-cloak",
+  "CLOAK OF THE WAXING MOON": "cloak-of-the-waxing-moon",
+  "CRIMSON GEM OF LAHMIA": "crimson-gem-of-lahmia",
+  "CURSED PENNANT OF MOUSILLON": "cursed-pennant-of-mousillon",
+  "DREADBOLT RING": "dreadbolt-ring",
+  "DREADLANCE": "dreadlance",
+  "FRAGMENT OF THE KEEP": "fragment-of-the-keep",
+  "FROSTBLADE": "frostblade",
+  "GRAVE-SAND SHARD": "grave-sand-shard",
+  "HEART OF THE GIANT FEAST": "heart-of-the-giant-feast",
+  "HELL BANNER": "hell-banner",
+  "HELM OF COMMANDMENT": "helm-of-commandment",
+  "ICON OF VENGEANCE": "icon-of-vengeance",
+  "INFERNAL STANDARD": "infernal-standard",
+  "KEENING BONE": "keening-bone",
+  "LIGHTSHARD OF THE HARVEST MOON": "lightshard-of-the-harvest-moon",
+  "MEDAL OF MADNESS": "medal-of-madness",
+  "MIDNIGHT AMULET": "midnight-amulet",
+  "MIDNIGHT TOME": "midnight-tome",
+  "MIRROR OF ECHOING FAILURES": "mirror-of-echoing-failures",
+  "MORBHEG'S CLAW": "morbhegs-claw",
+  "NATHMAR'S SKULL": "nathmars-skull",
+  "NIGHTSHROUD": "nightshroud",
+  "ORB OF ENCHANTMENT": "orb-of-enchantment",
+  "PENDANT OF THE FELL WIND": "pendant-of-the-fell-wind",
+  "REAPER OF SORROWS": "reaper-of-sorrows",
+  "ROD OF FLAMING DEATH": "rod-of-flaming-death",
+  "ROYAL STANDARD OF STRIGOS": "royal-standard-of-strigos",
+  "RUBY VIAL": "ruby-vial",
+  "SCEPTRE DE NOIROT": "sceptre-de-noirot",
+  "SHADOW'S EDGE": "shadows-edge",
+  "SHARD OF NIGHT": "shard-of-night",
+  "SIGIL OF THE SANGUINE THRONE": "sigil-of-the-sanguine-throne",
+  "SIGNET OF THE FIRST COURT": "signet-of-the-first-court",
+  "SKABSCRATH": "skabscrath",
+  "SLAKING BLADE": "slaking-blade",
+  "SLITTER": "slitter",
+  "SOULFIRE RING": "soulfire-ring",
+  "SPLINTERVANE BROACH": "splintervane-broach",
+  "STAFF OF DAMNATION": "staff-of-damnation",
+  "STAFF OF RAUKHAMON": "staff-of-raukhamon",
+  "STANDARD OF EVERLASTING DEATH": "standard-of-everlasting-death",
+  "STANDARD OF HELLISH VIGOUR": "standard-of-hellish-vigour",
+  "STAVE OF SUFFERING": "stave-of-suffering",
+  "SWORD OF KINGS": "sword-of-kings",
+  "TALISMAN OF THE LYCNI": "talisman-of-the-lycni",
+  "TALISMAN OF THE NADIR": "talisman-of-the-nadir",
+  "TALON OF DEATH": "talon-of-death",
+  "THE ACCURSED ARMOUR": "the-accursed-armour",
+  "THE ARMOUR OF BLOOD": "the-armour-of-blood",
+  "THE BALEFIRE SPIKE": "the-balefire-spike",
+  "THE BILIOUS DECANTER": "the-bilious-decanter",
+  "THE CADAVEROUS CUIRASS": "the-cadaverous-cuirass",
+  "THE CASKET OF AGES": "the-casket-of-ages",
+  "THE CURSED BOOK": "the-cursed-book",
+  "THE CURSED SHIELD OF MOUSILLON": "the-cursed-shield-of-mousillon",
+  "THE DERMAL ROBE": "the-dermal-robe",
+  "THE DRAKENHOF BANNER": "the-drakenhof-banner",
+  "THE FLAG OF BLOOD KEEP": "the-flag-of-blood-keep",
+  "THE FLAYED HAUBERK": "the-flayed-hauberk",
+  "THE FLAYED PENNANT": "the-flayed-pennant",
+  "THE FURIOUS CROWN": "the-furious-crown",
+  "THE GEM OF BLOOD": "the-gem-of-blood",
+  "THE GRIM GARLAND": "the-grim-garland",
+  "THE RED CASKET": "the-red-casket",
+  "THE SACCHARINE GOBLET": "the-saccharine-goblet",
+  "THE SCABBING PLATE": "the-scabbing-plate",
+  "THE SCREAMING BANNER": "the-screaming-banner",
+  "WAILING HELM": "wailing-helm",
+  "WRISTBANDS OF BLACK GOLD": "wristbands-of-black-gold",
+  "WYCHLIGHT LANTERN": "wychlight-lantern"
+ },
+ "lores": {
+  "THE LORE OF NECROMANCY": "the-lore-of-necromancy"
+ },
+ "profiles": {
+  "ABYSSAL TERROR": {
+   "Abyssal Terror": "abyssal-terror"
+  },
+  "BARROW CHARIOT": {
+   "Barrow Chariot": "barrow-chariot",
+   "Crew": "crew",
+   "Skeletal Steed": "skeletal-steed"
+  },
+  "BAT SWARMS": {
+   "Bat Swarm": "bat-swarm"
+  },
+  "BLACK COACH": {
+   "Black Coach": "black-coach",
+   "Nightmare": "nightmare",
+   "Spectres": "spectres",
+   "Wraith": "wraith"
+  },
+  "BLACK KNIGHTS": {
+   "Black Knight": "black-knight",
+   "Skeletal Steed": "skeletal-steed"
+  },
+  "BLOOD DRAGONS": {
+   "Kastellan": "kastellan",
+   "Lord": "lord"
+  },
+  "BLOOD KNIGHTS": {
+   "Blood Knight": "blood-knight",
+   "Nightmare": "nightmare"
+  },
+  "CAIRN WRAITH": {
+   "Cairn Wraith": "cairn-wraith"
+  },
+  "CORPSE CART": {
+   "Corpse Cart": "corpse-cart",
+   "Corpsemaster": "corpsemaster",
+   "The Restless Dead": "the-restless-dead"
+  },
+  "COVEN THRONE": {
+   "Coven Throne": "coven-throne",
+   "Pallid Handmaiden": "pallid-handmaiden",
+   "Spirit Horde": "spirit-horde"
+  },
+  "CRYPT GHAST": {
+   "Crypt Ghast": "crypt-ghast"
+  },
+  "CRYPT GHOULS": {
+   "Crypt Ghoul": "crypt-ghoul"
+  },
+  "CRYPT GUARD": {
+   "Crypt Guard": "crypt-guard"
+  },
+  "CRYPT HORRORS": {
+   "Crypt Horror": "crypt-horror"
+  },
+  "DIRE WOLVES": {
+   "Dire Wolf": "dire-wolf"
+  },
+  "FELL BATS": {
+   "Fell Bat": "fell-bat"
+  },
+  "FLESH GOLEMS": {
+   "Flesh Golem": "flesh-golem"
+  },
+  "GORMAYNE": {
+   "Gormayne": "gormayne"
+  },
+  "GRAVE GUARD": {
+   "Grave Guard": "grave-guard"
+  },
+  "HEINRICH KEMMLER": {
+   "Heinrich Kemmler": "heinrich-kemmler"
+  },
+  "HELLSTEED": {
+   "Hellsteed": "hellsteed"
+  },
+  "HELMAN GHORST": {
+   "Helman Ghorst": "helman-ghorst"
+  },
+  "HEXWRAITHS": {
+   "Hexwraith": "hexwraith",
+   "Skeletal Steed": "skeletal-steed"
+  },
+  "ISABELLA VON CARSTEIN": {
+   "Isabella von Carstein": "isabella-von-carstein"
+  },
+  "KONRAD VON CARSTEIN": {
+   "Konrad von Carstein": "konrad-von-carstein"
+  },
+  "KRELL": {
+   "Krell": "krell"
+  },
+  "LAHMIAN HANDMAIDENS": {
+   "Handmaiden": "handmaiden"
+  },
+  "LAHMIANS": {
+   "Courtesan": "courtesan",
+   "Lady": "lady"
+  },
+  "LICHE LORD": {
+   "Liche Lord": "liche-lord"
+  },
+  "MANNFRED VON CARSTEIN": {
+   "Mannfred von Carstein": "mannfred-von-carstein"
+  },
+  "MELKHIOR THE ANCIENT": {
+   "Abyssal Terror": "abyssal-terror",
+   "Melkhior": "melkhior"
+  },
+  "MORBHEG KNIGHTS": {
+   "Morbheg Knight": "morbheg-knight",
+   "Nightshrieker": "nightshrieker"
+  },
+  "MORTIS ENGINE": {
+   "Banshee": "banshee",
+   "Corpsemaster": "corpsemaster",
+   "Mortis Engine": "mortis-engine",
+   "Spirit Horde": "spirit-horde"
+  },
+  "MOURNGUL": {
+   "Mourngul": "mourngul"
+  },
+  "NECRARCHS": {
+   "Acolyte": "acolyte",
+   "Master": "master"
+  },
+  "NECROFEX COLOSSUS": {
+   "Necrofex Colossus": "necrofex-colossus"
+  },
+  "NECROMANCERS": {
+   "Master Necromancer": "master-necromancer",
+   "Necromancer": "necromancer"
+  },
+  "NEFERATA": {
+   "Neferata": "neferata"
+  },
+  "NIGHTMARE": {
+   "Nightmare": "nightmare"
+  },
+  "PRINCE VHORDRAI": {
+   "Prince Vhordrai": "prince-vhordrai",
+   "Shordemaire (Zombie Dragon)": "shordemaire-zombie-dragon"
+  },
+  "SEKHAR": {
+   "Ouboroth": "ouboroth",
+   "Sekhar": "sekhar"
+  },
+  "SKELETAL STEED": {
+   "Skeletal Steed": "skeletal-steed"
+  },
+  "SKELETON ARCHERS": {
+   "Skeleton Archer": "skeleton-archer"
+  },
+  "SKELETON CATAPULT": {
+   "Crew": "crew",
+   "Skeleton Catapult": "skeleton-catapult"
+  },
+  "SKELETON CHARIOT": {
+   "Crew": "crew",
+   "Skeletal Steed": "skeletal-steed",
+   "Skeleton Chariot": "skeleton-chariot"
+  },
+  "SKELETON HORSEMEN": {
+   "Skeletal Steed": "skeletal-steed",
+   "Skeleton Horseman": "skeleton-horseman"
+  },
+  "SKELETON WARRIORS": {
+   "Skeleton Warrior": "skeleton-warrior"
+  },
+  "SPIRIT HOSTS": {
+   "Spirit Host": "spirit-host"
+  },
+  "STRIGANY": {
+   "Strigany": "strigany"
+  },
+  "STRIGANY MYSTIC": {
+   "Strigany Mystic": "strigany-mystic"
+  },
+  "STRIGOI": {
+   "Ghoul King": "ghoul-king",
+   "Ghoul Prince": "ghoul-prince"
+  },
+  "SWAIN": {
+   "Swain": "swain"
+  },
+  "SYLVANIAN LEVY": {
+   "Peasant": "peasant"
+  },
+  "TERRORGHEIST": {
+   "Terrorgheist": "terrorgheist"
+  },
+  "TOMB BANSHEE": {
+   "Tomb Banshee": "tomb-banshee"
+  },
+  "USHORAN": {
+   "Ushoran": "ushoran"
+  },
+  "VARGHEISTS": {
+   "Vargheist": "vargheist"
+  },
+  "VARGHULF": {
+   "Varghulf": "varghulf"
+  },
+  "VLAD VON CARSTEIN": {
+   "Vlad von Carstein": "vlad-von-carstein"
+  },
+  "VON CARSTEINS": {
+   "Count": "count",
+   "Scion": "scion"
+  },
+  "WALACH HARKON": {
+   "Nightmare": "nightmare",
+   "Walach Harkon": "walach-harkon"
+  },
+  "WIGHT LORDS": {
+   "Wight King": "wight-king",
+   "Wight Lord": "wight-lord"
+  },
+  "WRAITHWISPS": {
+   "Wraithwisp": "wraithwisp"
+  },
+  "ZACHARIAS THE EVERLIVING": {
+   "Zacharias the Everliving": "zacharias-the-everliving",
+   "Zombie Dragon": "zombie-dragon"
+  },
+  "ZOMBIE DRAGON": {
+   "Zombie Dragon": "zombie-dragon"
+  },
+  "ZOMBIES": {
+   "Zombie": "zombie"
+  }
+ },
+ "rules": {
+  "BLOODLINES": "bloodlines",
+  "Battle Standards": "battle-standards",
+  "Characters and Units": "characters-and-units",
+  "DEATH SHRIEK": "death-shriek",
+  "MASTER OF THE DEAD": "master-of-the-dead",
+  "SPECTRAL STEEDS": "spectral-steeds",
+  "Slain General": "slain-general",
+  "THE GENERALS OF UNDEATH": "the-generals-of-undeath",
+  "THE RED THIRST": "the-red-thirst",
+  "UNDEAD": "undead",
+  "VAMPIRIC": "vampiric"
+ },
+ "units": {
+  "ABYSSAL TERROR": "abyssal-terror",
+  "BARROW CHARIOT": "barrow-chariot",
+  "BAT SWARMS": "bat-swarms",
+  "BLACK COACH": "black-coach",
+  "BLACK KNIGHTS": "black-knights",
+  "BLOOD DRAGONS": "blood-dragons",
+  "BLOOD KNIGHTS": "blood-knights",
+  "CAIRN WRAITH": "cairn-wraith",
+  "CORPSE CART": "corpse-cart",
+  "COVEN THRONE": "coven-throne",
+  "CRYPT GHAST": "crypt-ghast",
+  "CRYPT GHOULS": "crypt-ghouls",
+  "CRYPT GUARD": "crypt-guard",
+  "CRYPT HORRORS": "crypt-horrors",
+  "DIRE WOLVES": "dire-wolves",
+  "FELL BATS": "fell-bats",
+  "FLESH GOLEMS": "flesh-golems",
+  "GORMAYNE": "gormayne",
+  "GRAVE GUARD": "grave-guard",
+  "HEINRICH KEMMLER": "heinrich-kemmler",
+  "HELLSTEED": "hellsteed",
+  "HELMAN GHORST": "helman-ghorst",
+  "HEXWRAITHS": "hexwraiths",
+  "ISABELLA VON CARSTEIN": "isabella-von-carstein",
+  "KONRAD VON CARSTEIN": "konrad-von-carstein",
+  "KRELL": "krell",
+  "LAHMIAN HANDMAIDENS": "lahmian-handmaidens",
+  "LAHMIANS": "lahmians",
+  "LICHE LORD": "liche-lord",
+  "MANNFRED VON CARSTEIN": "mannfred-von-carstein",
+  "MELKHIOR THE ANCIENT": "melkhior-the-ancient",
+  "MORBHEG KNIGHTS": "morbheg-knights",
+  "MORTIS ENGINE": "mortis-engine",
+  "MOURNGUL": "mourngul",
+  "NECRARCHS": "necrarchs",
+  "NECROFEX COLOSSUS": "necrofex-colossus",
+  "NECROMANCERS": "necromancers",
+  "NEFERATA": "neferata",
+  "NIGHTMARE": "nightmare",
+  "PRINCE VHORDRAI": "prince-vhordrai",
+  "SEKHAR": "sekhar",
+  "SKELETAL STEED": "skeletal-steed",
+  "SKELETON ARCHERS": "skeleton-archers",
+  "SKELETON CATAPULT": "skeleton-catapult",
+  "SKELETON CHARIOT": "skeleton-chariot",
+  "SKELETON HORSEMEN": "skeleton-horsemen",
+  "SKELETON WARRIORS": "skeleton-warriors",
+  "SPIRIT HOSTS": "spirit-hosts",
+  "STRIGANY": "strigany",
+  "STRIGANY MYSTIC": "strigany-mystic",
+  "STRIGOI": "strigoi",
+  "SWAIN": "swain",
+  "SYLVANIAN LEVY": "sylvanian-levy",
+  "TERRORGHEIST": "terrorgheist",
+  "TOMB BANSHEE": "tomb-banshee",
+  "USHORAN": "ushoran",
+  "VARGHEISTS": "vargheists",
+  "VARGHULF": "varghulf",
+  "VLAD VON CARSTEIN": "vlad-von-carstein",
+  "VON CARSTEINS": "von-carsteins",
+  "WALACH HARKON": "walach-harkon",
+  "WIGHT LORDS": "wight-lords",
+  "WRAITHWISPS": "wraithwisps",
+  "ZACHARIAS THE EVERLIVING": "zacharias-the-everliving",
+  "ZOMBIE DRAGON": "zombie-dragon",
+  "ZOMBIES": "zombies"
+ },
+ "upgrades": {
+  "AURA OF DARK MAJESTY": "aura-of-dark-majesty",
+  "BEGUILE": "beguile",
+  "BLADEMASTER": "blademaster",
+  "CALL WINDS": "call-winds",
+  "CURSE OF THE REVENANT": "curse-of-the-revenant",
+  "DARK ACOLYTE": "dark-acolyte",
+  "DOMINATION": "domination",
+  "DOOMRIDER": "doomrider",
+  "DREAD KNIGHT": "dread-knight",
+  "EARTH BIND": "earth-bind",
+  "FEAR INCARNATE": "fear-incarnate",
+  "FLYING HORROR": "flying-horror",
+  "FORBIDDEN LORE": "forbidden-lore",
+  "FURIOUS CHARGE": "furious-charge",
+  "GHOULKIN": "ghoulkin",
+  "HEART PIERCING": "heart-piercing",
+  "HONOUR OR DEATH": "honour-or-death",
+  "HUNTER IN THE DARK": "hunter-in-the-dark",
+  "INFINITE HATRED": "infinite-hatred",
+  "INNOCENCE LOST": "innocence-lost",
+  "IRON SINEWS": "iron-sinews",
+  "LIGHTNING REFLEXES": "lightning-reflexes",
+  "LOATHSOME STENCH": "loathsome-stench",
+  "MASSIVE MONSTROSITY": "massive-monstrosity",
+  "MASTER OF THE BLACK ARTS": "master-of-the-black-arts",
+  "MASTER STRIKE": "master-strike",
+  "MASTERY OVER FLESH": "mastery-over-flesh",
+  "MIGHT OF ARMS": "might-of-arms",
+  "MONSTROUS MASS": "monstrous-mass",
+  "NEHEKHARA'S NOBLE BLOOD": "nehekharas-noble-blood",
+  "NIGHT CREATURE": "night-creature",
+  "QUICKBLOOD": "quickblood",
+  "RAVENOUS": "ravenous",
+  "RED FURY": "red-fury",
+  "SEDUCTION": "seduction",
+  "SPECTRAL ATTENDANTS": "spectral-attendants",
+  "SPECTRAL FORM": "spectral-form",
+  "STRENGTH OF STEEL": "strength-of-steel",
+  "SUMMON CREATURES OF THE NIGHT": "summon-creatures-of-the-night",
+  "SUMMON GHOULS": "summon-ghouls",
+  "SUPERNATURAL HORROR": "supernatural-horror",
+  "SWIFTNESS": "swiftness",
+  "TERRIBLE BLOWS": "terrible-blows",
+  "TRANSFIX": "transfix",
+  "UNBENDING WILLPOWER": "unbending-willpower",
+  "UNHOLY CYNOSURE": "unholy-cynosure",
+  "UNHOLY REGENERATION": "unholy-regeneration",
+  "WALKING DEATH": "walking-death",
+  "WARRIOR PRIDE": "warrior-pride",
+  "WELLSPRING OF DARK MAGIC": "wellspring-of-dark-magic",
+  "WOLF FORM": "wolf-form",
+  "WOLF LORD": "wolf-lord"
+ }
+}

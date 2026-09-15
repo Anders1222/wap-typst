@@ -1,0 +1,1562 @@
+{
+ "choices": {
+  "ARACHNAROK SPIDER": {
+   "upgrade": {
+    "Catchweb Spidershrine": "catchweb-spidershrine",
+    "Flinger": "flinger"
+   }
+  },
+  "ARRER BOYZ": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "savage-orcs": {
+    "Savage Orcs": "savage-orcs"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BIG 'UNS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "big-stabba-for-every-10": {
+    "Big Stabba for every 10 models in the unit +10 points/Big Stabba": "big-stabba-for-every-10-models-in-the-unit-10-points-big-stabba"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "savage-orcs": {
+    "Savage Orcs": "savage-orcs"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BLACK ORCS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Shields": "shields",
+    "Spears": "spears"
+   },
+   "equipment-2": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Shields": "shields",
+    "Spears": "spears"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BOAR BOY BIG 'UNS": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "savage-orcs": {
+    "Savage Orcs": "savage-orcs"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BOAR BOYZ": {
+   "armour": {
+    "Light armour": "light-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Light lances": "light-lances"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "savage-orcs": {
+    "Savage Orcs": "savage-orcs"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "BOAR CHARIOT": {
+   "additional-orc": {
+    "additional Orc": "additional-orc"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   }
+  },
+  "BONEGRINDER GIANT": {
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   }
+  },
+  "BRUTE RAGERZ": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Flails": "flails",
+    "Great weapons": "great-weapons"
+   },
+   "weirdbrute-wrekkaz": {
+    "Weirdbrute Wrekkaz": "weirdbrute-wrekkaz"
+   }
+  },
+  "BRUTES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms"
+   }
+  },
+  "DANKHOLD TROLL": {
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   }
+  },
+  "DANKHOLD TROLLBOSS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon"
+   }
+  },
+  "DOOM DIVER CATAPULT": {
+   "orc-bully": {
+    "Orc Bully": "orc-bully"
+   }
+  },
+  "FANATICS": {
+   "replace-giant-ball-and-chain": {
+    "replace giant ball and chain with Twackwheezer Puffshrooms": "replace-giant-ball-and-chain-with-twackwheezer-puffshrooms"
+   }
+  },
+  "GIANT": {
+   "magical-ward": {
+    "Magical Ward (6+)": "magical-ward-6"
+   }
+  },
+  "GIANT RIVER TROLL HAG": {
+   "1-2-smother": {
+    "1-2 | Smother": "1-2-smother"
+   },
+   "1-stuff-into-net": {
+    "1 | Stuff into Net: The model is effectively removed as a casualty and can do nothing whilst in the bag, but if the Troll Hag should be slain, any enemy trapped in its bag are freed at the end of the battle, and no longer counts as casualties.": "1-stuff-into-net-the-model-is-effectively-removed-as-a-casualty-and-can-do-nothing-whilst-in-the-bag-but-if-the-troll-hag-should-be-slain-any-enemy-trapped-in-its-bag-are-freed-at-the-end-of-the-battle-and-no-longer-counts-as-casualties"
+   },
+   "1-suck-out-its": {
+    "1 | Suck out its Marrow": "1-suck-out-its-marrow"
+   },
+   "2-3-pick-up-and": {
+    "2-3 | Pick up and…": "2-3-pick-up-and"
+   },
+   "2-toss-back-the": {
+    "2 | Toss Back: The victim suffers D3 Strength 6 Hits which Ignores Armour saves, and D6 Strength 3 hits are inflicted on the unit (save as normal).": "2-toss-back-the-victim-suffers-d3-strength-6-hits-which-ignores-armour-saves-and-d6-strength-3-hits-are-inflicted-on-the-unit-save-as-normal"
+   },
+   "3-4-mother": {
+    "3-4 | Mother": "3-4-mother"
+   },
+   "3-send-packing-the": {
+    "3 | Send Packing: The Troll Hag will attempt to throw the victim in the nearest water feature (such as a river, marsh or swamp) within 12\". The victim is automatically removed as a casualty unless they have the Aquatic special rule in which case the model lands unharmed in the water. If no water feature is in range, treat this as a Toss Back result instead.": "3-send-packing-the-troll-hag-will-attempt-to-throw-the-victim-in-the-nearest-water-feature-such-as-a-river-marsh-or-swamp-within-12-the-victim-is-automatically-removed-as-a-casualty-unless-they-have-the-aquatic-special-rule-in-which-case-the-model-lands-unharmed-in-the-water-if-no-water-feature-is-in-range-treat-this-as-a-toss-back-result-instead"
+   },
+   "4-5-crush-with-stump": {
+    "4-5 | Crush with Stump": "4-5-crush-with-stump"
+   },
+   "4-squish-the-model": {
+    "4 | Squish: The model is removed as a casualty.": "4-squish-the-model-is-removed-as-a-casualty"
+   },
+   "5-6-mither": {
+    "5-6 | Mither": "5-6-mither"
+   },
+   "5-gobble-the-model": {
+    "5 | Gobble: The model is removed as a casualty.": "5-gobble-the-model-is-removed-as-a-casualty"
+   },
+   "6-grind-its-bones": {
+    "6 | Grind its Bones": "6-grind-its-bones"
+   },
+   "6-pick-another-treat": {
+    "6 | Pick Another: Treat the attack as if the Troll Hag had rolled the Stuff into Net result, and then choose another victim. Roll again on this table to see what the Troll Hag does with it.": "6-pick-another-treat-the-attack-as-if-the-troll-hag-had-rolled-the-stuff-into-net-result-and-then-choose-another-victim-roll-again-on-this-table-to-see-what-the-troll-hag-does-with-it"
+   },
+   "crush-with-stump-all": {
+    "- Crush with Stump: All models in base contact, friend or foe, suffer a Strength 6 hit. - Grind its Bones: The Troll Hag may target a single model in base contact. This model suffers a single Strength 6 hit with the Multiple Wounds (D3) special rule. - Smother: The target suffers D3 Wounds which Ignores Armour saves. This has no effect on Animated Constructs. In addition, the target may not make any attacks until the Troll Hag is either slain or rolls a different result on its special attack table. - Mother: The target takes a single Strength 6 hit with the Multiple Wounds (D3) special rule. If the target survives the attack, it may not attack until the start of your next turn. - Mither: Neither the Troll Hag nor the target actually fight if they have not already done so this round. The Troll Hag automatically wins the combat by 2 points or more. In addition, the target has its Weapon Skill reduced to 1 until the end of the next turn. This result has no effect against Animated Constructs.": "crush-with-stump-all-models-in-base-contact-friend-or-foe-suffer-a-strength-6-hit-grind-its-bones-the-troll-hag-may-target-a-single-model-in-base-contact-this-model-suffers-a-single-strength-6-hit-with-the-multiple-wounds-d3-special-rule-smother-the-target-suffers-d3-wounds-which-ignores-armour-saves-this-has-no-effect-on-animated-constructs-in-addition-the-target-may-not-make-any-attacks-until-the-troll-hag-is-either-slain-or-rolls-a-different-result-on-its-special-attack-table-mother-the-target-takes-a-single-strength-6-hit-with-the-multiple-wounds-d3-special-rule-if-the-target-survives-the-attack-it-may-not-attack-until-the-start-of-your-next-turn-mither-neither-the-troll-hag-nor-the-target-actually-fight-if-they-have-not-already-done-so-this-round-the-troll-hag-automatically-wins-the-combat-by-2-points-or-more-in-addition-the-target-has-its-weapon-skill-reduced-to-1-until-the-end-of-the-next-turn-this-result-has-no-effect-against-animated-constructs"
+   },
+   "d6-result": {
+    "D6 | Result": "d6-result"
+   },
+   "d6-result-2": {
+    "D6 | Result": "d6-result"
+   },
+   "d6-result-3": {
+    "D6 | Result": "d6-result"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "suck-out-its-marrow": {
+    "- Suck out its Marrow: The unit suffers D6 Strength 5 hits. For every wound the target loses, the Troll Hag gains one, up to its starting number. - Pick up and…: The Troll Hag stoops down and grabs a single Character in base contact from the target unit (Troll Hag's choice). The Troll Hag grabs the model and the player rolls a D6 to see what happens next": "suck-out-its-marrow-the-unit-suffers-d6-strength-5-hits-for-every-wound-the-target-loses-the-troll-hag-gains-one-up-to-its-starting-number-pick-up-and-the-troll-hag-stoops-down-and-grabs-a-single-character-in-base-contact-from-the-target-unit-troll-hags-choice-the-troll-hag-grabs-the-model-and-the-player-rolls-a-d6-to-see-what-happens-next"
+   },
+   "tiddlers-table-use-this-chart": {
+    "TIDDLERS TABLE Use this chart when fighting Infantry, Large Infantry, Cavalry, War Beasts or Swarms.": "tiddlers-table-use-this-chart-when-fighting-infantry-large-infantry-cavalry-war-beasts-or-swarms"
+   },
+   "troll-hag-special-attacks-to": {
+    "Troll Hag Special Attacks: To determine what happens in each Close Combat phase, pick a unit in base contact with the Troll Hag and roll a D6 on one of the following tables. Which table you use depends on the size of the Troll Hag's victim. If no suitable target is in base contact, roll again on the chart until you get another result.": "troll-hag-special-attacks-to-determine-what-happens-in-each-close-combat-phase-pick-a-unit-in-base-contact-with-the-troll-hag-and-roll-a-d6-on-one-of-the-following-tables-which-table-you-use-depends-on-the-size-of-the-troll-hags-victim-if-no-suitable-target-is-in-base-contact-roll-again-on-the-chart-until-you-get-another-result"
+   },
+   "whoppers-table-use-this-chart": {
+    "WHOPPERS TABLE Use this chart when fighting Monsters, Monstrous Creatures, Monstrous Beasts, Monstrous Infantry, Monstrous Cavalry, Chariots, War Machines, and Shrines.": "whoppers-table-use-this-chart-when-fighting-monsters-monstrous-creatures-monstrous-beasts-monstrous-infantry-monstrous-cavalry-chariots-war-machines-and-shrines"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "GIANT WOLF": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "GIGANTIC SPIDER RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "Shields": "shields",
+    "Shortbows": "shortbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GITILLA DA HUNTER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "GOBLIN BOSSES": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-goblin-big-boss": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-goblin-warboss": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Arachnarok Spider": "arachnarok-spider",
+    "Giant Spider": "giant-spider",
+    "Giant Wolf": "giant-wolf",
+    "Gigantic Spider": "gigantic-spider",
+    "Great Cave Squig": "great-cave-squig",
+    "Snarlfang": "snarlfang",
+    "Wolf Chariot": "wolf-chariot"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "shortbow": {
+    "shortbow": "shortbow"
+   },
+   "upgrade": {
+    "Forest Goblin": "forest-goblin",
+    "Night Goblin": "night-goblin"
+   }
+  },
+  "GOBLIN GITZ": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Shortbows": "shortbows",
+    "Spears": "spears"
+   },
+   "fanatic-for-every-10-models": {
+    "Fanatic for every 10 models in the unit": "fanatic-for-every-10-models-in-the-unit"
+   },
+   "jester": {
+    "Jester": "jester"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "little-big-uns": {
+    "Little Big 'Uns": "little-big-uns"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "nasty-skulker-for-every-10": {
+    "Nasty Skulker for every 10 models in the unit": "nasty-skulker-for-every-10-models-in-the-unit"
+   },
+   "netter-for-every-5-models": {
+    "Netter for every 5 models in the unit": "netter-for-every-5-models-in-the-unit"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Forest Goblin": "forest-goblin",
+    "Night Goblin": "night-goblin"
+   }
+  },
+  "GOBLIN SHAMANS": {
+   "magic-items-oddgit": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-oddnob": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Arachnarok Spider": "arachnarok-spider",
+    "Giant Spider": "giant-spider",
+    "Giant Wolf": "giant-wolf",
+    "Gigantic Spider": "gigantic-spider",
+    "Wolf Chariot": "wolf-chariot"
+   },
+   "upgrade": {
+    "Forest Goblin": "forest-goblin",
+    "Night Goblin": "night-goblin"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "GORE-GRUNTAS": {
+   "barding": {
+    "barding": "barding"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GROM THE PAUNCH": {
+   "mount": {
+    "Wolf Chariot": "wolf-chariot"
+   }
+  },
+  "GRUMLOK & GAZBAG": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "GRUNTA": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "KIKNIK TOOFSNATCHA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MAW-GRUNTA": {
+   "two-additional-crew-armed-with-great-weapons": {
+    "two additional crew armed with great weapons": "two-additional-crew-armed-with-great-weapons"
+   }
+  },
+  "NASTY SKULKERS": {
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "OGRES": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ORC BOSSES": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-orc-big-boss": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-orc-warboss": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Boar Chariot": "boar-chariot",
+    "Grunta": "grunta",
+    "Maw-grunta": "maw-grunta",
+    "Maw-krusha": "maw-krusha",
+    "War Boar": "war-boar",
+    "Wyvern": "wyvern"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "upgrade": {
+    "Black Orc": "black-orc",
+    "Savage Orc": "savage-orc"
+   }
+  },
+  "ORC BOYZ": {
+   "armour": {
+    "Light armour": "light-armour"
+   },
+   "big-stabba-for-every-10": {
+    "Big Stabba for every 10 models in the unit +10 points/Big Stabba": "big-stabba-for-every-10-models-in-the-unit-10-points-big-stabba"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "savage-orcs": {
+    "Savage Orcs": "savage-orcs"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ORC SHAMANS": {
+   "magic-items-weirdboy": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-weirdnob": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Boar Chariot": "boar-chariot",
+    "War Boar": "war-boar",
+    "Wyvern": "wyvern"
+   },
+   "savage-orc": {
+    "Savage Orc": "savage-orc"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "PUMP WAGON": {
+   "additional-snotlings": {
+    "additional Snotlings": "additional-snotlings"
+   },
+   "flappas": {
+    "Flappas": "flappas"
+   },
+   "giant-explodin-spores": {
+    "Giant Explodin' Spores": "giant-explodin-spores"
+   },
+   "out-rigga": {
+    "Out-rigga": "out-rigga"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "spiky-roller": {
+    "Spiky Roller": "spiky-roller"
+   }
+  },
+  "ROCK LOBBA": {
+   "orc-bully": {
+    "Orc Bully": "orc-bully"
+   }
+  },
+  "SKARSNIK": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "SKITGIT": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Shield": "shield"
+   }
+  },
+  "SNAGLA GROBSPIT": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "SNARLFANG": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "SNARLFANG RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SNOTLINGS": {
+   "explodin-spores": {
+    "Explodin' Spores": "explodin-spores"
+   }
+  },
+  "SPEAR CHUKKA": {
+   "orc-bully": {
+    "Orc Bully": "orc-bully"
+   }
+  },
+  "SPIDER RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "Shields": "shields",
+    "Shortbows": "shortbows"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SQUIG HOPPERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   }
+  },
+  "SQUIG HUNTERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "melee-weapon": {
+    "Clubs": "clubs",
+    "Nets": "nets",
+    "Prodders": "prodders"
+   }
+  },
+  "SQUIGBOSS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Great Cave Squig": "great-cave-squig"
+   }
+  },
+  "TROLLS": {
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons"
+   },
+   "upgrade": {
+    "River Trolls": "river-trolls",
+    "Stone Trolls": "stone-trolls"
+   }
+  },
+  "WAR BOAR": {
+   "barding": {
+    "barding": "barding"
+   }
+  },
+  "WARCHANTER": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "savage-orc": {
+    "Savage Orc": "savage-orc"
+   }
+  },
+  "WOLF CHARIOT": {
+   "additional-giant-wolf": {
+    "additional Giant Wolf": "additional-giant-wolf"
+   },
+   "additional-goblin": {
+    "additional Goblin": "additional-goblin"
+   },
+   "light-lances": {
+    "light lances": "light-lances"
+   },
+   "scythes": {
+    "scythes": "scythes"
+   },
+   "shortbows": {
+    "shortbows": "shortbows"
+   },
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   }
+  },
+  "WOLF RIDERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Light lances": "light-lances",
+    "Shields": "shields",
+    "Shortbows": "shortbows"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WURRZAG UD URA ZAHUBU": {
+   "mount": {
+    "Spleenrippa (War Boar)": "spleenrippa-war-boar"
+   }
+  }
+ },
+ "groups": {
+  "ARACHNAROK SPIDER": {
+   "May choose one of the following:": "upgrade"
+  },
+  "ARRER BOYZ": {
+   "May be upgraded to Savage Orcs": "savage-orcs",
+   "May take light armour (Common Orcs only)": "light-armour",
+   "May upgrade one Arrer Boy to a Leader": "champion",
+   "May upgrade one Arrer Boy to a Musician": "musician",
+   "May upgrade one Arrer Boy to a Standard Bearer": "standard-bearer",
+   "May upgrade one Arrer Boy to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BIG 'UNS": {
+   "May be upgraded to Savage Orcs": "savage-orcs",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take shields (unless armed with great weapons)": "shields",
+   "May upgrade one Big 'Un to a Leader": "champion",
+   "May upgrade one Big 'Un to a Musician": "musician",
+   "May upgrade one Big 'Un to a Standard Bearer": "standard-bearer",
+   "May upgrade one Big 'Un to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
+   "May upgrade two Savage Orcs to a Big Stabba for every 10 models in the unit +10 points/Big Stabba": "big-stabba-for-every-10"
+  },
+  "BLACK ORCS": {
+   "May take one of the following:": "equipment-2",
+   "May upgrade one Black Orc to a Leader": "champion",
+   "May upgrade one Black Orc to a Musician": "musician",
+   "May upgrade one Black Orc to a Standard Bearer": "standard-bearer",
+   "May upgrade one Black Orc to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
+   "Must take one of the following:": "equipment"
+  },
+  "BOAR BOY BIG 'UNS": {
+   "May be upgraded to Savage Orcs": "savage-orcs",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take shields (unless armed with additional hand weapons)": "shields",
+   "May upgrade one Boar Boy Big 'Un to a Leader": "champion",
+   "May upgrade one Boar Boy Big 'Un to a Musician": "musician",
+   "May upgrade one Boar Boy Big 'Uns to a Standard Bearer": "standard-bearer",
+   "May upgrade one Boar Boy Big 'Uns to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "BOAR BOYZ": {
+   "May be upgraded to Savage Orcs": "savage-orcs",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take shields (unless armed with additional hand weapons)": "shields",
+   "May upgrade one Boar Boy to a Leader": "champion",
+   "May upgrade one Boar Boy to a Musician": "musician",
+   "May upgrade one Boar Boy to a Standard Bearer": "standard-bearer",
+   "May upgrade one Boar Boy to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "BOAR CHARIOT": {
+   "May be upgraded to a standard bearer": "standard-bearer",
+   "May take an additional Orc": "additional-orc",
+   "May take light lances": "light-lances",
+   "May take scythes": "scythes"
+  },
+  "BONEGRINDER GIANT": {
+   "May have a Magical Ward (6+) (if Savage Orc Wizard is included in your army)": "magical-ward"
+  },
+  "BRUTE RAGERZ": {
+   "May be upgraded to Weirdbrute Wrekkaz": "weirdbrute-wrekkaz",
+   "May upgrade one Brute Rager to a Leader": "champion",
+   "Must choose one of the following:": "melee-weapon"
+  },
+  "BRUTES": {
+   "May replace hand weapons with one of the following:": "melee-weapon",
+   "May upgrade one Brute to a Leader": "champion"
+  },
+  "DANKHOLD TROLL": {
+   "May choose one of the following:": "melee-weapon"
+  },
+  "DANKHOLD TROLLBOSS": {
+   "May choose one of the following:": "melee-weapon",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "DOOM DIVER CATAPULT": {
+   "May take an Orc Bully": "orc-bully"
+  },
+  "FANATICS": {
+   "Each individual Fanatic may replace giant ball and chain with Twackwheezer Puffshrooms": "replace-giant-ball-and-chain"
+  },
+  "GIANT": {
+   "May have a Magical Ward (6+) (if Savage Orc Wizard is included in your army)": "magical-ward"
+  },
+  "GIANT RIVER TROLL HAG": {
+   "- Crush with Stump: All models in base contact, friend or foe, suffer a Strength 6 hit. - Grind its Bones: The Troll Hag may target a single model in base contact. This model suffers a single Strength 6 hit with the Multiple Wounds (D3) special rule. - Smother: The target suffers D3 Wounds which Ignores Armour saves. This has no effect on Animated Constructs. In addition, the target may not make any attacks until the Troll Hag is either slain or rolls a different result on its special attack table. - Mother: The target takes a single Strength 6 hit with the Multiple Wounds (D3) special rule. If the target survives the attack, it may not attack until the start of your next turn. - Mither: Neither the Troll Hag nor the target actually fight if they have not already done so this round. The Troll Hag automatically wins the combat by 2 points or more. In addition, the target has its Weapon Skill reduced to 1 until the end of the next turn. This result has no effect against Animated Constructs.": "crush-with-stump-all",
+   "- Suck out its Marrow: The unit suffers D6 Strength 5 hits. For every wound the target loses, the Troll Hag gains one, up to its starting number. - Pick up and…: The Troll Hag stoops down and grabs a single Character in base contact from the target unit (Troll Hag's choice). The Troll Hag grabs the model and the player rolls a D6 to see what happens next:": "suck-out-its-marrow",
+   "1 | Stuff into Net: The model is effectively removed as a casualty and can do nothing whilst in the bag, but if the Troll Hag should be slain, any enemy trapped in its bag are freed at the end of the battle, and no longer counts as casualties.": "1-stuff-into-net",
+   "1 | Suck out its Marrow": "1-suck-out-its",
+   "1-2 | Smother": "1-2-smother",
+   "2 | Toss Back: The victim suffers D3 Strength 6 Hits which Ignores Armour saves, and D6 Strength 3 hits are inflicted on the unit (save as normal).": "2-toss-back-the",
+   "2-3 | Pick up and…": "2-3-pick-up-and",
+   "3 | Send Packing: The Troll Hag will attempt to throw the victim in the nearest water feature (such as a river, marsh or swamp) within 12\". The victim is automatically removed as a casualty unless they have the Aquatic special rule in which case the model lands unharmed in the water. If no water feature is in range, treat this as a Toss Back result instead.": "3-send-packing-the",
+   "3-4 | Mother": "3-4-mother",
+   "4 | Squish: The model is removed as a casualty.": "4-squish-the-model",
+   "4-5 | Crush with Stump": "4-5-crush-with-stump",
+   "5 | Gobble: The model is removed as a casualty.": "5-gobble-the-model",
+   "5-6 | Mither": "5-6-mither",
+   "6 | Grind its Bones": "6-grind-its-bones",
+   "6 | Pick Another: Treat the attack as if the Troll Hag had rolled the Stuff into Net result, and then choose another victim. Roll again on this table to see what the Troll Hag does with it.": "6-pick-another-treat",
+   "D6 | Result": "d6-result",
+   "D6 | Result #2": "d6-result-2",
+   "D6 | Result #3": "d6-result-3",
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level",
+   "TIDDLERS TABLE Use this chart when fighting Infantry, Large Infantry, Cavalry, War Beasts or Swarms.": "tiddlers-table-use-this-chart",
+   "Troll Hag Special Attacks: To determine what happens in each Close Combat phase, pick a unit in base contact with the Troll Hag and roll a D6 on one of the following tables. Which table you use depends on the size of the Troll Hag's victim. If no suitable target is in base contact, roll again on the chart until you get another result.": "troll-hag-special-attacks-to",
+   "WHOPPERS TABLE Use this chart when fighting Monsters, Monstrous Creatures, Monstrous Beasts, Monstrous Infantry, Monstrous Cavalry, Chariots, War Machines, and Shrines.": "whoppers-table-use-this-chart"
+  },
+  "GIANT WOLF": {
+   "May take barding": "barding"
+  },
+  "GIGANTIC SPIDER RIDERS": {
+   "May upgrade one Forest Goblin Gigantic Spider Rider to a Leader": "champion",
+   "May upgrade one Forest Goblin Gigantic Spider Rider to a Musician": "musician",
+   "May upgrade one Forest Goblin Gigantic Spider Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Forest Goblin Gigantic Spider Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
+   "Must choose at least one of the following:": "equipment"
+  },
+  "GITILLA DA HUNTER": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "GOBLIN BOSSES": {
+   "A Goblin Big Boss may take Magic Items up to a total of 50 points": "magic-items-goblin-big-boss",
+   "A Goblin Warboss may take Magic Items up to a total of 100 points": "magic-items-goblin-warboss",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take a shield": "shield",
+   "May take a shortbow": "shortbow",
+   "One Goblin Big Boss may carry the Battle Standard": "battle-standard"
+  },
+  "GOBLIN GITZ": {
+   "May be upgraded to Little Big 'Uns": "little-big-uns",
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "equipment",
+   "May include one Fanatic for every 10 models in the unit (Night Goblins only)": "fanatic-for-every-10-models",
+   "May include one Nasty Skulker for every 10 models in the unit (Common Goblins only)": "nasty-skulker-for-every-10",
+   "May take light armour (Common and Night Goblins only)": "light-armour",
+   "May take shields (unless armed with great weapons, bows or shortbows)": "shields",
+   "May upgrade one Goblin Git to a Jester (Common Goblins only)": "jester",
+   "May upgrade one Goblin Git to a Leader": "champion",
+   "May upgrade one Goblin Git to a Musician": "musician",
+   "May upgrade one Goblin Git to a Netter for every 5 models in the unit (Night Goblins only)": "netter-for-every-5-models",
+   "May upgrade one Goblin Git to a Standard Bearer": "standard-bearer",
+   "May upgrade one Goblin Git to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "GOBLIN SHAMANS": {
+   "An Oddgit may take Magic Items up to a total of 50 points": "magic-items-oddgit",
+   "An Oddnob may take Magic Items up to a total of 100 points": "magic-items-oddnob",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "upgrade",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "GORE-GRUNTAS": {
+   "May take barding": "barding",
+   "May take light lances": "light-lances",
+   "May upgrade one Gore-grunta to a Leader": "champion",
+   "May upgrade one Gore-grunta to a Musician": "musician",
+   "May upgrade one Gore-grunta to a Standard Bearer": "standard-bearer",
+   "May upgrade one Gore-grunta to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "GROM THE PAUNCH": {
+   "May be mounted on a Wolf Chariot (replacing one of the crew)": "mount"
+  },
+  "GRUMLOK & GAZBAG": {
+   "May take Magic Items up to a total of 100 points": "magic-items"
+  },
+  "GRUNTA": {
+   "May take barding": "barding"
+  },
+  "KIKNIK TOOFSNATCHA": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "MAW-GRUNTA": {
+   "May take two additional crew armed with great weapons": "two-additional-crew-armed-with-great-weapons"
+  },
+  "NASTY SKULKERS": {
+   "May take throwing weapons": "throwing-weapons"
+  },
+  "OGRES": {
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "armour",
+   "May upgrade one Ogre to a Leader": "champion",
+   "May upgrade one Ogre to a Musician": "musician",
+   "May upgrade one Ogre to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ORC BOSSES": {
+   "An Orc Big Boss may take Magic Items up to a total of 50 points": "magic-items-orc-big-boss",
+   "An Orc Warboss may take Magic Items up to a total of 100 points": "magic-items-orc-warboss",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose any of the following:": "melee-weapon",
+   "May choose one of the following:": "armour",
+   "May take a shield": "shield",
+   "One Orc Big Boss may carry the Battle Standard": "battle-standard"
+  },
+  "ORC BOYZ": {
+   "May be upgraded to Savage Orcs": "savage-orcs",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take shields (unless armed with great weapons)": "shields",
+   "May upgrade one Orc Boy to a Leader": "champion",
+   "May upgrade one Orc Boy to a Musician": "musician",
+   "May upgrade one Orc Boy to a Standard Bearer": "standard-bearer",
+   "May upgrade one Orc Boy to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "May upgrade two Savage Orcs to a Big Stabba for every 10 models in the unit +10 points/Big Stabba": "big-stabba-for-every-10"
+  },
+  "ORC SHAMANS": {
+   "A Weirdboy may take Magic Items up to a total of 50 points": "magic-items-weirdboy",
+   "A Weirdnob may take Magic Items up to a total of 100 points": "magic-items-weirdnob",
+   "May be mounted on one of the following:": "mount",
+   "May be upgraded to a Savage Orc": "savage-orc",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "PUMP WAGON": {
+   "May take Flappas": "flappas",
+   "May take Giant Explodin' Spores": "giant-explodin-spores",
+   "May take Out-rigga": "out-rigga",
+   "May take Spiky Roller": "spiky-roller",
+   "May take scythes": "scythes",
+   "May take up to 6 additional Snotlings": "additional-snotlings"
+  },
+  "ROCK LOBBA": {
+   "May take an Orc Bully": "orc-bully"
+  },
+  "SKARSNIK": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "SKITGIT": {
+   "May choose one of the following:": "equipment"
+  },
+  "SNAGLA GROBSPIT": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "SNARLFANG": {
+   "May take barding": "barding"
+  },
+  "SNARLFANG RIDERS": {
+   "May upgrade one Snarlfang Rider to a Leader": "champion",
+   "May upgrade one Snarlfang Rider to a Musician": "musician",
+   "May upgrade one Snarlfang Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Snarlfang Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SNOTLINGS": {
+   "May take Explodin' Spores": "explodin-spores"
+  },
+  "SPEAR CHUKKA": {
+   "May take an Orc Bully": "orc-bully"
+  },
+  "SPIDER RIDERS": {
+   "May upgrade one Spider Rider to a Leader": "champion",
+   "May upgrade one Spider Rider to a Musician": "musician",
+   "May upgrade one Spider Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Spider Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "Must choose at least one of the following:": "equipment"
+  },
+  "SQUIG HOPPERS": {
+   "May take light armour": "light-armour",
+   "May take light lances": "light-lances",
+   "May upgrade one Squig Hopper to a Leader": "champion"
+  },
+  "SQUIG HUNTERS": {
+   "May upgrade one Squig Hunter to a Leader": "champion",
+   "Must choose at least one of the following:": "melee-weapon"
+  },
+  "SQUIGBOSS": {
+   "May be mounted on a Great Cave Squig (replacing the Gnasha-Squig)": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "TROLLS": {
+   "May be upgraded to one of the following:": "upgrade",
+   "May choose one of the following:": "melee-weapon"
+  },
+  "WAR BOAR": {
+   "May take barding (Common or Black orc Only)": "barding"
+  },
+  "WARCHANTER": {
+   "May be upgraded to a Savage Orc": "savage-orc",
+   "May choose one of the following:": "armour",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "WOLF CHARIOT": {
+   "May take an additional Giant Wolf": "additional-giant-wolf",
+   "May take an additional Goblin": "additional-goblin",
+   "May take light lances": "light-lances",
+   "May take scythes": "scythes",
+   "May take shortbows": "shortbows",
+   "May upgrade one Wolf Chariot to a standard bearer": "standard-bearer"
+  },
+  "WOLF RIDERS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Wolf Rider to a Leader": "champion",
+   "May upgrade one Wolf Rider to a Musician": "musician",
+   "May upgrade one Wolf Rider to a Standard Bearer": "standard-bearer",
+   "May upgrade one Wolf Rider to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "Must choose at least one of the following:": "equipment"
+  },
+  "WURRZAG UD URA ZAHUBU": {
+   "May be mounted on Spleenrippa (War Boar)": "mount"
+  }
+ },
+ "items": {
+  "'EADBUTTIN' 'AT": "eadbuttin-at",
+  "AMBERBONE HOARD": "amberbone-hoard",
+  "AMULET OF PROTECTYNESS": "amulet-of-protectyness",
+  "ARMOUR OF GORK": "armour-of-gork",
+  "ARMOUR OF MORK": "armour-of-mork",
+  "ARMOUR OF PROTECTYNESS": "armour-of-protectyness",
+  "BACKSTABBER'S BLADE": "backstabbers-blade",
+  "BANNER OF THE WILDZ": "banner-of-the-wildz",
+  "BASHA'S BIG AXE OF BASHIN'": "bashas-big-axe-of-bashin",
+  "BASHA'S BLOODAXE": "bashas-bloodaxe",
+  "BASHAS AXE OF STUNTY SMASHIN'": "bashas-axe-of-stunty-smashin",
+  "BATTLEAXE OF THE LAST BIG WAAAGH!": "battleaxe-of-the-last-big-waaagh",
+  "BEAST-LURE GLYPHS": "beast-lure-glyphs",
+  "BEASTKILLA SLOP": "beastkilla-slop",
+  "BIG SPIRIT STIKK": "big-spirit-stikk",
+  "BIGGED'S 'ED KICKIN' BOOTS": "biggeds-ed-kickin-boots",
+  "BIGGER, CHOPPIER AXE": "bigger-choppier-axe",
+  "BONEHEAD'S WHACKER": "boneheads-whacker",
+  "BRIMSTONE BAUBLE": "brimstone-bauble",
+  "BULAK'S BLOODY ARMOUR": "bulaks-bloody-armour",
+  "BUZGOB'S KNOBBLY STAFF": "buzgobs-knobbly-staff",
+  "CLUB WIV A NAIL IN'": "club-wiv-a-nail-in",
+  "CRUNCHY SHINIES": "crunchy-shinies",
+  "DA ANGRY LADZ FLAG": "da-angry-ladz-flag",
+  "DA BANNER OF DA NOMADZ": "da-banner-of-da-nomadz",
+  "DA CHOPPIEST CHOPPA": "da-choppiest-choppa",
+  "DA GREAT ZAPPA SQUIG": "da-great-zappa-squig",
+  "DA HAG'S BREW": "da-hags-brew",
+  "DA THINKIN' ORC'S 'AT": "da-thinkin-orcs-at",
+  "DANGLY WOTNOTZ": "dangly-wotnotz",
+  "DAUBING OF MORK": "daubing-of-mork",
+  "DITTO'S DOUBLE DOIN' DOODAHS": "dittos-double-doin-doodahs",
+  "DOKK JUICE": "dokk-juice",
+  "DUFFFA'S CLUB OF DUFFIN'": "dufffas-club-of-duffin",
+  "EFFIGY OF MORK": "effigy-of-mork",
+  "EL GROBIS' MASK OF THE FEARSOME RENOWN": "el-grobis-mask-of-the-fearsome-renown",
+  "EYE-BITER ASH": "eye-biter-ash",
+  "FUMPA'S CLUB OF FUMPIN'": "fumpas-club-of-fumpin",
+  "FUNGUS WINE": "fungus-wine",
+  "GLAREFACE'S GRIN": "glarefaces-grin",
+  "GLOWIN' TATTOOZ": "glowin-tattooz",
+  "GLOWY GREEN AMULET": "glowy-green-amulet",
+  "GLOWY HOWZIT": "glowy-howzit",
+  "GORK'S WAAAGH! BANNER": "gorks-waaagh-banner",
+  "GREAT GREEN VISIONS": "great-green-visions",
+  "GREATDRAKE TOOF": "greatdrake-toof",
+  "GRISLY TROPHY RACK": "grisly-trophy-rack",
+  "GUFF'S WINDY BANNER": "guffs-windy-banner",
+  "GUZZLA'S BATTLE BREW": "guzzlas-battle-brew",
+  "HACKA'S SWORD OF HACKIN'": "hackas-sword-of-hackin",
+  "HEADDRESS OF MANY EYES": "headdress-of-many-eyes",
+  "IDOL OF MORK": "idol-of-mork",
+  "IRONBACK BOAR": "ironback-boar",
+  "IRONSKIN SHIELD": "ironskin-shield",
+  "KLEEVA'S CLEAVER OF CLEAVAGE": "kleevas-cleaver-of-cleavage",
+  "KRUMPA'S CLUB OF CRUMPIN'": "krumpas-club-of-crumpin",
+  "KURBOG'S CURMUDGEONLY CLOBBERA": "kurbogs-curmudgeonly-clobbera",
+  "LOONSTONE TALISMAN": "loonstone-talisman",
+  "LOONSTONE TEEFCAPS": "loonstone-teefcaps",
+  "LUCKY BONE": "lucky-bone",
+  "LUCKY SHRUNKEN HEAD": "lucky-shrunken-head",
+  "LUCKY'S DIRK": "luckys-dirk",
+  "MAAD'S MAP": "maads-map",
+  "MAD CAP MUSHROOMS": "mad-cap-mushrooms",
+  "MARTOG'S BEST BASHA": "martogs-best-basha",
+  "METALRIPPA'S KLAW": "metalrippas-klaw",
+  "MOONFACE MOMMET": "moonface-mommet",
+  "MOONHONED SHIV": "moonhoned-shiv",
+  "MOONSTONE MEDALLION": "moonstone-medallion",
+  "MORK'S BONEY BITZ": "morks-boney-bitz",
+  "MORK'S EYE PEBBLE": "morks-eye-pebble",
+  "MORK'S SPIRIT TOTEM": "morks-spirit-totem",
+  "NECKLACE OF BLESSED TEEF": "necklace-of-blessed-teef",
+  "NIBBLA'S 'ITTY RING": "nibblas-itty-ring",
+  "NOBBLA'S 'ELMET": "nobblas-elmet",
+  "NOGG'S BANNER OF BUTCHERY": "noggs-banner-of-butchery",
+  "OWZAT'S CLUB OF SMACKIN'": "owzats-club-of-smackin",
+  "PET GRIBBLY": "pet-gribbly",
+  "PORKO'S PIGSTIKKA": "porkos-pigstikka",
+  "ROTTING DANKHOLD SPORES": "rotting-dankhold-spores",
+  "ROWDY GROTT'S BIG RED RAGGEDY BANNER": "rowdy-grotts-big-red-raggedy-banner",
+  "SAVAGE TROPHY": "savage-trophy",
+  "SCUTTLEPOT": "scuttlepot",
+  "SHAGA'S SCREAMING SWORD": "shagas-screaming-sword",
+  "SHAMANIC SKULLCAPE": "shamanic-skullcape",
+  "SIZZLA'S SHINY BAUBLES": "sizzlas-shiny-baubles",
+  "SKULL WAND OF KALOTH": "skull-wand-of-kaloth",
+  "SMASHA AND KUNNIN'": "smasha-and-kunnin",
+  "SNEAKY SKEWERER": "sneaky-skewerer",
+  "SPARKLY WIZARD FINDA": "sparkly-wizard-finda",
+  "SPEAKY-SKULL FETISH": "speaky-skull-fetish",
+  "SPIDER BANNER": "spider-banner",
+  "SPIKER SEEDS": "spiker-seeds",
+  "SPITEFUL SHIELD": "spiteful-shield",
+  "SQUIGRILER PIPES": "squigriler-pipes",
+  "STABBY'S RUSTY STIKKA": "stabbys-rusty-stikka",
+  "STAFF OF BADUUM": "staff-of-baduum",
+  "STAFF OF SNEAKY STEALIN'": "staff-of-sneaky-stealin",
+  "SWORD OF BORK": "sword-of-bork",
+  "THE BAD MOON BANNER": "the-bad-moon-banner",
+  "THE BASHIN' FLAG OF BORK": "the-bashin-flag-of-bork",
+  "THE BLACK FANG": "the-black-fang",
+  "THE CLAMMY COWL": "the-clammy-cowl",
+  "THE COLLAR OF ZORGA": "the-collar-of-zorga",
+  "THE CROWN OF GORK": "the-crown-of-gork",
+  "THE EVIL SUN BANNER": "the-evil-sun-banner",
+  "THE GOLDEN TOOF": "the-golden-toof",
+  "THE HORN OF URGOK": "the-horn-of-urgok",
+  "THE HUMIE HEWERS": "the-humie-hewers",
+  "THE PIPES OF DOOM": "the-pipes-of-doom",
+  "THE RED FANG": "the-red-fang",
+  "THE SPIKY SHOULDER PLATES": "the-spiky-shoulder-plates",
+  "TOTEM OF THE SPIDER GOD": "totem-of-the-spider-god",
+  "TRICKSY TRINKET": "tricksy-trinket",
+  "TROLLHIDE TROUSERS": "trollhide-trousers",
+  "UGBRAG'S LUCKY SHIELD": "ugbrags-lucky-shield",
+  "ULAG'S AK'RIT AXE": "ulags-akrit-axe",
+  "WAAAGH! PAINT": "waaagh-paint",
+  "WARBOSS IMBAD'S IRON GNASHAS": "warboss-imbads-iron-gnashas",
+  "WARBOSS IRONCLAW'S WAAAGH! CLEAVA": "warboss-ironclaws-waaagh-cleava",
+  "WARBOSS UMM'S BEST BIG BOSS'S 'AT": "warboss-umms-best-big-bosss-at",
+  "WEB-STRUNG CLOAK": "web-strung-cloak",
+  "WEEPWOOD BIG SHIV": "weepwood-big-shiv",
+  "WOLLOPA'S ONE HIT WUNDA": "wollopas-one-hit-wunda"
+ },
+ "lores": {
+  "LORE OF DA BAD MOON": "lore-of-da-bad-moon",
+  "LORE OF DA BIG WAAAGH!": "lore-of-da-big-waaagh",
+  "LORE OF DA LITTLE WAAAGH!": "lore-of-da-little-waaagh",
+  "LORE OF DA SAVAGE WAAAGH!": "lore-of-da-savage-waaagh",
+  "LORE OF DA SPIDER GOD": "lore-of-da-spider-god",
+  "LORE OF TROLL MAGIC": "lore-of-troll-magic"
+ },
+ "profiles": {
+  "ARACHNAROK SPIDER": {
+   "Arachnarok Spider": "arachnarok-spider",
+   "Forest Goblin": "forest-goblin"
+  },
+  "ARRER BOYZ": {
+   "Orc": "orc"
+  },
+  "AZHAG THE SLAUGHTERER": {
+   "Azhag the Slaughterer": "azhag-the-slaughterer",
+   "Skullmuncha (Wyvern)": "skullmuncha-wyvern"
+  },
+  "BADRUK 'EADSPLITTA": {
+   "Badruk 'Eadsplitta": "badruk-eadsplitta"
+  },
+  "BIG 'UNS": {
+   "Big 'Un": "big-un"
+  },
+  "BLACK ORCS": {
+   "Black Orc": "black-orc"
+  },
+  "BOAR BOY BIG 'UNS": {
+   "Big 'Un": "big-un",
+   "War Boar": "war-boar"
+  },
+  "BOAR BOYZ": {
+   "Orc": "orc",
+   "War Boar": "war-boar"
+  },
+  "BOAR CHARIOT": {
+   "Boar Chariot": "boar-chariot",
+   "Orc": "orc",
+   "War Boar": "war-boar"
+  },
+  "BONEGRINDER GIANT": {
+   "Bonegrinder Giant": "bonegrinder-giant"
+  },
+  "BORGUT FACEBEATER": {
+   "Borgut Facebeater": "borgut-facebeater"
+  },
+  "BRUTE RAGERZ": {
+   "Brute Rager": "brute-rager"
+  },
+  "BRUTES": {
+   "Brute": "brute"
+  },
+  "COLOSSAL SQUIG": {
+   "Colossal Squig": "colossal-squig"
+  },
+  "DANKHOLD TROLL": {
+   "Dankhold Troll": "dankhold-troll"
+  },
+  "DANKHOLD TROLLBOSS": {
+   "Dankhold Trollboss": "dankhold-trollboss"
+  },
+  "DOOM DIVER CATAPULT": {
+   "Doom Diver Catapult": "doom-diver-catapult",
+   "Goblin Crew": "goblin-crew"
+  },
+  "FANATICS": {
+   "Fanatic": "fanatic"
+  },
+  "GIANT": {
+   "Giant": "giant"
+  },
+  "GIANT RIVER TROLL HAG": {
+   "Giant River Troll Hag": "giant-river-troll-hag"
+  },
+  "GIANT SPIDER": {
+   "Giant Spider": "giant-spider"
+  },
+  "GIANT WOLF": {
+   "Giant Wolf": "giant-wolf"
+  },
+  "GIGANTIC SPIDER": {
+   "Gigantic Spider": "gigantic-spider"
+  },
+  "GIGANTIC SPIDER RIDERS": {
+   "Forest Goblin": "forest-goblin",
+   "Gigantic Spider": "gigantic-spider"
+  },
+  "GITILLA DA HUNTER": {
+   "Gitilla da Hunter": "gitilla-da-hunter",
+   "Ulda (Giant Wolf)": "ulda-giant-wolf"
+  },
+  "GOBLIN BOSSES": {
+   "Goblin Big Boss": "goblin-big-boss",
+   "Goblin Warboss": "goblin-warboss"
+  },
+  "GOBLIN GITZ": {
+   "Goblin": "goblin",
+   "Nasty Skulker": "nasty-skulker"
+  },
+  "GOBLIN SHAMANS": {
+   "Oddgit": "oddgit",
+   "Oddnob": "oddnob"
+  },
+  "GORBAD IRONCLAW": {
+   "Gnarla (War Boar)": "gnarla-war-boar",
+   "Gorbad Ironclaw": "gorbad-ironclaw"
+  },
+  "GORE-GRUNTAS": {
+   "Brute": "brute",
+   "Grunta": "grunta"
+  },
+  "GREAT CAVE SQUIG": {
+   "Great Cave Squig": "great-cave-squig"
+  },
+  "GRIMGOR IRONHIDE": {
+   "Grimgor Ironhide": "grimgor-ironhide"
+  },
+  "GROM THE PAUNCH": {
+   "Grom": "grom"
+  },
+  "GRUMLOK & GAZBAG": {
+   "Gazbag": "gazbag",
+   "Grumlok": "grumlok"
+  },
+  "GRUNTA": {
+   "Grunta": "grunta"
+  },
+  "KIKNIK TOOFSNATCHA": {
+   "Chompa (Giant Wolf)": "chompa-giant-wolf",
+   "Kiknik Toofsnatcha": "kiknik-toofsnatcha"
+  },
+  "MANGLER SQUIGS": {
+   "Mangler Squigs": "mangler-squigs"
+  },
+  "MAW-GRUNTA": {
+   "Brute": "brute",
+   "Maw-grunta": "maw-grunta"
+  },
+  "MAW-KRUSHA": {
+   "Maw-krusha": "maw-krusha"
+  },
+  "NASTY SKULKERS": {
+   "Nasty Skulker": "nasty-skulker"
+  },
+  "OGDRUZ SWAMPDIGGA": {
+   "Ogdruz Swampdigga": "ogdruz-swampdigga"
+  },
+  "OGRES": {
+   "Ogre": "ogre"
+  },
+  "ORC BOSSES": {
+   "Orc Big Boss": "orc-big-boss",
+   "Orc Warboss": "orc-warboss"
+  },
+  "ORC BOYZ": {
+   "Orc": "orc"
+  },
+  "ORC SHAMANS": {
+   "Weirdboy": "weirdboy",
+   "Weirdnob": "weirdnob"
+  },
+  "PUMP WAGON": {
+   "Pump Wagon": "pump-wagon",
+   "Snotling": "snotling"
+  },
+  "ROCK LOBBA": {
+   "Goblin": "goblin",
+   "Orc Bully": "orc-bully",
+   "Rock Lobba": "rock-lobba"
+  },
+  "ROGUE IDOL OF GORK": {
+   "Rogue Idol": "rogue-idol"
+  },
+  "SKARSNIK": {
+   "Gobbla (Great Cave Squig)": "gobbla-great-cave-squig",
+   "Skarsnik": "skarsnik"
+  },
+  "SKITGIT": {
+   "Skitgit": "skitgit"
+  },
+  "SKRAGROTT": {
+   "Skragrott": "skragrott"
+  },
+  "SNAGLA GROBSPIT": {
+   "Giant Spider": "giant-spider",
+   "Snagla Grobspit": "snagla-grobspit"
+  },
+  "SNARLFANG": {
+   "Snarlfang": "snarlfang"
+  },
+  "SNARLFANG RIDERS": {
+   "Goblins": "goblins",
+   "Snarlfang": "snarlfang"
+  },
+  "SNEAKY SNUFFLERS": {
+   "Sneaky Snuffler": "sneaky-snuffler",
+   "Snufflesquig": "snufflesquig"
+  },
+  "SNOTLINGS": {
+   "Snotlings": "snotlings"
+  },
+  "SPEAR CHUKKA": {
+   "Goblin": "goblin",
+   "Orc Bully": "orc-bully",
+   "Spear Chukka": "spear-chukka"
+  },
+  "SPIDER RIDERS": {
+   "Giant Spider": "giant-spider",
+   "Goblin": "goblin"
+  },
+  "SPIDER SWARMS": {
+   "Spider Swarm": "spider-swarm"
+  },
+  "SQUIG GOBBA": {
+   "Squig Gobba": "squig-gobba",
+   "Tender": "tender"
+  },
+  "SQUIG HERD": {
+   "Cave Squig": "cave-squig",
+   "Herder": "herder"
+  },
+  "SQUIG HOPPERS": {
+   "Cave Squig": "cave-squig",
+   "Squig Hopper": "squig-hopper"
+  },
+  "SQUIG HUNTERS": {
+   "Squig Hunter": "squig-hunter"
+  },
+  "SQUIGBOSS": {
+   "Gnasha-Squig": "gnasha-squig",
+   "Squigboss": "squigboss"
+  },
+  "TROLLS": {
+   "Troll": "troll"
+  },
+  "TRUGG THE TROLL KING": {
+   "Trugg the Troll King": "trugg-the-troll-king"
+  },
+  "WAR BOAR": {
+   "War Boar": "war-boar"
+  },
+  "WARCHANTER": {
+   "Warchanter": "warchanter"
+  },
+  "WOLF CHARIOT": {
+   "Giant Wolf": "giant-wolf",
+   "Goblin": "goblin",
+   "Wolf Chariot": "wolf-chariot"
+  },
+  "WOLF RIDERS": {
+   "Giant Wolf": "giant-wolf",
+   "Goblin": "goblin"
+  },
+  "WURRZAG UD URA ZAHUBU": {
+   "Spleenrippa (War Boar)": "spleenrippa-war-boar",
+   "Wurrzag": "wurrzag"
+  },
+  "WYVERN": {
+   "Wyvern": "wyvern"
+  },
+  "ZOGGROK ANVILSMASHA": {
+   "Klonk (Squig)": "klonk-squig",
+   "Zoggrok Anvilsmasha": "zoggrok-anvilsmasha"
+  }
+ },
+ "rules": {
+  "ANIMOSITY": "animosity",
+  "ARMED TO DA TEEF": "armed-to-da-teef",
+  "FEAR ELVES": "fear-elves",
+  "GREENSKIN RACES": "greenskin-races",
+  "MAGIC MUSHROOMS": "magic-mushrooms",
+  "QUELL ANIMOSITY": "quell-animosity",
+  "SIZE MATTERS": "size-matters",
+  "SPIDER VENOM": "spider-venom",
+  "TUSKER CHARGE": "tusker-charge",
+  "WAAAGH!": "waaagh",
+  "WAAAGH! MISCAST": "waaagh-miscast",
+  "WALL-CRAWLER": "wall-crawler"
+ },
+ "units": {
+  "ARACHNAROK SPIDER": "arachnarok-spider",
+  "ARRER BOYZ": "arrer-boyz",
+  "AZHAG THE SLAUGHTERER": "azhag-the-slaughterer",
+  "BADRUK 'EADSPLITTA": "badruk-eadsplitta",
+  "BIG 'UNS": "big-uns",
+  "BLACK ORCS": "black-orcs",
+  "BOAR BOY BIG 'UNS": "boar-boy-big-uns",
+  "BOAR BOYZ": "boar-boyz",
+  "BOAR CHARIOT": "boar-chariot",
+  "BONEGRINDER GIANT": "bonegrinder-giant",
+  "BORGUT FACEBEATER": "borgut-facebeater",
+  "BRUTE RAGERZ": "brute-ragerz",
+  "BRUTES": "brutes",
+  "COLOSSAL SQUIG": "colossal-squig",
+  "DANKHOLD TROLL": "dankhold-troll",
+  "DANKHOLD TROLLBOSS": "dankhold-trollboss",
+  "DOOM DIVER CATAPULT": "doom-diver-catapult",
+  "FANATICS": "fanatics",
+  "GIANT": "giant",
+  "GIANT RIVER TROLL HAG": "giant-river-troll-hag",
+  "GIANT SPIDER": "giant-spider",
+  "GIANT WOLF": "giant-wolf",
+  "GIGANTIC SPIDER": "gigantic-spider",
+  "GIGANTIC SPIDER RIDERS": "gigantic-spider-riders",
+  "GITILLA DA HUNTER": "gitilla-da-hunter",
+  "GOBLIN BOSSES": "goblin-bosses",
+  "GOBLIN GITZ": "goblin-gitz",
+  "GOBLIN SHAMANS": "goblin-shamans",
+  "GORBAD IRONCLAW": "gorbad-ironclaw",
+  "GORE-GRUNTAS": "gore-gruntas",
+  "GREAT CAVE SQUIG": "great-cave-squig",
+  "GRIMGOR IRONHIDE": "grimgor-ironhide",
+  "GROM THE PAUNCH": "grom-the-paunch",
+  "GRUMLOK & GAZBAG": "grumlok-and-gazbag",
+  "GRUNTA": "grunta",
+  "KIKNIK TOOFSNATCHA": "kiknik-toofsnatcha",
+  "MANGLER SQUIGS": "mangler-squigs",
+  "MAW-GRUNTA": "maw-grunta",
+  "MAW-KRUSHA": "maw-krusha",
+  "NASTY SKULKERS": "nasty-skulkers",
+  "OGDRUZ SWAMPDIGGA": "ogdruz-swampdigga",
+  "OGRES": "ogres",
+  "ORC BOSSES": "orc-bosses",
+  "ORC BOYZ": "orc-boyz",
+  "ORC SHAMANS": "orc-shamans",
+  "PUMP WAGON": "pump-wagon",
+  "ROCK LOBBA": "rock-lobba",
+  "ROGUE IDOL OF GORK": "rogue-idol-of-gork",
+  "SKARSNIK": "skarsnik",
+  "SKITGIT": "skitgit",
+  "SKRAGROTT": "skragrott",
+  "SNAGLA GROBSPIT": "snagla-grobspit",
+  "SNARLFANG": "snarlfang",
+  "SNARLFANG RIDERS": "snarlfang-riders",
+  "SNEAKY SNUFFLERS": "sneaky-snufflers",
+  "SNOTLINGS": "snotlings",
+  "SPEAR CHUKKA": "spear-chukka",
+  "SPIDER RIDERS": "spider-riders",
+  "SPIDER SWARMS": "spider-swarms",
+  "SQUIG GOBBA": "squig-gobba",
+  "SQUIG HERD": "squig-herd",
+  "SQUIG HOPPERS": "squig-hoppers",
+  "SQUIG HUNTERS": "squig-hunters",
+  "SQUIGBOSS": "squigboss",
+  "TROLLS": "trolls",
+  "TRUGG THE TROLL KING": "trugg-the-troll-king",
+  "WAR BOAR": "war-boar",
+  "WARCHANTER": "warchanter",
+  "WOLF CHARIOT": "wolf-chariot",
+  "WOLF RIDERS": "wolf-riders",
+  "WURRZAG UD URA ZAHUBU": "wurrzag-ud-ura-zahubu",
+  "WYVERN": "wyvern",
+  "ZOGGROK ANVILSMASHA": "zoggrok-anvilsmasha"
+ },
+ "upgrades": {}
+}

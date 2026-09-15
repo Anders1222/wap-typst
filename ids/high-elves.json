@@ -1,0 +1,960 @@
+{
+ "choices": {
+  "ALTHRAN STORMRIDER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Sharpclaw": "sharpclaw"
+   }
+  },
+  "BELANNAER THE WISE": {
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "CARADRYAN OF THE FLAME": {
+   "mount": {
+    "Ashtari": "ashtari"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-noble": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-prince": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "missile-weapon": {
+    "Elven longbow": "elven-longbow",
+    "Elven shortbow": "elven-shortbow"
+   },
+   "mount": {
+    "Elven Steed": "elven-steed",
+    "Great Eagle": "great-eagle",
+    "Griffon": "griffon",
+    "Moon Dragon": "moon-dragon",
+    "Pegasus": "pegasus",
+    "Tiranoc Chariot": "tiranoc-chariot"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "DRAGON MAGES OF CALEDOR": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "DRAGON PRINCES OF CALEDOR": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "EAGLE CLAW BOLT THROWER": {
+   "additional-crew-10-points": {
+    "additional Crew 10 points": "additional-crew-10-points"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   }
+  },
+  "ELLYRIAN REAVERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "elven-shortbows": {
+    "Elven shortbows": "elven-shortbows"
+   },
+   "ithilmar-barding": {
+    "ithilmar barding": "ithilmar-barding"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ELTHARION THE GRIM": {
+   "mount": {
+    "Stormwing": "stormwing"
+   }
+  },
+  "ELVEN STEED": {
+   "ithilmar-barding": {
+    "Ithilmar barding": "ithilmar-barding"
+   }
+  },
+  "FLAMESPYRE PHOENIX": {
+   "blessings-of-asuryan": {
+    "Blessings of Asuryan": "blessings-of-asuryan"
+   },
+   "cleansing-flames": {
+    "Cleansing Flames": "cleansing-flames"
+   },
+   "frostheart-phoenix": {
+    "Frostheart Phoenix": "frostheart-phoenix"
+   },
+   "omen-of-hope": {
+    "Omen of Hope": "omen-of-hope"
+   },
+   "omen-of-sacrifice": {
+    "Omen of Sacrifice": "omen-of-sacrifice"
+   }
+  },
+  "GREAT EAGLE": {
+   "shredding-talons": {
+    "Shredding Talons": "shredding-talons"
+   },
+   "swiftsense": {
+    "Swiftsense": "swiftsense"
+   }
+  },
+  "GRIFFON": {
+   "shredding-talons": {
+    "Shredding Talons": "shredding-talons"
+   },
+   "swooping-strike": {
+    "Swooping Strike": "swooping-strike"
+   }
+  },
+  "HANDMAIDENS OF THE EVERQUEEN": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "HAWKEYES": {
+   "armour": {
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "KORHIL LIONMANE": {
+   "mount": {
+    "Lion Chariot of Chrace": "lion-chariot-of-chrace"
+   }
+  },
+  "LION CHARIOT OF CHRACE": {
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   }
+  },
+  "LORDS OF AENARION": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Heavy lance": "heavy-lance",
+    "Light lance": "light-lance",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "mount": {
+    "Elven Steed": "elven-steed"
+   },
+   "shield": {
+    "shield": "shield"
+   }
+  },
+  "LOREMASTERS OF HOETH": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "LOTHERN SEA GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "LOTHERN SKYCUTTER": {
+   "n-eagle-eye-bolt-thrower": {
+    "n Eagle Eye Bolt Thrower": "n-eagle-eye-bolt-thrower"
+   }
+  },
+  "MAGES": {
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-arch-mage": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-mage": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Elven Steed": "elven-steed",
+    "Great Eagle": "great-eagle",
+    "Moon Dragon": "moon-dragon",
+    "Tiranoc Chariot": "tiranoc-chariot",
+    "Unicorn": "unicorn"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "PHOENIX GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PRIESTS OF MATHLANN": {
+   "magic-items-mist-weaver": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-storm-weaver": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "RANGERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "elven-shortbows": {
+    "Elven shortbows": "elven-shortbows"
+   },
+   "great-weapons": {
+    "great weapons": "great-weapons"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SEA LORD AISLINN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Lothern Skycutter": "lothern-skycutter"
+   }
+  },
+  "SENTINELS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SHADOW WARRIORS": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "elven-longbows": {
+    "Elven longbows": "elven-longbows"
+   }
+  },
+  "SILVER HELMS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "heavy-armour": {
+    "heavy armour": "heavy-armour"
+   },
+   "ithilmar-barding": {
+    "ithilmar barding": "ithilmar-barding"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SISTERS OF AVELORN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "SWORDMASTERS OF HOETH": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "TIRANOC CHARIOT": {
+   "standard-bearer": {
+    "standard bearer": "standard-bearer"
+   }
+  },
+  "WARDENS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "WHITE LIONS OF CHRACE": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ALTHRAN STORMRIDER": {
+   "May be mounted on Sharpclaw": "mount",
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "BELANNAER THE WISE": {
+   "May take light armour": "light-armour"
+  },
+  "CARADRYAN OF THE FLAME": {
+   "May be mounted on Ashtari": "mount"
+  },
+  "COMMANDERS": {
+   "A Noble may take one Elven Honour and Magic Items up to a total of 50 points": "magic-items-noble",
+   "A Prince may take one Elven Honour and Magic Items up to a total of 100 points": "magic-items-prince",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a shield": "shield",
+   "One Noble may carry the Battle Standard": "battle-standard"
+  },
+  "DRAGON MAGES OF CALEDOR": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take light armour": "light-armour"
+  },
+  "DRAGON PRINCES OF CALEDOR": {
+   "May upgrade one Dragon Prince to a Leader": "champion",
+   "May upgrade one Dragon Prince to a Musician": "musician",
+   "May upgrade one Dragon Prince to a Standard Bearer": "standard-bearer",
+   "May upgrade one Dragon Prince to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "EAGLE CLAW BOLT THROWER": {
+   "May take an additional Crew 10 points": "additional-crew-10-points",
+   "May take medium armour": "medium-armour"
+  },
+  "ELLYRIAN REAVERS": {
+   "May take Elven shortbows": "elven-shortbows",
+   "May take ithilmar barding": "ithilmar-barding",
+   "May take medium armour": "medium-armour",
+   "May take shields": "shields",
+   "May upgrade one Reaver to a Leader": "champion",
+   "May upgrade one Reaver to a Musician": "musician",
+   "May upgrade one Reaver to a Standard Bearer": "standard-bearer",
+   "May upgrade one Reaver to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ELTHARION THE GRIM": {
+   "May be mounted on Stormwing": "mount"
+  },
+  "ELVEN STEED": {
+   "May take Ithilmar barding": "ithilmar-barding"
+  },
+  "FLAMESPYRE PHOENIX": {
+   "May be upgraded to a Frostheart Phoenix": "frostheart-phoenix",
+   "May take Blessings of Asuryan": "blessings-of-asuryan",
+   "May take Cleansing Flames (Flamespyre Phoenix only)": "cleansing-flames",
+   "May take Omen of Hope": "omen-of-hope",
+   "May take Omen of Sacrifice": "omen-of-sacrifice"
+  },
+  "GREAT EAGLE": {
+   "May take Shredding Talons": "shredding-talons",
+   "May take Swiftsense": "swiftsense"
+  },
+  "GRIFFON": {
+   "May take Shredding Talons": "shredding-talons",
+   "May take Swooping Strike": "swooping-strike"
+  },
+  "HANDMAIDENS OF THE EVERQUEEN": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour",
+   "One Handmaiden may carry the Battle Standard": "battle-standard"
+  },
+  "HAWKEYES": {
+   "May choose one of the following:": "armour",
+   "May upgrade one Hawkeye to a Leader": "champion",
+   "May upgrade one Hawkeye to a Musician": "musician",
+   "May upgrade one Hawkeye to a Standard Bearer": "standard-bearer",
+   "May upgrade one Hawkeye to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "KORHIL LIONMANE": {
+   "May be mounted on a Lion Chariot of Chrace (replacing one of the crew)": "mount"
+  },
+  "LION CHARIOT OF CHRACE": {
+   "May be upgraded to a standard bearer": "standard-bearer"
+  },
+  "LORDS OF AENARION": {
+   "May be mounted on an Elven Steed": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "armour",
+   "May take Magic Items up to a total of 100 points": "magic-items",
+   "May take a shield": "shield"
+  },
+  "LOREMASTERS OF HOETH": {
+   "May choose one of the following:": "armour",
+   "May take Magic Items up to a total of 100 points": "magic-items"
+  },
+  "LOTHERN SEA GUARD": {
+   "May upgrade one Sea Guard to a Leader": "champion",
+   "May upgrade one Sea Guard to a Musician": "musician",
+   "May upgrade one Sea Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sea Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "LOTHERN SKYCUTTER": {
+   "May replace one Sea Guard crew with an Eagle Eye Bolt Thrower": "n-eagle-eye-bolt-thrower"
+  },
+  "MAGES": {
+   "A Mage may take Magic Items up to a total of 50 points": "magic-items-mage",
+   "An Arch Mage may take Magic Items up to a total of 100 points": "magic-items-arch-mage",
+   "May be mounted on one of the following:": "mount",
+   "May take an additional Wizard Level": "wizard-level",
+   "May take light armour": "light-armour"
+  },
+  "PHOENIX GUARD": {
+   "May upgrade one Phoenix Guard to a Leader": "champion",
+   "May upgrade one Phoenix Guard to a Musician": "musician",
+   "May upgrade one Phoenix Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Phoenix Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "PRIESTS OF MATHLANN": {
+   "A Mist Weaver may take Magic Items up to a total of 50 points": "magic-items-mist-weaver",
+   "A Storm Weaver may take Magic Items up to a total of 100 points": "magic-items-storm-weaver"
+  },
+  "RANGERS": {
+   "May replace two hand weapons with great weapons": "great-weapons",
+   "May take Elven shortbows": "elven-shortbows",
+   "May upgrade one Ranger to a Leader": "champion",
+   "May upgrade one Ranger to a Musician": "musician",
+   "May upgrade one Ranger to a Standard Bearer": "standard-bearer",
+   "May upgrade one Ranger to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SEA LORD AISLINN": {
+   "May be mounted on a Lothern Skycutter (replacing one of the crew)": "mount",
+   "May take Magic Items up to a total of 75 points": "magic-items"
+  },
+  "SENTINELS": {
+   "May upgrade one Sentinel to a Leader": "champion",
+   "May upgrade one Sentinel to a Musician": "musician",
+   "May upgrade one Sentinel to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sentinel to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "SHADOW WARRIORS": {
+   "May replace Elven shortbows with Elven longbows": "elven-longbows",
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May upgrade one Shadow Warrior to a Leader": "champion"
+  },
+  "SILVER HELMS": {
+   "May take heavy armour": "heavy-armour",
+   "May take ithilmar barding": "ithilmar-barding",
+   "May upgrade one Silver Helm to a Leader": "champion",
+   "May upgrade one Silver Helm to a Musician": "musician",
+   "May upgrade one Silver Helm to a Standard Bearer": "standard-bearer",
+   "May upgrade one Silver Helm to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SISTERS OF AVELORN": {
+   "May take spears": "spears",
+   "May upgrade one Sister of Avelorn to a Leader": "champion",
+   "May upgrade one Sister of Avelorn to a Musician": "musician",
+   "May upgrade one Sister of Avelorn to a Standard Bearer": "standard-bearer",
+   "May upgrade one Sister of Avelorn to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "SWORDMASTERS OF HOETH": {
+   "May upgrade one Swordmaster to a Leader": "champion",
+   "May upgrade one Swordmaster to a Musician": "musician",
+   "May upgrade one Swordmaster to a Standard Bearer": "standard-bearer",
+   "May upgrade one Swordmaster to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "TIRANOC CHARIOT": {
+   "One Tiranoc Chariot may be upgraded to a standard bearer": "standard-bearer"
+  },
+  "WARDENS": {
+   "May upgrade one Warden to a Leader": "champion",
+   "May upgrade one Warden to a Musician": "musician",
+   "May upgrade one Warden to a Standard Bearer": "standard-bearer",
+   "May upgrade one Warden to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "WHITE LIONS OF CHRACE": {
+   "May upgrade one White Lion to a Leader": "champion",
+   "May upgrade one White Lion to a Musician": "musician",
+   "May upgrade one White Lion to a Standard Bearer": "standard-bearer",
+   "May upgrade one White Lion to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  }
+ },
+ "items": {
+  "AMULET OF FIRE": "amulet-of-fire",
+  "AMULET OF LIGHT": "amulet-of-light",
+  "AMULET OF THE PURIFYING FLAME": "amulet-of-the-purifying-flame",
+  "AMULET OF THE TEMPEST": "amulet-of-the-tempest",
+  "ANNULIAN CRYSTAL": "annulian-crystal",
+  "ARMOUR OF HEROES": "armour-of-heroes",
+  "ARMOUR OF STARS": "armour-of-stars",
+  "BANNER OF AVELORN": "banner-of-avelorn",
+  "BANNER OF CONFIDENCE": "banner-of-confidence",
+  "BANNER OF ELLYRION": "banner-of-ellyrion",
+  "BANNER OF LOTHERN": "banner-of-lothern",
+  "BANNER OF RESILIENCE": "banner-of-resilience",
+  "BANNER OF SORCERY": "banner-of-sorcery",
+  "BANNER OF THE WORLD DRAGON": "banner-of-the-world-dragon",
+  "BATTLE BANNER": "battle-banner",
+  "BLADE OF DARTING STEEL": "blade-of-darting-steel",
+  "BLADE OF THE PHOENIX": "blade-of-the-phoenix",
+  "BLESSED TOME": "blessed-tome",
+  "BOOK OF HOETH": "book-of-hoeth",
+  "BOW OF THE SEAFARER": "bow-of-the-seafarer",
+  "BOW OF TOR ALESSI": "bow-of-tor-alessi",
+  "CLOAK OF BEARDS": "cloak-of-beards",
+  "CLOUDCLEAVER": "cloudcleaver",
+  "DEATHSINGER": "deathsinger",
+  "DRAGONBLADE LANCE": "dragonblade-lance",
+  "DRAGONSCALE SHIELD": "dragonscale-shield",
+  "FOE BANE": "foe-bane",
+  "FOLARIATH'S ROBE": "folariaths-robe",
+  "GEM OF COURAGE": "gem-of-courage",
+  "GEM OF SUNFIRE": "gem-of-sunfire",
+  "GOLDEN CROWN OF ATRAZAR": "golden-crown-of-atrazar",
+  "GUARDIAN PHOENIX": "guardian-phoenix",
+  "HELM OF FORTUNE": "helm-of-fortune",
+  "HORN OF ISHA": "horn-of-isha",
+  "JADE BOW": "jade-bow",
+  "JEWEL OF THE DUSK": "jewel-of-the-dusk",
+  "KHAINE'S RING OF FURY": "khaines-ring-of-fury",
+  "LION STANDARD": "lion-standard",
+  "LOREMASTER'S CLOAK": "loremasters-cloak",
+  "MORANION'S WAYSHARD": "moranions-wayshard",
+  "NULL STONE": "null-stone",
+  "PENDANT OF VENGEANCE": "pendant-of-vengeance",
+  "PHOENIX STONE": "phoenix-stone",
+  "PINION OF THE PHOENIX": "pinion-of-the-phoenix",
+  "RADIANT GEM OF HOETH": "radiant-gem-of-hoeth",
+  "RING OF CORIN": "ring-of-corin",
+  "SACRED INCENSE": "sacred-incense",
+  "SEERSTAFF OF SAPHERY": "seerstaff-of-saphery",
+  "SHADOW ARMOUR": "shadow-armour",
+  "SHIELD OF ITHINAR": "shield-of-ithinar",
+  "SHIELD OF THE MERWYRM": "shield-of-the-merwyrm",
+  "SIGIL OF ASURYAN": "sigil-of-asuryan",
+  "SILVER WAND": "silver-wand",
+  "SKEINSLIVER": "skeinsliver",
+  "SKY ARROW OF NALOER": "sky-arrow-of-naloer",
+  "SPEAR OF THE SHORES": "spear-of-the-shores",
+  "SPELL CROWN OF DUSK": "spell-crown-of-dusk",
+  "STAFF OF SOLIDITY": "staff-of-solidity",
+  "STANDARD OF BALANCE": "standard-of-balance",
+  "STAR RUBY": "star-ruby",
+  "STARWOOD STAFF": "starwood-staff",
+  "SWORD OF AGES": "sword-of-ages",
+  "SWORD OF HOETH": "sword-of-hoeth",
+  "SWORD OF VICTORY": "sword-of-victory",
+  "TALISMAN OF BLINDING LIGHT": "talisman-of-blinding-light",
+  "TALISMAN OF LOEC": "talisman-of-loec",
+  "TALISMAN OF SAPHERY": "talisman-of-saphery",
+  "TEMAKADOR'S GAUNTLETS": "temakadors-gauntlets",
+  "THE BLADE OF LEAPING GOLD": "the-blade-of-leaping-gold",
+  "THE GOLDEN SHIELD": "the-golden-shield",
+  "THE REAVER BOW": "the-reaver-bow",
+  "THE SIGNET OF ATHINOL": "the-signet-of-athinol",
+  "TRICKSTER'S PENDANT": "tricksters-pendant",
+  "VAMBRACES OF DEFENCE": "vambraces-of-defence",
+  "VORTEX SHARD": "vortex-shard",
+  "WYRMSCALE ARMOUR OF THE DEEP": "wyrmscale-armour-of-the-deep"
+ },
+ "lores": {
+  "THE LORE OF HIGH MAGIC": "the-lore-of-high-magic"
+ },
+ "profiles": {
+  "ALARIELLE THE RADIANT": {
+   "Alarielle": "alarielle"
+  },
+  "ALITH ANAR": {
+   "Alith Anar": "alith-anar"
+  },
+  "ALTHRAN STORMRIDER": {
+   "Althran Stormrider": "althran-stormrider",
+   "Sharpclaw (Griffon)": "sharpclaw-griffon"
+  },
+  "BELANNAER THE WISE": {
+   "Belannaer the Wise": "belannaer-the-wise"
+  },
+  "CARADRYAN OF THE FLAME": {
+   "Ashtari (Frostheart Phoenix)": "ashtari-frostheart-phoenix",
+   "Caradryan": "caradryan"
+  },
+  "COMMANDERS": {
+   "Noble": "noble",
+   "Prince": "prince"
+  },
+  "DRAGON MAGES OF CALEDOR": {
+   "Dragon Mage": "dragon-mage",
+   "Sun Dragon": "sun-dragon"
+  },
+  "DRAGON PRINCES OF CALEDOR": {
+   "Dragon Prince": "dragon-prince",
+   "Elven Steed": "elven-steed"
+  },
+  "DRAKEMASTER": {
+   "Drake": "drake",
+   "Drakemaster": "drakemaster"
+  },
+  "EAGLE CLAW BOLT THROWER": {
+   "Crew": "crew",
+   "Eagle Claw Bolt Thrower": "eagle-claw-bolt-thrower"
+  },
+  "ELLYRIAN REAVERS": {
+   "Elven Steed": "elven-steed",
+   "Reaver": "reaver"
+  },
+  "ELTHARION THE BLIND": {
+   "Eltharion": "eltharion"
+  },
+  "ELTHARION THE GRIM": {
+   "Eltharion": "eltharion",
+   "Stormwing (Griffon)": "stormwing-griffon"
+  },
+  "ELVEN STEED": {
+   "Elven Steed": "elven-steed"
+  },
+  "FINUBAR THE SEAFARER": {
+   "Finubar": "finubar"
+  },
+  "FLAMESPYRE PHOENIX": {
+   "Flamespyre Phoenix": "flamespyre-phoenix",
+   "Frostheart Phoenix": "frostheart-phoenix"
+  },
+  "GILEAD & FITHVAEL": {
+   "Fithvael": "fithvael",
+   "Gilead": "gilead",
+   "Shadowfast": "shadowfast"
+  },
+  "GREAT EAGLE": {
+   "Great Eagle": "great-eagle"
+  },
+  "GRIFFON": {
+   "Griffon": "griffon"
+  },
+  "HANDMAIDENS OF THE EVERQUEEN": {
+   "Handmaiden": "handmaiden"
+  },
+  "HAWKEYES": {
+   "Hawkeye": "hawkeye"
+  },
+  "IMRIK": {
+   "Imrik": "imrik",
+   "Minaithnir (Star Dragon)": "minaithnir-star-dragon"
+  },
+  "ISHAYA VESS": {
+   "Ishaya Vess": "ishaya-vess"
+  },
+  "KORHIL LIONMANE": {
+   "Korhil": "korhil"
+  },
+  "LION CHARIOT OF CHRACE": {
+   "Lion Chariot": "lion-chariot",
+   "War Lion": "war-lion",
+   "White Lion": "white-lion"
+  },
+  "LORDS OF AENARION": {
+   "Lord of Aenarion": "lord-of-aenarion"
+  },
+  "LOREMASTERS OF HOETH": {
+   "Loremaster": "loremaster"
+  },
+  "LOTHERN SEA GUARD": {
+   "Sea Guard": "sea-guard"
+  },
+  "LOTHERN SKYCUTTER": {
+   "Lothern Skycutter": "lothern-skycutter",
+   "Sea Guard": "sea-guard",
+   "Swiftfeather Roc": "swiftfeather-roc"
+  },
+  "MAGES": {
+   "Arch Mage": "arch-mage",
+   "Mage": "mage"
+  },
+  "MERWYRM": {
+   "Merwyrm": "merwyrm"
+  },
+  "MOON DRAGON": {
+   "Moon Dragon": "moon-dragon"
+  },
+  "PEGASUS": {
+   "Pegasus": "pegasus"
+  },
+  "PHOENIX GUARD": {
+   "Phoenix Guard": "phoenix-guard"
+  },
+  "PHYTRION": {
+   "Phytrion": "phytrion"
+  },
+  "PRIESTS OF MATHLANN": {
+   "Mist Weaver": "mist-weaver",
+   "Storm Weaver": "storm-weaver"
+  },
+  "RANGERS": {
+   "Ranger": "ranger"
+  },
+  "SEA LORD AISLINN": {
+   "Sea Lord Aislinn": "sea-lord-aislinn"
+  },
+  "SENTINELS": {
+   "Sentinel": "sentinel"
+  },
+  "SHADOW WARRIORS": {
+   "Shadow Warrior": "shadow-warrior"
+  },
+  "SILVER HELMS": {
+   "Elven Steed": "elven-steed",
+   "Silver Helm": "silver-helm"
+  },
+  "SISTERS OF AVELORN": {
+   "Sister of Avelorn": "sister-of-avelorn"
+  },
+  "STAR DRAGON": {
+   "Star Dragon": "star-dragon"
+  },
+  "SUN DRAGON": {
+   "Sun Dragon": "sun-dragon"
+  },
+  "SWORDMASTERS OF HOETH": {
+   "Swordmaster": "swordmaster"
+  },
+  "TECLIS": {
+   "Teclis": "teclis"
+  },
+  "TIRANOC CHARIOT": {
+   "Charioteer": "charioteer",
+   "Elven Steed": "elven-steed",
+   "Tiranoc Chariot": "tiranoc-chariot"
+  },
+  "TYRION": {
+   "Malhandir (Elven Steed)": "malhandir-elven-steed",
+   "Tyrion": "tyrion"
+  },
+  "UNICORN": {
+   "Unicorn": "unicorn"
+  },
+  "WAR LIONS OF CHRACE": {
+   "War Lion": "war-lion"
+  },
+  "WARDENS": {
+   "Warden": "warden"
+  },
+  "WHITE LIONS OF CHRACE": {
+   "White Lion": "white-lion"
+  }
+ },
+ "rules": {
+  "BOW OF AVELORN": "bow-of-avelorn",
+  "DRAGON ARMOUR": "dragon-armour",
+  "ELVEN GRACE": "elven-grace",
+  "ELVEN LONGBOW": "elven-longbow",
+  "ELVEN SHORTBOW": "elven-shortbow",
+  "FIERY BREATH": "fiery-breath",
+  "ITHILMAR BARDING": "ithilmar-barding",
+  "LILEATH'S BLESSING": "lileaths-blessing",
+  "LION CLOAK": "lion-cloak",
+  "MARTIAL PROWESS": "martial-prowess",
+  "SWORDMASTER": "swordmaster",
+  "VALOUR OF AGES": "valour-of-ages"
+ },
+ "units": {
+  "ALARIELLE THE RADIANT": "alarielle-the-radiant",
+  "ALITH ANAR": "alith-anar",
+  "ALTHRAN STORMRIDER": "althran-stormrider",
+  "BELANNAER THE WISE": "belannaer-the-wise",
+  "CARADRYAN OF THE FLAME": "caradryan-of-the-flame",
+  "COMMANDERS": "commanders",
+  "DRAGON MAGES OF CALEDOR": "dragon-mages-of-caledor",
+  "DRAGON PRINCES OF CALEDOR": "dragon-princes-of-caledor",
+  "DRAKEMASTER": "drakemaster",
+  "EAGLE CLAW BOLT THROWER": "eagle-claw-bolt-thrower",
+  "ELLYRIAN REAVERS": "ellyrian-reavers",
+  "ELTHARION THE BLIND": "eltharion-the-blind",
+  "ELTHARION THE GRIM": "eltharion-the-grim",
+  "ELVEN STEED": "elven-steed",
+  "FINUBAR THE SEAFARER": "finubar-the-seafarer",
+  "FLAMESPYRE PHOENIX": "flamespyre-phoenix",
+  "GILEAD & FITHVAEL": "gilead-and-fithvael",
+  "GREAT EAGLE": "great-eagle",
+  "GRIFFON": "griffon",
+  "HANDMAIDENS OF THE EVERQUEEN": "handmaidens-of-the-everqueen",
+  "HAWKEYES": "hawkeyes",
+  "IMRIK": "imrik",
+  "ISHAYA VESS": "ishaya-vess",
+  "KORHIL LIONMANE": "korhil-lionmane",
+  "LION CHARIOT OF CHRACE": "lion-chariot-of-chrace",
+  "LORDS OF AENARION": "lords-of-aenarion",
+  "LOREMASTERS OF HOETH": "loremasters-of-hoeth",
+  "LOTHERN SEA GUARD": "lothern-sea-guard",
+  "LOTHERN SKYCUTTER": "lothern-skycutter",
+  "MAGES": "mages",
+  "MERWYRM": "merwyrm",
+  "MOON DRAGON": "moon-dragon",
+  "PEGASUS": "pegasus",
+  "PHOENIX GUARD": "phoenix-guard",
+  "PHYTRION": "phytrion",
+  "PRIESTS OF MATHLANN": "priests-of-mathlann",
+  "RANGERS": "rangers",
+  "SEA LORD AISLINN": "sea-lord-aislinn",
+  "SENTINELS": "sentinels",
+  "SHADOW WARRIORS": "shadow-warriors",
+  "SILVER HELMS": "silver-helms",
+  "SISTERS OF AVELORN": "sisters-of-avelorn",
+  "STAR DRAGON": "star-dragon",
+  "SUN DRAGON": "sun-dragon",
+  "SWORDMASTERS OF HOETH": "swordmasters-of-hoeth",
+  "TECLIS": "teclis",
+  "TIRANOC CHARIOT": "tiranoc-chariot",
+  "TYRION": "tyrion",
+  "UNICORN": "unicorn",
+  "WAR LIONS OF CHRACE": "war-lions-of-chrace",
+  "WARDENS": "wardens",
+  "WHITE LIONS OF CHRACE": "white-lions-of-chrace"
+ },
+ "upgrades": {
+  "ANOINTED OF ASURYAN": "anointed-of-asuryan",
+  "BLADELORD": "bladelord",
+  "BLOOD OF CALEDOR": "blood-of-caledor",
+  "CHRACIAN HUNTER": "chracian-hunter",
+  "COTHIQUE MARINER": "cothique-mariner",
+  "ELLYRIAN OUTRIDER": "ellyrian-outrider",
+  "GUARDIAN OF YVRESSE": "guardian-of-yvresse",
+  "LOTHERN SEA HELM": "lothern-sea-helm",
+  "PURE OF HEART": "pure-of-heart",
+  "SHADOW STALKER": "shadow-stalker",
+  "TIRANOC CHARIOT MASTER": "tiranoc-chariot-master"
+ }
+}

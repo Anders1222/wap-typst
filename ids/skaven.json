@@ -1,0 +1,873 @@
+{
+ "choices": {
+  "ASSASSINS": {
+   "magic-items-assassin": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-master-assassin": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Blowpipe": "blowpipe",
+    "Sling": "sling"
+   },
+   "smoke-bombs": {
+    "smoke bombs": "smoke-bombs"
+   },
+   "tail-weapon": {
+    "tail weapon": "tail-weapon"
+   }
+  },
+  "BONERIPPER": {
+   "exchange-warpfire-thrower-for-warpfire-braziers": {
+    "exchange Warpfire Thrower for Warpfire Braziers": "exchange-warpfire-thrower-for-warpfire-braziers"
+   }
+  },
+  "BROOD HORROR": {
+   "upgrade": {
+    "Lash Tail": "lash-tail",
+    "Pestilent Breath": "pestilent-breath",
+    "Rusted Armour": "rusted-armour",
+    "Skryre Claws": "skryre-claws"
+   }
+  },
+  "CLANRATS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "spears": {
+    "spears": "spears"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "COMMANDERS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "magic-items-clawleader": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-clawlord": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm"
+   },
+   "missile-weapon": {
+    "Ratling pistol": "ratling-pistol",
+    "Warplock pistol": "warplock-pistol"
+   },
+   "mount": {
+    "Brood Horror": "brood-horror",
+    "Gnaw-beast": "gnaw-beast",
+    "Great Pox Rat": "great-pox-rat",
+    "Rat Ogre Bonebreaker": "rat-ogre-bonebreaker",
+    "War-litter": "war-litter"
+   },
+   "rat-hound-bodyguard": {
+    "Rat Hound Bodyguard": "rat-hound-bodyguard"
+   },
+   "shield": {
+    "shield": "shield"
+   },
+   "tail-weapon": {
+    "tail weapon": "tail-weapon"
+   }
+  },
+  "DOOM-FLAYER": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "ESHIN TRIAD": {
+   "smoke-bombs": {
+    "Smoke Bombs": "smoke-bombs"
+   },
+   "tail-weapons": {
+    "tail weapons": "tail-weapons"
+   }
+  },
+  "GREY SEER": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Screaming Bell": "screaming-bell",
+    "War-litter": "war-litter"
+   }
+  },
+  "GUTTER RUNNERS": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "missile-weapon": {
+    "Slings": "slings",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   },
+   "slings": {
+    "slings": "slings"
+   },
+   "snare-nets": {
+    "snare-nets": "snare-nets"
+   }
+  },
+  "HELL PIT ABOMINATION": {
+   "warpstone-spikes": {
+    "Warpstone Spikes": "warpstone-spikes"
+   }
+  },
+  "KRITTOK FOULBLADE": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MASTER MOULDERS": {
+   "magic-items-master-moulder": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-master-mutator": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Great weapon": "great-weapon",
+    "Shock-prod": "shock-prod",
+    "Things-catcher": "things-catcher",
+    "Whip": "whip"
+   },
+   "mount": {
+    "Brood Horror": "brood-horror",
+    "Gnaw-beast": "gnaw-beast",
+    "Great Pox Rat": "great-pox-rat",
+    "Rat Ogre Bonebreaker": "rat-ogre-bonebreaker"
+   },
+   "rat-hound-bodyguard": {
+    "Rat Hound Bodyguard": "rat-hound-bodyguard"
+   },
+   "tail-weapon": {
+    "tail weapon": "tail-weapon"
+   }
+  },
+  "NIGHT RUNNERS": {
+   "additional-hand-weapons": {
+    "additional hand weapons": "additional-hand-weapons"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "missile-weapon": {
+    "Slings": "slings",
+    "Throwing weapons": "throwing-weapons"
+   },
+   "poisoned-attacks": {
+    "Poisoned Attacks": "poisoned-attacks"
+   }
+  },
+  "PLAGUE CENSER BEARERS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "PLAGUE MONKS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "PLAGUE PRIESTS": {
+   "magic-items-plague-priest": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-plaguelord": {
+    "Magic Items": "magic-items"
+   },
+   "melee-weapon": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Flail": "flail",
+    "Great weapon": "great-weapon",
+    "Plague censer": "plague-censer"
+   },
+   "mount": {
+    "Great Pox Rat": "great-pox-rat",
+    "Plague Furnace": "plague-furnace"
+   }
+  },
+  "POISONED WIND GLOBADIERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   }
+  },
+  "RAT OGRES": {
+   "upgrade": {
+    "Armoured": "armoured",
+    "Brain Transplant": "brain-transplant",
+    "Extra Extremities": "extra-extremities",
+    "Quadrupedal": "quadrupedal",
+    "Resilient": "resilient",
+    "Troll-blooded": "troll-blooded"
+   }
+  },
+  "RAT SWARMS": {
+   "upgrades-to-plague-rats": {
+    "upgrades to Plague Rats": "upgrades-to-plague-rats"
+   }
+  },
+  "SKAVENSLAVES": {
+   "equipment": {
+    "Polearms": "polearms",
+    "Shields": "shields",
+    "Slings": "slings",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "SORCERERS": {
+   "magic-items-sorcerer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-sorcerer-lord": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SPINETAIL": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "STORMFIEND": {
+   "medium-armour": {
+    "medium armour": "medium-armour"
+   },
+   "upgrade": {
+    "Doom-flayer Gauntlets": "doom-flayer-gauntlets",
+    "Grinderfists": "grinderfists",
+    "Ratling Cannons": "ratling-cannons",
+    "Shock Gauntlets": "shock-gauntlets",
+    "Warpfire Projectors": "warpfire-projectors",
+    "Windlaunchers": "windlaunchers"
+   }
+  },
+  "STORMVERMIN": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "shields": {
+    "shields": "shields"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "warplock-pistol": {
+    "Warplock Pistol": "warplock-pistol"
+   }
+  },
+  "THANQUOL": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "VERMINLORD": {
+   "upgrade": {
+    "Corruptor": "corruptor",
+    "Deceiver": "deceiver",
+    "Warbringer": "warbringer",
+    "Warpseer": "warpseer"
+   }
+  },
+  "WARLOCK ENGINEERS": {
+   "equipment": {
+    "Ratling Pistol": "ratling-pistol",
+    "Warplock Pistol": "warplock-pistol",
+    "Warpmusket": "warpmusket",
+    "Warpvolt Obliterator": "warpvolt-obliterator"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-warlock-engineer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-warlock-master": {
+    "Magic Items": "magic-items"
+   },
+   "polearm": {
+    "polearm": "polearm"
+   },
+   "upgrade": {
+    "Gas Mask": "gas-mask",
+    "Warlock Optics": "warlock-optics"
+   },
+   "upgrade-2": {
+    "Supercharged Warp-Power Accumulator": "supercharged-warp-power-accumulator",
+    "Upgraded Warp-Energy Condenser": "upgraded-warp-energy-condenser",
+    "Warp-Blades": "warp-blades"
+   }
+  },
+  "WARPLOCK JEZZAILS": {
+   "champion": {
+    "Leader": "leader"
+   }
+  },
+  "WOLF RATS": {
+   "upgrade": {
+    "Bloated Mutants": "bloated-mutants",
+    "Pox Feeders": "pox-feeders",
+    "Warpstone Shard Teeth": "warpstone-shard-teeth"
+   }
+  }
+ },
+ "groups": {
+  "ASSASSINS": {
+   "A Master Assassin may take Magic Items up to a total of 100 points": "magic-items-master-assassin",
+   "An Assassin may take Magic Items up to a total of 50 points": "magic-items-assassin",
+   "May choose one of the following:": "missile-weapon",
+   "May take a tail weapon": "tail-weapon",
+   "May take smoke bombs": "smoke-bombs"
+  },
+  "BONERIPPER": {
+   "May exchange Warpfire Thrower for Warpfire Braziers (Boneripper Mk II only)": "exchange-warpfire-thrower-for-warpfire-braziers"
+  },
+  "BROOD HORROR": {
+   "May take one of the following:": "upgrade"
+  },
+  "CLANRATS": {
+   "May take spears": "spears",
+   "May upgrade one Clanrat to a Leader": "champion",
+   "May upgrade one Clanrat to a Musician": "musician",
+   "May upgrade one Clanrat to a Standard Bearer": "standard-bearer",
+   "May upgrade one Clanrat to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "COMMANDERS": {
+   "A Clawleader may take Magic Items up to a total of 50 points": "magic-items-clawleader",
+   "A Clawlord may take Magic Items up to a total of 100 points": "magic-items-clawlord",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May choose one of the following: #2": "missile-weapon",
+   "May choose one of the following: #3": "armour",
+   "May take a Rat Hound Bodyguard": "rat-hound-bodyguard",
+   "May take a shield": "shield",
+   "May take a tail weapon": "tail-weapon",
+   "One Clawleader may carry the Battle Standard": "battle-standard"
+  },
+  "DOOM-FLAYER": {
+   "May take an additional crew": "additional-crew"
+  },
+  "ESHIN TRIAD": {
+   "May take Smoke Bombs": "smoke-bombs",
+   "May take tail weapons": "tail-weapons"
+  },
+  "GREY SEER": {
+   "May be mounted on one of the following:": "mount",
+   "May take Magic Items up to a total of 100 points": "magic-items"
+  },
+  "GUTTER RUNNERS": {
+   "May have Poisoned Attacks (does not affect slings)": "poisoned-attacks",
+   "May replace throwing weapons with slings": "slings",
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May take one of the following:": "missile-weapon",
+   "May take snare-nets": "snare-nets",
+   "May upgrade one Gutter Runner to a Leader": "champion"
+  },
+  "HELL PIT ABOMINATION": {
+   "May take Warpstone Spikes": "warpstone-spikes"
+  },
+  "KRITTOK FOULBLADE": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "MASTER MOULDERS": {
+   "A Master Moulder may take Magic Items up to a total of 50 points": "magic-items-master-moulder",
+   "A Master Mutator may take Magic Items up to a total of 100 points": "magic-items-master-mutator",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon",
+   "May take a Rat Hound Bodyguard": "rat-hound-bodyguard",
+   "May take a tail weapon": "tail-weapon"
+  },
+  "NIGHT RUNNERS": {
+   "May have Poisoned Attacks (does not affect slings)": "poisoned-attacks",
+   "May take additional hand weapons": "additional-hand-weapons",
+   "May take one of the following:": "missile-weapon",
+   "May upgrade one Night Runner to a Leader": "champion"
+  },
+  "PLAGUE CENSER BEARERS": {
+   "May upgrade one Plague Censer Bearer to a Leader": "champion"
+  },
+  "PLAGUE MONKS": {
+   "May upgrade one Plague Monk to a Leader": "champion",
+   "May upgrade one Plague Monk to a Musician": "musician",
+   "May upgrade one Plague Monk to a Standard Bearer": "standard-bearer",
+   "May upgrade one Plague Monk to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "PLAGUE PRIESTS": {
+   "A Plague Priest may take Magic Items up to a total of 50 points": "magic-items-plague-priest",
+   "A Plaguelord may take Magic Items up to a total of 100 points": "magic-items-plaguelord",
+   "May be mounted on one of the following:": "mount",
+   "May choose one of the following:": "melee-weapon"
+  },
+  "POISONED WIND GLOBADIERS": {
+   "May take light armour": "light-armour",
+   "May upgrade one Poisoned Wind Globadier to a Leader": "champion"
+  },
+  "RAT OGRES": {
+   "May choose up to two of the following:": "upgrade"
+  },
+  "RAT SWARMS": {
+   "May be upgrades to Plague Rats": "upgrades-to-plague-rats"
+  },
+  "SKAVENSLAVES": {
+   "May take one of the following:": "equipment",
+   "May upgrade one Skavenslave to a Musician": "musician"
+  },
+  "SORCERERS": {
+   "A Sorcerer Lord may take Magic Items up to a total of 100 points": "magic-items-sorcerer-lord",
+   "A Sorcerer may take Magic Items up to a total of 50 points": "magic-items-sorcerer",
+   "A Sorcerer may take an additional Wizard Level": "wizard-level"
+  },
+  "SPINETAIL": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "STORMFIEND": {
+   "May take medium armour (if armed with Doom-flayer Gauntlets, Shock Gauntlets or Grinderfists)": "medium-armour",
+   "Must pick one of the following:": "upgrade"
+  },
+  "STORMVERMIN": {
+   "May take one of the following:": "melee-weapon",
+   "May take shields": "shields",
+   "May upgrade one Stormvermin to a Leader": "champion",
+   "May upgrade one Stormvermin to a Leader > Leader > May take a Warplock Pistol": "warplock-pistol",
+   "May upgrade one Stormvermin to a Musician": "musician",
+   "May upgrade one Stormvermin to a Standard Bearer": "standard-bearer",
+   "May upgrade one Stormvermin to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
+  },
+  "THANQUOL": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "VERMINLORD": {
+   "May be upgraded to one of the following": "upgrade"
+  },
+  "WARLOCK ENGINEERS": {
+   "A Warlock Engineer may take Magic Items up to a total of 50 points": "magic-items-warlock-engineer",
+   "A Warlock Master may take Magic Items up to a total of 100 points": "magic-items-warlock-master",
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "upgrade",
+   "May choose one of the following: #3": "upgrade-2",
+   "May take a polearm": "polearm",
+   "May take light armour": "light-armour"
+  },
+  "WARPLOCK JEZZAILS": {
+   "May upgrade one Warplock Jezzail to a Leader": "champion"
+  },
+  "WOLF RATS": {
+   "May take one of the following:": "upgrade"
+  }
+ },
+ "items": {
+  "AMULET OF DARKNESS": "amulet-of-darkness",
+  "ASSASSINS-BANE RIGGING": "assassins-bane-rigging",
+  "BANNER OF BURNING HATRED": "banner-of-burning-hatred",
+  "BANNER OF THE FOUR BLACK WINDS": "banner-of-the-four-black-winds",
+  "BANNER OF THE SWARM": "banner-of-the-swarm",
+  "BANNER OF THE UNDER-EMPIRE": "banner-of-the-under-empire",
+  "BANNER OF VERMINOUS SCURRYING": "banner-of-verminous-scurrying",
+  "BILIOUS BELL": "bilious-bell",
+  "BLADE OF BLACK FURY": "blade-of-black-fury",
+  "BLISTREVOUS, THE LIVING CYST": "blistrevous-the-living-cyst",
+  "BRASS ORB": "brass-orb",
+  "BROODING BLADE": "brooding-blade",
+  "CURSED BLADE OF DELIRIUM": "cursed-blade-of-delirium",
+  "DEATH GLOBE": "death-globe",
+  "DESOLATE BLADE": "desolate-blade",
+  "DOOMROCKET": "doomrocket",
+  "DWARF SLAYER": "dwarf-slayer",
+  "DWARF-HIDE BANNER": "dwarf-hide-banner",
+  "ELECTRO-WHIP": "electro-whip",
+  "ESOTERIC WARP RESONATOR": "esoteric-warp-resonator",
+  "EYE OF THE HORNED RAT": "eye-of-the-horned-rat",
+  "FARSKITTER CLOAK": "farskitter-cloak",
+  "FELLBLADE": "fellblade",
+  "FLAYPELT CLOAK": "flaypelt-cloak",
+  "FLESHGIFT VIAL": "fleshgift-vial",
+  "FOULHIDE": "foulhide",
+  "GNAWBOMB": "gnawbomb",
+  "GNAWSHARD": "gnawshard",
+  "GRAND BANNER OF CLAN SUPERIORITY": "grand-banner-of-clan-superiority",
+  "HEADSPLITTER": "headsplitter",
+  "ICON OF GREAT-TOTAL SUPREMACY": "icon-of-great-total-supremacy",
+  "INFERNAL BOMB": "infernal-bomb",
+  "LANGUISHER SWORD": "languisher-sword",
+  "LASH OF FANGS": "lash-of-fangs",
+  "PIPES OF PIEBALD": "pipes-of-piebald",
+  "PLAGUE BANNER": "plague-banner",
+  "PORTENTS OF VERMINOUS DOOM": "portents-of-verminous-doom",
+  "RABID CROWN": "rabid-crown",
+  "RAT-TAIL SNAKE": "rat-tail-snake",
+  "RIVAL HIDE TALISMAN": "rival-hide-talisman",
+  "RUST ARMOUR": "rust-armour",
+  "SACRED STANDARD OF THE HORNED RAT": "sacred-standard-of-the-horned-rat",
+  "SCREECHSKULL TROPHIES": "screechskull-trophies",
+  "SCRYING STONE": "scrying-stone",
+  "SHADOW MAGNET TRINKET": "shadow-magnet-trinket",
+  "SHIELD OF DISTRACTION": "shield-of-distraction",
+  "SHOCK-PROD": "shock-prod",
+  "SHROUD OF DRIPPING DEATH": "shroud-of-dripping-death",
+  "SKALM": "skalm",
+  "SKAVENBREW": "skavenbrew",
+  "SKRYRE'S-BREATH BELLOWS": "skryres-breath-bellows",
+  "SNAP-SNAP SNAREPOLE": "snap-snap-snarepole",
+  "SNOUTGROVEL ROBES": "snoutgrovel-robes",
+  "STAFF OF RIGHTFUL SUPREMACY": "staff-of-rightful-supremacy",
+  "STORM BANNER": "storm-banner",
+  "SUSPICIOUS STONE": "suspicious-stone",
+  "TENEBROUS CLOAK": "tenebrous-cloak",
+  "THE CUBE OF MISTS": "the-cube-of-mists",
+  "THE FUMIGATOUS": "the-fumigatous",
+  "THE THREE FANGS": "the-three-fangs",
+  "THINGS-BANE": "things-bane",
+  "THINGS-CATCHER": "things-catcher",
+  "TWISTED CROWN OF THE HORNED RAT": "twisted-crown-of-the-horned-rat",
+  "UMBRANNER": "umbranner",
+  "VIAL OF THE FULMINATOR": "vial-of-the-fulminator",
+  "WARPFORGED BLADE": "warpforged-blade",
+  "WARPSCALE PENDANT": "warpscale-pendant",
+  "WARPSCROLL": "warpscroll",
+  "WARPSTONE AMULET": "warpstone-amulet",
+  "WARPSTONE CHARM": "warpstone-charm",
+  "WARPSTONE INNARDS": "warpstone-innards",
+  "WARPSTONE STARS": "warpstone-stars",
+  "WARPSTONE TOKEN": "warpstone-token",
+  "WARPSTORM SCROLL": "warpstorm-scroll",
+  "WEEPING BLADES": "weeping-blades"
+ },
+ "lores": {
+  "THE LORE OF PLAGUE": "the-lore-of-plague",
+  "THE LORE OF RUIN": "the-lore-of-ruin",
+  "THE LORE OF STEALTH": "the-lore-of-stealth"
+ },
+ "profiles": {
+  "ASSASSINS": {
+   "Assassin": "assassin",
+   "Master Assassin": "master-assassin"
+  },
+  "BONERIPPER": {
+   "Boneripper": "boneripper",
+   "Boneripper Mk II": "boneripper-mk-ii"
+  },
+  "BROOD HORROR": {
+   "Brood Horror": "brood-horror"
+  },
+  "BROOD TERROR": {
+   "Brood Terror": "brood-terror"
+  },
+  "CLANRATS": {
+   "Clanrat": "clanrat"
+  },
+  "COMMANDERS": {
+   "Clawleader": "clawleader",
+   "Clawlord": "clawlord"
+  },
+  "DEATHMASTER SNIKCH": {
+   "Deathmaster Snikch": "deathmaster-snikch"
+  },
+  "DOOM-FLAYER": {
+   "Crew": "crew",
+   "Doom-flayer": "doom-flayer"
+  },
+  "DOOMWHEEL": {
+   "Doomwheel": "doomwheel",
+   "Warlock Engineer": "warlock-engineer"
+  },
+  "ESHIN TRIAD": {
+   "Assassin Adept": "assassin-adept"
+  },
+  "GHORITCH": {
+   "Ghoritch": "ghoritch"
+  },
+  "GIANT RATS": {
+   "Giant Rat": "giant-rat",
+   "Packmaster": "packmaster"
+  },
+  "GNAW-BEAST": {
+   "Gnaw-beast": "gnaw-beast"
+  },
+  "GREAT POX RAT": {
+   "Great Pox Rat": "great-pox-rat"
+  },
+  "GREY SEER": {
+   "Grey Seer": "grey-seer"
+  },
+  "GUTTER RUNNERS": {
+   "Gutter Runner": "gutter-runner"
+  },
+  "HELL PIT ABOMINATION": {
+   "Hell Pit Abomination": "hell-pit-abomination"
+  },
+  "IKIT CLAW": {
+   "Ikit Claw": "ikit-claw"
+  },
+  "KLAWMUNKAST": {
+   "Klawmunkast": "klawmunkast"
+  },
+  "KRITTOK FOULBLADE": {
+   "Krittok Foulblade": "krittok-foulblade"
+  },
+  "LORD SKROLK": {
+   "Lord Skrolk": "lord-skrolk"
+  },
+  "MASTER MOULDERS": {
+   "Master Moulder": "master-moulder",
+   "Master Mutator": "master-mutator"
+  },
+  "MORBUS SANGUIS": {
+   "Morbus Sanguis": "morbus-sanguis"
+  },
+  "NIGHT RUNNERS": {
+   "Night Runner": "night-runner"
+  },
+  "NURGLITCH": {
+   "Bilios": "bilios",
+   "Nurglitch": "nurglitch",
+   "Pox (Great Pox Rat)": "pox-great-pox-rat"
+  },
+  "PLAGUE CENSER BEARERS": {
+   "Plague Censer Bearer": "plague-censer-bearer"
+  },
+  "PLAGUE FURNACE": {
+   "Plague Furnace": "plague-furnace",
+   "Plague Monk": "plague-monk"
+  },
+  "PLAGUE MONKS": {
+   "Plague Monk": "plague-monk"
+  },
+  "PLAGUE PRIESTS": {
+   "Plague Priest": "plague-priest",
+   "Plaguelord": "plaguelord"
+  },
+  "PLAGUECLAW CATAPULT": {
+   "Plague Monk Crew": "plague-monk-crew",
+   "Plagueclaw Catapult": "plagueclaw-catapult"
+  },
+  "POISONED WIND GLOBADIERS": {
+   "Poisoned Wind Globadier": "poisoned-wind-globadier"
+  },
+  "POISONED WIND MORTAR": {
+   "Poisoned Wind Mortar": "poisoned-wind-mortar"
+  },
+  "QUEEK HEADTAKER": {
+   "Queek Headtaker": "queek-headtaker"
+  },
+  "RAT OGRE BONEBREAKER": {
+   "Bonebreaker": "bonebreaker"
+  },
+  "RAT OGRES": {
+   "Packmaster": "packmaster",
+   "Rat Ogre": "rat-ogre"
+  },
+  "RAT SWARMS": {
+   "Rat Swarm": "rat-swarm"
+  },
+  "RATLING GUN": {
+   "Ratling Gun": "ratling-gun"
+  },
+  "RATLING WARPBLASTER": {
+   "Crew": "crew",
+   "Ratling Warpblaster": "ratling-warpblaster"
+  },
+  "SCREAMING BELL": {
+   "Rat Ogre": "rat-ogre",
+   "Screaming Bell": "screaming-bell"
+  },
+  "SKAVENSLAVES": {
+   "Pawleader": "pawleader",
+   "Skavenslave": "skavenslave"
+  },
+  "SKREECH VERMINKING": {
+   "Skreech Verminking": "skreech-verminking"
+  },
+  "SKWEEL GNAWTOOTH": {
+   "Gutsnagger (Rat Hound Bodyguard)": "gutsnagger-rat-hound-bodyguard",
+   "Skweel Gnawtooth": "skweel-gnawtooth"
+  },
+  "SORCERERS": {
+   "Sorcerer": "sorcerer",
+   "Sorcerer Lord": "sorcerer-lord"
+  },
+  "SPINETAIL": {
+   "Spinetail": "spinetail"
+  },
+  "STORMFIEND": {
+   "Stormfiend": "stormfiend"
+  },
+  "STORMVERMIN": {
+   "Stormvermin": "stormvermin"
+  },
+  "THANQUOL": {
+   "Thanquol": "thanquol"
+  },
+  "THROT THE UNCLEAN": {
+   "Throt the Unclean": "throt-the-unclean"
+  },
+  "TRETCH CRAVENTAIL": {
+   "Tretch Craventail": "tretch-craventail"
+  },
+  "VERMINLORD": {
+   "Verminlord": "verminlord"
+  },
+  "VESKIT": {
+   "Veskit": "veskit"
+  },
+  "VIZZIK SKOUR": {
+   "Vizzik Skour": "vizzik-skour"
+  },
+  "WAR-LITTER": {
+   "War-litter": "war-litter"
+  },
+  "WARLOCK ENGINEERS": {
+   "Warlock Engineer": "warlock-engineer",
+   "Warlock Master": "warlock-master"
+  },
+  "WARP LIGHTNING CANNON": {
+   "Crew": "crew",
+   "Warp Lightning Cannon": "warp-lightning-cannon"
+  },
+  "WARP-GRINDER": {
+   "Warp-grinder": "warp-grinder"
+  },
+  "WARPFIRE THROWER": {
+   "Warpfire Thrower": "warpfire-thrower"
+  },
+  "WARPLOCK JEZZAILS": {
+   "Warplock Jezzail": "warplock-jezzail"
+  },
+  "WARPVOLT SCOURGER": {
+   "Warpvolt Scourger": "warpvolt-scourger"
+  },
+  "WOLF RATS": {
+   "Wolf Rat": "wolf-rat"
+  }
+ },
+ "rules": {
+  "CLAN ENMITY": "clan-enmity",
+  "GAS MASK": "gas-mask",
+  "LIFE IS CHEAP": "life-is-cheap",
+  "PLAGUE CENSER": "plague-censer",
+  "RAT HOUND BODYGUARD": "rat-hound-bodyguard",
+  "RATLING PISTOL": "ratling-pistol",
+  "SCURRY AWAY": "scurry-away",
+  "SMOKE BOMBS": "smoke-bombs",
+  "STRENGTH IN NUMBERS": "strength-in-numbers",
+  "TAIL WEAPON": "tail-weapon",
+  "UNSTABLE AMMUNITION": "unstable-ammunition",
+  "VERMINOUS VALOUR": "verminous-valour",
+  "WARPLOCK PISTOL": "warplock-pistol",
+  "WHIP": "whip"
+ },
+ "units": {
+  "ASSASSINS": "assassins",
+  "BONERIPPER": "boneripper",
+  "BROOD HORROR": "brood-horror",
+  "BROOD TERROR": "brood-terror",
+  "CLANRATS": "clanrats",
+  "COMMANDERS": "commanders",
+  "DEATHMASTER SNIKCH": "deathmaster-snikch",
+  "DOOM-FLAYER": "doom-flayer",
+  "DOOMWHEEL": "doomwheel",
+  "ESHIN TRIAD": "eshin-triad",
+  "GHORITCH": "ghoritch",
+  "GIANT RATS": "giant-rats",
+  "GNAW-BEAST": "gnaw-beast",
+  "GREAT POX RAT": "great-pox-rat",
+  "GREY SEER": "grey-seer",
+  "GUTTER RUNNERS": "gutter-runners",
+  "HELL PIT ABOMINATION": "hell-pit-abomination",
+  "IKIT CLAW": "ikit-claw",
+  "KLAWMUNKAST": "klawmunkast",
+  "KRITTOK FOULBLADE": "krittok-foulblade",
+  "LORD SKROLK": "lord-skrolk",
+  "MASTER MOULDERS": "master-moulders",
+  "MORBUS SANGUIS": "morbus-sanguis",
+  "NIGHT RUNNERS": "night-runners",
+  "NURGLITCH": "nurglitch",
+  "PLAGUE CENSER BEARERS": "plague-censer-bearers",
+  "PLAGUE FURNACE": "plague-furnace",
+  "PLAGUE MONKS": "plague-monks",
+  "PLAGUE PRIESTS": "plague-priests",
+  "PLAGUECLAW CATAPULT": "plagueclaw-catapult",
+  "POISONED WIND GLOBADIERS": "poisoned-wind-globadiers",
+  "POISONED WIND MORTAR": "poisoned-wind-mortar",
+  "QUEEK HEADTAKER": "queek-headtaker",
+  "RAT OGRE BONEBREAKER": "rat-ogre-bonebreaker",
+  "RAT OGRES": "rat-ogres",
+  "RAT SWARMS": "rat-swarms",
+  "RATLING GUN": "ratling-gun",
+  "RATLING WARPBLASTER": "ratling-warpblaster",
+  "SCREAMING BELL": "screaming-bell",
+  "SKAVENSLAVES": "skavenslaves",
+  "SKREECH VERMINKING": "skreech-verminking",
+  "SKWEEL GNAWTOOTH": "skweel-gnawtooth",
+  "SORCERERS": "sorcerers",
+  "SPINETAIL": "spinetail",
+  "STORMFIEND": "stormfiend",
+  "STORMVERMIN": "stormvermin",
+  "THANQUOL": "thanquol",
+  "THROT THE UNCLEAN": "throt-the-unclean",
+  "TRETCH CRAVENTAIL": "tretch-craventail",
+  "VERMINLORD": "verminlord",
+  "VESKIT": "veskit",
+  "VIZZIK SKOUR": "vizzik-skour",
+  "WAR-LITTER": "war-litter",
+  "WARLOCK ENGINEERS": "warlock-engineers",
+  "WARP LIGHTNING CANNON": "warp-lightning-cannon",
+  "WARP-GRINDER": "warp-grinder",
+  "WARPFIRE THROWER": "warpfire-thrower",
+  "WARPLOCK JEZZAILS": "warplock-jezzails",
+  "WARPVOLT SCOURGER": "warpvolt-scourger",
+  "WOLF RATS": "wolf-rats"
+ },
+ "upgrades": {}
+}

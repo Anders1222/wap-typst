@@ -1,0 +1,480 @@
+{
+ "choices": {
+  "ANIMATED HULK": {
+   "upgrade": {
+    "Pincer Claws": "pincer-claws",
+    "Salvaged Hulls": "salvaged-hulls",
+    "Tentacles": "tentacles",
+    "Wreckers": "wreckers"
+   }
+  },
+  "BLACK JENS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "CARRONADE": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "COUNT NOCTILUS": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Necrofex Colossus": "necrofex-colossus"
+   }
+  },
+  "DECK DROPPERS": {
+   "missile-weapon": {
+    "Brace of pistols": "brace-of-pistols",
+    "Grenades": "grenades",
+    "Handguns": "handguns"
+   }
+  },
+  "DECK GUNNERS": {
+   "volley-guns": {
+    "volley guns": "volley-guns"
+   }
+  },
+  "DEPTH GUARD": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "GUNNERY WIGHT": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler",
+    "Polearm": "polearm"
+   },
+   "equipment-2": {
+    "Handgun": "handgun",
+    "Pistol": "pistol",
+    "Swivel Gun": "swivel-gun",
+    "Volley Gun": "volley-gun"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "master-gunner": {
+    "Master Gunner": "master-gunner"
+   },
+   "mount": {
+    "Rotting Promethean": "rotting-promethean"
+   }
+  },
+  "LUTHOR HARKON": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "MORTAR": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   }
+  },
+  "NECROFEX COLOSSUS": {
+   "corpse-killers": {
+    "Corpse Killers": "corpse-killers"
+   },
+   "dark-soul": {
+    "Dark Soul": "dark-soul"
+   },
+   "scythes-and-barbs": {
+    "Scythes and Barbs": "scythes-and-barbs"
+   },
+   "vampire-blood": {
+    "Vampire Blood": "vampire-blood"
+   }
+  },
+  "PIRATE WARLOCK": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "RED HENRI": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "ROTTING PROMETHEANS": {
+   "gunnery-mob": {
+    "Gunnery Mob": "gunnery-mob"
+   }
+  },
+  "VAMPIRE CAPTAINS": {
+   "armour": {
+    "Heavy armour": "heavy-armour",
+    "Light armour": "light-armour",
+    "Medium armour": "medium-armour"
+   },
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler",
+    "Polearm": "polearm"
+   },
+   "magic-items-fleet-admiral": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-fleet-captain": {
+    "Magic Items": "magic-items"
+   },
+   "mount": {
+    "Rotting Promethean": "rotting-promethean"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   },
+   "wizard-level": {
+    "Level 1 Wizard": "level-1-wizard",
+    "Level 2 Wizard": "level-2-wizard",
+    "Level 3 Wizard": "level-3-wizard",
+    "Level 4 Wizard": "level-4-wizard"
+   }
+  },
+  "ZOMBIE DECKHANDS": {
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Polearms": "polearms"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ZOMBIE GUNNERS": {
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "missile-weapon": {
+    "Blunderbusses": "blunderbusses",
+    "Brace of pistols": "brace-of-pistols",
+    "Grenades": "grenades",
+    "Handguns": "handguns"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  }
+ },
+ "groups": {
+  "ANIMATED HULK": {
+   "May take one of the following:": "upgrade"
+  },
+  "BLACK JENS": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  },
+  "CARRONADE": {
+   "May take an additional crew": "additional-crew"
+  },
+  "COUNT NOCTILUS": {
+   "May be mounted on a Necrofex Colossus": "mount",
+   "May take Magic Items up to a total of 75 points": "magic-items"
+  },
+  "DECK DROPPERS": {
+   "May replace pistols with one of the following:": "missile-weapon"
+  },
+  "DECK GUNNERS": {
+   "May replace swivel guns with volley guns": "volley-guns"
+  },
+  "DEPTH GUARD": {
+   "May replace hand weapons with polearms": "polearms",
+   "May upgrade one Depth Guard to a Leader": "champion",
+   "May upgrade one Depth Guard to a Musician": "musician",
+   "May upgrade one Depth Guard to a Standard Bearer": "standard-bearer",
+   "May upgrade one Depth Guard to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 75 points": "magic-standard"
+  },
+  "GUNNERY WIGHT": {
+   "May be mounted on a Rotting Promethean": "mount",
+   "May be upgraded to a Master Gunner": "master-gunner",
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "equipment-2",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take light armour": "light-armour",
+   "One Gunnery Wight may carry the Battle Standard": "battle-standard"
+  },
+  "LUTHOR HARKON": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "MORTAR": {
+   "May take an additional crew": "additional-crew"
+  },
+  "NECROFEX COLOSSUS": {
+   "May take Corpse Killers": "corpse-killers",
+   "May take Dark Soul": "dark-soul",
+   "May take Scythes and Barbs": "scythes-and-barbs",
+   "May take Vampire Blood": "vampire-blood"
+  },
+  "PIRATE WARLOCK": {
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "RED HENRI": {
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "ROTTING PROMETHEANS": {
+   "May take a Gunnery Mob": "gunnery-mob"
+  },
+  "VAMPIRE CAPTAINS": {
+   "A Fleet Admiral may take Vampiric Powers and/or Magic Items up to a total of 100 points": "magic-items-fleet-admiral",
+   "A Fleet Captain may take Vampiric Powers and/or Magic Items up to a total of 50 points": "magic-items-fleet-captain",
+   "May be mounted on a Rotting Promethean": "mount",
+   "May be upgraded to one of the following:": "wizard-level",
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "armour",
+   "May take a pistol": "pistol"
+  },
+  "ZOMBIE DECKHANDS": {
+   "May replace bucklers with one of the following:": "melee-weapon",
+   "May upgrade one Zombie Deckhand to a Musician": "musician",
+   "May upgrade one Zombie Deckhand to a Standard Bearer": "standard-bearer",
+   "May upgrade one Zombie Deckhand to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ZOMBIE GUNNERS": {
+   "May replace pistols with one of the following:": "missile-weapon",
+   "May upgrade one Zombie Deckhand to a Musician": "musician",
+   "May upgrade one Zombie Deckhand to a Standard Bearer": "standard-bearer",
+   "May upgrade one Zombie Deckhand to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  }
+ },
+ "items": {
+  "AMULET OF EVANESCENSE": "amulet-of-evanescense",
+  "ARMOUR OF THE DEPTHS": "armour-of-the-depths",
+  "BLOODIED BANNER OF SLAYERS": "bloodied-banner-of-slayers",
+  "BLOODY BILL'S BUCKLER": "bloody-bills-buckler",
+  "BLOODY REAVER COLOURS": "bloody-reaver-colours",
+  "CORAL-GROWTH HELMET": "coral-growth-helmet",
+  "CRUSTACEAN ARMOUR": "crustacean-armour",
+  "CURSED BULLION OF BOGENHAFEN": "cursed-bullion-of-bogenhafen",
+  "DEAD MAN'S CHEST": "dead-mans-chest",
+  "DIRTY SERPENT": "dirty-serpent",
+  "DOUBLOON OF CASTELO NOVO": "doubloon-of-castelo-novo",
+  "EX-PARROT": "ex-parrot",
+  "FLAG OF ETERNAL SERVICE": "flag-of-eternal-service",
+  "GENTLEMAN JENKIN'S TRUSTY COMPASS": "gentleman-jenkins-trusty-compass",
+  "HULL-FUSED ARMOUR": "hull-fused-armour",
+  "JELLYFISH IN A JAR": "jellyfish-in-a-jar",
+  "KRAKEN FANG": "kraken-fang",
+  "LUCKY LEVI'S HOOK HAND": "lucky-levis-hook-hand",
+  "LUCKY LEVI'S KEEPSAKE": "lucky-levis-keepsake",
+  "MAD MULLET'S SPYIN' GLASS": "mad-mullets-spyin-glass",
+  "PANTELEON'S PENDANT": "panteleons-pendant",
+  "PEARL OF THE KRAKEN SEA": "pearl-of-the-kraken-sea",
+  "POSSESSED PISTOL": "possessed-pistol",
+  "PRESS-GANGER'S CUTLASS": "press-gangers-cutlass",
+  "RING OF SEA MIST": "ring-of-sea-mist",
+  "SEA DRAGON BUCKLER": "sea-dragon-buckler",
+  "SINISTER FIGUREHEAD": "sinister-figurehead",
+  "SKULL AND CROSSBONES": "skull-and-crossbones",
+  "SLOPPY CRUICKSHANK'S LONG-LOST CUTLASS": "sloppy-cruickshanks-long-lost-cutlass",
+  "SPELL OF THE NECROMANCER'S APPRENTICE": "spell-of-the-necromancers-apprentice",
+  "STANDARD OF THE SPITEFUL SHOT": "standard-of-the-spiteful-shot",
+  "STAR-METAL HARPOON": "star-metal-harpoon",
+  "THE BLOODY NORA": "the-bloody-nora",
+  "THE EBONY SKULLS": "the-ebony-skulls",
+  "THE RING OF UNDEATH": "the-ring-of-undeath",
+  "VORGO NUGGET": "vorgo-nugget",
+  "WAR STANDARD O' THE CORPSE SURGEONS": "war-standard-o-the-corpse-surgeons"
+ },
+ "lores": {
+  "THE LORE OF NECROMANCY": "the-lore-of-necromancy",
+  "THE LORE OF THE DEEP": "the-lore-of-the-deep"
+ },
+ "profiles": {
+  "ANIMATED HULK": {
+   "Animated Hulk": "animated-hulk"
+  },
+  "BLACK JENS": {
+   "Black Jens": "black-jens"
+  },
+  "BLOATED CORPSE": {
+   "Bloated Corpse": "bloated-corpse"
+  },
+  "BONE HYDRA": {
+   "Bone Hydra": "bone-hydra"
+  },
+  "CAPTAIN DREKLA": {
+   "Captain Drekla": "captain-drekla"
+  },
+  "CARRONADE": {
+   "Carronade": "carronade",
+   "Zombie Crew": "zombie-crew"
+  },
+  "COUNT NOCTILUS": {
+   "Count Noctilus": "count-noctilus"
+  },
+  "CYLOSTRA DIREFIN": {
+   "Cylostra Direfin": "cylostra-direfin",
+   "Damned Knight": "damned-knight"
+  },
+  "DECK DROPPERS": {
+   "Deck Dropper": "deck-dropper",
+   "Fell Bat": "fell-bat"
+  },
+  "DECK GUNNERS": {
+   "Deck Gunner": "deck-gunner"
+  },
+  "DEPTH GUARD": {
+   "Depth Guard": "depth-guard"
+  },
+  "GUNNERY WIGHT": {
+   "Gunnery Wight": "gunnery-wight"
+  },
+  "KETERLYN, THE BRINE WIFE": {
+   "The Brine Wife": "the-brine-wife"
+  },
+  "LUTHOR HARKON": {
+   "Luthor Harkon": "luthor-harkon"
+  },
+  "MORTAR": {
+   "Mortar": "mortar",
+   "Zombie Crew": "zombie-crew"
+  },
+  "NECROFEX COLOSSUS": {
+   "Necrofex Colossus": "necrofex-colossus"
+  },
+  "PIRATE WARLOCK": {
+   "Pirate Warlock": "pirate-warlock"
+  },
+  "QUEEN BESS": {
+   "Queen Bess": "queen-bess",
+   "Zombie Crew": "zombie-crew"
+  },
+  "RAZORTOOTH RATS": {
+   "Rat Swarm": "rat-swarm"
+  },
+  "RED HENRI": {
+   "Red Henri": "red-henri"
+  },
+  "ROTTING LEVIATHAN": {
+   "Rotting Leviathan": "rotting-leviathan",
+   "Zombie Gunner": "zombie-gunner"
+  },
+  "ROTTING PROMETHEAN": {
+   "Rotting Promethean": "rotting-promethean"
+  },
+  "ROTTING PROMETHEANS": {
+   "Deck Gunner": "deck-gunner",
+   "Rotting Promethean": "rotting-promethean"
+  },
+  "SCURVY DOGS": {
+   "Scurvy Dog": "scurvy-dog"
+  },
+  "SKRETCH HALF-DEAD": {
+   "Skretch Half-Dead": "skretch-half-dead",
+   "Verminous Crew": "verminous-crew"
+  },
+  "SYREEN": {
+   "Syreen": "syreen"
+  },
+  "VAMPIRE CAPTAINS": {
+   "Fleet Admiral": "fleet-admiral",
+   "Fleet Captain": "fleet-captain"
+  },
+  "VANGHEIST": {
+   "Damned Crew": "damned-crew",
+   "Vangheist": "vangheist"
+  },
+  "ZOMBIE DECKHANDS": {
+   "Zombie Deckhand": "zombie-deckhand"
+  },
+  "ZOMBIE GUNNERS": {
+   "Zombie Gunner": "zombie-gunner"
+  }
+ },
+ "rules": {
+  "Battle Standards": "battle-standards",
+  "Characters and Units": "characters-and-units",
+  "SWIVEL GUN": "swivel-gun",
+  "Slain General": "slain-general",
+  "THE GENERALS OF UNDEATH": "the-generals-of-undeath",
+  "THE RED THIRST": "the-red-thirst",
+  "UNDEAD": "undead",
+  "VAMPIRIC": "vampiric",
+  "VOLLEY GUN": "volley-gun",
+  "WATERLOGGED WEAPONS": "waterlogged-weapons"
+ },
+ "units": {
+  "ANIMATED HULK": "animated-hulk",
+  "BLACK JENS": "black-jens",
+  "BLOATED CORPSE": "bloated-corpse",
+  "BONE HYDRA": "bone-hydra",
+  "CAPTAIN DREKLA": "captain-drekla",
+  "CARRONADE": "carronade",
+  "COUNT NOCTILUS": "count-noctilus",
+  "CYLOSTRA DIREFIN": "cylostra-direfin",
+  "DECK DROPPERS": "deck-droppers",
+  "DECK GUNNERS": "deck-gunners",
+  "DEPTH GUARD": "depth-guard",
+  "GUNNERY WIGHT": "gunnery-wight",
+  "KETERLYN, THE BRINE WIFE": "keterlyn-the-brine-wife",
+  "LUTHOR HARKON": "luthor-harkon",
+  "MORTAR": "mortar",
+  "NECROFEX COLOSSUS": "necrofex-colossus",
+  "PIRATE WARLOCK": "pirate-warlock",
+  "QUEEN BESS": "queen-bess",
+  "RAZORTOOTH RATS": "razortooth-rats",
+  "RED HENRI": "red-henri",
+  "ROTTING LEVIATHAN": "rotting-leviathan",
+  "ROTTING PROMETHEAN": "rotting-promethean",
+  "ROTTING PROMETHEANS": "rotting-prometheans",
+  "SCURVY DOGS": "scurvy-dogs",
+  "SKRETCH HALF-DEAD": "skretch-half-dead",
+  "SYREEN": "syreen",
+  "VAMPIRE CAPTAINS": "vampire-captains",
+  "VANGHEIST": "vangheist",
+  "ZOMBIE DECKHANDS": "zombie-deckhands",
+  "ZOMBIE GUNNERS": "zombie-gunners"
+ },
+ "upgrades": {
+  "CLOYING MISTS": "cloying-mists",
+  "CURSE OF THE REVENANT": "curse-of-the-revenant",
+  "FAR-REACHING WILL": "far-reaching-will",
+  "FEAR INCARNATE": "fear-incarnate",
+  "FLYING HORROR": "flying-horror",
+  "FOG OF DECEPTION": "fog-of-deception",
+  "HONOUR OR DEATH": "honour-or-death",
+  "HORNSWAGGLE": "hornswaggle",
+  "RED FURY": "red-fury",
+  "STORMCALL": "stormcall",
+  "SUPERNATURAL HORROR": "supernatural-horror",
+  "SWASHBUCKLER": "swashbuckler",
+  "TAUNTING CURSES": "taunting-curses",
+  "TRANSFIX": "transfix",
+  "UNBENDING WILLPOWER": "unbending-willpower",
+  "UNHOLY REGENERATION": "unholy-regeneration",
+  "VOICES FROM THE DEEP": "voices-from-the-deep",
+  "WHARF RATS": "wharf-rats"
+ }
+}

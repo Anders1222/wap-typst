@@ -1,0 +1,718 @@
+{
+ "choices": {
+  "AIRSKIFF": {
+   "equipment": {
+    "Harpoon launchers": "harpoon-launchers",
+    "Volley guns": "volley-guns"
+   }
+  },
+  "BUCCANEERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "CAPTAINS": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items-pirate-captain": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-pirate-lord": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Blunderbuss": "blunderbuss",
+    "Brace of pistols": "brace-of-pistols",
+    "Handgun": "handgun",
+    "Pistol": "pistol",
+    "Throwing weapons": "throwing-weapons"
+   }
+  },
+  "CARRONADE": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   },
+   "chain-shot": {
+    "Chain Shot": "chain-shot"
+   },
+   "heat-shot": {
+    "Heat Shot": "heat-shot"
+   },
+   "master-gunner": {
+    "Master Gunner": "master-gunner"
+   }
+  },
+  "DECK GUNNERS": {
+   "equipment": {
+    "Harpoon launchers": "harpoon-launchers",
+    "Volley guns": "volley-guns"
+   }
+  },
+  "DECKHANDS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "melee-weapon": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   },
+   "upgrade": {
+    "Bosun": "bosun",
+    "Look-Out": "look-out",
+    "Pilot": "pilot"
+   }
+  },
+  "DWARF PRIVATEERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Dwarfen handguns": "dwarfen-handguns",
+    "Dwarfen pistols": "dwarfen-pistols",
+    "Great weapons": "great-weapons",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "FLEUR AND ESTELLA": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-2": {
+    "Magic Items": "magic-items"
+   }
+  },
+  "GROG LUBBERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "GUNNERS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "missile-weapon": {
+    "Blunderbusses": "blunderbusses",
+    "Handguns": "handguns"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Bosun": "bosun",
+    "Look-Out": "look-out",
+    "Master Gunner": "master-gunner",
+    "Pilot": "pilot"
+   }
+  },
+  "HARPOONERS": {
+   "bucklers": {
+    "bucklers": "bucklers"
+   },
+   "champion": {
+    "Leader": "leader"
+   },
+   "harpoon-launcher": {
+    "harpoon launcher": "harpoon-launcher"
+   },
+   "musician": {
+    "Musician": "musician"
+   }
+  },
+  "KRUSHER THE ANCHORMAN": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Brace of Ogre pistols": "brace-of-ogre-pistols",
+    "Ogre pistol": "ogre-pistol"
+   }
+  },
+  "MORTAR": {
+   "additional-crew": {
+    "additional crew": "additional-crew"
+   },
+   "master-gunner": {
+    "Master Gunner": "master-gunner"
+   }
+  },
+  "OGRE SCALLYWAGS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons",
+    "Leadbelcher guns": "leadbelcher-guns",
+    "Ogre handguns": "ogre-handguns",
+    "Ogre pistols": "ogre-pistols"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "ORC FREEBOOTERZ": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons",
+    "Pistols": "pistols",
+    "Polearms": "polearms",
+    "Spears": "spears"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   }
+  },
+  "POWDER MONKEYS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "upgrade": {
+    "Bosun": "bosun",
+    "Look-Out": "look-out",
+    "Master Gunner": "master-gunner",
+    "Pilot": "pilot"
+   }
+  },
+  "PRIEST OF STROMFELS": {
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler",
+    "Polearm": "polearm"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "pistol": {
+    "pistol": "pistol"
+   }
+  },
+  "QUARTERMASTER": {
+   "battle-standard": {
+    "Battle Standard": "battle-standard"
+   },
+   "equipment": {
+    "Additional hand weapon": "additional-hand-weapon",
+    "Buckler": "buckler",
+    "Great weapon": "great-weapon",
+    "Polearm": "polearm",
+    "Spear": "spear"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-items": {
+    "Magic Items": "magic-items"
+   },
+   "missile-weapon": {
+    "Blunderbuss": "blunderbuss",
+    "Brace of pistols": "brace-of-pistols",
+    "Handgun": "handgun",
+    "Pistol": "pistol",
+    "Throwing weapons": "throwing-weapons"
+   }
+  },
+  "SEADOGS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers",
+    "Great weapons": "great-weapons",
+    "Pistols": "pistols",
+    "Polearms": "polearms"
+   },
+   "light-armour": {
+    "light armour": "light-armour"
+   },
+   "magic-standard": {
+    "Magic Standard": "magic-standard"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "standard-bearer": {
+    "Standard Bearer": "standard-bearer"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   },
+   "upgrade": {
+    "Bosun": "bosun",
+    "Look-Out": "look-out",
+    "Master Gunner": "master-gunner",
+    "Pilot": "pilot"
+   }
+  },
+  "SORCERERS": {
+   "magic-items-sorcerer": {
+    "Magic Items": "magic-items"
+   },
+   "magic-items-sorcerer-lord": {
+    "Magic Items": "magic-items"
+   },
+   "wizard-level": {
+    "additional Wizard Level": "additional-wizard-level"
+   }
+  },
+  "SWABBIES": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "equipment": {
+    "Additional hand weapons": "additional-hand-weapons",
+    "Bucklers": "bucklers"
+   },
+   "musician": {
+    "Musician": "musician"
+   },
+   "throwing-weapons": {
+    "throwing weapons": "throwing-weapons"
+   }
+  },
+  "WERESHARKS": {
+   "champion": {
+    "Leader": "leader"
+   },
+   "polearms": {
+    "polearms": "polearms"
+   }
+  },
+  "WILHELM SCHWARZ": {
+   "magic-items": {
+    "Magic Items": "magic-items"
+   }
+  }
+ },
+ "groups": {
+  "AIRSKIFF": {
+   "May replace swivel guns with one of the following:": "equipment"
+  },
+  "BUCCANEERS": {
+   "May take one of the following:": "equipment",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Buccaneer to a Leader": "champion",
+   "May upgrade one Buccaneer to a Musician": "musician"
+  },
+  "CAPTAINS": {
+   "A Pirate Captain may take Magic Items up to a total of 50 points": "magic-items-pirate-captain",
+   "A Pirate Lord may take Magic Items up to a total of 100 points": "magic-items-pirate-lord",
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take light armour": "light-armour"
+  },
+  "CARRONADE": {
+   "May take Chain Shot": "chain-shot",
+   "May take Heat Shot": "heat-shot",
+   "May take an additional crew": "additional-crew",
+   "May upgrade one Crew to a Master Gunner": "master-gunner"
+  },
+  "DECK GUNNERS": {
+   "May replace swivel guns with one of the following:": "equipment"
+  },
+  "DECKHANDS": {
+   "May replace bucklers with one of the following:": "melee-weapon",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Deckhand to a Leader": "champion",
+   "May upgrade one Deckhand to a Musician": "musician",
+   "May upgrade one Deckhand to a Standard Bearer": "standard-bearer",
+   "May upgrade one Deckhand to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "May upgrade one Deckhand to one of the following:": "upgrade"
+  },
+  "DWARF PRIVATEERS": {
+   "May choose one of the following:": "equipment",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Privateer to a Leader": "champion",
+   "May upgrade one Privateer to a Musician": "musician",
+   "May upgrade one Privateer to a Standard Bearer": "standard-bearer",
+   "May upgrade one Privateer to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "FLEUR AND ESTELLA": {
+   "Estella may take Magic Items up to a total of 25 points": "magic-items",
+   "Fleur may take Magic Items up to a total of 25 points": "magic-items-2"
+  },
+  "GROG LUBBERS": {
+   "May take one of the following:": "equipment",
+   "May upgrade one Grog Lubber to a Leader": "champion",
+   "May upgrade one Grog Lubber to a Musician": "musician"
+  },
+  "GUNNERS": {
+   "May replace pistols with one of the following:": "missile-weapon",
+   "May upgrade one Gunner to a Leader": "champion",
+   "May upgrade one Gunner to a Musician": "musician",
+   "May upgrade one Gunner to a Standard Bearer": "standard-bearer",
+   "May upgrade one Gunner to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "May upgrade one Gunner to one of the following:": "upgrade"
+  },
+  "HARPOONERS": {
+   "May take bucklers": "bucklers",
+   "May upgrade one Harpooner to a Leader": "champion",
+   "May upgrade one Harpooner to a Leader > Leader > May replace javelins with a harpoon launcher": "harpoon-launcher",
+   "May upgrade one Harpooner to a Musician": "musician"
+  },
+  "KRUSHER THE ANCHORMAN": {
+   "May choose one of the following:": "missile-weapon",
+   "May take Magic Items up to a total of 25 points": "magic-items"
+  },
+  "MORTAR": {
+   "May take an additional crew": "additional-crew",
+   "May upgrade one Crew to a Master Gunner": "master-gunner"
+  },
+  "OGRE SCALLYWAGS": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Scallywag to a Leader": "champion",
+   "May upgrade one Scallywag to a Musician": "musician",
+   "May upgrade one Scallywag to a Standard Bearer": "standard-bearer",
+   "May upgrade one Scallywag to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "ORC FREEBOOTERZ": {
+   "May choose one of the following:": "equipment",
+   "May upgrade one Freebooter to a Leader": "champion",
+   "May upgrade one Freebooter to a Musician": "musician",
+   "May upgrade one Freebooter to a Standard Bearer": "standard-bearer",
+   "May upgrade one Freebooter to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
+  },
+  "POWDER MONKEYS": {
+   "May upgrade one Powder Monkey to a Leader": "champion",
+   "May upgrade one Powder Monkey to a Musician": "musician",
+   "May upgrade one Powder Monkey to a Standard Bearer": "standard-bearer",
+   "May upgrade one Powder Monkey to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
+   "May upgrade one Powder Monkey to one of the following:": "upgrade"
+  },
+  "PRIEST OF STROMFELS": {
+   "May choose one of the following:": "equipment",
+   "May take Magic Items up to a total of 50 points": "magic-items",
+   "May take a pistol": "pistol"
+  },
+  "QUARTERMASTER": {
+   "May choose one of the following:": "equipment",
+   "May choose one of the following: #2": "missile-weapon",
+   "May take Magic Items up to a total of 25 points": "magic-items",
+   "May take light armour": "light-armour",
+   "One Quartermaster may carry the Battle Standard": "battle-standard"
+  },
+  "SEADOGS": {
+   "May choose one of the following:": "equipment",
+   "May take light armour": "light-armour",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Seadog to a Leader": "champion",
+   "May upgrade one Seadog to a Musician": "musician",
+   "May upgrade one Seadog to a Standard Bearer": "standard-bearer",
+   "May upgrade one Seadog to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
+   "May upgrade one Seadog to one of the following:": "upgrade"
+  },
+  "SORCERERS": {
+   "A Sorcerer Lord may take Magic Items up to a total of 100 points": "magic-items-sorcerer-lord",
+   "A Sorcerer may take Magic Items up to a total of 50 points": "magic-items-sorcerer",
+   "May take an additional Wizard Level": "wizard-level"
+  },
+  "SWABBIES": {
+   "May take one of the following:": "equipment",
+   "May take throwing weapons": "throwing-weapons",
+   "May upgrade one Buccaneer to a Leader": "champion",
+   "May upgrade one Buccaneer to a Musician": "musician"
+  },
+  "WERESHARKS": {
+   "May take polearms": "polearms",
+   "May upgrade one Wereshark to a Leader": "champion"
+  },
+  "WILHELM SCHWARZ": {
+   "May take Magic Items up to a total of 50 points": "magic-items"
+  }
+ },
+ "items": {
+  "AETHYRIC ANCHOR": "aethyric-anchor",
+  "ARCANE ASTROLABE": "arcane-astrolabe",
+  "BANNER OF BOUNTIFUL TREASURE": "banner-of-bountiful-treasure",
+  "BARNACLE COAT": "barnacle-coat",
+  "BLACK BARNABUS' BUCKLER": "black-barnabus-buckler",
+  "BLACK BUCKTHORN'S TREASURE MAP": "black-buckthorns-treasure-map",
+  "BLACKEYE PEARL": "blackeye-pearl",
+  "BLOODY BOARDING AXE": "bloody-boarding-axe",
+  "BLOODY JACK'S FLAG": "bloody-jacks-flag",
+  "BOATSWAIN'S BURGEES": "boatswains-burgees",
+  "COIN OF THE BETRAYER": "coin-of-the-betrayer",
+  "CROW'S FEET": "crows-feet",
+  "CURSED MOONSHINE": "cursed-moonshine",
+  "DROWNING EFFIGY": "drowning-effigy",
+  "EL CADAVO'S HOOK-HAND": "el-cadavos-hook-hand",
+  "FIREWATER": "firewater",
+  "GONFALON O' THE GREEN HANDS": "gonfalon-o-the-green-hands",
+  "GROUNDING LODESTONE": "grounding-lodestone",
+  "HELLFIRE POWDER": "hellfire-powder",
+  "KRAKEN COAT": "kraken-coat",
+  "LUCKY GOLDEN TOOTH": "lucky-golden-tooth",
+  "MAELSTROM BANNER": "maelstrom-banner",
+  "MEGALADON HELMET": "megaladon-helmet",
+  "PISTOLS OF KING DEATH": "pistols-of-king-death",
+  "POLLY THE PARROT": "polly-the-parrot",
+  "PRESS-GANGER STANDARD": "press-ganger-standard",
+  "REYNO BLOODLOCK'S HAT": "reyno-bloodlocks-hat",
+  "SALTY SKIPPER'S PIPE": "salty-skippers-pipe",
+  "SEA SERPENT SCALES": "sea-serpent-scales",
+  "SERPENT CUTLASS": "serpent-cutlass",
+  "SHARKTOOTH NECKLACE": "sharktooth-necklace",
+  "SKULL AND CROSSBONES": "skull-and-crossbones",
+  "SQUALL SABRE": "squall-sabre",
+  "STORM IN A BOTTLE": "storm-in-a-bottle",
+  "STORM TRIDENT": "storm-trident",
+  "STORMRIDER ARMOUR": "stormrider-armour",
+  "STROMFEL'S FIN": "stromfels-fin",
+  "SWASHBUCKLER'S BOOTS": "swashbucklers-boots",
+  "THE BLACK SPOT": "the-black-spot",
+  "THE GUNNARSSON KRON": "the-gunnarsson-kron",
+  "THE SMUGGLER'S SATCHEL": "the-smugglers-satchel",
+  "TIDAL BLADE": "tidal-blade",
+  "WAVECUTTER": "wavecutter",
+  "WHALEBONE CHARM": "whalebone-charm",
+  "WILLEM LONGTOOTH'S PEG LEG": "willem-longtooths-peg-leg"
+ },
+ "lores": {
+  "THE LORE OF THE DEEP": "the-lore-of-the-deep"
+ },
+ "profiles": {
+  "AIRSKIFF": {
+   "Airskiff": "airskiff",
+   "Crew": "crew"
+  },
+  "ARANESSA SALTSPITE": {
+   "Aranessa Saltspite": "aranessa-saltspite"
+  },
+  "BUCCANEERS": {
+   "Buccaneer": "buccaneer"
+  },
+  "CAPTAINS": {
+   "Pirate Captain": "pirate-captain",
+   "Pirate Lord": "pirate-lord"
+  },
+  "CARMEN SICILIERI": {
+   "Carmen Sicilieri": "carmen-sicilieri"
+  },
+  "CARRONADE": {
+   "Carronade": "carronade",
+   "Crew": "crew"
+  },
+  "DARK MAIDENS": {
+   "Dark Maiden": "dark-maiden"
+  },
+  "DECK GUNNERS": {
+   "Deck Gunner": "deck-gunner"
+  },
+  "DECKHANDS": {
+   "Deckhands": "deckhands"
+  },
+  "DWARF PRIVATEERS": {
+   "Dwarf Privateer": "dwarf-privateer"
+  },
+  "FLEUR AND ESTELLA": {
+   "Estella": "estella",
+   "Fleur": "fleur"
+  },
+  "GIACCHINO DE FALCO": {
+   "Giacchino de Falco": "giacchino-de-falco"
+  },
+  "GROG LUBBERS": {
+   "Grog Lubber": "grog-lubber"
+  },
+  "GUNNERS": {
+   "Gunner": "gunner"
+  },
+  "HARPOONERS": {
+   "Harpooner": "harpooner"
+  },
+  "HELL-HAMMER CANNON": {
+   "Crew": "crew",
+   "Hell-Hammer": "hell-hammer"
+  },
+  "IRONFIST MORTAR": {
+   "Crew": "crew",
+   "Ironfist Mortar": "ironfist-mortar"
+  },
+  "JAEGO ROTH": {
+   "Jaego Roth": "jaego-roth"
+  },
+  "KRUSHER THE ANCHORMAN": {
+   "Giant Parrot": "giant-parrot",
+   "Krusher the Anchorman": "krusher-the-anchorman"
+  },
+  "MORTAR": {
+   "Crew": "crew",
+   "Mortar": "mortar"
+  },
+  "OGRE SCALLYWAGS": {
+   "Ogre Scallywag": "ogre-scallywag"
+  },
+  "ORC FREEBOOTERZ": {
+   "Orc Freebooter": "orc-freebooter"
+  },
+  "POWDER MONKEYS": {
+   "Powder Monkey": "powder-monkey"
+  },
+  "PRIEST OF STROMFELS": {
+   "Priest of Stromfels": "priest-of-stromfels"
+  },
+  "QUARTERMASTER": {
+   "Quartermaster": "quartermaster"
+  },
+  "SEA ELEMENTAL": {
+   "Sea Elemental": "sea-elemental"
+  },
+  "SEA GIANT": {
+   "Sea Giant": "sea-giant"
+  },
+  "SEADOGS": {
+   "Seadog": "seadog"
+  },
+  "SORCERERS": {
+   "Sorcerer": "sorcerer",
+   "Sorcerer Lord": "sorcerer-lord"
+  },
+  "SWABBIES": {
+   "Press Ganger": "press-ganger",
+   "Swabbie": "swabbie"
+  },
+  "TURTIGON": {
+   "Crew": "crew",
+   "Turtigon": "turtigon"
+  },
+  "WERESHARKS": {
+   "Weresharks": "weresharks"
+  },
+  "WILHELM SCHWARZ": {
+   "Lizzy": "lizzy",
+   "Wilhelm Schwarz": "wilhelm-schwarz"
+  }
+ },
+ "rules": {
+  "DIRTY FIGHTING": "dirty-fighting",
+  "HARPOON LAUNCHER": "harpoon-launcher",
+  "MASTERS AND IDLERS": "masters-and-idlers",
+  "NAVAL BOMBARDMENT": "naval-bombardment",
+  "RACIAL DISTRUST": "racial-distrust",
+  "SEA LEGS": "sea-legs",
+  "SWIVEL GUN": "swivel-gun",
+  "VOLLEY GUN": "volley-gun"
+ },
+ "units": {
+  "AIRSKIFF": "airskiff",
+  "ARANESSA SALTSPITE": "aranessa-saltspite",
+  "BUCCANEERS": "buccaneers",
+  "CAPTAINS": "captains",
+  "CARMEN SICILIERI": "carmen-sicilieri",
+  "CARRONADE": "carronade",
+  "DARK MAIDENS": "dark-maidens",
+  "DECK GUNNERS": "deck-gunners",
+  "DECKHANDS": "deckhands",
+  "DWARF PRIVATEERS": "dwarf-privateers",
+  "FLEUR AND ESTELLA": "fleur-and-estella",
+  "GIACCHINO DE FALCO": "giacchino-de-falco",
+  "GROG LUBBERS": "grog-lubbers",
+  "GUNNERS": "gunners",
+  "HARPOONERS": "harpooners",
+  "HELL-HAMMER CANNON": "hell-hammer-cannon",
+  "IRONFIST MORTAR": "ironfist-mortar",
+  "JAEGO ROTH": "jaego-roth",
+  "KRUSHER THE ANCHORMAN": "krusher-the-anchorman",
+  "MORTAR": "mortar",
+  "OGRE SCALLYWAGS": "ogre-scallywags",
+  "ORC FREEBOOTERZ": "orc-freebooterz",
+  "POWDER MONKEYS": "powder-monkeys",
+  "PRIEST OF STROMFELS": "priest-of-stromfels",
+  "QUARTERMASTER": "quartermaster",
+  "SEA ELEMENTAL": "sea-elemental",
+  "SEA GIANT": "sea-giant",
+  "SEADOGS": "seadogs",
+  "SORCERERS": "sorcerers",
+  "SWABBIES": "swabbies",
+  "TURTIGON": "turtigon",
+  "WERESHARKS": "weresharks",
+  "WILHELM SCHWARZ": "wilhelm-schwarz"
+ },
+ "upgrades": {}
+}
