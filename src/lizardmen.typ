@@ -174,8 +174,6 @@ In addition, a unit that contains one or more models with this special rule that
 
 #magic-weapon("BURNING BLADE OF CHOTEC", 15)[This weapon gives the wielder the Armour Piercing (2) and Flaming Attacks special rules.]
 
-#namecost("SACRIFICIAL HEART", "")
-
 #magic-weapon("CLOTH OF CHOTEC", 15, type: "Sling")[All shots from this weapon have +1 Strength.]
 
 #magic-weapon("STAFF OF THE LOST SUN", 15, only: "Skink Priest or Skink High Priest")[This weapon uses the following profile:
