@@ -42,6 +42,10 @@
 #let RUNIN_GAP = 1.4em
 
 #let namecost(name, cost, above: RUNIN_GAP) = block(above: above, below: 0.2em, sticky: true, {
+  // The head as data, for a reader that walks the chapter it opens: an army
+  // special rule is this name and everything under it to the next head, and
+  // `export.py` reads the chapters that way. Invisible on the page.
+  [#metadata((kind: "head", name: name, cost: cost))<meta>]
   // Justification would stretch a two-word name across the whole column, so it
   // is switched off here and the name column sized to its content.
   set par(justify: false)
@@ -344,6 +348,9 @@
     type: if typed != none { typed }
       else if kind == "weapon" { MAGIC_WEAPON_DEFAULT_TYPE },
     only: only, bound: bound, one-use: one-use, common: common,
+    // The rules text as well, so a reader gets the whole item and not its
+    // head alone.
+    body: body,
   ))<meta>]
   // The asterisk marks a *common* item - one that may be taken more than once -
   // so it is carried by a flag rather than typed into the name, where it reads
@@ -665,19 +672,24 @@
 // on one column, as `two-columns` keeps a short one in prose: see `_records`
 // and `_kept`. The army books' special-rules chapters set it; a magic-item
 // section or a lore does not, and its records run on as they did.
-#let balanced-columns(body, whole: false) = context {
-  let records = _records(body, whole: whole)
-  let here-y = here().position().y
+#let balanced-columns(body, whole: false) = {
+  // The body as data, before it is cut and set: the army books' special-rules
+  // chapters have no record form, so this is how a reader gets a rule's text.
+  [#metadata((kind: "prose", body: body))<meta>]
+  context {
+    let records = _records(body, whole: whole)
+    let here-y = here().position().y
 
-  layout(size => {
-    let page-column = size.height
-    let first-column = page.height - PAGE_MARGIN.bottom - here-y
-    let width = _column-width(size.width)
-    let records = if whole {
-      records.map(r => _kept(r, width, calc.min(first-column, page-column)))
-    } else { records }
-    _balance(records, width, first-column, page-column)
-  })
+    layout(size => {
+      let page-column = size.height
+      let first-column = page.height - PAGE_MARGIN.bottom - here-y
+      let width = _column-width(size.width)
+      let records = if whole {
+        records.map(r => _kept(r, width, calc.min(first-column, page-column)))
+      } else { records }
+      _balance(records, width, first-column, page-column)
+    })
+  }
 }
 
 // A section: its heading and its items, always in two columns - and the page
@@ -812,7 +824,8 @@
 
   let named = if _typeof(level) == int { "Level " + str(level) } else { level }
 
-  [#metadata((kind: "spell", name: name, level: level, cast: cast))<meta>]
+  [#metadata((kind: "spell", name: name, level: level, cast: cast,
+              body: body))<meta>]
   // The name with its level in parentheses after it, at one size - BASH 'EM
   // LADZ (Level 1), the level italic against the upright name - and the
   // casting value on the line below, at the body size and italic, so it reads
@@ -904,7 +917,7 @@
 
   [#metadata((
     kind: "upgrade", name: name, cost: cost, only: only, bound: bound,
-    one-use: one-use,
+    one-use: one-use, body: body,
   ))<meta>]
   namecost(name,
     if shape == "points" { str(cost) + " points" }
@@ -1326,6 +1339,11 @@
     if "after" in args { args.after }
   }
 
+  // The entry as data: its name and every argument as written, so a reader
+  // asking what a unit is gets the record and not the page. The `entry`
+  // marker below stays, since it is what a magic-item section drops too.
+  [#metadata((kind: "unit", name: name, args: args))<meta>]
+
   // Three ways an entry meets the page, and the entry says which it is.
   //
   // `compact` is the character mount: a stat line and two fields, which would
@@ -1553,6 +1571,8 @@
 #let two-columns(body) = {
   set page(columns: 2)
   set columns(gutter: COLUMN_GUTTER)
+  // As `balanced-columns` does: the chapter as data, for `export.py`.
+  [#metadata((kind: "prose", body: body))<meta>]
   _subsections(body)
 }
 
