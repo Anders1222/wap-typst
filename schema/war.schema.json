@@ -349,11 +349,13 @@
    "required": ["type", "unitIds", "raw"],
    "additionalProperties": false,
    "properties": {
-    "type": {"type": "string", "enum": ["max", "perSlot", "ratio", "general", "handlers"]},
+    "type": {"type": "string", "enum": ["max", "limited", "perSlot", "ratio", "general", "handlers"]},
     "unitIds": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/id"}},
     "raw": {"type": "string"},
     "profileId": {"$ref": "#/$defs/id"},
+    "min": {"type": "integer", "minimum": 0, "description": "At least this many; defined by the format, no WAR book states one."},
     "max": {"type": "integer", "minimum": 0},
+    "perPoints": {"type": "integer", "minimum": 1, "description": "The max applies per this many points of the army: \"0-1 per 1000 points\"."},
     "perSlot": {
      "type": "object",
      "required": ["min", "max"],

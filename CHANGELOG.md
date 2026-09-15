@@ -15,7 +15,9 @@ Added:
   the general, battle standard and special-character rules - each value with
   the sentence it was read from. Per faction, `composition.unitConstraints`
   parsed from unit NOTES: army maximums, "1-2 as a single choice",
-  unit ratios, Army General rules, handler ratios.
+  unit ratios, Army General rules, handler ratios. The vocabulary also
+  defines "0-1 per N points" limits and "must include" minimums, which no
+  WAR book prints, so that the same rule engine can read another edition.
 - Stable ids: `id` on every faction, rule, item, upgrade, lore, unit, profile
   row, option group and choice, kept in a committed map per book under
   `ids/<slug>.json`. The export adds new names and never renames an entry.

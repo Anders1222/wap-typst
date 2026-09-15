@@ -22,6 +22,8 @@ Per faction, from unit notes:
 
   unitConstraints    [{type, unitIds, .., raw}]
     max        "You may not have more than 2 Arch Lectors in your army"
+    limited    "0-1", "0-1 per 1000 points" - the format defines it for editions
+               that print unit limits this way; no WAR book does
     perSlot    "You may take 1-2 Ballistas as a single Rare choice"
     ratio      "You may not have more units of X than you have units of Y"
     general    "X must be the Army General", "X may never be the Army General"
@@ -227,7 +229,9 @@ def unit_constraints(unit: dict, units: list[dict]) -> list[dict]:
         m = re.search(r"^you may not (?:have|field|include|take) more units of (.+?) than you have "
                       r"units (?:of|with) (.+?)\.?$", s, re.I)
         if m:
-            c = {"type": "ratio", "unitIds": [uid], "perUnit": True, "raw": raw}
+            # One X per Y: the limit is 1 per required unit, stated so a
+            # builder can apply it as any other max.
+            c = {"type": "ratio", "unitIds": [uid], "max": 1, "perUnit": True, "raw": raw}
             other = re.sub(r"\s+in your army$", "", m.group(2), flags=re.I)
             r = re.match(r"^the (.+?) special rule$", other, re.I)
             if r:
@@ -247,6 +251,13 @@ def unit_constraints(unit: dict, units: list[dict]) -> list[dict]:
             out.append({"type": "perSlot", "unitIds": [uid],
                         "perSlot": {"min": int(m.group(1)), "max": int(m.group(2))},
                         "section": m.group(4).lower(), "raw": raw})
+            continue
+        m = re.search(r"^0\s*-\s*(\d+)(?:\s+per\s+(?:(\d[\d,]*)\s+points|army))?", s, re.I)
+        if m:
+            c = {"type": "limited", "unitIds": [uid], "min": 0, "max": int(m.group(1)), "raw": raw}
+            if m.group(2):
+                c["perPoints"] = int(m.group(2).replace(",", ""))
+            out.append(c)
             continue
         m = re.search(r"^(.+?) must be the army general\.?$", s, re.I)
         if m:

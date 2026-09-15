@@ -214,10 +214,20 @@ what kind it is in `type`:
 | type | wording | fields |
 |---|---|---|
 | `max` | "You may not have more than 2 Arch Lectors in your army" | `max`; `profileId` when the note counts one profile of the unit |
+| `limited` | "0-1", "0-1 per 1000 points" | `min`, `max`; `perPoints` |
 | `perSlot` | "You may take 1-2 Ballistas as a single Rare choice" | `perSlot: {min, max}`, `section` |
-| `ratio` | "You may not have more units of X than you have units of Y" | `perUnit: true`; `requires` (unit ids), `requiresAny`, `requiresNames` for a name that resolved to no unit; or `requiresRule` for "units with the State Troops special rule" |
+| `ratio` | "You may not have more units of X than you have units of Y" | `max: 1`, `perUnit: true`; `requires` (unit ids), `requiresAny`, `requiresNames` for a name that resolved to no unit; or `requiresRule` for "units with the State Troops special rule" |
 | `general` | "X must be the Army General", "X may never be the Army General" | `mustBeGeneral: true` or `mayBeGeneral: false` |
 | `handlers` | "One Hunt Master must be included for every 10 Hunting Hounds in the unit" | `handlers: {name, per}`; `profileId` |
+
+The vocabulary is the format's, not this edition's. `min`, `max`,
+`perPoints`, `requires` and `perUnit` mean what they mean in the
+[old-world-builder](https://github.com/nthiebes/old-world-builder)'s
+composition rules (`ids`, `min`, `max`, `points`, `requires`, `perUnit`),
+so one rule engine can validate either edition from data. `limited` and
+`min` are defined for editions that print "0-1" limits and "must include"
+rules; no WAR book does, so a WAR bundle simply has no such entries. A
+field the source does not state is absent, never empty.
 
 The gate holds every constraint's `raw` to the unit's notes and to the
 source.
